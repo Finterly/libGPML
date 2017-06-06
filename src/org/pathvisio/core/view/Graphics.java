@@ -249,10 +249,10 @@ public abstract class Graphics extends VPathwayElement implements PathwayElement
 		 * the selection is not colored red when in edit mode
 		 * it is possible to see a color change immediately
 		 */
-		if(isSelected() && !canvas.isEditMode())
-		{
-			linecolor = selectColor;
-		}
+//		if(isSelected() && !canvas.isEditMode())
+//		{
+//			linecolor = selectColor;
+//		}
 		return linecolor;
 	}
 	

@@ -155,7 +155,7 @@ public class Test extends TestCase {
 	
 	public void testOpenControlledVocabulary() throws ConverterException
 	{
-		File f = new File ("../../testData/2010a/biopax-opencontrolledvocabulary-testcase.gpml");
+		File f = new File ("./testData/2010a/biopax-opencontrolledvocabulary-testcase.gpml");
 		
 		System.out.println (f.getAbsolutePath());
 		assertTrue (f.exists());
@@ -165,7 +165,7 @@ public class Test extends TestCase {
 
 	public void testLiteratureXref() throws ConverterException
 	{
-		File f = new File ("../../testData/2010a/biopax-literaturexref-testcase.gpml");
+		File f = new File ("./testData/2010a/biopax-literaturexref-testcase.gpml");
 		
 		System.out.println (f.getAbsolutePath());
 		assertTrue (f.exists());

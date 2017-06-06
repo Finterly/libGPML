@@ -142,12 +142,12 @@ public class VAnchor extends VPathwayElement implements LinkProvider, Adjustable
         }
         Color c;
 
-		if(isSelected()) {
-			c = selectColor;
-		}
-		else {
+//		if(isSelected()) {
+//			c = selectColor;
+//		}
+//		else {
 			c = line.getPathwayElement().getColor();
-		}
+//		}
 
 		AnchorShape arrowShape = getAnchorShape();
 		if(arrowShape != null)

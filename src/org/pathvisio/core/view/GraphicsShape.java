@@ -35,8 +35,6 @@ import org.pathvisio.core.model.LineStyle;
 import org.pathvisio.core.model.PathwayElement;
 import org.pathvisio.core.model.PathwayElementEvent;
 import org.pathvisio.core.model.ShapeType;
-import org.pathvisio.core.preferences.GlobalPreference;
-import org.pathvisio.core.preferences.PreferenceManager;
 import org.pathvisio.core.view.Handle.Freedom;
 import org.pathvisio.core.view.LinAlg.Point;
 
@@ -174,7 +172,7 @@ public abstract class GraphicsShape extends Graphics implements LinkProvider, Ad
 	/**
 	 * Translate the given point to internal coordinate system
 	 * (origin in center and axis direction rotated with this objects rotation
-	 * @param MPoint p
+//	 * @param MPoint p
 	 */
 	private Point mToInternal(Point p)
 	{
@@ -227,14 +225,14 @@ public abstract class GraphicsShape extends Graphics implements LinkProvider, Ad
 			Point cur = mRelativeToCenter(new Point(mFromV(vnewx), mFromV(vnewy)));
 
 			double rotation = Math.atan2(cur.y, cur.x);
-			if (PreferenceManager.getCurrent().getBoolean(GlobalPreference.SNAP_TO_ANGLE) ||
-					canvas.isSnapModifierPressed())
-			{
-				//Snap the rotation angle
-				double snapStep = PreferenceManager.getCurrent().getInt(
-						GlobalPreference.SNAP_TO_ANGLE_STEP) * Math.PI / 180;
-				rotation = Math.round (rotation / snapStep) * snapStep;
-			}
+//			if (PreferenceManager.getCurrent().getBoolean(GlobalPreference.SNAP_TO_ANGLE) ||
+//					canvas.isSnapModifierPressed())
+//			{
+//				//Snap the rotation angle
+//				double snapStep = PreferenceManager.getCurrent().getInt(
+//						GlobalPreference.SNAP_TO_ANGLE_STEP) * Math.PI / 180;
+//				rotation = Math.round (rotation / snapStep) * snapStep;
+//			}
 			setRotation (rotation);
 			return;
 		}
@@ -353,7 +351,7 @@ public abstract class GraphicsShape extends Graphics implements LinkProvider, Ad
 
 	/**
 	 * Sets the handles at the correct location;
-	 * @param ignore the position of this handle will not be adjusted
+//	 * @param ignore the position of this handle will not be adjusted
 	 */
 	protected void setHandleLocation()
 	{

@@ -41,8 +41,6 @@ import org.pathvisio.core.model.PathwayElement;
 import org.pathvisio.core.model.PathwayElement.MAnchor;
 import org.pathvisio.core.model.PathwayElement.MPoint;
 import org.pathvisio.core.model.PathwayElementEvent;
-import org.pathvisio.core.preferences.GlobalPreference;
-import org.pathvisio.core.preferences.PreferenceManager;
 
 /**
  * This class represents a Line on the pathway, or rather
@@ -266,7 +264,7 @@ public class Line extends Graphics implements Adjustable
 		{
 			if(vp.isHighlighted()) {
 				int size = 8;
-				g.setColor(PreferenceManager.getCurrent().getColor(GlobalPreference.COLOR_HIGHLIGHTED));
+//				g.setColor(PreferenceManager.getCurrent().getColor(GlobalPreference.COLOR_HIGHLIGHTED));
 				g.fill(new Rectangle2D.Double(
 						vp.getVX() - size / 2,
 						vp.getVY() - size / 2,

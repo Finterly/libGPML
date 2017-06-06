@@ -27,7 +27,7 @@ import org.pathvisio.core.model.PathwayElement.MPoint;
  */
 public class TestGraph extends TestCase
 {
-	private static final File PATHVISIO_BASEDIR = new File ("../..");
+	private static final File PATHVISIO_BASEDIR = new File (".");
 
 	Pathway p;
 	PathwayElement l, n1, n2;

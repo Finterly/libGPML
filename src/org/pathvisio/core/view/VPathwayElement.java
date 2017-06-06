@@ -23,8 +23,6 @@ import java.awt.Shape;
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
 
-import org.pathvisio.core.preferences.GlobalPreference;
-import org.pathvisio.core.preferences.PreferenceManager;
 
 /**
  * A single graphical element in the view of a pathway. Handles bounds checking and dirty rectangles.
@@ -46,7 +44,7 @@ public abstract class VPathwayElement implements Comparable<VPathwayElement>
 		canvas.addObject(this);
 	}
 
-	public static Color selectColor = PreferenceManager.getCurrent().getColor(GlobalPreference.COLOR_SELECTED);
+//	public static Color selectColor = PreferenceManager.getCurrent().getColor(GlobalPreference.COLOR_SELECTED);
 	public static final float HIGHLIGHT_STROKE_WIDTH = 5.0f;
 
 	private Rectangle2D oldrect = null;
@@ -160,13 +158,13 @@ public abstract class VPathwayElement implements Comparable<VPathwayElement>
 		}
 	}
 
-	/**
-	   highlight this element with the default highlight color
-	 */
-	public void highlight()
-	{
-		highlight (PreferenceManager.getCurrent().getColor(GlobalPreference.COLOR_HIGHLIGHTED));
-	}
+//	/**
+//	   highlight this element with the default highlight color
+//	 */
+//	public void highlight()
+//	{
+//		highlight (PreferenceManager.getCurrent().getColor(GlobalPreference.COLOR_HIGHLIGHTED));
+//	}
 
 	/**
 	 * Returns true if this object is highlighted, false otherwise
@@ -253,8 +251,8 @@ public abstract class VPathwayElement implements Comparable<VPathwayElement>
 
 	/**
 	 * Moves this object by specified increments
-	 * @param dx - the value of x-increment
-	 * @param dy - the value of y-increment
+//	 * @param dx - the value of x-increment
+//	 * @param dy - the value of y-increment
 	 */
 	protected void vMoveBy(double vdx, double vdy)
 	{

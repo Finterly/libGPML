@@ -32,7 +32,6 @@ import org.pathvisio.core.biopax.PublicationXref;
 import org.pathvisio.core.model.ObjectType;
 import org.pathvisio.core.model.Pathway;
 import org.pathvisio.core.model.PathwayElement;
-import org.pathvisio.core.preferences.PreferenceManager;
 
 public class Test extends TestCase {
 
@@ -43,7 +42,6 @@ public class Test extends TestCase {
 
 	public void setUp()
 	{
-		PreferenceManager.init();
     	pwy = new Pathway();
     	eltDn = PathwayElement.createPathwayElement(ObjectType.DATANODE);
     	eltDn.setMCenterX(3000);

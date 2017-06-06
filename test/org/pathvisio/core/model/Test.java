@@ -27,7 +27,6 @@ import junit.framework.TestCase;
 import org.bridgedb.Xref;
 import org.bridgedb.bio.BioDataSource;
 import org.pathvisio.core.data.XrefWithSymbol;
-import org.pathvisio.core.preferences.PreferenceManager;
 import org.pathvisio.core.util.Utils;
 
 public class Test extends TestCase implements PathwayListener, PathwayElementListener
@@ -39,11 +38,10 @@ public class Test extends TestCase implements PathwayListener, PathwayElementLis
 	List<PathwayElementEvent> receivedElementEvents;
 	PathwayElement l;
 
-	private static final File PATHVISIO_BASEDIR = new File ("../..");
+	private static final File PATHVISIO_BASEDIR = new File (".");
 	
 	public void setUp()
 	{
-		PreferenceManager.init();
 		data = new Pathway();
 		data.addListener(this);
 		o = PathwayElement.createPathwayElement(ObjectType.DATANODE);
@@ -416,140 +414,6 @@ public class Test extends TestCase implements PathwayListener, PathwayElementLis
 		{
 			fail ("No converter exception expected");
 		}
-	}
-
-	/**
-	 * test exporting of .mapp (genmapp format)
-	 * Note: this test is only run whenever os.name starts with Windows
-	 */
-	public void testMapp() throws IOException, ConverterException
-	{
-		if (Utils.getOS() == Utils.OS_WINDOWS)
-		{
-			data = new MappFormat().doImport(new File(PATHVISIO_BASEDIR, "testData/test.mapp"));
-			assertTrue ("Loaded a bunch of objects from mapp", data.getDataObjects().size() > 20);
-			File temp = File.createTempFile ("data.test", ".mapp");
-			temp.deleteOnExit();
-			data.writeToMapp(temp);
-
-			try {
-				data = new MappFormat().doImport(new File (PATHVISIO_BASEDIR, "testData/test.gpml"));
-				fail ("Loading wrong format, Exception expected");
-			} catch (Exception e) {}
-		}
-	}
-
-	/**
-	 * test exporting of .svg
-	 */
-	public void testSvg() throws IOException, ConverterException
-	{
-		data.readFromXml(new File(PATHVISIO_BASEDIR, "testData/test.gpml"), false);
-		assertTrue ("Loaded a bunch of objects from xml", data.getDataObjects().size() > 20);
-		File temp = File.createTempFile ("data.test", ".svg");
-		temp.deleteOnExit();
-
-		data.writeToSvg(temp);
-	}
-
-	/**
-	 * test exporting of .png
-	 */
-	public void testPng() throws IOException, ConverterException
-	{
-		data.readFromXml(new File(PATHVISIO_BASEDIR, "testData/test.gpml"), false);
-		assertTrue ("Loaded a bunch of objects from xml", data.getDataObjects().size() > 20);
-		File temp = File.createTempFile ("data.test", ".png");
-		temp.deleteOnExit();
-
-		BatikImageExporter exporter = new BatikImageExporter(BatikImageExporter.TYPE_PNG);
-		exporter.doExport(temp, data);
-	}
-
-	/**
-	 * test exporting of .png
-	 */
-	public void testPng2() throws IOException, ConverterException
-	{
-		data.readFromXml(new File(PATHVISIO_BASEDIR, "testData/test.gpml"), false);
-		assertTrue ("Loaded a bunch of objects from xml", data.getDataObjects().size() > 20);
-		File temp = File.createTempFile ("data.test", ".png");
-		temp.deleteOnExit();
-
-		RasterImageExporter exporter = new RasterImageExporter(BatikImageExporter.TYPE_PNG);
-		exporter.doExport(temp, data);
-	}
-
-	/**
-	 * test exporting of .pdf
-	 */
-	public void testPdf() throws IOException, ConverterException
-	{
-		data.readFromXml(new File(PATHVISIO_BASEDIR, "testData/test.gpml"), false);
-		assertTrue ("Loaded a bunch of objects from xml", data.getDataObjects().size() > 20);
-		File temp = File.createTempFile ("data.test", ".pdf");
-		temp.deleteOnExit();
-
-		BatikImageExporter exporter = new BatikImageExporter(BatikImageExporter.TYPE_PDF);
-		exporter.doExport(temp, data);
-	}
-
-	/**
-	 * test exporting of .txt
-	 */
-	public void testTxt() throws IOException, ConverterException
-	{
-		data.readFromXml(new File(PATHVISIO_BASEDIR, "testData/test.gpml"), false);
-		assertTrue ("Loaded a bunch of objects from xml", data.getDataObjects().size() > 20);
-		File temp = File.createTempFile ("data.test", ".txt");
-		temp.deleteOnExit();
-
-		DataNodeListExporter exporter = new DataNodeListExporter();
-		exporter.doExport(temp, data);
-	}
-
-	/**
-	 * test exporting of .pwf
-	 */
-	public void testPwf() throws IOException, ConverterException
-	{
-		data.readFromXml(new File(PATHVISIO_BASEDIR, "testData/test.gpml"), false);
-		assertTrue ("Loaded a bunch of objects from xml", data.getDataObjects().size() > 20);
-		File temp = File.createTempFile ("data.test", ".pwf");
-		temp.deleteOnExit();
-
-		EUGeneExporter exporter = new EUGeneExporter();
-		exporter.doExport(temp, data);
-	}
-
-	/**
-	 * Test that there is one and only one MAPPINFO object
-	 *
-	 */
-	public void testMappInfo()
-	{
-		PathwayElement mi;
-
-		mi = data.getMappInfo();
-		assertEquals (mi.getObjectType(), ObjectType.MAPPINFO);
-		assertTrue (data.getDataObjects().contains(mi));
-		assertNotNull (mi);
-
-		// test that adding a new mappinfo object replaces the old one.
-		PathwayElement mi2 = PathwayElement.createPathwayElement(ObjectType.MAPPINFO);
-		data.add (mi2);
-		assertSame ("MappInfo should be replaced", data.getMappInfo(), mi2);
-		assertNotSame ("Old MappInfo should be gone", data.getMappInfo(), mi);
-		assertNull ("Old MappInfo should not have a parent anymore", mi.getParent());
-		assertSame ("New MappInfo should now have a parent", mi2.getParent(), data);
-
-		mi = data.getMappInfo();
-		try
-		{
-			data.remove(mi);
-			fail ("Shouldn't be able to remove mappinfo object!");
-		}
-		catch (IllegalArgumentException e) {}
 	}
 
 	/**

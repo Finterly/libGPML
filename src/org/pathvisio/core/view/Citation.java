@@ -28,8 +28,6 @@ import org.pathvisio.core.biopax.BiopaxReferenceManager;
 import org.pathvisio.core.biopax.PublicationXref;
 import org.pathvisio.core.model.ObjectType;
 import org.pathvisio.core.model.PathwayElement;
-import org.pathvisio.core.preferences.GlobalPreference;
-import org.pathvisio.core.preferences.PreferenceManager;
 
 /**
  * Draws a citation number on top of a pathway object.
@@ -64,7 +62,7 @@ public class Citation extends VPathwayElement implements VElementMouseListener {
 	public void vElementMouseEvent(VElementMouseEvent e) {
 		if(e.getElement() == parent) {
 			if(e.getType() == VElementMouseEvent.TYPE_MOUSEENTER) {
-				highlight();
+//				highlight();
 			} else if(e.getType() == VElementMouseEvent.TYPE_MOUSEEXIT) {
 				unhighlight();
 			}
@@ -122,7 +120,7 @@ public class Citation extends VPathwayElement implements VElementMouseListener {
 		if(getParent().getPathwayElement().getParent() == null) {
 			return ""; //In case a redraw is called after deletion of the model element
 		}
-		int maxNr = PreferenceManager.getCurrent().getInt(GlobalPreference.MAX_NR_CITATIONS);
+		int maxNr = Integer.MAX_VALUE;//'PreferenceManager.getCurrent().getInt(GlobalPreference.MAX_NR_CITATIONS);
 		if(maxNr == 0) return ""; //Show nothing if limit is set to 0
 
 		String xrefStr = "";

@@ -55,8 +55,6 @@ import org.pathvisio.core.model.PathwayElement.MAnchor;
 import org.pathvisio.core.model.PathwayElement.MPoint;
 import org.pathvisio.core.model.PathwayEvent;
 import org.pathvisio.core.model.PathwayListener;
-import org.pathvisio.core.preferences.GlobalPreference;
-import org.pathvisio.core.preferences.PreferenceManager;
 import org.pathvisio.core.util.Utils;
 import org.pathvisio.core.view.SelectionBox.SelectionListener;
 import org.pathvisio.core.view.VPathwayEvent.VPathwayEventType;
@@ -90,10 +88,10 @@ public class VPathway implements PathwayListener
 	/**
 	 * Retuns true if snap to anchors is enabled
 	 */
-	public boolean isSnapToAnchors()
-	{
-		return PreferenceManager.getCurrent().getBoolean(GlobalPreference.SNAP_TO_ANCHOR);
-	}
+//	public boolean isSnapToAnchors()
+//	{
+//		return PreferenceManager.getCurrent().getBoolean(GlobalPreference.SNAP_TO_ANCHOR);
+//	}
 
 	/**
 	 * Returns true if the selection capability of this VPathway is enabled
@@ -179,12 +177,12 @@ public class VPathway implements PathwayListener
 		// before instantiating a VPathway
 		//This used to be called by Engine.init(), but not anymore.
 		//TODO: make preferencemanager a non-static object, so this check is obsolete.
-		if (PreferenceManager.getCurrent() == null)
-		{
-			throw new InstantiationError(
-					"Please call PreferenceManager.init() before instantiating a VPathway"
-			);
-		}
+//		if (PreferenceManager.getCurrent() == null)
+//		{
+//			throw new InstantiationError(
+//					"Please call PreferenceManager.init() before instantiating a VPathway"
+//			);
+//		}
 		this.parent = parent;
 
 		drawingObjects = new ArrayList<VPathwayElement>();
@@ -643,8 +641,8 @@ public class VPathway implements PathwayListener
 	 * <li> rotation handles on shapes snap to certain angles
 	 * <li> shape snaps to a fixed aspect ratio
 	 * <p>
-	 * @see GlobalPreference#SNAP_TO_ANGLE for the global setting
-	 * @see GlobalPreference#SNAP_TO_ANGLE_STEP for the angle step to be used
+//	 * @see GlobalPreference#SNAP_TO_ANGLE for the global setting
+//	 * @see GlobalPreference#SNAP_TO_ANGLE_STEP for the angle step to be used
 	 * @return
 	 */
 	public boolean isSnapModifierPressed() {
@@ -1086,7 +1084,7 @@ public class VPathway implements PathwayListener
 	/**
 	 * Called by MouseDown, when we're in editting mode and we're not adding new
 	 * objects prepares for dragging the object
-	 * @param pressedObject 
+//	 * @param pressedObject
 	 */
 	private void editObject(MouseEvent e)
 	{

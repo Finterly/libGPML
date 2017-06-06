@@ -77,9 +77,9 @@ public class InfoBox extends Graphics {
 		Font f = new Font(fontName, Font.PLAIN, getVFontSize());
 		Font fb = new Font(f.getFontName(), Font.BOLD, f.getSize());
 
-		if(isSelected()) {
-			g.setColor(selectColor);
-		}
+//		if(isSelected()) {
+//			g.setColor(selectColor);
+//		}
 
 		//Draw Name, Organism, Data-Source, Version, Author, Maintained-by, Email, Availability and last modified
 		String[][] text = new String[][] {

@@ -284,9 +284,9 @@ public class Group extends Graphics implements LinkProvider, VElementMouseListen
 	public void highlight(Color c) {
 		super.highlight(c);
 		//Highlight the children
-		for(Graphics g : getGroupGraphics()) {
-			g.highlight();
-		}
+//		for(Graphics g : getGroupGraphics()) {
+//			g.highlight();
+//		}
 	}
 
 	protected Shape calculateVOutline() {

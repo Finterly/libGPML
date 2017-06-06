@@ -17,8 +17,6 @@
 package org.pathvisio.core.view;
 
 import org.pathvisio.core.model.PathwayElement.MPoint;
-import org.pathvisio.core.preferences.GlobalPreference;
-import org.pathvisio.core.preferences.PreferenceManager;
 import org.pathvisio.core.view.LinAlg.Point;
 
 /**
@@ -94,36 +92,36 @@ public class VPoint implements Adjustable
 		double mcx = canvas.mFromV (vnewx);
 		double mcy = canvas.mFromV (vnewy);
 
-		if (PreferenceManager.getCurrent().getBoolean(GlobalPreference.SNAP_TO_ANGLE) ||
-			canvas.isSnapModifierPressed())
-		{
-			// get global preference and convert to radians.
-			double lineSnapStep = PreferenceManager.getCurrent().getInt(
-				GlobalPreference.SNAP_TO_ANGLE_STEP) * Math.PI / 180;
-			VPoint p1 = line.getStart();
-			VPoint p2 = line.getEnd();
-			double basex, basey;
-			// base is the static point the line rotates about.
-			// it is equal to the OTHER point, the one we're not moving.
-			if (p1 == this)
-			{
-				basex = p2.getMPoint().getX();
-				basey = p2.getMPoint().getY();
-			}
-			else
-			{
-				basex = p1.getMPoint().getX();
-				basey = p1.getMPoint().getY();
-			}
-			// calculate rotation and round it off
-			double rotation = Math.atan2(basey - mcy, basex - mcx);
-			rotation = Math.round (rotation / lineSnapStep) * lineSnapStep;
-			// project point mcx, mcy on a line with the desired angle.
-			Point yr = new Point (Math.cos (rotation), Math.sin (rotation));
-			Point prj = LinAlg.project(new Point (basex, basey), new Point(mcx, mcy), yr);
-			mcx = prj.x;
-			mcy = prj.y;
-		}
+//		if (PreferenceManager.getCurrent().getBoolean(GlobalPreference.SNAP_TO_ANGLE) ||
+//			canvas.isSnapModifierPressed())
+//		{
+//			// get global preference and convert to radians.
+//			double lineSnapStep = PreferenceManager.getCurrent().getInt(
+//				GlobalPreference.SNAP_TO_ANGLE_STEP) * Math.PI / 180;
+//			VPoint p1 = line.getStart();
+//			VPoint p2 = line.getEnd();
+//			double basex, basey;
+//			// base is the static point the line rotates about.
+//			// it is equal to the OTHER point, the one we're not moving.
+//			if (p1 == this)
+//			{
+//				basex = p2.getMPoint().getX();
+//				basey = p2.getMPoint().getY();
+//			}
+//			else
+//			{
+//				basex = p1.getMPoint().getX();
+//				basey = p1.getMPoint().getY();
+//			}
+//			// calculate rotation and round it off
+//			double rotation = Math.atan2(basey - mcy, basex - mcx);
+//			rotation = Math.round (rotation / lineSnapStep) * lineSnapStep;
+//			// project point mcx, mcy on a line with the desired angle.
+//			Point yr = new Point (Math.cos (rotation), Math.sin (rotation));
+//			Point prj = LinAlg.project(new Point (basex, basey), new Point(mcx, mcy), yr);
+//			mcx = prj.x;
+//			mcy = prj.y;
+//		}
 
 		mPoint.setX(mcx);
 		mPoint.setY(mcy);

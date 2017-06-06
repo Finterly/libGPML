@@ -24,7 +24,6 @@ import org.pathvisio.core.model.ConnectorType;
 import org.pathvisio.core.model.ObjectType;
 import org.pathvisio.core.model.Pathway;
 import org.pathvisio.core.model.PathwayElement;
-import org.pathvisio.core.preferences.PreferenceManager;
 
 /**
  * Test various operations related to groups, such as 
@@ -36,7 +35,6 @@ public class TestGroups extends TestCase
 
 	public void setUp()
 	{
-		PreferenceManager.init();
 		vpwy = new VPathway(null);
 		pwy = new Pathway();
 		vpwy.fromModel(pwy);

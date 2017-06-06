@@ -26,7 +26,6 @@ import java.io.File;
 
 import org.pathvisio.core.Engine;
 import org.pathvisio.core.debug.Logger;
-import org.pathvisio.core.model.BatikImageExporter;
 import org.pathvisio.core.model.ConverterException;
 import org.pathvisio.core.model.DataNodeListExporter;
 import org.pathvisio.core.model.EUGeneExporter;
@@ -37,8 +36,6 @@ import org.pathvisio.core.model.Pathway;
 import org.pathvisio.core.model.PathwayExporter;
 import org.pathvisio.core.model.PathwayImporter;
 import org.pathvisio.core.model.RasterImageExporter;
-import org.pathvisio.core.preferences.GlobalPreference;
-import org.pathvisio.core.preferences.PreferenceManager;
 import org.pathvisio.core.view.MIMShapes;
 
 /**
@@ -78,16 +75,12 @@ public class Converter {
 						//debug, trace, info, warn, error, fatal
         Logger.log.setLogLevel (false, false, true, true, true, true);
 
-        PreferenceManager.init();
     	Engine engine = new Engine();
     	engine.addPathwayImporter(new GpmlFormat());
     	engine.addPathwayImporter(new MappFormat());
 		engine.addPathwayExporter(new MappFormat());
     	engine.addPathwayExporter(new GpmlFormat());
-		engine.addPathwayExporter(new BatikImageExporter(ImageExporter.TYPE_SVG));
 		engine.addPathwayExporter(new RasterImageExporter(ImageExporter.TYPE_PNG));
-		engine.addPathwayExporter(new BatikImageExporter(ImageExporter.TYPE_TIFF));
-		engine.addPathwayExporter(new BatikImageExporter(ImageExporter.TYPE_PDF));
 		engine.addPathwayExporter(new EUGeneExporter());
 		engine.addPathwayExporter(new DataNodeListExporter());
 
@@ -113,7 +106,6 @@ public class Converter {
 		}
 		
 		//Enable MiM support (for export to graphics formats)
-		PreferenceManager.getCurrent().setBoolean(GlobalPreference.MIM_SUPPORT, true);
 		MIMShapes.registerShapes();
 
         File inputFile = null;

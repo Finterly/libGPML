@@ -23,7 +23,7 @@ import junit.framework.TestCase;
 
 public class TestGpml extends TestCase 
 {
-	private static final File PATHVISIO_BASEDIR = new File ("../..");
+	private static final File PATHVISIO_BASEDIR = new File (".");
 	/**
 	 * Test reading 2010a file, then writing as 2008a
 	 */

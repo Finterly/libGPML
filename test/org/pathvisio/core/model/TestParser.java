@@ -27,18 +27,16 @@ import org.bridgedb.DataSource;
 import org.bridgedb.bio.BioDataSource;
 import org.pathvisio.core.biopax.BiopaxNode;
 import org.pathvisio.core.debug.StopWatch;
-import org.pathvisio.core.preferences.PreferenceManager;
 import org.pathvisio.core.view.MIMShapes;
 
 public class TestParser extends TestCase 
 {
-	private static final File PATHVISIO_BASEDIR = new File ("../..");
+	private static final File PATHVISIO_BASEDIR = new File (".");
 
 	StopWatch sw;
 	
 	public void setUp()
 	{
-		PreferenceManager.init();
 		MIMShapes.registerShapes(); //TODO: should not be necessary to call this first
 	}
 	
@@ -180,7 +178,6 @@ public class TestParser extends TestCase
 
 	public void testParser4() throws ConverterException, FileNotFoundException
 	{
-		PreferenceManager.init();
 		File test = new File (PATHVISIO_BASEDIR, "testData/2010a/parsetest4.gpml");
 		Pathway data = readHelper (test);
 

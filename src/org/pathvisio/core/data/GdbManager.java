@@ -29,8 +29,6 @@ import org.bridgedb.IDMapperException;
 import org.bridgedb.IDMapperStack;
 //import org.bridgedb.bio.EnsemblCompatibilityMapper;
 import org.pathvisio.core.debug.Logger;
-import org.pathvisio.core.preferences.GlobalPreference;
-import org.pathvisio.core.preferences.PreferenceManager;
 
 /**
  * GdbManager is responsible for maintaining a single
@@ -95,7 +93,7 @@ public class GdbManager extends AbstractListModel
 			genes = BridgeDb.connect(connectString); 
 			if (genes != null)
 			{
-				PreferenceManager.getCurrent().set(GlobalPreference.DB_CONNECTSTRING_GDB, (connectString));
+//				PreferenceManager.getCurrent().set(GlobalPreference.DB_CONNECTSTRING_GDB, (connectString));
 				addMapper(genes, connectString);
 			}
 		}
@@ -119,7 +117,7 @@ public class GdbManager extends AbstractListModel
 			metabolites = BridgeDb.connect(connectString);
 			if (metabolites != null)
 			{
-				PreferenceManager.getCurrent().set(GlobalPreference.DB_CONNECTSTRING_METADB, (connectString));
+//				PreferenceManager.getCurrent().set(GlobalPreference.DB_CONNECTSTRING_METADB, (connectString));
 				addMapper(metabolites, connectString);
 			}
 		}
@@ -145,7 +143,7 @@ public class GdbManager extends AbstractListModel
 			interactions = BridgeDb.connect(connectString);
 			if (interactions != null)
 			{
-				PreferenceManager.getCurrent().set(GlobalPreference.DB_CONNECTSTRING_IDB, (connectString));
+//				PreferenceManager.getCurrent().set(GlobalPreference.DB_CONNECTSTRING_IDB, (connectString));
 				addMapper(interactions, connectString);
 			}
 		}
@@ -221,49 +219,49 @@ public class GdbManager extends AbstractListModel
 	 */
 	public void initPreferred()
 	{
-		PreferenceManager prefs = PreferenceManager.getCurrent();
-		// first do the Gene database
-		String gdbName = prefs.get (GlobalPreference.DB_CONNECTSTRING_GDB);
-		if(!gdbName.equals("") && !prefs.isDefault (GlobalPreference.DB_CONNECTSTRING_GDB))
-		{
-			try
-			{
-				setGeneDb(gdbName);
-			}
-			catch(IDMapperException e)
-			{
-				Logger.log.error("Setting previous Gdb failed.", e);
-			}
-		}
-		// then do the Metabolite database
-		gdbName = prefs.get(GlobalPreference.DB_CONNECTSTRING_METADB);
-		if(!gdbName.equals("") && !prefs.isDefault (GlobalPreference.DB_CONNECTSTRING_METADB))
-		{
-			try
-			{
-				setMetaboliteDb(gdbName);
-			}
-			catch(Exception e)
-			{
-				Logger.log.error("Setting previous Metabolite db failed.", e);
-			}
-		}
-		/**
-		 *  then do the Interaction database
-		 * @author anwesha 
-		 */
-		gdbName = prefs.get(GlobalPreference.DB_CONNECTSTRING_IDB);
-		if(!gdbName.equals("") && !prefs.isDefault (GlobalPreference.DB_CONNECTSTRING_IDB))
-		{
-			try
-			{
-				setInteractionDb(gdbName);
-			}
-			catch(Exception e)
-			{
-				Logger.log.error("Setting previous Interaction db failed.", e);
-			}
-		}
+//		PreferenceManager prefs = PreferenceManager.getCurrent();
+//		// first do the Gene database
+//		String gdbName = prefs.get (GlobalPreference.DB_CONNECTSTRING_GDB);
+//		if(!gdbName.equals("") && !prefs.isDefault (GlobalPreference.DB_CONNECTSTRING_GDB))
+//		{
+//			try
+//			{
+//				setGeneDb(gdbName);
+//			}
+//			catch(IDMapperException e)
+//			{
+//				Logger.log.error("Setting previous Gdb failed.", e);
+//			}
+//		}
+//		// then do the Metabolite database
+//		gdbName = prefs.get(GlobalPreference.DB_CONNECTSTRING_METADB);
+//		if(!gdbName.equals("") && !prefs.isDefault (GlobalPreference.DB_CONNECTSTRING_METADB))
+//		{
+//			try
+//			{
+//				setMetaboliteDb(gdbName);
+//			}
+//			catch(Exception e)
+//			{
+//				Logger.log.error("Setting previous Metabolite db failed.", e);
+//			}
+//		}
+//		/**
+//		 *  then do the Interaction database
+//		 * @author anwesha
+//		 */
+//		gdbName = prefs.get(GlobalPreference.DB_CONNECTSTRING_IDB);
+//		if(!gdbName.equals("") && !prefs.isDefault (GlobalPreference.DB_CONNECTSTRING_IDB))
+//		{
+//			try
+//			{
+//				setInteractionDb(gdbName);
+//			}
+//			catch(Exception e)
+//			{
+//				Logger.log.error("Setting previous Interaction db failed.", e);
+//			}
+//		}
 	}
 
 	public Object getElementAt(int arg0)

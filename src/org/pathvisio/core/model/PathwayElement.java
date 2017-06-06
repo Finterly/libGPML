@@ -28,8 +28,6 @@ import org.pathvisio.core.biopax.BiopaxElement;
 import org.pathvisio.core.biopax.BiopaxReferenceManager;
 import org.pathvisio.core.model.GraphLink.GraphIdContainer;
 import org.pathvisio.core.model.GraphLink.GraphRefContainer;
-import org.pathvisio.core.preferences.GlobalPreference;
-import org.pathvisio.core.preferences.PreferenceManager;
 import org.pathvisio.core.util.Utils;
 import org.pathvisio.core.view.State;
 
@@ -2103,8 +2101,8 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 		if (!Utils.stringEquals(href, input))
 		{
 			href = input;
-			if(PreferenceManager.getCurrent() == null) PreferenceManager.init();
-			setColor(PreferenceManager.getCurrent().getColor(GlobalPreference.COLOR_LINK)); 
+//			if(PreferenceManager.getCurrent() == null) PreferenceManager.init();
+//			setColor(PreferenceManager.getCurrent().getColor(GlobalPreference.COLOR_LINK));
 			fireObjectModifiedEvent(PathwayElementEvent.createSinglePropertyEvent(this, StaticProperty.HREF));
 		}
 	}

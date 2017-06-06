@@ -29,8 +29,6 @@ import org.pathvisio.core.model.Pathway;
 import org.pathvisio.core.model.PathwayElement;
 import org.pathvisio.core.model.PathwayElement.MAnchor;
 import org.pathvisio.core.model.ShapeType;
-import org.pathvisio.core.preferences.GlobalPreference;
-import org.pathvisio.core.preferences.PreferenceManager;
 import org.pathvisio.core.util.Resources;
 
 /**
@@ -166,9 +164,9 @@ public abstract class DefaultTemplates {
 			e.setMWidth(1);
 			e.setMHeight(1);
 			e.setRotation(0);
-            if (PreferenceManager.getCurrent().getBoolean(GlobalPreference.DATANODES_ROUNDED)) {
-                 e.setShapeType(ShapeType.ROUNDED_RECTANGLE);
-            }
+//            if (PreferenceManager.getCurrent().getBoolean(GlobalPreference.DATANODES_ROUNDED)) {
+//                 e.setShapeType(ShapeType.ROUNDED_RECTANGLE);
+//            }
             e.setGraphId(p.getUniqueGraphId());
 			e.setDataNodeType(type);
 
