@@ -135,7 +135,6 @@ public abstract class Graphics extends VPathwayElement implements PathwayElement
 	 * adjusted to the current zoom factor, but not taking into
 	 * account rotation
 	 * @note if you want the left side of the rotated object's boundary,
-	 * use {@link #getVShape(true)}.getX();
 	 * @return
 	 */
 	public double getVLeft() { return vFromM(gdata.getMLeft()); }
@@ -145,7 +144,6 @@ public abstract class Graphics extends VPathwayElement implements PathwayElement
 	 * adjusted to the current zoom factor, but not taking into
 	 * account rotation
 	 * @note if you want the width of the rotated object's boundary,
-	 * use {@link #getVShape(true)}.getWidth();
 	 * @return
 	 */
 	public double getVWidth() { return vFromM(gdata.getMWidth());  }
@@ -155,7 +153,6 @@ public abstract class Graphics extends VPathwayElement implements PathwayElement
 	 * adjusted to the current zoom factor, but not taking into
 	 * account rotation
 	 * @note if you want the top side of the rotated object's boundary,
-	 * use {@link #getVShape(true)}.getY();
 	 * @return
 	 */
 	public double getVTop() { return vFromM(gdata.getMTop()); }
@@ -165,7 +162,6 @@ public abstract class Graphics extends VPathwayElement implements PathwayElement
 	 * adjusted to the current zoom factor, but not taking into
 	 * account rotation
 	 * @note if you want the height of the rotated object's boundary,
-	 * use {@link #getVShape(true)}.getY();
 	 * @return
 	 */
 	public double getVHeight() { return vFromM(gdata.getMHeight()); }
