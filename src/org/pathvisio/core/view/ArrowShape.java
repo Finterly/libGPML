@@ -16,7 +16,7 @@
 //
 package org.pathvisio.core.view;
 
-import java.awt.Shape;
+import java.awt.*;
 
 /**
    ArrowShapes determine how the ending of a line can be drawn. These

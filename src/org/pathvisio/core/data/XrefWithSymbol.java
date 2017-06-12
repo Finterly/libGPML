@@ -51,7 +51,7 @@ public final class XrefWithSymbol implements Comparable<XrefWithSymbol>
 	 */
 	public XrefWithSymbol(String id, DataSource ds, String symbol)
 	{
-		this (new Xref (id, ds), symbol);
+		this (new Xref(id, ds), symbol);
 	}
 
 	/**

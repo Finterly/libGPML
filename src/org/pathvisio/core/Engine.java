@@ -37,8 +37,6 @@ import org.pathvisio.core.model.PathwayExporter;
 import org.pathvisio.core.model.PathwayImporter;
 import org.pathvisio.core.util.FileUtils;
 import org.pathvisio.core.util.Utils;
-import org.pathvisio.core.view.VPathway;
-import org.pathvisio.core.view.VPathwayWrapper;
 
 /**
  * This class manages loading, importing and exporting a Pathway and VPathway together.
@@ -47,10 +45,8 @@ import org.pathvisio.core.view.VPathwayWrapper;
  */
 public class Engine
 {
-	private VPathway vPathway; // may be null
 	//TODO: standalone below is a hack to make Converter work
 	private Pathway standalone = null; // only used when vPathway is null
-	private VPathwayWrapper wrapper; // may also be null in case you
 									 // don't need to interact with
 									 // the pathway.
 
@@ -70,31 +66,31 @@ public class Engine
 	   Set this to the toolkit-specific wrapper before opening or
 	   creating a new pathway otherwise Engine can't create a vPathway.
 	 */
-	public void setWrapper (VPathwayWrapper value)
-	{
-		wrapper = value;
-	}
+//	public void setWrapper (VPathwayWrapper value)
+//	{
+//		wrapper = value;
+//	}
 
 	/**
 	 * Gets the currently open drawing
 	 */
-	public VPathway getActiveVPathway() {
-		return vPathway;
-	}
+//	public VPathway getActiveVPathway() {
+//		return vPathway;
+//	}
 
 	/**
 	 * Returns the currently open Pathway
 	 */
 	public Pathway getActivePathway()
 	{
-		if (vPathway == null)
-		{
+//		if (vPathway == null)
+//		{
 			return standalone;
-		}
-		else
-		{
-			return vPathway.getPathwayModel();
-		}
+//		}
+//		else
+//		{
+//			return vPathway.getPathwayModel();
+//		}
 	}
 
 	//TODO: No reason to keep this in engine, it doesn't act on active pathway
@@ -177,10 +173,10 @@ public class Engine
 				{
 					createVPathway(pathway);
 					fireApplicationEvent(new ApplicationEvent(pathway, ApplicationEvent.Type.PATHWAY_OPENED));
-					if (vPathway != null)
-					{
-						fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_OPENED));
-					}
+//					if (vPathway != null)
+//					{
+//						fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_OPENED));
+//					}
 				}
 			});
 		} catch (InterruptedException e) {
@@ -257,11 +253,11 @@ public class Engine
 	 */
 	public void disposeVPathway()
 	{
-		assert (vPathway != null);
+//		assert (vPathway != null);
 		// signal destruction of vPathway
-		fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_DISPOSED));
-		vPathway.dispose();
-		vPathway = null;
+//		fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_DISPOSED));
+//		vPathway.dispose();
+//		vPathway = null;
 	}
 
 	/**
@@ -270,29 +266,29 @@ public class Engine
 	 */
 	public void createVPathway(Pathway p)
 	{
-		if (wrapper == null)
-		{
+//		if (wrapper == null)
+//		{
 			standalone = p;
-		}
-		else
-		{
-			double zoom = 100;
-			if(hasVPathway())
-			{
+//		}
+//		else
+//		{
+//			double zoom = 100;
+//			if(hasVPathway())
+//			{
 				// save zoom Level
-				zoom = getActiveVPathway().getPctZoom();
+//				zoom = getActiveVPathway().getPctZoom();
+//
+//				disposeVPathway();
+//			}
 
-				disposeVPathway();
-			}
-
-			vPathway = wrapper.createVPathway();
-			vPathway.registerKeyboardActions(this);
-			vPathway.activateUndoManager(this);
-			vPathway.fromModel(p);
-
-			vPathway.setPctZoom(zoom);
-			fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_CREATED));
-		}
+//			vPathway = wrapper.createVPathway();
+//			vPathway.registerKeyboardActions(this);
+//			vPathway.activateUndoManager(this);
+//			vPathway.fromModel(p);
+//
+//			vPathway.setPctZoom(zoom);
+//			fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_CREATED));
+//		}
 	}
 
 	/**
@@ -300,8 +296,8 @@ public class Engine
 	 */
 	public void replacePathway (Pathway p)
 	{
-		vPathway.replacePathway (p);
-		fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_CREATED));
+//		vPathway.replacePathway (p);
+//		fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_CREATED));
 	}
 
 	/**
@@ -313,10 +309,10 @@ public class Engine
 
 		createVPathway(pathway);
 		fireApplicationEvent(new ApplicationEvent(pathway, ApplicationEvent.Type.PATHWAY_NEW));
-		if (vPathway != null)
-		{
-			fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_NEW));
-		}
+//		if (vPathway != null)
+//		{
+//			fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_NEW));
+//		}
 	}
 
 	/**
@@ -324,13 +320,13 @@ public class Engine
 	 * @return true if a drawing is open, false if not
 	 * @deprecated use {@link #hasVPathway}
 	 */
-	public boolean isDrawingOpen() { return vPathway != null; }
+//	public boolean isDrawingOpen() { return vPathway != null; }
 
 	/**
 	 * Find out whether a VPathway is currently available or not
 	 * @return true if a VPathway is currently available, false if not
 	 */
-	public boolean hasVPathway() { return vPathway != null; }
+//	public boolean hasVPathway() { return vPathway != null; }
 
 	private Map<String, Set <PathwayExporter> > exporters = new HashMap<String, Set <PathwayExporter> >();
 	private Map<String, Set <PathwayImporter> > importers = new HashMap<String, Set <PathwayImporter> >();
@@ -358,7 +354,7 @@ public class Engine
 
 	/**
 	 * Add a {@link PathwayImporter} that handles imoprt of GPML to another file format
-	 * @param export
+//	 * @param export
 	 */
 	public void addPathwayImporter(PathwayImporter importer) {
 		for(String ext : importer.getExtensions()) {
@@ -495,7 +491,7 @@ public class Engine
 	public void dispose()
 	{
 		assert (!disposed);
-		if (vPathway != null) disposeVPathway();
+//		if (vPathway != null) disposeVPathway();
 		applicationEventListeners.clear();
 		disposed = true;
 	}

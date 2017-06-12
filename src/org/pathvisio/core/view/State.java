@@ -16,52 +16,52 @@
 //
 package org.pathvisio.core.view;
 
-import java.awt.Graphics2D;
-import java.awt.geom.Point2D;
-
 import org.pathvisio.core.model.MState;
 import org.pathvisio.core.model.PathwayElement;
+
+import java.awt.*;
+import java.awt.geom.Point2D;
 
 /**
  * represents the view of a PathwayElement with ObjectType.STATE.
  */
-public class State extends GraphicsShape
+public class State //extends GraphicsShape
 {	
 	public static final String ROTATION_KEY = "org.pathvisio.core.StateRotation";
 
-	public State (VPathway canvas, PathwayElement o) {
-		super(canvas, o);
-	}
-
-	public void doDraw(Graphics2D g)
-	{
-		g.setColor(getLineColor());
-		setLineStyle(g);
-		drawShape(g);
-		
-		g.setFont(getVFont());
-		drawTextLabel(g);
-		
-		drawHighlight(g);
-	}
-
-	protected void vMoveBy(double vdx, double vdy)
-	{
-		Point2D mNewPos = new Point2D.Double (mFromV(getVCenterX() + vdx), mFromV(getVCenterY() + vdy)); 
-		Point2D newRel = ((MState)gdata).getParentDataNode().toRelativeCoordinate(mNewPos);
-		double x = newRel.getX();
-		double y = newRel.getY();
-		if (x > 1) x = 1;
-		if (x < -1) x = -1;
-		if (y > 1) y = 1;
-		if (y < -1) y = -1;
-		gdata.setRelX(x);
-		gdata.setRelY(y);
-	}
-
-	@Override
-	public void destroy()
-	{
-		super.destroy();
-	}
+//	public State(VPathway canvas, PathwayElement o) {
+//		super(canvas, o);
+//	}
+//
+//	public void doDraw(Graphics2D g)
+//	{
+//		g.setColor(getLineColor());
+//		setLineStyle(g);
+//		drawShape(g);
+//
+//		g.setFont(getVFont());
+//		drawTextLabel(g);
+//
+//		drawHighlight(g);
+//	}
+//
+//	protected void vMoveBy(double vdx, double vdy)
+//	{
+//		Point2D mNewPos = new Point2D.Double (mFromV(getVCenterX() + vdx), mFromV(getVCenterY() + vdy));
+//		Point2D newRel = ((MState)gdata).getParentDataNode().toRelativeCoordinate(mNewPos);
+//		double x = newRel.getX();
+//		double y = newRel.getY();
+//		if (x > 1) x = 1;
+//		if (x < -1) x = -1;
+//		if (y > 1) y = 1;
+//		if (y < -1) y = -1;
+//		gdata.setRelX(x);
+//		gdata.setRelY(y);
+//	}
+//
+//	@Override
+//	public void destroy()
+//	{
+//		super.destroy();
+//	}
 }

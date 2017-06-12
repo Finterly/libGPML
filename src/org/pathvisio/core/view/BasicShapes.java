@@ -16,14 +16,13 @@
 //
 package org.pathvisio.core.view;
 
-import java.awt.Polygon;
-import java.awt.Shape;
+import org.pathvisio.core.model.AnchorType;
+
+import java.awt.*;
 import java.awt.geom.Arc2D;
 import java.awt.geom.Ellipse2D;
 import java.awt.geom.GeneralPath;
 import java.awt.geom.Rectangle2D;
-
-import org.pathvisio.core.model.AnchorType;
 
 /**
  * Defines and registers all basic shapes and arrowheads, such Oval,

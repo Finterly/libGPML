@@ -37,7 +37,7 @@ import org.jdom.output.XMLOutputter;
 import org.pathvisio.core.biopax.BiopaxElement;
 import org.pathvisio.core.model.PathwayElement.MAnchor;
 import org.pathvisio.core.model.PathwayElement.MPoint;
-import org.pathvisio.core.view.Line;
+//import org.pathvisio.core.view.Line;
 import org.pathvisio.core.view.ShapeRegistry;
 import org.pathvisio.core.view.State;
 

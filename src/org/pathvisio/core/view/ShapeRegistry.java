@@ -16,13 +16,13 @@
 //
 package org.pathvisio.core.view;
 
-import java.awt.Shape;
+import org.pathvisio.core.model.AbstractShape;
+import org.pathvisio.core.model.IShape;
+
+import java.awt.*;
 import java.awt.geom.GeneralPath;
 import java.util.HashMap;
 import java.util.Map;
-
-import org.pathvisio.core.model.AbstractShape;
-import org.pathvisio.core.model.IShape;
 
 /**
    The Shape registry stores all arrow heads and shapes

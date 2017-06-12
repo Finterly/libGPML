@@ -16,14 +16,14 @@
 //
 package org.pathvisio.core.view;
 
-import java.awt.Shape;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.GeneralPath;
-import java.awt.geom.Rectangle2D;
-
 import org.pathvisio.core.model.AbstractShape;
 import org.pathvisio.core.model.IShape;
 import org.pathvisio.core.model.LineType;
+
+import java.awt.*;
+import java.awt.geom.Ellipse2D;
+import java.awt.geom.GeneralPath;
+import java.awt.geom.Rectangle2D;
 
 /**
  * Collection of Shapes and ArrowHeads used in
@@ -36,7 +36,7 @@ public class MIMShapes
     public static final LineType MIM_CONVERSION = LineType.create ("mim-conversion", "Arrow");
     public static final LineType MIM_STIMULATION = LineType.create ("mim-stimulation", "Arrow");
     public static final LineType MIM_MODIFICATION = LineType.create ("mim-modification", "Arrow");
-    public static final LineType MIM_CATALYSIS =LineType.create ("mim-catalysis", "Arrow");
+    public static final LineType MIM_CATALYSIS = LineType.create ("mim-catalysis", "Arrow");
     public static final LineType MIM_INHIBITION = LineType.create ("mim-inhibition", "Arrow");
     public static final LineType MIM_CLEAVAGE = LineType.create ("mim-cleavage", "Arrow");
     public static final LineType MIM_COVALENT_BOND = LineType.create ("mim-covalent-bond", "Arrow");
@@ -50,10 +50,10 @@ public class MIMShapes
 	private static final int MIM_INTERACTION = 2;
 
 	@Deprecated
-    public static final IShape MIM_PHOSPHORYLATED_SHAPE = new AbstractShape (getPluggableShape (MIM_PHOSPHORYLATED), "mim-phosphorylated");
-	public static final IShape MIM_DEGRADATION_SHAPE = new AbstractShape (getPluggableShape (MIM_DEGRADATION), "mim-degradation");
+    public static final IShape MIM_PHOSPHORYLATED_SHAPE = new AbstractShape(getPluggableShape (MIM_PHOSPHORYLATED), "mim-phosphorylated");
+	public static final IShape MIM_DEGRADATION_SHAPE = new AbstractShape(getPluggableShape (MIM_DEGRADATION), "mim-degradation");
     @Deprecated
-    public static final IShape MIM_INTERACTION_SHAPE = new AbstractShape (getPluggableShape (MIM_INTERACTION), "mim-interaction");
+    public static final IShape MIM_INTERACTION_SHAPE = new AbstractShape(getPluggableShape (MIM_INTERACTION), "mim-interaction");
      
     public static void registerShapes()
 	{
@@ -72,7 +72,7 @@ public class MIMShapes
         ShapeRegistry.registerArrow (MIM_GAP.getName(), getMIMGap(), ArrowShape.FillType.OPEN, 10);
 	}
 
-    static private java.awt.Shape getMIMCovalentBond ()
+    static private Shape getMIMCovalentBond ()
     {
         GeneralPath path = new GeneralPath();
         path.moveTo (0, -7);
@@ -102,7 +102,7 @@ public class MIMShapes
 	 // a 4 sided structure with small thickness works better tha
 	 // a line.(Maybe the affine trasform has a issue with a line
 	 //as opposed to a thin quadrilateral)
-	static private java.awt.Shape getMIMBranching (int direction)
+	static private Shape getMIMBranching (int direction)
     {
 		if (direction == RIGHT) {
 			GeneralPath path = new GeneralPath();
@@ -126,7 +126,7 @@ public class MIMShapes
     }
 
 	//method to create the MIM Cleavage lie ending
-	static private java.awt.Shape getMIMCleavage ()
+	static private Shape getMIMCleavage ()
 	{
 		GeneralPath path = new GeneralPath();
 		path.moveTo (0, 0);
@@ -139,7 +139,7 @@ public class MIMShapes
 	static final int CATALYSIS_GAP = CATALYSIS_DIAM/4;
 	static final int CATALYSIS_GAP_HEIGHT = 6;
 	//create the ellipse for catalysis line ending
-	static private java.awt.Shape getMIMCatalysis ()
+	static private Shape getMIMCatalysis ()
 	{
 		return new Ellipse2D.Double	(
 			0, -CATALYSIS_DIAM/2,
@@ -159,11 +159,11 @@ public class MIMShapes
 		return path;
 	}
 
-	static private java.awt.Shape getMIMStimulation () {
+	static private Shape getMIMStimulation () {
 		return getArrowShapedPath();
 	}
 
-	static private java.awt.Shape getMIMBinding () {
+	static private Shape getMIMBinding () {
 		GeneralPath path = new GeneralPath();
 		path.moveTo (0, 0);
 		path.lineTo (-ARROWWIDTH, -ARROWHEIGHT);
@@ -173,11 +173,11 @@ public class MIMShapes
 		return path;
 	}
 
-	static private java.awt.Shape getMIMConversion () {
+	static private Shape getMIMConversion () {
 		return getArrowShapedPath();
 	}
 
-	static private java.awt.Shape getMIMNecessary () {
+	static private Shape getMIMNecessary () {
 		GeneralPath path = getArrowShapedPath();
 		path.moveTo (-ARROW_NECESSARY_CROSSBAR, -ARROWHEIGHT);
 		path.lineTo (-ARROW_NECESSARY_CROSSBAR, ARROWHEIGHT);
@@ -198,7 +198,7 @@ public class MIMShapes
         return path;
     }
 
-    static private java.awt.Shape getMIMGap () {
+    static private Shape getMIMGap () {
         GeneralPath path = new GeneralPath();
         path.moveTo (0, 0);
         path.moveTo (0, 5);
@@ -212,7 +212,7 @@ public class MIMShapes
 	   The shapes are constructed as a general path with arbitrary size
 	   and then resized to fit w and h parameters.
 	 */
-	static private java.awt.Shape getPluggableShape (int st)
+	static private Shape getPluggableShape (int st)
 	{
 		GeneralPath path = new GeneralPath();
 		switch (st)

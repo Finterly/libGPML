@@ -16,7 +16,7 @@
 //
 package org.pathvisio.core.view;
 
-import java.awt.Shape;
+import java.awt.*;
 
 /**
  * AnchorShape is responsible for defining the graphic for Anchors,
