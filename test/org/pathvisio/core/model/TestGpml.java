@@ -98,15 +98,18 @@ public class TestGpml extends TestCase
 		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
 	}
 	/**
-	 * Test reading 2013a files with Group element, then writing them as 2017a
+	 * Test reading 2017a files with Group element, then writing them as 2017a
 	 */
-	public static void testGroup13a17a() throws ConverterException, IOException
+	public static void testGroup17a() throws ConverterException, IOException
 	{
-		File in = new File (PATHVISIO_BASEDIR, "testData/2013a/group.gpml");
+		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/group.gpml");
 		assertTrue (in.exists());
 
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
+
+		for(String s:pwy.getGroupIds())
+			assertEquals("Group should have 2 elements",2,pwy.getGroupElements(s).size());
 
 //		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/group.gpml");
 		File tmp = File.createTempFile("test", "gpml");

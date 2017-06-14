@@ -400,8 +400,14 @@ public abstract class GpmlFormatAbstract
 	{
 		//ID
 		String id = e.getAttributeValue("GroupId");
+		String id2 = e.getAttributeValue("GraphId");
 		if((id == null || id.equals("")) && o.getParent() != null)
-			{id = o.getParent().getUniqueGroupId();}
+			{
+				if((id2 == null || id2.equals("")))
+					id = o.getParent().getUniqueGroupId();
+				else
+					id = id2;
+			}
 		o.setGroupId (id);
 
 		//GraphId

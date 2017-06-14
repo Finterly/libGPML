@@ -134,6 +134,7 @@ public class Test extends TestCase implements PathwayListener, PathwayElementLis
 
 		// set an id on this element so we can find it back easily
 		String id = o.setGeneratedGraphId();
+		l.setGeneratedGraphId();
 
 		// store
 		data.writeToXml(temp, false);
@@ -445,6 +446,45 @@ public class Test extends TestCase implements PathwayListener, PathwayElementLis
 		catch (IllegalArgumentException e) {}
 	}
 
+	public void testGroupId() throws IOException
+	{
+		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/group.gpml");
+//		File tmp = File.createTempFile("test", ".gpml");
+		o.setMCenterX(50.0);
+		o.setMCenterY(50.0);
+		o.setInitialSize();
+		o.setGraphId(data.getUniqueGraphId());
+		PathwayElement o2 = PathwayElement.createPathwayElement (ObjectType.LINE);
+		o2.setMStartX(10.0);
+		o2.setMStartY(10.0);
+		o2.setInitialSize();
+		data.add(o2);
+		PathwayElement o3 = PathwayElement.createPathwayElement (ObjectType.LABEL);
+		o3.setMCenterX(100.0);
+		o3.setMCenterY(50);
+		o3.setGraphId(data.getUniqueGraphId());
+		data.add(o3);
+
+		for(PathwayElement p: data.getDataObjects())
+			if(p.getGraphId()==null)
+				p.setGeneratedGraphId();
+
+		PathwayElement group = PathwayElement.createPathwayElement(ObjectType.GROUP);
+		data.add(group);
+		group.setGroupStyle(GroupStyle.NONE);
+		String id = group.createGroupId();
+		o2.setGroupRef(id);
+		o3.setGroupRef(id);
+		try
+		{
+			data.writeToXml(tmp, true);
+		} catch (ConverterException e)
+		{
+			e.printStackTrace();
+			fail ("Exception while writing newly created pathway");
+		}
+	}
+
 	public void testValidator() throws IOException
 	{
 		File tmp = File.createTempFile("test", ".gpml");
@@ -510,6 +550,9 @@ public class Test extends TestCase implements PathwayListener, PathwayElementLis
 		assertEquals (data.fixReferences(), 1);
 		assertEquals (data.fixReferences(), 0);
 
+		// set graph Ids, required to write
+		for(PathwayElement p: data.getDataObjects())
+			p.setGeneratedGraphId();
 		// should still validate
 		try
 		{

@@ -119,6 +119,11 @@ public class Test extends TestCase {
 
 		pwRefManager.addElementReference(xrefPathway);
 
+		// set graph Ids, required to write
+		for(PathwayElement p: data.getDataObjects())
+			p.setGeneratedGraphId();
+
+
 		writeRead(data);
 
 		List<PublicationXref> references = pwRefManager.getPublicationXRefs();

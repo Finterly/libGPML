@@ -227,7 +227,9 @@
 
 				<xsd:element ref="gpml:Legend" minOccurs="0" maxOccurs="1"/>
 
-				<xsd:element ref="gpml:Biopax" minOccurs="0" maxOccurs="1"/>
+				<xsd:element ref="gpml:Bibliography" minOccurs="0" maxOccurs="1"/>
+
+				<xsd:element ref="gpml:openControlledVocabulary" minOccurs="0" maxOccurs="unbounded"/>
 
 			</xsd:sequence>
 			<!-- Metadata for the pathway -->
@@ -629,22 +631,36 @@
 	<!-- End: Legend -->
 
 
-	<!-- Biopax -->
+	<!-- Bibliography -->
 	<!--
-        Pool of Biopax objects, following biopax namespace;
-        other elements can refer to such objects.
+        PublicationXref tag
     -->
 
 
-	<xsd:element name="Biopax">
+	<xsd:element name="Bibliography">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:any namespace="http://www.biopax.org/release/biopax-level3.owl#"
-						 processContents="skip" minOccurs="0" maxOccurs="unbounded"/>
+				<xsd:element name="Title" type="xsd:string" maxOccurs="1"/>
+				<xsd:element name="Year" type="xsd:string"  maxOccurs="1"/>
+				<xsd:element name="Authors" type="xsd:string" maxOccurs="unbounded"/>
+				<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:attribute name="ID" type="xsd:string" use="required"/>
+						<xsd:attribute name="Database" type="xsd:string" use="required"/>
+					</xsd:complexType>
+				</xsd:element>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Biopax -->
+
+	<xsd:element name="openControlledVocabulary">
+		<xsd:complexType>
+			<xsd:attribute name="ID" type="xsd:string" use="required"/>
+			<xsd:attribute name="Term" type="xsd:string" use="required"/>
+			<xsd:attribute name="Ontology" type="xsd:string" use="required"/>
+		</xsd:complexType>
+	</xsd:element>
 
 
 </xsd:schema>

@@ -2387,6 +2387,7 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 		if (groupId == null)
 		{
 			setGroupId(parent.getUniqueGroupId());
+			setGraphId(groupId);
 		}
 		return groupId;
 	}
