@@ -18,8 +18,10 @@ package org.pathvisio.core.model;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Set;
 
 import junit.framework.TestCase;
+import org.pathvisio.core.debug.Logger;
 
 public class TestGpml extends TestCase 
 {
@@ -80,7 +82,37 @@ public class TestGpml extends TestCase
 		File tmp = File.createTempFile("test", "gpml");
 		GpmlFormat2013a.GPML_2013A.writeToXml(pwy, tmp, true);		
 	}
-	
+
+	/**
+	 * Test reading 2008a, 2010a & 2013a files, then writing them as 2017a
+	 */
+	public static void testConvert10a17a() throws ConverterException, IOException
+	{
+		File in = new File (PATHVISIO_BASEDIR, "testData/WP248_2010a.gpml");
+		assertTrue (in.exists());
+
+		Pathway pwy = new Pathway();
+		pwy.readFromXml(in, true);
+
+		File tmp = File.createTempFile("test", "gpml");
+		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+	}
+	/**
+	 * Test reading 2013a files with Group element, then writing them as 2017a
+	 */
+	public static void testGroup13a17a() throws ConverterException, IOException
+	{
+		File in = new File (PATHVISIO_BASEDIR, "testData/2013a/group.gpml");
+		assertTrue (in.exists());
+
+		Pathway pwy = new Pathway();
+		pwy.readFromXml(in, true);
+
+//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/group.gpml");
+		File tmp = File.createTempFile("test", "gpml");
+		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+	}
+
 	
 	
 	private static final File FILE1 = 

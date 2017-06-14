@@ -421,7 +421,10 @@ public abstract class GpmlFormatAbstract
 		//ID
 		String id = o.createGroupId();
 		if (id != null && !id.equals(""))
-			{e.setAttribute("GroupId", o.createGroupId());}
+			{
+				e.setAttribute("GroupId", o.createGroupId());
+				e.setAttribute("GraphId", o.createGroupId());
+			}
 
 		//GraphId
 		updateGraphId(o, e);

@@ -596,7 +596,7 @@ public class Pathway
 	}
 
 	public String getUniqueGroupId() {
-		return getUniqueId(groupIds.keySet());
+		return getUniqueId(graphIds.keySet());
 	}
 
 	/**
@@ -711,7 +711,6 @@ public class Pathway
 		GpmlFormat.writeToXml (this, file, validate);
 		setSourceFile (file);
 		clearChangedFlag();
-
 	}
 
 	public void readFromXml(Reader in, boolean validate) throws ConverterException

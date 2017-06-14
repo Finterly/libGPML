@@ -30,9 +30,8 @@ import java.util.List;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
-import org.pathvisio.core.Engine;
 import org.pathvisio.core.debug.Logger;
-
+import org.pathvisio.core.Engine;
 /**
  * Collection of static functions to deal with Resources stored in Jar files.
  */

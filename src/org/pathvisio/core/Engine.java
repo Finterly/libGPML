@@ -172,7 +172,7 @@ public class Engine
 				public void run()
 				{
 					createVPathway(pathway);
-					fireApplicationEvent(new ApplicationEvent(pathway, ApplicationEvent.Type.PATHWAY_OPENED));
+//					fireApplicationEvent(new ApplicationEvent(pathway, ApplicationEvent.Type.PATHWAY_OPENED));
 //					if (vPathway != null)
 //					{
 //						fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_OPENED));
@@ -235,7 +235,7 @@ public class Engine
 		// make sure there are no problems with references.
 		p.fixReferences();
 		p.writeToXml(toFile, true);
-		fireApplicationEvent(new ApplicationEvent(p, ApplicationEvent.Type.PATHWAY_SAVE));
+//		fireApplicationEvent(new ApplicationEvent(p, ApplicationEvent.Type.PATHWAY_SAVE));
 	}
 
 	/**
@@ -308,7 +308,7 @@ public class Engine
 		pathway.initMappInfo();
 
 		createVPathway(pathway);
-		fireApplicationEvent(new ApplicationEvent(pathway, ApplicationEvent.Type.PATHWAY_NEW));
+//		fireApplicationEvent(new ApplicationEvent(pathway, ApplicationEvent.Type.PATHWAY_NEW));
 //		if (vPathway != null)
 //		{
 //			fireApplicationEvent(new ApplicationEvent(vPathway, ApplicationEvent.Type.VPATHWAY_NEW));
@@ -443,20 +443,20 @@ public class Engine
 	}
 
 	/**
-	 * Fire a {@link ApplicationEvent} to notify all {@link ApplicationEventListener}s registered
+//	 * Fire a {@link ApplicationEvent} to notify all {@link ApplicationEventListener}s registered
 	 * to this class
 	 * @param e
 	 */
-	private void fireApplicationEvent(ApplicationEvent e) {
-		for(ApplicationEventListener l : applicationEventListeners) l.applicationEvent(e);
-	}
+//	private void fireApplicationEvent(ApplicationEvent e) {
+//		for(ApplicationEventListener l : applicationEventListeners) l.applicationEvent(e);
+//	}
 
 	/**
 	 * Implement this if you want to receive events upon opening / closing
 	 * pathways
 	 */
 	public interface ApplicationEventListener {
-		public void applicationEvent(ApplicationEvent e);
+//		public void applicationEvent(ApplicationEvent e);
 	}
 
 	String appName = "Application name undefined";
@@ -473,15 +473,15 @@ public class Engine
 		appName = value;
 	}
 
-	/**
-	 * Fire a close event
-	 * TODO: move APPLICATION_CLOSE to other place
-	 */
-	public void close()
-	{
-		ApplicationEvent e = new ApplicationEvent(this, ApplicationEvent.Type.APPLICATION_CLOSE);
-		fireApplicationEvent(e);
-	}
+//	/**
+//	 * Fire a close event
+//	 * TODO: move APPLICATION_CLOSE to other place
+//	 */
+//	public void close()
+//	{
+//		ApplicationEvent e = new ApplicationEvent(this, ApplicationEvent.Type.APPLICATION_CLOSE);
+//		fireApplicationEvent(e);
+//	}
 
 	private boolean disposed = false;
 	/**
@@ -504,9 +504,9 @@ public class Engine
 	}
 
 	/** The current PathVisio version */
-	public static String getVersion()
-	{
-		return Revision.VERSION;
-	}
+//	public static String getVersion()
+//	{
+//		return Revision.VERSION;
+//	}
 
 }

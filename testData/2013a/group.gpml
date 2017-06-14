@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Group Test" Version="20170614">
+  <Graphics BoardWidth="693.0" BoardHeight="385.0" />
+  <DataNode TextLabel="prolytalase" GraphId="a87fd" Type="GeneProduct" GroupRef="d0093">
+    <Graphics CenterX="160.25" CenterY="177.25" Width="149.5" Height="105.5" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="Secundylase" GraphId="fb087" Type="GeneProduct" GroupRef="d0093">
+    <Graphics CenterX="561.75" CenterY="285.75" Width="178.5" Height="98.5" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Interaction GroupRef="d0093">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="235.0" Y="177.25" GraphRef="a87fd" RelX="1.0" RelY="0.0" />
+      <Point X="472.5" Y="285.75" GraphRef="fb087" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Group GroupId="d0093" Style="Pathway" TextLabel="the ultimates" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
+
