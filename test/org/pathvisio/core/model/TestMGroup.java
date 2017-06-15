@@ -41,7 +41,7 @@ public class TestMGroup extends TestCase
 		assertNotNull (group.getGroupId());
 		
 		node.setMCenterX(120);
-		node.setMCenterY(20);
+		node.setMCenterY(2);
 		node.setMWidth(20);
 		node.setMHeight(20);
 		

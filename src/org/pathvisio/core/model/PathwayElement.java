@@ -584,6 +584,10 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 		case MAPPINFO:
 		case BIOPAX:
 			return Z_ORDER_DEFAULT;
+		case ONTOLOGY:
+			return Z_ORDER_DEFAULT;
+		case BIB:
+			return Z_ORDER_DEFAULT;
 		case GROUP:
 			return Z_ORDER_GROUP;
 		default:

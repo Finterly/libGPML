@@ -137,7 +137,6 @@ class GpmlFormat2017a extends GpmlFormatAbstract implements GpmlFormatReader, Gp
 		result.put("Interaction.Graphics.Point@RelX", new AttributeInfo ("xsd:float", null, "optional"));
 		result.put("Interaction.Graphics.Point@RelY", new AttributeInfo ("xsd:float", null, "optional"));
 		result.put("Interaction.Graphics.Point@GraphRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
-// TODO: confirm if graphid required with point
 		result.put("Interaction.Graphics.Point@GraphId", new AttributeInfo ("xsd:ID", null, "optional"));
 		result.put("Interaction.Graphics.Point@ArrowHead", new AttributeInfo ("xsd:string", "Line", "optional"));
 		result.put("Interaction.Graphics.Anchor@Position", new AttributeInfo ("xsd:float", null, "required"));
@@ -210,6 +209,14 @@ class GpmlFormat2017a extends GpmlFormatAbstract implements GpmlFormatReader, Gp
 		result.put("InfoBox@CenterY", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("Legend@CenterX", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("Legend@CenterY", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("openControlledVocabulary.OntologyTag@ID", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("openControlledVocabulary.OntologyTag@Term", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("openControlledVocabulary.OntologyTag@Ontology", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Bibliography.Xref@ID", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Bibliography.Xref@Database", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Bibliography.Author@Name", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Bibliography@Title", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Bibliography@Year", new AttributeInfo ("xsd:string", null, "required"));
 		/* END OF AUTO-GENERATED CONTENT */
 
 		return result;
@@ -345,6 +352,15 @@ class GpmlFormat2017a extends GpmlFormatAbstract implements GpmlFormatReader, Gp
 				e = new Element ("Biopax", getGpmlNamespace());
 				updateBiopax(o, e);
 				break;
+			case BIB:
+				e = new Element("Bibliography", getGpmlNamespace());
+				e.addContent(new Element("Xref", getGpmlNamespace()));
+				updateBibliography (o, e);
+				break;
+			case ONTOLOGY:
+				e = new Element("openControlledVocabulary", getGpmlNamespace());
+				updateOntologyTags (o, e);
+				break;
 		}
 		if (e == null)
 		{
@@ -436,8 +452,11 @@ class GpmlFormat2017a extends GpmlFormatAbstract implements GpmlFormatReader, Gp
 				mapGroupRef(o, e);
 				mapGroup (o, e);
 				break;
-			case BIOPAX:
-				mapBiopax(o, e, p);
+			case BIB:
+				mapBibliography(o, e, p);
+				break;
+			case ONTOLOGY:
+				mapOntology(o, e, p);
 				break;
 			default:
 				throw new ConverterException("Invalid ObjectType'" + tag + "'");
@@ -896,34 +915,68 @@ class GpmlFormat2017a extends GpmlFormatAbstract implements GpmlFormatReader, Gp
 		}
 	}
 
-	protected void mapBiopax(PathwayElement o, Element e, Pathway p) throws ConverterException
+	protected void updateOntologyTags(PathwayElement o, Element e)
 	{
-		//this method clones all content,
-		//getContent will leave them attached to the parent, which we don't want
-		//We can safely remove them, since the JDOM element isn't used anymore after this method
-		Element root = new Element("RDF", GpmlFormat.RDF);
-		root.addNamespaceDeclaration(GpmlFormat.RDFS);
-		root.addNamespaceDeclaration(GpmlFormat.RDF);
-		root.addNamespaceDeclaration(GpmlFormat.OWL);
-		root.addNamespaceDeclaration(GpmlFormat.BIOPAX);
-		root.setAttribute(new Attribute("base", getGpmlNamespace().getURI() + "#", Namespace.XML_NAMESPACE));
-		//Element owl = new Element("Ontology", OWL);
-		//owl.setAttribute(new Attribute("about", "", RDF));
-		//Element imp = new Element("imports", OWL);
-		//imp.setAttribute(new Attribute("resource", BIOPAX.getURI(), RDF));
-		//owl.addContent(imp);
-		//root.addContent(owl);
+		if(e != null)
+		{
+			List<OntologyTag> ontologyTags = o.parent.getOntologyTags();
+			for(OntologyTag ontologyTag: ontologyTags){
+				Element element = new Element("OntologyTag", getGpmlNamespace());
+				e.addContent(element);
+				element.setAttribute("ID",ontologyTag.getId());
+				element.setAttribute("Term",ontologyTag.getTerm());
+				element.setAttribute("Ontology",ontologyTag.getOntology());
+			}
+		}
+	}
 
-		root.addContent(e.cloneContent());
-		Document bp = new Document(root);
+	protected void mapOntology(PathwayElement o, Element e, Pathway p) throws ConverterException
+	{
+		List<Element> OntologyTags = e.getChildren("OntologyTag", e.getNamespace());
+		String id,term,ontology;
+		for(Element ot: OntologyTags){
+			id=ot.getAttributeValue("ID");
+			term=ot.getAttributeValue("Term");
+			ontology=ot.getAttributeValue("Ontology");
+			p.addOntologyTag(id,term,ontology);
+		}
+	}
+	protected void updateBibliography(PathwayElement o, Element e)  throws ConverterException
+	{
+		if(e != null)
+		{
+			e.setAttribute("Title", o.getDynamicProperty("Title"));
+			e.setAttribute("Year", o.getDynamicProperty("Year"));
 
-		((BiopaxElement)o).setBiopax(bp);
-		
-		for (Object f : e.getChildren("openControlledVocabulary", GpmlFormat.BIOPAX)){
-			p.addOntologyTag(((Element) f).getChild("ID", GpmlFormat.BIOPAX).getText(),
-					((Element) f).getChild("TERM", GpmlFormat.BIOPAX).getText(),
-					((Element) f).getChild("Ontology", GpmlFormat.BIOPAX).getText()
-					);
+			Element xref = e.getChild("Xref", e.getNamespace());
+			String database = o.getDataSource() == null ? "" : o.getDataSource().getFullName();
+			setAttribute ("State.Xref", "Database", xref, database == null ? "" : database);
+			setAttribute ("State.Xref", "ID", xref, o.getElementID());
+
+			List<String> authors = o.parent.getAuthors();
+			for(String author: authors){
+				Element element = new Element("Author", getGpmlNamespace());
+				e.addContent(element);
+				element.setAttribute("Name",author);
+			}
+		}
+	}
+
+	protected void mapBibliography(PathwayElement o, Element e, Pathway p) throws ConverterException
+	{
+		String title, year;
+		title=e.getAttributeValue("Title");
+		year=e.getAttributeValue("Year");
+		o.setDynamicProperty("Title",title);
+		o.setDynamicProperty("Year",year);
+
+		Element xref = e.getChild ("Xref", e.getNamespace());
+		o.setElementID (getAttribute("State.Xref", "ID", xref));
+		o.setDataSource (DataSource.getByFullName (getAttribute("State.Xref", "Database", xref)));
+
+		List<Element> authors = e.getChildren("Author", e.getNamespace());
+		for(Element author: authors){
+			p.addAuthor(author.getAttributeValue("Name"));
 		}
 	}
 

@@ -635,7 +635,7 @@ public class Pathway
 	/**
 	 * Checks whether the board size is still large enough for the given {@link PathwayElement}
 	 * and increases the size if not
-	 * @param elm The element to check the board size for
+	 * @param e The element to check the board size for
 	 */
 	private void checkMBoardSize(PathwayElement e)
 	{
@@ -924,6 +924,15 @@ public class Pathway
 		{
 			elt.printRefsDebugInfo();
 		}
+	}
+
+	List<String> authors = new ArrayList<String>();
+	public void addAuthor(String author){
+		authors.add(author);
+	}
+
+	public List<String> getAuthors(){
+		return authors;
 	}
 
 	List<OntologyTag> ontologyTags = new ArrayList<OntologyTag>();

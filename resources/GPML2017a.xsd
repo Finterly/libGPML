@@ -640,25 +640,35 @@
 	<xsd:element name="Bibliography">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="Title" type="xsd:string" maxOccurs="1"/>
-				<xsd:element name="Year" type="xsd:string"  maxOccurs="1"/>
-				<xsd:element name="Authors" type="xsd:string" maxOccurs="unbounded"/>
-				<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
+				<xsd:element name="Xref" minOccurs="0" maxOccurs="unbounded">
 					<xsd:complexType>
 						<xsd:attribute name="ID" type="xsd:string" use="required"/>
 						<xsd:attribute name="Database" type="xsd:string" use="required"/>
 					</xsd:complexType>
 				</xsd:element>
+				<xsd:element name="Author" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:attribute name="Name" type="xsd:string" use="required"/>
+					</xsd:complexType>
+				</xsd:element>
 			</xsd:sequence>
+			<xsd:attribute name="Title" use="required"/>
+			<xsd:attribute name="Year" use="required"/>
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Biopax -->
 
 	<xsd:element name="openControlledVocabulary">
 		<xsd:complexType>
-			<xsd:attribute name="ID" type="xsd:string" use="required"/>
-			<xsd:attribute name="Term" type="xsd:string" use="required"/>
-			<xsd:attribute name="Ontology" type="xsd:string" use="required"/>
+			<xsd:sequence>
+				<xsd:element name="OntologyTag" maxOccurs="unbounded">
+					<xsd:complexType>
+						<xsd:attribute name="ID" type="xsd:string" use="required"/>
+						<xsd:attribute name="Term" type="xsd:string" use="required"/>
+						<xsd:attribute name="Ontology" type="xsd:string" use="required"/>
+					</xsd:complexType>
+				</xsd:element>
+			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
 
