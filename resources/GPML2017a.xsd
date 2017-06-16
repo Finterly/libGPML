@@ -1,22 +1,16 @@
-<xsd:schema targetNamespace="http://pathvisio.org/GPML/2017a"
-			xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-			xmlns:gpml="http://pathvisio.org/GPML/2017a"
-			elementFormDefault="qualified"
->
-	<!-- GenMAPP Pathway Markup Language version 2017a -->
+<xsd:schema targetNamespace="http://pathvisio.org/GPML/2017a" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:gpml="http://pathvisio.org/GPML/2017a" elementFormDefault="qualified">
+	<!-- Graphical Pathway Markup Language version 2017a -->
 
-	<!-- Type Definitions -->
-
-	<!--
-            This block declares all the properties which would then be attached
-            to elements in the GPML heirarchy, most of them are intuitive
-            like FontAttributes, RotationType, ColorType
+	<!-- 
+	     Type Definitions 
+         This block declares all the properties which would then be attached
+         to elements in the GPML heirarchy, most of them are intuitive
+         like FontAttributes, RotationType, ColorType
     -->
 
 
 	<xsd:attributeGroup name="FontAttributes">
-		<xsd:attribute name="FontName" default="Arial"
-					   type="xsd:string"/>
+		<xsd:attribute name="FontName" default="Arial" type="xsd:string"/>
 		<xsd:attribute name="FontStyle" default="Normal">
 			<xsd:simpleType>
 				<xsd:restriction base="xsd:string">
@@ -49,8 +43,7 @@
 				</xsd:restriction>
 			</xsd:simpleType>
 		</xsd:attribute>
-		<xsd:attribute name="FontSize" type="xsd:nonNegativeInteger"
-					   default="12"/>
+		<xsd:attribute name="FontSize" type="xsd:nonNegativeInteger" default="12"/>
 		<xsd:attribute name="Align" default="Center">
 			<!-- Horizontal alignment -->
 			<xsd:simpleType>
@@ -147,11 +140,10 @@
 		</xsd:restriction>
 	</xsd:simpleType>
 
-	<!-- One or more comments - bundles GenMAPP notes and GenMAPP remarks together !-->
+	<!-- One or more comments bundled together !-->
 	<xsd:group name="CommentGroup">
 		<xsd:sequence>
-			<xsd:element name="Comment" minOccurs="0"
-						 maxOccurs="unbounded">
+			<xsd:element name="Comment" minOccurs="0" maxOccurs="unbounded">
 				<xsd:complexType>
 					<xsd:simpleContent>
 						<xsd:extension base="xsd:string">
@@ -160,6 +152,8 @@
 					</xsd:simpleContent>
 				</xsd:complexType>
 			</xsd:element>
+			<!--
+			TODO: is this part really needed?
 			<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
 				<xsd:complexType>
 					<xsd:attribute name="ID" type="xsd:string" use="required"/>
@@ -167,8 +161,10 @@
 				</xsd:complexType>
 			</xsd:element>
 			<xsd:element name="BiopaxRef" minOccurs="0" maxOccurs="unbounded"/>
-			<xsd:element name="Attribute" minOccurs="0"
-						 maxOccurs="unbounded">
+			--> 
+			<!-- Additional information can be added as attribute key value pairs 
+				 can be used or ignored by readers -->
+			<xsd:element name="Attribute" minOccurs="0" maxOccurs="unbounded">
 				<xsd:complexType>
 					<xsd:attribute name="Key" type="xsd:string" use="required"/>
 					<xsd:attribute name="Value" type="xsd:string" use="required"/>
@@ -179,33 +175,24 @@
 
 	<!-- End: Type Definitions -->
 
-
-
-
-	<!-- Pathway -->
-	<!--
+	<!-- ###################################################################### -->
+	
+	<!-- 
+		Pathway 
         This is the root element of the structure, it encloses
         a complex type sequence of Comment, Graphics, DataNode,
         Interaction, Line, Label, Link, Shape, Group, InfoBox,
         Legend, Biopax
 	-->
-
-
-
-
-
+	
 	<xsd:element name="Pathway">
 		<xsd:complexType>
 			<xsd:sequence>
-
 				<xsd:group ref="gpml:CommentGroup"/>
-
 				<xsd:element name="Graphics" minOccurs="0" maxOccurs="1">
 					<xsd:complexType>
-						<xsd:attribute name="BoardWidth" type="gpml:Dimension"
-									   use="required"/>
-						<xsd:attribute name="BoardHeight" type="gpml:Dimension"
-									   use="required"/>
+						<xsd:attribute name="BoardWidth" type="gpml:Dimension" use="required"/>
+						<xsd:attribute name="BoardHeight" type="gpml:Dimension" use="required"/>
 					</xsd:complexType>
 				</xsd:element>
 
@@ -226,36 +213,20 @@
 				<xsd:element ref="gpml:InfoBox" minOccurs="1" maxOccurs="1" />
 
 				<xsd:element ref="gpml:Legend" minOccurs="0" maxOccurs="1"/>
-
+				
 				<xsd:element ref="gpml:Bibliography" minOccurs="0" maxOccurs="1"/>
-
-				<xsd:element ref="gpml:openControlledVocabulary" minOccurs="0" maxOccurs="unbounded"/>
-
+				
+				<xsd:element ref="gpml:Ontologies" minOccurs="0" maxOccurs="1"/>
 			</xsd:sequence>
+			
 			<!-- Metadata for the pathway -->
-			<xsd:attribute name="Name" type="xsd:string" use="required">
-				<!--  GenMAPP Pathway Title -->
-			</xsd:attribute>
+			<xsd:attribute name="Name" type="xsd:string" use="required"/>
 
-			<xsd:attribute name="Organism" type="xsd:string" use="optional">
-				<!-- Organism is not a field in the
-                        GenMAPP database at this time, but we want to preserve this
-                        information when importing maps, and also when exporting maps.
-                        GenMAPP maps have the organism implied from the
-                        filename. -->
-			</xsd:attribute>
+			<xsd:attribute name="Organism" type="xsd:string" use="optional"/>
 
-			<xsd:attribute name="Data-Source" type="xsd:string" use="optional">
-				<!-- On import to GenMAPP,
-                        Data-Source value could be 'KEGG', 'Cytoscape', etc.  On export
-                        from GenMAPP, value should be 'GenMAPP' with version
-                        number. -->
-			</xsd:attribute>
+			<xsd:attribute name="Data-Source" type="xsd:string" use="optional"/>
 
-			<xsd:attribute name="Version" type="xsd:string" use="optional">
-				<!-- GenMAPP version, use for export
-                    of maps from GenMAPP only. -->
-			</xsd:attribute>
+			<xsd:attribute name="Version" type="xsd:string" use="optional"/>
 
 			<xsd:attribute name="Author" type="xsd:string" use="optional"/>
 
@@ -269,28 +240,25 @@
 				<!-- Last modification date, in the form of YYYYMMDD -->
 			</xsd:attribute>
 
-			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
-
+			<!-- Not separate elements but a reference to the elements at the end of the GPML -->
+			<xsd:attribute name="PublicationXrefRef" type="xsd:string" use="optional" />
+			
+			<xsd:attribute name="OntologyTagRef" type="xsd:string" use="optional" />		
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Pathway -->
 
+	<!-- ###################################################################### -->
 
-
-
-	<!-- Data Node, State -->
-	<!--
+	<!-- 
+		Data Node 
         These are the elements with biological context
-        forming the basis of the biological pathway,
-        Moreover State should always be attached with a Data Node
-         -->
-
-
-
-
+        forming the basis of the biological pathway
+    -->
+	
 	<xsd:element name="DataNode">
-		<!-- DataNode is the old GeneProduct, a gene in GenMAPP
-                terminology. -->
+		<!-- DataNode represents all possible biological entities in a pathway
+			 like GeneProduct, Metabolite, Pathway, Protein, RNA, Unknown. -->
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup"/>
@@ -312,23 +280,30 @@
 				</xsd:element>
 			</xsd:sequence>
 
-			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="PublicationXrefRef" type="xsd:string" use="optional" />
+
 			<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
 
 			<xsd:attribute name="TextLabel" use="required" type="xsd:string"/>
 
 			<xsd:attribute name="Type" type="xsd:string" default="Unknown">
-				<!-- Old versions of GPML only allowed these values for Type:
-                    "Protein", "Rna", "Complex", "GeneProduct", "Metabolite" and "Unknown".
+				<!-- Basic GPML types are:
+                    "Protein", "Rna", "GeneProduct", "Metabolite", "Pathway" and "Unknown".
                     It's recommended that you use these values as often as possible. -->
 			</xsd:attribute>
-
 		</xsd:complexType>
-
 	</xsd:element>
 	<!-- End: DataNode -->
-	<!-- State -->
+	
+	<!-- ###################################################################### -->
+
+	<!-- 
+		State 
+        Always linked to a DataNode representing a specific state of the biological 
+		entity (e.g. phosphorylation, genetic variants, etc)
+    -->
+	
 	<xsd:element name="State">
 		<xsd:complexType>
 			<xsd:sequence>
@@ -353,9 +328,12 @@
 				</xsd:element>
 			</xsd:sequence>
 
-			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+			<xsd:attribute name="PublicationXrefRef" type="xsd:string" use="optional" />
+
 			<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
-			<xsd:attribute name="GraphRef" type="xsd:IDREF" use="optional" />
+			
+			<!-- TODO: I think this should be required since a state always needs to be linked to a DataNode -->
+			<xsd:attribute name="GraphRef" type="xsd:IDREF" use="required" />
 
 			<xsd:attribute name="TextLabel" use="required" type="xsd:string"/>
 
@@ -363,24 +341,19 @@
 			<!-- Biological modification type. suggested values: Phosphorylated, Glycosylated, Activated, ... !-->
 
 		</xsd:complexType>
-
 	</xsd:element>
 	<!-- End: State -->
 
+	<!-- ###################################################################### -->
 
-
-
-	<!-- Grapical Line, Interaction -->
-	<!--
+	<!-- 
+		Grapical Line, Interaction  
         These are the only elements which can be used to connect data nodes, for
         implementing any kind of connections or interactions.
-        They are different because GraphicalLine can be used anywhere on the Pathway
-        to connect any shapes (no biological meaning) while Interaction has to be
-        attached to a data node on both ends otherwise the Pathway would be unsound
+		Interactions represent biological relation between entities - should always be attached
+		to DataNodes
+		GraphicalLines are graphical annotations without semantic meaning
     -->
-
-
-
 
 	<xsd:element name="GraphicalLine">
 		<xsd:complexType>
@@ -424,12 +397,15 @@
 				</xsd:element>
 			</xsd:sequence>
 			<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+			
+			<xsd:attribute name="PublicationXrefRef" type="xsd:string" use="optional" />
+
 			<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="Type" type="xsd:string" use="optional" />
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Graphical Line -->
+	
 	<!-- Interaction -->
 	<xsd:element name="Interaction">
 		<xsd:complexType>
@@ -479,29 +455,27 @@
 				</xsd:element>
 			</xsd:sequence>
 			<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
-			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+			
+			<xsd:attribute name="PublicationXrefRef" type="xsd:string" use="optional" />
+			
 			<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="Type" type="xsd:string" use="optional" />
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Interaction -->
 
+	<!-- ###################################################################### -->
 
-
-	<!-- Label -->
-	<!--
-        An element to attach simple
-        labels to the pathway
+	<!-- 
+		Label
+        An element to attach simple labels to the pathway
+		No semantic meaning - graphical attributes
     -->
 
 	<xsd:element name="Label">
 
 		<xsd:complexType>
-			<!--  This is text on a GenMAPP map that
-                can have associated comments. -->
-
 			<xsd:sequence>
-
 				<xsd:group ref="gpml:CommentGroup"/>
 
 				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
@@ -520,7 +494,8 @@
 			<!-- for a reference to a url !-->
 			<xsd:attribute name="Href" use="optional" type="xsd:string" />
 
-			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+			<!-- TODO: does a label need a publication xref? -->
+			<xsd:attribute name="PublicationXrefRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
 
@@ -530,18 +505,17 @@
 	</xsd:element>
 	<!-- End: Label -->
 
+	<!-- ###################################################################### -->
 
-	<!-- Shape -->
-	<!-- Graphical elements, shapes with a text label  -->
+	<!-- 
+		Shape
+        Graphical elements - shapes with or without a text label
+    -->
 
 	<xsd:element name="Shape">
-
 		<xsd:complexType>
-
 			<xsd:sequence>
-
 				<xsd:group ref="gpml:CommentGroup" />
-
 				<xsd:element name="Graphics" minOccurs="1" maxOccurs="1">
 					<xsd:complexType>
 						<xsd:attributeGroup ref="gpml:RectAttributes"/>
@@ -556,71 +530,62 @@
 
 			</xsd:sequence>
 
-			<xsd:attribute name="BiopaxRef" type="xsd:string" use="optional" />
+			<!-- TODO: does a shape need a publication xref? -->
+			<xsd:attribute name="PublicationXrefRef" type="xsd:string" use="optional" />
 			<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 			<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
 
 			<xsd:attribute name="TextLabel" use="optional" type="xsd:string"/>
-
 		</xsd:complexType>
 
 	</xsd:element>
 	<!-- End: Shape -->
 
+	<!-- ###################################################################### -->
 
-	<!-- Group -->
-	<!--
-        All pathway elements which can be selected, even a group
-        have a GroupRef attribute, can be used to attach them
-        to a specific group.
-        Thus for eg some proteins with certain attributes can be
-        grouped together, then even those groups could be
-        grouped together.
-        Depending on the elements selected, groups can be of 4 types:
-        None, Pathway, Group, Complex
-     -->
-
+	<!-- 
+		Group
+		Elements in the pathway can be grouped. 
+		Basic GPML group styles are: 
+		None, Pathway, Group, Complex
+	-->
 
 	<xsd:element name="Group">
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:group ref="gpml:CommentGroup" />
 			</xsd:sequence>
-			<xsd:attribute name="BiopaxRef" type="xsd:string"
-						   use="optional" />
+			<xsd:attribute name="PublicationXrefRef" type="xsd:string" use="optional" />
+			
+			<!-- TODO: needed? --> 
 			<xsd:attribute name="GroupId" type="xsd:string" use="optional" />
-			<xsd:attribute name="GroupRef" type="xsd:string"
-						   use="optional" />
+			
+			<!-- TODO: can a group be part of a group? -->
+			<xsd:attribute name="GroupRef" type="xsd:string" use="optional" />
+			
 			<xsd:attribute name="Style" type="xsd:string" default="None" />
-			<xsd:attribute name="TextLabel" type="xsd:string"
-						   use="optional" />
+			<xsd:attribute name="TextLabel" type="xsd:string" use="optional" />
 			<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Group -->
 
+	<!-- ###################################################################### -->
 
-
-
-	<!-- InfoBox, Legend -->
-	<!--
-        Used to annotate the Pathway
-    -->
-
-
-
+	<!-- 
+		InfoBox, Legend
+		General properties/annotations of the pathway
+	-->
 
 	<xsd:element name="InfoBox">
-		<!-- InfoBox element holds the
-            coordinates on the GenMAPP layout where the Information kept in the
-            Info table will be displayed in the mapp. -->
-
+		<!-- InfoBox element holds the coordinates where name and organism are displayed in the pathway -->
 		<xsd:complexType>
 			<xsd:attribute name="CenterX" type="xsd:float" use="required"/>
 			<xsd:attribute name="CenterY" type="xsd:float" use="required"/>
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: InfoBox -->
+	
 	<!-- Legend -->
 	<xsd:element name="Legend">
 		<xsd:complexType>
@@ -631,37 +596,54 @@
 	<!-- End: Legend -->
 
 
-	<!-- Bibliography -->
-	<!--
-        PublicationXref tag
-    -->
+	<!-- ###################################################################### -->
 
+	<!-- 
+		Bibliography
+		List of all publication xrefs referenced in the pathway
+	-->
 
 	<xsd:element name="Bibliography">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="Xref" minOccurs="0" maxOccurs="unbounded">
+				<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbound">
+					<!-- TODO: should we use a GraphId to reference the publication xrefs or create another unique id -->
+					<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 					<xsd:complexType>
-						<xsd:attribute name="ID" type="xsd:string" use="required"/>
-						<xsd:attribute name="Database" type="xsd:string" use="required"/>
+						<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
+							<xsd:complexType>
+								<xsd:attribute name="ID" type="xsd:string" use="required"/>
+								<xsd:attribute name="Database" type="xsd:string" use="required"/>
+							</xsd:complexType>
+						</xsd:element>
+						<xsd:element name="Author" minOccurs="0" maxOccurs="unbounded">
+							<xsd:complexType>
+								<xsd:attribute name="Name" type="xsd:string" use="required"/>
+							</xsd:complexType>
+						</xsd:element>
 					</xsd:complexType>
-				</xsd:element>
-				<xsd:element name="Author" minOccurs="0" maxOccurs="unbounded">
-					<xsd:complexType>
-						<xsd:attribute name="Name" type="xsd:string" use="required"/>
-					</xsd:complexType>
+					<xsd:attribute name="Title" use="required"/>
+					<xsd:attribute name="Year" use="optional"/>
+					<xsd:attribute name="URL" use="required"/>
+					<xsd:attribute name="Source" use="optional"/>
 				</xsd:element>
 			</xsd:sequence>
-			<xsd:attribute name="Title" use="required"/>
-			<xsd:attribute name="Year" use="required"/>
 		</xsd:complexType>
 	</xsd:element>
-	<!-- End: Biopax -->
+	<!-- End: Bibliography -->
 
-	<xsd:element name="openControlledVocabulary">
+	<!-- ###################################################################### -->
+
+	<!-- 
+		Ontologies
+		List of all OntologyTags used for the pathway
+	-->
+	<xsd:element name="Ontologies">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="OntologyTag" maxOccurs="unbounded">
+				<xsd:element name="OntologyTag" minOccurs="0" maxOccurs="unbounded">
+				<!-- TODO: should we use a GraphId to reference the ontologytag or create another unique id -->
+					<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 					<xsd:complexType>
 						<xsd:attribute name="ID" type="xsd:string" use="required"/>
 						<xsd:attribute name="Term" type="xsd:string" use="required"/>
@@ -671,7 +653,4 @@
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
-
-
 </xsd:schema>
-        
