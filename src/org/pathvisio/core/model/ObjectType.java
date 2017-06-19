@@ -56,7 +56,7 @@ public enum ObjectType
 	BIOPAX ("Biopax"),
 	
 	/** a pool of ontology tags*/
-	ONTOLOGY ("openControlledVocabulary"),
+	ONTOLOGY ("Ontologies"),
 
 	/** Pub Xref details */
 	BIB ("Bibliography"),

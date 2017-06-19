@@ -269,6 +269,7 @@
 						<xsd:attributeGroup ref="gpml:ShapeStyleAttributes"/>
 						<xsd:attribute name="FillColor" type="gpml:ColorType" default="White"/>
 						<xsd:attribute name="ShapeType" type="xsd:string" default="Rectangle"/>
+						<xsd:attribute name="BackgroundImage" type="xsd:string"/>
 						<xsd:attribute name="ZOrder" type="xsd:integer" use="optional"/>
 					</xsd:complexType>
 				</xsd:element>
@@ -606,28 +607,30 @@
 	<xsd:element name="Bibliography">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbound">
+				<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
 					<!-- TODO: should we use a GraphId to reference the publication xrefs or create another unique id -->
-					<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 					<xsd:complexType>
-						<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
-							<xsd:complexType>
-								<xsd:attribute name="ID" type="xsd:string" use="required"/>
-								<xsd:attribute name="Database" type="xsd:string" use="required"/>
-							</xsd:complexType>
-						</xsd:element>
-						<xsd:element name="Author" minOccurs="0" maxOccurs="unbounded">
-							<xsd:complexType>
-								<xsd:attribute name="Name" type="xsd:string" use="required"/>
-							</xsd:complexType>
-						</xsd:element>
+						<xsd:sequence>
+							<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
+								<xsd:complexType>
+									<xsd:attribute name="ID" type="xsd:string" use="required"/>
+									<xsd:attribute name="Database" type="xsd:string" use="required"/>
+								</xsd:complexType>
+							</xsd:element>
+							<xsd:element name="Author" minOccurs="0" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:attribute name="Name" type="xsd:string" use="required"/>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+						<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 					</xsd:complexType>
-					<xsd:attribute name="Title" use="required"/>
-					<xsd:attribute name="Year" use="optional"/>
-					<xsd:attribute name="URL" use="required"/>
-					<xsd:attribute name="Source" use="optional"/>
 				</xsd:element>
 			</xsd:sequence>
+			<xsd:attribute name="Title" use="required"/>
+			<xsd:attribute name="Year" use="optional"/>
+			<xsd:attribute name="URL" use="required"/>
+			<xsd:attribute name="Source" use="optional"/>
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Bibliography -->
@@ -643,11 +646,11 @@
 			<xsd:sequence>
 				<xsd:element name="OntologyTag" minOccurs="0" maxOccurs="unbounded">
 				<!-- TODO: should we use a GraphId to reference the ontologytag or create another unique id -->
-					<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 					<xsd:complexType>
 						<xsd:attribute name="ID" type="xsd:string" use="required"/>
 						<xsd:attribute name="Term" type="xsd:string" use="required"/>
 						<xsd:attribute name="Ontology" type="xsd:string" use="required"/>
+						<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
 					</xsd:complexType>
 				</xsd:element>
 			</xsd:sequence>
