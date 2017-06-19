@@ -624,13 +624,13 @@
 							</xsd:element>
 						</xsd:sequence>
 						<xsd:attribute name="GraphId" type="xsd:ID" use="required" />
+                        <xsd:attribute name="Title" use="required"/>
+                        <xsd:attribute name="Year" use="optional"/>
+                        <xsd:attribute name="URL" use="required"/>
+                        <xsd:attribute name="Source" use="optional"/>
 					</xsd:complexType>
 				</xsd:element>
 			</xsd:sequence>
-			<xsd:attribute name="Title" use="required"/>
-			<xsd:attribute name="Year" use="optional"/>
-			<xsd:attribute name="URL" use="required"/>
-			<xsd:attribute name="Source" use="optional"/>
 		</xsd:complexType>
 	</xsd:element>
 	<!-- End: Bibliography -->
