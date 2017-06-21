@@ -586,7 +586,7 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 			return Z_ORDER_DEFAULT;
 		case ONTOLOGY:
 			return Z_ORDER_DEFAULT;
-		case BIB:
+		case CITATION:
 			return Z_ORDER_DEFAULT;
 		case GROUP:
 			return Z_ORDER_GROUP;

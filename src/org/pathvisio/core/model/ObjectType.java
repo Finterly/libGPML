@@ -56,10 +56,10 @@ public enum ObjectType
 	BIOPAX ("Biopax"),
 	
 	/** a pool of ontology tags*/
-	ONTOLOGY ("Ontologies"),
+	ONTOLOGY ("OntologyTerms"),
 
 	/** Pub Xref details */
-	BIB ("Bibliography"),
+	CITATION ("Citations"),
 
 	/** similar to DataNode, but State is always
 	 * attached to - and specified relative to - another DataNode */

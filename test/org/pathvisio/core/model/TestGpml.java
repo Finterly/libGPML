@@ -128,6 +128,8 @@ public class TestGpml extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 
+		assertEquals(3,pwy.getCitations().get(0).getAuthors().size());
+
 //		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/group.gpml");
 		File tmp = File.createTempFile("test", "gpml");
 		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
@@ -138,6 +140,25 @@ public class TestGpml extends TestCase
 	public static void testOntology17a() throws ConverterException, IOException
 	{
 		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/ontology-testcase.gpml");
+		assertTrue (in.exists());
+
+		Pathway pwy = new Pathway();
+		pwy.readFromXml(in, true);
+
+		for(PathwayElement e:pwy.getDataObjects())
+			System.out.println(e.getClass());
+
+//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/group.gpml");
+		File tmp = File.createTempFile("test", "gpml");
+		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+	}
+
+	/**
+	 * Test reading anchors, points graphId usage
+	 */
+	public static void testAnchors17a() throws ConverterException, IOException
+	{
+		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/anchors-testcase.gpml");
 		assertTrue (in.exists());
 
 		Pathway pwy = new Pathway();

@@ -92,6 +92,9 @@ public class Pathway
 	 * List of contained dataObjects
 	 */
 	private List<PathwayElement> dataObjects = new ArrayList<PathwayElement>();
+	private List<OntologyTag> ontologyTags = new ArrayList<OntologyTag>();
+	private List<Citation> citations = new ArrayList<Citation>();
+
 
 	/**
 	 * Getter for dataobjects contained. There is no setter, you
@@ -926,16 +929,11 @@ public class Pathway
 		}
 	}
 
-	List<String> authors = new ArrayList<String>();
-	public void addAuthor(String author){
-		authors.add(author);
+
+	public void addOntologyTag(String id, String term, String ontology, String ontologyTermId){
+		ontologyTags.add(new OntologyTag(id,term,ontology,ontologyTermId));
 	}
 
-	public List<String> getAuthors(){
-		return authors;
-	}
-
-	List<OntologyTag> ontologyTags = new ArrayList<OntologyTag>();
 	public void addOntologyTag(String id, String term, String ontology){
 		ontologyTags.add(new OntologyTag(id,term,ontology));
 	}
@@ -943,6 +941,15 @@ public class Pathway
 	public List<OntologyTag> getOntologyTags(){
 		return ontologyTags;
 	}
+
+	public void addCitation(Citation citation){
+		citations.add(citation);
+	}
+
+	public List<Citation> getCitations(){
+		return citations;
+	}
+
 	/**
 	 * List of Biopax references to be deleted.
 	 * The deletion is done before to save the pathway.

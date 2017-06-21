@@ -24,7 +24,15 @@ public class OntologyTag {
 	private String id;
 	private String term;
 	private String ontology;
-		
+	private String ontologyTermId;
+
+	public OntologyTag(String id, String term, String ontology, String ontologyTermId) {
+		this.id = id;
+		this.term = term;
+		this.ontology = ontology;
+		this.ontologyTermId = ontologyTermId;
+	}
+
 	public OntologyTag(String id, String term, String ontology) {
 		this.id = id;
 		this.term = term;
@@ -41,6 +49,10 @@ public class OntologyTag {
 
 	public String getOntology() {
 		return ontology;
+	}
+
+	public String getOntologyTermId() {
+		return ontologyTermId;
 	}
 
 
