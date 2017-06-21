@@ -137,7 +137,7 @@ public class Test extends TestCase implements PathwayListener, PathwayElementLis
 		l.setGeneratedGraphId();
 
 		// store
-		data.writeToXml(temp, false);
+		data.writeToXml(temp, true);
 
 		// and read back
 		Pathway p2 = new Pathway();

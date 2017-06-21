@@ -59,8 +59,8 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		result.put("PublicationXref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Attribute@key", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Attribute@value", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("Pathway.Graphics@boardWidth", new AttributeInfo ("gpml:Dimension", null, "required"));
-		result.put("Pathway.Graphics@boardHeight", new AttributeInfo ("gpml:Dimension", null, "required"));
+		result.put("Pathway@boardWidth", new AttributeInfo ("gpml:Dimension", null, "optional"));
+		result.put("Pathway@boardHeight", new AttributeInfo ("gpml:Dimension", null, "optional"));
 		result.put("Pathway@name", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Pathway@organism", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@dataSource", new AttributeInfo ("xsd:string", null, "optional"));
@@ -70,125 +70,125 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		result.put("Pathway@email", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@license", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@lastModified", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("DataNode.Graphics@centerX", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("DataNode.Graphics@centerY", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("DataNode.Graphics@width", new AttributeInfo ("gpml:Dimension", null, "required"));
-		result.put("DataNode.Graphics@height", new AttributeInfo ("gpml:Dimension", null, "required"));
-		result.put("DataNode.Graphics@fontName", new AttributeInfo ("xsd:string", "Arial", "optional"));
-		result.put("DataNode.Graphics@fontStyle", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("DataNode.Graphics@fontDecoration", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("DataNode.Graphics@fontStrikethru", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("DataNode.Graphics@fontWeight", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("DataNode.Graphics@fontSize", new AttributeInfo ("xsd:nonNegativeInteger", "12", "optional"));
-		result.put("DataNode.Graphics@align", new AttributeInfo ("xsd:string", "Center", "optional"));
-		result.put("DataNode.Graphics@vAlign", new AttributeInfo ("xsd:string", "Top", "optional"));
-		result.put("DataNode.Graphics@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
-		result.put("DataNode.Graphics@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
-		result.put("DataNode.Graphics@lineThickness", new AttributeInfo ("xsd:float", "1.0", "optional"));
-		result.put("DataNode.Graphics@fillColor", new AttributeInfo ("gpml:ColorType", "White", "optional"));
-		result.put("DataNode.Graphics@shapeType", new AttributeInfo ("xsd:string", "Rectangle", "optional"));
-		result.put("DataNode.Graphics@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
+		result.put("DataNode@centerX", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("DataNode@centerY", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("DataNode@width", new AttributeInfo ("gpml:Dimension", null, "required"));
+		result.put("DataNode@height", new AttributeInfo ("gpml:Dimension", null, "required"));
+		result.put("DataNode@fontName", new AttributeInfo ("xsd:string", "Arial", "optional"));
+		result.put("DataNode@fontStyle", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("DataNode@fontDecoration", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("DataNode@fontStrikethru", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("DataNode@fontWeight", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("DataNode@fontSize", new AttributeInfo ("xsd:nonNegativeInteger", "12", "optional"));
+		result.put("DataNode@align", new AttributeInfo ("xsd:string", "Center", "optional"));
+		result.put("DataNode@vAlign", new AttributeInfo ("xsd:string", "Top", "optional"));
+		result.put("DataNode@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
+		result.put("DataNode@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
+		result.put("DataNode@lineThickness", new AttributeInfo ("xsd:float", "1.0", "optional"));
+		result.put("DataNode@fillColor", new AttributeInfo ("gpml:ColorType", "White", "optional"));
+		result.put("DataNode@shapeType", new AttributeInfo ("xsd:string", "Rectangle", "optional"));
+		result.put("DataNode@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
 		result.put("DataNode.Xref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("DataNode.Xref@ID", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("DataNode@graphId", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("DataNode@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("DataNode@textLabel", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("DataNode@type", new AttributeInfo ("xsd:string", "Unknown", "optional"));
-		result.put("State.Graphics@relX", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("State.Graphics@relY", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("State.Graphics@width", new AttributeInfo ("gpml:Dimension", null, "required"));
-		result.put("State.Graphics@height", new AttributeInfo ("gpml:Dimension", null, "required"));
-		result.put("State.Graphics@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
-		result.put("State.Graphics@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
-		result.put("State.Graphics@lineThickness", new AttributeInfo ("xsd:float", "1.0", "optional"));
-		result.put("State.Graphics@fillColor", new AttributeInfo ("gpml:ColorType", "White", "optional"));
-		result.put("State.Graphics@shapeType", new AttributeInfo ("xsd:string", "Rectangle", "optional"));
-		result.put("State.Graphics@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
+		result.put("State@relX", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("State@relY", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("State@width", new AttributeInfo ("gpml:Dimension", null, "required"));
+		result.put("State@height", new AttributeInfo ("gpml:Dimension", null, "required"));
+		result.put("State@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
+		result.put("State@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
+		result.put("State@lineThickness", new AttributeInfo ("xsd:float", "1.0", "optional"));
+		result.put("State@fillColor", new AttributeInfo ("gpml:ColorType", "White", "optional"));
+		result.put("State@shapeType", new AttributeInfo ("xsd:string", "Rectangle", "optional"));
+		result.put("State@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
 		result.put("State.Xref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("State.Xref@ID", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("State@graphId", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("State@graphRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
 		result.put("State@textLabel", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("State@stateType", new AttributeInfo ("xsd:string", "Unknown", "optional"));
-		result.put("GraphicalLine.Graphics.Point@x", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("GraphicalLine.Graphics.Point@y", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("GraphicalLine.Graphics.Point@relX", new AttributeInfo ("xsd:float", null, "optional"));
-		result.put("GraphicalLine.Graphics.Point@relY", new AttributeInfo ("xsd:float", null, "optional"));
-		result.put("GraphicalLine.Graphics.Point@graphRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
-		result.put("GraphicalLine.Graphics.Point@graphId", new AttributeInfo ("xsd:ID", null, "optional"));
-		result.put("GraphicalLine.Graphics.Point@arrowHead", new AttributeInfo ("xsd:string", "Line", "optional"));
-		result.put("GraphicalLine.Graphics.Anchor@position", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("GraphicalLine.Graphics.Anchor@graphId", new AttributeInfo ("xsd:ID", null, "required"));
-		result.put("GraphicalLine.Graphics.Anchor@shape", new AttributeInfo ("xsd:string", "ReceptorRound", "optional"));
-		result.put("GraphicalLine.Graphics@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
-		result.put("GraphicalLine.Graphics@lineThickness", new AttributeInfo ("xsd:float", null, "optional"));
-		result.put("GraphicalLine.Graphics@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
-		result.put("GraphicalLine.Graphics@connectorType", new AttributeInfo ("xsd:string", "Straight", "optional"));
-		result.put("GraphicalLine.Graphics@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
+		result.put("GraphicalLine.Point@x", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("GraphicalLine.Point@y", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("GraphicalLine.Point@relX", new AttributeInfo ("xsd:float", null, "optional"));
+		result.put("GraphicalLine.Point@relY", new AttributeInfo ("xsd:float", null, "optional"));
+		result.put("GraphicalLine.Point@graphRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
+		result.put("GraphicalLine.Point@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("GraphicalLine.Point@arrowHead", new AttributeInfo ("xsd:string", "Line", "optional"));
+		result.put("GraphicalLine.Anchor@position", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("GraphicalLine.Anchor@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("GraphicalLine.Anchor@shape", new AttributeInfo ("xsd:string", "ReceptorRound", "optional"));
+		result.put("GraphicalLine@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
+		result.put("GraphicalLine@lineThickness", new AttributeInfo ("xsd:float", null, "optional"));
+		result.put("GraphicalLine@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
+		result.put("GraphicalLine@connectorType", new AttributeInfo ("xsd:string", "Straight", "optional"));
+		result.put("GraphicalLine@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
 		result.put("GraphicalLine@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("GraphicalLine@graphId", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("GraphicalLine@type", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Interaction.Graphics.Point@x", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("Interaction.Graphics.Point@y", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("Interaction.Graphics.Point@relX", new AttributeInfo ("xsd:float", null, "optional"));
-		result.put("Interaction.Graphics.Point@relY", new AttributeInfo ("xsd:float", null, "optional"));
-		result.put("Interaction.Graphics.Point@graphRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
-		result.put("Interaction.Graphics.Point@graphId", new AttributeInfo ("xsd:ID", null, "optional"));
-		result.put("Interaction.Graphics.Point@arrowHead", new AttributeInfo ("xsd:string", "Line", "optional"));
-		result.put("Interaction.Graphics.Anchor@position", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("Interaction.Graphics.Anchor@graphId", new AttributeInfo ("xsd:ID", null, "required"));
-		result.put("Interaction.Graphics.Anchor@shape", new AttributeInfo ("xsd:string", "ReceptorRound", "optional"));
-		result.put("Interaction.Graphics@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
-		result.put("Interaction.Graphics@lineThickness", new AttributeInfo ("xsd:float", null, "optional"));
-		result.put("Interaction.Graphics@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
-		result.put("Interaction.Graphics@connectorType", new AttributeInfo ("xsd:string", "Straight", "optional"));
-		result.put("Interaction.Graphics@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
+		result.put("Interaction.Point@x", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("Interaction.Point@y", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("Interaction.Point@relX", new AttributeInfo ("xsd:float", null, "optional"));
+		result.put("Interaction.Point@relY", new AttributeInfo ("xsd:float", null, "optional"));
+		result.put("Interaction.Point@graphRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
+		result.put("Interaction.Point@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("Interaction.Point@arrowHead", new AttributeInfo ("xsd:string", "Line", "optional"));
+		result.put("Interaction.Anchor@position", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("Interaction.Anchor@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("Interaction.Anchor@shape", new AttributeInfo ("xsd:string", "ReceptorRound", "optional"));
+		result.put("Interaction@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
+		result.put("Interaction@lineThickness", new AttributeInfo ("xsd:float", null, "optional"));
+		result.put("Interaction@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
+		result.put("Interaction@connectorType", new AttributeInfo ("xsd:string", "Straight", "optional"));
+		result.put("Interaction@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
 		result.put("Interaction.Xref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Interaction.Xref@ID", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Interaction@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Interaction@graphId", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("Interaction@type", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Label.Graphics@centerX", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("Label.Graphics@centerY", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("Label.Graphics@width", new AttributeInfo ("gpml:Dimension", null, "required"));
-		result.put("Label.Graphics@height", new AttributeInfo ("gpml:Dimension", null, "required"));
-		result.put("Label.Graphics@fontName", new AttributeInfo ("xsd:string", "Arial", "optional"));
-		result.put("Label.Graphics@fontStyle", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("Label.Graphics@fontDecoration", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("Label.Graphics@fontStrikethru", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("Label.Graphics@fontWeight", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("Label.Graphics@fontSize", new AttributeInfo ("xsd:nonNegativeInteger", "12", "optional"));
-		result.put("Label.Graphics@align", new AttributeInfo ("xsd:string", "Center", "optional"));
-		result.put("Label.Graphics@vAlign", new AttributeInfo ("xsd:string", "Top", "optional"));
-		result.put("Label.Graphics@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
-		result.put("Label.Graphics@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
-		result.put("Label.Graphics@lineThickness", new AttributeInfo ("xsd:float", "1.0", "optional"));
-		result.put("Label.Graphics@fillColor", new AttributeInfo ("gpml:ColorType", "Transparent", "optional"));
-		result.put("Label.Graphics@shapeType", new AttributeInfo ("xsd:string", "None", "optional"));
-		result.put("Label.Graphics@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
+		result.put("Label@centerX", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("Label@centerY", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("Label@width", new AttributeInfo ("gpml:Dimension", null, "required"));
+		result.put("Label@height", new AttributeInfo ("gpml:Dimension", null, "required"));
+		result.put("Label@fontName", new AttributeInfo ("xsd:string", "Arial", "optional"));
+		result.put("Label@fontStyle", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("Label@fontDecoration", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("Label@fontStrikethru", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("Label@fontWeight", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("Label@fontSize", new AttributeInfo ("xsd:nonNegativeInteger", "12", "optional"));
+		result.put("Label@align", new AttributeInfo ("xsd:string", "Center", "optional"));
+		result.put("Label@vAlign", new AttributeInfo ("xsd:string", "Top", "optional"));
+		result.put("Label@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
+		result.put("Label@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
+		result.put("Label@lineThickness", new AttributeInfo ("xsd:float", "1.0", "optional"));
+		result.put("Label@fillColor", new AttributeInfo ("gpml:ColorType", "Transparent", "optional"));
+		result.put("Label@shapeType", new AttributeInfo ("xsd:string", "None", "optional"));
+		result.put("Label@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
 		result.put("Label@href", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Label@graphId", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("Label@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Label@textLabel", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("Shape.Graphics@centerX", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("Shape.Graphics@centerY", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("Shape.Graphics@width", new AttributeInfo ("gpml:Dimension", null, "required"));
-		result.put("Shape.Graphics@height", new AttributeInfo ("gpml:Dimension", null, "required"));
-		result.put("Shape.Graphics@fontName", new AttributeInfo ("xsd:string", "Arial", "optional"));
-		result.put("Shape.Graphics@fontStyle", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("Shape.Graphics@fontDecoration", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("Shape.Graphics@fontStrikethru", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("Shape.Graphics@fontWeight", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("Shape.Graphics@fontSize", new AttributeInfo ("xsd:nonNegativeInteger", "12", "optional"));
-		result.put("Shape.Graphics@align", new AttributeInfo ("xsd:string", "Center", "optional"));
-		result.put("Shape.Graphics@vAlign", new AttributeInfo ("xsd:string", "Top", "optional"));
-		result.put("Shape.Graphics@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
-		result.put("Shape.Graphics@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
-		result.put("Shape.Graphics@lineThickness", new AttributeInfo ("xsd:float", "1.0", "optional"));
-		result.put("Shape.Graphics@fillColor", new AttributeInfo ("gpml:ColorType", "Transparent", "optional"));
-		result.put("Shape.Graphics@shapeType", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("Shape.Graphics@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
-		result.put("Shape.Graphics@rotation", new AttributeInfo ("gpml:RotationType", "Top", "optional"));
+		result.put("Shape@centerX", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("Shape@centerY", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("Shape@width", new AttributeInfo ("gpml:Dimension", null, "required"));
+		result.put("Shape@height", new AttributeInfo ("gpml:Dimension", null, "required"));
+		result.put("Shape@fontName", new AttributeInfo ("xsd:string", "Arial", "optional"));
+		result.put("Shape@fontStyle", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("Shape@fontDecoration", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("Shape@fontStrikethru", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("Shape@fontWeight", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("Shape@fontSize", new AttributeInfo ("xsd:nonNegativeInteger", "12", "optional"));
+		result.put("Shape@align", new AttributeInfo ("xsd:string", "Center", "optional"));
+		result.put("Shape@vAlign", new AttributeInfo ("xsd:string", "Top", "optional"));
+		result.put("Shape@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
+		result.put("Shape@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
+		result.put("Shape@lineThickness", new AttributeInfo ("xsd:float", "1.0", "optional"));
+		result.put("Shape@fillColor", new AttributeInfo ("gpml:ColorType", "Transparent", "optional"));
+		result.put("Shape@shapeType", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Shape@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
+		result.put("Shape@rotation", new AttributeInfo ("gpml:RotationType", "Top", "optional"));
 		result.put("Shape@graphId", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("Shape@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Shape@textLabel", new AttributeInfo ("xsd:string", null, "optional"));
@@ -201,6 +201,14 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		result.put("InfoBox@centerY", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("Legend@centerX", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("Legend@centerY", new AttributeInfo ("xsd:float", null, "required"));
+		result.put("Citations.Citation.Xref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Citations.Citation.Xref@ID", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Citations.Citation.Author@name", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Citations.Citation@citationId", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Citations.Citation@title", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Citations.Citation@URL", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Citations.Citation@source", new AttributeInfo ("xsd:string", null, "optional"));
+		result.put("Citations.Citation@year", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("OntologyTerms.OntologyTerm@ID", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("OntologyTerms.OntologyTerm@term", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("OntologyTerms.OntologyTerm@ontology", new AttributeInfo ("xsd:string", null, "required"));
@@ -269,7 +277,6 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			case DATANODE:
 				e = new Element("DataNode", getGpmlNamespace());
 				updateCommon (o, e);
-				e.addContent(new Element("Graphics", getGpmlNamespace()));
 				e.addContent(new Element("Xref", getGpmlNamespace()));
 				updateShapePosition(o, e);
 				updateShapeCommon(o, e);
@@ -279,7 +286,6 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			case STATE:
 				e = new Element("State", getGpmlNamespace());
 				updateCommon (o, e);
-				e.addContent(new Element("Graphics", getGpmlNamespace()));
 				e.addContent(new Element("Xref", getGpmlNamespace()));
 				updateStateData(o, e);
 				updateShapeCommon(o, e);
@@ -287,7 +293,6 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			case SHAPE:
 				e = new Element ("Shape", getGpmlNamespace());
 				updateCommon (o, e);
-				e.addContent(new Element("Graphics", getGpmlNamespace()));
 				updateShapePosition(o, e);
 				updateShapeCommon(o, e);
 				updateRotation(o, e);
@@ -296,7 +301,6 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			case LINE:
 				e = new Element("Interaction", getGpmlNamespace());
 				updateCommon (o, e);
-				e.addContent(new Element("Graphics", getGpmlNamespace()));
 				e.addContent(new Element("Xref", getGpmlNamespace()));
 				updateLine(o, e); // Xref
 				updateLineData(o, e);
@@ -307,7 +311,6 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			case GRAPHLINE:
 				e = new Element("GraphicalLine", getGpmlNamespace());
 				updateCommon (o, e);
-				e.addContent(new Element("Graphics", getGpmlNamespace()));
 				updateLineData(o, e);
 				updateLineStyle(o, e);
 				updateGraphId(o, e);
@@ -316,7 +319,6 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			case LABEL:
 				e = new Element("Label", getGpmlNamespace());
 				updateCommon (o, e);
-				e.addContent(new Element("Graphics", getGpmlNamespace()));
 				updateShapePosition(o, e);
 				updateShapeCommon(o, e);
 				updateHref(o, e);
@@ -453,8 +455,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 
 	protected void mapRotation(PathwayElement o, Element e) throws ConverterException
 	{
-    	Element graphics = e.getChild("Graphics", e.getNamespace());
-    	String rotation = getAttribute("Shape.Graphics", "rotation", graphics);
+    	String rotation = getAttribute("Shape", "rotation", e);
     	double result;
     	if (rotation.equals("Top"))
     	{
@@ -488,8 +489,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 	protected void mapShapeType(PathwayElement o, Element e) throws ConverterException
 	{
 		String base = e.getName();
-    	Element graphics = e.getChild("Graphics", e.getNamespace());
-    	IShape s= ShapeRegistry.fromName(getAttribute(base + ".Graphics", "shapeType", graphics));
+    	IShape s= ShapeRegistry.fromName(getAttribute(base, "shapeType", e));
     	if (ShapeType.DEPRECATED_MAP.containsKey(s)){
     		s = ShapeType.DEPRECATED_MAP.get(s);
     		o.setShapeType(s);
@@ -509,16 +509,14 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 
 	protected void updateRotation(PathwayElement o, Element e) throws ConverterException
 	{
-		Element jdomGraphics = e.getChild("Graphics", e.getNamespace());
-		setAttribute("Shape.Graphics", "rotation", jdomGraphics, Double.toString(o.getRotation()));
+		setAttribute("Shape", "rotation", e, Double.toString(o.getRotation()));
 	}
 	
 	protected void updateShapeType(PathwayElement o, Element e) throws ConverterException
 	{
 		String base = e.getName();
-		Element jdomGraphics = e.getChild("Graphics", e.getNamespace());
 		String shapeName = o.getShapeType().getName();
-		setAttribute(base + ".Graphics", "shapeType", jdomGraphics, shapeName);
+		setAttribute(base, "shapeType", e, shapeName);
 	}
 	
 	protected void updateHref(PathwayElement o, Element e) throws ConverterException
@@ -539,25 +537,23 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		// TODO dirty hack: the fact that state doesn't allow font data is a bug 
 		if (e.getName().equals ("State")) return;
 		
-    	Element graphics = e.getChild("Graphics", e.getNamespace());
-
-    	String fontSizeString = getAttribute(base + ".Graphics", "fontSize", graphics);
+    	String fontSizeString = getAttribute(base, "fontSize", e);
     	o.setMFontSize (Integer.parseInt(fontSizeString));
 
-    	String fontWeight = getAttribute(base + ".Graphics", "fontWeight", graphics);
-    	String fontStyle = getAttribute(base + ".Graphics", "fontStyle", graphics);
-    	String fontDecoration = getAttribute(base + ".Graphics", "fontDecoration", graphics);
-    	String fontStrikethru = getAttribute(base + ".Graphics", "fontStrikethru", graphics);
+    	String fontWeight = getAttribute(base, "fontWeight", e);
+    	String fontStyle = getAttribute(base, "fontStyle", e);
+    	String fontDecoration = getAttribute(base, "fontDecoration", e);
+    	String fontStrikethru = getAttribute(base, "fontStrikethru", e);
 
     	o.setBold (fontWeight != null && fontWeight.equals("Bold"));
     	o.setItalic (fontStyle != null && fontStyle.equals("Italic"));
     	o.setUnderline (fontDecoration != null && fontDecoration.equals("Underline"));
     	o.setStrikethru (fontStrikethru != null && fontStrikethru.equals("Strikethru"));
     	
-    	o.setFontName (getAttribute(base + ".Graphics", "fontName", graphics));
+    	o.setFontName (getAttribute(base, "fontName", e));
 	    
-		o.setValign(ValignType.fromGpmlName(getAttribute(base + ".Graphics", "vAlign", graphics)));
-		o.setAlign(AlignType.fromGpmlName(getAttribute(base + ".Graphics", "align", graphics)));
+		o.setValign(ValignType.fromGpmlName(getAttribute(base, "vAlign", e)));
+		o.setAlign(AlignType.fromGpmlName(getAttribute(base, "align", e)));
 	}
 	
 	protected void updateFontData(PathwayElement o, Element e) throws ConverterException
@@ -568,26 +564,24 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		// TODO dirty hack: the fact that state doesn't allow font data is a bug 
 		if (e.getName().equals ("State")) return;
 		
-		Element graphics = e.getChild("Graphics", e.getNamespace());
-		setAttribute(base + ".Graphics", "fontName", graphics, o.getFontName() == null ? "" : o.getFontName());
-		setAttribute(base + ".Graphics", "fontWeight", graphics, o.isBold() ? "Bold" : "Normal");
-		setAttribute(base + ".Graphics", "fontStyle", graphics, o.isItalic() ? "Italic" : "Normal");
-		setAttribute(base + ".Graphics", "fontDecoration", graphics, o.isUnderline() ? "Underline" : "Normal");
-		setAttribute(base + ".Graphics", "fontStrikethru", graphics, o.isStrikethru() ? "Strikethru" : "Normal");
-		setAttribute(base + ".Graphics", "fontSize", graphics, Integer.toString((int)o.getMFontSize()));
-		setAttribute(base + ".Graphics", "vAlign", graphics, o.getValign().getGpmlName());
-		setAttribute(base + ".Graphics", "align", graphics, o.getAlign().getGpmlName());
+		setAttribute(base, "fontName", e, o.getFontName() == null ? "" : o.getFontName());
+		setAttribute(base, "fontWeight", e, o.isBold() ? "Bold" : "Normal");
+		setAttribute(base, "fontStyle", e, o.isItalic() ? "Italic" : "Normal");
+		setAttribute(base, "fontDecoration", e, o.isUnderline() ? "Underline" : "Normal");
+		setAttribute(base, "fontStrikethru", e, o.isStrikethru() ? "Strikethru" : "Normal");
+		setAttribute(base, "fontSize", e, Integer.toString((int)o.getMFontSize()));
+		setAttribute(base, "vAlign", e, o.getValign().getGpmlName());
+		setAttribute(base, "align", e, o.getAlign().getGpmlName());
 	}
 
 	protected void mapShapePosition(PathwayElement o, Element e) throws ConverterException
 	{
 		String base = e.getName();
-		Element graphics = e.getChild("Graphics", e.getNamespace());
-    	o.setMCenterX (Double.parseDouble(getAttribute(base + ".Graphics", "centerX", graphics)));
-    	o.setMCenterY (Double.parseDouble(getAttribute(base + ".Graphics", "centerY", graphics)));
-		o.setMWidth (Double.parseDouble(getAttribute(base + ".Graphics", "width", graphics)));
-		o.setMHeight (Double.parseDouble(getAttribute(base + ".Graphics", "height", graphics)));
-		String zorder = graphics.getAttributeValue("zOrder");
+    	o.setMCenterX (Double.parseDouble(getAttribute(base , "centerX", e)));
+    	o.setMCenterY (Double.parseDouble(getAttribute(base , "centerY", e)));
+		o.setMWidth (Double.parseDouble(getAttribute(base , "width", e)));
+		o.setMHeight (Double.parseDouble(getAttribute(base , "height", e)));
+		String zorder = e.getAttributeValue("zOrder");
 		if (zorder != null)
 			o.setZOrder(Integer.parseInt(zorder));
 	}
@@ -595,13 +589,12 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 	protected void updateShapePosition(PathwayElement o, Element e) throws ConverterException
 	{
 		String base = e.getName();
-		Element graphics = e.getChild("Graphics", e.getNamespace());
-		
-		setAttribute(base + ".Graphics", "centerX", graphics, "" + o.getMCenterX());
-		setAttribute(base + ".Graphics", "centerY", graphics, "" + o.getMCenterY());
-		setAttribute(base + ".Graphics", "width", graphics, "" + o.getMWidth());
-		setAttribute(base + ".Graphics", "height", graphics, "" + o.getMHeight());
-		setAttribute(base + ".Graphics", "zOrder", graphics, "" + o.getZOrder());
+
+		setAttribute(base, "centerX", e, "" + o.getMCenterX());
+		setAttribute(base, "centerY", e, "" + o.getMCenterY());
+		setAttribute(base, "width", e, "" + o.getMWidth());
+		setAttribute(base, "height", e, "" + o.getMHeight());
+		setAttribute(base, "zOrder", e, "" + o.getZOrder());
 	}
 
 	protected void mapDataNode(PathwayElement o, Element e) throws ConverterException
@@ -644,12 +637,10 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
     		o.setGraphRef(ref);
     	}
 
-    	Element graphics = e.getChild("Graphics", e.getNamespace());
-
-    	o.setRelX(Double.parseDouble(getAttribute("State.Graphics", "relX", graphics)));
-    	o.setRelY(Double.parseDouble(getAttribute("State.Graphics", "relY", graphics)));
-		o.setMWidth (Double.parseDouble(getAttribute("State.Graphics", "width", graphics)));
-		o.setMHeight (Double.parseDouble(getAttribute("State.Graphics", "height", graphics)));
+    	o.setRelX(Double.parseDouble(getAttribute("State", "relX", e)));
+    	o.setRelY(Double.parseDouble(getAttribute("State", "relY", e)));
+		o.setMWidth (Double.parseDouble(getAttribute("State", "width", e)));
+		o.setMHeight (Double.parseDouble(getAttribute("State", "height", e)));
 
 		o.setDataNodeType (getAttribute("State", "stateType", e));
 		o.setGraphRef(getAttribute("State", "graphRef", e));
@@ -661,12 +652,11 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 	protected void updateStateData(PathwayElement o, Element e) throws ConverterException
 	{
 		String base = e.getName();
-		Element graphics = e.getChild("Graphics", e.getNamespace());
 
-		setAttribute(base + ".Graphics", "relX", graphics, "" + o.getRelX());
-		setAttribute(base + ".Graphics", "relY", graphics, "" + o.getRelY());
-		setAttribute(base + ".Graphics", "width", graphics, "" + o.getMWidth());
-		setAttribute(base + ".Graphics", "height", graphics, "" + o.getMHeight());
+		setAttribute(base, "relX", e, "" + o.getRelX());
+		setAttribute(base, "relY", e, "" + o.getRelY());
+		setAttribute(base, "width", e, "" + o.getMWidth());
+		setAttribute(base, "height", e, "" + o.getMHeight());
 		
 		setAttribute ("State", "stateType", e, o.getDataNodeType());
 		setAttribute ("State", "graphRef", e, o.getGraphRef());
@@ -678,10 +668,8 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 
 	protected void mapLineStyle(PathwayElement o, Element e) throws ConverterException
 	{
-    	Element graphics = e.getChild("Graphics", e.getNamespace());
-
     	String base = e.getName();
-		String style = getAttribute (base + ".Graphics", "lineStyle", graphics);
+		String style = getAttribute (base, "lineStyle", e);
 		
 		//Check for LineStyle.DOUBLE via arbitrary attribute
 		if ("Double".equals (o.getDynamicProperty(LineStyle.DOUBLE_LINE_KEY)))
@@ -693,29 +681,34 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			o.setLineStyle ((style.equals("Solid")) ? LineStyle.SOLID : LineStyle.DASHED);
 		}
     	
-    	String lt = getAttribute(base + ".Graphics", "lineThickness", graphics);
+    	String lt = getAttribute(base, "lineThickness", e);
     	o.setLineThickness(lt == null ? 1.0 : Double.parseDouble(lt));
 		mapColor(o, e); // Color
 	}
 
 	protected void mapLineData(PathwayElement o, Element e) throws ConverterException
 	{    	
-    	Element graphics = e.getChild("Graphics", e.getNamespace());
-
     	List<MPoint> mPoints = new ArrayList<MPoint>();
 
     	String startType = null;
     	String endType = null;
 
-    	List<Element> pointElements = graphics.getChildren("Point", e.getNamespace());
+    	List<Element> pointElements = e.getChildren("Point", e.getNamespace());
     	for(int i = 0; i < pointElements.size(); i++) {
     		Element pe = pointElements.get(i);
     		MPoint mp = o.new MPoint(
-    		    	Double.parseDouble(getAttribute("Interaction.Graphics.Point", "x", pe)),
-    		    	Double.parseDouble(getAttribute("Interaction.Graphics.Point", "y", pe))
+    		    	Double.parseDouble(getAttribute("Interaction.Point", "x", pe)),
+    		    	Double.parseDouble(getAttribute("Interaction.Point", "y", pe))
     		);
     		mPoints.add(mp);
-        	String ref = getAttribute("Interaction.Graphics.Point", "graphRef", pe);
+        	String ref = getAttribute("Interaction.Point", "graphRef", pe);
+        	String graphId = getAttribute("Interaction.Point", "graphId", pe);
+
+        	if(graphId!=null)
+        		mp.setGraphId(graphId);
+        	else
+        		mp.setGeneratedGraphId();
+
         	if (ref != null) {
         		mp.setGraphRef(ref);
         		String srx = pe.getAttributeValue("relX");
@@ -726,9 +719,9 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
         	}
 
         	if(i == 0) {
-        		startType = getAttribute("Interaction.Graphics.Point", "arrowHead", pe);
+        		startType = getAttribute("Interaction.Point", "arrowHead", pe);
         	} else if(i == pointElements.size() - 1) {
-    			endType = getAttribute("Interaction.Graphics.Point", "arrowHead", pe);
+    			endType = getAttribute("Interaction.Point", "arrowHead", pe);
         	}
     	}
 
@@ -736,20 +729,20 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		o.setStartLineType (LineType.fromName(startType));
     	o.setEndLineType (LineType.fromName(endType));
 
-    	String connType = getAttribute("Interaction.Graphics", "connectorType", graphics);
+    	String connType = getAttribute("Interaction", "connectorType", e);
     	o.setConnectorType(ConnectorType.fromName(connType));
 
-    	String zorder = graphics.getAttributeValue("zOrder");
+    	String zorder = e.getAttributeValue("zOrder");
 		if (zorder != null)
 			o.setZOrder(Integer.parseInt(zorder));
 
     	//Map anchors
-    	List<Element> anchors = graphics.getChildren("Anchor", e.getNamespace());
+    	List<Element> anchors = e.getChildren("Anchor", e.getNamespace());
     	for(Element ae : anchors) {
-    		double position = Double.parseDouble(getAttribute("Interaction.Graphics.Anchor", "position", ae));
+    		double position = Double.parseDouble(getAttribute("Interaction.Anchor", "position", ae));
     		MAnchor anchor = o.addMAnchor(position);
     		mapGraphId(anchor, ae);
-    		String shape = getAttribute("Interaction.Graphics.Anchor", "shape", ae);
+    		String shape = getAttribute("Interaction.Anchor", "shape", ae);
     		if(shape != null) {
     			anchor.setShape(AnchorType.fromName(shape));
     		}
@@ -759,47 +752,51 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 	protected void updateLineStyle(PathwayElement o, Element e) throws ConverterException
 	{
 		String base = e.getName();
-		Element graphics = e.getChild("Graphics", e.getNamespace());
-		setAttribute(base + ".Graphics", "lineStyle", graphics, o.getLineStyle() != LineStyle.DASHED ? "Solid" : "Broken");
-		setAttribute (base + ".Graphics", "lineThickness", graphics, "" + o.getLineThickness());
+		setAttribute(base, "lineStyle", e, o.getLineStyle() != LineStyle.DASHED ? "Solid" : "Broken");
+		setAttribute (base, "lineThickness", e, "" + o.getLineThickness());
 		updateColor(o, e);
 	}
 	
 	protected void updateLineData(PathwayElement o, Element e) throws ConverterException
 	{
-		Element jdomGraphics = e.getChild("Graphics", e.getNamespace());
 		List<MPoint> mPoints = o.getMPoints();
 
 		for(int i = 0; i < mPoints.size(); i++) {
 			MPoint mp = mPoints.get(i);
 			Element pe = new Element("Point", e.getNamespace());
-			jdomGraphics.addContent(pe);
-			setAttribute("Interaction.Graphics.Point", "x", pe, Double.toString(mp.getX()));
-			setAttribute("Interaction.Graphics.Point", "y", pe, Double.toString(mp.getY()));
+			e.addContent(pe);
+			setAttribute("Interaction.Point", "x", pe, Double.toString(mp.getX()));
+			setAttribute("Interaction.Point", "y", pe, Double.toString(mp.getY()));
+
+			if(mp.getGraphId()==null)
+				mp.setGeneratedGraphId();
+
+			setAttribute("Interaction.Point", "graphId", pe, mp.getGraphId());
+
 			if (mp.getGraphRef() != null && !mp.getGraphRef().equals(""))
 			{
-				setAttribute("Interaction.Graphics.Point", "graphRef", pe, mp.getGraphRef());
-				setAttribute("Interaction.Graphics.Point", "relX", pe, Double.toString(mp.getRelX()));
-				setAttribute("Interaction.Graphics.Point", "relY", pe, Double.toString(mp.getRelY()));
+				setAttribute("Interaction.Point", "graphRef", pe, mp.getGraphRef());
+				setAttribute("Interaction.Point", "relX", pe, Double.toString(mp.getRelX()));
+				setAttribute("Interaction.Point", "relY", pe, Double.toString(mp.getRelY()));
 			}
 			if(i == 0) {
-				setAttribute("Interaction.Graphics.Point", "arrowHead", pe, o.getStartLineType().getName());
+				setAttribute("Interaction.Point", "arrowHead", pe, o.getStartLineType().getName());
 			} else if(i == mPoints.size() - 1) {
-				setAttribute("Interaction.Graphics.Point", "arrowHead", pe, o.getEndLineType().getName());
+				setAttribute("Interaction.Point", "arrowHead", pe, o.getEndLineType().getName());
 			}
 		}
 
 		for(MAnchor anchor : o.getMAnchors()) {
 			Element ae = new Element("Anchor", e.getNamespace());
-			setAttribute("Interaction.Graphics.Anchor", "position", ae, Double.toString(anchor.getPosition()));
-			setAttribute("Interaction.Graphics.Anchor", "shape", ae, anchor.getShape().getName());
+			setAttribute("Interaction.Anchor", "position", ae, Double.toString(anchor.getPosition()));
+			setAttribute("Interaction.Anchor", "shape", ae, anchor.getShape().getName());
 			updateGraphId(anchor, ae);
-			jdomGraphics.addContent(ae);
+			e.addContent(ae);
 		}
 
 		ConnectorType ctype = o.getConnectorType();
-		setAttribute("Interaction.Graphics", "connectorType", jdomGraphics, ctype.getName());
-		setAttribute("Interaction.Graphics", "zOrder", jdomGraphics, "" + o.getZOrder());
+		setAttribute("Interaction", "connectorType", e, ctype.getName());
+		setAttribute("Interaction", "zOrder", e, "" + o.getZOrder());
 	}
 
 	public Document createJdom(Pathway data) throws ConverterException

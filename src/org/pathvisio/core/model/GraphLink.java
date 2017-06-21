@@ -19,8 +19,8 @@ package org.pathvisio.core.model;
 import java.awt.geom.Point2D;
 import java.util.Collections;
 import java.util.Set;
-
-import org.pathvisio.core.util.Utils;
+//
+//import org.pathvisio.core.util.Utils;
 
 /**
  * This class only contains static methods and should not be instantiated.
@@ -98,7 +98,7 @@ public abstract class GraphLink
 	 *
 	 * @param v the graphId
 	 * @param c the object to is going to get the new graphId
-	 * @param gd the pathway model, which is maintaining a complete list of all graphId's in this pathway
+//	 * @param gd the pathway model, which is maintaining a complete list of all graphId's in this pathway
 	 */
 	protected static void setGraphId(String v, GraphIdContainer c, Pathway data)
 	{
@@ -129,7 +129,7 @@ public abstract class GraphLink
 	 */
 	public static Set<GraphRefContainer> getReferences(GraphIdContainer gid, Pathway gd)
 	{
-		if (gd == null || Utils.isEmpty(gid.getGraphId())) 
+		if (gd == null || gid.getGraphId()==null || gid.getGraphId().length()==0)
 			return Collections.emptySet();
 		else
 			return gd.getReferringObjects(gid.getGraphId());

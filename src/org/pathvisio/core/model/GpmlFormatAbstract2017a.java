@@ -193,9 +193,9 @@ public abstract class GpmlFormatAbstract2017a
 		// correctly ordered list of tag names, which are loaded into the hashmap in
 		// the constructor.
 		private final String[] elements = new String[] {
-				"Comment", "BiopaxRef", "Graphics", "DataNode", "State", "Interaction", 
-				"Line", "GraphicalLine", "Label", "Shape", "Group", "InfoBox", "Legend", "Biopax","Citations","OntologyTerms"
-				
+				"Comment", "DataNode", "State", "Interaction",
+				"Line", "GraphicalLine", "Label", "Shape", "Group", "InfoBox", "Legend"
+				,"Citations","OntologyTerms"
 			};
 
 		/*
@@ -241,12 +241,10 @@ public abstract class GpmlFormatAbstract2017a
 		updateBiopaxRef(o, root);
 		updateAttributes(o, root);
 
-		Element graphics = new Element("Graphics", nsGPML);
-		root.addContent(graphics);
 
 		double[] size = o.getMBoardSize();
-		setAttribute("Pathway.Graphics", "boardWidth", graphics, "" +size[0]);
-		setAttribute("Pathway.Graphics", "boardHeight", graphics, "" + size[1]);
+		setAttribute("Pathway", "boardWidth", root, "" +size[0]);
+		setAttribute("Pathway", "boardHeight", root, "" + size[1]);
 		
 		updateMappInfoVariable (root, o);
 	}
@@ -260,15 +258,13 @@ public abstract class GpmlFormatAbstract2017a
 
 	protected void mapColor(PathwayElement o, Element e) throws ConverterException
 	{
-    	Element graphics = e.getChild("Graphics", e.getNamespace());
-    	String scol = getAttribute(e.getName() + ".Graphics", "color", graphics);
+    	String scol = getAttribute(e.getName(), "color", e);
     	o.setColor (gmmlString2Color(scol));
 	}
 
 	protected void mapShapeColor(PathwayElement o, Element e) throws ConverterException
 	{
-    	Element graphics = e.getChild("Graphics", e.getNamespace());
-		String scol = getAttribute(e.getName() + ".Graphics", "fillColor", graphics);
+		String scol = getAttribute(e.getName(), "fillColor", e);
     	if(scol.equals("Transparent")) {
     		o.setTransparent (true);
     	} else {
@@ -281,11 +277,7 @@ public abstract class GpmlFormatAbstract2017a
 	{
 		if(e != null)
 		{
-			Element jdomGraphics = e.getChild("Graphics", e.getNamespace());
-			if(jdomGraphics != null)
-			{
-				setAttribute(e.getName() + ".Graphics", "color", jdomGraphics, color2HexBin(o.getColor()));
-			}
+			setAttribute(e.getName(), "color", e, color2HexBin(o.getColor()));
 		}
 	}
 
@@ -293,12 +285,8 @@ public abstract class GpmlFormatAbstract2017a
 	{
 		if(e != null)
 		{
-			Element jdomGraphics = e.getChild("Graphics", e.getNamespace());
-			if(jdomGraphics != null)
-			{
-				String val = o.isTransparent() ? "Transparent" : color2HexBin(o.getFillColor());
-				setAttribute (e.getName() + ".Graphics", "fillColor", jdomGraphics, val);
-			}
+			String val = o.isTransparent() ? "Transparent" : color2HexBin(o.getFillColor());
+			setAttribute (e.getName(), "fillColor", e, val);
 		}
 	}
 

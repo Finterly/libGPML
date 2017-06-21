@@ -37,7 +37,7 @@ import java.util.Map;
 import org.bridgedb.DataSource;
 import org.bridgedb.bio.Organism;
 import org.pathvisio.core.debug.Logger;
-import org.pathvisio.core.util.Utils;
+//import org.pathvisio.core.util.Utils;
 import org.pathvisio.core.view.ShapeRegistry;
 
 /**
@@ -1055,11 +1055,11 @@ public class MappFormat extends AbstractPathwayFormat
 
 	public void doExport(File file, Pathway pathway) throws ConverterException 
 	{
-		if (Utils.getOS() != Utils.OS_WINDOWS)
-		{
-			throw new ConverterException ("MAPP format is only available on Windows operating systems");
-		}
-
+//		if (Utils.getOS() != Utils.OS_WINDOWS)
+//		{
+//			throw new ConverterException ("MAPP format is only available on Windows operating systems");
+//		}
+//
 		String[] mappInfo = MappFormat.uncopyMappInfo(pathway);
 		List<String[]> mappObjects = MappFormat.uncopyMappObjects(pathway);
 		MappFormat.exportMapp (file.getAbsolutePath(), mappInfo, mappObjects);
