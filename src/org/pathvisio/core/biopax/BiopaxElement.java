@@ -24,6 +24,7 @@ import java.util.Random;
 import org.jdom.Document;
 import org.jdom.Element;
 import org.pathvisio.core.debug.Logger;
+import org.pathvisio.core.model.Citation;
 import org.pathvisio.core.model.GpmlFormat;
 import org.pathvisio.core.model.ObjectType;
 import org.pathvisio.core.model.PathwayElement;
@@ -49,7 +50,7 @@ public class BiopaxElement extends PathwayElement
 	
 	private Random random = new Random(); //Used to generate unique id's
 	private Map<String, BiopaxNode> biopax;
-	
+
 	/**
 	 * Keeps track of the order of the loaded biopax elements per subclass.
 	 * (The main use of this is to keep the citation numbers constant between sessions).
@@ -67,9 +68,10 @@ public class BiopaxElement extends PathwayElement
 		Logger.log.trace("Refreshing biopax");
 		biopax.clear();
 		ordinal.clear();
+		parent.clearCitations();
 
 		Logger.log.trace("Biopax element found");
-		
+
 		if(document != null) 
 		{
 			Map<BiopaxNode, Element> oldElements = new HashMap<BiopaxNode, Element>();
@@ -79,6 +81,19 @@ public class BiopaxElement extends PathwayElement
 					try {
 						BiopaxNode bpe = BiopaxNode.fromXML((Element)child);
 						biopax.put(bpe.getId(), bpe);
+
+						// Backward compatibility, Use Citations now
+						// Biopax is deprecated
+						if(bpe instanceof PublicationXref) {
+							Citation citation = new Citation(bpe.getId(), "", bpe.getPropertyText("TITLE"));
+							citation.setYear(bpe.getPropertyText("YEAR"));
+							citation.setSource(bpe.getPropertyText("SOURCE"));
+							citation.setXref(bpe.getPropertyText("ID"), bpe.getPropertyText("DB"));
+							for (BiopaxProperty biopaxProperty : bpe.getProperties("AUTHORS"))
+								citation.addAuthor(biopaxProperty.getText());
+							parent.addCitation(citation);
+						}
+
 						addToOrdinal(bpe);
 						//Remember link between new and old element
 						oldElements.put(bpe, (Element)child);
@@ -114,7 +129,7 @@ public class BiopaxElement extends PathwayElement
 	 * element in the pathway.
 	 * This method will do a linear search on all pathway elements,
 	 * so could be slow!
-	 * @param p
+//	 * @param p
 	 * @param e
 	 * @return
 	 */

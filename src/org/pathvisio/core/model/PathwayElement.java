@@ -560,6 +560,16 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 	// default order of uninteresting elements.
 	private static final int Z_ORDER_DEFAULT = 0x0000;
 
+	private ArrayList<String> citationRefs = new ArrayList<>();
+
+	public void addCitationRef(String citationRef){
+		citationRefs.add(citationRef);
+	}
+
+	public ArrayList<String> getCitationRefs() {
+		return citationRefs;
+	}
+
 	/**
 	 * default z order for newly created objects
 	 */
@@ -604,7 +614,7 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 	 *            Type of object, one of the ObjectType.* fields
 	 */
 	public static PathwayElement createPathwayElement(ObjectType ot) {
-		PathwayElement e;
+		PathwayElement e=null;
 		switch (ot) {
 		case BIOPAX:
 			e = new BiopaxElement();
@@ -620,6 +630,14 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 			break;	
 		case STATE:
 			e = new MState();
+			break;
+		case CITATION:
+			break;
+		case ONTOLOGY:
+			break;
+		case ONTOLOGY_REF:
+			break;
+		case CITATION_REF:
 			break;
 		default:
 			e = new PathwayElement(ot);

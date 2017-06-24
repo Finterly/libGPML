@@ -23,6 +23,10 @@ public class Citation {
         this.title = title;
     }
 
+    public void setCitationId(String citationId) {
+        this.citationId = citationId;
+    }
+
     public void setYear(String year){
         this.year=year;
     }

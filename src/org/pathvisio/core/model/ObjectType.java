@@ -63,7 +63,12 @@ public enum ObjectType
 
 	/** similar to DataNode, but State is always
 	 * attached to - and specified relative to - another DataNode */
-	STATE ("State");
+	STATE ("State"),
+
+	CITATION_REF ("CitationRefs"),
+
+	ONTOLOGY_REF("OntologyTermRefs");
+
 
 	private String tag;
 	static private final Map<String, ObjectType> TAG_MAP = new HashMap<String, ObjectType>();

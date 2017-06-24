@@ -252,10 +252,11 @@ public abstract class GpmlFormatAbstract
 		Element graphics = new Element("Graphics", nsGPML);
 		root.addContent(graphics);
 
-		double[] size = o.getMBoardSize();
-		setAttribute("Pathway.Graphics", "BoardWidth", graphics, "" +size[0]);
-		setAttribute("Pathway.Graphics", "BoardHeight", graphics, "" + size[1]);
-		
+		if(o.parent!=null) {
+			double[] size = o.getMBoardSize();
+			setAttribute("Pathway.Graphics", "BoardWidth", graphics, "" + size[0]);
+			setAttribute("Pathway.Graphics", "BoardHeight", graphics, "" + size[1]);
+		}
 		updateMappInfoVariable (root, o);
 	}
 
@@ -486,6 +487,7 @@ public abstract class GpmlFormatAbstract
 		for (Object f : e.getChildren("BiopaxRef", e.getNamespace()))
 		{
 			o.addBiopaxRef(((Element)f).getText());
+			o.addCitationRef(((Element)f).getText());
 		}
 	}
 

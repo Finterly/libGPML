@@ -20,23 +20,17 @@ package org.pathvisio.core.model;
  * @author jonathan
  *
  */
-public class OntologyTag {
+public class OntologyTerm {
 	private String id;
 	private String term;
 	private String ontology;
 	private String ontologyTermId;
 
-	public OntologyTag(String id, String term, String ontology, String ontologyTermId) {
+	public OntologyTerm(String id, String term, String ontology, String ontologyTermId) {
 		this.id = id;
 		this.term = term;
 		this.ontology = ontology;
 		this.ontologyTermId = ontologyTermId;
-	}
-
-	public OntologyTag(String id, String term, String ontology) {
-		this.id = id;
-		this.term = term;
-		this.ontology = ontology;
 	}
 
 	public String getId() {

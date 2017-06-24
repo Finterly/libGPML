@@ -20,17 +20,7 @@ import java.io.File;
 import java.io.InputStream;
 import java.io.Reader;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Date;
-import java.util.EventListener;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Random;
-import java.util.Set;
+import java.util.*;
 
 import org.bridgedb.Xref;
 import org.pathvisio.core.biopax.BiopaxElement;
@@ -91,10 +81,11 @@ public class Pathway
 	/**
 	 * List of contained dataObjects
 	 */
-	private List<PathwayElement> dataObjects = new ArrayList<PathwayElement>();
-	private List<OntologyTag> ontologyTags = new ArrayList<OntologyTag>();
-	private List<Citation> citations = new ArrayList<Citation>();
-
+	private List<PathwayElement> dataObjects = new ArrayList<>();
+	private HashMap<String,OntologyTerm> ontologyTerms = new HashMap<>();
+	private HashMap<String,Citation> citations = new HashMap<>();
+	private ArrayList<String> citationRefs = new ArrayList<>();
+	private ArrayList<String> ontologyTermRefs = new ArrayList<>();
 
 	/**
 	 * Getter for dataobjects contained. There is no setter, you
@@ -106,6 +97,11 @@ public class Pathway
 		return dataObjects;
 	}
 
+	/***
+	 * Add a dataObject element
+	 * Should have a graphId
+	 */
+
 	/**
 	 * Get a pathway element by it's GraphId
 	 * @param graphId The graphId of the element
@@ -114,11 +110,9 @@ public class Pathway
 	public PathwayElement getElementById(String graphId) {
 		//TODO: dataobject should be stored in a hashmap, with the graphId as key!
 		if(graphId != null) {
-			for(PathwayElement e : dataObjects) {
-				if(graphId.equals(e.getGraphId())) {
+			for(PathwayElement e:dataObjects)
+				if(e.getGraphId()!=null&&e.getGraphId().equals(graphId))
 					return e;
-				}
-			}
 		}
 		return null;
 	}
@@ -142,7 +136,7 @@ public class Pathway
 		}
 		return result;
 	}
-	
+
 	/**
 	 * Takes the Xref of all Lines in this pathway
 	 * and returns them as a List.
@@ -191,7 +185,7 @@ public class Pathway
 
 	/**
 	   @returns the BioPAX element of this pathway, containing literature references and other optional biopax elements.
-	   Guaranteed to not return null. 
+	   Guaranteed to not return null.
 	   If a BioPAX element does not yet exist, it is automatically created.
 	 */
 	public BiopaxElement getBiopax()
@@ -205,7 +199,7 @@ public class Pathway
 	}
 
 	/** @deprecated use getBiopax() instead */
-	public BiopaxElement getBiopaxElementManager() 
+	public BiopaxElement getBiopaxElementManager()
 	{
 		return getBiopax();
 	}
@@ -339,17 +333,17 @@ public class Pathway
 	void childModified (PathwayElementEvent e)
 	{
 		markChanged();
-		// a coordinate change could trigger dependent objects such as states, 
+		// a coordinate change could trigger dependent objects such as states,
 		// groups and connectors to be updated as well.
 		if (e.isCoordinateChange())
 		{
 
 			PathwayElement elt = e.getModifiedPathwayElement();
-			for(GraphRefContainer refc : getReferringObjects(elt.getGraphId())) 
+			for(GraphRefContainer refc : getReferringObjects(elt.getGraphId()))
 			{
 				refc.refeeChanged();
 			}
-			
+
 			String ref = elt.getGroupRef();
 			if (ref != null && getGroupById(ref) != null)
 			{
@@ -401,14 +395,14 @@ public class Pathway
 	 */
 	private void forceRemove(PathwayElement o) {
 		dataObjects.remove(o);
-		for(GraphRefContainer refc : getReferringObjects(o.getGraphId())) 
+		for(GraphRefContainer refc : getReferringObjects(o.getGraphId()))
 		{
 			refc.unlink();
 		}
 		String groupRef = o.getGroupRef();
 		if(groupRef != null)
 		{
-			removeGroupRef(groupRef, o);			
+			removeGroupRef(groupRef, o);
 		}
 		// Add one or multiples literature(s) reference(s) to the list to deletion
 		if (o.getBiopaxRefs() != null){
@@ -537,11 +531,11 @@ public class Pathway
 		groupIds.put(id, group);
 	}
 
-	void removeGroupId(String id) 
+	void removeGroupId(String id)
 	{
 		groupIds.remove(id);
 		Set<PathwayElement> elts = groupRefs.get(id);
-		if (elts != null) 
+		if (elts != null)
 			for (PathwayElement elt : elts)
 			{
 				elt.groupRef = null;
@@ -564,16 +558,16 @@ public class Pathway
 		if (!groupRefs.containsKey(id)) throw new IllegalArgumentException();
 
 		groupRefs.get(id).remove(child);
-		
+
 		//Find out if this element is the last one in a group
-		//If so, remove the group as well			
+		//If so, remove the group as well
 		if (groupRefs.get(id).size() == 0)
 		{
 			groupRefs.remove(id);
 			PathwayElement group = getGroupById(id);
 			if (group != null) forceRemove(group);
-		} 
-		else 
+		}
+		else
 		{
 			// redraw group outline
 			if (getGroupById(id) != null ){
@@ -653,7 +647,7 @@ public class Pathway
 		case GRAPHLINE:
 			mw = Math.max(mw, BORDER_SIZE + Math.max(e.getMStartX(), e.getMEndX()));
 			mh = Math.max(mh, BORDER_SIZE + Math.max(e.getMStartY(), e.getMEndY()));
-			break;	
+			break;
 		default:
 			mw = Math.max(mw, BORDER_SIZE + e.getMLeft() + e.getMWidth());
 			mh = Math.max(mh, BORDER_SIZE + e.getMTop() + e.getMHeight());
@@ -672,7 +666,7 @@ public class Pathway
 	{
 		return new double[] {mBoardWidth, mBoardHeight};
 	}
-	
+
 	private File sourceFile = null;
 
 	/**
@@ -712,6 +706,19 @@ public class Pathway
 	public void writeToXml(File file, boolean validate) throws ConverterException
 	{
 		GpmlFormat.writeToXml (this, file, validate);
+		setSourceFile (file);
+		clearChangedFlag();
+	}
+
+	/**
+	 * write to XML for previous formats
+	 * @param file
+	 * @param validate
+	 * @throws ConverterException
+	 */
+	public void writeToXml2013a(File file, boolean validate) throws ConverterException
+	{
+		GpmlFormat2013a.GPML_2013A.writeToXml(this, file, validate);
 		setSourceFile (file);
 		clearChangedFlag();
 	}
@@ -930,24 +937,56 @@ public class Pathway
 	}
 
 
-	public void addOntologyTag(String id, String term, String ontology, String ontologyTermId){
-		ontologyTags.add(new OntologyTag(id,term,ontology,ontologyTermId));
+	public void addOntologyTerm(String id, String term, String ontology, String ontologyTermId){
+		ontologyTerms.put(ontologyTermId,new OntologyTerm(id,term,ontology,ontologyTermId));
 	}
 
-	public void addOntologyTag(String id, String term, String ontology){
-		ontologyTags.add(new OntologyTag(id,term,ontology));
+	public void addOntologyTerm(String id, String term, String ontology){
+		String ontologyTermId = getUniqueId(ontologyTerms.keySet());
+		ontologyTerms.put(ontologyTermId,new OntologyTerm(id,term,ontology,ontologyTermId));
 	}
 
-	public List<OntologyTag> getOntologyTags(){
-		return ontologyTags;
+	public Collection<OntologyTerm> getOntologyTerms(){
+		return ontologyTerms.values();
+	}
+
+	public OntologyTerm getOntologyTermById(String ontologyTermId){
+		return ontologyTerms.get(ontologyTermId);
 	}
 
 	public void addCitation(Citation citation){
-		citations.add(citation);
+		if(citation.getCitationId()==null||citation.getCitationId().length()==0)
+			citation.setCitationId(getUniqueId(citations.keySet()));
+		citations.put(citation.getCitationId(),citation);
 	}
 
-	public List<Citation> getCitations(){
-		return citations;
+	public void clearCitations(){
+		citations.clear();
+	}
+
+	public Collection<Citation> getCitations(){
+		return citations.values();
+	}
+
+	public Citation getCitationById(String citationId){
+		return citations.get(citationId);
+	}
+
+	public void addCitationRef(String citationRef){
+		citationRefs.add(citationRef);
+	}
+
+	public ArrayList<String> getCitationRefs() {
+		return citationRefs;
+	}
+
+
+	public void addOntologyTermRef(String ontologyTermRef){
+		ontologyTermRefs.add(ontologyTermRef);
+	}
+
+	public ArrayList<String> getOntologyTermRefs() {
+		return ontologyTermRefs;
 	}
 
 	/**

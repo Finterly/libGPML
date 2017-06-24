@@ -17,13 +17,11 @@
 package org.pathvisio.core.model;
 
 import org.bridgedb.DataSource;
-import org.jdom.Attribute;
 import org.jdom.Document;
 import org.jdom.Element;
 import org.jdom.Namespace;
 import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
-import org.pathvisio.core.biopax.BiopaxElement;
 import org.pathvisio.core.model.PathwayElement.MAnchor;
 import org.pathvisio.core.model.PathwayElement.MPoint;
 import org.pathvisio.core.view.ShapeRegistry;
@@ -239,15 +237,15 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 	private void updateCommon(PathwayElement o, Element e) throws ConverterException
 	{
 		updateComments(o, e);
-		updateBiopaxRef(o, e);
 		updateAttributes(o, e);
+		updateCitationRefs(o, e);
 	}
 
 	private void mapCommon(PathwayElement o, Element e) throws ConverterException
 	{
 		mapComments(o, e);
-		mapBiopaxRef(o, e);
 		mapAttributes(o, e);
+		mapCitationRefs(o, e);
 	}
 
 	// common to Label, Shape, State, DataNode
@@ -339,17 +337,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 				updateGroupRef(o, e);
 				break;
 			case BIOPAX:
-				e = new Element ("Biopax", getGpmlNamespace());
-				updateBiopax(o, e);
-				break;
-			case CITATION:
-				e = new Element("Citations", getGpmlNamespace());
-				updateCitations(o, e);
-				break;
-			case ONTOLOGY:
-				e = new Element("OntologyTerms", getGpmlNamespace());
-				updateOntologyTags (o, e);
-				break;
+				return null;
 		}
 		if (e == null)
 		{
@@ -378,12 +366,12 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		}
 
 		PathwayElement o = PathwayElement.createPathwayElement(ot);
-		if (p != null)
+		if (p != null && o!= null)
 		{
 			p.add (o);
 		}
 
-		switch (o.getObjectType())
+		switch (ot)
 		{
 			case DATANODE:
 				mapCommon(o, e);
@@ -442,10 +430,16 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 				mapGroup (o, e);
 				break;
 			case CITATION:
-				mapCitations(o, e, p);
+				mapCitations(e, p);
 				break;
 			case ONTOLOGY:
-				mapOntology(o, e, p);
+				mapOntology(e, p);
+				break;
+			case CITATION_REF:
+				mapCitationRefsPathway(e, p);
+				break;
+			case ONTOLOGY_REF:
+				mapOntologyTermRefs(e, p);
 				break;
 			default:
 				throw new ConverterException("Invalid ObjectType'" + tag + "'");
@@ -823,6 +817,18 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 					elementList.add(e);
 			}
 		}
+		// Add the non-PathwayElement type Elements
+		// Which include the new Elements introduced with the 2017a schema
+		// Citations, OntologyTerms, CitationRefs and OntologyRefs
+
+		if(data.getCitations().size()>0)
+			elementList.add(updateCitations(data, new Element("Citations", getGpmlNamespace())));
+		if(data.getOntologyTerms().size()>0)
+			elementList.add(updateOntologyTerms(data, new Element("OntologyTerms", getGpmlNamespace())));
+		if(data.getCitationRefs().size()>0)
+			elementList.add(updateCitationRefsPathway(data, new Element("CitationRefs", getGpmlNamespace())));
+		if(data.getOntologyTermRefs().size()>0)
+			elementList.add(updateOntologyTermRefs(data, new Element("OntologyTermRefs", getGpmlNamespace())));
 
     	// now sort the generated elements in the order defined by the xsd
 		Collections.sort(elementList, new ByElementName());
@@ -899,23 +905,23 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		}
 	}
 
-	private void updateOntologyTags(PathwayElement o, Element e)
+	private Element updateOntologyTerms(Pathway p, Element e)
 	{
 		if(e != null)
 		{
-			List<OntologyTag> ontologyTags = o.parent.getOntologyTags();
-			for(OntologyTag ontologyTag: ontologyTags){
+			for(OntologyTerm ontologyTerm : p.getOntologyTerms()){
 				Element element = new Element("OntologyTerm", getGpmlNamespace());
 				e.addContent(element);
-				element.setAttribute("ID",ontologyTag.getId());
-				element.setAttribute("term",ontologyTag.getTerm());
-				element.setAttribute("ontology",ontologyTag.getOntology());
-				element.setAttribute("ontologyTermId",ontologyTag.getOntologyTermId());
+				element.setAttribute("ID", ontologyTerm.getId());
+				element.setAttribute("term", ontologyTerm.getTerm());
+				element.setAttribute("ontology", ontologyTerm.getOntology());
+				element.setAttribute("ontologyTermId", ontologyTerm.getOntologyTermId());
 			}
 		}
+		return e;
 	}
 
-	private void mapOntology(PathwayElement o, Element e, Pathway p) throws ConverterException
+	private void mapOntology(Element e, Pathway p) throws ConverterException
 	{
 		List<Element> OntologyTags = e.getChildren("OntologyTerm", e.getNamespace());
 		String id,term,ontology,ontologyTermId;
@@ -924,15 +930,15 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			term=ot.getAttributeValue("term");
 			ontology=ot.getAttributeValue("ontology");
 			ontologyTermId=ot.getAttributeValue("ontologyTermId");
-			p.addOntologyTag(id,term,ontology,ontologyTermId);
+			p.addOntologyTerm(id,term,ontology,ontologyTermId);
 		}
 	}
 
-	private void updateCitations(PathwayElement o, Element e)  throws ConverterException
+	private Element updateCitations(Pathway p, Element e)  throws ConverterException
 	{
 		if(e != null)
 		{
-			for(Citation citation:o.parent.getCitations()) {
+			for(Citation citation:p.getCitations()) {
 
 				Element citationElement = new Element("Citation",getGpmlNamespace());
 				e.addContent(citationElement);
@@ -963,12 +969,12 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 				}
 			}
 		}
+		return e;
 	}
 
-	private void mapCitations(PathwayElement o, Element e, Pathway p) throws ConverterException
-	{
-		List<Element> citationElements = e.getChildren("Citation",getGpmlNamespace());
-		for(Element citationElement : citationElements){
+	private void mapCitations(Element e, Pathway p) throws ConverterException {
+		List<Element> citationElements = e.getChildren("Citation", getGpmlNamespace());
+		for (Element citationElement : citationElements) {
 
 			Citation citation = new Citation(citationElement.getAttributeValue("citationId"),
 					citationElement.getAttributeValue("URL"),
@@ -979,19 +985,93 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			citation.setYear(citationElement.getAttributeValue("year"));
 			citation.setSource(citationElement.getAttributeValue("source"));
 
-			Element xref = citationElement.getChild ("Xref", e.getNamespace());
+			Element xref = citationElement.getChild("Xref", e.getNamespace());
 
-			if(xref!=null){
+			if (xref != null) {
 				citation.setXref(xref.getAttributeValue("ID"),
 						xref.getAttributeValue("dataSource"));
 			}
 
 			List<Element> authors = citationElement.getChildren("Author", e.getNamespace());
 
-			for(Element author: authors){
+			for (Element author : authors) {
 				citation.addAuthor(author.getAttributeValue("name"));
 			}
 
+		}
+	}
+
+	private Element updateCitationRefsPathway(Pathway p, Element e)
+	{
+		if(e != null)
+		{
+			for(String citationRef : p.getCitationRefs()){
+				Element element = new Element("CitationRef", getGpmlNamespace());
+				e.addContent(element);
+				element.setAttribute("ID", citationRef);
+			}
+		}
+		return e;
+	}
+
+	private void mapCitationRefsPathway(Element e, Pathway p) throws ConverterException
+	{
+		List<Element> citationRefs = e.getChildren("CitationRef", e.getNamespace());
+		String id;
+		for(Element ot: citationRefs){
+			id=ot.getAttributeValue("ID");
+			p.addCitationRef(id);
+		}
+	}
+
+
+	private void mapCitationRefs(PathwayElement o, Element e) throws ConverterException
+	{
+		List<Element> citationRefs = e.getChildren("CitationRef", e.getNamespace());
+		String id;
+		for(Element ot: citationRefs){
+			id=ot.getAttributeValue("ID");
+			if(id!=null)
+				o.addCitationRef(id);
+		}
+	}
+
+
+	private void mapOntologyTermRefs(Element e, Pathway p) throws ConverterException
+	{
+		List<Element> ontologyTermRefs = e.getChildren("OntologyTermRef", e.getNamespace());
+		String id;
+		for(Element ot: ontologyTermRefs){
+			id=ot.getAttributeValue("ID");
+			p.addOntologyTermRef(id);
+		}
+	}
+
+
+	private Element updateOntologyTermRefs(Pathway p, Element e)
+	{
+		if(e != null)
+		{
+			for(String ontologyTermRef : p.getOntologyTermRefs()){
+				Element element = new Element("OntologyTermRef", getGpmlNamespace());
+				e.addContent(element);
+				element.setAttribute("ID", ontologyTermRef);
+			}
+		}
+		return e;
+	}
+
+	private void updateCitationRefs(PathwayElement o, Element e)
+	{
+		if(e != null)
+		{
+			Element citationRefs = new Element("CitationRefs", getGpmlNamespace());
+			e.addContent(citationRefs);
+			for(String citationRef : o.getCitationRefs()){
+				Element element = new Element("CitationRef", getGpmlNamespace());
+				citationRefs.addContent(element);
+				element.setAttribute("ID", citationRef);
+			}
 		}
 	}
 

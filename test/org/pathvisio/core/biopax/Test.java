@@ -22,11 +22,7 @@ import java.util.List;
 
 import junit.framework.TestCase;
 
-import org.pathvisio.core.model.ConverterException;
-import org.pathvisio.core.model.ObjectType;
-import org.pathvisio.core.model.Pathway;
-import org.pathvisio.core.model.PathwayElement;
-import org.pathvisio.core.model.PathwayEvent;
+import org.pathvisio.core.model.*;
 
 public class Test extends TestCase {
 	Pathway data;
@@ -202,7 +198,7 @@ public class Test extends TestCase {
 
 	public void write(File f) {
 		try {
-			data.writeToXml(f, true);
+			data.writeToXml2013a(f, true);
 		} catch(ConverterException e) {
 			fail("Unable to write a pathway: " + e.toString());
 		}

@@ -116,6 +116,17 @@ public class BiopaxNode
 		return null;
 	}
 
+	/**
+	 * Returns the first property's text content with the given name
+	 * @param name
+	 * @return
+	 */
+	public String getPropertyText(String name) {
+		if(getProperty(name)!=null)
+			return getProperty(name).getText();
+		return null;
+	}
+
 	public String getId() {
 		return wrapped.getAttributeValue("id", Namespaces.RDF);
 	}

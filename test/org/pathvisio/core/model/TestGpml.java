@@ -18,10 +18,8 @@ package org.pathvisio.core.model;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Set;
 
 import junit.framework.TestCase;
-import org.pathvisio.core.debug.Logger;
 
 public class TestGpml extends TestCase 
 {
@@ -98,6 +96,33 @@ public class TestGpml extends TestCase
 		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
 	}
 	/**
+	 * Test reading 2008a, 2010a & 2013a files, then writing them as 2017a
+	 */
+	public static void testConvertBiopaxCitations13a17a() throws ConverterException, IOException
+	{
+		File in = new File (PATHVISIO_BASEDIR, "testData/2010a/biopax-literaturexref-testcase.gpml");
+		assertTrue (in.exists());
+
+		Pathway pwy = new Pathway();
+		pwy.readFromXml(in, true);
+
+//		File tmp = File.createTempFile("test", "gpml");
+		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/biopax-literaturexref-testcase.gpml");
+		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+	}
+	public static void testConvertBiopaxOntologyTerms13a17a() throws ConverterException, IOException
+	{
+		File in = new File (PATHVISIO_BASEDIR, "testData/2010a/biopax-opencontrolledvocabulary-testcase.gpml");
+		assertTrue (in.exists());
+
+		Pathway pwy = new Pathway();
+		pwy.readFromXml(in, true);
+
+//		File tmp = File.createTempFile("test", "gpml");
+		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/biopax-opencontrolledvocabulary-testcase.gpml");
+		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+	}
+	/**
 	 * Test reading 2017a files with Group element, then writing them as 2017a
 	 */
 	public static void testGroup17a() throws ConverterException, IOException
@@ -128,9 +153,9 @@ public class TestGpml extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 
-		assertEquals(3,pwy.getCitations().get(0).getAuthors().size());
+//		assertEquals(pwy.getCitationById("eaf123").getURL(),"asdas.asdas.asdas");
 
-//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/group.gpml");
+//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/literaturexref-output.gpml");
 		File tmp = File.createTempFile("test", "gpml");
 		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
 	}
@@ -145,11 +170,28 @@ public class TestGpml extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 
-		for(PathwayElement e:pwy.getDataObjects())
-			System.out.println(e.getClass());
+//		assertEquals(pwy.getOntologyTermById("ba87d").getId(),"PW:0000698");
 
-//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/group.gpml");
+//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/ontology-output.gpml");
 		File tmp = File.createTempFile("test", "gpml");
+		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+	}
+	/**
+	 * Test reading 2017a files with ontology, citations element
+	 */
+	public static void testCitationsOntology17a() throws ConverterException, IOException
+	{
+		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/ontology-citations-testcase.gpml");
+		assertTrue (in.exists());
+
+		Pathway pwy = new Pathway();
+		pwy.readFromXml(in, true);
+
+		assertEquals(2, pwy.getOntologyTermRefs().size());
+		assertEquals(2, pwy.getCitationRefs().size());
+
+		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/ontology-citations-output.gpml");
+//		File tmp = File.createTempFile("test", "gpml");
 		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
 	}
 

@@ -922,7 +922,7 @@ class GpmlFormat2013a extends GpmlFormatAbstract implements GpmlFormatReader, Gp
 		((BiopaxElement)o).setBiopax(bp);
 		
 		for (Object f : e.getChildren("openControlledVocabulary", GpmlFormat.BIOPAX)){
-			p.addOntologyTag(((Element) f).getChild("ID", GpmlFormat.BIOPAX).getText(),
+			p.addOntologyTerm(((Element) f).getChild("ID", GpmlFormat.BIOPAX).getText(),
 					((Element) f).getChild("TERM", GpmlFormat.BIOPAX).getText(),
 					((Element) f).getChild("Ontology", GpmlFormat.BIOPAX).getText()
 					);

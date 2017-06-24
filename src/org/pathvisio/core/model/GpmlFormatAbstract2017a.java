@@ -20,7 +20,6 @@ import org.jdom.*;
 import org.jdom.output.Format;
 import org.jdom.output.SAXOutputter;
 import org.jdom.output.XMLOutputter;
-import org.pathvisio.core.biopax.BiopaxElement;
 import org.pathvisio.core.debug.Logger;
 import org.pathvisio.core.model.GraphLink.GraphIdContainer;
 import org.xml.sax.SAXException;
@@ -194,8 +193,8 @@ public abstract class GpmlFormatAbstract2017a
 		// the constructor.
 		private final String[] elements = new String[] {
 				"Comment", "DataNode", "State", "Interaction",
-				"Line", "GraphicalLine", "Label", "Shape", "Group", "InfoBox", "Legend"
-				,"Citations","OntologyTerms"
+				"Line", "GraphicalLine", "Label", "Shape", "Group", "InfoBox", "Legend", "Biopax"
+				,"Citations","OntologyTerms","CitationRefs","OntologyTermRefs"
 			};
 
 		/*
@@ -238,7 +237,6 @@ public abstract class GpmlFormatAbstract2017a
 		setAttribute("Pathway", "organism", root, o.getOrganism());
 
 		updateComments(o, root);
-		updateBiopaxRef(o, root);
 		updateAttributes(o, root);
 
 
@@ -437,51 +435,6 @@ public abstract class GpmlFormatAbstract2017a
 		mapMappInfoDataVariable(o, e);
 	}
 	
-	protected void updateBiopax(PathwayElement o, Element e) throws ConverterException
-	{
-		Document bp = ((BiopaxElement)o).getBiopax();
-		if(e != null && bp != null) {
-			List<Content> content = bp.getRootElement().cloneContent();
-			for(Content c : content) {
-				if(c instanceof Element) {
-					Element elm = (Element)c;
-					if(elm.getNamespace().equals(GpmlFormat.BIOPAX)) {
-						e.addContent(c);
-					} else if(elm.getName().equals("RDF") && elm.getNamespace().equals(GpmlFormat.RDF)) {
-						for(Object ce : elm.getChildren()) {
-							if(((Element)ce).getNamespace().equals(GpmlFormat.BIOPAX)) {
-								e.addContent((Element)ce);
-							}
-						}
-					} else {
-						Logger.log.info("Skipped non-biopax element" + c);
-					}
-				}
-			}
-		}
-	}
-
-	protected void mapBiopaxRef(PathwayElement o, Element e) throws ConverterException
-	{
-		for (Object f : e.getChildren("BiopaxRef", e.getNamespace()))
-		{
-			o.addBiopaxRef(((Element)f).getText());
-		}
-	}
-
-	protected void updateBiopaxRef(PathwayElement o, Element e) throws ConverterException
-	{
-		if(e != null)
-		{
-			for (String ref : o.getBiopaxRefs())
-			{
-				Element f = new Element ("BiopaxRef", e.getNamespace());
-				f.setText (ref);
-				e.addContent(f);
-			}
-		}
-	}
-
 	/**
 	 * Converts a string containing either a named color (as specified in gpml) or a hexbinary number
 	 * to an {@link Color} object
