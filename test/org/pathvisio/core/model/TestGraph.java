@@ -20,7 +20,7 @@ import java.io.File;
 
 import junit.framework.TestCase;
 
-import org.pathvisio.core.model.PathwayElement.MPoint;
+import org.pathvisio.core.model.MPoint;
 
 /**
  * test graph properties of a pathway model

@@ -300,7 +300,7 @@ public abstract class GpmlFormatAbstract2017a
 	{
 		if(e != null)
 		{
-			for (PathwayElement.Comment c : o.getComments())
+			for (Comment c : o.getComments())
 			{
 				Element f = new Element ("Comment", e.getNamespace());
 				f.setText (c.getComment());

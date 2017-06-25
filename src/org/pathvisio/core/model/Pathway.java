@@ -28,8 +28,8 @@ import org.pathvisio.core.biopax.BiopaxNode;
 import org.pathvisio.core.debug.Logger;
 import org.pathvisio.core.model.GraphLink.GraphIdContainer;
 import org.pathvisio.core.model.GraphLink.GraphRefContainer;
-import org.pathvisio.core.model.PathwayElement.MAnchor;
-import org.pathvisio.core.model.PathwayElement.MPoint;
+import org.pathvisio.core.model.MAnchor;
+import org.pathvisio.core.model.MPoint;
 import org.pathvisio.core.util.Utils;
 
 /**
@@ -874,7 +874,7 @@ public class Pathway
 			{
 				graphIds.add (id);
 			}
-			for (PathwayElement.MAnchor pp : pe.getMAnchors())
+			for (MAnchor pp : pe.getMAnchors())
 			{
 				String pid = pp.getGraphId();
 				if (pid != null)

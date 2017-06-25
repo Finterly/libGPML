@@ -22,7 +22,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.pathvisio.core.model.ConnectorShape.Segment;
-import org.pathvisio.core.model.PathwayElement.MPoint;
+import org.pathvisio.core.model.MPoint;
 
 import junit.framework.TestCase;
 
@@ -33,10 +33,10 @@ public class TestSegmentedConnector extends TestCase
 	{
 		MLine line = new MLine(ObjectType.LINE);
 		MPoint [] points = new MPoint[] {
-				line.new MPoint(75.0, 125.0),
-				line.new MPoint(75.0, 50.0),
-				line.new MPoint(50.0, 50.0),
-				line.new MPoint(25.0, 25.0)
+				new MPoint(75.0, 125.0, line),
+				new MPoint(75.0, 50.0, line),
+				new MPoint(50.0, 50.0, line),
+				new MPoint(25.0, 25.0, line)
 		};
 		line.setMPoints(Arrays.asList(points));
 				

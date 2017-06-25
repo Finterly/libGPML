@@ -28,7 +28,7 @@ import java.util.Set;
 import org.pathvisio.core.model.GraphLink.GraphIdContainer;
 import org.pathvisio.core.model.GraphLink.GraphRefContainer;
 import org.pathvisio.core.model.PathwayElement;
-import org.pathvisio.core.model.PathwayElement.MPoint;
+import org.pathvisio.core.model.MPoint;
 import org.pathvisio.core.model.StaticProperty;
 
 /**

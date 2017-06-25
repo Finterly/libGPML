@@ -35,8 +35,8 @@ import org.jdom.Namespace;
 import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
 import org.pathvisio.core.biopax.BiopaxElement;
-import org.pathvisio.core.model.PathwayElement.MAnchor;
-import org.pathvisio.core.model.PathwayElement.MPoint;
+import org.pathvisio.core.model.MAnchor;
+import org.pathvisio.core.model.MPoint;
 //import org.pathvisio.core.view.Line;
 import org.pathvisio.core.view.ShapeRegistry;
 import org.pathvisio.core.view.State;
@@ -660,9 +660,9 @@ class GpmlFormat2010a extends GpmlFormatAbstract implements GpmlFormatReader, Gp
     	List<Element> pointElements = graphics.getChildren("Point", e.getNamespace());
     	for(int i = 0; i < pointElements.size(); i++) {
     		Element pe = pointElements.get(i);
-    		MPoint mp = o.new MPoint(
+    		MPoint mp = new MPoint(
     		    	Double.parseDouble(getAttribute("Line.Graphics.Point", "X", pe)),
-    		    	Double.parseDouble(getAttribute("Line.Graphics.Point", "Y", pe))
+    		    	Double.parseDouble(getAttribute("Line.Graphics.Point", "Y", pe)), o
     		);
     		mPoints.add(mp);
         	String ref = getAttribute("Line.Graphics.Point", "GraphRef", pe);

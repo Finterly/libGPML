@@ -22,8 +22,8 @@ import org.jdom.Element;
 import org.jdom.Namespace;
 import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
-import org.pathvisio.core.model.PathwayElement.MAnchor;
-import org.pathvisio.core.model.PathwayElement.MPoint;
+import org.pathvisio.core.model.MAnchor;
+import org.pathvisio.core.model.MPoint;
 import org.pathvisio.core.view.ShapeRegistry;
 
 import java.awt.*;
@@ -690,9 +690,9 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
     	List<Element> pointElements = e.getChildren("Point", e.getNamespace());
     	for(int i = 0; i < pointElements.size(); i++) {
     		Element pe = pointElements.get(i);
-    		MPoint mp = o.new MPoint(
+    		MPoint mp = new MPoint(
     		    	Double.parseDouble(getAttribute("Interaction.Point", "x", pe)),
-    		    	Double.parseDouble(getAttribute("Interaction.Point", "y", pe))
+    		    	Double.parseDouble(getAttribute("Interaction.Point", "y", pe)), o
     		);
     		mPoints.add(mp);
         	String ref = getAttribute("Interaction.Point", "graphRef", pe);
@@ -1074,5 +1074,4 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			}
 		}
 	}
-
 }
