@@ -142,7 +142,8 @@
 		</xsd:restriction>
 	</xsd:simpleType>
 
-	<!-- One or more comments bundled together !-->
+	<!--TODO: Rename group since it now bundles CitationRefs too-->
+    <!-- One or more comments bundled together !-->
 	<xsd:group name="CommentGroup">
 		<xsd:sequence>
 			<xsd:element name="Comment" minOccurs="0" maxOccurs="unbounded">
@@ -170,6 +171,14 @@
 				<xsd:complexType>
 					<xsd:attribute name="key" type="xsd:string" use="required"/>
 					<xsd:attribute name="value" type="xsd:string" use="required"/>
+				</xsd:complexType>
+			</xsd:element>
+
+			<!--Citation References for Pathway Elements-->
+
+			<xsd:element name="CitationRef" minOccurs="0" maxOccurs="unbounded">
+				<xsd:complexType>
+					<xsd:attribute name="ID" type="xsd:string" use="required"/>
 				</xsd:complexType>
 			</xsd:element>
 		</xsd:sequence>
@@ -265,7 +274,6 @@
 			 like GeneProduct, Metabolite, Pathway, Protein, RNA, Unknown. -->
 		<xsd:sequence>
 			<xsd:group ref="gpml:CommentGroup"/>
-			<xsd:element name="CitationRefs" type="CitationRefs" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
 				<xsd:complexType>
 					<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
@@ -327,7 +335,6 @@
 	<xsd:complexType name="State">
 		<xsd:sequence>
 			<xsd:group ref="gpml:CommentGroup"/>
-			<xsd:element name="CitationRefs" type="CitationRefs" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
 			<xsd:element name="Xref" minOccurs="0" maxOccurs="1">
 				<xsd:complexType>
 					<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
@@ -376,7 +383,6 @@
 		<xsd:sequence>
 
 			<xsd:group ref="gpml:CommentGroup" />
-			<xsd:element name="CitationRefs" type="CitationRefs" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
 
 			<xsd:element name="Point" minOccurs="2" maxOccurs="unbounded">
 				<xsd:complexType>
@@ -427,7 +433,6 @@
 	<xsd:complexType name="Interaction">
 		<xsd:sequence>
 			<xsd:group ref="gpml:CommentGroup" />
-			<xsd:element name="CitationRefs" type="CitationRefs" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
 
 			<xsd:element name="Xref" minOccurs="1" maxOccurs="1">
 				<xsd:complexType>
@@ -495,7 +500,6 @@
 
 		<xsd:sequence>
 			<xsd:group ref="gpml:CommentGroup"/>
-			<xsd:element name="CitationRefs" type="CitationRefs" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 
 		<!-- Graphics related attributes-->
@@ -529,7 +533,6 @@
 	<xsd:complexType name="Shape">
 		<xsd:sequence>
 			<xsd:group ref="gpml:CommentGroup" />
-			<xsd:element name="CitationRefs" type="CitationRefs" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 
 		<!-- Graphics related attributes-->
@@ -563,7 +566,6 @@
 	<xsd:complexType name="Group">
 		<xsd:sequence>
 			<xsd:group ref="gpml:CommentGroup" />
-			<xsd:element name="CitationRefs" type="CitationRefs" xmlns="http://pathvisio.org/GPML/2017a" minOccurs="0" maxOccurs="1"/>
 		</xsd:sequence>
 
 		<!-- TODO: needed? -->

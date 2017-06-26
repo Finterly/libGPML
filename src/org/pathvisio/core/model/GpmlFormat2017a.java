@@ -1065,11 +1065,9 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 	{
 		if(e != null)
 		{
-			Element citationRefs = new Element("CitationRefs", getGpmlNamespace());
-			e.addContent(citationRefs);
 			for(String citationRef : o.getCitationRefs()){
 				Element element = new Element("CitationRef", getGpmlNamespace());
-				citationRefs.addContent(element);
+				e.addContent(element);
 				element.setAttribute("ID", citationRef);
 			}
 		}
