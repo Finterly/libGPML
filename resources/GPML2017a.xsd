@@ -142,7 +142,10 @@
 		</xsd:restriction>
 	</xsd:simpleType>
 
-	<!--TODO: Rename group since it now bundles CitationRef-->
+	<!--TODO: Rename group since it bundles `Attribute`, `CitationRef`
+		- How about CommonGroup, since it is that way in code too..
+		  mapCommon, updateCommon
+	-->
     <!-- One or more comments bundled together !-->
 	<xsd:group name="CommentGroup">
 		<xsd:sequence>
