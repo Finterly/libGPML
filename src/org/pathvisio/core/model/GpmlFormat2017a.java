@@ -409,6 +409,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 				break;	
 			case MAPPINFO:
 				mapCommon(o, e);
+				mapOntologyTermRefs(e, p);
 				mapMappInfoData(o, e);
 				break;
 			case SHAPE:
@@ -434,12 +435,6 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 				break;
 			case ONTOLOGY:
 				mapOntology(e, p);
-				break;
-			case CITATION_REF:
-				mapCitationRefsPathway(e, p);
-				break;
-			case ONTOLOGY_REF:
-				mapOntologyTermRefs(e, p);
 				break;
 			default:
 				throw new ConverterException("Invalid ObjectType'" + tag + "'");
@@ -809,6 +804,8 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			if (o.getObjectType() == ObjectType.MAPPINFO)
 			{
 				updateMappInfo(root, o);
+				updateCitationRefs(o, root);
+				updateOntologyTermRefs(o.getParent(), root);
 			}
 			else
 			{
@@ -819,16 +816,12 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		}
 		// Add the non-PathwayElement type Elements
 		// Which include the new Elements introduced with the 2017a schema
-		// Citations, OntologyTerms, CitationRefs and OntologyRefs
+		// Citations, OntologyTerms
 
 		if(data.getCitations().size()>0)
 			elementList.add(updateCitations(data, new Element("Citations", getGpmlNamespace())));
 		if(data.getOntologyTerms().size()>0)
 			elementList.add(updateOntologyTerms(data, new Element("OntologyTerms", getGpmlNamespace())));
-		if(data.getCitationRefs().size()>0)
-			elementList.add(updateCitationRefsPathway(data, new Element("CitationRefs", getGpmlNamespace())));
-		if(data.getOntologyTermRefs().size()>0)
-			elementList.add(updateOntologyTermRefs(data, new Element("OntologyTermRefs", getGpmlNamespace())));
 
     	// now sort the generated elements in the order defined by the xsd
 		Collections.sort(elementList, new ByElementName());
@@ -998,29 +991,6 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 				citation.addAuthor(author.getAttributeValue("name"));
 			}
 
-		}
-	}
-
-	private Element updateCitationRefsPathway(Pathway p, Element e)
-	{
-		if(e != null)
-		{
-			for(String citationRef : p.getCitationRefs()){
-				Element element = new Element("CitationRef", getGpmlNamespace());
-				e.addContent(element);
-				element.setAttribute("ID", citationRef);
-			}
-		}
-		return e;
-	}
-
-	private void mapCitationRefsPathway(Element e, Pathway p) throws ConverterException
-	{
-		List<Element> citationRefs = e.getChildren("CitationRef", e.getNamespace());
-		String id;
-		for(Element ot: citationRefs){
-			id=ot.getAttributeValue("ID");
-			p.addCitationRef(id);
 		}
 	}
 

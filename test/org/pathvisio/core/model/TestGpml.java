@@ -105,7 +105,7 @@ public class TestGpml extends TestCase
 
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
-
+		assertEquals(pwy.getMappInfo().getCitationRefs().size(),1);
 //		File tmp = File.createTempFile("test", "gpml");
 		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/biopax-literaturexref-testcase.gpml");
 		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
@@ -133,8 +133,9 @@ public class TestGpml extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 
-		for(String s:pwy.getGroupIds())
-			assertEquals("Group should have 2 elements",2,pwy.getGroupElements(s).size());
+//		System.out.println(pwy.getMappInfo().getCitationRefs().size());
+//		for(String s:pwy.getGroupIds())
+//			assertEquals("Group should have 2 elements",2,pwy.getGroupElements(s).size());
 
 		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/out.gpml");
 //		File tmp = File.createTempFile("test", "gpml");
@@ -188,7 +189,7 @@ public class TestGpml extends TestCase
 		pwy.readFromXml(in, true);
 
 		assertEquals(2, pwy.getOntologyTermRefs().size());
-		assertEquals(2, pwy.getCitationRefs().size());
+		assertEquals(2, pwy.getMappInfo().getCitationRefs().size());
 
 		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/ontology-citations-output.gpml");
 //		File tmp = File.createTempFile("test", "gpml");

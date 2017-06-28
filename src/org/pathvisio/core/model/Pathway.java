@@ -84,7 +84,6 @@ public class Pathway
 	private List<PathwayElement> dataObjects = new ArrayList<>();
 	private HashMap<String,OntologyTerm> ontologyTerms = new HashMap<>();
 	private HashMap<String,Citation> citations = new HashMap<>();
-	private ArrayList<String> citationRefs = new ArrayList<>();
 	private ArrayList<String> ontologyTermRefs = new ArrayList<>();
 
 	/**
@@ -972,16 +971,7 @@ public class Pathway
 		return citations.get(citationId);
 	}
 
-	public void addCitationRef(String citationRef){
-		citationRefs.add(citationRef);
-	}
-
-	public ArrayList<String> getCitationRefs() {
-		return citationRefs;
-	}
-
-
-	public void addOntologyTermRef(String ontologyTermRef){
+public void addOntologyTermRef(String ontologyTermRef){
 		ontologyTermRefs.add(ontologyTermRef);
 	}
 
