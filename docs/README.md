@@ -1,3 +1,14 @@
-# libGPML blog
+# Hello World
 
-This directory is used to host the libGPML blog files.
+Hey fellow humans and crawlers
+
+I am a Computer Science and Technology major at Indian Institute of Technology Delhi, class of 2018.
+
+I love skateboarding; an avid reader, mostly fantasy though and obviously a neophyte blogger. Really love the works of Andrzej Sapkowski, Patrick Rothfuss, Alan Moore. 
+
+Connect with Saurabh at:
+
+* Github: www.github.com/saurabhkumar13
+* Work email: cs1140252@iitd.ac.in
+* Personal email: saurabhk1396@gmail.com
+
