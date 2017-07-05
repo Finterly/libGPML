@@ -92,7 +92,15 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 	{
 		return attributes.keySet();
 	}
+	private HashSet<Interaction> sourceInteractions = new HashSet<>();
+	private HashSet<Interaction> targetInteractions = new HashSet<>();
+	private Interaction lineInteraction;
 
+	public void clearInteractions(){
+		lineInteraction = null;
+		sourceInteractions.clear();
+		targetInteractions.clear();
+	}
 	/**
 	 * set a dynamic property.
 	 * Setting to null means removing this dynamic property altogether
@@ -989,6 +997,88 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 		if(!connections.contains(in)&&in!=null&&in!=this)
 			connections.add(in);
 	}
+
+	public Interaction getLineInteraction(){
+		return lineInteraction;
+	}
+
+	public void updateInteractions() {
+		Pathway p = getPathway();
+		if(p==null) return;
+		GraphIdContainer source = p.getGraphIdContainer(getMStart().getGraphRef());
+		GraphIdContainer target = p.getGraphIdContainer(getMEnd().getGraphRef()), temp = target, anchorT=null;
+		PathwayElement sourceElement = null, targetElement = null;
+		if(source==null||target==null) return;
+
+		// Check if source or target Datanodes or Anchors
+		// if DataNode, it'll be an instance of PathwayElement else an Anchor
+		if(source instanceof PathwayElement)
+			sourceElement = (PathwayElement)source;
+
+		if(target instanceof PathwayElement)
+			targetElement = (PathwayElement)target;
+
+		if(source instanceof MAnchor) anchorT = source;
+		if(target instanceof MAnchor) anchorT = target;
+
+		Interaction interaction = lineInteraction;
+
+		if (sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE
+				&&targetElement!=null&&targetElement.getObjectType()==ObjectType.DATANODE) {
+			if(interaction==null) {
+				interaction = new Interaction();
+			}
+		}
+		else if(sourceElement!=null&&sourceElement.getObjectType()==ObjectType.DATANODE){
+			while(target instanceof MAnchor){
+				temp = target;
+				MAnchor anchor = ((MAnchor)target);
+				target = p.getGraphIdContainer(anchor.getParent().getMEnd().getGraphRef());
+			}
+			if(target instanceof PathwayElement && temp instanceof MAnchor){
+				MAnchor anchor = ((MAnchor)temp);
+				targetElement = (PathwayElement) target;
+				interaction = anchor.getParent().lineInteraction;
+				if(interaction==null) {
+					interaction = new Interaction();
+				}
+				while(anchorT instanceof MAnchor){
+					anchor = ((MAnchor)anchorT);
+					anchor.getParent().lineInteraction = interaction;
+					anchorT = p.getGraphIdContainer(anchor.getParent().getMEnd().getGraphRef());
+				}
+			}
+		}
+		else if(targetElement!=null&&targetElement.getObjectType()==ObjectType.DATANODE){
+			while(source instanceof MAnchor){
+				temp = source;
+				MAnchor anchor = ((MAnchor)source);
+				source = p.getGraphIdContainer(anchor.getParent().getMStart().getGraphRef());
+			}
+			if(source instanceof PathwayElement && temp instanceof MAnchor){
+				MAnchor anchor = ((MAnchor)temp);
+				sourceElement = (PathwayElement) source;
+				interaction = anchor.getParent().lineInteraction;
+				if(interaction==null) {
+					interaction = new Interaction();
+				}
+				while(anchorT instanceof MAnchor){
+					anchor = ((MAnchor)anchorT);
+					anchor.getParent().lineInteraction = interaction;
+					anchorT = p.getGraphIdContainer(anchor.getParent().getMStart().getGraphRef());
+				}
+			}
+		}
+		if(interaction==null||sourceElement==null||targetElement==null) return;
+		interaction.addSource(sourceElement);
+		interaction.addTarget(targetElement);
+		sourceElement.sourceInteractions.add(interaction);
+		targetElement.targetInteractions.add(interaction);
+		lineInteraction = interaction;
+		p.addInteraction(interaction);
+	}
+
+
 	public void updateConnections(){
 		Pathway p = mPoints.get(0).getPathway();
 		if(p==null) return;

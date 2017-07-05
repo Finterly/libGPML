@@ -85,6 +85,7 @@ public class Pathway
 	private HashMap<String,OntologyTerm> ontologyTerms = new HashMap<>();
 	private HashMap<String,Citation> citations = new HashMap<>();
 	private ArrayList<String> ontologyTermRefs = new ArrayList<>();
+	private HashSet<Interaction> interactions = new HashSet<>();
 
 	/**
 	 * Getter for dataobjects contained. There is no setter, you
@@ -947,6 +948,28 @@ public class Pathway
 
 	public Collection<OntologyTerm> getOntologyTerms(){
 		return ontologyTerms.values();
+	}
+
+	public void addInteraction(Interaction interaction){
+		interactions.add(interaction);
+	}
+
+	public Collection<Interaction> getInteractions(){
+		return interactions;
+	}
+
+	public void updateInteractions(){
+		for(PathwayElement pathwayElement:getDataObjects()){
+			if(pathwayElement instanceof MLine)
+				pathwayElement.updateInteractions();
+		}
+	}
+
+	public void clearInteractions(){
+		for(PathwayElement pathwayElement:getDataObjects()){
+				pathwayElement.clearInteractions();
+		}
+		interactions.clear();
 	}
 
 	public OntologyTerm getOntologyTermById(String ontologyTermId){

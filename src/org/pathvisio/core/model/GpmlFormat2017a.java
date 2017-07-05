@@ -693,11 +693,6 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
         	String ref = getAttribute("Interaction.Point", "graphRef", pe);
         	String graphId = getAttribute("Interaction.Point", "graphId", pe);
 
-        	if(graphId!=null)
-        		mp.setGraphId(graphId);
-        	else
-        		mp.setGeneratedGraphId();
-
         	if (ref != null) {
         		mp.setGraphRef(ref);
         		String srx = pe.getAttributeValue("relX");
@@ -777,6 +772,8 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 
 		for(MAnchor anchor : o.getMAnchors()) {
 			Element ae = new Element("Anchor", e.getNamespace());
+			if(anchor.getGraphId()==null)
+				anchor.setGeneratedGraphId();
 			setAttribute("Interaction.Anchor", "position", ae, Double.toString(anchor.getPosition()));
 			setAttribute("Interaction.Anchor", "shape", ae, anchor.getShape().getName());
 			updateGraphId(anchor, ae);
