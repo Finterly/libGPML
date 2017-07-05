@@ -1,0 +1,23 @@
+# Google Summer of Code (GSoC) 2017 with NRNB
+
+I intend to work with NRNB this summer to create a separate GPML library to read and write GPML files in Java which can be used by PathVisio, the WikiPathways app for Cytoscape and many other applications. I'll be mentored by [Martina Kutmon](https://github.com/mkutmon).
+
+Currently it is required to include the whole PathVisio core module which is much bigger and already contains PathVisio specific visualization aspects. A general GPML library should only contain the data model, the functionality to read and write GPML files and relevant importers and exporters to other often used file formats so it can be easily integrated in other applications.
+
+
+## DELIVERABLES
+1. Create new Java library with an updated existing data model 
+1. Port existing readers and writers for existing GPML schemas.
+1. Design GPML2017a schema to include new features and fix the bugs in the current schema
+1. Include exporters for other standard formats
+1. Writing tests for libGPML
+1. Writing documentation
+
+## IMPLEMENTATION
+
+The new data model will be based on the existing data model with major improvements. Especially the way interactions are currently stored needs to be improved. These links have to be incorporated in the data structure to facilitate implementing any graph algorithms like search, path, cycle, topological sort, spanning trees efficiently which are essential for any network-based analysis.
+
+The exporters will be designed while studying the existing exporters if available and improve or add any necessary features or design with similar strategy.
+
+The new GPML2017a XSD schema will involve many design decisions, which would be planned while collaborating with PathVisio / WIkiPathways developers team. 
+
