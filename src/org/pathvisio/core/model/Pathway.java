@@ -959,9 +959,26 @@ public class Pathway
 	}
 
 	public void updateInteractions(){
+		ArrayList<PathwayElement> lines = new ArrayList<>();
 		for(PathwayElement pathwayElement:getDataObjects()){
 			if(pathwayElement instanceof MLine)
-				pathwayElement.updateInteractions();
+				lines.add(pathwayElement);
+		}
+		// Sort the lines to update the parent line of any interaction first
+		lines.sort(new Comparator<PathwayElement>() {
+			@Override
+			public int compare(PathwayElement pathwayElement, PathwayElement t1) {
+				GraphIdContainer
+						source = getGraphIdContainer(pathwayElement.getMStart().getGraphId()),
+						target = getGraphIdContainer(pathwayElement.getMEnd().getGraphId());
+				if(source instanceof PathwayElement && target instanceof PathwayElement)
+					return -1;
+				return 1;
+			}
+		});
+		// Update the interactions now
+		for(PathwayElement pathwayElement:lines){
+			pathwayElement.updateInteractions();
 		}
 	}
 

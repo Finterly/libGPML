@@ -25,6 +25,21 @@ public class TestInteractions extends TestCase
 {
 	private static final File PATHVISIO_BASEDIR = new File (".");
 
+	public static void testFail1() throws ConverterException, IOException
+	{
+		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/Interactions/fail1.gpml");
+		assertTrue (in.exists());
+
+		Pathway pwy = new Pathway();
+		pwy.readFromXml(in, true);
+		pwy.updateInteractions();
+
+		assertEquals(0,pwy.getInteractions().size());
+
+		File tmp = File.createTempFile("test", "gpml");
+		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+	}
+
 	public static void testBasic1() throws ConverterException, IOException
 	{
 		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/Interactions/basic1.gpml");

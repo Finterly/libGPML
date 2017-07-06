@@ -1045,10 +1045,11 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 			if(target instanceof PathwayElement && temp instanceof MAnchor){
 				MAnchor anchor = ((MAnchor)temp);
 				targetElement = (PathwayElement) target;
- 				interaction = anchor.getParent().lineInteraction;
+				interaction = anchor.getParent().lineInteraction;
 				if(interaction==null) {
 					interaction = new Interaction();
 				}
+				// update all linked lines with interaction
 				while(anchorT instanceof MAnchor){
 					anchor = ((MAnchor)anchorT);
 					anchor.getParent().lineInteraction = interaction;
@@ -1056,6 +1057,7 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 				}
 			}
 		}
+		// Same as for source
 		else if(targetElement!=null&&targetElement.getObjectType()==ObjectType.DATANODE){
 			while(source instanceof MAnchor){
 				temp = source;
@@ -1076,6 +1078,13 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 				}
 			}
 		}
+		// Invalid Interaction, one of the ends need to be connected to a DataNode
+		else
+			return;
+		// Update all structures
+		// Also note since they are HashSets, duplicates are implicitly checked
+		// If failed to create an or use an already instantiated interaction object
+		// it should be an invalid Interaction
 		if(interaction==null||sourceElement==null||targetElement==null) return;
 		interaction.addSource(sourceElement);
 		interaction.addTarget(targetElement);
