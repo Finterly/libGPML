@@ -1006,12 +1006,14 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 		Pathway p = getPathway();
 		if(p==null) return;
 		GraphIdContainer source = p.getGraphIdContainer(getMStart().getGraphRef());
-		GraphIdContainer target = p.getGraphIdContainer(getMEnd().getGraphRef()), temp = target, anchorT=null;
+		GraphIdContainer target = p.getGraphIdContainer(getMEnd().getGraphRef()),
+				temp = target, anchorT=null;
 		PathwayElement sourceElement = null, targetElement = null;
+		// If the line has no valid references to source and target containers,
+		// It is not connected and could not be a valid Interaction
 		if(source==null||target==null) return;
 
-		// Check if source or target Datanodes or Anchors
-		// if DataNode, it'll be an instance of PathwayElement else an Anchor
+		// Check if source or target are PathwayELement DataNode or MAnchors
 		if(source instanceof PathwayElement)
 			sourceElement = (PathwayElement)source;
 
@@ -1023,22 +1025,27 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 
 		Interaction interaction = lineInteraction;
 
+		// True if the line has a direct connection to both source and target
 		if (sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE
 				&&targetElement!=null&&targetElement.getObjectType()==ObjectType.DATANODE) {
+			// Create Interaction object if not already
 			if(interaction==null) {
 				interaction = new Interaction();
 			}
 		}
 		else if(sourceElement!=null&&sourceElement.getObjectType()==ObjectType.DATANODE){
+			// repeatedly search for a DataNode which could be a possible target
 			while(target instanceof MAnchor){
 				temp = target;
 				MAnchor anchor = ((MAnchor)target);
+				// get the GraphIdContainer at the end of the current line
 				target = p.getGraphIdContainer(anchor.getParent().getMEnd().getGraphRef());
 			}
+			// target is any target we found, temp is the last anchor the target was connected to
 			if(target instanceof PathwayElement && temp instanceof MAnchor){
 				MAnchor anchor = ((MAnchor)temp);
 				targetElement = (PathwayElement) target;
-				interaction = anchor.getParent().lineInteraction;
+ 				interaction = anchor.getParent().lineInteraction;
 				if(interaction==null) {
 					interaction = new Interaction();
 				}
