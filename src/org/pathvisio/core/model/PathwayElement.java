@@ -92,9 +92,9 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 	{
 		return attributes.keySet();
 	}
-	private HashSet<Interaction> sourceInteractions = new HashSet<>();
-	private HashSet<Interaction> targetInteractions = new HashSet<>();
-	private Interaction lineInteraction;
+	private HashSet<Interaction> sourceInteractions = new HashSet<>(); // Only valid for PathwayElement of type DATANODE
+	private HashSet<Interaction> targetInteractions = new HashSet<>(); // Only valid for PathwayElement of type DATANODE
+	private Interaction lineInteraction; // Only valid for PathwayElement of type LINE
 
 	public void clearInteractions(){
 		lineInteraction = null;
