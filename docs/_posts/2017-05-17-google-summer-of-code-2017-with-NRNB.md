@@ -5,7 +5,7 @@ I intend to work with NRNB this summer to create a separate GPML library to read
 Currently it is required to include the whole PathVisio core module which is much bigger and already contains PathVisio specific visualization aspects. A general GPML library should only contain the data model, the functionality to read and write GPML files and relevant importers and exporters to other often used file formats so it can be easily integrated in other applications.
 
 
-## DELIVERABLES
+#### DELIVERABLES
 1. Create new Java library with an updated existing data model 
 1. Port existing readers and writers for existing GPML schemas.
 1. Design GPML2017a schema to include new features and fix the bugs in the current schema
@@ -13,7 +13,7 @@ Currently it is required to include the whole PathVisio core module which is muc
 1. Writing tests for libGPML
 1. Writing documentation
 
-## IMPLEMENTATION
+#### IMPLEMENTATION
 
 The new data model will be based on the existing data model with major improvements. Especially the way interactions are currently stored needs to be improved. These links have to be incorporated in the data structure to facilitate implementing any graph algorithms like search, path, cycle, topological sort, spanning trees efficiently which are essential for any network-based analysis.
 
