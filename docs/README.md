@@ -4,6 +4,8 @@ This is a blog maintained to record the progress of the work done on libGPML lib
 
 Latest posts on this blog:
 
+* ### [Introducing Interactions (Updated)](http://www.libgpml.com/post-6.html)
+> July 10, 2017
 * ### [Introducing Interactions](http://www.libgpml.com/post-5.html)
 > July 06, 2017
 * ### [GPML Schema: Comparing 2013a and 2017a](http://www.libgpml.com/post-4.html)
