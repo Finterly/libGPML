@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Complex 1" Version="20170705">
+  <Graphics BoardWidth="599.0" BoardHeight="359.0" />
+  <DataNode TextLabel="GeneProduct" GraphId="c227e" Type="GeneProduct">
+    <Graphics CenterX="157.25" CenterY="161.25" Width="117.5" Height="73.5" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="c227e" />
+  </DataNode>
+  <DataNode TextLabel="GeneProduct" GraphId="da25f" Type="GeneProduct">
+    <Graphics CenterX="447.25" CenterY="165.25" Width="129.5" Height="77.5" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="da25f" />
+  </DataNode>
+  <DataNode TextLabel="GeneProduct" GraphId="f43ce" Type="GeneProduct">
+    <Graphics CenterX="149.25" CenterY="287.25" Width="117.5" Height="73.5" ZOrder="32770" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="f43ce" />
+  </DataNode>
+  <DataNode TextLabel="GeneProduct" GraphId="a7757" Type="GeneProduct">
+    <Graphics CenterX="444.25" CenterY="282.25" Width="129.5" Height="77.5" ZOrder="32771" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="a7757" />
+  </DataNode>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="290.0" Y="227.0" />
+      <Point X="313.0" Y="226.0" />
+      <Anchor Position="0.0" Shape="None" GraphId="d413f" />
+      <Anchor Position="1.0" Shape="None" GraphId="d7496" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="216.0" Y="161.25" GraphRef="c227e" RelX="1.0" RelY="0.0" />
+      <Point X="290.0" Y="227.0" GraphRef="d413f" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="290.0" Y="227.0" GraphRef="d413f" RelX="0.0" RelY="0.0" />
+      <Point X="208.0" Y="287.25" GraphRef="f43ce" RelX="1.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="313.0" Y="226.0" GraphRef="d7496" RelX="0.0" RelY="0.0" />
+      <Point X="382.5" Y="165.25" GraphRef="da25f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="313.0" Y="226.0" GraphRef="d7496" RelX="0.0" RelY="0.0" />
+      <Point X="379.5" Y="282.25" GraphRef="a7757" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
+

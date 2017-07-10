@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Basic 3" Version="20170704">
+  <Graphics BoardWidth="598.0" BoardHeight="536.0" />
+  <DataNode TextLabel="GeneProduct" GraphId="e0798" Type="GeneProduct">
+    <Graphics CenterX="290.25" CenterY="452.25" Width="147.5" Height="107.5" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="e0798" />
+  </DataNode>
+  <DataNode TextLabel="GeneProduct" GraphId="eb7c3" Type="GeneProduct">
+    <Graphics CenterX="485.75" CenterY="303.25" Width="164.5" Height="95.5" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="eb7c3" />
+  </DataNode>
+  <DataNode TextLabel="GeneProduct" GraphId="ec9e1" Type="GeneProduct">
+    <Graphics CenterX="150.25" CenterY="304.75" Width="177.5" Height="90.5" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="ec9e1" />
+  </DataNode>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="290.25" Y="398.5" GraphRef="e0798" RelX="0.0" RelY="-1.0" />
+      <Point X="304.8" Y="304.15" GraphRef="cd0dc" RelX="0.0" RelY="0.0" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id679c507d">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="239.0" Y="304.75" GraphRef="ec9e1" RelX="1.0" RelY="0.0" />
+      <Point X="403.5" Y="303.25" GraphRef="eb7c3" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+      <Anchor Position="0.4" Shape="None" GraphId="cd0dc" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax />
+</Pathway>
+

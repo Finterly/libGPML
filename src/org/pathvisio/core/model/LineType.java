@@ -37,7 +37,7 @@ public class LineType
 	public static final LineType LINE = new LineType("Line", "Line");
 	public static final LineType ARROW = new LineType("Arrow", "Arrow");
 	public static final LineType TBAR = new LineType("TBar", "TBar");
-	
+
 	@Deprecated
 	public static final LineType RECEPTOR = new LineType("Receptor", "Receptor", true);
 	@Deprecated
