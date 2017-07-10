@@ -9,11 +9,11 @@ import java.util.HashSet;
  */
 public class Edge {
     HashSet<Node> sources,targets;
-    LineType lineType;
-    Edge(LineType lineType){
+    LineType edgeType;
+    Edge(LineType edgeType){
         sources = new HashSet<>();
         targets = new HashSet<>();
-        this.lineType = lineType;
+        this.edgeType = edgeType;
     }
 
     public void addSource(Node node){
@@ -37,5 +37,9 @@ public class Edge {
         participants.addAll(sources);
         participants.addAll(targets);
         return participants;
+    }
+
+    public LineType getEdgeType() {
+        return edgeType;
     }
 }

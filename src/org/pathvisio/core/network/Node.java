@@ -25,4 +25,8 @@ public class Node {
     public void add(PathwayElement pathwayElement){
         dataNodes.add(pathwayElement);
     }
-  }
+
+    public HashSet<PathwayElement> getDataNodes() {
+        return dataNodes;
+    }
+}

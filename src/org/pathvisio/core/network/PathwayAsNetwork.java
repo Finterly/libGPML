@@ -127,6 +127,7 @@ public class PathwayAsNetwork {
             // get the GraphIdContainer at the end of the current line
             target = p.getGraphIdContainer(anchorT.getParent().getMEnd().getGraphRef());
             pline = anchorT.getParent();
+            // if the other end of the line was not connected to a dataNode
             if(target==null){
                 pline = getConnectedLine(anchorT);
                 if(pline!=null)
