@@ -22,6 +22,7 @@ import org.pathvisio.core.model.Pathway;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class TestEdges extends TestCase
 {
@@ -35,6 +36,7 @@ public class TestEdges extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
+		System.out.print(pathwayAsNetwork.toTSV());
 
 		assertEquals(0,pathwayAsNetwork.getEdges().size());
 
@@ -48,6 +50,7 @@ public class TestEdges extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
+		System.out.print(pathwayAsNetwork.toTSV());
 
 		assertEquals(1,pathwayAsNetwork.getEdges().size());
 		for(Edge edge: pathwayAsNetwork.getEdges()) {
@@ -64,6 +67,7 @@ public class TestEdges extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
+		System.out.print(pathwayAsNetwork.toTSV());
 
 		assertEquals(1,pathwayAsNetwork.getEdges().size());
 		for(Edge edge: pathwayAsNetwork.getEdges()) {
@@ -80,6 +84,7 @@ public class TestEdges extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
+		System.out.print(pathwayAsNetwork.toTSV());
 
 		assertEquals(1,pathwayAsNetwork.getEdges().size());
 		for(Edge edge: pathwayAsNetwork.getEdges()) {
@@ -97,6 +102,7 @@ public class TestEdges extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
+		System.out.print(pathwayAsNetwork.toTSV());
 
 		assertEquals(1,pathwayAsNetwork.getEdges().size());
 		for(Edge edge: pathwayAsNetwork.getEdges()) {
@@ -114,6 +120,7 @@ public class TestEdges extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
+		System.out.print(pathwayAsNetwork.toTSV());
 
 		assertEquals(2,pathwayAsNetwork.getEdges().size());
 
@@ -127,6 +134,7 @@ public class TestEdges extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
+		System.out.print(pathwayAsNetwork.toTSV());
 
 		assertEquals(3,pathwayAsNetwork.getEdges().size());
 
@@ -140,6 +148,7 @@ public class TestEdges extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
+		System.out.print(pathwayAsNetwork.toTSV());
 
 		assertEquals(2,pathwayAsNetwork.getEdges().size());
 
@@ -153,11 +162,31 @@ public class TestEdges extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
+		System.out.print(pathwayAsNetwork.toTSV());
 
 		assertEquals(1,pathwayAsNetwork.getEdges().size());
 		for(Edge edge: pathwayAsNetwork.getEdges()) {
 			assertEquals(2, edge.getSources().size());
 			assertEquals(2, edge.getTargets().size());
 		}
+	}
+
+	public static void testComplete() throws ConverterException, IOException
+	{
+		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/out.gpml");
+		assertTrue (in.exists());
+
+		Pathway pwy = new Pathway();
+		pwy.readFromXml(in, true);
+		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
+
+		try{
+			PrintWriter writer = new PrintWriter("testData/2017a/interactions.txt", "UTF-8");
+			writer.print(pathwayAsNetwork.toTSV());
+			writer.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
 	}
 }

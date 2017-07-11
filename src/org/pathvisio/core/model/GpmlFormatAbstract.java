@@ -42,6 +42,7 @@ import org.jdom.output.XMLOutputter;
 import org.pathvisio.core.biopax.BiopaxElement;
 import org.pathvisio.core.debug.Logger;
 import org.pathvisio.core.model.GraphLink.GraphIdContainer;
+import org.pathvisio.core.view.MIMShapes;
 import org.xml.sax.SAXException;
 
 /**
@@ -592,6 +593,8 @@ public abstract class GpmlFormatAbstract
 
 	public void readFromRoot(Element root, Pathway pwy) throws ConverterException
 	{
+		MIMShapes.registerShapes();
+
 		mapElement(root, pwy); // MappInfo
 
 		// Iterate over direct children of the root element

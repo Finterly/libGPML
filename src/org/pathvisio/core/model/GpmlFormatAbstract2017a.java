@@ -22,6 +22,7 @@ import org.jdom.output.SAXOutputter;
 import org.jdom.output.XMLOutputter;
 import org.pathvisio.core.debug.Logger;
 import org.pathvisio.core.model.GraphLink.GraphIdContainer;
+import org.pathvisio.core.view.MIMShapes;
 import org.xml.sax.SAXException;
 
 import javax.xml.XMLConstants;
@@ -523,6 +524,8 @@ public abstract class GpmlFormatAbstract2017a
 
 	public void readFromRoot(Element root, Pathway pwy) throws ConverterException
 	{
+		MIMShapes.registerShapes();
+
 		mapElement(root, pwy); // MappInfo
 
 		// Iterate over direct children of the root element

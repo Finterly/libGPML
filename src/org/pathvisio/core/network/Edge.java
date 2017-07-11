@@ -42,4 +42,5 @@ public class Edge {
     public LineType getEdgeType() {
         return edgeType;
     }
+
 }

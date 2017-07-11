@@ -29,4 +29,12 @@ public class Node {
     public HashSet<PathwayElement> getDataNodes() {
         return dataNodes;
     }
+
+    public Xref getId() {
+        return id;
+    }
+
+    public String getLabel() {
+        return label;
+    }
 }

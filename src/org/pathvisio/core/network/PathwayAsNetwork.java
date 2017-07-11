@@ -122,8 +122,10 @@ public class PathwayAsNetwork {
                 edge = new Edge(line.getEndLineType());
             }
         }
+        // check for no arrowhead, if arrowhead then it must be a regulator
+        // which are ignored for now
         else if(sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE
-                && anchorT!=null){
+                    && line.getEndLineType()==LineType.LINE && anchorT!=null){
             // get the GraphIdContainer at the end of the current line
             target = p.getGraphIdContainer(anchorT.getParent().getMEnd().getGraphRef());
             pline = anchorT.getParent();
@@ -189,5 +191,20 @@ public class PathwayAsNetwork {
 
     public HashMap<Xref, Node> getNodes() {
         return nodes;
+    }
+
+    public String toTSV(){
+        StringBuilder res = new StringBuilder();
+        for(Edge edge:edges){
+            for(Node source:edge.getSources())
+                for(Node target:edge.getTargets())
+                    res.append(source.getLabel())
+                        .append('\t')
+                        .append(edge.edgeType.getName())
+                        .append('\t')
+                        .append(target.getLabel())
+                        .append('\n');
+        }
+        return res.toString();
     }
 }

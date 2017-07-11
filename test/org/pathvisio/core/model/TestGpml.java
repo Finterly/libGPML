@@ -20,6 +20,7 @@ import java.io.File;
 import java.io.IOException;
 
 import junit.framework.TestCase;
+import org.pathvisio.core.view.MIMShapes;
 
 public class TestGpml extends TestCase 
 {
