@@ -12,7 +12,7 @@ public class ExportHelperTest extends TestCase {
     private static final File PATHVISIO_BASEDIR = new File (".");
 
     public void testExport() throws Exception {
-        File in = new File (PATHVISIO_BASEDIR, "testData/2017a/WP554_92084.gpml");
+        File in = new File (PATHVISIO_BASEDIR, "testData/2013a/Interactions/basic1.gpml");
 //        File in = new File (PATHVISIO_BASEDIR, "testData/WP248_2010a.gpml");
         assertTrue (in.exists());
 
