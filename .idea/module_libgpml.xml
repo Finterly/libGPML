@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_libgpml" default="compile.module.libgpml">
+  <dirname property="module.libgpml.basedir" file="${ant.file.module_libgpml}"/>
+  
+  <property name="module.jdk.home.libgpml" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.libgpml" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.libgpml" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.libgpml" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="libgpml.output.dir" value="${module.libgpml.basedir}/../out/production/libGPML"/>
+  <property name="libgpml.testoutput.dir" value="${module.libgpml.basedir}/../out/test/libGPML"/>
+  
+  <path id="libgpml.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="libgpml.module.production.classpath">
+    <path refid="${module.jdk.classpath.libgpml}"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="libgpml.runtime.production.module.classpath">
+    <pathelement location="${libgpml.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="libgpml.module.classpath">
+    <path refid="${module.jdk.classpath.libgpml}"/>
+    <pathelement location="${libgpml.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  <path id="libgpml.runtime.module.classpath">
+    <pathelement location="${libgpml.testoutput.dir}"/>
+    <pathelement location="${libgpml.output.dir}"/>
+    <path refid="library.lib.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.libgpml">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.libgpml">
+    <patternset refid="excluded.from.module.libgpml"/>
+  </patternset>
+  
+  <path id="libgpml.module.sourcepath">
+    <dirset dir="${module.libgpml.basedir}/../../libGPML">
+      <include name="resources"/>
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  <path id="libgpml.module.test.sourcepath">
+    <dirset dir="${module.libgpml.basedir}/../../libGPML">
+      <include name="test"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.libgpml" depends="compile.module.libgpml.production,compile.module.libgpml.tests" description="Compile module libGPML"/>
+  
+  <target name="compile.module.libgpml.production" depends="register.custom.compilers" description="Compile module libGPML; production classes">
+    <mkdir dir="${libgpml.output.dir}"/>
+    <javac2 destdir="${libgpml.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.libgpml}/javac">
+      <compilerarg line="${compiler.args.libgpml}"/>
+      <bootclasspath refid="libgpml.module.bootclasspath"/>
+      <classpath refid="libgpml.module.production.classpath"/>
+      <src refid="libgpml.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.libgpml"/>
+    </javac2>
+    
+    <copy todir="${libgpml.output.dir}">
+      <fileset dir="${module.libgpml.basedir}/../resources">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+      <fileset dir="${module.libgpml.basedir}/../src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.libgpml.tests" depends="register.custom.compilers,compile.module.libgpml.production" description="compile module libGPML; test classes" unless="skip.tests">
+    <mkdir dir="${libgpml.testoutput.dir}"/>
+    <javac2 destdir="${libgpml.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.libgpml}/javac">
+      <compilerarg line="${compiler.args.libgpml}"/>
+      <bootclasspath refid="libgpml.module.bootclasspath"/>
+      <classpath refid="libgpml.module.classpath"/>
+      <src refid="libgpml.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.libgpml"/>
+    </javac2>
+    
+    <copy todir="${libgpml.testoutput.dir}">
+      <fileset dir="${module.libgpml.basedir}/../test">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.libgpml" description="cleanup module">
+    <delete dir="${libgpml.output.dir}"/>
+    <delete dir="${libgpml.testoutput.dir}"/>
+  </target>
+</project>

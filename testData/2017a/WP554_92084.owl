@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="eb7c3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">b</bp:displayName>
+ <bp:entityReference rdf:resource="id2" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id2">
+ <bp:xref rdf:resource="id3" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">b</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Basic1</bp:displayName>
+</bp:Pathway>
+
+<bp:ProteinReference rdf:about="id4">
+ <bp:xref rdf:resource="id5" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">a</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id3">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">624</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="ec9e1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">a</bp:displayName>
+ <bp:entityReference rdf:resource="id4" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id6</bp:displayName>
+ <bp:right rdf:resource="eb7c3" />
+ <bp:left rdf:resource="ec9e1" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id5">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5972</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+</rdf:RDF>
