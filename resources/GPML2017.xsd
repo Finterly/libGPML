@@ -372,7 +372,11 @@
 		</xsd:annotation>
 		<xsd:complexType>
 			<xsd:sequence>
+				<!-- pathways can have xrefs -->
+				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
+				
 				<xsd:group ref="gpml:CommentGroup"/>
+				
 				<xsd:element name="OntologyTermRef" type="gpml:OntologyTermRef" minOccurs="0" maxOccurs="unbounded">
 					<xsd:complexType name="OntologyTermRef">
 						<xsd:attribute name="ontologyTermID" type="xsd:string" use="required"/>
@@ -425,36 +429,11 @@
 
 			<xsd:attribute name="version" type="xsd:string" use="optional"/>
 
+			<!-- TODO: support multiple authors -->
 			<xsd:attribute name="author" type="xsd:string" use="optional">
 				<xsd:annotation>
 					<xsd:documentation>
 						The person who created or edited the pathway in question.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-
-			<xsd:attribute name="maintainer" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						The maintainer of the pathway. Currently not used in WP.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-
-			<xsd:attribute name="lastModified" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						The date of the last modification of the pathway,
-						in the form of YYYYMMDD
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
-
-			<xsd:attribute name="email" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						Deprecated: An electronic mail address. Used to reference
-						the author or maintainer of a pathway prior to WikiPathways.
 					</xsd:documentation>
 				</xsd:annotation>
 			</xsd:attribute>
