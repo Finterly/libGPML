@@ -746,7 +746,25 @@
 		<!-- TODO: can a group be part of a group? -->
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
-		<xsd:attribute name="style" type="xsd:string" default="None" />
+		<!-- renamed to groupType -->
+		<xsd:attribute name="groupType" default="Group">
+			<xsd:simpleType>
+				<xsd:union>
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string">
+							<xsd:enumeration value="Group"/>
+							<xsd:enumeration value="Complex"/>
+							<xsd:enumeration value="Pathway"/>
+							<xsd:enumeration value="Analog"/>
+							<xsd:enumeration value="Paralog"/>
+						</xsd:restriction>
+					</xsd:simpleType>
+					<xsd:simpleType>
+						<xsd:restriction base="xsd:string"/>
+					</xsd:simpleType>
+				</xsd:union>
+			</xsd:simpleType>
+		</xsd:attribute>
 		<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
 	</xsd:complexType>
 	<!-- End: Group -->
