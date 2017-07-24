@@ -309,16 +309,6 @@
 					</xsd:simpleContent>
 				</xsd:complexType>
 			</xsd:element>
-			<!--
-			TODO: is this part really needed?
-			<xsd:element name="PublicationXref" minOccurs="0" maxOccurs="unbounded">
-				<xsd:complexType>
-					<xsd:attribute name="ID" type="xsd:string" use="required"/>
-					<xsd:attribute name="dataSource" type="xsd:string" use="required"/>
-				</xsd:complexType>
-			</xsd:element>
-			<xsd:element name="BiopaxRef" minOccurs="0" maxOccurs="unbounded"/>
-			-->
 			<!-- Additional information can be added as attribute key value pairs 
 				 can be used or ignored by readers -->
 			<xsd:element name="Attribute" minOccurs="0" maxOccurs="unbounded">
