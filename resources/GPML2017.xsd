@@ -377,8 +377,8 @@
 				
 				<xsd:group ref="gpml:CommentGroup"/>
 				
-				<xsd:element name="OntologyTermRef" type="gpml:OntologyTermRef" minOccurs="0" maxOccurs="unbounded">
-					<xsd:complexType name="OntologyTermRef">
+				<xsd:element name="OntologyTermRef" minOccurs="0" maxOccurs="unbounded">
+					<xsd:complexType>
 						<xsd:attribute name="ontologyTermID" type="xsd:string" use="required"/>
 					</xsd:complexType>
 				</xsd:element>
@@ -849,7 +849,7 @@
 					<xsd:attribute name="term" type="xsd:string" use="required"/>
 					<xsd:attribute name="ontology" type="xsd:string" use="required"/>
 					<!-- TODO: use ontologyTermID to refer to ontology terms -->
-					<xsd:attribute name="ontologyTermID" type="xsd:ID" use="required" />
+					<xsd:attribute name="ontologyTermID" type="xsd:string" use="required" />
 				</xsd:complexType>
 			</xsd:element>
 		</xsd:sequence>
@@ -918,9 +918,9 @@
 			<xsd:annotation>
 				<xsd:documentation>
 					A elementRef indicates a "depends on" or child/parent relationship
-					between two Pathway elements. The element with the GraphRef is
-					the child, and the element referred to by the GraphRef is the parent.
-					The parent's elementID will be specified by the child's GraphRef.
+					between two Pathway elements. The element with the elementRef is
+					the child, and the element referred to by the elementRef is the parent.
+					The parent's elementID will be specified by the child's elementRef.
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -956,7 +956,5 @@
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
-		<xsd:attribute name="x" type="xsd:float" use="required" />
-		<xsd:attribute name="y" type="xsd:float" use="required" />
 	</xsd:complexType>
 </xsd:schema>

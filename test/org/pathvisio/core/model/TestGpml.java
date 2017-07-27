@@ -20,7 +20,6 @@ import java.io.File;
 import java.io.IOException;
 
 import junit.framework.TestCase;
-import org.pathvisio.core.view.MIMShapes;
 
 public class TestGpml extends TestCase 
 {
@@ -94,7 +93,7 @@ public class TestGpml extends TestCase
 		pwy.readFromXml(in, true);
 
 		File tmp = File.createTempFile("test", "gpml");
-		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
 	/**
 	 * Test reading 2008a, 2010a & 2013a files, then writing them as 2017a
@@ -107,9 +106,9 @@ public class TestGpml extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 		assertEquals(pwy.getMappInfo().getCitationRefs().size(),1);
-//		File tmp = File.createTempFile("test", "gpml");
-		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/biopax-literaturexref-testcase.gpml");
-		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+		File tmp = File.createTempFile("test", "gpml");
+//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/biopax-literaturexref-testcase.gpml");
+		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
 	public static void testConvertBiopaxOntologyTerms13a17a() throws ConverterException, IOException
 	{
@@ -119,9 +118,9 @@ public class TestGpml extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 
-//		File tmp = File.createTempFile("test", "gpml");
-		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/biopax-opencontrolledvocabulary-testcase.gpml");
-		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+		File tmp = File.createTempFile("test", "gpml");
+//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/biopax-opencontrolledvocabulary-testcase.gpml");
+		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
 	/**
 	 * Test reading 2017a files with Group element, then writing them as 2017a
@@ -138,9 +137,9 @@ public class TestGpml extends TestCase
 //		for(String s:pwy.getGroupIds())
 //			assertEquals("Group should have 2 elements",2,pwy.getGroupElements(s).size());
 
-		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/out.gpml");
-//		File tmp = File.createTempFile("test", "gpml");
-		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/out.gpml");
+		File tmp = File.createTempFile("test", "gpml");
+		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
 
 	
@@ -159,7 +158,7 @@ public class TestGpml extends TestCase
 
 //		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/literaturexref-output.gpml");
 		File tmp = File.createTempFile("test", "gpml");
-		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
 	/**
 	 * Test reading 2017a files with ontology, pubref element, then writing them as 2017a
@@ -176,7 +175,7 @@ public class TestGpml extends TestCase
 
 //		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/ontology-output.gpml");
 		File tmp = File.createTempFile("test", "gpml");
-		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
 	/**
 	 * Test reading 2017a files with ontology, citations element
@@ -192,9 +191,9 @@ public class TestGpml extends TestCase
 		assertEquals(2, pwy.getOntologyTermRefs().size());
 		assertEquals(2, pwy.getMappInfo().getCitationRefs().size());
 
-		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/ontology-citations-output.gpml");
-//		File tmp = File.createTempFile("test", "gpml");
-		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/ontology-citations-output.gpml");
+		File tmp = File.createTempFile("test", "gpml");
+		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
 
 	/**
@@ -213,7 +212,7 @@ public class TestGpml extends TestCase
 
 //		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/group.gpml");
 		File tmp = File.createTempFile("test", "gpml");
-		GpmlFormat2017a.GPML_2017A.writeToXml(pwy, tmp, true);
+		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
 
 

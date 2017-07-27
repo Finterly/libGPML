@@ -38,12 +38,12 @@ import java.util.List;
 
 /**
  * Read / write GPML files.
- * Base implementation for different GpmlFormat versions.
- * Code that is shared between multiple versions is located here.
+ * Base implementation for different GpmlFormat revisions.
+ * Code that is shared between multiple revisions is located here.
  */
-public abstract class GpmlFormatAbstract2017a
+public abstract class GpmlFormatAbstract2017
 {
-	protected GpmlFormatAbstract2017a(String xsdFile, Namespace nsGPML)
+	protected GpmlFormatAbstract2017(String xsdFile, Namespace nsGPML)
 	{
 		this.xsdFile = xsdFile;
 		this.nsGPML = nsGPML;
@@ -230,11 +230,8 @@ public abstract class GpmlFormatAbstract2017a
 	{
 		setAttribute("Pathway", "name", root, o.getMapInfoName());
 		setAttribute("Pathway", "dataSource", root, o.getMapInfoDataSource());
-		setAttribute("Pathway", "version", root, o.getVersion());
+		setAttribute("Pathway", "revision", root, o.getVersion());
 		setAttribute("Pathway", "author", root, o.getAuthor());
-		setAttribute("Pathway", "maintainer", root, o.getMaintainer());
-		setAttribute("Pathway", "email", root, o.getEmail());
-		setAttribute("Pathway", "lastModified", root, o.getLastModified());
 		setAttribute("Pathway", "organism", root, o.getOrganism());
 
 		updateComments(o, root);
@@ -337,7 +334,7 @@ public abstract class GpmlFormatAbstract2017a
 
 	protected void mapGraphId (GraphIdContainer o, Element e)
 	{
-		String id = e.getAttributeValue("graphId");
+		String id = e.getAttributeValue("elementID");
 		//Never add graphid until all elements are mapped, to prevent duplcate ids!
 //		if((id == null || id.equals("")) && o.getGmmlData() != null) {
 //			id = o.getGmmlData().getUniqueGraphId();
@@ -353,7 +350,7 @@ public abstract class GpmlFormatAbstract2017a
 		// id has to be unique!
 		if (id != null && !id.equals(""))
 		{
-			e.setAttribute("graphId", o.getGraphId());
+			e.setAttribute("elementID", o.getGraphId());
 		}
 	}
 
@@ -378,15 +375,7 @@ public abstract class GpmlFormatAbstract2017a
 	protected void mapGroup (PathwayElement o, Element e) throws ConverterException
 	{
 		//ID
-		String id = e.getAttributeValue("groupId");
-		String id2 = e.getAttributeValue("graphId");
-		if((id == null || id.equals("")) && o.getParent() != null)
-			{
-				if((id2 == null || id2.equals("")))
-					id = o.getParent().getUniqueGroupId();
-				else
-					id = id2;
-			}
+		String id = e.getAttributeValue("elementID");
 		o.setGroupId (id);
 
 		//GraphId
@@ -407,8 +396,7 @@ public abstract class GpmlFormatAbstract2017a
 		String id = o.createGroupId();
 		if (id != null && !id.equals(""))
 			{
-				e.setAttribute("groupId", o.createGroupId());
-				e.setAttribute("graphId", o.createGroupId());
+				e.setAttribute("elementID", o.createGroupId());
 			}
 
 		//GraphId
@@ -427,11 +415,8 @@ public abstract class GpmlFormatAbstract2017a
 		o.setMapInfoName (getAttribute("Pathway", "name", e));
 		o.setOrganism (getAttribute("Pathway", "organism", e));
 		o.setMapInfoDataSource (getAttribute("Pathway", "dataSource", e));
-		o.setVersion (getAttribute("Pathway", "version", e));
+		o.setVersion (getAttribute("Pathway", "revision", e));
 		o.setAuthor (getAttribute("Pathway", "author", e));
-		o.setMaintainer (getAttribute("Pathway", "maintainer", e));
-		o.setEmail (getAttribute("Pathway", "email", e));
-		o.setLastModified (getAttribute("Pathway", "lastModified", e));
 
 		mapMappInfoDataVariable(o, e);
 	}
@@ -553,7 +538,7 @@ public abstract class GpmlFormatAbstract2017a
 					// because we forgot to write out graphId's on Lines on older pathways
 					// generate a graphId based on hash of coordinates
 					// so that pathways with branching history still have the same id.
-					// This part may be removed for future versions of GPML (2010+)
+					// This part may be removed for future revisions of GPML (2010+)
 
 					StringBuilder builder = new StringBuilder();
 					builder.append(pe.getMStartX());

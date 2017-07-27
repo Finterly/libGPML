@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2017a" name="New Pathway" version="20170619" boardWidth="610.0" boardHeight="430.9523809523811">
-  <DataNode textLabel="Gene1" graphId="bd4a2" type="GeneProduct" centerX="253.41666666666654" centerY="191.8928571428571" width="142.69047619047626" height="111.45238095238096" zOrder="32768" fontSize="12" vAlign="Middle">
-    <CitationRef ID="ad6"/>
-    <Xref dataSource="" ID="" />
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="New Pathway" revision="20170619" boardWidth="610.0" boardHeight="430.9523809523811">
+  <DataNode textLabel="Gene1" elementID="bd4a2" type="GeneProduct" centerX="253.41666666666654" centerY="191.8928571428571" width="142.69047619047626" height="111.45238095238096" zOrder="32768" fontSize="12" vAlign="Middle">
+    <CitationRef citationID="ad6"/>
+    <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode textLabel="Gene2" graphId="c0637" type="GeneProduct" centerX="473.80952380952357" centerY="359.2738095238097" width="101.90476190476215" height="83.35714285714286" zOrder="32768" fontSize="12" vAlign="Middle">
-    <Xref dataSource="" ID="" />
+  <DataNode textLabel="Gene2" elementID="c0637" type="GeneProduct" centerX="473.80952380952357" centerY="359.2738095238097" width="101.90476190476215" height="83.35714285714286" zOrder="32768" fontSize="12" vAlign="Middle">
+    <Xref dataSource="" identifier="" />
   </DataNode>
-  <Interaction graphId="abfc3" zOrder="12288" lineThickness="1.0">
-    <Xref dataSource="" ID="" />
-    <Point x="324.7619047619047" y="191.8928571428571" graphId="ab43f" graphRef="bd4a2" relX="1.0" relY="0.0" />
-    <Point x="473.8095238095235" y="317.5952380952382" graphId="ab43c" graphRef="c0637" relX="0.0" relY="-1.0" />
+  <Interaction elementID="abfc3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="324.7619047619047" y="191.8928571428571" elementID="ab43f" elementRef="bd4a2" relX="1.0" relY="0.0" />
+    <Point x="473.8095238095235" y="317.5952380952382" elementID="ab43c" elementRef="c0637" relX="0.0" relY="-1.0" />
   </Interaction>
   <InfoBox centerX="0.0" centerY="0.0" />
   <Citations>
-  <Citation title="Mining biological pathways using WikiPathways web services." URL="" citationId="ad6" year="2009" source="PLoS One">
-    <Xref dataSource="PubMed" ID="19649250" />
+  <Citation title="Mining biological pathways using WikiPathways web services." URL="" citationID="ad6" year="2009" source="PLoS One">
+    <Xref dataSource="PubMed" identifier="19649250" />
     <Author name="Kelder T" />
     <Author name="Pico AR" />
     <Author name="Hanspers K" />

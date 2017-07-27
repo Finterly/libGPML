@@ -22,8 +22,6 @@ import org.jdom.Element;
 import org.jdom.Namespace;
 import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
-import org.pathvisio.core.model.MAnchor;
-import org.pathvisio.core.model.MPoint;
 import org.pathvisio.core.view.ShapeRegistry;
 
 import java.awt.*;
@@ -34,13 +32,13 @@ import java.io.OutputStream;
 import java.util.*;
 import java.util.List;
 
-class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReader, GpmlFormatWriter
+class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader, GpmlFormatWriter
 {
-	public static final GpmlFormat2017a GPML_2017A = new GpmlFormat2017a(
-			"GPML2017a.xsd", Namespace.getNamespace("http://pathvisio.org/GPML/2017a")
+	public static final GpmlFormat2017 GPML_2017 = new GpmlFormat2017(
+			"GPML2017.xsd", Namespace.getNamespace("http://pathvisio.org/GPML/2017")
 		);
 
-	public GpmlFormat2017a(String xsdFile, Namespace ns) {
+	public GpmlFormat2017(String xsdFile, Namespace ns) {
 		super (xsdFile, ns);
 	}
 
@@ -62,12 +60,9 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		result.put("Pathway@name", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Pathway@organism", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@dataSource", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Pathway@version", new AttributeInfo ("xsd:string", null, "optional"));
+		result.put("Pathway@revision", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@author", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Pathway@maintainer", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Pathway@email", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@license", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Pathway@lastModified", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("DataNode@centerX", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("DataNode@centerY", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("DataNode@width", new AttributeInfo ("gpml:Dimension", null, "required"));
@@ -87,8 +82,8 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		result.put("DataNode@shapeType", new AttributeInfo ("xsd:string", "Rectangle", "optional"));
 		result.put("DataNode@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
 		result.put("DataNode.Xref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("DataNode.Xref@ID", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("DataNode@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("DataNode.Xref@identifier", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("DataNode@elementID", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("DataNode@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("DataNode@textLabel", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("DataNode@type", new AttributeInfo ("xsd:string", "Unknown", "optional"));
@@ -103,20 +98,20 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		result.put("State@shapeType", new AttributeInfo ("xsd:string", "Rectangle", "optional"));
 		result.put("State@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
 		result.put("State.Xref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("State.Xref@ID", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("State@graphId", new AttributeInfo ("xsd:ID", null, "required"));
-		result.put("State@graphRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
+		result.put("State.Xref@identifier", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("State@elementID", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("State@elementRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
 		result.put("State@textLabel", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("State@stateType", new AttributeInfo ("xsd:string", "Unknown", "optional"));
 		result.put("GraphicalLine.Point@x", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("GraphicalLine.Point@y", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("GraphicalLine.Point@relX", new AttributeInfo ("xsd:float", null, "optional"));
 		result.put("GraphicalLine.Point@relY", new AttributeInfo ("xsd:float", null, "optional"));
-		result.put("GraphicalLine.Point@graphRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
-		result.put("GraphicalLine.Point@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("GraphicalLine.Point@elementRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
+		result.put("GraphicalLine.Point@elementID", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("GraphicalLine.Point@arrowHead", new AttributeInfo ("xsd:string", "Line", "optional"));
 		result.put("GraphicalLine.Anchor@position", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("GraphicalLine.Anchor@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("GraphicalLine.Anchor@elementID", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("GraphicalLine.Anchor@shape", new AttributeInfo ("xsd:string", "ReceptorRound", "optional"));
 		result.put("GraphicalLine@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
 		result.put("GraphicalLine@lineThickness", new AttributeInfo ("xsd:float", null, "optional"));
@@ -124,17 +119,17 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		result.put("GraphicalLine@connectorType", new AttributeInfo ("xsd:string", "Straight", "optional"));
 		result.put("GraphicalLine@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
 		result.put("GraphicalLine@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("GraphicalLine@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("GraphicalLine@elementID", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("GraphicalLine@type", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Interaction.Point@x", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("Interaction.Point@y", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("Interaction.Point@relX", new AttributeInfo ("xsd:float", null, "optional"));
 		result.put("Interaction.Point@relY", new AttributeInfo ("xsd:float", null, "optional"));
-		result.put("Interaction.Point@graphRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
-		result.put("Interaction.Point@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("Interaction.Point@elementRef", new AttributeInfo ("xsd:IDREF", null, "optional"));
+		result.put("Interaction.Point@elementID", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("Interaction.Point@arrowHead", new AttributeInfo ("xsd:string", "Line", "optional"));
 		result.put("Interaction.Anchor@position", new AttributeInfo ("xsd:float", null, "required"));
-		result.put("Interaction.Anchor@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("Interaction.Anchor@elementID", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("Interaction.Anchor@shape", new AttributeInfo ("xsd:string", "ReceptorRound", "optional"));
 		result.put("Interaction@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
 		result.put("Interaction@lineThickness", new AttributeInfo ("xsd:float", null, "optional"));
@@ -142,9 +137,9 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		result.put("Interaction@connectorType", new AttributeInfo ("xsd:string", "Straight", "optional"));
 		result.put("Interaction@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
 		result.put("Interaction.Xref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("Interaction.Xref@ID", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Interaction.Xref@identifier", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Interaction@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Interaction@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("Interaction@elementID", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("Interaction@type", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Label@centerX", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("Label@centerY", new AttributeInfo ("xsd:float", null, "required"));
@@ -165,7 +160,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		result.put("Label@shapeType", new AttributeInfo ("xsd:string", "None", "optional"));
 		result.put("Label@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
 		result.put("Label@href", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Label@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("Label@elementID", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("Label@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Label@textLabel", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Shape@centerX", new AttributeInfo ("xsd:float", null, "required"));
@@ -187,22 +182,21 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		result.put("Shape@shapeType", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Shape@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
 		result.put("Shape@rotation", new AttributeInfo ("gpml:RotationType", "Top", "optional"));
-		result.put("Shape@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("Shape@elementID", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("Shape@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Shape@textLabel", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Group@groupId", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Group@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Group@style", new AttributeInfo ("xsd:string", "None", "optional"));
 		result.put("Group@textLabel", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Group@graphId", new AttributeInfo ("xsd:ID", null, "required"));
+		result.put("Group@elementID", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("InfoBox@centerX", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("InfoBox@centerY", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("Legend@centerX", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("Legend@centerY", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("Citations.Citation.Xref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("Citations.Citation.Xref@ID", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Citations.Citation.Xref@identifier", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Citations.Citation.Author@name", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("Citations.Citation@citationId", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Citations.Citation@citationID", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Citations.Citation@title", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Citations.Citation@URL", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Citations.Citation@source", new AttributeInfo ("xsd:string", null, "optional"));
@@ -210,7 +204,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		result.put("OntologyTerms.OntologyTerm@ID", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("OntologyTerms.OntologyTerm@term", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("OntologyTerms.OntologyTerm@ontology", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("OntologyTerms.OntologyTerm@ontologyTermId", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("OntologyTerms.OntologyTerm@ontologyTermID", new AttributeInfo ("xsd:string", null, "required"));
 		/* END OF AUTO-GENERATED CONTENT */
 
 		return result;
@@ -590,7 +584,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 	{
 		o.setDataNodeType (getAttribute("DataNode", "type", e));
 		Element xref = e.getChild ("Xref", e.getNamespace());
-		o.setElementID (getAttribute("DataNode.Xref", "ID", xref));
+		o.setElementID (getAttribute("DataNode.Xref", "identifier", xref));
 		o.setDataSource (DataSource.getByFullName (getAttribute("DataNode.Xref", "dataSource", xref)));
 	}
 
@@ -600,13 +594,13 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		Element xref = e.getChild("Xref", e.getNamespace());
 		String database = o.getDataSource() == null ? "" : o.getDataSource().getFullName();
 		setAttribute ("DataNode.Xref", "dataSource", xref, database == null ? "" : database);
-		setAttribute ("DataNode.Xref", "ID", xref, o.getElementID());
+		setAttribute ("DataNode.Xref", "identifier", xref, o.getElementID());
 	}
 	
 	protected void mapLine(PathwayElement o, Element e) throws ConverterException
 	{
 		Element xref = e.getChild ("Xref", e.getNamespace());
-		o.setElementID (getAttribute("Interaction.Xref", "ID", xref));
+		o.setElementID (getAttribute("Interaction.Xref", "identifier", xref));
 		o.setDataSource (DataSource.getByFullName (getAttribute("Interaction.Xref", "dataSource", xref)));
 	}
 
@@ -616,12 +610,12 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		Element xref = e.getChild("Xref", e.getNamespace());
 		String database = o.getDataSource() == null ? "" : o.getDataSource().getFullName();
 		setAttribute ("Interaction.Xref", "dataSource", xref, database == null ? "" : database);
-		setAttribute ("Interaction.Xref", "ID", xref, o.getElementID());
+		setAttribute ("Interaction.Xref", "identifier", xref, o.getElementID());
 	}
 
 	protected void mapStateData(PathwayElement o, Element e) throws ConverterException
 	{
-    	String ref = getAttribute("State", "graphRef", e);
+    	String ref = getAttribute("State", "elementRef", e);
     	if (ref != null) {
     		o.setGraphRef(ref);
     	}
@@ -632,9 +626,9 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		o.setMHeight (Double.parseDouble(getAttribute("State", "height", e)));
 
 		o.setDataNodeType (getAttribute("State", "stateType", e));
-		o.setGraphRef(getAttribute("State", "graphRef", e));
+		o.setGraphRef(getAttribute("State", "elementRef", e));
 		Element xref = e.getChild ("Xref", e.getNamespace());
-		o.setElementID (getAttribute("State.Xref", "ID", xref));
+		o.setElementID (getAttribute("State.Xref", "identifier", xref));
 		o.setDataSource (DataSource.getByFullName (getAttribute("State.Xref", "dataSource", xref)));
 	}
 
@@ -648,11 +642,11 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		setAttribute(base, "height", e, "" + o.getMHeight());
 		
 		setAttribute ("State", "stateType", e, o.getDataNodeType());
-		setAttribute ("State", "graphRef", e, o.getGraphRef());
+		setAttribute ("State", "elementRef", e, o.getGraphRef());
 		Element xref = e.getChild("Xref", e.getNamespace());
 		String database = o.getDataSource() == null ? "" : o.getDataSource().getFullName();
 		setAttribute ("State.Xref", "dataSource", xref, database == null ? "" : database);
-		setAttribute ("State.Xref", "ID", xref, o.getElementID());
+		setAttribute ("State.Xref", "identifier", xref, o.getElementID());
 	}
 
 	protected void mapLineStyle(PathwayElement o, Element e) throws ConverterException
@@ -690,8 +684,8 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
     		    	Double.parseDouble(getAttribute("Interaction.Point", "y", pe)), o
     		);
     		mPoints.add(mp);
-        	String ref = getAttribute("Interaction.Point", "graphRef", pe);
-        	String graphId = getAttribute("Interaction.Point", "graphId", pe);
+        	String ref = getAttribute("Interaction.Point", "elementRef", pe);
+        	String graphId = getAttribute("Interaction.Point", "elementID", pe);
 
         	if (ref != null) {
         		mp.setGraphRef(ref);
@@ -755,11 +749,11 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			if(mp.getGraphId()==null)
 				mp.setGeneratedGraphId();
 
-			setAttribute("Interaction.Point", "graphId", pe, mp.getGraphId());
+			setAttribute("Interaction.Point", "elementID", pe, mp.getGraphId());
 
 			if (mp.getGraphRef() != null && !mp.getGraphRef().equals(""))
 			{
-				setAttribute("Interaction.Point", "graphRef", pe, mp.getGraphRef());
+				setAttribute("Interaction.Point", "elementRef", pe, mp.getGraphRef());
 				setAttribute("Interaction.Point", "relX", pe, Double.toString(mp.getRelX()));
 				setAttribute("Interaction.Point", "relY", pe, Double.toString(mp.getRelY()));
 			}
@@ -902,10 +896,9 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			for(OntologyTerm ontologyTerm : p.getOntologyTerms()){
 				Element element = new Element("OntologyTerm", getGpmlNamespace());
 				e.addContent(element);
-				element.setAttribute("ID", ontologyTerm.getId());
 				element.setAttribute("term", ontologyTerm.getTerm());
 				element.setAttribute("ontology", ontologyTerm.getOntology());
-				element.setAttribute("ontologyTermId", ontologyTerm.getOntologyTermId());
+				element.setAttribute("ontologyTermID", ontologyTerm.getId());
 			}
 		}
 		return e;
@@ -916,11 +909,10 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		List<Element> OntologyTags = e.getChildren("OntologyTerm", e.getNamespace());
 		String id,term,ontology,ontologyTermId;
 		for(Element ot: OntologyTags){
-			id=ot.getAttributeValue("ID");
 			term=ot.getAttributeValue("term");
 			ontology=ot.getAttributeValue("ontology");
-			ontologyTermId=ot.getAttributeValue("ontologyTermId");
-			p.addOntologyTerm(id,term,ontology,ontologyTermId);
+			ontologyTermId=ot.getAttributeValue("ontologyTermID");
+			p.addOntologyTerm(ontologyTermId,term,ontology);
 		}
 	}
 
@@ -935,7 +927,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 
 				citationElement.setAttribute("title", citation.getTitle());
 				citationElement.setAttribute("URL", citation.getURL());
-				citationElement.setAttribute("citationId", citation.getCitationId());
+				citationElement.setAttribute("citationID", citation.getCitationId());
 
 				if(citation.getYear()!=null)
 					citationElement.setAttribute("year", citation.getYear());
@@ -948,7 +940,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 					citationElement.addContent(xref);
 					String dataSource = citation.getXref().getDataSource() == null ? "" : citation.getXref().getDataSource().getFullName();
 					xref.setAttribute("dataSource", dataSource);
-					xref.setAttribute("ID", citation.getXref().getId());
+					xref.setAttribute("identifier", citation.getXref().getId());
 				}
 
 				List<String> authors = citation.getAuthors();
@@ -966,7 +958,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		List<Element> citationElements = e.getChildren("Citation", getGpmlNamespace());
 		for (Element citationElement : citationElements) {
 
-			Citation citation = new Citation(citationElement.getAttributeValue("citationId"),
+			Citation citation = new Citation(citationElement.getAttributeValue("citationID"),
 					citationElement.getAttributeValue("URL"),
 					citationElement.getAttributeValue("title"));
 
@@ -978,7 +970,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			Element xref = citationElement.getChild("Xref", e.getNamespace());
 
 			if (xref != null) {
-				citation.setXref(xref.getAttributeValue("ID"),
+				citation.setXref(xref.getAttributeValue("identifier"),
 						xref.getAttributeValue("dataSource"));
 			}
 
@@ -997,7 +989,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		List<Element> citationRefs = e.getChildren("CitationRef", e.getNamespace());
 		String id;
 		for(Element ot: citationRefs){
-			id=ot.getAttributeValue("ID");
+			id=ot.getAttributeValue("citationID");
 			if(id!=null)
 				o.addCitationRef(id);
 		}
@@ -1009,7 +1001,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 		List<Element> ontologyTermRefs = e.getChildren("OntologyTermRef", e.getNamespace());
 		String id;
 		for(Element ot: ontologyTermRefs){
-			id=ot.getAttributeValue("ID");
+			id=ot.getAttributeValue("ontologyTermID");
 			p.addOntologyTermRef(id);
 		}
 	}
@@ -1022,7 +1014,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			for(String ontologyTermRef : p.getOntologyTermRefs()){
 				Element element = new Element("OntologyTermRef", getGpmlNamespace());
 				e.addContent(element);
-				element.setAttribute("ID", ontologyTermRef);
+				element.setAttribute("ontologyTermID", ontologyTermRef);
 			}
 		}
 		return e;
@@ -1035,7 +1027,7 @@ class GpmlFormat2017a extends GpmlFormatAbstract2017a implements GpmlFormatReade
 			for(String citationRef : o.getCitationRefs()){
 				Element element = new Element("CitationRef", getGpmlNamespace());
 				e.addContent(element);
-				element.setAttribute("ID", citationRef);
+				element.setAttribute("citationID", citationRef);
 			}
 		}
 	}
