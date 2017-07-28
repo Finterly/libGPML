@@ -16,6 +16,7 @@
 //
 package org.pathvisio.core.model;
 
+import org.bridgedb.DataSource;
 import org.jdom.*;
 import org.jdom.output.Format;
 import org.jdom.output.SAXOutputter;
@@ -234,6 +235,12 @@ public abstract class GpmlFormatAbstract2017
 		setAttribute("Pathway", "author", root, o.getAuthor());
 		setAttribute("Pathway", "organism", root, o.getOrganism());
 
+		Element xref = new Element("Xref", getGpmlNamespace());
+		String database = o.getDataSource() == null ? "" : o.getDataSource().getFullName();
+		setAttribute ("Pathway.Xref", "dataSource", xref, database == null ? "" : database);
+		setAttribute ("Pathway.Xref", "identifier", xref, o.getElementID());
+		root.addContent(xref);
+
 		updateComments(o, root);
 		updateAttributes(o, root);
 
@@ -382,7 +389,7 @@ public abstract class GpmlFormatAbstract2017
 		mapGraphId(o, e);
 
 		//Style
-		o.setGroupStyle(GroupStyle.fromName(getAttribute("Group", "style", e)));
+		o.setGroupStyle(GroupStyle.fromName(getAttribute("Group", "groupType", e)));
 		//Label
 		String textLabel = getAttribute("Group", "textLabel", e);
 		if(textLabel != null) {
@@ -403,7 +410,7 @@ public abstract class GpmlFormatAbstract2017
 		updateGraphId(o, e);
 
 		//Style
-		setAttribute("Group", "style", e, o.getGroupStyle().getName());
+		setAttribute("Group", "groupType", e, o.getGroupStyle().getName());
 		//Label
 		setAttribute ("Group", "textLabel", e, o.getTextLabel());
 	}
@@ -417,7 +424,9 @@ public abstract class GpmlFormatAbstract2017
 		o.setMapInfoDataSource (getAttribute("Pathway", "dataSource", e));
 		o.setVersion (getAttribute("Pathway", "revision", e));
 		o.setAuthor (getAttribute("Pathway", "author", e));
-
+		Element xref = e.getChild ("Xref", e.getNamespace());
+		o.setElementID (getAttribute("Pathway.Xref", "identifier", xref));
+		o.setDataSource (DataSource.getByFullName (getAttribute("Pathway.Xref", "dataSource", xref)));
 		mapMappInfoDataVariable(o, e);
 	}
 	

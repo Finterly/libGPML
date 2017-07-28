@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="New Pathway" Version="20170728">
+  <Graphics BoardWidth="2108.0" BoardHeight="1142.0" />
+  <DataNode TextLabel="GeneProduct" GraphId="b528f" Type="GeneProduct" GroupRef="c7152">
+    <Graphics CenterX="1477.75" CenterY="1027.25" Width="246.5" Height="153.5" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="GeneProduct" GraphId="facb7" Type="GeneProduct" GroupRef="c7152">
+    <Graphics CenterX="1969.75" CenterY="1029.25" Width="200.5" Height="145.5" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <Interaction GroupRef="c7152">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="1601.0" Y="1027.25" GraphRef="b528f" RelX="1.0" RelY="0.0" />
+      <Point X="1869.5" Y="1029.25" GraphRef="facb7" RelX="-1.0" RelY="0.0" ArrowHead="mim-binding" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Group GroupId="c7152" Style="None" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+</Pathway>
+

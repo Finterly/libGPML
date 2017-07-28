@@ -678,17 +678,51 @@
 			</xsd:annotation>
 		</xsd:attribute>
 
-		<!-- TODO: does a label need a publication xref? -->
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
 		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 	</xsd:complexType>
 
+
 	<!-- End: Label -->
 
 	<!-- ###################################################################### -->
 
-	<!-- 
+	<xsd:complexType name="Alias">
+
+		<xsd:annotation>
+			<xsd:documentation>
+				Description for Alias element
+			</xsd:documentation>
+		</xsd:annotation>
+
+		<xsd:sequence>
+			<xsd:group ref="gpml:CommentGroup"/>
+		</xsd:sequence>
+
+		<!-- Graphics related attributes-->
+		<xsd:attributeGroup ref="gpml:RectAttributes"/>
+		<xsd:attributeGroup ref="gpml:FontAttributes" />
+		<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+		<!-- End Graphics related attributes-->
+
+		<!-- for a reference to a url !-->
+		<!-- TODO: Check if necessary -->
+		<xsd:attribute name="href" use="optional" type="xsd:string" >
+			<xsd:annotation>
+				<xsd:documentation>
+					The hyperlink optionally specified in a Label.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+
+		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
+
+		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
+		<xsd:attribute name="groupAliasRef " use="required" type="xsd:IDREF"/>
+	</xsd:complexType>
+
+	<!--
 		Shape
         Graphical elements - shapes with or without a text label
     -->

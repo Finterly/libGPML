@@ -63,6 +63,8 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		result.put("Pathway@revision", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@author", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@license", new AttributeInfo ("xsd:string", null, "optional"));
+		result.put("Pathway.Xref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Pathway.Xref@identifier", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("DataNode@centerX", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("DataNode@centerY", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("DataNode@width", new AttributeInfo ("gpml:Dimension", null, "required"));
@@ -186,7 +188,7 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		result.put("Shape@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Shape@textLabel", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Group@groupRef", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Group@style", new AttributeInfo ("xsd:string", "None", "optional"));
+		result.put("Group@groupType", new AttributeInfo ("xsd:string", "None", "optional"));
 		result.put("Group@textLabel", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Group@elementID", new AttributeInfo ("xsd:ID", null, "required"));
 		result.put("InfoBox@centerX", new AttributeInfo ("xsd:float", null, "required"));

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Pathway xmlns="http://pathvisio.org/GPML/2017a" name="Lycopene biosynthesis" author="Pankaj Jaiswal" organism="Solanum lycopersicum" boardWidth="101.2757105043763" boardHeight="595.8579561434458">
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Lycopene biosynthesis" author="Pankaj Jaiswal" organism="Solanum lycopersicum" boardWidth="101.2757105043763" boardHeight="595.8579561434458">
   <Comment source="WikiPathways-category">Metabolic Process</Comment>
   <Comment>A series of desaturation processes leads to the formation of lycopene.  All trans-lycopene feeds into the carotenoid biosynthesis. </Comment>
-  <CitationRef ID="b29" />
-  <CitationRef ID="c73" />
-  <OntologyTermRef ID="efa82" />
-  <OntologyTermRef ID="a8afe" />
+  <CitationRef citationID="b29" />
+  <CitationRef citationID="c73" />
+  <OntologyTermRef ontologyTermID="PW:0000697" />
+  <OntologyTermRef ontologyTermID="PW:0000699" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Legend centerX="71.2757105043763" centerY="565.8579561434458" />
   <Citations>
-    <Citation title="Mining biological pathways using WikiPathways web services." URL="" citationId="ad6" year="2009" source="PLoS One">
-      <Xref dataSource="PubMed" ID="19649250" />
+    <Citation title="Mining biological pathways using WikiPathways web services." URL="" citationID="ad6" year="2009" source="PLoS One">
+      <Xref dataSource="PubMed" identifier="19649250" />
       <Author name="Kelder T" />
       <Author name="Pico AR" />
       <Author name="Hanspers K" />
@@ -18,8 +18,8 @@
       <Author name="Evelo C" />
       <Author name="Conklin BR" />
     </Citation>
-    <Citation title="WikiPathways: pathway editing for the people." URL="" citationId="f7c" year="2008" source="PLoS Biol">
-      <Xref dataSource="PubMed" ID="18651794" />
+    <Citation title="WikiPathways: pathway editing for the people." URL="" citationID="f7c" year="2008" source="PLoS Biol">
+      <Xref dataSource="PubMed" identifier="18651794" />
       <Author name="Pico AR" />
       <Author name="Kelder T" />
       <Author name="van Iersel MP" />
@@ -27,8 +27,8 @@
       <Author name="Conklin BR" />
       <Author name="Evelo C" />
     </Citation>
-    <Citation title="Presenting and exploring biological pathways with PathVisio." URL="" citationId="b29" year="2008" source="BMC Bioinformatics">
-      <Xref dataSource="PubMed" ID="18817533" />
+    <Citation title="Presenting and exploring biological pathways with PathVisio." URL="" citationID="b29" year="2008" source="BMC Bioinformatics">
+      <Xref dataSource="PubMed" identifier="18817533" />
       <Author name="van Iersel MP" />
       <Author name="Kelder T" />
       <Author name="Pico AR" />
@@ -37,8 +37,8 @@
       <Author name="Conklin BR" />
       <Author name="Evelo C" />
     </Citation>
-    <Citation title="The BridgeDb framework: standardized access to gene, protein and metabolite identifier mapping services." URL="" citationId="c73" year="2010" source="BMC Bioinformatics">
-      <Xref dataSource="PubMed" ID="20047655" />
+    <Citation title="The BridgeDb framework: standardized access to gene, protein and metabolite identifier mapping services." URL="" citationID="c73" year="2010" source="BMC Bioinformatics">
+      <Xref dataSource="PubMed" identifier="20047655" />
       <Author name="van Iersel MP" />
       <Author name="Pico AR" />
       <Author name="Kelder T" />
@@ -50,9 +50,9 @@
     </Citation>
   </Citations>
   <OntologyTerms>
-    <OntologyTerm ID="PW:0000697" term="carotenoid biosynthetic" ontology="Pathway Ontology" ontologyTermId="efa82" />
-    <OntologyTerm ID="PW:0000698" term="biosynthetic pathway" ontology="Pathway Ontology" ontologyTermId="ba87d" />
-    <OntologyTerm ID="PW:0000699" term="biochemical pathway" ontology="Pathway Ontology" ontologyTermId="a8afe" />
+    <OntologyTerm term="biochemical pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000699" />
+    <OntologyTerm term="biosynthetic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000698" />
+    <OntologyTerm term="carotenoid biosynthetic" ontology="Pathway Ontology" ontologyTermID="PW:0000697" />
   </OntologyTerms>
 </Pathway>
 

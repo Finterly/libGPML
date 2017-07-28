@@ -154,10 +154,10 @@ public class TestGpml extends TestCase
 		Pathway pwy = new Pathway();
 		pwy.readFromXml(in, true);
 
-//		assertEquals(pwy.getCitationById("eaf123").getURL(),"asdas.asdas.asdas");
+		assertEquals(pwy.getMappInfo().getXref().getId(),"22645578");
 
-//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/literaturexref-output.gpml");
-		File tmp = File.createTempFile("test", "gpml");
+		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/literaturexref-output.gpml");
+//		File tmp = File.createTempFile("test", "gpml");
 		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
 	/**
@@ -191,8 +191,8 @@ public class TestGpml extends TestCase
 		assertEquals(2, pwy.getOntologyTermRefs().size());
 		assertEquals(2, pwy.getMappInfo().getCitationRefs().size());
 
-//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/ontology-citations-output.gpml");
-		File tmp = File.createTempFile("test", "gpml");
+		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/ontology-citations-output.gpml");
+//		File tmp = File.createTempFile("test", "gpml");
 		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
 
@@ -209,6 +209,22 @@ public class TestGpml extends TestCase
 
 		for(PathwayElement e:pwy.getDataObjects())
 			System.out.println(e.getClass());
+
+//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/group.gpml");
+		File tmp = File.createTempFile("test", "gpml");
+		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
+	}
+
+	/**
+	 * Test group style to type
+	 */
+	public static void testGroupStyle() throws ConverterException, IOException
+	{
+		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/group_style.gpml");
+		assertTrue (in.exists());
+
+		Pathway pwy = new Pathway();
+		pwy.readFromXml(in, true);
 
 //		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/group.gpml");
 		File tmp = File.createTempFile("test", "gpml");
