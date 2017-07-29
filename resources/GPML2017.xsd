@@ -375,8 +375,20 @@
 				<!-- pathways can have xrefs -->
 				<xsd:element name="Xref" type="gpml:Xref" minOccurs="0" maxOccurs="1"/>
 				
+				<!--TODO rename element name? conflicts with Citations.Citation.Author-->
+				<xsd:element name="Author" minOccurs="0" maxOccurs="1">
+					<xsd:annotation>
+						<xsd:documentation>
+							The people who created or edited the pathway in question.
+						</xsd:documentation>
+					</xsd:annotation>
+					<xsd:complexType>
+						<xsd:attribute name="name" type="xsd:string" use="required"/>
+ 					</xsd:complexType>
+				</xsd:element>
+
 				<xsd:group ref="gpml:CommentGroup"/>
-				
+
 				<xsd:element name="OntologyTermRef" minOccurs="0" maxOccurs="unbounded">
 					<xsd:complexType>
 						<xsd:attribute name="ontologyTermID" type="xsd:string" use="required"/>
@@ -428,15 +440,6 @@
 			<xsd:attribute name="dataSource" type="xsd:string" use="optional"/>
 
 			<xsd:attribute name="revision" type="xsd:string" use="optional"/>
-
-			<!-- TODO: support multiple authors -->
-			<xsd:attribute name="author" type="xsd:string" use="optional">
-				<xsd:annotation>
-					<xsd:documentation>
-						The person who created or edited the pathway in question.
-					</xsd:documentation>
-				</xsd:annotation>
-			</xsd:attribute>
 
 			<xsd:attribute name="license" type="xsd:string" use="optional">
 				<xsd:annotation>

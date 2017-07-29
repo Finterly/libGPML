@@ -645,7 +645,7 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 			setVersion((String) value);
 			break;
 		case AUTHOR:
-			setAuthor((String) value);
+			setAuthors((List<String>) value);
 			break;
 		case MAINTAINED_BY:
 			setMaintainer((String) value);
@@ -819,7 +819,7 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 			result = getVersion();
 			break;
 		case AUTHOR:
-			result = getAuthor();
+			result = getAuthors();
 			break;
 		case MAINTAINED_BY:
 			result = getMaintainer();
@@ -890,7 +890,7 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 	public void copyValuesFrom(PathwayElement src)
 	{
 		attributes = new TreeMap<String, String>(src.attributes); // create copy
-		author = src.author;
+		authors = src.authors;
 		copyright = src.copyright;
 		mCenterx = src.mCenterx;
 		mCentery = src.mCentery;
@@ -1947,20 +1947,43 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 		}
 	}
 
-	protected String author = null;
+	protected List<String> authors = new ArrayList<>();
 
-	public String getAuthor()
+	public List<String> getAuthors()
 	{
-		return author;
+		return authors;
 	}
 
-	public void setAuthor(String v)
+	// Backwards compatibility for 2013a and previous versions
+	// which only support a single author
+	public String getAuthor()
 	{
-		if (!Utils.stringEquals(author, v))
-		{
-			author = v;
-			fireObjectModifiedEvent(PathwayElementEvent.createSinglePropertyEvent(this, StaticProperty.AUTHOR));
+		if(authors.size()>0)
+			return authors.get(0);
+		else
+			return null;
+	}
+
+	public void setAuthors(List<String> v){
+		if(authors!=v){
+		authors = v;
+		fireObjectModifiedEvent(PathwayElementEvent.createSinglePropertyEvent(this, StaticProperty.AUTHOR));
 		}
+	}
+
+	// Backwards compatibility for 2013a and previous versions
+	// which only support a single author
+	public void setAuthor(String v){
+		if(authors.size()==0||!Utils.stringEquals(authors.get(0),v)){
+		authors.add(v);
+		fireObjectModifiedEvent(PathwayElementEvent.createSinglePropertyEvent(this, StaticProperty.AUTHOR));
+		}
+	}
+
+
+	public void addAuthor(String v)
+	{
+		authors.add(v);
 	}
 
 	protected String maintainer = null;

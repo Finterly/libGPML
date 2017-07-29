@@ -232,14 +232,22 @@ public abstract class GpmlFormatAbstract2017
 		setAttribute("Pathway", "name", root, o.getMapInfoName());
 		setAttribute("Pathway", "dataSource", root, o.getMapInfoDataSource());
 		setAttribute("Pathway", "revision", root, o.getVersion());
-		setAttribute("Pathway", "author", root, o.getAuthor());
 		setAttribute("Pathway", "organism", root, o.getOrganism());
 
+		// Add element Xref
 		Element xref = new Element("Xref", getGpmlNamespace());
 		String database = o.getDataSource() == null ? "" : o.getDataSource().getFullName();
 		setAttribute ("Pathway.Xref", "dataSource", xref, database == null ? "" : database);
 		setAttribute ("Pathway.Xref", "identifier", xref, o.getElementID());
 		root.addContent(xref);
+
+		// Add elements Author
+		for(String author:o.getAuthors()){
+			if(author==null) continue;
+			Element authorElement = new Element("Author", getGpmlNamespace());
+			setAttribute("Pathway.Author","name",authorElement,author);
+			root.addContent(authorElement);
+		}
 
 		updateComments(o, root);
 		updateAttributes(o, root);
@@ -423,10 +431,14 @@ public abstract class GpmlFormatAbstract2017
 		o.setOrganism (getAttribute("Pathway", "organism", e));
 		o.setMapInfoDataSource (getAttribute("Pathway", "dataSource", e));
 		o.setVersion (getAttribute("Pathway", "revision", e));
-		o.setAuthor (getAttribute("Pathway", "author", e));
+		for(Object author: e.getChildren("Author",e.getNamespace())){
+			o.addAuthor(((Element)author).getAttributeValue("name"));
+		}
 		Element xref = e.getChild ("Xref", e.getNamespace());
-		o.setElementID (getAttribute("Pathway.Xref", "identifier", xref));
-		o.setDataSource (DataSource.getByFullName (getAttribute("Pathway.Xref", "dataSource", xref)));
+		if (xref!=null) {
+			o.setElementID (getAttribute("Pathway.Xref", "identifier", xref));
+			o.setDataSource (DataSource.getByFullName (getAttribute("Pathway.Xref", "dataSource", xref)));
+		}
 		mapMappInfoDataVariable(o, e);
 	}
 	

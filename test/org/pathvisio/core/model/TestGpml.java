@@ -157,6 +157,7 @@ public class TestGpml extends TestCase
 		assertEquals(pwy.getMappInfo().getXref().getId(),"22645578");
 
 		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/literaturexref-output.gpml");
+		
 //		File tmp = File.createTempFile("test", "gpml");
 		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
