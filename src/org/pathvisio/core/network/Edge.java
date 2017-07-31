@@ -8,35 +8,26 @@ import java.util.HashSet;
  * Created by saurabhk351 on 09/07/2017.
  */
 public class Edge {
-    HashSet<Node> sources,targets;
+    Node source,target;
     LineType edgeType;
     Edge(LineType edgeType){
-        sources = new HashSet<>();
-        targets = new HashSet<>();
         this.edgeType = edgeType;
     }
 
-    public void addSource(Node node){
-        sources.add(node);
+    public void setSource(Node node){
+        source = node;
     }
 
-    public void addTarget(Node node){
-        targets.add(node);
+    public void setTarget(Node node){
+        target = node;
     }
 
-    public HashSet<Node> getSources() {
-        return sources;
+    public Node getSource() {
+        return source;
     }
 
-    public HashSet<Node> getTargets() {
-        return targets;
-    }
-
-    public HashSet<Node> getParticipants() {
-        HashSet<Node> participants = new HashSet<>();
-        participants.addAll(sources);
-        participants.addAll(targets);
-        return participants;
+    public Node getTarget() {
+        return target;
     }
 
     public LineType getEdgeType() {

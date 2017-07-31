@@ -1,6 +1,7 @@
 package org.pathvisio.core.network;
 
 import org.bridgedb.Xref;
+import org.omg.CORBA.DATA_CONVERSION;
 import org.pathvisio.core.model.*;
 import sun.plugin.javascript.navig.Anchor;
 
@@ -16,48 +17,58 @@ import java.util.HashSet;
 public class PathwayAsNetwork {
 
     private final Pathway pathway;
-    private HashMap<Xref,Node> nodes = new HashMap<>();
-    private HashMap<PathwayElement, Edge> lineEdges = new HashMap<>();
+    private HashMap<Xref,Node> dataNodes = new HashMap<>();
+    private HashMap<PathwayElement,Node> reactionNodes = new HashMap<>();
     private HashSet<Edge> edges = new HashSet<>();
+    private HashMap<MLine,String> edgesEnum = new HashMap<>();
     private ArrayList<PathwayElement> lines = new ArrayList<>();
 
-    private int compareLines(PathwayElement t1, PathwayElement t2){
-        GraphLink.GraphIdContainer
-                source1 = pathway.getGraphIdContainer(t1.getMStart().getGraphRef()),
-                target1 = pathway.getGraphIdContainer(t1.getMEnd().getGraphRef()),
-                source2 = pathway.getGraphIdContainer(t2.getMStart().getGraphRef()),
-                target2 = pathway.getGraphIdContainer(t2.getMEnd().getGraphRef());
-        return ((source2 instanceof PathwayElement)?1:0) +
-                ((target2 instanceof PathwayElement)?1:0) -
-                ((source1 instanceof PathwayElement)?1:0) -
-                ((target1 instanceof PathwayElement)?1:0);
-    }
     public PathwayAsNetwork(Pathway pathway){
         this.pathway = pathway;
         assert (pathway!=null);
         for(PathwayElement pathwayElement : pathway.getDataObjects()){
             switch (pathwayElement.getObjectType()){
                 case DATANODE:
-                    addNode(pathwayElement);
+                    addDataNode(pathwayElement);
                     break;
                 case LINE:
+                    addReactionNode(pathwayElement);
                     lines.add(pathwayElement);
             }
         }
-        lines.sort(this::compareLines);
         for (PathwayElement line:
                 lines) {
             updateEdges(pathway,line);
         }
     }
 
-    private Node addNode(PathwayElement pathwayElement){
+    private String getReactionID(PathwayElement pathwayElement){
+        int size = reactionNodes.size()+1;
+        return "R"+size;
+    }
+
+    private void addDataNode(PathwayElement pathwayElement){
         Xref xref = pathwayElement.getXref();
-        if(!nodes.containsKey(xref))
-            nodes.put(xref,new Node(pathwayElement));
+        if(!dataNodes.containsKey(xref))
+            dataNodes.put(xref,new Node(pathwayElement));
         else
-            nodes.get(xref).add(pathwayElement);
-        return nodes.get(xref);
+            dataNodes.get(xref).add(pathwayElement);
+    }
+
+
+    private void addReactionNode(PathwayElement pathwayElement){
+        String reactionID = getReactionID(pathwayElement);
+        if(!reactionNodes.containsKey(pathwayElement))
+            reactionNodes.put(pathwayElement,new Node(pathwayElement, reactionID));
+        else
+            reactionNodes.get(pathwayElement).add(pathwayElement, reactionID);
+    }
+
+    private Node getNode(PathwayElement pathwayElement){
+        if(pathwayElement instanceof MLine && reactionNodes.containsKey(pathwayElement))
+            return reactionNodes.get(pathwayElement);
+        else
+            return dataNodes.getOrDefault(pathwayElement.getXref(), null);
     }
 
     /**
@@ -105,76 +116,46 @@ public class PathwayAsNetwork {
         if(source instanceof MAnchor) anchorT = (MAnchor) source;
         if(target instanceof MAnchor) anchorT = (MAnchor) target;
 
-        Edge edge = lineEdges.get(line);
-
         // If no arrowhead and line end has a dataNode then dataNode should be a source
+        // so they need to be swapped otherwise
         if(line.getEndLineType()==LineType.LINE && targetElement!=null
                 && targetElement.getObjectType()==ObjectType.DATANODE){
             temp = sourceElement;
             sourceElement = targetElement;
             targetElement = temp;
         }
-        // True if the line has a direct connection to both source and target
-        if (sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE &&
-                targetElement!=null &&targetElement.getObjectType()==ObjectType.DATANODE) {
-            // Create Interaction object if not already
-            if(edge==null) {
-                edge = new Edge(line.getEndLineType());
-            }
-        }
-        // check for no arrowhead, if arrowhead then it must be a regulator
-        // which are ignored for now
-        else if(sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE
+        if(sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE
                     && line.getEndLineType()==LineType.LINE && anchorT!=null){
             // get the GraphIdContainer at the end of the current line
-            target = p.getGraphIdContainer(anchorT.getParent().getMEnd().getGraphRef());
-            pline = anchorT.getParent();
-            // if the other end of the line was not connected to a dataNode
-            if(target==null){
-                pline = getConnectedLine(anchorT);
-                if(pline!=null)
-                target = p.getGraphIdContainer(getConnectedLine(anchorT).getMEnd().getGraphRef());
-            }
-            // target is any target we found, temp is the last anchor the target was connected to
-            if(target instanceof PathwayElement){
-                targetElement = (PathwayElement) target;
-                edge = lineEdges.get(pline);
-                if(edge==null)
-                    edge = new Edge(pline.getEndLineType());
-            }
+            targetElement = anchorT.getParent();
         }
         // Same as for source
         else if(targetElement!=null && targetElement.getObjectType()==ObjectType.DATANODE
                 && anchorT!=null){
-            source = p.getGraphIdContainer(anchorT.getParent().getMStart().getGraphRef());
-            pline = anchorT.getParent();
-            if(source==null){
-                pline = getConnectedLine(anchorT);
-                if(pline!=null)
-                source = p.getGraphIdContainer(getConnectedLine(anchorT).getMStart().getGraphRef());
-            }
-            if(source instanceof PathwayElement){
-                sourceElement = (PathwayElement) source;
-                edge = lineEdges.get(pline);
-                if(edge==null)
-                    edge = new Edge(pline.getEndLineType());
-            }
+            sourceElement = anchorT.getParent();
+        }
+
+        if(sourceElement==null||targetElement==null){
+            // could not find connections on both ends
+            // not a valid interaction
+            return;
         }
         // Update all structures
-        // Also note since they are HashSets, duplicates are implicitly checked
-        // If failed to create an or use an already instantiated interaction object
-        // it should be an invalid Interaction
-        if(edge==null)
-            return;
-        Node sourceNode, targetNode;
-        sourceNode = addNode(sourceElement);
-        targetNode = addNode(targetElement);
-        edge.addSource(sourceNode);
-        edge.addTarget(targetNode);
-        lineEdges.put(line,edge);
-        edges.add(edge);
-        if(pline!=null)
-            lineEdges.put(pline,edge);
+        Node sourceNode, targetNode, lineNode;
+        lineNode = getNode(line);
+        sourceNode = getNode(sourceElement);
+        targetNode = getNode(targetElement);
+        Edge edge1 = new Edge(line.getStartLineType()), edge2 = new Edge(line.getEndLineType());
+        if(sourceNode!=null){
+            edge1.setSource(sourceNode);
+            edge1.setTarget(lineNode);
+            edges.add(edge1);
+        }
+        if(targetNode!=null){
+            edge2.setSource(lineNode);
+            edge2.setTarget(targetNode);
+            edges.add(edge2);
+        }
     }
 
     public Pathway getPathway() {
@@ -185,25 +166,19 @@ public class PathwayAsNetwork {
         return edges;
     }
 
-    public HashMap<PathwayElement, Edge> getLineEdges() {
-        return lineEdges;
-    }
-
-    public HashMap<Xref, Node> getNodes() {
-        return nodes;
+    public HashMap<Xref, Node> getDataNodes() {
+        return dataNodes;
     }
 
     public String toTSV(){
         StringBuilder res = new StringBuilder();
         for(Edge edge:edges){
-            for(Node source:edge.getSources())
-                for(Node target:edge.getTargets())
-                    res.append(source.getLabel())
-                        .append('\t')
-                        .append(edge.edgeType.getName())
-                        .append('\t')
-                        .append(target.getLabel())
-                        .append('\n');
+            res.append(edge.getSource().getLabel())
+                .append('\t')
+                .append(edge.edgeType.getName())
+                .append('\t')
+                .append(edge.getTarget().getLabel())
+                .append('\n');
         }
         return res.toString();
     }

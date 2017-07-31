@@ -10,20 +10,38 @@ import java.util.HashSet;
  * Created by saurabhk351 on 09/07/2017.
  */
 public class Node {
-    Xref id;
-    String name, label;
+    Xref xrefID;
+    String name, label, id=null;
     HashSet<PathwayElement> dataNodes;
 
     Node(PathwayElement pathwayElement){
         dataNodes = new HashSet<>();
         dataNodes.add(pathwayElement);
-        id = pathwayElement.getXref();
+        xrefID = pathwayElement.getXref();
         label = pathwayElement.getTextLabel();
         name = pathwayElement.getMapInfoName();
     }
 
+    Node(PathwayElement pathwayElement, String id){
+        dataNodes = new HashSet<>();
+        dataNodes.add(pathwayElement);
+        xrefID = pathwayElement.getXref();
+        label = pathwayElement.getTextLabel();
+        name = pathwayElement.getMapInfoName();
+        this.id = id;
+    }
+
     public void add(PathwayElement pathwayElement){
         dataNodes.add(pathwayElement);
+    }
+
+    public void add(PathwayElement pathwayElement, String id){
+        dataNodes.add(pathwayElement);
+        this.id = id;
+    }
+
+    public boolean isReactionNode(){
+        return id!=null;
     }
 
     public HashSet<PathwayElement> getDataNodes() {
@@ -31,10 +49,11 @@ public class Node {
     }
 
     public Xref getId() {
-        return id;
+        return xrefID;
     }
 
     public String getLabel() {
+        if(isReactionNode()) return id;
         return label;
     }
 }

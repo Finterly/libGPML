@@ -52,11 +52,7 @@ public class TestEdges extends TestCase
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
 		System.out.print(pathwayAsNetwork.toTSV());
 
-		assertEquals(1,pathwayAsNetwork.getEdges().size());
-		for(Edge edge: pathwayAsNetwork.getEdges()) {
-			assertEquals(1, edge.getSources().size());
-			assertEquals(1, edge.getTargets().size());
-		}
+		assertEquals(2,pathwayAsNetwork.getEdges().size());
 	}
 
 	public static void testBasic2() throws ConverterException, IOException
@@ -69,11 +65,7 @@ public class TestEdges extends TestCase
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
 		System.out.print(pathwayAsNetwork.toTSV());
 
-		assertEquals(1,pathwayAsNetwork.getEdges().size());
-		for(Edge edge: pathwayAsNetwork.getEdges()) {
-			assertEquals(1, edge.getSources().size());
-			assertEquals(2, edge.getTargets().size());
-		}
+		assertEquals(4,pathwayAsNetwork.getEdges().size());
 	}
 
 	public static void testBasic3() throws ConverterException, IOException
@@ -86,11 +78,7 @@ public class TestEdges extends TestCase
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
 		System.out.print(pathwayAsNetwork.toTSV());
 
-		assertEquals(1,pathwayAsNetwork.getEdges().size());
-		for(Edge edge: pathwayAsNetwork.getEdges()) {
-			assertEquals(2, edge.getSources().size());
-			assertEquals(1, edge.getTargets().size());
-		}
+		assertEquals(4,pathwayAsNetwork.getEdges().size());
 
 	}
 
@@ -104,11 +92,7 @@ public class TestEdges extends TestCase
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
 		System.out.print(pathwayAsNetwork.toTSV());
 
-		assertEquals(1,pathwayAsNetwork.getEdges().size());
-		for(Edge edge: pathwayAsNetwork.getEdges()) {
-			assertEquals(2, edge.getSources().size());
-			assertEquals(2, edge.getTargets().size());
-		}
+		assertEquals(6,pathwayAsNetwork.getEdges().size());
 
 	}
 
@@ -122,7 +106,7 @@ public class TestEdges extends TestCase
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
 		System.out.print(pathwayAsNetwork.toTSV());
 
-		assertEquals(2,pathwayAsNetwork.getEdges().size());
+		assertEquals(4,pathwayAsNetwork.getEdges().size());
 
 	}
 
@@ -136,7 +120,7 @@ public class TestEdges extends TestCase
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
 		System.out.print(pathwayAsNetwork.toTSV());
 
-		assertEquals(3,pathwayAsNetwork.getEdges().size());
+		assertEquals(6,pathwayAsNetwork.getEdges().size());
 
 	}
 
@@ -150,7 +134,7 @@ public class TestEdges extends TestCase
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
 		System.out.print(pathwayAsNetwork.toTSV());
 
-		assertEquals(2,pathwayAsNetwork.getEdges().size());
+		assertEquals(8,pathwayAsNetwork.getEdges().size());
 
 	}
 
@@ -164,11 +148,7 @@ public class TestEdges extends TestCase
 		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
 		System.out.print(pathwayAsNetwork.toTSV());
 
-		assertEquals(1,pathwayAsNetwork.getEdges().size());
-		for(Edge edge: pathwayAsNetwork.getEdges()) {
-			assertEquals(2, edge.getSources().size());
-			assertEquals(2, edge.getTargets().size());
-		}
+		assertEquals(8,pathwayAsNetwork.getEdges().size());
 	}
 
 	public static void testComplete() throws ConverterException, IOException
