@@ -42,6 +42,7 @@ import org.jdom.output.XMLOutputter;
 import org.pathvisio.core.biopax.BiopaxElement;
 import org.pathvisio.core.debug.Logger;
 import org.pathvisio.core.model.GraphLink.GraphIdContainer;
+import org.pathvisio.core.util.Utils;
 import org.pathvisio.core.view.MIMShapes;
 import org.xml.sax.SAXException;
 
@@ -62,6 +63,7 @@ public abstract class GpmlFormatAbstract
 	private final String xsdFile;
 	
 	protected abstract Map<String, AttributeInfo> getAttributeInfo();
+	private HashMap<String,String> groupIDs = new HashMap<>();
 
 	public Namespace getGpmlNamespace () { return nsGPML; }
 
@@ -401,16 +403,15 @@ public abstract class GpmlFormatAbstract
 	protected void mapGroup (PathwayElement o, Element e) throws ConverterException
 	{
 		//ID
-		String id = e.getAttributeValue("GroupId");
-		String id2 = e.getAttributeValue("GraphId");
-		if((id == null || id.equals("")) && o.getParent() != null)
-			{
-				if((id2 == null || id2.equals("")))
-					id = o.getParent().getUniqueGroupId();
-				else
-					id = id2;
-			}
-		o.setGroupId (id);
+		String groupId = e.getAttributeValue("GroupId");
+		String graphId = e.getAttributeValue("GraphId");
+		if(Utils.isEmpty(graphId))
+		{
+			graphId=groupId;
+		}
+		else
+			groupIDs.put(groupId,graphId);
+		o.setGroupId (graphId);
 
 		//GraphId
 		mapGraphId(o, e);
@@ -607,6 +608,9 @@ public abstract class GpmlFormatAbstract
 		//Add graphIds for objects that don't have one
 		addGraphIds(pwy);
 
+		//Map groupRef -> graphRef
+		mapGrouptoGraphRef(pwy);
+
 		//Convert absolute point coordinates of linked points to
 		//relative coordinates
 		convertPointCoordinates(pwy);
@@ -643,6 +647,13 @@ public abstract class GpmlFormatAbstract
 					pe.setGraphId(newId);
 				}
 			}
+		}
+	}
+
+	private void mapGrouptoGraphRef(Pathway pathway){
+		for (PathwayElement pathwayElement : pathway.getDataObjects()) {
+			if(groupIDs.containsKey(pathwayElement.getGroupRef()))
+				pathwayElement.setGroupRef(groupIDs.get(pathwayElement.getGroupRef()));
 		}
 	}
 

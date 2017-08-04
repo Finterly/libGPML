@@ -153,7 +153,7 @@ public class MPoint extends GenericPoint implements GraphLink.GraphRefContainer
                 }
             }
             graphRef = v;
-            getParent().updateConnections();
+//            getParent().updateConnections();
         }
     }
 

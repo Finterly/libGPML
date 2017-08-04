@@ -12,18 +12,18 @@ public class ExportHelperTest extends TestCase {
     private static final File PATHVISIO_BASEDIR = new File (".");
 
     public void testExport() throws Exception {
-        File in = new File (PATHVISIO_BASEDIR, "testData/2013a/Interactions/basic1.gpml");
+        File in = new File (PATHVISIO_BASEDIR, "testData/2017a/out2.gpml");
 //        File in = new File (PATHVISIO_BASEDIR, "testData/WP248_2010a.gpml");
         assertTrue (in.exists());
 
         Pathway pwy = new Pathway();
         pwy.readFromXml(in, true);
 
-        ExportHelper exportHelper = new ExportHelper(pwy);
+        BiopaxExporter biopaxExporter = new BiopaxExporter(pwy);
 
-        File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/WP554_92084.owl");
+        File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/WP206_90917.owl");
 
-        exportHelper.export(tmp, true);
+        biopaxExporter.export(tmp, true, 1);
     }
 
 }

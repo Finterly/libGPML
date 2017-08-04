@@ -385,14 +385,14 @@ public class TestParser extends TestCase
 		
 		PathwayElement elt;
 		elt = data.getElementById("a8d1a");
-		assertEquals ("e79b2", elt.getGroupRef());
+		assertEquals ("d8371", elt.getGroupRef());
 
 		elt = data.getElementById("af2ec");
-		assertEquals ("fb6cc", elt.getGroupRef());
+		assertEquals ("d8370", elt.getGroupRef());
 		
 		elt = data.getElementById("d8370");
 		assertEquals (ObjectType.GROUP, elt.getObjectType());
-		assertEquals ("fb6cc", elt.getGroupId());
+		assertEquals ("d8370", elt.getGroupId());
 		assertEquals ("", elt.getTextLabel());
 		assertEquals (0, elt.getBiopaxRefs().size());
 		assertEquals (0, elt.getComments().size());
@@ -401,14 +401,14 @@ public class TestParser extends TestCase
 
 		elt = data.getElementById("d8371");
 		assertEquals (ObjectType.GROUP, elt.getObjectType());
-		assertEquals ("e79b2", elt.getGroupId());
+		assertEquals ("d8371", elt.getGroupId());
 		assertEquals ("Blah", elt.getTextLabel());
 		assertEquals (1, elt.getBiopaxRefs().size());
 		assertEquals ("a7a", elt.getBiopaxRefs().get(0));
 		assertEquals (1, elt.getComments().size());
 		assertEquals ("Blah comment", elt.getComments().get(0).getComment());
 		assertEquals (GroupStyle.COMPLEX, elt.getGroupStyle());
-		assertEquals ("fb6cc", elt.getGroupRef());
+		assertEquals ("d8370", elt.getGroupRef());
 	}
 
 	/**

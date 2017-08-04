@@ -61,7 +61,7 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		result.put("Pathway@organism", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@dataSource", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@revision", new AttributeInfo ("xsd:string", null, "optional"));
-		result.put("Pathway.Author@name", new AttributeInfo ("xsd:string", null, "required"));
+		result.put("Pathway.Author@name", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@license", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway.Xref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Pathway.Xref@identifier", new AttributeInfo ("xsd:string", null, "required"));

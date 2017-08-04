@@ -127,7 +127,7 @@ public class TestGpml extends TestCase
 	 */
 	public static void testGroup17a() throws ConverterException, IOException
 	{
-		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/WP554_92084.gpml");
+		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/WP206_90917.gpml");
 		assertTrue (in.exists());
 
 		Pathway pwy = new Pathway();
@@ -137,8 +137,8 @@ public class TestGpml extends TestCase
 //		for(String s:pwy.getGroupIds())
 //			assertEquals("Group should have 2 elements",2,pwy.getGroupElements(s).size());
 
-//		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/out.gpml");
-		File tmp = File.createTempFile("test", "gpml");
+		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/out2.gpml");
+//		File tmp = File.createTempFile("test", "gpml");
 		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
 
@@ -157,7 +157,7 @@ public class TestGpml extends TestCase
 		assertEquals(pwy.getMappInfo().getXref().getId(),"22645578");
 
 		File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/literaturexref-output.gpml");
-		
+
 //		File tmp = File.createTempFile("test", "gpml");
 		GpmlFormat2017.GPML_2017.writeToXml(pwy, tmp, true);
 	}
