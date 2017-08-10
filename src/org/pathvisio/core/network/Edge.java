@@ -8,26 +8,51 @@ import java.util.HashSet;
  * Created by saurabhk351 on 09/07/2017.
  */
 public class Edge {
-    Node source,target;
+    HashSet<Node> sources, targets, regulators;
     LineType edgeType;
-    Edge(LineType edgeType){
+    String reactionID;
+    Edge(LineType edgeType, String reactionID){
+        sources = new HashSet<>();
+        targets = new HashSet<>();
+        regulators = new HashSet<>();
         this.edgeType = edgeType;
+        this.reactionID = reactionID;
     }
 
-    public void setSource(Node node){
-        source = node;
+    public void addSource(Node node){
+        sources.add(node);
     }
 
-    public void setTarget(Node node){
-        target = node;
+    public void addTarget(Node node){
+        targets.add(node);
     }
 
-    public Node getSource() {
-        return source;
+    public void addRegulator(Node node){
+        regulators.add(node);
     }
 
-    public Node getTarget() {
-        return target;
+    public String getReactionID() {
+        return reactionID;
+    }
+
+    public HashSet<Node> getSources() {
+        return sources;
+    }
+
+    public HashSet<Node> getTargets() {
+        return targets;
+    }
+
+    public HashSet<Node> getRegulators() {
+        return regulators;
+    }
+
+    public HashSet<Node> getParticipants() {
+        HashSet<Node> participants = new HashSet<>();
+        participants.addAll(sources);
+        participants.addAll(targets);
+        participants.addAll(regulators);
+        return participants;
     }
 
     public LineType getEdgeType() {

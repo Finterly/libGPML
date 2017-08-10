@@ -11,8 +11,9 @@ import java.util.HashSet;
  */
 public class Node {
     Xref xrefID;
-    String name, label, id=null;
+    String name, label;
     HashSet<PathwayElement> dataNodes;
+    Edge edge;
 
     Node(PathwayElement pathwayElement){
         dataNodes = new HashSet<>();
@@ -22,26 +23,16 @@ public class Node {
         name = pathwayElement.getMapInfoName();
     }
 
-    Node(PathwayElement pathwayElement, String id){
-        dataNodes = new HashSet<>();
-        dataNodes.add(pathwayElement);
-        xrefID = pathwayElement.getXref();
-        label = pathwayElement.getTextLabel();
-        name = pathwayElement.getMapInfoName();
-        this.id = id;
+    Node(Edge edge){
+        this.edge = edge;
     }
 
     public void add(PathwayElement pathwayElement){
         dataNodes.add(pathwayElement);
     }
 
-    public void add(PathwayElement pathwayElement, String id){
-        dataNodes.add(pathwayElement);
-        this.id = id;
-    }
-
     public boolean isReactionNode(){
-        return id!=null;
+        return edge!=null;
     }
 
     public HashSet<PathwayElement> getDataNodes() {
@@ -53,7 +44,7 @@ public class Node {
     }
 
     public String getLabel() {
-        if(isReactionNode()) return id;
+        if(isReactionNode()) return edge.getReactionID();
         return label;
     }
 }

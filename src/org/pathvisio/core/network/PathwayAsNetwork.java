@@ -18,8 +18,9 @@ public class PathwayAsNetwork {
 
     private final Pathway pathway;
     private HashMap<Xref,Node> dataNodes = new HashMap<>();
-    private HashMap<PathwayElement,Node> reactionNodes = new HashMap<>();
+    private HashMap<Edge,Node> reactionNodes = new HashMap<>();
     private HashSet<Edge> edges = new HashSet<>();
+    private HashMap<PathwayElement, Edge> lineEdges = new HashMap<>();
     private HashMap<MLine,String> edgesEnum = new HashMap<>();
     private ArrayList<PathwayElement> lines = new ArrayList<>();
 
@@ -32,19 +33,35 @@ public class PathwayAsNetwork {
                     addDataNode(pathwayElement);
                     break;
                 case LINE:
-                    addReactionNode(pathwayElement);
+//                    addReactionNode(pathwayElement);
                     lines.add(pathwayElement);
             }
         }
+
+        lines.sort(this::compareLines);
+
         for (PathwayElement line:
                 lines) {
             updateEdges(pathway,line);
         }
     }
 
-    private String getReactionID(PathwayElement pathwayElement){
-        int size = reactionNodes.size()+1;
-        return "R"+size;
+    private int compareLines(PathwayElement t1, PathwayElement t2){
+        GraphLink.GraphIdContainer
+                   source1 = pathway.getGraphIdContainer(t1.getMStart().getGraphRef()),
+                   target1 = pathway.getGraphIdContainer(t1.getMEnd().getGraphRef()),
+                   source2 = pathway.getGraphIdContainer(t2.getMStart().getGraphRef()),
+                   target2 = pathway.getGraphIdContainer(t2.getMEnd().getGraphRef());
+        return ((source2 instanceof PathwayElement)?1:0) +
+                   ((target2 instanceof PathwayElement)?1:0) -
+                   ((source1 instanceof PathwayElement)?1:0) -
+                   ((target1 instanceof PathwayElement)?1:0);
+    }
+
+    private int reactions=0;
+    private String getReactionID(){
+//        int size = reactionNodes.size()+1;
+        return "R"+(++reactions);
     }
 
     private void addDataNode(PathwayElement pathwayElement){
@@ -56,19 +73,18 @@ public class PathwayAsNetwork {
     }
 
 
-    private void addReactionNode(PathwayElement pathwayElement){
-        String reactionID = getReactionID(pathwayElement);
-        if(!reactionNodes.containsKey(pathwayElement))
-            reactionNodes.put(pathwayElement,new Node(pathwayElement, reactionID));
-        else
-            reactionNodes.get(pathwayElement).add(pathwayElement, reactionID);
+    private void addReactionNode(Edge edge){
+        String reactionID = getReactionID();
+        if(!reactionNodes.containsKey(edge))
+            reactionNodes.put(edge,new Node(edge));
     }
 
-    private Node getNode(PathwayElement pathwayElement){
-        if(pathwayElement instanceof MLine && reactionNodes.containsKey(pathwayElement))
-            return reactionNodes.get(pathwayElement);
-        else
-            return dataNodes.getOrDefault(pathwayElement.getXref(), null);
+    private Node getDataNode(PathwayElement pathwayElement){
+        return dataNodes.getOrDefault(pathwayElement.getXref(), null);
+    }
+
+    private Node getReactionNode(Edge edge){
+        return reactionNodes.getOrDefault(edge, null);
     }
 
     /**
@@ -101,6 +117,8 @@ public class PathwayAsNetwork {
         GraphLink.GraphIdContainer source = p.getGraphIdContainer(line.getMStart().getGraphRef());
         GraphLink.GraphIdContainer target = p.getGraphIdContainer(line.getMEnd().getGraphRef());
         MAnchor anchorT=null;
+        Node sourceNode, targetNode, reactionNode = null;
+        boolean isRegulator = false;
         PathwayElement sourceElement = null, targetElement = null, temp, pline = null;
         // If the line has no valid references to source and target containers,
         // It is not connected and could not be a valid Interaction
@@ -116,6 +134,8 @@ public class PathwayAsNetwork {
         if(source instanceof MAnchor) anchorT = (MAnchor) source;
         if(target instanceof MAnchor) anchorT = (MAnchor) target;
 
+        Edge edge = lineEdges.get(line);
+
         // If no arrowhead and line end has a dataNode then dataNode should be a source
         // so they need to be swapped otherwise
         if(line.getEndLineType()==LineType.LINE && targetElement!=null
@@ -124,38 +144,73 @@ public class PathwayAsNetwork {
             sourceElement = targetElement;
             targetElement = temp;
         }
-        if(sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE
-                    && line.getEndLineType()==LineType.LINE && anchorT!=null){
+// True if the line has a direct connection to both source and target
+        if (sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE &&
+                targetElement!=null &&targetElement.getObjectType()==ObjectType.DATANODE) {
+            // Create Interaction object if not already
+            if(edge==null) {
+                edge = new Edge(line.getEndLineType(), getReactionID());
+            }
+        }
+        else if(sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE
+                 && anchorT!=null){
+            // check for no arrowhead, if arrowhead then it must be a regulator
+            isRegulator = line.getEndLineType()!=LineType.LINE;
             // get the GraphIdContainer at the end of the current line
-            targetElement = anchorT.getParent();
+            target = p.getGraphIdContainer(anchorT.getParent().getMEnd().getGraphRef());
+            pline = anchorT.getParent();
+            // if the other end of the line was not connected to a dataNode
+            if(target==null){
+            pline = getConnectedLine(anchorT);
+            if(pline!=null)
+                target = p.getGraphIdContainer(getConnectedLine(anchorT).getMEnd().getGraphRef());
+            }
+            // target is any target we found, temp is the last anchor the target was connected to
+            if(target instanceof PathwayElement){
+                targetElement = (PathwayElement) target;
+                edge = lineEdges.get(pline);
+                if(edge==null)
+                    edge = new Edge(pline.getEndLineType(),getReactionID());
+            }
+            if(isRegulator) {
+                reactionNode = getReactionNode(lineEdges.get(pline));
+                if(pline!=null)
+                edge = new Edge(pline.getEndLineType(),getReactionID());
+            }
         }
         // Same as for source
         else if(targetElement!=null && targetElement.getObjectType()==ObjectType.DATANODE
                 && anchorT!=null){
-            sourceElement = anchorT.getParent();
-        }
-
-        if(sourceElement==null||targetElement==null){
-            // could not find connections on both ends
-            // not a valid interaction
-            return;
+            source = p.getGraphIdContainer(anchorT.getParent().getMStart().getGraphRef());
+            pline = anchorT.getParent();
+            if(source==null){
+                pline = getConnectedLine(anchorT);
+                if(pline!=null)
+                    source = p.getGraphIdContainer(getConnectedLine(anchorT).getMStart().getGraphRef());
+            }
+            if(source instanceof PathwayElement){
+                sourceElement = (PathwayElement) source;
+                edge = lineEdges.get(pline);
+                if(edge==null)
+                    edge = new Edge(pline.getEndLineType(),getReactionID());
+            }
         }
         // Update all structures
-        Node sourceNode, targetNode, lineNode;
-        lineNode = getNode(line);
-        sourceNode = getNode(sourceElement);
-        targetNode = getNode(targetElement);
-        Edge edge1 = new Edge(line.getStartLineType()), edge2 = new Edge(line.getEndLineType());
-        if(sourceNode!=null){
-            edge1.setSource(sourceNode);
-            edge1.setTarget(lineNode);
-            edges.add(edge1);
-        }
-        if(targetNode!=null){
-            edge2.setSource(lineNode);
-            edge2.setTarget(targetNode);
-            edges.add(edge2);
-        }
+        // Also note since they are HashSets, duplicates are implicitly checked
+        // If failed to create an or use an already instantiated interaction object
+        // it should be an invalid Interaction
+        if(edge==null)
+            return;
+        sourceNode = getDataNode(sourceElement);
+        targetNode = getDataNode(targetElement);
+        edge.addSource(sourceNode);
+        if(isRegulator)
+            edge.addTarget(reactionNode);
+        else
+            edge.addTarget(targetNode);
+        lineEdges.put(line,edge);
+        addReactionNode(edge);
+        edges.add(edge);
     }
 
     public Pathway getPathway() {
@@ -173,12 +228,20 @@ public class PathwayAsNetwork {
     public String toTSV(){
         StringBuilder res = new StringBuilder();
         for(Edge edge:edges){
-            res.append(edge.getSource().getLabel())
-                .append('\t')
-                .append(edge.edgeType.getName())
-                .append('\t')
-                .append(edge.getTarget().getLabel())
-                .append('\n');
+            for(Node source:edge.getSources())
+                res.append(source.getLabel())
+                    .append('\t')
+                    .append(LineType.LINE.getName())
+                    .append('\t')
+                    .append(edge.getReactionID())
+                    .append('\n');
+            for(Node target:edge.getTargets())
+                res.append(edge.getReactionID())
+                    .append('\t')
+                    .append(edge.edgeType.getName())
+                    .append('\t')
+                    .append(target.getLabel())
+                    .append('\n');
         }
         return res.toString();
     }
