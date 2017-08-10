@@ -23,7 +23,7 @@ public class ExportHelperTest extends TestCase {
 
         File tmp = new File (PATHVISIO_BASEDIR, "testData/2017a/WP206_90917.owl");
 
-        biopaxExporter.export(tmp, true, 1);
+        biopaxExporter.export(tmp, true);
     }
 
 }

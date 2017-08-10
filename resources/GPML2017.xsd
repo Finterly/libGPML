@@ -706,7 +706,25 @@
 		<!-- Graphics related attributes-->
 		<xsd:attributeGroup ref="gpml:RectAttributes"/>
 		<xsd:attributeGroup ref="gpml:FontAttributes" />
-		<xsd:attributeGroup ref="gpml:ShapeStyleAttributes" />
+
+		<xsd:attribute name="color" type="gpml:ColorType" default="Black">
+			<xsd:annotation>
+				<xsd:documentation>
+					The color to be used for visualization.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attributeGroup ref="gpml:LineAttributes" />
+		<xsd:attribute name="fillColor" type="gpml:ColorType" default="Transparent">
+			<xsd:annotation>
+				<xsd:documentation>
+					The hexidecimal color value used to paint the area of an object, not including its border.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="shapeType" type="xsd:string" default="Hexagon"/>
+		<xsd:attribute name="zOrder" type="xsd:integer" use="optional"/>
+
 		<!-- End Graphics related attributes-->
 
 		<!-- for a reference to a url !-->

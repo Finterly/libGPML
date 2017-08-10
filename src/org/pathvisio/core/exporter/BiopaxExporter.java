@@ -17,8 +17,7 @@ public class BiopaxExporter {
         this.pathway = pathway;
     }
 
-    public void export(File file, boolean doBpSs, int level) throws IOException{
-        if(level==1){
+    public void export(File file, boolean doBpSs) throws IOException{
             ArrayList<PathwayElement> toRemove = new ArrayList<>();
             // collect all Pathway Elements without Xrefs to ignore
             for(PathwayElement pathwayElement:pathway.getDataObjects())
@@ -34,6 +33,4 @@ public class BiopaxExporter {
             ExportHelper exportHelper = new ExportHelper(pathway);
             exportHelper.export(file, doBpSs);
         }
-    }
-
 }
