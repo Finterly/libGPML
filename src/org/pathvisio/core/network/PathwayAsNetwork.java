@@ -21,8 +21,8 @@ public class PathwayAsNetwork {
     private HashMap<Edge,Node> reactionNodes = new HashMap<>();
     private HashSet<Edge> edges = new HashSet<>();
     private HashMap<PathwayElement, Edge> lineEdges = new HashMap<>();
-    private HashMap<MLine,String> edgesEnum = new HashMap<>();
     private ArrayList<PathwayElement> lines = new ArrayList<>();
+    private HashMap<Node, HashSet<Edge>> nodeEdges = new HashMap<>();
 
     public PathwayAsNetwork(Pathway pathway){
         this.pathway = pathway;
@@ -66,6 +66,7 @@ public class PathwayAsNetwork {
 
     private void addDataNode(PathwayElement pathwayElement){
         Xref xref = pathwayElement.getXref();
+        if(xref==null||xref.getId().equals("")||xref.getDataSource()==null) return;
         if(!dataNodes.containsKey(xref))
             dataNodes.put(xref,new Node(pathwayElement));
         else
@@ -77,6 +78,12 @@ public class PathwayAsNetwork {
         String reactionID = getReactionID();
         if(!reactionNodes.containsKey(edge))
             reactionNodes.put(edge,new Node(edge));
+    }
+
+    private void addNodeEdge(Node node, Edge edge){
+        if(nodeEdges.getOrDefault(node,null)==null)
+            nodeEdges.put(node,new HashSet<>());
+        nodeEdges.get(node).add(edge);
     }
 
     private Node getDataNode(PathwayElement pathwayElement){
@@ -203,11 +210,22 @@ public class PathwayAsNetwork {
             return;
         sourceNode = getDataNode(sourceElement);
         targetNode = getDataNode(targetElement);
+
+        // Nodes could point to null pointer in case the Xref was not complete
+        if(sourceNode==null||
+                (isRegulator&&reactionNode==null)||
+                (!isRegulator&&targetNode==null))
+            return;
+
         edge.addSource(sourceNode);
-        if(isRegulator)
+        addNodeEdge(sourceNode,edge);
+        if(isRegulator) {
             edge.addTarget(reactionNode);
-        else
+            addNodeEdge(reactionNode, edge);
+        } else {
             edge.addTarget(targetNode);
+            addNodeEdge(targetNode,edge);
+        }
         lineEdges.put(line,edge);
         addReactionNode(edge);
         edges.add(edge);
@@ -223,6 +241,10 @@ public class PathwayAsNetwork {
 
     public HashMap<Xref, Node> getDataNodes() {
         return dataNodes;
+    }
+
+    public HashSet<Edge> getEdgesFromNode(Node node) {
+        return nodeEdges.getOrDefault(node,null);
     }
 
     public String toTSV(){

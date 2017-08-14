@@ -76,31 +76,29 @@ import org.pathvisio.core.util.FileUtils;
 public class ExportHelper
 {
 
-	private BioPAXFactory factory;
-	private Model bpModel;
+	protected BioPAXFactory factory;
+	protected Model bpModel;
 	private int nextId = 1;
-	private SimpleIOHandler exporter = new SimpleIOHandler(BioPAXLevel.L3);
-	private final Pathway pvPwy;
-	private org.biopax.paxtools.model.level3.Pathway bpPwy = null; 
+	protected SimpleIOHandler exporter = new SimpleIOHandler(BioPAXLevel.L3);
+	protected Pathway pvPwy;
+	protected org.biopax.paxtools.model.level3.Pathway bpPwy = null;
 
 	private Map<PathwayElement, PhysicalEntity> uniqueDatanodes = new HashMap<PathwayElement,PhysicalEntity>();
 	private Map<Object, EntityReference> uniqueEntityRef = new HashMap<Object, EntityReference>();
 	private Map<Xref, UnificationXref> uniqueUnificationXrefs = new HashMap<Xref, UnificationXref>();
 	private Map<Xref, RelationshipXref> uniqueRelationshipXrefs = new HashMap<Xref, RelationshipXref>();
-	private BioSource organism = null;
+	protected BioSource organism = null;
 
-	private final BpStyleSheet bpss = new BpStyleSheet();
+	protected final BpStyleSheet bpss = new BpStyleSheet();
+
+	public ExportHelper(){}
 
 	public ExportHelper(Pathway pvPwy)
 	{
 		this.pvPwy = pvPwy;
 		System.out.println(" Saving from GPML to Biopax");
-
-		
 		factory = BioPAXLevel.L3.getDefaultFactory();
 		bpModel = factory.createModel();
-
-		mapPathway();
 	}
 	
 	public String generateRdfId()
@@ -110,7 +108,7 @@ public class ExportHelper
 		return result;
 	}
 
-	private void transferEntityReference(SimplePhysicalEntity bpPe, PathwayElement pwyElt)
+	protected void transferEntityReference(SimplePhysicalEntity bpPe, PathwayElement pwyElt)
 	{
 		// for pwyElms with a good Xref, we generate only one EntityReference per Xref.
 		// otherwise, we create a new EntityReference each time.
@@ -376,7 +374,7 @@ public class ExportHelper
 	 * This usually means an instance of PhysicalEntity, and possibly
 	 * corresponding PhysicalEntityReference and UnificationXref objects.
 	 */
-	private PhysicalEntity createOrGetPhysicalEntity(PathwayElement pwyElt)
+	protected PhysicalEntity createOrGetPhysicalEntity(PathwayElement pwyElt)
 	{
 		PhysicalEntity bpPe = null;
 
@@ -412,7 +410,7 @@ public class ExportHelper
 	/**
 	 * Map a relation, which is usually a biochemical reaction. 
 	 */
-	private void mapRelation(PathwayElement pwElm)
+	protected void mapRelation(PathwayElement pwElm)
 	{
 		Relation r = new Relation(pwElm);
 
@@ -471,67 +469,8 @@ public class ExportHelper
 		}
 	}
 
-	private void mapPathway()
-	{
-		PathwayElement info = pvPwy.getMappInfo();
-
-		bpPwy = bpModel.addNew (org.biopax.paxtools.model.level3.Pathway.class, generateRdfId());
-		transferComments(bpPwy, info);
-		bpPwy.setDisplayName(info.getMapInfoName());
-
-		if (info.getOrganism() != null)
-		{
-			organism = bpModel.addNew (BioSource.class, generateRdfId());
-			organism.setStandardName(info.getOrganism());
-			organism.setDisplayName(info.getOrganism());
-			bpPwy.setOrganism(organism);
-		}
-
-		for (PathwayElement pwElm : pvPwy.getDataObjects())
-		{
-			// is it a gene, protein or metabolite? 
-			if (pwElm.getObjectType() == ObjectType.DATANODE)
-			{
-				createOrGetPhysicalEntity (pwElm);
-			}
-
-			// is it a complex (NB not every group automatically counts as a complex)
-			if (pwElm.getObjectType() == ObjectType.GROUP &&
-					pwElm.getGroupStyle() == GroupStyle.COMPLEX)
-			{
-				createOrGetPhysicalEntity (pwElm);	
-			}
-
-			// is it a biochemical reaction or other relation?
-			if(isRelation(pvPwy, pwElm))
-			{
-				mapRelation(pwElm);					
-			}
-
-			// is it a line that can not be represented in BioPAX?
-			if (pwElm.getObjectType() == ObjectType.LINE){ 
-				if((pwElm.getStartGraphRef() == null) || (pwElm.getEndGraphRef() == null)){
-					Logger.log.info("This pathway contains an incorrect arrow");
-				}
-			}
-		}			
-	}
-
-	public void export(File file, boolean doBpSs) throws IOException
-	{
-		exporter.convertToOWL(bpModel, 
-				new BufferedOutputStream(new FileOutputStream(file)));
-		if (doBpSs)
-		{
-			File fnSs = FileUtils.replaceExtension(file, "bpss");
-			FileOutputStream fos = new FileOutputStream (fnSs);
-			bpss.write(fos);
-			fos.close();
-		}
-	}
-
 	// Test if a line is a relation
-	private static boolean isRelation(Pathway pv, PathwayElement pe) {
+	protected static boolean isRelation(Pathway pv, PathwayElement pe) {
 		if(pe.getObjectType() == ObjectType.LINE) {
 			System.out.println(" LINE ");
 			MPoint s = pe.getMStart();
@@ -548,8 +487,8 @@ public class ExportHelper
 		}
 		return false;
 	}
-	
-	private static void transferComments (Entity bpE, PathwayElement pwElm)
+
+	protected static void transferComments (Entity bpE, PathwayElement pwElm)
 	{
 		Set<String> comments = new HashSet<String>();
 		for (Comment com : pwElm.getComments()){
