@@ -37,7 +37,8 @@ public class BiopaxExporter extends ExportHelper{
             for(Node node:edge.getSources())
                 toKeep.addAll(node.getDataNodes());
             for(Node node:edge.getTargets())
-                toKeep.addAll(node.getDataNodes());
+                if(!node.isReactionNode())
+                    toKeep.addAll(node.getDataNodes());
         }
 
         Node mw = panPwy.getDataNodes().get(null);

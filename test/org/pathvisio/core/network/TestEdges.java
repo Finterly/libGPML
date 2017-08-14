@@ -155,6 +155,17 @@ public class TestEdges extends TestCase
 
 	}
 
+	public static void testGroup() throws ConverterException, IOException
+	{
+		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/out2.gpml");
+
+		Pathway pwy = new Pathway();
+		pwy.readFromXml(in, true);
+		PathwayAsNetwork pathwayAsNetwork = new PathwayAsNetwork(pwy);
+		assertEquals(2,pathwayAsNetwork.getEdges().size());
+
+	}
+
 	public static void testComplete() throws ConverterException, IOException
 	{
 		File in = new File (PATHVISIO_BASEDIR, "testData/2017a/out.gpml");

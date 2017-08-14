@@ -5,6 +5,7 @@ import org.omg.CORBA.DATA_CONVERSION;
 import org.pathvisio.core.model.*;
 import sun.plugin.javascript.navig.Anchor;
 
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -119,12 +120,26 @@ public class PathwayAsNetwork {
         return otherLine;
     }
 
+    private boolean isDataNode(PathwayElement pathwayElement){
+        if(pathwayElement==null)
+            return false;
+
+        boolean result = pathwayElement.getObjectType()==ObjectType.DATANODE;
+
+        if(pathwayElement.getObjectType()==ObjectType.GROUP){
+            for(PathwayElement pe:pathway.getGroupElements(pathwayElement.getGraphId()))
+                if(pe.getObjectType()==ObjectType.DATANODE)
+                    result=true;
+        }
+        return result;
+    }
 
     private void updateEdges(Pathway p,PathwayElement line){
         GraphLink.GraphIdContainer source = p.getGraphIdContainer(line.getMStart().getGraphRef());
         GraphLink.GraphIdContainer target = p.getGraphIdContainer(line.getMEnd().getGraphRef());
         MAnchor anchorT=null;
-        Node sourceNode, targetNode, reactionNode = null;
+        HashSet<Node> sourceNodes, targetNodes;
+        Node reactionNode = null;
         boolean isRegulator = false;
         PathwayElement sourceElement = null, targetElement = null, temp, pline = null;
         // If the line has no valid references to source and target containers,
@@ -145,21 +160,21 @@ public class PathwayAsNetwork {
 
         // If no arrowhead and line end has a dataNode then dataNode should be a source
         // so they need to be swapped otherwise
-        if(line.getEndLineType()==LineType.LINE && targetElement!=null
-                && targetElement.getObjectType()==ObjectType.DATANODE){
+        if(line.getEndLineType()==LineType.LINE
+                && isDataNode(targetElement)){
             temp = sourceElement;
             sourceElement = targetElement;
             targetElement = temp;
         }
 // True if the line has a direct connection to both source and target
-        if (sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE &&
-                targetElement!=null &&targetElement.getObjectType()==ObjectType.DATANODE) {
+        if (isDataNode(sourceElement) &&
+                isDataNode(targetElement)) {
             // Create Interaction object if not already
             if(edge==null) {
                 edge = new Edge(line.getEndLineType(), getReactionID());
             }
         }
-        else if(sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE
+        else if(isDataNode(sourceElement)
                  && anchorT!=null){
             // check for no arrowhead, if arrowhead then it must be a regulator
             isRegulator = line.getEndLineType()!=LineType.LINE;
@@ -186,7 +201,7 @@ public class PathwayAsNetwork {
             }
         }
         // Same as for source
-        else if(targetElement!=null && targetElement.getObjectType()==ObjectType.DATANODE
+        else if(isDataNode(targetElement)
                 && anchorT!=null){
             source = p.getGraphIdContainer(anchorT.getParent().getMStart().getGraphRef());
             pline = anchorT.getParent();
@@ -208,23 +223,26 @@ public class PathwayAsNetwork {
         // it should be an invalid Interaction
         if(edge==null)
             return;
-        sourceNode = getDataNode(sourceElement);
-        targetNode = getDataNode(targetElement);
+        sourceNodes = getDataNodes(sourceElement);
+        targetNodes = getDataNodes(targetElement);
 
         // Nodes could point to null pointer in case the Xref was not complete
-        if(sourceNode==null||
+        if(sourceNodes==null||
                 (isRegulator&&reactionNode==null)||
-                (!isRegulator&&targetNode==null))
+                (!isRegulator&&targetNodes==null))
             return;
-
+        for(Node sourceNode:sourceNodes){
         edge.addSource(sourceNode);
         addNodeEdge(sourceNode,edge);
+        }
         if(isRegulator) {
             edge.addTarget(reactionNode);
             addNodeEdge(reactionNode, edge);
         } else {
-            edge.addTarget(targetNode);
-            addNodeEdge(targetNode,edge);
+            for(Node targetNode:targetNodes) {
+                edge.addTarget(targetNode);
+                addNodeEdge(targetNode,edge);
+            }
         }
         lineEdges.put(line,edge);
         addReactionNode(edge);
@@ -241,6 +259,21 @@ public class PathwayAsNetwork {
 
     public HashMap<Xref, Node> getDataNodes() {
         return dataNodes;
+    }
+
+    private HashSet<Node> getDataNodes(PathwayElement pathwayElement) {
+        HashSet<Node> nodes = new HashSet<>();
+        if(pathwayElement.getObjectType()==ObjectType.DATANODE) {
+            if (getDataNode(pathwayElement) != null)
+                nodes.add(getDataNode(pathwayElement));
+        }
+        else if(pathwayElement.getObjectType()==ObjectType.GROUP)
+            for(PathwayElement pe:pathway.getGroupElements(pathwayElement.getGraphId()))
+                if(getDataNode(pe)!=null)
+                    nodes.add(getDataNode(pe));
+        if(nodes.size()==0)
+            return null;
+        return nodes;
     }
 
     public HashSet<Edge> getEdgesFromNode(Node node) {
