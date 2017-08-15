@@ -248,6 +248,7 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 	private void updateShapeCommon(PathwayElement o, Element e) throws ConverterException
 	{
 		updateGraphId(o, e); // GraphId
+		updateTextLabel(o, e); // TextLabel
 		updateShapeType(o, e); // ShapeType
 		updateLineStyle(o, e); // LineStyle, LineThickness, Color
 		updateShapeColor(o, e); // FillColor and Transparent
@@ -270,11 +271,13 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		{
 			case DATANODE:
 				e = new Element("DataNode", getGpmlNamespace());
+				updateGraphId(o, e);
+				updateTextLabel(o,e);
+				updateGroupRef(o, e);
 				updateShapeCommon(o, e);
 				updateCommon (o, e);
 				e.addContent(new Element("Xref", getGpmlNamespace()));
 				updateDataNode(o, e); // Type & Xref
-				updateGroupRef(o, e);
 				updateShapePosition(o, e);
 				break;
 			case STATE:
@@ -286,11 +289,12 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 				break;
 			case SHAPE:
 				e = new Element ("Shape", getGpmlNamespace());
+				updateGraphId(o, e);
+				updateGroupRef(o, e);
 				updateShapeCommon(o, e);
 				updateCommon (o, e);
 				updateShapePosition(o, e);
 				updateRotation(o, e);
-				updateGroupRef(o, e);
 				break;
 			case LINE:
 				e = new Element("Interaction", getGpmlNamespace());
@@ -312,11 +316,11 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 				break;
 			case LABEL:
 				e = new Element("Label", getGpmlNamespace());
-				updateShapePosition(o, e);
 				updateShapeCommon(o, e);
-				updateCommon (o, e);
-				updateHref(o, e);
 				updateGroupRef(o, e);
+				updateCommon (o, e);
+				updateShapePosition(o, e);
+				updateHref(o, e);
 				break;
 			case LEGEND:
 				e = new Element ("Legend", getGpmlNamespace());
@@ -540,6 +544,11 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		o.setValign(ValignType.fromGpmlName(getAttribute(base, "vAlign", e)));
 		o.setAlign(AlignType.fromGpmlName(getAttribute(base, "align", e)));
 	}
+
+	protected void updateTextLabel(PathwayElement o, Element e) throws ConverterException{
+		String base = e.getName();
+		setAttribute(base, "textLabel", e, o.getTextLabel());
+	}
 	
 	protected void updateFontData(PathwayElement o, Element e) throws ConverterException
 	{
@@ -638,13 +647,14 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 	{
 		String base = e.getName();
 
+		setAttribute ("State", "stateType", e, o.getDataNodeType());
+		setAttribute ("State", "elementRef", e, o.getGraphRef());
+
 		setAttribute(base, "relX", e, "" + o.getRelX());
 		setAttribute(base, "relY", e, "" + o.getRelY());
 		setAttribute(base, "width", e, "" + o.getMWidth());
 		setAttribute(base, "height", e, "" + o.getMHeight());
-		
-		setAttribute ("State", "stateType", e, o.getDataNodeType());
-		setAttribute ("State", "elementRef", e, o.getGraphRef());
+
 		Element xref = e.getChild("Xref", e.getNamespace());
 		String database = o.getDataSource() == null ? "" : o.getDataSource().getFullName();
 		setAttribute ("State.Xref", "dataSource", xref, database == null ? "" : database);
