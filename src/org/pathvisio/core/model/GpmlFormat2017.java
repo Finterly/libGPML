@@ -55,8 +55,8 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		result.put("PublicationXref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Attribute@key", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Attribute@value", new AttributeInfo ("xsd:string", null, "required"));
-		result.put("Pathway@boardWidth", new AttributeInfo ("gpml:Dimension", null, "optional"));
-		result.put("Pathway@boardHeight", new AttributeInfo ("gpml:Dimension", null, "optional"));
+		result.put("Pathway@width", new AttributeInfo ("gpml:Dimension", null, "required"));
+		result.put("Pathway@height", new AttributeInfo ("gpml:Dimension", null, "required"));
 		result.put("Pathway@name", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("Pathway@organism", new AttributeInfo ("xsd:string", null, "optional"));
 		result.put("Pathway@dataSource", new AttributeInfo ("xsd:string", null, "optional"));
@@ -114,7 +114,7 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		result.put("GraphicalLine.Point@arrowHead", new AttributeInfo ("xsd:string", "Line", "optional"));
 		result.put("GraphicalLine.Anchor@position", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("GraphicalLine.Anchor@elementID", new AttributeInfo ("xsd:ID", null, "required"));
-		result.put("GraphicalLine.Anchor@shape", new AttributeInfo ("xsd:string", "ReceptorRound", "optional"));
+		result.put("GraphicalLine.Anchor@shapeType", new AttributeInfo ("xsd:string", "ReceptorRound", "optional"));
 		result.put("GraphicalLine@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
 		result.put("GraphicalLine@lineThickness", new AttributeInfo ("xsd:float", null, "optional"));
 		result.put("GraphicalLine@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
@@ -132,7 +132,7 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		result.put("Interaction.Point@arrowHead", new AttributeInfo ("xsd:string", "Line", "optional"));
 		result.put("Interaction.Anchor@position", new AttributeInfo ("xsd:float", null, "required"));
 		result.put("Interaction.Anchor@elementID", new AttributeInfo ("xsd:ID", null, "required"));
-		result.put("Interaction.Anchor@shape", new AttributeInfo ("xsd:string", "ReceptorRound", "optional"));
+		result.put("Interaction.Anchor@shapeType", new AttributeInfo ("xsd:string", "ReceptorRound", "optional"));
 		result.put("Interaction@color", new AttributeInfo ("gpml:ColorType", "Black", "optional"));
 		result.put("Interaction@lineThickness", new AttributeInfo ("xsd:float", null, "optional"));
 		result.put("Interaction@lineStyle", new AttributeInfo ("gpml:StyleType", "Solid", "optional"));
@@ -247,11 +247,11 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 	// common to Label, Shape, State, DataNode
 	private void updateShapeCommon(PathwayElement o, Element e) throws ConverterException
 	{
-		updateShapeColor(o, e); // FillColor and Transparent
-		updateFontData(o, e); // TextLabel. FontName, -Weight, -Style, -Decoration, -StrikeThru, -Size.
 		updateGraphId(o, e); // GraphId
 		updateShapeType(o, e); // ShapeType
 		updateLineStyle(o, e); // LineStyle, LineThickness, Color
+		updateShapeColor(o, e); // FillColor and Transparent
+		updateFontData(o, e); // TextLabel. FontName, -Weight, -Style, -Decoration, -StrikeThru, -Size.
 	}
 
 	// common to Label, Shape, State, DataNode
@@ -270,51 +270,51 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		{
 			case DATANODE:
 				e = new Element("DataNode", getGpmlNamespace());
+				updateShapeCommon(o, e);
 				updateCommon (o, e);
 				e.addContent(new Element("Xref", getGpmlNamespace()));
-				updateShapePosition(o, e);
-				updateShapeCommon(o, e);
 				updateDataNode(o, e); // Type & Xref
 				updateGroupRef(o, e);
+				updateShapePosition(o, e);
 				break;
 			case STATE:
 				e = new Element("State", getGpmlNamespace());
+				updateShapeCommon(o, e);
 				updateCommon (o, e);
 				e.addContent(new Element("Xref", getGpmlNamespace()));
 				updateStateData(o, e);
-				updateShapeCommon(o, e);
 				break;
 			case SHAPE:
 				e = new Element ("Shape", getGpmlNamespace());
+				updateShapeCommon(o, e);
 				updateCommon (o, e);
 				updateShapePosition(o, e);
-				updateShapeCommon(o, e);
 				updateRotation(o, e);
 				updateGroupRef(o, e);
 				break;
 			case LINE:
 				e = new Element("Interaction", getGpmlNamespace());
-				updateCommon (o, e);
 				e.addContent(new Element("Xref", getGpmlNamespace()));
+				updateGraphId(o, e);
+				updateGroupRef(o, e);
+				updateCommon (o, e);
 				updateLine(o, e); // Xref
 				updateLineData(o, e);
 				updateLineStyle(o, e);
-				updateGraphId(o, e);
-				updateGroupRef(o, e);
 				break;
 			case GRAPHLINE:
 				e = new Element("GraphicalLine", getGpmlNamespace());
+				updateGraphId(o, e);
+				updateGroupRef(o, e);
 				updateCommon (o, e);
 				updateLineData(o, e);
 				updateLineStyle(o, e);
-				updateGraphId(o, e);
-				updateGroupRef(o, e);
-				break;	
+				break;
 			case LABEL:
 				e = new Element("Label", getGpmlNamespace());
-				updateCommon (o, e);
 				updateShapePosition(o, e);
 				updateShapeCommon(o, e);
+				updateCommon (o, e);
 				updateHref(o, e);
 				updateGroupRef(o, e);
 				break;
@@ -328,9 +328,9 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 				break;
 			case GROUP:
 				e = new Element ("Group", getGpmlNamespace());
-				updateCommon (o, e);
 				updateGroup (o, e);
 				updateGroupRef(o, e);
+				updateCommon (o, e);
 				break;
 			case BIOPAX:
 				return null;
@@ -722,7 +722,7 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
     		double position = Double.parseDouble(getAttribute("Interaction.Anchor", "position", ae));
     		MAnchor anchor = o.addMAnchor(position);
     		mapGraphId(anchor, ae);
-    		String shape = getAttribute("Interaction.Anchor", "shape", ae);
+    		String shape = getAttribute("Interaction.Anchor", "shapeType", ae);
     		if(shape != null) {
     			anchor.setShape(AnchorType.fromName(shape));
     		}
@@ -771,7 +771,7 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 			if(anchor.getGraphId()==null)
 				anchor.setGeneratedGraphId();
 			setAttribute("Interaction.Anchor", "position", ae, Double.toString(anchor.getPosition()));
-			setAttribute("Interaction.Anchor", "shape", ae, anchor.getShape().getName());
+			setAttribute("Interaction.Anchor", "shapeType", ae, anchor.getShape().getName());
 			updateGraphId(anchor, ae);
 			e.addContent(ae);
 		}

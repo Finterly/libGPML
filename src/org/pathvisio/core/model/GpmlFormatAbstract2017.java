@@ -254,8 +254,8 @@ public abstract class GpmlFormatAbstract2017
 
 
 		double[] size = o.getMBoardSize();
-		setAttribute("Pathway", "boardWidth", root, "" +size[0]);
-		setAttribute("Pathway", "boardHeight", root, "" + size[1]);
+		setAttribute("Pathway", "width", root, "" +size[0]);
+		setAttribute("Pathway", "height", root, "" + size[1]);
 		
 		updateMappInfoVariable (root, o);
 	}
