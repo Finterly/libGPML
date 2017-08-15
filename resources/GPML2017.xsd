@@ -961,12 +961,35 @@
 		</xsd:attribute>
 		<xsd:attributeGroup ref="gpml:IdentifierGroup" />
 		<!-- Note: only the arrowHead attribute on first and last points are used, the rest is ignored. !-->
-		<xsd:attribute name="arrowHead" default="Line" type="xsd:string">
+		<xsd:attribute name="arrowHead" default="Line">
 			<xsd:annotation>
 				<xsd:documentation>
 					Specifies the glyph at the ends of lines and interactions.
 				</xsd:documentation>
 			</xsd:annotation>
+            <xsd:simpleType>
+                <xsd:union>
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string">
+                            <xsd:enumeration value="Line"/>
+                            <xsd:enumeration value="Arrow"/>
+                            <xsd:enumeration value="TBar"/>
+                            <xsd:enumeration value="mim-necessary-stimulation"/>
+                            <xsd:enumeration value="mim-binding"/>
+                            <xsd:enumeration value="mim-conversion"/>
+                            <xsd:enumeration value="mim-stimulation"/>
+                            <xsd:enumeration value="mim-catalysis"/>
+                            <xsd:enumeration value="mim-modification"/>
+                            <xsd:enumeration value="mim-inhibition"/>
+                            <xsd:enumeration value="mim-covalent-bond"/>
+                            <xsd:enumeration value="mim-transcription-translation"/>
+                        </xsd:restriction>
+                    </xsd:simpleType>
+                    <xsd:simpleType>
+                        <xsd:restriction base="xsd:string"/>
+                    </xsd:simpleType>
+                </xsd:union>
+            </xsd:simpleType>
 		</xsd:attribute>
 	</xsd:complexType>
 
