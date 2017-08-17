@@ -467,9 +467,22 @@
 				</xsd:annotation>
 			</xsd:attribute>
 
-			<xsd:attribute name="dataSource" type="xsd:string" use="optional"/>
+			<!--TODO conflicts with Xref.dataSource -->
+			<xsd:attribute name="dataSource" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						Deprecated: Not in use.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
 
-			<xsd:attribute name="revision" type="xsd:string" use="optional"/>
+			<xsd:attribute name="revision" type="xsd:string" use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						The version of a Pathway (currently not used in WP).
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
 
 			<xsd:attribute name="license" type="xsd:string" use="optional">
 				<xsd:annotation>
@@ -770,7 +783,6 @@
 		<xsd:attribute name="rotation" type="gpml:RotationType" default="Top" />
 		<!-- End Graphics related attributes-->
 
-		<!-- TODO: does a shape need a publication xref? -->
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
 		<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
@@ -797,11 +809,6 @@
 			<xsd:group ref="gpml:CommentGroup" />
 		</xsd:sequence>
 
-		<!-- TODO: remove - replace with elementID -->
-		<!--<xsd:attribute name="groupId" type="xsd:string" use="optional" >
-		</xsd:attribute>-->
-
-		<!-- TODO: can a group be part of a group? -->
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
 		<!-- renamed to groupType -->
@@ -906,7 +913,6 @@
 				<xsd:complexType>
 					<xsd:attribute name="term" type="xsd:string" use="required"/>
 					<xsd:attribute name="ontology" type="xsd:string" use="required"/>
-					<!-- TODO: use ontologyTermID to refer to ontology terms -->
 					<xsd:attribute name="ontologyTermID" type="xsd:string" use="required" />
 				</xsd:complexType>
 			</xsd:element>
