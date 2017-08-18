@@ -523,22 +523,15 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		String base = e.getName();
 		o.setTextLabel (getAttribute(base, "textLabel", e));
 
-		// TODO dirty hack: the fact that state doesn't allow font data is a bug 
-		if (e.getName().equals ("State")) return;
-		
     	String fontSizeString = getAttribute(base, "fontSize", e);
     	o.setMFontSize (Integer.parseInt(fontSizeString));
 
     	String fontWeight = getAttribute(base, "fontWeight", e);
     	String fontStyle = getAttribute(base, "fontStyle", e);
-    	String fontDecoration = getAttribute(base, "fontDecoration", e);
-    	String fontStrikethru = getAttribute(base, "fontStrikethru", e);
 
     	o.setBold (fontWeight != null && fontWeight.equals("Bold"));
     	o.setItalic (fontStyle != null && fontStyle.equals("Italic"));
-    	o.setUnderline (fontDecoration != null && fontDecoration.equals("Underline"));
-    	o.setStrikethru (fontStrikethru != null && fontStrikethru.equals("Strikethru"));
-    	
+
     	o.setFontName (getAttribute(base, "fontName", e));
 	    
 		o.setValign(ValignType.fromGpmlName(getAttribute(base, "vAlign", e)));
@@ -555,14 +548,9 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		String base = e.getName();
 		setAttribute(base, "textLabel", e, o.getTextLabel());
 
-		// TODO dirty hack: the fact that state doesn't allow font data is a bug 
-		if (e.getName().equals ("State")) return;
-		
 		setAttribute(base, "fontName", e, o.getFontName() == null ? "" : o.getFontName());
 		setAttribute(base, "fontWeight", e, o.isBold() ? "Bold" : "Normal");
 		setAttribute(base, "fontStyle", e, o.isItalic() ? "Italic" : "Normal");
-		setAttribute(base, "fontDecoration", e, o.isUnderline() ? "Underline" : "Normal");
-		setAttribute(base, "fontStrikethru", e, o.isStrikethru() ? "Strikethru" : "Normal");
 		setAttribute(base, "fontSize", e, Integer.toString((int)o.getMFontSize()));
 		setAttribute(base, "vAlign", e, o.getValign().getGpmlName());
 		setAttribute(base, "align", e, o.getAlign().getGpmlName());

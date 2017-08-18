@@ -32,32 +32,6 @@
 				</xsd:restriction>
 			</xsd:simpleType>
 		</xsd:attribute>
-		<xsd:attribute name="fontDecoration" default="Normal">
-			<xsd:annotation>
-				<xsd:documentation>
-					Deprecated: Not in use.
-				</xsd:documentation>
-			</xsd:annotation>
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:string">
-					<xsd:enumeration value="Normal"/>
-					<xsd:enumeration value="Underline"/>
-				</xsd:restriction>
-			</xsd:simpleType>
-		</xsd:attribute>
-		<xsd:attribute name="fontStrikethru" default="Normal">
-			<xsd:annotation>
-				<xsd:documentation>
-					Deprecated: Not in use.
-				</xsd:documentation>
-			</xsd:annotation>
-			<xsd:simpleType>
-				<xsd:restriction base="xsd:string">
-					<xsd:enumeration value="Normal"/>
-					<xsd:enumeration value="Strikethru"/>
-				</xsd:restriction>
-			</xsd:simpleType>
-		</xsd:attribute>
 		<xsd:attribute name="fontWeight" default="Normal">
 			<xsd:annotation>
 				<xsd:documentation>
@@ -222,6 +196,13 @@
 					A GroupRef indicates that its element is part of the gpml:Group
 					with the specified GroupId. DataNode, GraphicalLine, Group, Interaction,
 					Label and Shape can be part of a group.
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
+		<xsd:attribute name="textLabel" type="xsd:string" use="optional">
+			<xsd:annotation>
+				<xsd:documentation>
+					TextLabel of an object (DataNode, Group, Label, Shape, State).
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -537,8 +518,6 @@
 
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
-		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
-
 		<xsd:attribute name="type" default="Unknown">
 			<!-- Basic GPML types are:
 				"Protein", "Rna", "GeneProduct", "Metabolite", "Pathway" and "Unknown".
@@ -597,7 +576,6 @@
 		<xsd:attributeGroup ref="gpml:IdentifierGroup" />
 
 		<xsd:attribute name="elementRef" type="xsd:IDREF" use="required" />
-		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 
 		<xsd:attribute name="stateType" type="xsd:string" default="Unknown"/>
 		<!-- Biological modification type. suggested values: Phosphorylated, Glycosylated, Activated, ... !-->
@@ -709,7 +687,6 @@
 
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
-		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
 	</xsd:complexType>
 
 
@@ -740,7 +717,9 @@
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
+
 		<xsd:attributeGroup ref="gpml:LineAttributes" />
+
 		<xsd:attribute name="fillColor" type="gpml:ColorType" default="Transparent">
 			<xsd:annotation>
 				<xsd:documentation>
@@ -755,8 +734,7 @@
 
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
-		<xsd:attribute name="textLabel" use="required" type="xsd:string"/>
-		<xsd:attribute name="groupAliasRef " use="required" type="xsd:IDREF"/>
+		<xsd:attribute name="groupAliasRef" use="required" type="xsd:IDREF"/>
 	</xsd:complexType>
 
 	<!--
@@ -785,7 +763,6 @@
 
 		<xsd:attributeGroup ref="gpml:IdentifierRefGroup" />
 
-		<xsd:attribute name="textLabel" use="optional" type="xsd:string"/>
 	</xsd:complexType>
 
 	<!-- End: Shape -->
@@ -830,7 +807,6 @@
 				</xsd:union>
 			</xsd:simpleType>
 		</xsd:attribute>
-		<xsd:attribute name="textLabel" type="xsd:string" use="optional" />
 	</xsd:complexType>
 	<!-- End: Group -->
 
