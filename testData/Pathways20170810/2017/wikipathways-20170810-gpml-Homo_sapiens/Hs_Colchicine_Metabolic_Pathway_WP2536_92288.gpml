@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Colchicine Metabolic Pathway" organism="Homo sapiens" width="380.0" height="286.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="Egon Willighagen" />
+  <Comment source="WikiPathways-description">P450-mediated biotransformation pathway of colchicine with the CYP3A4, while colchicine inhibits the expression of this enzyme.</Comment>
+  <CitationRef citationID="a77" />
+  <CitationRef citationID="e72" />
+  <DataNode elementID="c6ebc" textLabel="Colchicine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="145.0" centerY="111.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Chemspider" identifier="5933" />
+  </DataNode>
+  <DataNode elementID="d4a9d" textLabel="3DMC" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="310.0" centerY="111.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Chemspider" identifier="264748" />
+  </DataNode>
+  <DataNode elementID="d406b" textLabel="2DMC" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="145.0" centerY="246.0" width="80.0" height="20.0" zOrder="32771">
+    <Xref dataSource="Chemspider" identifier="22210" />
+  </DataNode>
+  <DataNode elementID="ff780" textLabel="CYP3A4" fontSize="10" vAlign="Middle" type="Protein" centerX="211.0" centerY="192.0" width="80.0" height="20.0" zOrder="32772">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="P08684" />
+  </DataNode>
+  <Interaction elementID="dd7c2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="e72" />
+    <Point x="165.0" y="121.0" elementID="d32d6" elementRef="c6ebc" relX="0.5" relY="1.0" />
+    <Point x="191.0" y="182.0" elementID="d1b96" elementRef="ff780" relX="-0.5" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id2b3f4a18" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="a77" />
+    <Point x="185.0" y="111.0" elementID="c798d" elementRef="c6ebc" relX="1.0" relY="0.0" />
+    <Point x="270.0" y="111.0" elementID="d706a" elementRef="d4a9d" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.3058823529411765" shapeType="None" elementID="fdf56" />
+  </Interaction>
+  <Interaction elementID="iddb8622d1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="211.0" y="182.0" elementID="ed692" elementRef="ff780" relX="0.0" relY="-1.0" />
+    <Point x="211.0" y="111.0" elementID="cafaf" elementRef="fdf56" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="b7125" zOrder="32769" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="a77" />
+    <Point x="145.0" y="121.0" elementID="f230f" elementRef="c6ebc" relX="0.0" relY="1.0" />
+    <Point x="145.0" y="236.0" elementID="e3051" elementRef="d406b" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.6173913043478261" shapeType="None" elementID="e652e" />
+  </Interaction>
+  <Interaction elementID="fbf4e" zOrder="32770" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="171.0" y="192.0" elementID="c68ef" elementRef="ff780" relX="-1.0" relY="0.0" />
+    <Point x="145.0" y="192.0" elementID="f4376" elementRef="e652e" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Colchicine biotransformation by human liver microsomes. Identification of CYP3A4 as the major isoform responsible for colchicine demethylation." URL="" citationID="a77" year="1997" source="Biochem Pharmacol">
+      <Xref dataSource="PubMed" identifier="8960070" />
+      <Author name="Tateishi T" />
+      <Author name="Soucek P" />
+      <Author name="Caraco Y" />
+      <Author name="Guengerich FP" />
+      <Author name="Wood AJ" />
+    </Citation>
+    <Citation title="Colchicine down-regulates cytochrome P450 2B6, 2C8, 2C9, and 3A4 in human hepatocytes by affecting their glucocorticoid receptor-mediated regulation." URL="" citationID="e72" year="2003" source="Mol Pharmacol">
+      <Xref dataSource="PubMed" identifier="12815172" />
+      <Author name="Dvorak Z" />
+      <Author name="Modriansky M" />
+      <Author name="Pichard-Garcia L" />
+      <Author name="Balaguer P" />
+      <Author name="Vilarem MJ" />
+      <Author name="Ulrichová J" />
+      <Author name="Maurel P" />
+      <Author name="Pascussi JM" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="phase I biotransformation pathway via cytochrome P450" ontology="Pathway Ontology" ontologyTermID="PW:0000375" />
+    <OntologyTerm term="xenobiotic metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001229" />
+  </OntologyTerms>
+</Pathway>
+

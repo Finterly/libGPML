@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="de450">
+ <bp:xref rdf:resource="a85" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1.1.1.288</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="fa0c6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">9&apos;-cis-neoxanthin</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="bf8ca">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">xanthoxin</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id31">
+ <bp:controller rdf:resource="c6970" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id31</bp:displayName>
+ <bp:controlled rdf:resource="id30" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id30">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id30</bp:displayName>
+ <bp:right rdf:resource="de8ae" />
+ <bp:left rdf:resource="adc02" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">abscisic aldehyde</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">32304</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">(+)-abscisate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">31157</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1.13.11.51</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2365</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id28">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id28</bp:displayName>
+ <bp:right rdf:resource="adc02" />
+ <bp:left rdf:resource="bf8ca" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id27">
+ <bp:controller rdf:resource="b9e9e" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id27</bp:displayName>
+ <bp:controlled rdf:resource="id26" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id29">
+ <bp:controller rdf:resource="de450" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id29</bp:displayName>
+ <bp:controlled rdf:resource="id28" />
+</bp:Catalysis>
+
+<bp:SmallMolecule rdf:about="de8ae">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">(+)-abscisate</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:PublicationXref rdf:about="e4f">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2000</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Burbidge A</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Taylor IB</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Blake PS</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mulholland BJ</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Thompson AJ</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Symonds RC</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Jackson AC</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dadswell AR</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">10929129</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Plant J</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ectopic expression of a tomato 9-cis-epoxycarotenoid dioxygenase gene causes over-production of abscisic acid.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:SmallMolecule rdf:about="fefd3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Trans-neoxanthin</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="c652a">
+ <bp:xref rdf:resource="f02" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5.3.99.9</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="a85">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2002</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gonz&#225;lez-Guzm&#225;n M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Serrano R</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apostolova N</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rodr&#237;guez PL</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Micol JL</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bell&#233;s JM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Barrero JM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Piqueras P</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ponce MR</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">12172025</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Plant Cell</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The short-chain alcohol dehydrogenase ABA2 catalyzes the conversion of xanthoxin to abscisic aldehyde.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:PublicationXref rdf:about="abe">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1999</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lips SH</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sagi M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Fluhr R</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">10364409</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Plant Physiol</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Aldehyde oxidase and xanthine dehydrogenase in a flacca tomato mutant with deficient abscisic acid and wilty phenotype</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:SmallMolecule rdf:about="adc02">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">abscisic aldehyde</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1.2.3.14</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Enzyme Nomenclature</bp:db>
+</bp:UnificationXref>
+
+<bp:PublicationXref rdf:about="f02">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2000</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Backhaus RA</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Camara B</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D&apos;harlingue A</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kumagai MH</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bouvier F</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">11029576</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Eur J Biochem</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Identification of neoxanthin synthase as a carotenoid cyclase paralog.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5.3.99.9</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Enzyme Nomenclature</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5.3.99.9</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Catalysis rdf:about="id24">
+ <bp:controller rdf:resource="c652a" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id24</bp:displayName>
+ <bp:controlled rdf:resource="id23" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id23">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id23</bp:displayName>
+ <bp:right rdf:resource="fefd3" />
+ <bp:left rdf:resource="a1092" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id26">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id26</bp:displayName>
+ <bp:right rdf:resource="bf8ca" />
+ <bp:left rdf:resource="fa0c6" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id25">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id25</bp:displayName>
+ <bp:right rdf:resource="fa0c6" />
+ <bp:left rdf:resource="fefd3" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1.1.1.288</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1.13.11.51</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Enzyme Nomenclature</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1.2.3.14</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1.1.1.288</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Enzyme Nomenclature</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="c6970">
+ <bp:xref rdf:resource="abe" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1.2.3.14</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="a1092">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">violaxanthin</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Solanum lycopersicum</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Solanum lycopersicum</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id28" />
+ <bp:pathwayComponent rdf:resource="id27" />
+ <bp:pathwayComponent rdf:resource="id29" />
+ <bp:pathwayComponent rdf:resource="id31" />
+ <bp:pathwayComponent rdf:resource="id30" />
+ <bp:pathwayComponent rdf:resource="id24" />
+ <bp:pathwayComponent rdf:resource="id23" />
+ <bp:pathwayComponent rdf:resource="id26" />
+ <bp:pathwayComponent rdf:resource="id25" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ABA Biosynthesis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Accumulation of ABA during seed development has been associated with maturation of the seed, development of desiccation tolerance and suppression of vivipary. Rapid increases of ABA has also been linked to water stress-induced closure of stomata. (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway has been manually created based on Lycocyc content</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">35288</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">violaxanthin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">32446</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="b9e9e">
+ <bp:xref rdf:resource="e4f" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1.13.11.51</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Trans-neoxanthin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">35306</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">9&apos;-cis-neoxanthin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">xanthoxin</bp:displayName>
+</bp:SmallMoleculeReference>
+</rdf:RDF>

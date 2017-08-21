@@ -1,0 +1,1578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Aryl Hydrocarbon Receptor" revision="20131024" organism="Bos taurus" width="2116.5469255663456" height="1651.9839142091153">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">The Aryl Hydrocarbon receptor (AhR) is ligand activated transcription factor that regulates wide spectrum of gene expression. The main mediator of AhR is 2,3,7,8-Tetrachlorodibenzo-p-dioxin (TCDD) or polycyclic aromatic hydrocarbons which are widespread environmental pollutant causing a variety of severe health effects, e.g. immunosuppression, carcinogenesis and hepatotoxicity. 
+
+AhR is a member of basic helix-loop-helix-Per-Arnt-Sim (bHLH-PAS) superfamily of transcription factors. In the absence of ligand, the AhR can be found in the cytosol, bound to a dimer of the heat shock protein of 90 kDa (Hsp90) and the immunophilin-like protein, AIP (also known as XAP2 and ARA9). Upon ligand binding, the AHR translocates to the nucleus and binds with ARNT. The AHR/ARNT heterodimer binds to xenobiotic response elements and regulates a diverse set of genes
+</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP2586_r79995 WP2586(79995)]  with a 96.0% conversion rate.</Comment>
+  <Attribute key="org.pathvisio.sbgn.language" value="process description" />
+  <DataNode elementID="a59c1" textLabel="KLF6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="760.2588300220752" centerY="1065.7378587196472" width="75.5" height="33.5" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1316</Comment>
+    <CitationRef citationID="b72" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015188" />
+  </DataNode>
+  <DataNode elementID="a75a4" textLabel="VEGFA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1400.0741454020215" centerY="785.9268175252771" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7422</Comment>
+    <CitationRef citationID="e7e" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000047561" />
+  </DataNode>
+  <DataNode elementID="a8343" textLabel="CCL1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1473.75" centerY="1219.75" width="100.5" height="28.5" zOrder="32768">
+    <Comment>PMID: 16679317   PAHs induce expression of the chemokine CCL1 in an AhR- and calcium-dependent manner.</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6346</Comment>
+    <CitationRef citationID="e3d" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000008832" />
+  </DataNode>
+  <DataNode elementID="a9a74" textLabel="NQO1" groupRef="cf474" fontSize="10" vAlign="Middle" type="Protein" centerX="1241.9256875365706" centerY="1086.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1728</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020632" />
+  </DataNode>
+  <DataNode elementID="ab320" textLabel="CDKN1B" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="788.25" centerY="1277.75" width="75.5" height="20.5" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1027</Comment>
+    <CitationRef citationID="d68" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000018254" />
+  </DataNode>
+  <DataNode elementID="aba94" textLabel="HSP90AA1" groupRef="c3bdd" fontSize="10" vAlign="Middle" type="Protein" centerX="899.9166666666666" centerY="521.5833333333333" width="85.5" height="17.5" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3320</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006270" />
+  </DataNode>
+  <DataNode elementID="acbf4" textLabel="ESR1" fontSize="10" vAlign="Middle" type="Protein" centerX="725.75" centerY="561.8004201680673" width="62.5" height="32.5" zOrder="32768">
+    <Comment>Estrogen Receptor</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2099</Comment>
+    <CitationRef citationID="b2f" />
+    <CitationRef citationID="dc5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007159" />
+  </DataNode>
+  <DataNode elementID="b102a" textLabel="" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="1820.1699029126205" centerY="973.3009708737885" width="17.42718446601942" height="16.990291262135997" zOrder="32768">
+    <Attribute key="org.pathvisio.sbgn.class" value="simple chemical" />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b328d" textLabel="DRE region" fontSize="10" vAlign="Middle" type="Complex" centerX="1006.2542016806726" centerY="1341.7499999999998" width="99.16666666666674" height="25.833333333333613" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b3edf" textLabel="XRE" groupRef="c8f3c" fontSize="10" vAlign="Middle" centerX="249.75" centerY="1286.25" width="66.5" height="21.5" zOrder="32768">
+    <Comment>xenobiotic responsive element </Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b4ed1" textLabel="ARNT" groupRef="dd14c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="600.3856960408685" centerY="1085.0395913154537" width="68.0" height="28.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:405</Comment>
+    <CitationRef citationID="e06" />
+    <CitationRef citationID="ad6" />
+    <CitationRef citationID="a8a" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021037" />
+  </DataNode>
+  <DataNode elementID="bee4e" textLabel="AIP" groupRef="cf6c8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="821.75" centerY="350.25" width="68.5" height="33.5" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000110711</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010478" />
+  </DataNode>
+  <DataNode elementID="c3a80" textLabel="TCDD" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="749.9701492537314" centerY="237.11940298507454" width="80.0" height="20.0" zOrder="32768">
+    <CitationRef citationID="d5c" />
+    <CitationRef citationID="f03" />
+    <CitationRef citationID="f41" />
+    <Xref dataSource="ChEBI" identifier="28119" />
+  </DataNode>
+  <DataNode elementID="c47aa" textLabel="Calcium Channel" shapeType="None" color="ff0000" fontSize="10" vAlign="Middle" centerX="1472.25" centerY="754.25" width="79.5" height="45.5" zOrder="32768">
+    <CitationRef citationID="e26" />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c52eb" textLabel="CYP1A1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="525.0" centerY="1282.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1543</Comment>
+    <CitationRef citationID="e5d" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000001021" />
+  </DataNode>
+  <DataNode elementID="c9150" textLabel="EGFR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1103.51298397596" centerY="351.03879337023045" width="85.5" height="27.5" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1956</Comment>
+    <CitationRef citationID="b3d" />
+    <CitationRef citationID="b18" />
+    <CitationRef citationID="a78" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011628" />
+  </DataNode>
+  <DataNode elementID="cc9aa" textLabel="EP300" groupRef="bca0b" fontSize="10" vAlign="Middle" type="Protein" centerX="718.6996124031006" centerY="833.0910852713184" width="81.5" height="18.5" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2033</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016198" />
+  </DataNode>
+  <DataNode elementID="d9b90" textLabel="PAH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="669.9701492537314" centerY="237.11940298507457" width="80.0" height="20.0" zOrder="32768">
+    <CitationRef citationID="d24" />
+    <CitationRef citationID="eaa" />
+    <Xref dataSource="ChEBI" identifier="33848" />
+  </DataNode>
+  <DataNode elementID="da5d7" textLabel="RB1" groupRef="c6964" fontSize="10" vAlign="Middle" type="Protein" centerX="313.9140372624146" centerY="707.7276500638552" width="67.5" height="25.5" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = S:P06400</Comment>
+    <CitationRef citationID="e2e" />
+    <CitationRef citationID="d88" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006640" />
+  </DataNode>
+  <DataNode elementID="de1a6" textLabel="proliferation and tumorigenesis " shapeType="None" color="ff3333" fontSize="11" vAlign="Middle" type="Pathway" centerX="976.5" centerY="1260.5" width="159.0" height="47.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e1169" textLabel="EBNA-3" fontSize="10" vAlign="Middle" type="Protein" centerX="489.66666666666663" centerY="697.6666666666678" width="80.0" height="20.0" zOrder="32768">
+    <CitationRef citationID="a6f" />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e95c9" textLabel="PLAGL1" fontSize="10" vAlign="Middle" type="Protein" centerX="413.75" centerY="1026.5" width="76.5" height="21.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5325</Comment>
+    <CitationRef citationID="c90" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000026523" />
+  </DataNode>
+  <DataNode elementID="eccb3" textLabel="RET" fontSize="10" vAlign="Middle" type="Protein" centerX="489.3333333333333" centerY="673.3333333333344" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5979</Comment>
+    <CitationRef citationID="c67" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000000570" />
+  </DataNode>
+  <DataNode elementID="edf9e" textLabel="NFE2L2" fontSize="10" vAlign="Middle" type="Rna" centerX="1243.0" centerY="793.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4780</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000019255" />
+  </DataNode>
+  <DataNode elementID="f39b7" textLabel="AIP" groupRef="b63ad" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="413.98134328358225" centerY="352.7723880597015" width="68.49999999999999" height="33.49999999999999" zOrder="32769">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000110711</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010478" />
+  </DataNode>
+  <DataNode elementID="a8e72" textLabel="AHR" groupRef="cf6c8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="708.25" centerY="350.25" width="158.50000000000006" height="33.49999999999999" zOrder="32770">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:196</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007746" />
+  </DataNode>
+  <DataNode elementID="dacc1" textLabel="AIP" groupRef="cf6c8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="594.75" centerY="350.25" width="68.49999999999999" height="33.49999999999999" zOrder="32771">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000110711</Comment>
+    <CitationRef citationID="b48" />
+    <CitationRef citationID="da2" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010478" />
+  </DataNode>
+  <DataNode elementID="ece46" textLabel="AHR" groupRef="b63ad" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="300.4813432835822" centerY="352.77238805970154" width="158.5" height="33.5" zOrder="32772">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:196</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007746" />
+  </DataNode>
+  <DataNode elementID="bb43a" textLabel="AHR" groupRef="dd14c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="600.6356960408685" centerY="1051.0395913154546" width="65.5" height="36.0" zOrder="32773">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:196</Comment>
+    <CitationRef citationID="e06" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007746" />
+  </DataNode>
+  <DataNode elementID="f39f6" textLabel="HSP90AA1" groupRef="cf6c8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="596.0" centerY="384.0" width="58.0" height="34.0" zOrder="32774">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3320</Comment>
+    <CitationRef citationID="f49" />
+    <CitationRef citationID="c93" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006270" />
+  </DataNode>
+  <DataNode elementID="ec4c1" textLabel="HSP90AA1" groupRef="cf6c8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="653.2499999999999" centerY="384.0" width="56.50000000000001" height="33.99999999999999" zOrder="32775">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3320</Comment>
+    <CitationRef citationID="b0f" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006270" />
+  </DataNode>
+  <DataNode elementID="ab635" textLabel="MYC" fontSize="10" vAlign="Middle" type="Protein" centerX="976.75" centerY="1064.75" width="70.5" height="20.5" zOrder="32781">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4609</Comment>
+    <CitationRef citationID="f60" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000008409" />
+  </DataNode>
+  <DataNode elementID="c3d69" textLabel="TATA" groupRef="c8f3c" fontSize="10" vAlign="Middle" type="Complex" centerX="341.75" centerY="1285.25" width="66.5" height="21.5" zOrder="32784">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e867d" textLabel="EGFR Pathway" shapeType="None" color="ff3333" fontSize="11" vAlign="Middle" centerX="974.0" centerY="605.5" width="82.0" height="29.0" zOrder="32785">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e7e7a" textLabel="TNF" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="975.25" centerY="715.25" width="85.5" height="27.5" zOrder="32787">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7124</Comment>
+    <CitationRef citationID="e80" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000025471" />
+  </DataNode>
+  <DataNode elementID="bd60d" textLabel="CDC37" groupRef="c3bdd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="900.6337535014006" centerY="544.916666666667" width="85.5" height="17.5" zOrder="32789">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:11140</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011699" />
+  </DataNode>
+  <DataNode elementID="b426e" textLabel="SRC" groupRef="c3bdd" fontSize="10" vAlign="Middle" type="Protein" centerX="898.9166666666666" centerY="500.25" width="85.5" height="17.5" zOrder="32790">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6714</Comment>
+    <CitationRef citationID="c10" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000008938" />
+  </DataNode>
+  <DataNode elementID="e5823" textLabel="RAF1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1103.0833333333333" centerY="683.25" width="70.5" height="21.5" zOrder="32791">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000132155</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000045748" />
+  </DataNode>
+  <DataNode elementID="b98df" textLabel="MAP2K1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1105.75" centerY="747.25" width="70.5" height="21.5" zOrder="32792">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000169032</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000033983" />
+  </DataNode>
+  <DataNode elementID="fca81" textLabel="MAPK1" fontSize="10" vAlign="Middle" type="Protein" centerX="1105.75" centerY="824.25" width="70.5" height="21.5" zOrder="32793">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5594</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010312" />
+  </DataNode>
+  <DataNode elementID="ca04f" textLabel="PGHS-2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1103.75" centerY="1259.25" width="66.5" height="21.5" zOrder="32794">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5743</Comment>
+    <CitationRef citationID="f04" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000014127" />
+  </DataNode>
+  <DataNode elementID="f1d0b" textLabel="PSRC1" groupRef="bca0b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="718.6996124031006" centerY="855.0910852713184" width="81.5" height="18.5" zOrder="32795">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:84722</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000018806" />
+  </DataNode>
+  <DataNode elementID="aaceb" textLabel="RELA" groupRef="cdac9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="850.6608527131785" centerY="831.3410852713182" width="77.5" height="22.0" zOrder="32796">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5970</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000013895" />
+  </DataNode>
+  <DataNode elementID="f369f" textLabel="NFKB1" groupRef="cdac9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="850.6608527131785" centerY="858.0910852713182" width="77.5" height="22.5" zOrder="32797">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4790</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020270" />
+  </DataNode>
+  <DataNode elementID="b2d82" textLabel="RELA" groupRef="df20e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="949.0" centerY="819.0" width="50.0" height="24.0" zOrder="32799">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5970</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000013895" />
+  </DataNode>
+  <DataNode elementID="e7f53" textLabel="NFKB1" groupRef="df20e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="948.0" centerY="846.5" width="50.0" height="25.0" zOrder="32800">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4790</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020270" />
+  </DataNode>
+  <DataNode elementID="b68c6" textLabel="EP300" groupRef="df20e" fontSize="10" vAlign="Middle" type="Protein" centerX="1001.25" centerY="819.5" width="47.5" height="23.0" zOrder="32801">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2033</Comment>
+    <CitationRef citationID="e2f" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016198" />
+  </DataNode>
+  <DataNode elementID="dac5e" textLabel="PSRC1" groupRef="df20e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1001.5" centerY="847.25" width="47.0" height="25.5" zOrder="32802">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:84722</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000018806" />
+  </DataNode>
+  <DataNode elementID="c3719" textLabel="Angiogenesis" shapeType="None" color="ff3333" fontSize="11" vAlign="Middle" type="Pathway" centerX="1401.396247240618" centerY="972.3973509933771" width="83.0" height="38.0" zOrder="32806">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="f147b" textLabel="NCOA7" groupRef="c6964" fontSize="10" vAlign="Middle" type="Protein" centerX="314.9140372624146" centerY="735.7276500638552" width="67.5" height="25.5" zOrder="32807">
+    <Comment>Official Symbol= NCOA7</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:135112</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011911" />
+  </DataNode>
+  <DataNode elementID="da145" textLabel="NRIP1" groupRef="c6964" fontSize="10" vAlign="Middle" type="Protein" centerX="312.9140372624146" centerY="677.7276500638552" width="67.5" height="25.5" zOrder="32808">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:8204</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000047293" />
+  </DataNode>
+  <DataNode elementID="fba25" textLabel="CYP1A1" groupRef="b4164" fontSize="10" vAlign="Middle" type="Protein" centerX="1359.1478093403953" centerY="1151.4824265767938" width="80.0" height="20.0" zOrder="32809">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1543</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000001021" />
+  </DataNode>
+  <DataNode elementID="cb96c" textLabel="CD36" groupRef="b4164" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1360.1478093403953" centerY="1174.4824265767938" width="80.0" height="20.0" zOrder="32810">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:948</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000014220" />
+  </DataNode>
+  <DataNode elementID="a97b0" textLabel="LPL" groupRef="b4164" fontSize="10" vAlign="Middle" type="Protein" centerX="1360.1478093403953" centerY="1196.4824265767938" width="80.0" height="20.0" zOrder="32811">
+    <Comment>lipoprotein lipase</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4023</Comment>
+    <CitationRef citationID="c7e" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000012855" />
+  </DataNode>
+  <DataNode elementID="b6a53" textLabel="NFE2L2" groupRef="b4164" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1360.1478093403953" centerY="1218.4824265767938" width="80.0" height="20.0" zOrder="32812">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4780</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000019255" />
+  </DataNode>
+  <DataNode elementID="d3431" textLabel="FGF21" groupRef="b4164" fontSize="10" vAlign="Middle" type="Protein" centerX="1360.1478093403953" centerY="1240.4824265767938" width="80.0" height="20.0" zOrder="32813">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:26291</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011624" />
+  </DataNode>
+  <DataNode elementID="d11a8" textLabel="HPGDS" groupRef="cf474" fontSize="10" vAlign="Middle" type="Protein" centerX="1240.9256875365706" centerY="1109.0" width="80.0" height="20.0" zOrder="32814">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:27306</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017073" />
+  </DataNode>
+  <DataNode elementID="e6a72" textLabel="GCLC" groupRef="cf474" fontSize="10" vAlign="Middle" type="Protein" centerX="1241.9256875365706" centerY="1131.0" width="80.0" height="20.0" zOrder="32815">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2729</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015571" />
+  </DataNode>
+  <DataNode elementID="c854d" textLabel="Oxidative Stress&#xA;" shapeType="None" color="ff3333" fontSize="11" vAlign="Middle" type="Pathway" centerX="1241.0" centerY="1236.0" width="110.0" height="50.0" zOrder="32816">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="d8ae0" textLabel="NRIP1" groupRef="a8219" fontSize="10" vAlign="Middle" type="Protein" centerX="784.75" centerY="667.25" width="80.0" height="20.0" zOrder="32817">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:8204</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000047293" />
+  </DataNode>
+  <DataNode elementID="ffa48" textLabel="NF1" groupRef="a8219" fontSize="10" vAlign="Middle" type="Protein" centerX="784.75" centerY="689.25" width="80.0" height="20.0" zOrder="32818">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4763</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011829" />
+  </DataNode>
+  <DataNode elementID="cdf5c" textLabel="NCOA7" groupRef="a8219" fontSize="10" vAlign="Middle" type="Protein" centerX="784.75" centerY="711.25" width="80.0" height="20.0" zOrder="32819">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:135112</Comment>
+    <CitationRef citationID="d82" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011911" />
+  </DataNode>
+  <DataNode elementID="d7eb6" textLabel="NCOR2" groupRef="a8219" fontSize="10" vAlign="Middle" type="Protein" centerX="784.75" centerY="733.25" width="80.0" height="20.0" zOrder="32820">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:9612</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000024603" />
+  </DataNode>
+  <DataNode elementID="a80d6" textLabel="CYP1A2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="612.0" centerY="1280.0" width="80.0" height="20.0" zOrder="32822">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1544</Comment>
+    <CitationRef citationID="ca3" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000000085" />
+  </DataNode>
+  <DataNode elementID="c2cc5" textLabel="CYP1B1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="697.0" centerY="1279.0" width="80.0" height="20.0" zOrder="32824">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1545</Comment>
+    <CitationRef citationID="a4f" />
+    <CitationRef citationID="a45" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010531" />
+  </DataNode>
+  <DataNode elementID="fed0f" textLabel="Estrogen Metabolism and modulation of Estrogen receptor signalling" shapeType="None" color="ff3333" fontSize="11" vAlign="Middle" type="Pathway" centerX="611.9999999999993" centerY="1432.9999999999998" width="350.0" height="72.0" zOrder="32825">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="f841e" textLabel="CDKN1A" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="872.25" centerY="1277.75" width="75.5" height="20.5" zOrder="33660">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1026</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000008353" />
+  </DataNode>
+  <DataNode elementID="f6591" textLabel="CDK2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="829.25" centerY="1359.75" width="75.5" height="20.5" zOrder="33662">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1017</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000004021" />
+  </DataNode>
+  <DataNode elementID="b8267" textLabel="RB1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="829.25" centerY="1418.75" width="75.5" height="20.5" zOrder="33663">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5925</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006640" />
+  </DataNode>
+  <DataNode elementID="e1c52" textLabel="E2F1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="830.25" centerY="1469.75" width="75.5" height="20.5" zOrder="33664">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1869</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000003971" />
+  </DataNode>
+  <DataNode elementID="ba575" textLabel="Cell cycle inhibition" shapeType="None" color="ff3333" fontSize="11" vAlign="Middle" type="Pathway" centerX="830.5" centerY="1548.5" width="159.0" height="47.0" zOrder="33666">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e435b" textLabel="Detoxification of Xenobiotics and  metabolism of xenobiotics&#xA;" shapeType="None" lineStyle="Broken" color="ff3333" fontSize="11" vAlign="Middle" type="Pathway" centerX="1284.6666666666663" centerY="1338.0000000000002" width="340.00000000000085" height="50.0" zOrder="33667">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a4114" textLabel="Cell Survival" shapeType="None" lineStyle="Broken" color="ff3333" fontSize="11" vAlign="Middle" type="Pathway" centerX="1284.6666666666665" centerY="1454.6666666666713" width="340.00000000000085" height="50.0" zOrder="33668">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a3f83" textLabel="AHRR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="522.1414431673052" centerY="907.0922733077913" width="77.5" height="22.5" zOrder="33671">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:57491</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000026527" />
+  </DataNode>
+  <DataNode elementID="f2dca" textLabel="EP300" groupRef="a8219" fontSize="10" vAlign="Middle" type="Protein" centerX="784.75" centerY="645.25" width="80.0" height="20.0" zOrder="33674">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2033</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016198" />
+  </DataNode>
+  <DataNode elementID="f34fd" textLabel="FAS/ FAS-L (Apoptosis)" shapeType="None" lineStyle="Broken" color="ff3333" fontSize="11" vAlign="Middle" type="Pathway" centerX="1007.1506682867544" centerY="1464.4031996759913" width="218.0000000000059" height="66.33333333333326" zOrder="33676">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="bfbc2" textLabel="NRAS" groupRef="ea83a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1105.2457983193276" centerY="584.4852941176466" width="64.5" height="21.5" zOrder="33677">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000213281</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000046797" />
+  </DataNode>
+  <DataNode elementID="b0732" textLabel="HRAS" groupRef="ea83a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1105.2457983193276" centerY="605.9852941176466" width="64.5" height="21.5" zOrder="33678">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000174775</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000046644" />
+  </DataNode>
+  <DataNode elementID="cc14a" textLabel="KRAS" groupRef="ea83a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1105.2457983193274" centerY="627.4852941176466" width="64.5" height="21.5" zOrder="33679">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ea90f" textLabel="TCDD" lineThickness="2.0" color="0000ff" fontWeight="Bold" fontSize="10" vAlign="Middle" type="Metabolite" centerX="753.9701492537314" centerY="144.11940298507454" width="80.0" height="20.0" zOrder="33680">
+    <CitationRef citationID="d5c" />
+    <CitationRef citationID="f03" />
+    <CitationRef citationID="f41" />
+    <Xref dataSource="ChEBI" identifier="28119" />
+  </DataNode>
+  <DataNode elementID="d3a00" textLabel="PAH" lineThickness="2.0" color="0000ff" fontWeight="Bold" fontSize="10" vAlign="Middle" type="Metabolite" centerX="673.9701492537314" centerY="144.11940298507457" width="80.0" height="20.0" zOrder="33681">
+    <CitationRef citationID="d24" />
+    <CitationRef citationID="eaa" />
+    <Xref dataSource="ChEBI" identifier="33848" />
+  </DataNode>
+  <DataNode elementID="c5a48" textLabel="Cell Survival&#xA;" shapeType="None" lineStyle="Broken" color="ff3333" fontSize="11" vAlign="Middle" type="Pathway" centerX="1105.1506682867553" centerY="1379.7365330093367" width="218.0000000000059" height="66.33333333333326" zOrder="33683">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <State elementID="b8345" textLabel="L" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="b4ed1" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="c6b49" textLabel="P" shapeType="Oval" fillColor="ffff33" fontSize="12" vAlign="Middle" elementRef="c9150" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="d5d56" textLabel="P" shapeType="Oval" fillColor="ffff00" fontSize="12" vAlign="Middle" elementRef="b426e" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="a88ac" textLabel="P" shapeType="Oval" fillColor="ffff00" fontSize="12" vAlign="Middle" elementRef="e5823" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="a3d29" textLabel="P" shapeType="Oval" fillColor="ffff00" fontSize="12" vAlign="Middle" elementRef="b98df" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <Interaction elementID="id10ad7889" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="708.25" y="413.0" elementID="d503a" elementRef="cf6c8" relX="0.0" relY="1.0" />
+    <Point x="1091.0" y="463.8007290400972" elementID="fd843" />
+    <Point x="1473.75" y="1205.5" elementID="ecf62" elementRef="a8343" relX="0.0" relY="-1.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="id15def619" groupRef="c8f3c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="201.07238605898124" y="1288.0" elementID="f0c19" />
+    <Point x="448.0" y="1288.0" elementID="c2f73" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="id1b4fbca5" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="974.0" y="872.0" elementID="b2684" elementRef="df20e" relX="0.0" relY="1.0" />
+    <Point x="976.75" y="1054.5" elementID="a9c6d" elementRef="ab635" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id32bbf543" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1103.75" y="1270.0" elementID="e46a2" elementRef="ca04f" relX="0.0" relY="1.0" />
+    <Point x="1105.1506682867553" y="1346.5698663426701" elementID="f2cb6" elementRef="c5a48" relX="0.0" relY="-1.0" arrowHead="mim-modification" />
+  </Interaction>
+  <Interaction elementID="id3a659ad7" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="579.3856960408685" y="1107.0395913154537" elementID="ffa94" elementRef="dd14c" relX="-0.5" relY="1.0" />
+    <Point x="552.1928480204342" y="1198.0" elementID="c29c4" />
+    <Point x="525.0" y="1272.0" elementID="a470d" elementRef="c52eb" relX="0.0" relY="-1.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="id4018eca7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="709.9701492537314" y="237.11940298507454" elementID="d4fa9" elementRef="c3a80" relX="-1.0" relY="0.0" />
+    <Point x="708.25" y="333.5" elementID="b853b" elementRef="a8e72" relX="0.0" relY="-1.0" arrowHead="mim-binding" />
+  </Interaction>
+  <Interaction elementID="id40d6bab3" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="708.25" y="413.0" elementID="becd9" elementRef="cf6c8" relX="0.0" relY="1.0" />
+    <Point x="710.125" y="545.5504201680673" elementID="ac8f7" elementRef="acbf4" relX="-0.5" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="id421faf29" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="346.6640372624146" y="677.7276500638552" elementID="c0e6c" elementRef="da145" relX="1.0" relY="0.0" />
+    <Point x="558.3856960408685" y="1066.0395913154541" elementID="b9ac5" elementRef="dd14c" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id425bb75a" connectorType="Elbow" zOrder="12288" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b71" />
+    <Point x="942.5" y="872.0" elementID="f10f5" elementRef="df20e" relX="-0.5" relY="1.0" />
+    <Point x="743.75" y="1149.3333333333333" elementID="e55dd" />
+    <Point x="545.0" y="1272.0" elementID="a20a6" elementRef="c52eb" relX="0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id4d5f1705" connectorType="Elbow" zOrder="12288" lineThickness="2.0" color="0033cc">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="e80" />
+    <CitationRef citationID="b18" />
+    <CitationRef citationID="d10" />
+    <Point x="955.3837535014006" y="522.5833333333335" elementID="cd21a" elementRef="c3bdd" relX="1.0" relY="0.0" />
+    <Point x="1082.13798397596" y="364.78879337023045" elementID="ae2bf" elementRef="c9150" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id545746f1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="975.25" y="729.0" elementID="bed03" elementRef="e7e7a" relX="0.0" relY="1.0" />
+    <Point x="850.6608527131785" y="808.3410852713182" elementID="fec5b" elementRef="cdac9" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id55918c82" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1105.2457983193276" y="646.2352941176466" elementID="e1882" elementRef="ea83a" relX="0.0" relY="1.0" />
+    <Point x="1103.0833333333333" y="672.5" elementID="df8ae" elementRef="e5823" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id5779dcee" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="784.75" y="755.25" elementID="d8f07" elementRef="a8219" relX="0.0" relY="1.0" />
+    <Point x="703.0678480204342" y="809.0" elementID="bf922" />
+    <Point x="621.3856960408685" y="1025.0395913154546" elementID="ce5c1" elementRef="dd14c" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5faf7b50" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1203.0" y="793.0" elementID="c2a56" elementRef="edf9e" relX="-1.0" relY="0.0" />
+    <Point x="1284.6666666666663" y="1313.0000000000002" elementID="fde77" elementRef="e435b" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id63262d87" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1284.6666666666663" y="1363.0000000000002" elementID="acbc2" elementRef="e435b" relX="0.0" relY="1.0" />
+    <Point x="1284.6666666666665" y="1429.6666666666713" elementID="f1a34" elementRef="a4114" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id68a8b321" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="502.76644316730517" y="918.3422733077913" elementID="ba526" elementRef="a3f83" relX="-0.5" relY="1.0" />
+    <Point x="558.3856960408685" y="1045.5395913154543" elementID="e1dea" elementRef="dd14c" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6a20edc9" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1243.0" y="803.0" elementID="e4f14" elementRef="edf9e" relX="0.0" relY="1.0" />
+    <Point x="1241.4256875365706" y="1064.0" elementID="a7e6f" elementRef="cf474" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id72845f06" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="dd7" />
+    <Point x="872.25" y="1288.0" elementID="ea64c" elementRef="f841e" relX="0.0" relY="1.0" />
+    <Point x="829.25" y="1349.5" elementID="c4595" elementRef="f6591" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id731096a5" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="413.98134328358225" y="369.5223880597015" elementID="eb645" elementRef="f39b7" relX="0.0" relY="1.0" />
+    <Point x="694.5" y="553.6754201680673" elementID="e2bfb" elementRef="acbf4" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id741ef049" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="579.3856960408685" y="1107.0395913154537" elementID="a281e" elementRef="dd14c" relX="-0.5" relY="1.0" />
+    <Point x="674.3803480204342" y="1198.0" elementID="abbdf" />
+    <Point x="769.375" y="1267.5" elementID="ea1a4" elementRef="ab320" relX="-0.5" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="id7494f075" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="579.3856960408685" y="1107.0395913154537" elementID="b4565" elementRef="dd14c" relX="-0.5" relY="1.0" />
+    <Point x="638.1928480204342" y="1198.0" elementID="b7d3b" />
+    <Point x="697.0" y="1269.0" elementID="f7f91" elementRef="c2cc5" relX="0.0" relY="-1.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="id7509871d" connectorType="Elbow" zOrder="12288" lineThickness="2.0" color="3333ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="c10" />
+    <CitationRef citationID="c1d" />
+    <Point x="788.125" y="413.0" elementID="eec27" elementRef="cf6c8" relX="0.5" relY="1.0" />
+    <Point x="844.1666666666667" y="522.5833333333335" elementID="d02e8" elementRef="c3bdd" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id78cc6536" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="665.9496124031006" y="844.0910852713184" elementID="e3c26" elementRef="bca0b" relX="-1.0" relY="0.0" />
+    <Point x="660.0441501103753" y="944.8153382933864" elementID="c6ffb" />
+    <Point x="642.3856960408685" y="1045.5395913154543" elementID="b033d" elementRef="dd14c" relX="1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id79d077a3" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1015.0" y="605.5" elementID="c7539" elementRef="e867d" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point x="1064.9957983193276" y="605.9852941176466" elementID="faf41" elementRef="ea83a" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7bd0c467" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="c67" />
+    <Point x="413.98134328358225" y="369.5223880597015" elementID="abd05" elementRef="f39b7" relX="0.0" relY="1.0" />
+    <Point x="449.33333333333326" y="673.3333333333344" elementID="bce8a" elementRef="eccb3" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id837ace05" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="976.75" y="1075.0" elementID="b87ec" elementRef="ab635" relX="0.0" relY="1.0" />
+    <Point x="976.5" y="1237.0" elementID="ad575" elementRef="de1a6" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8cff4ef7" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="525.0" y="1292.0" elementID="fef26" elementRef="c52eb" relX="0.0" relY="1.0" />
+    <Point x="612.0" y="1290.0" elementID="e9538" elementRef="a80d6" relX="0.0" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="id8f1e2d05" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="579.3856960408685" y="1107.0395913154537" elementID="a10a7" elementRef="dd14c" relX="-0.5" relY="1.0" />
+    <Point x="414.56784802043427" y="1197.0" elementID="c1f27" />
+    <Point x="249.75" y="1275.5" elementID="bb5f1" elementRef="b3edf" relX="0.0" relY="-1.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="id950da59f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1241.4256875365706" y="1153.0" elementID="f8a95" elementRef="cf474" relX="0.0" relY="1.0" />
+    <Point x="1241.0" y="1211.0" elementID="a98bc" elementRef="c854d" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id9c5c3411" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="66ff00">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b72" />
+    <Point x="722.5088300220752" y="1065.7378587196472" elementID="be5d1" elementRef="a59c1" relX="-1.0" relY="0.0" />
+    <Point x="642.3856960408685" y="1066.0395913154541" elementID="cd0f4" elementRef="dd14c" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9dac79fb" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="830.25" y="1480.0" elementID="ec9b2" elementRef="e1c52" relX="0.0" relY="1.0" />
+    <Point x="830.5" y="1525.0" elementID="ff346" elementRef="ba575" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9df6f7ca" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="e3f" />
+    <Point x="1006.2542016806726" y="1354.666666666667" elementID="d7692" elementRef="b328d" relX="0.0" relY="1.0" />
+    <Point x="1007.1506682867544" y="1431.2365330093248" elementID="bcab1" elementRef="f34fd" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9f884584" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="579.3856960408685" y="1107.0395913154537" elementID="c5627" elementRef="dd14c" relX="-0.5" relY="1.0" />
+    <Point x="716.3803480204342" y="1197.0" elementID="d0d13" />
+    <Point x="853.375" y="1267.5" elementID="ac659" elementRef="f841e" relX="-0.5" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="idabee82eb" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="708.25" y="413.0" elementID="b9ed4" elementRef="cf6c8" relX="0.0" relY="1.0" />
+    <Point x="708.2089552238806" y="466.4179104477612" elementID="c3c01" />
+  </Interaction>
+  <Interaction elementID="idac09c4e3" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="483.39144316730517" y="907.0922733077913" elementID="ca368" elementRef="a3f83" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point x="469.0" y="1109.5461366538957" elementID="a0f48" />
+    <Point x="497.0" y="1312.0" elementID="fc0a8" />
+    <Point x="525.0" y="1292.0" elementID="cb909" elementRef="c52eb" relX="0.0" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="idac598c28" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="708.25" y="413.0" elementID="b60e8" elementRef="cf6c8" relX="0.0" relY="1.0" />
+    <Point x="1054.1620727010109" y="467.8007290400972" elementID="ec005" />
+    <Point x="1400.0741454020215" y="775.9268175252771" elementID="a2443" elementRef="a75a4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idacb2b077" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1105.75" y="758.0" elementID="e6b5f" elementRef="b98df" relX="0.0" relY="1.0" />
+    <Point x="1105.75" y="813.5" elementID="a848b" elementRef="fca81" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idadb132a" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="e3f" />
+    <Point x="1005.5" y="872.0" elementID="e5006" elementRef="df20e" relX="0.5" relY="1.0" />
+    <Point x="1006.2542016806726" y="1328.833333333333" elementID="aaeb4" elementRef="b328d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb1d30fa" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="340.1063432835822" y="369.52238805970154" elementID="f3349" elementRef="ece46" relX="0.5" relY="1.0" />
+    <Point x="302.0475746268657" y="459.0" elementID="e96f9" />
+    <Point x="263.9888059701492" y="883.2910447761192" elementID="d06e3" elementRef="cf6c9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb5568ae7" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="a6f" />
+    <Point x="413.98134328358225" y="369.5223880597015" elementID="c1448" elementRef="f39b7" relX="0.0" relY="1.0" />
+    <Point x="449.66666666666663" y="697.6666666666678" elementID="b7fc5" elementRef="e1169" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb5bc6905" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="771.4496124031006" y="844.0910852713184" elementID="fee72" elementRef="bca0b" relX="1.0" relY="0.0" />
+    <Point x="799.9108527131785" y="844.8410852713182" elementID="bd3c8" elementRef="cdac9" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idbc089a2a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="709.9701492537314" y="237.11940298507457" elementID="af313" elementRef="d9b90" relX="1.0" relY="0.0" />
+    <Point x="708.25" y="333.5" elementID="fdb31" elementRef="a8e72" relX="0.0" relY="-1.0" arrowHead="mim-binding" />
+  </Interaction>
+  <Interaction elementID="idbd129eca" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1400.0741454020215" y="795.9268175252771" elementID="fb654" elementRef="a75a4" relX="0.0" relY="1.0" />
+    <Point x="1401.396247240618" y="953.3973509933771" elementID="f28ae" elementRef="c3719" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbde415e6" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="975.25" y="729.0" elementID="cf241" elementRef="e7e7a" relX="0.0" relY="1.0" />
+    <Point x="974.0" y="795.0" elementID="cd912" elementRef="df20e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc0137c29" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1103.51298397596" y="364.78879337023045" elementID="f019e" elementRef="c9150" relX="0.0" relY="1.0" />
+    <Point x="1105.2457983193276" y="565.7352941176466" elementID="bdeae" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc40b6454" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="829.25" y="1370.0" elementID="ecda4" elementRef="f6591" relX="0.0" relY="1.0" />
+    <Point x="829.25" y="1408.5" elementID="bc3bf" elementRef="b8267" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc533fdab" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="2.0" color="00ffff">
+    <Xref dataSource="" identifier="" />
+    <Point x="708.25" y="413.0" elementID="f681b" elementRef="cf6c8" relX="0.0" relY="1.0" />
+    <Point x="654.3178480204342" y="467.8007290400972" elementID="b53aa" />
+    <Point x="600.3856960408685" y="1025.0395913154546" elementID="ca028" elementRef="dd14c" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc77daae1" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="f04" />
+    <Point x="1105.75" y="835.0" elementID="b97d8" elementRef="fca81" relX="0.0" relY="1.0" />
+    <Point x="1103.75" y="1248.5" elementID="b959a" elementRef="ca04f" relX="0.0" relY="-1.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="idce381ffc" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1263.0" y="803.0" elementID="b756e" elementRef="edf9e" relX="0.5" relY="1.0" />
+    <Point x="1307.1478093403953" y="1195.9824265767938" elementID="e69b0" elementRef="b4164" relX="-1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idcfc279cb" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="346.6640372624146" y="763.7276500638552" elementID="a366b" elementRef="c41f0" relX="1.0" relY="0.0" />
+    <Point x="558.3856960408685" y="1066.0395913154541" elementID="a9b9a" elementRef="dd14c" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idd912d667" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="be5" />
+    <Point x="1223.0" y="803.0" elementID="e5251" elementRef="edf9e" relX="-0.5" relY="1.0" />
+    <Point x="642.3856960408685" y="1066.0395913154541" elementID="f30fa" elementRef="dd14c" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idded8d7ad" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="347.6640372624146" y="825.7276500638552" elementID="ca975" elementRef="e560f" relX="1.0" relY="0.0" />
+    <Point x="558.3856960408685" y="1066.0395913154541" elementID="a5919" elementRef="dd14c" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="ide42a71c" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="515.0" y="1292.0" elementID="c6c1a" />
+    <Point x="524.4999999999993" y="1396.9999999999998" elementID="f9b23" elementRef="fed0f" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide5ae84bd" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="460.2313432835822" y="367.7723880597015" elementID="a478b" elementRef="b63ad" relX="1.0" relY="0.0" />
+    <Point x="548.5" y="367.25" elementID="c8776" elementRef="cf6c8" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide7513ed4" connectorType="Elbow" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="d70" />
+    <CitationRef citationID="afb" />
+    <Point x="708.25" y="413.0" elementID="c2c3d" elementRef="cf6c8" relX="0.0" relY="1.0" />
+    <Point x="975.625" y="466.58566221142166" elementID="cbe5d" />
+    <Point x="1243.0" y="783.0" elementID="a8a36" elementRef="edf9e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf75e0041" connectorType="Elbow" zOrder="12288" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="725.75" y="578.0504201680673" elementID="fe651" elementRef="acbf4" relX="0.0" relY="1.0" />
+    <Point x="784.75" y="623.25" elementID="aa017" elementRef="a8219" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idf8007aad" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="33ff00">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="d88" />
+    <Point x="347.6640372624146" y="707.7276500638552" elementID="c4276" elementRef="da5d7" relX="1.0" relY="0.0" />
+    <Point x="367.6470588235294" y="886.8836206896547" elementID="b5dd8" />
+    <Point x="558.3856960408685" y="1066.0395913154541" elementID="f6b70" elementRef="dd14c" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idfb358ab4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1103.0833333333333" y="694.0" elementID="e098c" elementRef="e5823" relX="0.0" relY="1.0" />
+    <Point x="1105.75" y="736.5" elementID="be451" elementRef="b98df" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfdca4d95" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="350.0" y="792.0" elementID="a831f" />
+    <Point x="366.0" y="929.0197956577271" elementID="aa5f9" />
+    <Point x="558.3856960408685" y="1066.0395913154541" elementID="f77f8" elementRef="dd14c" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idff773eff" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="413.98134328358225" y="369.5223880597015" elementID="c6b03" elementRef="f39b7" relX="0.0" relY="1.0" />
+    <Point x="413.75" y="1016.0" elementID="ca07e" elementRef="e95c9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f5b47" groupRef="d7f0c" zOrder="16406" lineThickness="1.0" color="ff00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="532.2771392081737" y="980.9310344827592" elementID="a6c62" />
+    <Point x="532.2771392081737" y="1003.9310344827592" elementID="cafd3" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="ce1f9" groupRef="d7f0c" zOrder="16407" lineThickness="1.0" color="ff00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="532.2771392081737" y="998.9310344827592" elementID="f22fd" />
+    <Point x="532.2771392081737" y="970.9310344827592" elementID="f9b34" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c4b06" groupRef="f4bd3" zOrder="16426" lineThickness="1.0" color="ff00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1271.0" y="986.3856960408685" elementID="a78f4" />
+    <Point x="1271.0" y="1009.3856960408685" elementID="c2c37" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="d3683" groupRef="f4bd3" zOrder="16427" lineThickness="1.0" color="ff00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1271.0" y="1004.3856960408685" elementID="b6e35" />
+    <Point x="1271.0" y="976.3856960408685" elementID="eaafb" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="cd878" zOrder="16437" lineThickness="1.0" color="ff00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1068.0" y="984.1853635050554" elementID="dd3ac" />
+    <Point x="1068.0" y="1007.1853635050554" elementID="f3d3d" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="e5cf3" zOrder="16438" lineThickness="1.0" color="ff00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1068.0" y="1002.1853635050554" elementID="fd5eb" />
+    <Point x="1068.0" y="974.1853635050554" elementID="d601d" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b21ae" zOrder="16441" lineThickness="1.0" color="ff00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1024.0" y="986.1853635050554" elementID="f6435" />
+    <Point x="1024.0" y="1009.1853635050554" elementID="cda60" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="e8388" zOrder="16442" lineThickness="1.0" color="ff00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1024.0" y="1004.1853635050554" elementID="bc228" />
+    <Point x="1024.0" y="976.1853635050554" elementID="fbd59" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f695c" zOrder="32786" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="974.0" y="620.0" elementID="e89dc" elementRef="e867d" relX="0.0" relY="1.0" />
+    <Point x="975.25" y="701.5" elementID="fd692" elementRef="e7e7a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b29ae" connectorType="Elbow" zOrder="32821" lineThickness="2.0" color="ff0033">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="c6c" />
+    <Point x="725.75" y="578.0504201680673" elementID="ef136" elementRef="acbf4" relX="0.0" relY="1.0" />
+    <Point x="579.3856960408685" y="1025.0395913154546" elementID="ff6b2" elementRef="dd14c" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="f7486" connectorType="Elbow" zOrder="32823" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="579.3856960408685" y="1107.0395913154537" elementID="a2427" elementRef="dd14c" relX="-0.5" relY="1.0" />
+    <Point x="585.6928480204342" y="1197.0" elementID="d2826" />
+    <Point x="592.0" y="1270.0" elementID="c2bb1" elementRef="a80d6" relX="-0.5" relY="-1.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="a5d40" zOrder="32826" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="612.0" y="1290.0" elementID="fbb65" elementRef="a80d6" relX="0.0" relY="1.0" />
+    <Point x="611.9999999999993" y="1396.9999999999998" elementID="f565c" elementRef="fed0f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fa583" zOrder="32827" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="697.0" y="1289.0" elementID="e3fa3" elementRef="c2cc5" relX="0.0" relY="1.0" />
+    <Point x="699.4999999999993" y="1396.9999999999998" elementID="af70c" elementRef="fed0f" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d04b0" groupRef="ef7e1" zOrder="33583" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1762.5469255663425" y="636.6666666666661" elementID="b0d79" />
+    <Point x="1783.5469255663418" y="636.6666666666661" elementID="ead1c" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="c4880" groupRef="ef7e1" zOrder="33591" lineThickness="2.0" color="ff0033">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="921.2013786312145" elementID="b7fc3" />
+    <Point x="1828.5469255663418" y="921.2013786312145" elementID="ba864" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="dab48" groupRef="ef7e1" zOrder="33592" lineThickness="2.0" color="9900cc">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="822.2013786312145" elementID="ad81d" />
+    <Point x="1821.5469255663418" y="822.7038433604569" elementID="b5a8d" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a3ae2" groupRef="ef7e1" zOrder="33593" lineThickness="2.0" color="cc00cc">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="802.8595871135185" elementID="b341c" />
+    <Point x="1821.5469255663418" y="802.8595871135185" elementID="b50c9" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c8523" groupRef="ef7e1" zOrder="33594" lineThickness="2.0" color="999900">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="762.8607759091265" elementID="a8c14" />
+    <Point x="1821.5469255663418" y="762.8607759091265" elementID="ab9e8" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d9aa7" groupRef="ef7e1" zOrder="33595" lineStyle="Broken" lineThickness="2.0" color="00cccc">
+    <Xref dataSource="" identifier="" />
+    <Point x="1764.5469255663422" y="941.2013786312145" elementID="bb8f7" />
+    <Point x="1822.5469255663418" y="941.7026545648487" elementID="e9ff5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c97b7" groupRef="ef7e1" zOrder="33596" lineThickness="2.0" color="00ffff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="742.8607759091265" elementID="f83ab" />
+    <Point x="1821.5469255663418" y="742.8607759091265" elementID="c862c" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a92ff" groupRef="ef7e1" zOrder="33597" lineThickness="2.0" color="ffcc33">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="682.2013786312145" elementID="e1ff9" />
+    <Point x="1821.5469272663615" y="682.8607759091265" elementID="ba042" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="de447" groupRef="ef7e1" zOrder="33598" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1863.64216366158" y="494.24899767883653" elementID="a0633" elementRef="b240f" relX="0.0" relY="1.0" />
+    <Point x="1863.9754969949133" y="520.8680452978831" elementID="c167f" />
+  </Interaction>
+  <Interaction elementID="baf56" groupRef="ef7e1" zOrder="33618" lineThickness="2.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="722.8607759091265" elementID="d73e5" />
+    <Point x="1821.5469255663418" y="722.8607759091265" elementID="daa1f" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b3e3f" groupRef="ef7e1" zOrder="33619" lineThickness="2.0" color="ff9933">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="702.8607759091265" elementID="faf0b" />
+    <Point x="1821.5469255663418" y="702.8607759091265" elementID="e2f42" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e76d2" groupRef="ef7e1" zOrder="33626" lineThickness="2.0" color="cccc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="1762.5469255663425" y="782.2013786312145" elementID="c29cf" />
+    <Point x="1821.5469255663418" y="782.7050321560648" elementID="a31dd" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bc828" groupRef="ef7e1" zOrder="33628" lineThickness="2.0" color="770000">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="842.8583983179103" elementID="a3e40" />
+    <Point x="1821.5469255663418" y="842.8583983179103" elementID="c9e1f" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c02d0" groupRef="ef7e1" zOrder="33630" lineThickness="2.0" color="775200">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="862.8583983179103" elementID="d6361" />
+    <Point x="1821.5469255663418" y="862.8583983179103" elementID="afdf5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e8882" groupRef="ef7e1" zOrder="33632" lineThickness="2.0" color="ff6666">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="882.8583983179103" elementID="ae1f6" />
+    <Point x="1821.5469255663418" y="882.8583983179103" elementID="aa3a2" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="cbc7e" groupRef="ef7e1" zOrder="33646" lineThickness="2.0" color="999999">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5469255663425" y="902.8583983179103" elementID="a1035" />
+    <Point x="1821.5469255663418" y="902.8583983179103" elementID="e89a7" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="dd7d7" groupRef="ef7e1" zOrder="33648" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1781.5469255663418" y="636.6666666666661" elementID="e5840" />
+    <Point x="1821.5469255663418" y="637.2013786312153" elementID="dba68" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="b9b53" groupRef="ef7e1" zOrder="33649" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1762.5469255663425" y="614.2013786312158" elementID="c631c" />
+    <Point x="1820.5469255663418" y="614.2013786312158" elementID="b2c65" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="f1f0f" groupRef="ef7e1" zOrder="33650" lineThickness="2.0" color="00cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="1762.5469255663425" y="576.2013786312164" elementID="d0e2c" />
+    <Point x="1820.5469255663418" y="576.2013786312164" elementID="aa96d" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e4b6c" groupRef="ef7e1" zOrder="33651" lineStyle="Broken" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1762.5469255663425" y="596.2013786312161" elementID="f12fa" />
+    <Point x="1820.5469255663418" y="596.2013786312161" elementID="cf055" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f1c79" groupRef="ef7e1" zOrder="33652" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Point x="1809.8802588996753" y="662.5347119645475" elementID="f0fc7" />
+    <Point x="1816.5469255663418" y="669.2013786312139" elementID="ae132" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ac2bb" groupRef="ef7e1" zOrder="33656" lineThickness="2.0" color="ff00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1818.030645756181" y="1058.2901052186153" elementID="d608f" />
+    <Point x="1818.030645756181" y="1083.2901052186153" elementID="d8dc1" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="f8197" groupRef="ef7e1" zOrder="33657" lineThickness="2.0" color="ff00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1818.0015514398658" y="1070.0991666942068" elementID="f9e30" />
+    <Point x="1818.0015514398658" y="1049.2280233185265" elementID="c30eb" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="d1896" groupRef="ef7e1" zOrder="33658" lineThickness="3.0" color="ff3399">
+    <Xref dataSource="" identifier="" />
+    <Point x="1789.5469255663431" y="495.66666666666697" elementID="dbe77" elementRef="ecf3c" relX="0.0" relY="1.0" />
+    <Point x="1790.2002752370793" y="513.6302370109835" elementID="a5a8f" elementRef="f3181" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="faf4e" connectorType="Elbow" zOrder="33661" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="fb3" />
+    <CitationRef citationID="e86" />
+    <Point x="788.25" y="1288.0" elementID="b95bc" elementRef="ab320" relX="0.0" relY="1.0" />
+    <Point x="829.25" y="1349.5" elementID="cf357" elementRef="f6591" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="b6820" zOrder="33665" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="829.25" y="1429.0" elementID="e91cf" elementRef="b8267" relX="0.0" relY="1.0" />
+    <Point x="830.25" y="1459.5" elementID="a20bb" elementRef="e1c52" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="f1509" connectorType="Elbow" zOrder="33672" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="612.0" y="1290.0" elementID="ad912" elementRef="a80d6" relX="0.0" relY="1.0" />
+    <Point x="654.5" y="1312.0" elementID="d9e84" />
+    <Point x="697.0" y="1289.0" elementID="b52c3" elementRef="c2cc5" relX="0.0" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="e840d" connectorType="Elbow" zOrder="33673" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="348.6640372624146" y="735.7276500638552" elementID="dc8b9" elementRef="f147b" relX="1.0" relY="0.0" />
+    <Point x="367.6470588235294" y="900.8836206896547" elementID="aecea" />
+    <Point x="558.3856960408685" y="1066.0395913154541" elementID="e49db" elementRef="dd14c" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c9443" connectorType="Elbow" zOrder="33675" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="a5e" />
+    <Point x="953.875" y="729.0" elementID="e9151" elementRef="e7e7a" relX="-0.5" relY="1.0" />
+    <Point x="835.4375" y="1108.556832694764" elementID="a1ad9" />
+    <Point x="717.0" y="1269.0" elementID="b4e71" elementRef="c2cc5" relX="0.5" relY="-1.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="a27af" connectorType="Elbow" zOrder="33682" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="d37" />
+    <Point x="942.5" y="872.0" elementID="eb2ad" elementRef="df20e" relX="-0.5" relY="1.0" />
+    <Point x="777.25" y="1148.0" elementID="d60fa" />
+    <Point x="612.0" y="1270.0" elementID="f65ee" elementRef="a80d6" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <GraphicalLine elementID="id88042fe1" zOrder="12288" lineThickness="2.0">
+    <Point x="708.75" y="297.0" elementID="d527b" elementRef="e154e" relX="0.0" relY="1.0" />
+    <Point x="708.25" y="333.5" elementID="ea3e1" elementRef="a8e72" relX="0.0" relY="-1.0" />
+  </GraphicalLine>
+  <Label elementID="c30ed" textLabel="Protein" shapeType="Rectangle" fillColor="00cccc" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="1799.126213592234" centerY="996.2135922330102" width="49.70873786408008" height="17.281553398056992" zOrder="28672" />
+  <Label elementID="c9c58" textLabel="Protein" shapeType="Rectangle" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="1795.485436893203" centerY="964.0533980582533" width="54.56310679611587" height="20.922330097085414" zOrder="28672" />
+  <Label elementID="dbaba" textLabel="Nucleus" color="999999" fillColor="ffffff" fontWeight="Bold" fontSize="20" vAlign="Middle" centerX="227.33077905491706" centerY="1026.8199233716482" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="a03dc" textLabel="Enzyme Complex" shapeType="Rectangle" fillColor="99ff33" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1982.5469255663418" centerY="531.6666666666661" width="114.0" height="20.0" zOrder="33584" />
+  <Label elementID="bb3cd" textLabel="Protein" shapeType="Rectangle" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1955.0469255663418" centerY="487.66666666666686" width="60.0" height="20.0" zOrder="33585" />
+  <Label elementID="d36da" textLabel="Receptor" shapeType="Rectangle" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1863.5469255663418" centerY="531.6666666666661" width="64.0" height="20.0" zOrder="33586" />
+  <Label elementID="ecf3c" textLabel="Ligand" shapeType="Rectangle" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1789.5469255663431" centerY="485.66666666666697" width="60.0" height="20.0" zOrder="33587" />
+  <Label elementID="fe01c" textLabel="mRNA" shapeType="Rectangle" fillColor="ffffff" fontStyle="Italic" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="2019.0469255663418" centerY="487.66666666666686" width="41.0" height="20.0" zOrder="33588" />
+  <Label elementID="b3f54" textLabel="Small molecule" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1880.5469255663418" centerY="1025.8416294864044" width="104.0" height="21.0" zOrder="33589" />
+  <Label elementID="be5c0" textLabel="Induced activation" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1888.5919383262917" centerY="992.5901498751721" width="142.8571428571425" height="29.52380952380917" zOrder="33590" />
+  <Label elementID="cb314" textLabel="Inhibition" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1861.8906840503512" centerY="919.0611277760264" width="66.0" height="20.0" zOrder="33600" />
+  <Label elementID="ecff6" textLabel="Auto catalysis" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1874.2664238559655" centerY="664.201378631215" width="94.0" height="20.0" zOrder="33601" />
+  <Label elementID="f3f84" textLabel="Transport" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1861.8906840503512" centerY="941.4818803415908" width="66.0" height="20.0" zOrder="33602" />
+  <Label elementID="b626e" textLabel="Positive regulation of gene expression" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1942.8564493758654" centerY="623.2013786312159" width="247.0" height="20.0" zOrder="33603" />
+  <Label elementID="ea62d" textLabel="Leads to through unknown mechanism" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1942.2954459551129" centerY="599.2013786312164" width="243.0" height="20.0" zOrder="33604" />
+  <Label elementID="a75a1" textLabel="Negative regulation of gene expression" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1943.5759476654891" centerY="645.2013786312154" width="247.0" height="20.0" zOrder="33605" />
+  <Label elementID="c8f7c" textLabel="Translocation " fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1875.2664238559653" centerY="1063.9182706331712" width="92.0" height="20.0" zOrder="33606" />
+  <Label elementID="b0620" textLabel="Ubiquitination" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1874.1949952845368" centerY="804.2013786312145" width="93.66666666666663" height="20.0" zOrder="33607" />
+  <Label elementID="e4904" textLabel="Deubiquitination" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1880.343065002732" centerY="823.2013786312145" width="111.0" height="20.0" zOrder="33608" />
+  <Label elementID="a3d41" textLabel="Sumoylation" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1868.8906840503512" centerY="763.2013786312145" width="86.0" height="20.0" zOrder="33609" />
+  <Label elementID="a8941" textLabel="Induced catalysis" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1885.626173000777" centerY="964.2013786312145" width="111.0" height="20.0" zOrder="33610" />
+  <Label elementID="b42d0" textLabel="Protein-protein interaction" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1905.4197061494986" centerY="578.2013786312164" width="172.66666666666663" height="20.0" zOrder="33611" />
+  <Label elementID="cc32b" textLabel="Acetylation" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1867.5469255663418" centerY="682.0611277760265" width="74.0" height="20.0" zOrder="33612" />
+  <Label elementID="b66b1" textLabel="Dephosphorylation" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1888.433090522632" centerY="743.2013786312145" width="127.0" height="20.0" zOrder="33613" />
+  <Label elementID="ab648" textLabel="LEGEND" color="3333ff" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="14" vAlign="Middle" groupRef="ef7e1" centerX="1902.5469255663418" centerY="451.20137863121715" width="80.0" height="20.0" zOrder="33614" />
+  <Label elementID="e052a" textLabel="Phosphorylation" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1880.0573507170177" centerY="720.2013786312145" width="111.0" height="20.0" zOrder="33615" />
+  <Label elementID="a773c" textLabel="Deacetylation" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1873.6711857607274" centerY="701.2013786312145" width="89.0" height="20.0" zOrder="33620" />
+  <Label elementID="d956b" textLabel="Golgi apparatus" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1879.9304842349634" centerY="1189.5849372998412" width="106.33333333333333" height="16.0" zOrder="33622">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="d3168" textLabel="Endosome" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1865.933090522632" centerY="1157.2861915757808" width="71.33333333333333" height="16.0" zOrder="33623">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="f14ed" textLabel="Nucleus" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1859.4595063341103" centerY="1224.7251881550299" width="55.333333333333336" height="16.0" zOrder="33624">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="da251" textLabel="Mitochondrion" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1876.5019128063918" centerY="1207.5849372998416" width="96.33333333333333" height="16.0" zOrder="33625">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="fa314" textLabel="Desumoylation" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1876.4859221455893" centerY="782.2013786312145" width="99.0" height="20.0" zOrder="33627" />
+  <Label elementID="efc70" textLabel="Methylation" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1867.4859221455893" centerY="842.9208769208383" width="75.0" height="20.0" zOrder="33629" />
+  <Label elementID="cb6e0" textLabel="Demethylation" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1875.4859221455893" centerY="861.9208769208383" width="93.0" height="20.0" zOrder="33631" />
+  <Label elementID="e8d65" textLabel="Palmitoylation" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1873.9859221455893" centerY="882.2013786312145" width="90.0" height="20.0" zOrder="33633" />
+  <Label elementID="d65b0" textLabel="Cytoplasm" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1864.933090522632" centerY="1115.4446864446504" width="71.33333333333333" height="16.0" zOrder="33634">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="a4554" textLabel="EC" color="ff00ff" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1812.546925566342" centerY="1136.7251881550271" width="22.333333333333332" height="16.0" zOrder="33635">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="c78b6" textLabel="Plasma membrane" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1890.7400080444831" centerY="1095.7251881550264" width="120.66666666666674" height="16.0" zOrder="33636">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="a697c" textLabel="MT" color="ff00ff" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1813.546925566342" centerY="1206.7251881550299" width="24.333333333333332" height="16.0" zOrder="33637">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="aaad9" textLabel="Endoplasmic reticulum" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1900.078553953158" centerY="1171.7251881550285" width="150.33333333333334" height="16.0" zOrder="33638">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="eee57" textLabel="CY" color="ff00ff" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1812.546925566342" centerY="1115.7251881550264" width="22.333333333333332" height="16.0" zOrder="33639">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="f0bf4" textLabel="PM" color="ff00ff" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1813.546925566342" centerY="1095.7251881550264" width="25.333333333333332" height="16.0" zOrder="33640">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="dacbc" textLabel="GO" color="ff00ff" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1812.546925566342" centerY="1189.7251881550294" width="25.333333333333332" height="16.0" zOrder="33641">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="f58bd" textLabel="NU" color="ff00ff" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1812.546925566342" centerY="1226.7251881550299" width="23.333333333333332" height="16.0" zOrder="33642">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="cecbf" textLabel="Extracellular" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1870.745220619825" centerY="1136.0983216729726" width="86.33333333333333" height="16.0" zOrder="33643">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="a1b02" textLabel="ER" color="ff00ff" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1812.546925566342" centerY="1172.7251881550287" width="22.333333333333332" height="16.0" zOrder="33644">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="cca1a" textLabel="EN" color="ff00ff" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1812.546925566342" centerY="1155.7251881550283" width="22.333333333333332" height="16.0" zOrder="33645">
+    <Attribute key="org.pathvisio.model.GenMAPP-Xref" value="" />
+  </Label>
+  <Label elementID="fd6ae" textLabel="Proteolytic cleavage" fillColor="ffffff" fontName="SansSerif" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef7e1" centerX="1892.8906840503512" centerY="902.4818803415908" width="122.0" height="20.0" zOrder="33647" />
+  <Shape elementID="d674b" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="896.4480507363238" centerY="1275.470168698791" width="1458.945040214477" height="588.4718498659531" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="e11a3" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="894.5221179624664" centerY="904.9919571045576" width="1548.757372654156" height="1433.9839142091153" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="e154e" shapeType="Arc" lineThickness="2.0" fontSize="10" vAlign="Middle" centerX="708.75" centerY="284.5" width="42.5" height="25.0" zOrder="16384" rotation="0.0" />
+  <Shape elementID="f55e7" shapeType="Oval" lineThickness="2.0" color="ff33ff" fillColor="ff00ff" fontSize="10" vAlign="Middle" centerX="709.25" centerY="279.75" width="33.5" height="24.5" zOrder="16384" rotation="0.0" />
+  <Shape elementID="cf6c9" textLabel="STAT1" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="263.9888059701492" centerY="901.0410447761192" width="66.5" height="35.5" zOrder="16386" rotation="0.0">
+    <CitationRef citationID="c06" />
+  </Shape>
+  <Shape elementID="f55bc" groupRef="d7f0c" textLabel="Cy" shapeType="Rectangle" lineThickness="0.0" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="535.5271392081737" centerY="954.6810344827592" width="39.5" height="26.5" zOrder="16409" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="None" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="b4f29" groupRef="d7f0c" textLabel="Nu" shapeType="Rectangle" lineThickness="0.0" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="537.5271392081737" centerY="1020.9310344827592" width="39.5" height="22.0" zOrder="16410" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="None" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="c190e" groupRef="b63ad" textLabel="HSP90" shapeType="Rectangle" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="282.21641791044794" centerY="382.52238805970154" width="61.0" height="34.0" zOrder="16413" rotation="0.0">
+    <CitationRef citationID="b48" />
+  </Shape>
+  <Shape elementID="f0f00" textLabel="Activation&#xA;" shapeType="Rectangle" lineThickness="0.0" color="ff0033" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="500.90336134453764" centerY="353.4663865546218" width="61.0" height="17.857142857142748" zOrder="16417" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="None" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="e560f" groupRef="c6964" textLabel="TCDD" shapeType="Rectangle" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="314.4140372624146" centerY="825.7276500638552" width="66.5" height="35.5" zOrder="16424" rotation="0.0">
+    <CitationRef citationID="e06" />
+  </Shape>
+  <Shape elementID="f297b" groupRef="f4bd3" textLabel="Cy" shapeType="Rectangle" lineThickness="0.0" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1270.25" centerY="960.1356960408685" width="39.5" height="26.5" zOrder="16428" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="None" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="a02d8" groupRef="f4bd3" textLabel="Nu" shapeType="Rectangle" lineThickness="0.0" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1271.25" centerY="1024.3856960408684" width="39.5" height="22.0" zOrder="16429" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="None" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="c41f0" groupRef="c6964" textLabel="NEDD8&#xA;" shapeType="Rectangle" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="313.4140372624146" centerY="763.7276500638552" width="66.5" height="25.5" zOrder="16433" rotation="0.0" />
+  <Shape elementID="e65ae" groupRef="c6964" textLabel="SUMO7&#xA;" shapeType="Rectangle" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="313.4140372624146" centerY="792.7276500638552" width="66.5" height="25.5" zOrder="16434" rotation="0.0" />
+  <Shape elementID="e5211" textLabel="Cy" shapeType="Rectangle" lineThickness="0.0" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1067.25" centerY="957.9353635050554" width="39.5" height="26.5" zOrder="16439" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="None" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="ee393" textLabel="Nu" shapeType="Rectangle" lineThickness="0.0" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1069.25" centerY="1024.1853635050554" width="39.5" height="22.0" zOrder="16440" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="None" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="c6222" textLabel="Cy" shapeType="Rectangle" lineThickness="0.0" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1022.9443909484826" centerY="959.9353635050554" width="20.852672123253072" height="26.5" zOrder="16443" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="None" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="c2040" textLabel="Nu" shapeType="Rectangle" lineThickness="0.0" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1026.25" centerY="1026.1853635050554" width="39.5" height="22.0" zOrder="16444" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="None" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="b240f" groupRef="ef7e1" shapeType="Arc" lineThickness="3.0" fontSize="10" vAlign="Middle" centerX="1863.64216366158" centerY="478.74899767883653" width="30.0" height="31.0" zOrder="33599" rotation="0.0" />
+  <Shape elementID="c8347" groupRef="ef7e1" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="1909.0469255663454" centerY="839.20137863122" width="355.0" height="804.0" zOrder="33621" rotation="0.0" />
+  <Shape elementID="f229d" groupRef="ef7e1" shapeType="Arc" lineThickness="2.0" color="0000cc" fontSize="10" vAlign="Middle" centerX="1805.2135922330083" centerY="665.8680452978809" width="14.907119999999999" height="20.0" zOrder="33653" rotation="2.554867" />
+  <Shape elementID="a42c3" groupRef="ef7e1" textLabel="Molecule" shapeType="Oval" fillColor="ffccff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="1794.7135922330096" centerY="1026.7581715042797" width="59.0" height="19.113585746102444" zOrder="33655" rotation="0.0" />
+  <Shape elementID="f3181" groupRef="ef7e1" shapeType="Oval" color="ff0066" fillColor="ff3399" fontSize="10" vAlign="Middle" centerX="1790.2002752370793" centerY="529.1302370109835" width="30.0" height="31.0" zOrder="33659" rotation="0.0" />
+  <Group elementID="a8219" groupType="Complex" />
+  <Group elementID="b0836" groupType="Group" />
+  <Group elementID="b4164" groupType="Complex" />
+  <Group elementID="b63ad" groupType="Complex">
+    <CitationRef citationID="aba" />
+  </Group>
+  <Group elementID="ba407" groupType="Group" />
+  <Group elementID="bca0b" groupType="Complex" />
+  <Group elementID="c3bdd" groupType="Complex" />
+  <Group elementID="c6964" groupType="Group" />
+  <Group elementID="c738c" groupType="Group" />
+  <Group elementID="c8f3c" groupType="Group" />
+  <Group elementID="cdac9" groupType="Complex" />
+  <Group elementID="cf474" groupType="Complex">
+    <CitationRef citationID="d5c" />
+  </Group>
+  <Group elementID="cf6c8" groupType="Complex" />
+  <Group elementID="d7f0c" groupType="Group" />
+  <Group elementID="dd14c" groupType="Group">
+    <CitationRef citationID="e06" />
+    <CitationRef citationID="ad6" />
+  </Group>
+  <Group elementID="df20e" groupType="Complex" />
+  <Group elementID="e1ebf" groupType="Group" />
+  <Group elementID="e9d29" groupType="Group" />
+  <Group elementID="ea83a" groupType="Group" />
+  <Group elementID="ef7e1" groupType="Group" />
+  <Group elementID="f4bd3" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="c-Src-mediated phosphorylation of the epidermal growth factor receptor on Tyr845 and Tyr1101 is associated with modulation of receptor function." URL="" citationID="d10" year="1999" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="10075741" />
+      <Author name="Biscardi JS" />
+      <Author name="Maa MC" />
+      <Author name="Tice DA" />
+      <Author name="Cox ME" />
+      <Author name="Leu TH" />
+      <Author name="Parsons SJ" />
+    </Citation>
+    <Citation title="2,3,7,8-Tetrachlorodibenzo-p-dioxin causes an increase in protein kinases associated with epidermal growth factor receptor in the hepatic plasma membrane." URL="" citationID="a78" year="1988" source="J Biochem Toxicol">
+      <Xref dataSource="PubMed" identifier="3266253" />
+      <Author name="Madhukar BV" />
+      <Author name="Ebner K" />
+      <Author name="Matsumura F" />
+      <Author name="Bombick DW" />
+      <Author name="Brewster DW" />
+      <Author name="Kawamoto T" />
+    </Citation>
+    <Citation title="Effects of in vivo-administered 2,3,7,8-tetrachlorodibenzo-p-dioxin on receptor binding of epidermal growth factor in the hepatic plasma membrane of rat, guinea pig, mouse, and hamster." URL="" citationID="b18" year="1984" source="Proc Natl Acad Sci U S A">
+      <Xref dataSource="PubMed" identifier="6095293" />
+      <Author name="Madhukar BV" />
+      <Author name="Brewster DW" />
+      <Author name="Matsumura F" />
+    </Citation>
+    <Citation title="Epstein-Barr virus encoded nuclear protein EBNA-3 binds XAP-2, a protein associated with Hepatitis B virus X antigen." URL="" citationID="a6f" year="2000" source="Oncogene">
+      <Xref dataSource="PubMed" identifier="10777214" />
+      <Author name="Kashuba E" />
+      <Author name="Kashuba V" />
+      <Author name="Pokrovskaja K" />
+      <Author name="Klein G" />
+      <Author name="Szekely L" />
+    </Citation>
+    <Citation title="ER alpha-AHR-ARNT protein-protein interactions mediate estradiol-dependent transrepression of dioxin-inducible gene transcription." URL="" citationID="c6c" year="2005" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="15837795" />
+      <Author name="Beischlag TV" />
+      <Author name="Perdew GH" />
+    </Citation>
+    <Citation title="The human CYP1A2 gene and induction by 3-methylcholanthrene. A region of DNA that supports AH-receptor binding and promoter-specific induction." URL="" citationID="ca3" year="1994" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="8120057" />
+      <Author name="Quattrochi LC" />
+      <Author name="Vu T" />
+      <Author name="Tukey RH" />
+    </Citation>
+    <Citation title="Dioxin increases the interaction between aryl hydrocarbon receptor and estrogen receptor alpha at human promoters." URL="" citationID="dc5" year="2009" source="Toxicol Sci">
+      <Xref dataSource="PubMed" identifier="19574409" />
+      <Author name="Ahmed S" />
+      <Author name="Valen E" />
+      <Author name="Sandelin A" />
+      <Author name="Matthews J" />
+    </Citation>
+    <Citation title="EGF receptor signaling blocks aryl hydrocarbon receptor-mediated transcription and cell differentiation in human epidermal keratinocytes." URL="" citationID="e2f" year="2009" source="Proc Natl Acad Sci U S A">
+      <Xref dataSource="PubMed" identifier="19255421" />
+      <Author name="Sutter CH" />
+      <Author name="Yin H" />
+      <Author name="Li Y" />
+      <Author name="Mammen JS" />
+      <Author name="Bodreddigari S" />
+      <Author name="Stevens G" />
+      <Author name="Cole JA" />
+      <Author name="Sutter TR" />
+    </Citation>
+    <Citation title="Association of the Ah receptor with the 90-kDa heat shock protein." URL="" citationID="b0f" year="1988" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="2843537" />
+      <Author name="Perdew GH" />
+    </Citation>
+    <Citation title="Maximal aryl hydrocarbon receptor activity depends on an interaction with the retinoblastoma protein." URL="" citationID="e2e" year="2001" source="Mol Pharmacol">
+      <Xref dataSource="PubMed" identifier="11259609" />
+      <Author name="Elferink CJ" />
+      <Author name="Ge NL" />
+      <Author name="Levine A" />
+    </Citation>
+    <Citation title="Signaling pathway for 2,3,7,8-tetrachlorodibenzo-p-dioxin-induced TNF-alpha production in differentiated THP-1 human macrophages." URL="" citationID="e80" year="2007" source="Exp Mol Med">
+      <Xref dataSource="PubMed" identifier="17934341" />
+      <Author name="Cheon H" />
+      <Author name="Woo YS" />
+      <Author name="Lee JY" />
+      <Author name="Kim HS" />
+      <Author name="Kim HJ" />
+      <Author name="Cho S" />
+      <Author name="Won NH" />
+      <Author name="Sohn J" />
+    </Citation>
+    <Citation title="The RelA NF-kappaB subunit and the aryl hydrocarbon receptor (AhR) cooperate to transactivate the c-myc promoter in mammary cells." URL="" citationID="f60" year="2000" source="Oncogene">
+      <Xref dataSource="PubMed" identifier="11114727" />
+      <Author name="Kim DW" />
+      <Author name="Gazourian L" />
+      <Author name="Quadri SA" />
+      <Author name="Romieu-Mourez R" />
+      <Author name="Sherr DH" />
+      <Author name="Sonenshein GE" />
+    </Citation>
+    <Citation title="A new pathway for mitogen-dependent cdk2 regulation uncovered in p27(Kip1)-deficient cells." URL="" citationID="e86" year="1999" source="Curr Biol">
+      <Xref dataSource="PubMed" identifier="10074425" />
+      <Author name="Coats S" />
+      <Author name="Whyte P" />
+      <Author name="Fero ML" />
+      <Author name="Lacy S" />
+      <Author name="Chung G" />
+      <Author name="Randel E" />
+      <Author name="Firpo E" />
+      <Author name="Roberts JM" />
+    </Citation>
+    <Citation title="Isolation and characterization of the human cytochrome P450 CYP1B1 gene." URL="" citationID="a45" year="1996" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="8910454" />
+      <Author name="Tang YM" />
+      <Author name="Wo YY" />
+      <Author name="Stewart J" />
+      <Author name="Hawkins AL" />
+      <Author name="Griffin CA" />
+      <Author name="Sutter TR" />
+      <Author name="Greenlee WF" />
+    </Citation>
+    <Citation title="p27(Kip1) induction and inhibition of proliferation by the intracellular Ah receptor in developing thymus and hepatoma cells." URL="" citationID="d68" year="1999" source="Genes Dev">
+      <Xref dataSource="PubMed" identifier="10398686" />
+      <Author name="Kolluri SK" />
+      <Author name="Weiss C" />
+      <Author name="Koff A" />
+      <Author name="Gأ¶ttlicher M" />
+    </Citation>
+    <Citation title="Expression of the aryl hydrocarbon receptor/transcription factor (AhR) and AhR-regulated CYP1 gene transcripts in a rat model of mammary tumorigenesis." URL="" citationID="d24" year="2000" source="Breast Cancer Res Treat">
+      <Xref dataSource="PubMed" identifier="11097088" />
+      <Author name="Trombino AF" />
+      <Author name="Near RI" />
+      <Author name="Matulka RA" />
+      <Author name="Yang S" />
+      <Author name="Hafer LJ" />
+      <Author name="Toselli PA" />
+      <Author name="Kim DW" />
+      <Author name="Rogers AE" />
+      <Author name="Sonenshein GE" />
+      <Author name="Sherr DH" />
+    </Citation>
+    <Citation title="Induction of intracellular calcium concentration by environmental benzo(a)pyrene involves a خ²2-adrenergic receptor/adenylyl cyclase/Epac-1/inositol 1,4,5-trisphosphate pathway in endothelial cells." URL="" citationID="b29" year="2012" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="22167199" />
+      <Author name="Mayati A" />
+      <Author name="Levoin N" />
+      <Author name="Paris H" />
+      <Author name="N'Diaye M" />
+      <Author name="Courtois A" />
+      <Author name="Uriac P" />
+      <Author name="Lagadic-Gossmann D" />
+      <Author name="Fardel O" />
+      <Author name="Le Ferrec E" />
+    </Citation>
+    <Citation title="Aryl hydrocarbon receptor regulates Stat1 activation and participates in the development of Th17 cells." URL="" citationID="c06" year="2008" source="Proc Natl Acad Sci U S A">
+      <Xref dataSource="PubMed" identifier="18607004" />
+      <Author name="Kimura A" />
+      <Author name="Naka T" />
+      <Author name="Nohara K" />
+      <Author name="Fujii-Kuriyama Y" />
+      <Author name="Kishimoto T" />
+    </Citation>
+    <Citation title="High-resolution genome-wide mapping of AHR and ARNT binding sites by ChIP-Seq." URL="" citationID="e06" year="2012" source="Toxicol Sci">
+      <Xref dataSource="PubMed" identifier="22903824" />
+      <Author name="Lo R" />
+      <Author name="Matthews J" />
+    </Citation>
+    <Citation title="Rapid activation of c-Src kinase by dioxin is mediated by the Cdc37-HSP90 complex as part of Ah receptor signaling in MCF10A cells." URL="" citationID="a7e" year="2007" source="Biochemistry">
+      <Xref dataSource="PubMed" identifier="17223712" />
+      <Author name="Park S" />
+      <Author name="Dong B" />
+      <Author name="Matsumura F" />
+    </Citation>
+    <Citation title="Regulation of insulin-like growth factor binding protein-1 and lipoprotein lipase by the aryl hydrocarbon receptor." URL="" citationID="c7e" year="2008" source="J Toxicol Sci">
+      <Xref dataSource="PubMed" identifier="18827440" />
+      <Author name="Minami K" />
+      <Author name="Nakajima M" />
+      <Author name="Fujiki Y" />
+      <Author name="Katoh M" />
+      <Author name="Gonzalez FJ" />
+      <Author name="Yokoi T" />
+    </Citation>
+    <Citation title="Dioxin receptor deficiency impairs angiogenesis by a mechanism involving VEGF-A depletion in the endothelium and transforming growth factor-beta overexpression in the stroma." URL="" citationID="e7e" year="2009" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="19617630" />
+      <Author name="Roman AC" />
+      <Author name="Carvajal-Gonzalez JM" />
+      <Author name="Rico-Leo EM" />
+      <Author name="Fernandez-Salguero PM" />
+    </Citation>
+    <Citation title="Introducing the &quot;TCDD-inducible AhR-Nrf2 gene battery&quot;." URL="" citationID="d5c" year="2009" source="Toxicol Sci">
+      <Xref dataSource="PubMed" identifier="19474220" />
+      <Author name="Yeager RL" />
+      <Author name="Reisman SA" />
+      <Author name="Aleksunes LM" />
+      <Author name="Klaassen CD" />
+    </Citation>
+    <Citation title="Decreased p21 levels are required for efficient restart of DNA synthesis after S phase block." URL="" citationID="dd7" year="2004" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="14597617" />
+      <Author name="Gottifredi V" />
+      <Author name="McKinney K" />
+      <Author name="Poyurovsky MV" />
+      <Author name="Prives C" />
+    </Citation>
+    <Citation title="Aryl hydrocarbon receptor- and calcium-dependent induction of the chemokine CCL1 by the environmental contaminant benzo[a]pyrene." URL="" citationID="e3d" year="2006" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="16679317" />
+      <Author name="N'Diaye M" />
+      <Author name="Le Ferrec E" />
+      <Author name="Lagadic-Gossmann D" />
+      <Author name="Corre S" />
+      <Author name="Gilot D" />
+      <Author name="Lecureur V" />
+      <Author name="Monteiro P" />
+      <Author name="Rauch C" />
+      <Author name="Galibert MD" />
+      <Author name="Fardel O" />
+    </Citation>
+    <Citation title="Role of dioxin response element and nuclear factor-kappaB motifs in 2,3,7,8-tetrachlorodibenzo-p-dioxin-mediated regulation of Fas and Fas ligand expression." URL="" citationID="e3f" year="2007" source="Mol Pharmacol">
+      <Xref dataSource="PubMed" identifier="16940415" />
+      <Author name="Singh NP" />
+      <Author name="Nagarkatti M" />
+      <Author name="Nagarkatti PS" />
+    </Citation>
+    <Citation title="Somatostatin analogs modulate AIP in somatotroph adenomas: the role of the ZAC1 pathway." URL="" citationID="c90" year="2012" source="J Clin Endocrinol Metab">
+      <Xref dataSource="PubMed" identifier="22659247" />
+      <Author name="Chahal HS" />
+      <Author name="Trivellin G" />
+      <Author name="Leontiou CA" />
+      <Author name="Alband N" />
+      <Author name="Fowkes RC" />
+      <Author name="Tahir A" />
+      <Author name="Igreja SC" />
+      <Author name="Chapple JP" />
+      <Author name="Jordan S" />
+      <Author name="Lupp A" />
+      <Author name="Schulz S" />
+      <Author name="Ansorge O" />
+      <Author name="Karavitaki N" />
+      <Author name="Carlsen E" />
+      <Author name="Wass JA" />
+      <Author name="Grossman AB" />
+      <Author name="Korbonits M" />
+    </Citation>
+    <Citation title="Aryl hydrocarbon receptor and NF-E2-related factor 2 are key regulators of human MRP4 expression." URL="" citationID="d70" year="2010" source="Am J Physiol Gastrointest Liver Physiol">
+      <Xref dataSource="PubMed" identifier="20395535" />
+      <Author name="Xu S" />
+      <Author name="Weerachayaphorn J" />
+      <Author name="Cai SY" />
+      <Author name="Soroka CJ" />
+      <Author name="Boyer JL" />
+    </Citation>
+    <Citation title="The tumor suppressor Kruppel-like factor 6 is a novel aryl hydrocarbon receptor DNA binding partner." URL="" citationID="b72" year="2013" source="J Pharmacol Exp Ther">
+      <Xref dataSource="PubMed" identifier="23512538" />
+      <Author name="Wilson SR" />
+      <Author name="Joshi AD" />
+      <Author name="Elferink CJ" />
+    </Citation>
+    <Citation title="HDAC6 modulates Hsp90 chaperone activity and regulates activation of aryl hydrocarbon receptor signaling." URL="" citationID="c93" year="2009" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="19158084" />
+      <Author name="Kekatpure VD" />
+      <Author name="Dannenberg AJ" />
+      <Author name="Subbaramaiah K" />
+    </Citation>
+    <Citation title="Mechanism of suppression of cytochrome P-450 1A1 expression by tumor necrosis factor-alpha and lipopolysaccharide." URL="" citationID="b71" year="2001" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="11470802" />
+      <Author name="Ke S" />
+      <Author name="Rabson AB" />
+      <Author name="Germino JF" />
+      <Author name="Gallo MA" />
+      <Author name="Tian Y" />
+    </Citation>
+    <Citation title="2,3,7,8-Tetrachlorodibenzo-p-dioxin-induced activation of a protein tyrosine kinase, pp60src, in murine hepatic cytosol using a cell-free system." URL="" citationID="c10" year="1997" source="Mol Pharmacol">
+      <Xref dataSource="PubMed" identifier="9380030" />
+      <Author name="Blankenship A" />
+      <Author name="Matsumura F" />
+    </Citation>
+    <Citation title="Binding of polycyclic aromatic hydrocarbons (PAHs) to teleost aryl hydrocarbon receptors (AHRs)." URL="" citationID="eaa" year="2002" source="Comp Biochem Physiol B Biochem Mol Biol">
+      <Xref dataSource="PubMed" identifier="12223212" />
+      <Author name="Billiard SM" />
+      <Author name="Hahn ME" />
+      <Author name="Franks DG" />
+      <Author name="Peterson RE" />
+      <Author name="Bols NC" />
+      <Author name="Hodson PV" />
+    </Citation>
+    <Citation title="Differential effects of cytokines on the inducible expression of CYP1A1, CYP1A2, and CYP3A4 in human hepatocytes in primary culture." URL="" citationID="d37" year="1995" source="Hepatology">
+      <Xref dataSource="PubMed" identifier="7557864" />
+      <Author name="Muntanأ©-Relat J" />
+      <Author name="Ourlin JC" />
+      <Author name="Domergue J" />
+      <Author name="Maurel P" />
+    </Citation>
+    <Citation title="Transcriptionally active heterodimer formation of an Arnt-like PAS protein, Arnt3, with HIF-1a, HLF, and clock." URL="" citationID="a8a" year="1998" source="Biochem Biophys Res Commun">
+      <Xref dataSource="PubMed" identifier="9704006" />
+      <Author name="Takahata S" />
+      <Author name="Sogawa K" />
+      <Author name="Kobayashi A" />
+      <Author name="Ema M" />
+      <Author name="Mimura J" />
+      <Author name="Ozaki N" />
+      <Author name="Fujii-Kuriyama Y" />
+    </Citation>
+    <Citation title="Metabolic activation of polycyclic aromatic hydrocarbons and other procarcinogens by cytochromes P450 1A1 and P450 1B1 allelic variants and other human cytochromes P450 in Salmonella typhimurium NM2009." URL="" citationID="a4f" year="2001" source="Drug Metab Dispos">
+      <Xref dataSource="PubMed" identifier="11502724" />
+      <Author name="Shimada T" />
+      <Author name="Oda Y" />
+      <Author name="Gillam EM" />
+      <Author name="Guengerich FP" />
+      <Author name="Inoue K" />
+    </Citation>
+    <Citation title="NRF2 modulates aryl hydrocarbon receptor signaling: influence on adipogenesis." URL="" citationID="be5" year="2007" source="Mol Cell Biol">
+      <Xref dataSource="PubMed" identifier="17709388" />
+      <Author name="Shin S" />
+      <Author name="Wakabayashi N" />
+      <Author name="Misra V" />
+      <Author name="Biswal S" />
+      <Author name="Lee GH" />
+      <Author name="Agoston ES" />
+      <Author name="Yamamoto M" />
+      <Author name="Kensler TW" />
+    </Citation>
+    <Citation title="Evidence that the co-chaperone p23 regulates ligand responsiveness of the dioxin (Aryl hydrocarbon) receptor." URL="" citationID="da2" year="1999" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="10224120" />
+      <Author name="Kazlauskas A" />
+      <Author name="Poellinger L" />
+      <Author name="Pongratz I" />
+    </Citation>
+    <Citation title="The aryl hydrocarbon receptor interacts with estrogen receptor alpha and orphan receptors COUP-TFI and ERRalpha1." URL="" citationID="b2f" year="2000" source="Arch Biochem Biophys">
+      <Xref dataSource="PubMed" identifier="10620335" />
+      <Author name="Klinge CM" />
+      <Author name="Kaur K" />
+      <Author name="Swanson HI" />
+    </Citation>
+    <Citation title="Transcriptional regulation of NF-E2 p45-related factor (NRF2) expression by the aryl hydrocarbon receptor-xenobiotic response element signaling pathway: direct cross-talk between phase I and II drug-metabolizing enzymes." URL="" citationID="afb" year="2005" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="15790560" />
+      <Author name="Miao W" />
+      <Author name="Hu L" />
+      <Author name="Scrivens PJ" />
+      <Author name="Batist G" />
+    </Citation>
+    <Citation title="Interactions of nuclear receptor coactivator/corepressor proteins with the aryl hydrocarbon receptor complex." URL="" citationID="d82" year="1999" source="Arch Biochem Biophys">
+      <Xref dataSource="PubMed" identifier="10395741" />
+      <Author name="Nguyen TA" />
+      <Author name="Hoivik D" />
+      <Author name="Lee JE" />
+      <Author name="Safe S" />
+    </Citation>
+    <Citation title="Binding of aryl hydrocarbon receptor (AhR) to AhR-interacting protein. The role of hsp90." URL="" citationID="aba" year="2000" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="10961990" />
+      <Author name="Bell DR" />
+      <Author name="Poland A" />
+    </Citation>
+    <Citation title="Nrf2 protects against 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD)-induced oxidative injury and steatohepatitis." URL="" citationID="ddc" year="2011" source="Toxicol Appl Pharmacol">
+      <Xref dataSource="PubMed" identifier="21846477" />
+      <Author name="Lu H" />
+      <Author name="Cui W" />
+      <Author name="Klaassen CD" />
+    </Citation>
+    <Citation title="Stereospecific, high affinity binding of 2,3,7,8-tetrachlorodibenzo-p-dioxin by hepatic cytosol. Evidence that the binding species is receptor for induction of aryl hydrocarbon hydroxylase." URL="" citationID="f41" year="1976" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="956169" />
+      <Author name="Poland A" />
+      <Author name="Glover E" />
+      <Author name="Kende AS" />
+    </Citation>
+    <Citation title="The tyrosine kinase receptor RET interacts in vivo with aryl hydrocarbon receptor-interacting protein to alter survivin availability." URL="" citationID="c67" year="2009" source="J Clin Endocrinol Metab">
+      <Xref dataSource="PubMed" identifier="19366855" />
+      <Author name="Vargiolu M" />
+      <Author name="Fusco D" />
+      <Author name="Kurelac I" />
+      <Author name="Dirnberger D" />
+      <Author name="Baumeister R" />
+      <Author name="Morra I" />
+      <Author name="Melcarne A" />
+      <Author name="Rimondini R" />
+      <Author name="Romeo G" />
+      <Author name="Bonora E" />
+    </Citation>
+    <Citation title="A direct interaction between the aryl hydrocarbon receptor and retinoblastoma protein. Linking dioxin signaling to the cell cycle." URL="" citationID="d88" year="1998" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="9712901" />
+      <Author name="Ge NL" />
+      <Author name="Elferink CJ" />
+    </Citation>
+    <Citation title="The aryl hydrocarbon (Ah) receptor transcriptional regulator hepatitis B virus X-associated protein 2 antagonizes p23 binding to Ah receptor-Hsp90 complexes and is dispensable for receptor function." URL="" citationID="b48" year="2004" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="15322122" />
+      <Author name="Hollingshead BD" />
+      <Author name="Petrulis JR" />
+      <Author name="Perdew GH" />
+    </Citation>
+    <Citation title="TCDD-mediated alterations in the AhR-dependent pathway in Seveso, Italy, 20 years after the accident." URL="" citationID="f03" year="2003" source="Carcinogenesis">
+      <Xref dataSource="PubMed" identifier="12727795" />
+      <Author name="Landi MT" />
+      <Author name="Bertazzi PA" />
+      <Author name="Baccarelli A" />
+      <Author name="Consonni D" />
+      <Author name="Masten S" />
+      <Author name="Lucier G" />
+      <Author name="Mocarelli P" />
+      <Author name="Needham L" />
+      <Author name="Caporaso N" />
+      <Author name="Grassman J" />
+    </Citation>
+    <Citation title="Dioxin-mediated up-regulation of aryl hydrocarbon receptor target genes is dependent on the calcium/calmodulin/CaMKIalpha pathway." URL="" citationID="e26" year="2008" source="Mol Pharmacol">
+      <Xref dataSource="PubMed" identifier="18089838" />
+      <Author name="Monteiro P" />
+      <Author name="Gilot D" />
+      <Author name="Le Ferrec E" />
+      <Author name="Rauch C" />
+      <Author name="Lagadic-Gossmann D" />
+      <Author name="Fardel O" />
+    </Citation>
+    <Citation title="Ligand displaces heat shock protein 90 from overlapping binding sites within the aryl hydrocarbon receptor ligand-binding domain." URL="" citationID="f49" year="2011" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="21856752" />
+      <Author name="Soshilov A" />
+      <Author name="Denison MS" />
+    </Citation>
+    <Citation title="Epidermal growth factor-activated aryl hydrocarbon receptor nuclear translocator/HIF-1{beta} signal pathway up-regulates cyclooxygenase-2 gene expression associated with squamous cell carcinoma." URL="" citationID="f04" year="2009" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="19203995" />
+      <Author name="Chang KY" />
+      <Author name="Shen MR" />
+      <Author name="Lee MY" />
+      <Author name="Wang WL" />
+      <Author name="Su WC" />
+      <Author name="Chang WC" />
+      <Author name="Chen BK" />
+    </Citation>
+    <Citation title="Tumor necrosis factor-alpha potentiates genotoxic effects of benzo[a]pyrene in rat liver epithelial cells through upregulation of cytochrome P450 1B1 expression." URL="" citationID="a5e" year="2008" source="Mutat Res">
+      <Xref dataSource="PubMed" identifier="18336843" />
+      <Author name="Umannovأ، L" />
+      <Author name="Machala M" />
+      <Author name="Topinka J" />
+      <Author name="Novأ،kovأ، Z" />
+      <Author name="Milcovأ، A" />
+      <Author name="Kozubأ­k A" />
+      <Author name="Vondrأ،cek J" />
+    </Citation>
+    <Citation title="Specificity within the EGF family/ErbB receptor family signaling network." URL="" citationID="b3d" year="1998" source="Bioessays">
+      <Xref dataSource="PubMed" identifier="9504046" />
+      <Author name="Riese DJ 2nd" />
+      <Author name="Stern DF" />
+    </Citation>
+    <Citation title="Role of the aryl hydrocarbon receptor nuclear translocator protein in aryl hydrocarbon (dioxin) receptor action." URL="" citationID="ad6" year="1993" source="Mol Pharmacol">
+      <Xref dataSource="PubMed" identifier="8396713" />
+      <Author name="Probst MR" />
+      <Author name="Reisz-Porszasz S" />
+      <Author name="Agbunag RV" />
+      <Author name="Ong MS" />
+      <Author name="Hankinson O" />
+    </Citation>
+    <Citation title="Human AH locus polymorphism and cancer: inducibility of CYP1A1 and other genes by combustion products and dioxin." URL="" citationID="e5d" year="1991" source="Pharmacogenetics">
+      <Xref dataSource="PubMed" identifier="1844873" />
+      <Author name="Nebert DW" />
+      <Author name="Petersen DD" />
+      <Author name="Puga A" />
+    </Citation>
+    <Citation title="Identification of cdk2 binding sites on the p27Kip1 cyclin-dependent kinase inhibitor." URL="" citationID="fb3" year="1998" source="Oncogene">
+      <Xref dataSource="PubMed" identifier="9488039" />
+      <Author name="Kwon TK" />
+      <Author name="Nordin AA" />
+    </Citation>
+    <Citation title="Identification of c-Src as the integral component of the cytosolic Ah receptor complex, transducing the signal of 2,3,7,8-tetrachlorodibenzo-p-dioxin (TCDD) through the protein phosphorylation pathway." URL="" citationID="c1d" year="1996" source="Biochem Pharmacol">
+      <Xref dataSource="PubMed" identifier="8937476" />
+      <Author name="Enan E" />
+      <Author name="Matsumura F" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+    <OntologyTerm term="signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000003" />
+    <OntologyTerm term="functioning pituitary adenoma" ontology="Disease" ontologyTermID="DOID:5395" />
+  </OntologyTerms>
+</Pathway>
+

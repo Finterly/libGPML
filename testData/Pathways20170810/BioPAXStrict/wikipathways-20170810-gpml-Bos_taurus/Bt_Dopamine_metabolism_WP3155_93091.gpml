@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="db9a2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DOPAL</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id71">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id71</bp:displayName>
+ <bp:right rdf:resource="af4b4" />
+ <bp:left rdf:resource="d9e04" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id70">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id70</bp:displayName>
+ <bp:right rdf:resource="d9e04" />
+ <bp:left rdf:resource="db9a2" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id73">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id73</bp:displayName>
+ <bp:right rdf:resource="db9a2" />
+ <bp:right rdf:resource="f4c52" />
+ <bp:left rdf:resource="a8e83" />
+ <bp:left rdf:resource="c0681" />
+ <bp:left rdf:resource="ee731" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="c9aca">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Dopa quinone
+</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id72">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id72</bp:displayName>
+ <bp:right rdf:resource="a8e83" />
+ <bp:left rdf:resource="a8073" />
+ <bp:left rdf:resource="f257f" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id75">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id75</bp:displayName>
+ <bp:right rdf:resource="a16d9" />
+ <bp:left rdf:resource="f098a" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="c3ef3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5,6-Dihydroxyindole</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id74">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id74</bp:displayName>
+ <bp:right rdf:resource="af4b4" />
+ <bp:left rdf:resource="a16d9" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id77">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id77</bp:displayName>
+ <bp:right rdf:resource="c3ef3" />
+ <bp:left rdf:resource="c5d27" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id76">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id76</bp:displayName>
+ <bp:right rdf:resource="f4c52" />
+ <bp:right rdf:resource="ee731" />
+ <bp:right rdf:resource="bb8d8" />
+ <bp:left rdf:resource="c0681" />
+ <bp:left rdf:resource="ef211" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id79">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id79</bp:displayName>
+ <bp:right rdf:resource="c6a9b" />
+ <bp:left rdf:resource="f4c52" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id78">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id78</bp:displayName>
+ <bp:right rdf:resource="fbd1e" />
+ <bp:left rdf:resource="fdd3b" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id60">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">41941</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id62">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00118</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id61">
+ <bp:xref rdf:resource="id62" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homovanillic acid</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="d9e04">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DOPAC</bp:displayName>
+ <bp:entityReference rdf:resource="id59" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id64">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id64</bp:displayName>
+ <bp:right rdf:resource="ea6d9" />
+ <bp:left rdf:resource="ae573" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id63">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id63</bp:displayName>
+ <bp:right rdf:resource="a8073" />
+ <bp:right rdf:resource="eec27" />
+ <bp:left rdf:resource="ef729" />
+ <bp:left rdf:resource="d9e3c" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id66">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id66</bp:displayName>
+ <bp:right rdf:resource="f81cf" />
+ <bp:left rdf:resource="ea6d9" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id65">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id65</bp:displayName>
+ <bp:right rdf:resource="b02d5" />
+ <bp:left rdf:resource="c9aca" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id68">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id68</bp:displayName>
+ <bp:right rdf:resource="f098a" />
+ <bp:left rdf:resource="a8e83" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id67">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id67</bp:displayName>
+ <bp:right rdf:resource="de5a4" />
+ <bp:left rdf:resource="db9a2" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="ef211">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1-chloro-2,4-dinitrobenzene</bp:displayName>
+ <bp:entityReference rdf:resource="id43" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id69">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id69</bp:displayName>
+ <bp:right rdf:resource="fdd3b" />
+ <bp:left rdf:resource="fbd1e" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="f81cf">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Neuromelanin
+</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="c982b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S-Adenosylmethionine</bp:displayName>
+ <bp:entityReference rdf:resource="id45" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="f4c52">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">H2O2</bp:displayName>
+ <bp:entityReference rdf:resource="id53" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Leukoaminochrome</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01967</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="f257f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CO2</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dopaminochrome</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB12992</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Dopa quinone</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="b02d5">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Leucodopachrome</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">170262</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubChem-compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="ea6d9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ICQA
+</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id80">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id80</bp:displayName>
+ <bp:right rdf:resource="ae573" />
+ <bp:left rdf:resource="c5d27" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id82">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id82</bp:displayName>
+ <bp:right rdf:resource="c5d27" />
+ <bp:left rdf:resource="b02d5" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id81">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id81</bp:displayName>
+ <bp:right rdf:resource="fbd1e" />
+ <bp:left rdf:resource="edc51" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id84">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id84</bp:displayName>
+ <bp:right rdf:resource="b870c" />
+ <bp:right rdf:resource="c982b" />
+ <bp:right rdf:resource="ef211" />
+ <bp:left rdf:resource="a8e83" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id83">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id83</bp:displayName>
+ <bp:right rdf:resource="c9aca" />
+ <bp:left rdf:resource="a8073" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="de5a4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DOPET</bp:displayName>
+ <bp:entityReference rdf:resource="id57" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="a16d9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homovanillin</bp:displayName>
+ <bp:entityReference rdf:resource="id55" />
+</bp:SmallMolecule>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id80" />
+ <bp:pathwayComponent rdf:resource="id71" />
+ <bp:pathwayComponent rdf:resource="id82" />
+ <bp:pathwayComponent rdf:resource="id70" />
+ <bp:pathwayComponent rdf:resource="id81" />
+ <bp:pathwayComponent rdf:resource="id73" />
+ <bp:pathwayComponent rdf:resource="id84" />
+ <bp:pathwayComponent rdf:resource="id72" />
+ <bp:pathwayComponent rdf:resource="id83" />
+ <bp:pathwayComponent rdf:resource="id64" />
+ <bp:pathwayComponent rdf:resource="id75" />
+ <bp:pathwayComponent rdf:resource="id63" />
+ <bp:pathwayComponent rdf:resource="id74" />
+ <bp:pathwayComponent rdf:resource="id66" />
+ <bp:pathwayComponent rdf:resource="id77" />
+ <bp:pathwayComponent rdf:resource="id65" />
+ <bp:pathwayComponent rdf:resource="id76" />
+ <bp:pathwayComponent rdf:resource="id68" />
+ <bp:pathwayComponent rdf:resource="id79" />
+ <bp:pathwayComponent rdf:resource="id67" />
+ <bp:pathwayComponent rdf:resource="id78" />
+ <bp:pathwayComponent rdf:resource="id69" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dopamine metabolism</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP2436_r71387 WP2436(71387)]  with a 92.0% conversion rate. (HomologyConvert)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00073</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dopamine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB12219</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dopamine quinone</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00181</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Dopa</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CO2</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="af4b4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homovanillic acid</bp:displayName>
+ <bp:entityReference rdf:resource="id61" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tetrahydrobiopterin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00158</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4a-Hydroxytetrahydrobiopterin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00027</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="ee731">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">O2</bp:displayName>
+ <bp:entityReference rdf:resource="id51" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id35">
+ <bp:xref rdf:resource="id36" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DOPAL</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB02281</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id37">
+ <bp:xref rdf:resource="id38" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3-Methoxytyramine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id36">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB03791</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">136368185</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubChem-substance</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Neuromelanin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Tyrosine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01430</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="ae573">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DHICA</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB04058</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5,6-Dihydroxyindole</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="b870c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S-Adenosylhomocysteine</bp:displayName>
+ <bp:entityReference rdf:resource="id41" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01253</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DHICA</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">46173450</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubChem-compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ICQA</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Leucodopachrome</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:16852</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Dopachrome</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB04067</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="fbd1e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Leukoaminochrome</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="a8e83">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dopamine</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="fdd3b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dopaminochrome</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="c5d27">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Dopachrome</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="ef729">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tetrahydrobiopterin</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="a8073">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Dopa</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id51">
+ <bp:xref rdf:resource="id52" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">O2</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id50">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB02111</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id53">
+ <bp:xref rdf:resource="id54" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">H2O2</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id52">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01377</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id55">
+ <bp:xref rdf:resource="id56" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homovanillin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id54">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB03125</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id57">
+ <bp:xref rdf:resource="id58" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DOPET</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id56">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB05175</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id59">
+ <bp:xref rdf:resource="id60" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DOPAC</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id58">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB05784</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id49">
+ <bp:xref rdf:resource="id50" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">H2O</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="c6a9b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ROS</bp:displayName>
+ <bp:entityReference rdf:resource="id39" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="d9e3c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Tyrosine</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="bb8d8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">N-Methylserotonin</bp:displayName>
+ <bp:entityReference rdf:resource="id47" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id40">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">26523</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id42">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00939</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id41">
+ <bp:xref rdf:resource="id42" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S-Adenosylhomocysteine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id44">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:34718</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id43">
+ <bp:xref rdf:resource="id44" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1-chloro-2,4-dinitrobenzene</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="c0681">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">H2O</bp:displayName>
+ <bp:entityReference rdf:resource="id49" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="f098a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3-Methoxytyramine</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id46">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01185</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id45">
+ <bp:xref rdf:resource="id46" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S-Adenosylmethionine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id48">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB04369</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id47">
+ <bp:xref rdf:resource="id48" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">N-Methylserotonin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id39">
+ <bp:xref rdf:resource="id40" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ROS</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id38">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00022</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="eec27">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4a-Hydroxytetrahydrobiopterin</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="edc51">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dopamine quinone</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+</rdf:RDF>

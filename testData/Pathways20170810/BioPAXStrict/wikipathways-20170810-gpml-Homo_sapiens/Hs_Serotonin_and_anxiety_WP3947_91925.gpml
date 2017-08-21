@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:PublicationXref rdf:about="e32">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2012</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Jensen T</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Edwards JG</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">22260796</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Neurosci Lett</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Calcineurin is required for TRPV1-induced long-term depression of hippocampal interneurons.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:ProteinReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6166</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubChem-compound</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADRA1A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="b2fee">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GRM1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000019828 (HomologyMapper)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">G-protein-coupled phosphatidylinositol-calcium second messenger system</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000178394</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id35">
+ <bp:xref rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR2A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000120907</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="f663e">
+ <bp:xref rdf:resource="e12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1A</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000021721 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id37">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id37</bp:displayName>
+ <bp:right rdf:resource="d1449" />
+ <bp:left rdf:resource="f0ac2" />
+ <bp:left rdf:resource="fd41a" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id36">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000102468</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000170345</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FOS</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMoleculeReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DOC</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="aaef1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">THDOC</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:PublicationXref rdf:about="dc5">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2008</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Moore MJ</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bramham CR</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Guzowski JF</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Worley PF</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">19005037</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">J Neurosci</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The immediate early gene arc/arg3.1: regulation, mechanisms, and function.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="ad759">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">POMC</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000020660 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id60">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id60</bp:displayName>
+ <bp:right rdf:resource="b52f7" />
+ <bp:left rdf:resource="b2fee" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id62">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id62</bp:displayName>
+ <bp:right rdf:resource="aaef1" />
+ <bp:left rdf:resource="f2b52" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="f856c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADRA1A</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000045875 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id61">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id61</bp:displayName>
+ <bp:right rdf:resource="e895e" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000138814</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Complex rdf:about="id64">
+ <bp:xref rdf:resource="dc5" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id64</bp:displayName>
+ <bp:component rdf:resource="b2fee" />
+</bp:Complex>
+
+<bp:Catalysis rdf:about="id63">
+ <bp:controller rdf:resource="ad759" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id63</bp:displayName>
+ <bp:controlled rdf:resource="id62" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000022355</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GABRA1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000198576</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="b52f7">
+ <bp:xref rdf:resource="dc5" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ca2+</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARC</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000147246</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR2C</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CRH</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000102081</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP3CA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="f0ac2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR2C</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000041380 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000147571</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="fa8ce">
+ <bp:xref rdf:resource="f6d" />
+ <bp:xref rdf:resource="ad0" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARC</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000022602 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="da087">
+ <bp:xref rdf:resource="e32" />
+ <bp:xref rdf:resource="ad0" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP3CA</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000028161 (HomologyMapper)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">calcineurin</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="bfa80">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FMR1</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000000838 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="f019d">
+ <bp:xref rdf:resource="ad0" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARC</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000022602 (HomologyMapper)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Calcium ion channel</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="f2b52">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DOC</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id51">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id51</bp:displayName>
+ <bp:left rdf:resource="aaef1" />
+</bp:BiochemicalReaction>
+
+<bp:PublicationXref rdf:about="e12">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1988</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">van der Starre PJ</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reneman RS</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2459516</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">J Cardiovasc Pharmacol</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The alpha-adrenergic receptor blocking effect of ketanserin and the interaction between alpha-adrenergic and S2-serotonergic receptor blockade.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:BiochemicalReaction rdf:about="id50">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id50</bp:displayName>
+ <bp:right rdf:resource="da087" />
+ <bp:left rdf:resource="fa8ce" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id53">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id53</bp:displayName>
+ <bp:right rdf:resource="f1a8d" />
+ <bp:left rdf:resource="f0ac2" />
+ <bp:left rdf:resource="fd41a" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id52">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id52</bp:displayName>
+ <bp:right rdf:resource="fd41a" />
+ <bp:left rdf:resource="b4377" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ca2+</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:BiochemicalReaction rdf:about="id55">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id55</bp:displayName>
+ <bp:right rdf:resource="bfa80" />
+ <bp:left rdf:resource="b2710" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3822</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubChem-compound</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id54">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id54</bp:displayName>
+ <bp:left rdf:resource="b5b95" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TRPV1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id57">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id57</bp:displayName>
+ <bp:right rdf:resource="f0ac2" />
+ <bp:left rdf:resource="b4377" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:29108</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="fd41a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR2A</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000034997 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id56">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id56</bp:displayName>
+ <bp:left rdf:resource="b52f7" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FMR1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id59">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id59</bp:displayName>
+ <bp:right rdf:resource="d1449" />
+ <bp:left rdf:resource="f663e" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000196689</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id58">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id58</bp:displayName>
+ <bp:right rdf:resource="dc811" />
+ <bp:left rdf:resource="aaef1" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id49">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id49</bp:displayName>
+ <bp:right rdf:resource="f856c" />
+ <bp:left rdf:resource="b4377" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="d1449">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CRH</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000049796 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="f6d">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2011</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Vadodaria KC</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Benekareddy M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Vaidya VA</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nair AR</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">21959103</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Biol Psychiatry</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Postnatal serotonin type 2 receptor blockade prevents the emergence of anxiety behavior, dysregulated stress-induced immediate early gene responses, and specific transcriptional changes that arise following early life stress.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="dc811">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GABRA1</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GABA a receptor</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000010803 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="f1a8d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FOS</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000021250 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e895e">
+ <bp:xref rdf:resource="dc5" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARC</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000022602 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="c4808">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ca2+</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id40">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id40</bp:displayName>
+ <bp:right rdf:resource="fa8ce" />
+ <bp:left rdf:resource="e895e" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id42">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id42</bp:displayName>
+ <bp:right rdf:resource="b2710" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id41">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id41</bp:displayName>
+ <bp:right rdf:resource="ad759" />
+ <bp:left rdf:resource="d1449" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id44">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id44</bp:displayName>
+ <bp:right rdf:resource="f019d" />
+ <bp:left rdf:resource="d2587" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id43">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id43</bp:displayName>
+ <bp:right rdf:resource="c4808" />
+ <bp:left rdf:resource="f019d" />
+</bp:BiochemicalReaction>
+
+<bp:PublicationXref rdf:about="ad0">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2004</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mignen O</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Shuttleworth TJ</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Thompson JL</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15546853</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Physiology (Bethesda)</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARC channels: a novel pathway for receptor-activated calcium entry.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:BiochemicalReaction rdf:about="id46">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id46</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id45">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id45</bp:displayName>
+ <bp:left rdf:resource="bfa80" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id48">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id48</bp:displayName>
+ <bp:right rdf:resource="fa8ce" />
+ <bp:left rdf:resource="f0ac2" />
+ <bp:left rdf:resource="fd41a" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id47">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id47</bp:displayName>
+ <bp:right rdf:resource="f663e" />
+ <bp:left rdf:resource="b4377" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id39">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id39</bp:displayName>
+ <bp:right rdf:resource="b5b95" />
+ <bp:left rdf:resource="da087" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id38">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id38</bp:displayName>
+ <bp:right rdf:resource="fa8ce" />
+ <bp:left rdf:resource="da087" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="b5b95">
+ <bp:xref rdf:resource="e32" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TRPV1</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000005952 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id51" />
+ <bp:pathwayComponent rdf:resource="id50" />
+ <bp:pathwayComponent rdf:resource="id53" />
+ <bp:pathwayComponent rdf:resource="id52" />
+ <bp:pathwayComponent rdf:resource="id55" />
+ <bp:pathwayComponent rdf:resource="id54" />
+ <bp:pathwayComponent rdf:resource="id57" />
+ <bp:pathwayComponent rdf:resource="id56" />
+ <bp:pathwayComponent rdf:resource="id37" />
+ <bp:pathwayComponent rdf:resource="id59" />
+ <bp:pathwayComponent rdf:resource="id58" />
+ <bp:pathwayComponent rdf:resource="id49" />
+ <bp:pathwayComponent rdf:resource="id60" />
+ <bp:pathwayComponent rdf:resource="id40" />
+ <bp:pathwayComponent rdf:resource="id62" />
+ <bp:pathwayComponent rdf:resource="id61" />
+ <bp:pathwayComponent rdf:resource="id42" />
+ <bp:pathwayComponent rdf:resource="id41" />
+ <bp:pathwayComponent rdf:resource="id63" />
+ <bp:pathwayComponent rdf:resource="id44" />
+ <bp:pathwayComponent rdf:resource="id43" />
+ <bp:pathwayComponent rdf:resource="id46" />
+ <bp:pathwayComponent rdf:resource="id45" />
+ <bp:pathwayComponent rdf:resource="id48" />
+ <bp:pathwayComponent rdf:resource="id47" />
+ <bp:pathwayComponent rdf:resource="id39" />
+ <bp:pathwayComponent rdf:resource="id38" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Serotonin and anxiety</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Note that part of this pathway is based on results obtained from research done in rattus norvegicus.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Mus musculus pathway &quot;Serotonin and anxiety&quot;, WP2141 revision 89967, with a 80.0% conversion rate. (HomologyMapper)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Benekareddy et al observed the phenomenon that rats who were maternally separated show increased levels of induced anxiety-related behaviour during adulthood. Type 2 serotonin receptors have been implicated in anxiety related behaviour and may be suitable targets for reducing anxiety response. Benekareddy et al report that treatment with ketanserin (a serotonergic antagonist) during postnatal life blocked the long-lasting effects of maternal separation on anxiety behavior in the open field test and the elevated plus maze. Immediate Early Genes such as Arc have been found to be significantly affected in expression (Benekareddy et al). The downstream and upstream gene products of Arc were partly elucidated and presented in a pathway. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">91475</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubChem-compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">THDOC</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000115138</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="b2710">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GRM1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000019828 (HomologyMapper)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">G-protein-coupled phosphatidylinositol-calcium second messenger system</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">POMC</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000152822</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="b4377">
+ <bp:xref rdf:resource="f6d" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ketanserin</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GRM1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="d2587">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ca2+
+</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ketanserin</bp:displayName>
+</bp:SmallMoleculeReference>
+</rdf:RDF>

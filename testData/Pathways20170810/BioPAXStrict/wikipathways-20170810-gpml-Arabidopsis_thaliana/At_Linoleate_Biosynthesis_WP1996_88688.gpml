@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="c5509">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">oleoyl-CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">coenzyme-A</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">56-65-5</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">H+</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">85-61-0</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Diphosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">12408-02-5</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="c7fab">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Long-chain-fatty-acid-CoA ligase</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="e1882">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">H+</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="fdbf0">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">coenzyme-A</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="d8297">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AMP</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id20">
+ <bp:controller rdf:resource="fdbf0" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id20</bp:displayName>
+ <bp:controlled rdf:resource="id19" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id22">
+ <bp:controller rdf:resource="cbec7" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id22</bp:displayName>
+ <bp:controlled rdf:resource="id19" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id21">
+ <bp:controller rdf:resource="c7fab" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id21</bp:displayName>
+ <bp:controlled rdf:resource="id19" />
+</bp:Catalysis>
+
+<bp:SmallMolecule rdf:about="ca034">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Diphosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AMP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2466-09-3</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id19">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id19</bp:displayName>
+ <bp:right rdf:resource="e1882" />
+ <bp:right rdf:resource="d8297" />
+ <bp:right rdf:resource="c5509" />
+ <bp:right rdf:resource="ca034" />
+ <bp:left rdf:resource="dcb5c" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">61-19-8</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Arabidopsis thaliana</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Arabidopsis thaliana</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id19" />
+ <bp:pathwayComponent rdf:resource="id20" />
+ <bp:pathwayComponent rdf:resource="id22" />
+ <bp:pathwayComponent rdf:resource="id21" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Linoleate Biosynthesis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">112-80-1</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oleate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1716-06-9</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">oleoyl-CoA</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="cbec7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ATP</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6.2.1.3</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Enzyme Nomenclature</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Long-chain-fatty-acid-CoA ligase</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="dcb5c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oleate</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ATP</bp:displayName>
+</bp:SmallMoleculeReference>
+</rdf:RDF>

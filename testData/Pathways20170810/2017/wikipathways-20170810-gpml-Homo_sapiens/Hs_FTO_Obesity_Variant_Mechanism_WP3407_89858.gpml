@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="FTO Obesity Variant Mechanism" organism="Homo sapiens" width="440.2836023543674" height="492.7993159595626">
+  <Xref dataSource="" identifier="" />
+  <Author name="Alexander Pico" />
+  <Comment source="WikiPathways-description">Mechanism underlying the association of FTO locus variants and obesity. The wild type T allele at rs1421085 in the FTO locus comprises a protein-DNA binding motif for ARID5B that represses the transcription of IRX3 and IRX5, which in turn de-represses a set of thermogenic genes, leading to mitochondrial thermogenesis and a browning adipocyte program. The C risk allele, on the other hand, disrupts the binding motif for ARID5B and activates a mesenchymal superenhancer and its targets, IRX3 and IRX5, which represses thermogenesis and leads to a shift to lipid storage, white adipocytes and, thus, increased risk of obesity. 
+
+
+In addition to the primary literature references associated with the pathway, also refer to this blog article providing additional perspective and drug discovery potential by Roger Plenge, "Article of the week: ARID5B-FTO-IRX3/IRX5 regulatory axis for drug discovery in obesity (NEJM)." August 21, 2015. http://www.plengegen.com/blog/arid5b-fto-irx3irx5-regulatory-axis-drug-discovery-obesity-nejm/</Comment>
+  <CitationRef citationID="fab" />
+  <CitationRef citationID="af6" />
+  <DataNode elementID="b70cf" textLabel="PRDM16" groupRef="d441d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="199.326881883494" centerY="330.2622789225255" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000142611" />
+  </DataNode>
+  <DataNode elementID="bd803" textLabel="FTO" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="333.1634409417469" centerY="122.13113946126285" width="52.826881883494025" height="25.262278922525695" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="79068" />
+  </DataNode>
+  <DataNode elementID="bdea0" textLabel="Fatty Acid Oxidation" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="280.8916966983121" centerY="423.4474641077107" width="148.7962962962966" height="20.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP368" />
+  </DataNode>
+  <DataNode elementID="c6fe8" textLabel="ARID5B" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="197.326881883494" centerY="57.26227892252575" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000150347" />
+  </DataNode>
+  <DataNode elementID="d7732" textLabel="IRX5" groupRef="d916e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="263.3268818834937" centerY="214.2622789225257" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000176842" />
+  </DataNode>
+  <DataNode elementID="d8875" textLabel="PPARGC1A" groupRef="d441d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="199.326881883494" centerY="310.2622789225255" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000109819" />
+  </DataNode>
+  <DataNode elementID="e1668" textLabel="IRX3" groupRef="d916e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="263.3268818834937" centerY="194.2622789225257" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000177508" />
+  </DataNode>
+  <DataNode elementID="f7d14" textLabel="UCP1" groupRef="d441d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="199.326881883494" centerY="290.2622789225255" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000109424" />
+  </DataNode>
+  <DataNode elementID="fb31e" textLabel="TBX1" groupRef="d441d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="199.326881883494" centerY="350.2622789225255" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000184058" />
+  </DataNode>
+  <DataNode elementID="da83e" textLabel="FTO" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="197.326881883494" centerY="122.13113946126285" width="52.826881883494025" height="25.262278922525695" zOrder="32769">
+    <Xref dataSource="Entrez Gene" identifier="79068" />
+  </DataNode>
+  <State elementID="b2ba5" textLabel="C risk allele" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="bd803" relX="1.5" relY="1.0" width="75.0" height="15.0">
+    <Comment>C risk allele (rs1421085)</Comment>
+    <Xref dataSource="dbSNP" identifier="rs1421085" />
+  </State>
+  <State elementID="ccfe6" textLabel="T risk allele" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="da83e" relX="1.5" relY="1.0" width="75.0" height="15.0">
+    <Xref dataSource="dbSNP" identifier="rs1421085" />
+  </State>
+  <Interaction elementID="id3088f9b5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="197.326881883494" y="67.26227892252575" elementID="a7e0d" elementRef="c6fe8" relX="0.0" relY="1.0" />
+    <Point x="197.326881883494" y="109.5" elementID="f15df" elementRef="da83e" relX="0.0" relY="-1.0" arrowHead="mim-binding" />
+  </Interaction>
+  <Interaction elementID="id427fa156" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="239.32688188349368" y="232.2622789225257" elementID="a8cec" elementRef="d916e" relX="-0.5" relY="1.0" />
+    <Point x="223.326881883494" y="272.2622789225255" elementID="be785" elementRef="d441d" relX="0.5" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id4361f83f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="287.3268818834937" y="232.2622789225257" elementID="a68e1" elementRef="d916e" relX="0.5" relY="1.0" />
+    <Point x="311.01206706867896" y="271.3178344780812" elementID="e4b5f" elementRef="e5aca" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6296afd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="210.5336023543675" y="134.7622789225257" elementID="a19c8" elementRef="da83e" relX="0.5" relY="1.0" />
+    <Point x="239.32688188349368" y="176.2622789225257" elementID="b2893" elementRef="d916e" relX="-0.5" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id87a734e1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="223.326881883494" y="368.2622789225255" elementID="b9e53" elementRef="d441d" relX="0.5" relY="1.0" />
+    <Point x="243.69262262423797" y="413.4474641077107" elementID="e84e7" elementRef="bdea0" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8fb3513b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="175.326881883494" y="368.2622789225255" elementID="fd0d5" elementRef="d441d" relX="-0.5" relY="1.0" />
+    <Point x="145.05373373534684" y="414.41968632993303" elementID="f0a61" elementRef="a6b1d" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbe537d08" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="319.9567204708734" y="134.7622789225257" elementID="ed24a" elementRef="bd803" relX="-0.5" relY="1.0" />
+    <Point x="287.3268818834937" y="176.2622789225257" elementID="d928d" elementRef="d916e" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="e5aca" textLabel="Lipid storage in&#xA;white adipocytes" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="343.01206706867896" centerY="287.8178344780812" width="128.0" height="33.0" zOrder="28672" />
+  <Label elementID="a6b1d" textLabel="Browning mitochondrial&#xA;thermogenesis and&#xA;beige adipocytes" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="105.73428929090244" centerY="438.6095011447478" width="157.2777777777776" height="48.3796296296295" zOrder="32770" />
+  <Group elementID="d441d" groupType="Group" />
+  <Group elementID="d916e" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Unraveling the Function of FTO Variants." URL="" citationID="af6" year="2015" source="N Engl J Med">
+      <Xref dataSource="PubMed" identifier="26287747" />
+      <Author name="Rosen CJ" />
+      <Author name="Ingelfinger JR" />
+    </Citation>
+    <Citation title="FTO Obesity Variant Circuitry and Adipocyte Browning in Humans." URL="" citationID="fab" year="2015" source="N Engl J Med">
+      <Xref dataSource="PubMed" identifier="26287746" />
+      <Author name="Claussnitzer M" />
+      <Author name="Dankel SN" />
+      <Author name="Kim KH" />
+      <Author name="Quon G" />
+      <Author name="Meuleman W" />
+      <Author name="Haugen C" />
+      <Author name="Glunk V" />
+      <Author name="Sousa IS" />
+      <Author name="Beaudry JL" />
+      <Author name="Puviindran V" />
+      <Author name="Abdennur NA" />
+      <Author name="Liu J" />
+      <Author name="Svensson PA" />
+      <Author name="Hsu YH" />
+      <Author name="Drucker DJ" />
+      <Author name="Mellgren G" />
+      <Author name="Hui CC" />
+      <Author name="Hauner H" />
+      <Author name="Kellis M" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="disease pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000013" />
+    <OntologyTerm term="obesity disease pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000540" />
+  </OntologyTerms>
+</Pathway>
+

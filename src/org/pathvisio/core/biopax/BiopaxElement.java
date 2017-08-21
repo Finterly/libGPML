@@ -136,7 +136,7 @@ public class BiopaxElement extends PathwayElement
 	public boolean hasReferences(BiopaxNode e) {
 		//Check for references in child objects
 		for(PathwayElement pwe : parent.getDataObjects()) {
-			if(pwe.getBiopaxRefs().contains(e.getId())) {
+			if(e!=null&&pwe.getBiopaxRefs().contains(e.getId())) {
 				return true;
 			}
 		}

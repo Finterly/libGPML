@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Complement Activation, Classical Pathway" organism="Bos taurus" width="911.0" height="580.6681514476614" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP notes"></Comment>
+  <Comment source="GenMAPP remarks"></Comment>
+  <Comment source="WikiPathways-category">Physiological Process</Comment>
+  <Comment source="WikiPathways-description">The complement system is a biochemical cascade that helps, or complements, the ability of antibodies to clear pathogens from an organism. It is part of the immune system called the innate immune system that is not adaptable and does not change over the course of an individual's lifetime. However, it can be recruited and brought into action by the adaptive immune system. The Classical pathway of activation of the complement system is a group of blood proteins that mediate the specific antibody response. [source: Wikipedia]
+
+The Classical pathway begins with circulating C1Q binding to an antigen on the surface of a pathogen, which goes on to active and recruit 2 copies of each C1R and C1S, forming a C1 complex. The activated C1 complex cleaves C2 and C4. Activated cleavage products C2A and C4B combine to form  C3 convertase, which cleaves C3. The cleavage product C3B joins the complex to form C5 convertase, which cleaves C5. The cleavage product C5B joins C6, C7, C8 and multiple copies of C9 to form the Membrane Attack Complex, which forms a channel for water to flood into the target cell, leading to osmotic lysis. The Decay accelerating factor (DAF) inhibits C3 convertase.
+
+The Lectin pathway involves mannose-binding lectin (MBL) binding the surface of the pathogen instead of C1Q. MBL-associated serine proteases MASP1 and MASP1 can cleave C2 and C4 in place of the C1 complex, leading to the formation of C3 convertase and the subsequent cascade.
+
+The Alternative pathway relies on the spontaneous hydrolysis of C3 and the cleavage of factor B (CFB) by factor D (CFD), which form an alternative C3 convertase stabilized by factor P (CFP). Additional copies of the cleavage product C3B are recruited to the complex, resulting in an alternative C5 convertase, which cleaves C5 and contributes C5B to the formation of the Membrane Attack Complex.</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP545_r72062 WP545(72062)]  with a 100.0% conversion rate.</Comment>
+  <CitationRef citationID="a6c" />
+  <DataNode elementID="a0b" textLabel="C1S" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="98.0" centerY="224.66666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:716</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C1S | complement component 1 s subcomponent" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000004840" />
+  </DataNode>
+  <DataNode elementID="a29" textLabel="C1QB" groupRef="b02b0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="165.0" centerY="125.66666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:713</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C1QB | complement component 1 q subcomponent ..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011196" />
+  </DataNode>
+  <DataNode elementID="a35" textLabel="C1R" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="39.92997198879552" centerY="194.51260504201684" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000159403</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C1R | complement component 1 r subcomponent" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000037743" />
+  </DataNode>
+  <DataNode elementID="a79" textLabel="C1QA" groupRef="b02b0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="165.0" centerY="105.66666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="GenMAPP remarks">update: C1QA HUMAN</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:712</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C1QA | complement component 1 q subcomponent ..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007153" />
+  </DataNode>
+  <DataNode elementID="b02" textLabel="C1QC" groupRef="b02b0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="165.0" centerY="145.66666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="GenMAPP remarks">update C1QC HUMAN</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:714</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C1QG | complement component 1 q subcomponent ..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011193" />
+  </DataNode>
+  <DataNode elementID="b55" textLabel="C8A" groupRef="c88a3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="704.6666666666666" centerY="396.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:731</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C8A | complement component 8 alpha polypeptide..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000003774" />
+  </DataNode>
+  <DataNode elementID="b73" textLabel="MASP1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="427.6666666666667" centerY="210.33333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5648</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="MASP1 | mannan-binding lectin serine protease 1..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000012467" />
+  </DataNode>
+  <DataNode elementID="c86" textLabel="C2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="426.3333333333333" centerY="280.0" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:717</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C2 | complement component 2" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007450" />
+  </DataNode>
+  <DataNode elementID="c99" textLabel="C3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="510.0" centerY="280.0" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:718</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C3 | complement component 3" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017280" />
+  </DataNode>
+  <DataNode elementID="d72" textLabel="C9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="741.3333333333334" centerY="443.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:735</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C9 | complement component 9" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016149" />
+  </DataNode>
+  <DataNode elementID="d956b" textLabel="H2O" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="858.0" centerY="488.0" width="46.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB02111" />
+  </DataNode>
+  <DataNode elementID="e26" textLabel="C8B" groupRef="c88a3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="704.6666666666666" centerY="416.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:732</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C8B | complement component 8 beta polypeptide" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000003775" />
+  </DataNode>
+  <DataNode elementID="e77" textLabel="C6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="630.0" centerY="320.0" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:729</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C6 | complement component 6" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000014177" />
+  </DataNode>
+  <DataNode elementID="ee8" textLabel="C4B" groupRef="e8e4e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="337.6666666666667" centerY="288.0" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:721</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C4B | complement component 4B" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006864" />
+  </DataNode>
+  <DataNode elementID="eed" textLabel="CD55" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="394.0" centerY="131.66666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1604</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DAF | decay accelerating factor for complement ..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006984" />
+  </DataNode>
+  <DataNode elementID="f70" textLabel="C4A" groupRef="e8e4e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="337.6666666666667" centerY="268.0" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:720</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C4A | complement component 4A" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006864" />
+  </DataNode>
+  <DataNode elementID="fb7" textLabel="C7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="663.3333333333334" centerY="356.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:730</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C7 | complement component 7" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011766" />
+  </DataNode>
+  <DataNode elementID="fcc" textLabel="C5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="596.6666666666666" centerY="280.0" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:727</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C5 | complement component 5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000012210" />
+  </DataNode>
+  <Interaction elementID="a7195" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="441.3333333333333" y="290.0" elementID="eccfc" elementRef="c86" relX="0.5" relY="1.0" />
+    <Point x="510.0" y="290.0" elementID="dbffa" elementRef="c99" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="aac39" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="397.6666666666667" y="210.33333333333334" elementID="e94a6" elementRef="b73" relX="-1.0" relY="0.0" />
+    <Point x="352.6666666666667" y="258.0" elementID="f431a" elementRef="f70" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="afbce" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="618.1666666666665" y="490.5" elementID="ac380" elementRef="faf" relX="1.0" relY="0.0" />
+    <Point x="835.0" y="488.0" elementID="a409d" elementRef="d956b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c47ac" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="427.6666666666667" y="220.33333333333334" elementID="ca76b" elementRef="b73" relX="0.0" relY="1.0" />
+    <Point x="426.3333333333333" y="270.0" elementID="ed398" elementRef="c86" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ccc0f" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="189.74553355932454" y="194.8041258603505" elementID="ba2f0" elementRef="fcff5" relX="0.0" relY="0.0" />
+    <Point x="177.48989967952065" y="193.0" elementID="be183" />
+    <Point x="165.0" y="163.66666666666666" elementID="cc249" elementRef="b02b0" relX="0.0" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="cd3df" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="337.6666666666667" y="298.0" elementID="ee79d" elementRef="ee8" relX="0.0" relY="1.0" />
+    <Point x="426.3333333333333" y="290.0" elementID="b659c" elementRef="c86" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d357a" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="693.3333333333334" y="356.6666666666667" elementID="cdd17" elementRef="fb7" relX="1.0" relY="0.0" />
+    <Point x="723.6666666666666" y="378.6666666666667" elementID="ddd00" elementRef="c88a3" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d5569" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="626.6666666666666" y="280.0" elementID="a262c" elementRef="fcc" relX="1.0" relY="0.0" />
+    <Point x="645.0" y="310.0" elementID="b1817" elementRef="e77" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d58f1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.66666666666666" y="251.99999999999997" elementID="e399f" elementRef="a2ca4" relX="0.5" relY="-1.0" />
+    <Point x="211.46847104768702" y="194.8569794999797" elementID="d86c4" elementRef="ee16b" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d5da7" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="283.6666666666667" y="204.83333333333337" elementID="ebddd" elementRef="d80" relX="0.0" relY="1.0" />
+    <Point x="318.6666666666667" y="250.0" elementID="e5b68" elementRef="e8e4e" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="cc716" />
+  </Interaction>
+  <Interaction elementID="d67e0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="69.92997198879553" y="194.51260504201684" elementID="dfc79" elementRef="a35" relX="1.0" relY="0.0" />
+    <Point x="236.0" y="194.91666666666669" elementID="d6870" elementRef="d80" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.7214761327218254" shapeType="None" elementID="fcff5" />
+    <Anchor position="0.4" shapeType="None" elementID="d08cc" />
+    <Anchor position="0.8522820207469474" shapeType="None" elementID="ee16b" />
+  </Interaction>
+  <Interaction elementID="e9e31" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="742.6666666666666" y="406.6666666666667" elementID="eb126" elementRef="c88a3" relX="1.0" relY="0.0" />
+    <Point x="756.3333333333334" y="433.6666666666667" elementID="abc29" elementRef="d72" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ec72a" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="660.0" y="320.0" elementID="be897" elementRef="e77" relX="1.0" relY="0.0" />
+    <Point x="678.3333333333334" y="346.6666666666667" elementID="c63a0" elementRef="fb7" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ec986" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="846.5" y="498.0" elementID="bfe9f" elementRef="d956b" relX="-0.5" relY="1.0" />
+    <Point x="618.1666666666665" y="499.25" elementID="f900d" elementRef="faf" relX="1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f1659" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="98.0" y="214.66666666666666" elementID="a27a4" elementRef="a0b" relX="0.0" relY="-1.0" />
+    <Point x="136.35798319327733" y="194.67422969187677" elementID="a1260" elementRef="d08cc" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="f797f" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="525.0" y="290.0" elementID="cc2b5" elementRef="c99" relX="0.5" relY="1.0" />
+    <Point x="596.6666666666666" y="290.0" elementID="e49a2" elementRef="fcc" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f9a28" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="297.6666666666667" y="222.90000000000003" elementID="ace1c" elementRef="cc716" relX="0.0" relY="0.0" arrowHead="TBar" />
+    <Point x="394.0" y="141.66666666666666" elementID="ac359" elementRef="eed" relX="0.0" relY="1.0" />
+  </Interaction>
+  <GraphicalLine elementID="id43cb4b91" zOrder="12288" lineThickness="1.0">
+    <Point x="23.0" y="278.0" elementID="ca3ec" />
+    <Point x="592.0" y="278.0" elementID="d2448" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id45752369" zOrder="12288" lineThickness="1.0">
+    <Point x="774.4988864142539" y="520.0445434298441" elementID="d7e14" />
+    <Point x="792.8730512249443" y="520.0445434298441" elementID="b0da8" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id4df73b14" zOrder="12288" lineThickness="1.0">
+    <Point x="792.8730512249443" y="475.5011135857461" elementID="d7ce9" />
+    <Point x="792.8730512249443" y="459.9109131403118" elementID="ea709" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id53e6027b" zOrder="12288" lineThickness="1.0">
+    <Point x="733.2962138084632" y="443.7639198218263" elementID="fc6f7" />
+    <Point x="734.4097995545657" y="550.6681514476614" elementID="b5808" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id62ee96ba" zOrder="12288" lineThickness="1.0">
+    <Point x="771.1581291759466" y="461.0244988864142" elementID="e7c4f" />
+    <Point x="756.1247216035634" y="476.05790645879733" elementID="e6054" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id6df4b8b1" zOrder="12288" lineThickness="1.0">
+    <Point x="21.008403361344538" y="464.2857142857144" elementID="fcff7" />
+    <Point x="60.92436974789915" y="464.2857142857144" elementID="ebd8a" arrowHead="TBar" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id79c7a2a0" zOrder="12288" lineThickness="1.0">
+    <Point x="792.3162583518931" y="460.467706013363" elementID="cd11a" />
+    <Point x="771.7149220489978" y="460.467706013363" elementID="e5552" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id9ef3c797" zOrder="12288" lineThickness="1.0">
+    <Point x="792.8730512249443" y="506.12472160356344" elementID="dda71" />
+    <Point x="782.8507795100222" y="496.65924276169267" elementID="ba76c" />
+  </GraphicalLine>
+  <GraphicalLine elementID="iddd466f95" zOrder="12288" lineThickness="1.0">
+    <Point x="782.8507795100222" y="496.1024498886414" elementID="e9702" />
+    <Point x="783.4075723830734" y="484.40979955456567" elementID="b7be4" />
+  </GraphicalLine>
+  <GraphicalLine elementID="ide33cfbf1" zOrder="12288" lineThickness="1.0">
+    <Point x="23.10924369747899" y="439.07563025210084" elementID="dc2fb" />
+    <Point x="59.9187675070028" y="440.0" elementID="c0605" elementRef="d6b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="ide6bc3332" zOrder="12288" lineThickness="1.0">
+    <Point x="792.8730512249443" y="505.5679287305122" elementID="a20a8" />
+    <Point x="792.8730512249443" y="520.0445434298441" elementID="fad03" />
+  </GraphicalLine>
+  <GraphicalLine elementID="ide7721667" zOrder="12288" lineThickness="1.0">
+    <Point x="603.0" y="280.0" elementID="cc138" />
+    <Point x="733.0" y="443.0" elementID="b0e09" />
+  </GraphicalLine>
+  <GraphicalLine elementID="idec6b88db" zOrder="12288" lineThickness="1.0">
+    <Point x="757.2383073496659" y="492.76169265033406" elementID="d5cfe" />
+    <Point x="783.4075723830734" y="492.76169265033406" elementID="bac96" />
+  </GraphicalLine>
+  <GraphicalLine elementID="idf0272b67" zOrder="12288" lineThickness="1.0">
+    <Point x="783.9643652561247" y="483.85300668151444" elementID="ef824" />
+    <Point x="792.8730512249443" y="474.38752783964367" elementID="b1070" />
+  </GraphicalLine>
+  <GraphicalLine elementID="idfb3c9ac6" zOrder="12288" lineThickness="1.0">
+    <Point x="771.3333333333334" y="443.6666666666667" elementID="afed0" elementRef="d72" relX="1.0" relY="0.0" />
+    <Point x="801.7817371937639" y="473.83073496659244" elementID="d73d3" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="idff8a49d0" zOrder="12288" lineThickness="1.0">
+    <Point x="756.6815144766147" y="503.89755011135856" elementID="c9668" />
+    <Point x="773.3853006681514" y="519.4877505567929" elementID="c20c0" />
+  </GraphicalLine>
+  <Label elementID="aa8" textLabel="aggregated IgG,&#xA;IgM-antigen complex,&#xA;polyanions, RNA, DNA&#xA;lipopolysaccharides" fillColor="ffffff" fontWeight="Bold" fontSize="8" vAlign="Middle" centerX="150.0" centerY="367.0" width="83.33333333333333" height="46.0" zOrder="28672" />
+  <Label elementID="b8d" textLabel="antigen/antibody&#xA;complex" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="153.33333333333334" centerY="320.6666666666667" width="112.33333333333333" height="30.666666666666668" zOrder="28672" />
+  <Label elementID="bb4" textLabel="Cytoplasm" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="463.3333333333333" centerY="363.3333333333333" width="87.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="d13" textLabel="Complex&#xA;Formation" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="846.6666666666666" centerY="422.8333333333333" width="62.333333333333336" height="28.333333333333332" zOrder="28672" />
+  <Label elementID="d6b" textLabel="Proteolytic Cleavage" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="128.58543417366948" centerY="440.0" width="137.33333333333334" height="16.0" zOrder="28672" />
+  <Label elementID="d80" textLabel="C1 complex" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="283.6666666666667" centerY="194.91666666666669" width="95.33333333333333" height="19.83333333333337" zOrder="28672" />
+  <Label elementID="dfa" textLabel="Plasma&#xA;Membrane" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="43.159663865546214" centerY="292.3879551820728" width="52.333333333333336" height="28.333333333333332" zOrder="28672" />
+  <Label elementID="e3c" textLabel="Membrane&#xA;attack complex" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="715.5" centerY="521.6666666666666" width="89.0" height="32.666666666666664" zOrder="28672" />
+  <Label elementID="f25" textLabel="Prevents Complement Attack" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="150.0" centerY="463.3333333333333" width="188.33333333333334" height="16.0" zOrder="28672" />
+  <Label elementID="faf" textLabel="Ions" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="595.0833333333334" centerY="490.5" width="46.166666666666664" height="35.000000000000014" zOrder="28672" />
+  <Shape elementID="ae2" groupRef="a2ca4" shapeType="Oval" fillColor="c0c0c0" fontSize="10" vAlign="Middle" centerX="143.33333333333334" centerY="280.0" width="13.333333333333334" height="26.666666666666668" zOrder="16384" rotation="0.0" />
+  <Shape elementID="b00" groupRef="a2ca4" shapeType="Oval" fillColor="c0c0c0" fontSize="10" vAlign="Middle" centerX="156.66666666666666" centerY="280.0" width="13.333333333333334" height="26.666666666666668" zOrder="16384" rotation="0.0" />
+  <Shape elementID="b30" shapeType="Rectangle" fillColor="dfdfdf" fontSize="10" vAlign="Middle" centerX="716.6666666666666" centerY="496.6666666666667" width="80.0" height="13.333333333333334" zOrder="16384" rotation="0.0" />
+  <Shape elementID="b49" shapeType="Rectangle" fillColor="dfdfdf" fontSize="10" vAlign="Middle" centerX="716.6666666666666" centerY="483.3333333333333" width="80.0" height="13.333333333333334" zOrder="16384" rotation="0.0" />
+  <Shape elementID="d62" groupRef="a2ca4" shapeType="Oval" fillColor="808080" fontSize="10" vAlign="Middle" centerX="150.0" centerY="273.3333333333333" width="13.333333333333334" height="26.666666666666668" zOrder="16384" rotation="0.0" />
+  <Shape elementID="f6b" groupRef="a2ca4" shapeType="Oval" fillColor="dfdfdf" fontSize="10" vAlign="Middle" centerX="150.0" centerY="286.6666666666667" width="13.333333333333334" height="26.666666666666668" zOrder="16384" rotation="0.0" />
+  <Group elementID="a2ca4" groupType="Group" />
+  <Group elementID="b02b0" />
+  <Group elementID="c88a3" />
+  <Group elementID="e8e4e" />
+  <InfoBox centerX="5.0" centerY="496.0" />
+  <Legend centerX="654.6" centerY="-5.666666666666671" />
+  <Citations>
+    <Citation title="Opportunities for new therapies based on the natural regulators of complement activation." URL="" citationID="a6c" year="2005" source="Ann N Y Acad Sci">
+      <Xref dataSource="PubMed" identifier="16387686 " />
+      <Author name="Brook E" />
+      <Author name="Herbert AP" />
+      <Author name="Jenkins HT" />
+      <Author name="Soares DC" />
+      <Author name="Barlow PN" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="innate immune response pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000234" />
+    <OntologyTerm term="classical complement pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000503" />
+    <OntologyTerm term="classical complement pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000503" />
+    <OntologyTerm term="immune response pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000023" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Wnt Signaling in Cell Polarity" organism="Caenorhabditis elegans" width="835.0" height="256.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="kyook@caltech.edu" />
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <Comment source="WikiPathways-description">The Wnt pathway functions in many aspects of vulval development, it is required in the specification of vulval precursor cell competance, regulation of vulval induction, and the establishment of polarity of the P7.p cell, as diagrammed here. </Comment>
+  <DataNode elementID="dcfb7" textLabel="lin-11" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="741.0" centerY="152.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WormBase" identifier="ZC247.3" />
+  </DataNode>
+  <DataNode elementID="ed253" textLabel="LIN-44" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="65.0" centerY="137.0" width="80.0" height="20.0" zOrder="32768">
+    <CitationRef citationID="a8b" />
+    <Xref dataSource="WormBase" identifier="E01A2.3" />
+  </DataNode>
+  <DataNode elementID="a3424" textLabel="CWN-1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="65.0" centerY="176.0" width="80.0" height="20.0" zOrder="32785">
+    <CitationRef citationID="a8b" />
+    <Xref dataSource="WormBase" identifier="K10B4.6" />
+  </DataNode>
+  <DataNode elementID="bf650" textLabel="MOM-2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="65.0" centerY="216.0" width="80.0" height="20.0" zOrder="32786">
+    <CitationRef citationID="a8b" />
+    <Xref dataSource="WormBase" identifier="F38E1.7" />
+  </DataNode>
+  <DataNode elementID="f20ee" textLabel="LIN-17" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="249.0" centerY="137.0" width="80.0" height="20.0" zOrder="32787">
+    <CitationRef citationID="a8b" />
+    <Xref dataSource="WormBase" identifier="Y71F9B.5" />
+  </DataNode>
+  <DataNode elementID="d5bba" textLabel="LIN-18" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="249.0" centerY="216.0" width="80.0" height="20.0" zOrder="32788">
+    <CitationRef citationID="a8b" />
+    <Xref dataSource="WormBase" identifier="C16B8.1" />
+  </DataNode>
+  <DataNode elementID="bbaaa" textLabel="POP-1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="526.0" centerY="172.0" width="80.0" height="20.0" zOrder="32789">
+    <CitationRef citationID="a8b" />
+    <Xref dataSource="WormBase" identifier="W10C8.2" />
+  </DataNode>
+  <Interaction elementID="id153a3729" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="289.0" y="216.0" elementID="d0850" elementRef="d5bba" relX="1.0" relY="0.0" />
+    <Point x="486.0" y="172.0" elementID="cf573" elementRef="bbaaa" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id17c30ceb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="289.0" y="137.0" elementID="c82dc" elementRef="f20ee" relX="1.0" relY="0.0" />
+    <Point x="486.0" y="172.0" elementID="f68f5" elementRef="bbaaa" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6cdb240e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="105.0" y="137.0" elementID="c4ec2" elementRef="ed253" relX="1.0" relY="0.0" />
+    <Point x="209.0" y="137.0" elementID="fd242" elementRef="f20ee" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id819ac933" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="105.0" y="176.0" elementID="b757e" elementRef="a3424" relX="1.0" relY="0.0" />
+    <Point x="209.0" y="137.0" elementID="eccc7" elementRef="f20ee" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb64f8e0a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="105.0" y="216.0" elementID="e6ea0" elementRef="bf650" relX="1.0" relY="0.0" />
+    <Point x="209.0" y="216.0" elementID="b3273" elementRef="d5bba" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc3e82c13" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="105.0" y="176.0" elementID="e6189" elementRef="a3424" relX="1.0" relY="0.0" />
+    <Point x="105.0" y="176.0" elementID="b5e91" elementRef="a3424" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idcd9808f1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="105.0" y="176.0" elementID="cb8ee" elementRef="a3424" relX="1.0" relY="0.0" />
+    <Point x="209.0" y="216.0" elementID="f9d65" elementRef="d5bba" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="bda01" textLabel="LIGAND" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="65.0" centerY="78.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="b04f8" textLabel="RECEPTOR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="246.0" centerY="78.0" width="80.0" height="20.0" zOrder="32782" />
+  <Label elementID="fe1ae" textLabel="TRANSCRIPTIONAL&#xA;REGULATOR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="524.0" centerY="78.0" width="132.0" height="20.0" zOrder="32783" />
+  <Label elementID="cbc18" textLabel="TARGET&#xA;GENES" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="739.0" centerY="78.0" width="132.0" height="20.0" zOrder="32784" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Vulval development." URL="" citationID="a8b" year="2005" source="WormBook">
+      <Xref dataSource="PubMed" identifier="18050418" />
+      <Author name="Sternberg PW" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="Wnt signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000008" />
+    <OntologyTerm term="the planar cell polarity Wnt signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000200" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BiochemicalReaction rdf:about="id11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id11</bp:displayName>
+ <bp:right rdf:resource="e2d87" />
+ <bp:left rdf:resource="bc87b" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id10">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id10</bp:displayName>
+ <bp:right rdf:resource="a580e" />
+ <bp:left rdf:resource="e2d87" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id13</bp:displayName>
+ <bp:right rdf:resource="d0f40" />
+ <bp:left rdf:resource="a580e" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id12">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id12</bp:displayName>
+ <bp:right rdf:resource="bc87b" />
+ <bp:left rdf:resource="d0f40" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="d0f40">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MinD</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b2bef">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MinE</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id15</bp:displayName>
+ <bp:right rdf:resource="b2bef" />
+ <bp:left rdf:resource="a580e" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id14">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id14</bp:displayName>
+ <bp:right rdf:resource="b41dc" />
+ <bp:left rdf:resource="a580e" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="ed32f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MinE</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a580e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MinD</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="b41dc">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="fb666">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MinE</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="bc87b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MinD</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="e2d87">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MinD</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Complex rdf:about="id16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id16</bp:displayName>
+ <bp:component rdf:resource="ed32f" />
+ <bp:component rdf:resource="a580e" />
+</bp:Complex>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Escherichia coli</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Escherichia coli</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id11" />
+ <bp:pathwayComponent rdf:resource="id10" />
+ <bp:pathwayComponent rdf:resource="id13" />
+ <bp:pathwayComponent rdf:resource="id12" />
+ <bp:pathwayComponent rdf:resource="id15" />
+ <bp:pathwayComponent rdf:resource="id9" />
+ <bp:pathwayComponent rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Septum site determination</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">In Escherichia coli, division site selection is regulated in part by the Min-protein system. Oscillations of the Min proteins from pole to pole every approximately 40 sec have been revealed by in vivo studies of GFP fusions. The dynamic oscillatory structures produced by the Min proteins, including a ring of MinE protein, compact polar zones of MinD, and zebra-striped oscillations in filamentous cells, remain unexplained. We show that the Min oscillations, including mutant phenotypes, can be accounted for by in vitro-observed interactions involving MinD and MinE, with a crucial role played by the rate of nucleotide exchange. Recent discoveries suggest that protein oscillations may play a general role in proper chromosome and plasmid partitioning. (Huang KC et al. 2003) (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P0AEZ3</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="d6fb1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MinD</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MinD</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P0A734</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MinE</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01429</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:BiochemicalReaction rdf:about="id9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id9</bp:displayName>
+ <bp:right rdf:resource="e2d87" />
+ <bp:left rdf:resource="fb666" />
+</bp:BiochemicalReaction>
+</rdf:RDF>

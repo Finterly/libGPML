@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="a85d9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Thyroidperoxidase
+</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="fb5f6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">131 Iodide</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="abd53">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TSH</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="af9f2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">131 Iodide</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SLC5A5</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">7253</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">131 Iodide</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6528</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Thyruglobulin (Tg)</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">167195</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubChem-compound</bp:db>
+</bp:UnificationXref>
+
+<bp:PublicationXref rdf:about="f2a">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1979</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Van Herle, A.J .</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">G. Vassart</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">J.E . Dumont</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">221813</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">N. Engl. J. Med. 301:239</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Control of thyroglobulin synthesis and secretion</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="ecc11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SLC5A5</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:Protein rdf:about="adcdb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TRH</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:Protein rdf:about="d7d5b">
+ <bp:xref rdf:resource="f2a" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Thyruglobulin (Tg)</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00158</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id22</bp:displayName>
+ <bp:right rdf:resource="d7d5b" />
+ <bp:left rdf:resource="fb5f6" />
+ <bp:left rdf:resource="bfddd" />
+ <bp:left rdf:resource="f3eaa" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id21">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id21</bp:displayName>
+ <bp:right rdf:resource="fb5f6" />
+ <bp:right rdf:resource="f3eaa" />
+ <bp:left rdf:resource="bed55" />
+ <bp:left rdf:resource="af9f2" />
+ <bp:left rdf:resource="ecc11" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id24">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id24</bp:displayName>
+ <bp:right rdf:resource="abd53" />
+ <bp:left rdf:resource="adcdb" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id23">
+ <bp:controller rdf:resource="a85d9" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id23</bp:displayName>
+ <bp:controlled rdf:resource="id22" />
+</bp:Catalysis>
+
+<bp:SmallMolecule rdf:about="f3eaa">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">127 Iodide</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id26">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id26</bp:displayName>
+ <bp:right rdf:resource="b0a8e" />
+ <bp:left rdf:resource="abd53" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id25">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id25</bp:displayName>
+ <bp:left rdf:resource="d7d5b" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Thyroidperoxidase</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">7038</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Tyrosine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">7173</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="bfddd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Tyrosine</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="bed55">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">127 Iodide</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id22" />
+ <bp:pathwayComponent rdf:resource="id21" />
+ <bp:pathwayComponent rdf:resource="id24" />
+ <bp:pathwayComponent rdf:resource="id23" />
+ <bp:pathwayComponent rdf:resource="id26" />
+ <bp:pathwayComponent rdf:resource="id25" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Thyroxine (Thyroid Hormone) Production</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Thyroxine hormone is produced in the thyroid gland from tyrosine and iodine. Thyrotropin-releasing hormone (TRH) is produced by the hypothalamus. It stimulates the production of thyroid-stimulating hormone (TSH) in the anterior pituitary gland, which affects the thyroid-stimulating hormone receptor (TSHR). Iodine is captured by a hydrogen peroxide trap procuced by thyroid peroxidase and added to the 3&apos; and 5&apos; postitions of tyrosine. This can either be free tyrosine or a tyrosine residue in thyroglobuline. After the multiple iodination steps this produces T3 and T4. 
+The production of the thyroid hormones thyroxine (T4),tri-iodothyronine (T3) and reverse T3 (rT3) is dependent on the organification of iodine into thyroglobulin (Tg), the major protein product of the thyroid (2). This involves thyroid peroxidase catalyzed iodination of tyrosine residues in Tg to form mono- and di-iodotyrosines and their subsequent crosslinking to form the iodothyronines T3 and T4.
+
+Iodine 131 is an important radioactive fallout product. It was released in the atmosphere after nuclear tests and after nuclear incidents like at Tchernobyl and Fukushima. Since the iodine is concentrated in the thyroid glant as a substrate for the process described here non-radioactive iodine 127 is given as competitor to people exposed. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1081</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TSH</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB12238</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">127 Iodide</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">7200</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="b0a8e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TSHR</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TRH</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TSHR</bp:displayName>
+</bp:ProteinReference>
+</rdf:RDF>

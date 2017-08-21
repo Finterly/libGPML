@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Linoleate Biosynthesis" revision="20110620" organism="Arabidopsis thaliana" width="635.0" height="396.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="Pankaj Jaiswal" />
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <DataNode elementID="a4185" textLabel="GeneProduct" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="319.75" centerY="165.25" width="78.5" height="45.5" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b2c66" textLabel="AT4G111030" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="156.75" centerY="141.25" width="76.5" height="23.5" zOrder="32768">
+    <Xref dataSource="Gramene Arabidopsis" identifier="AT4G111030" />
+  </DataNode>
+  <DataNode elementID="bac18" textLabel="Catalyst" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="485.0" centerY="194.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c08cf" textLabel="Product" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="565.0" centerY="244.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c5509" textLabel="oleoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="239.0" centerY="244.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="1716-06-9" />
+  </DataNode>
+  <DataNode elementID="c7fab" textLabel="Long-chain-fatty-acid-CoA ligase" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="158.5" centerY="193.0" width="165.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Enzyme Nomenclature" identifier="6.2.1.3" />
+  </DataNode>
+  <DataNode elementID="ca034" textLabel="Diphosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="251.25" centerY="314.75" width="65.5" height="26.5" zOrder="32768">
+    <Xref dataSource="CAS" identifier="2466-09-3" />
+  </DataNode>
+  <DataNode elementID="ca43e" textLabel="Substrate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="405.0" centerY="244.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="cbec7" textLabel="ATP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="65.25" centerY="275.25" width="35.5" height="27.5" zOrder="32768">
+    <Xref dataSource="CAS" identifier="56-65-5" />
+  </DataNode>
+  <DataNode elementID="d8297" textLabel="AMP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="231.75" centerY="354.75" width="38.5" height="22.5" zOrder="32768">
+    <Xref dataSource="CAS" identifier="61-19-8" />
+  </DataNode>
+  <DataNode elementID="dcb5c" textLabel="Oleate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="79.0" centerY="244.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="112-80-1" />
+  </DataNode>
+  <DataNode elementID="e1882" textLabel="H+" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="233.75" centerY="279.75" width="44.5" height="20.5" zOrder="32768">
+    <Xref dataSource="CAS" identifier="12408-02-5" />
+  </DataNode>
+  <DataNode elementID="fdbf0" textLabel="coenzyme-A" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="66.5" centerY="323.25" width="71.0" height="29.5" zOrder="32768">
+    <Xref dataSource="CAS" identifier="85-61-0" />
+  </DataNode>
+  <DataNode elementID="f7ed4" textLabel="AT4G23850" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="157.75" centerY="114.25" width="76.5" height="23.5" zOrder="32769">
+    <Xref dataSource="Gramene Arabidopsis" identifier="AT4G23850" />
+  </DataNode>
+  <DataNode elementID="f4ae2" textLabel="AT1G64400" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="156.75" centerY="168.25" width="76.5" height="23.5" zOrder="32770">
+    <Xref dataSource="Gramene Arabidopsis" identifier="AT1G64400" />
+  </DataNode>
+  <Interaction elementID="id2fce45b6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="319.75" y="188.0" elementID="b3c35" elementRef="a4185" relX="0.0" relY="1.0" />
+    <Point x="318.0" y="244.0" elementID="f33fe" elementRef="dfc35" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id450f8174" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="83.0" y="275.25" elementID="fa6b7" elementRef="cbec7" relX="1.0" relY="0.0" />
+    <Point x="159.0" y="244.0" elementID="b8ca6" elementRef="e14e3" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id52b7d44d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="119.0" y="244.0" elementID="d0ba7" elementRef="dcb5c" relX="1.0" relY="0.0" />
+    <Point x="199.0" y="244.0" elementID="d1c33" elementRef="c5509" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.5" shapeType="None" elementID="e14e3" />
+  </Interaction>
+  <Interaction elementID="id6c755042" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="159.0" y="244.0" elementID="f16f4" elementRef="e14e3" relX="0.0" relY="0.0" />
+    <Point x="212.5" y="349.125" elementID="fb063" elementRef="d8297" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id87ced7a7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="102.0" y="323.25" elementID="dc9e8" elementRef="fdbf0" relX="1.0" relY="0.0" />
+    <Point x="159.0" y="244.0" elementID="f7632" elementRef="e14e3" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8eea196d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="159.0" y="244.0" elementID="c52c7" elementRef="e14e3" relX="0.0" relY="0.0" />
+    <Point x="218.5" y="314.75" elementID="d7393" elementRef="ca034" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id94861050" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="445.0" y="244.0" elementID="a31dd" elementRef="ca43e" relX="1.0" relY="0.0" />
+    <Point x="525.0" y="244.0" elementID="ef798" elementRef="c08cf" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.5" shapeType="None" elementID="f5106" />
+  </Interaction>
+  <Interaction elementID="id94e4120e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="158.5" y="203.0" elementID="e075c" elementRef="c7fab" relX="0.0" relY="1.0" />
+    <Point x="159.0" y="244.0" elementID="ffda9" elementRef="e14e3" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id974f8329" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="279.0" y="244.0" elementID="e9678" elementRef="c5509" relX="1.0" relY="0.0" />
+    <Point x="365.0" y="244.0" elementID="c363e" elementRef="ca43e" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.45348837209302323" shapeType="None" elementID="dfc35" />
+  </Interaction>
+  <Interaction elementID="idc7fa54e1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="485.0" y="204.0" elementID="ba1c1" elementRef="bac18" relX="0.0" relY="1.0" />
+    <Point x="485.0" y="244.0" elementID="e595a" elementRef="f5106" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idefe414fe" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="159.0" y="244.0" elementID="ae1fb" elementRef="e14e3" relX="0.0" relY="0.0" />
+    <Point x="211.5" y="279.75" elementID="b9607" elementRef="e1882" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="classic metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000002" />
+  </OntologyTerms>
+</Pathway>
+

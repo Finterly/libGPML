@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="e2113">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LIN-28</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:Protein rdf:about="eeea7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LIN-14</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="eb6ac">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LIN-29</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id11</bp:displayName>
+ <bp:right rdf:resource="eeea7" />
+ <bp:left rdf:resource="c28d0" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00003015</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id13</bp:displayName>
+ <bp:right rdf:resource="eb6ac" />
+ <bp:left rdf:resource="eeea7" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id12">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id12</bp:displayName>
+ <bp:right rdf:resource="e2113" />
+ <bp:left rdf:resource="c28d0" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id14">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id14</bp:displayName>
+ <bp:right rdf:resource="eb6ac" />
+ <bp:left rdf:resource="e2113" />
+</bp:BiochemicalReaction>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Caenorhabditis elegans</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Caenorhabditis elegans</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id11" />
+ <bp:pathwayComponent rdf:resource="id13" />
+ <bp:pathwayComponent rdf:resource="id12" />
+ <bp:pathwayComponent rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Heterchronic control of molting</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Under good conditions, C. elegans enters and exits four larval stages before becoming a fertile adult.  Each developmental stage is punctuated with a molt that entails the shedding of the larval cuticle and the generation of a completely new one. It has been shown that each cuticle is unique in its composition. Molting is a carefully timed process that needs to be coordinated with development, new cuticle synthesis, and cuticle shedding. Mutations in a set of genes called heterochronic genes regulates the timing development and the molts and result in precocious or retarded development of parts of the animals that aren&apos;t synchronized with the the animals&apos; life stage.  (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Physiological Process (WikiPathways-category)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00002993</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">lin-4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00003003</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LIN-14</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00003014</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LIN-28</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="c28d0">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">lin-4</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LIN-29</bp:displayName>
+</bp:ProteinReference>
+</rdf:RDF>

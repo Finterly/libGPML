@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Lipases biosynthesis" organism="Saccharomyces cerevisiae" width="855.6666666666667" height="812.8333333333334">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP notes"></Comment>
+  <Comment source="GenMAPP remarks">Based on http://pathway.yeastgenome.org/biocyc/</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <DataNode elementID="b20" textLabel="choline" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="556.6666666666666" centerY="483.3333333333333" width="61.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="62-49-7" />
+  </DataNode>
+  <DataNode elementID="b83" textLabel="PLC1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="513.3333333333334" centerY="96.66666666666667" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="1-phosphatidylinositol-4,5-bisphosphate phosphodie" />
+    <Xref dataSource="SGD" identifier="S000006189" />
+  </DataNode>
+  <DataNode elementID="b8d" textLabel="SPO22" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="456.6666666666667" centerY="696.6666666666666" width="50.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="meiosis-specific phospholipase A2" />
+    <Xref dataSource="SGD" identifier="S000001335" />
+  </DataNode>
+  <DataNode elementID="c2c" textLabel="ISC1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="393.3333333333333" centerY="373.3333333333333" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="inositol phosphosphingolipids phospholipase C" />
+    <Xref dataSource="SGD" identifier="S000000821" />
+  </DataNode>
+  <DataNode elementID="e31" textLabel="SPO14" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="426.6666666666667" centerY="496.6666666666667" width="50.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="phospholipase D1" />
+    <Xref dataSource="SGD" identifier="S000001739" />
+  </DataNode>
+  <DataNode elementID="ef2" textLabel="inositol 1,4,5-trisphosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="720.0" centerY="110.0" width="211.33333333333334" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="98102-63-7" />
+  </DataNode>
+  <Interaction elementID="id3a707ae4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="270.0" y="516.6666666666666" elementID="ccc72" />
+    <Point x="530.0" y="516.6666666666666" elementID="bd0cc" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id836bc2e3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="526.6666666666666" y="716.6666666666666" elementID="dbc98" />
+    <Point x="546.6666666666666" y="703.3333333333334" elementID="d7165" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8bb37dbc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="351.0" y="241.59663865546216" elementID="b4a78" elementRef="a09" relX="1.0" relY="0.0" />
+    <Point x="538.0" y="240.0" elementID="e0c26" elementRef="a3f" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.6394626625471895" shapeType="None" elementID="ad317" />
+  </Interaction>
+  <Interaction elementID="idaab9d386" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="523.3333333333334" y="386.6666666666667" elementID="deb29" />
+    <Point x="551.1666666666667" y="406.6666666666667" elementID="c8be6" elementRef="f52" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb4278428" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="523.3333333333334" y="386.6666666666667" elementID="a722c" />
+    <Point x="284.0" y="386.0" elementID="adb8a" arrowHead="Receptor" />
+  </Interaction>
+  <Interaction elementID="idccca40a2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="470.57951789632443" y="240.57564784971456" elementID="d9f2b" elementRef="ad317" relX="0.0" relY="0.0" />
+    <Point x="540.8333333333333" y="276.6666666666667" elementID="ba639" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide039ea9b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="530.0" y="716.6666666666666" elementID="d2433" />
+    <Point x="543.3333333333334" y="730.0" elementID="bd81f" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide5f1401e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="410.66666666666663" y="120.0" elementID="ef5c7" elementRef="f99" relX="1.0" relY="0.0" />
+    <Point x="606.6666666666666" y="123.33333333333333" elementID="b5547" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide7df8634" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="523.3333333333334" y="386.6666666666667" elementID="a5417" />
+    <Point x="556.5" y="366.0" elementID="f3929" elementRef="f0a" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idefa6d1e8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="286.6666666666667" y="716.6666666666666" elementID="db9e0" />
+    <Point x="526.6666666666666" y="716.6666666666666" elementID="eb719" />
+  </Interaction>
+  <Interaction elementID="idf0f502dd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="500.0" y="516.6666666666666" elementID="bb62c" />
+    <Point x="533.3333333333334" y="496.6666666666667" elementID="c829d" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf4a6b6d2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="526.6666666666666" y="716.6666666666666" elementID="afa3c" />
+    <Point x="550.0" y="716.6666666666666" elementID="ba594" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="a09" textLabel="1-phosphatidyl-D-myo-inositol" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="233.33333333333334" centerY="241.59663865546216" width="235.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="a3f" textLabel="D-myo-inositol 1,2-cyclic phosphate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="676.6666666666666" centerY="240.0" width="277.3333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="ad8" textLabel="phosphatidylcholine" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="183.33333333333334" centerY="363.3333333333333" width="161.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="ade" textLabel="1,2-diacylglycerol" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="710.0" centerY="133.33333333333334" width="138.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="b34" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="426.6666666666667" centerY="553.3333333333334" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="ba1" textLabel="phosphatidylcholine" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="193.33333333333334" centerY="516.6666666666666" width="161.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="bb0" textLabel="L-1-lysolecithin" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="610.0" centerY="696.6666666666666" width="121.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="bfc" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="463.3333333333333" centerY="423.3333333333333" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="c10" textLabel="phosphatidylcholine" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="200.0" centerY="720.0" width="161.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="c4c" textLabel="L-1-lysolecithin" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="606.6666666666666" centerY="736.6666666666666" width="121.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="ce0" textLabel="lecithins" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="450.0" centerY="773.3333333333334" width="69.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="d23" textLabel="a fatty acid" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="600.0" centerY="716.6666666666666" width="87.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="e23" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="456.6666666666667" centerY="753.3333333333334" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="e63" textLabel="lecithins" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="230.0" centerY="410.0" width="69.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="e77" textLabel="phosphatidic acid" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="606.6666666666666" centerY="520.0" width="141.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="ea3" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="520.0" centerY="160.0" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="f04" textLabel="1,2-diacylglycerol" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="610.0" centerY="276.6666666666667" width="138.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="f0a" textLabel="1,2-diacylglycerol" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="625.6666666666666" centerY="366.0" width="138.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="f52" textLabel="phosphoryl-choline" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="628.3333333333334" centerY="406.6666666666667" width="154.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="f99" textLabel="1-phosphatidyl-D-myo-inositol 4,5-biosphosphate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="220.0" centerY="120.0" width="381.3333333333333" height="19.0" zOrder="28672" />
+  <Shape elementID="d68" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="440.0" centerY="526.6666666666666" width="29.814239999999998" height="9.428090666666666" zOrder="16384" rotation="2.498091" />
+  <Shape elementID="d71" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="470.0" centerY="726.6666666666666" width="29.814239999999998" height="9.428090666666666" zOrder="16384" rotation="2.498091" />
+  <Shape elementID="dc8" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="533.3333333333334" centerY="133.33333333333334" width="29.814239999999998" height="9.428090666666666" zOrder="16384" rotation="2.498091" />
+  <Shape elementID="e3b" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="476.6666666666667" centerY="396.6666666666667" width="29.814239999999998" height="9.428090666666666" zOrder="16384" rotation="2.498091" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Legend centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="glycerophospholipid metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000354" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mus musculus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mus musculus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ovarian Infertility Genes</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ovarian &amp;amp;#x2019;bottleneck&amp;amp;#x2019; genes associated with infertility &amp;amp;#xD;
+A valuable approach to the study of infertility is the comparison of mutations of individual human and mouse genes associated with infertility phenotypes. The individual gene pages in the OKdb (Ovarian Kaleidoscope Database: http://ovary.stanford.edu) contain information on associated fertility phenotypes sorted by ovarian and nonovarian defects and by subfertility or infertility. If one searches for null mutations (under &amp;amp;#x2019;mutation type&amp;amp;#x2019;) causing infertility (&amp;amp;#x2019;infertile - ovarian defect&amp;amp;#x2019;, under &amp;amp;#x2019;female fertility status&amp;amp;#x2019;) in mice (under &amp;amp;#x2019;species&amp;amp;#x2019;), 44 gene entries are found. The expression of these infertility genes in the oocyte and granulosa cells together with their cellular localization is presented in Ovarian Infertility gene map. The theca cell genes are not presented because most publications emphasize granulosa cell studies.&amp;amp;#xD;
+ (GenMAPP notes)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cellular Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://www.wikipathways.org/index.php?title=Pathway:WP34&amp;amp;oldid=20749 WP34(r20749)] with a 91% conversion rate. (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">right click for more information (GenMAPP remarks)</bp:comment>
+</bp:Pathway>
+</rdf:RDF>

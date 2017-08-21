@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Response Regulator Aspartate Phosphatase Interactions" organism="Bacillus subtilis" width="769.0" height="195.0" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <DataNode elementID="b808c" textLabel="rapA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="253.0" centerY="65.0" width="80.0" height="20.0" zOrder="-2">
+    <Xref dataSource="Ensembl" identifier="EBBACG00000000844" />
+  </DataNode>
+  <DataNode elementID="a20b6" textLabel="rapE" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="563.9833333333333" centerY="60.483333333333334" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="EBBACG00000000285" />
+  </DataNode>
+  <DataNode elementID="bef4f" textLabel="phrE" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="699.0" centerY="60.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="EBBACG00000000680" />
+  </DataNode>
+  <DataNode elementID="cfbb9" textLabel="phrA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="397.0" centerY="65.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="EBBACG00000000326" />
+  </DataNode>
+  <DataNode elementID="d6ac7" textLabel="spo0A" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="253.0" centerY="155.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="EBBACG00000000284" />
+  </DataNode>
+  <DataNode elementID="f5867" textLabel="spo0A" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="562.0" centerY="151.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="EBBACG00000000284" />
+  </DataNode>
+  <Interaction elementID="id1610521e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="253.0" y="145.0" elementID="a1d18" elementRef="d6ac7" relX="0.0" relY="-1.0" />
+    <Point x="253.0" y="75.0" elementID="d8f68" elementRef="b808c" relX="0.0" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id51df5487" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="563.9833333333333" y="70.48333333333333" elementID="c0e9c" elementRef="a20b6" relX="0.0" relY="1.0" />
+    <Point x="562.0" y="141.0" elementID="f37bd" elementRef="f5867" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idcdc38f74" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="659.0" y="60.0" elementID="e21d6" elementRef="bef4f" relX="-1.0" relY="0.0" />
+    <Point x="603.9833333333333" y="60.483333333333334" elementID="cf607" elementRef="a20b6" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idd537d84a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="602.0" y="151.0" elementID="e5cf2" elementRef="f5867" relX="1.0" relY="0.0" />
+    <Point x="679.0" y="70.0" elementID="a5b8f" elementRef="bef4f" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd63817b2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="233.0" y="75.0" elementID="a008c" elementRef="b808c" relX="-0.5" relY="1.0" />
+    <Point x="233.0" y="145.0" elementID="b73b7" elementRef="d6ac7" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="ide04fda90" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="293.0" y="155.0" elementID="d47d0" elementRef="d6ac7" relX="1.0" relY="0.0" />
+    <Point x="377.0" y="75.0" elementID="fd47c" elementRef="cfbb9" relX="-0.5" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idfa32beea" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="357.0" y="65.0" elementID="d965c" elementRef="cfbb9" relX="-1.0" relY="0.0" />
+    <Point x="293.0" y="65.0" elementID="ffe2d" elementRef="b808c" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="aspartic acid/aspartate metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000439" />
+  </OntologyTerms>
+</Pathway>
+
