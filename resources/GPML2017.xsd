@@ -186,6 +186,13 @@
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
+		<xsd:attribute name="textLabel" type="xsd:string" use="optional">
+			<xsd:annotation>
+				<xsd:documentation>
+					TextLabel of an object (DataNode, Group, Label, Shape, State).
+				</xsd:documentation>
+			</xsd:annotation>
+		</xsd:attribute>
 	</xsd:attributeGroup>
 
 	<xsd:attributeGroup name="IdentifierRefGroup">
@@ -196,13 +203,6 @@
 					A GroupRef indicates that its element is part of the gpml:Group
 					with the specified GroupId. DataNode, GraphicalLine, Group, Interaction,
 					Label and Shape can be part of a group.
-				</xsd:documentation>
-			</xsd:annotation>
-		</xsd:attribute>
-		<xsd:attribute name="textLabel" type="xsd:string" use="optional">
-			<xsd:annotation>
-				<xsd:documentation>
-					TextLabel of an object (DataNode, Group, Label, Shape, State).
 				</xsd:documentation>
 			</xsd:annotation>
 		</xsd:attribute>
@@ -631,9 +631,10 @@
 			</xsd:documentation>
 		</xsd:annotation>
 		<xsd:sequence>
-			<xsd:group ref="gpml:CommentGroup" />
 
 			<xsd:element name="Xref" type="gpml:Xref" minOccurs="1" maxOccurs="1"/>
+
+			<xsd:group ref="gpml:CommentGroup" />
 
 			<xsd:element name="Point" type="gpml:Point" minOccurs="2" maxOccurs="unbounded" />
 
@@ -866,7 +867,7 @@
 							</xsd:complexType>
 						</xsd:element>
 					</xsd:sequence>
-					<xsd:attribute name="citationID" type="xsd:ID" use="required" />
+					<xsd:attribute name="citationID" type="xsd:string" use="required" />
 					<xsd:attribute name="title" use="required"/>
 					<xsd:attribute name="year" use="optional"/>
 					<xsd:attribute name="URL" use="required"/>

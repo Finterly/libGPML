@@ -364,11 +364,12 @@ public abstract class GpmlFormatAbstract
 	{
 		String id = e.getAttributeValue("GraphId");
 		//Never add graphid until all elements are mapped, to prevent duplcate ids!
-//		if((id == null || id.equals("")) && o.getGmmlData() != null) {
-//			id = o.getGmmlData().getUniqueGraphId();
-//		}
 		if(id != null) {
 			o.setGraphId (id);
+		}
+		else
+		{
+			o.setGeneratedGraphId();
 		}
 	}
 

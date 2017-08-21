@@ -10,8 +10,8 @@ import java.util.ArrayList;
  */
 public class Citation {
     private String citationId;
-    private String URL;
-    private String title;
+    private String URL="";
+    private String title="";
     private String year;
     private String source;
     private ArrayList<String> authors;
@@ -19,8 +19,10 @@ public class Citation {
     public Citation(String citationId, String URL, String title){
         authors = new ArrayList<>();
         this.citationId = citationId;
-        this.URL = URL;
-        this.title = title;
+        if(URL!=null)
+            this.URL = URL;
+        if(title!=null)
+            this.title = title;
     }
 
     public void setCitationId(String citationId) {

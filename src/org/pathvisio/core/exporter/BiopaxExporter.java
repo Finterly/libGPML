@@ -24,29 +24,10 @@ import java.util.HashSet;
 
 public class BiopaxExporter extends ExportHelper{
 
-    private PathwayAsNetwork panPwy;
-
     BiopaxExporter(Pathway pathway){
         this.pvPwy = pathway;
         factory = BioPAXLevel.L3.getDefaultFactory();
         bpModel = factory.createModel();
-        panPwy = new PathwayAsNetwork(pvPwy);
-
-        HashSet<PathwayElement> toKeep = new HashSet<>(), toRemove = new HashSet<>();
-        for(Edge edge:panPwy.getEdges()){
-            for(Node node:edge.getSources())
-                toKeep.addAll(node.getDataNodes());
-            for(Node node:edge.getTargets())
-                if(!node.isReactionNode())
-                    toKeep.addAll(node.getDataNodes());
-        }
-
-        Node mw = panPwy.getDataNodes().get(null);
-        for(PathwayElement pe: pvPwy.getDataObjects())
-            if(!toKeep.contains(pe)&&pe.getObjectType()==ObjectType.DATANODE&&!pe.getDataNodeType().equals(DataNodeType.PATHWAY.toString()))
-                toRemove.add(pe);
-        for(PathwayElement pe: toRemove)
-            pvPwy.remove(pe);
         mapPathway();
     }
 

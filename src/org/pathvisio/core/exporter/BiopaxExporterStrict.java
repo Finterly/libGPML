@@ -1,52 +1,45 @@
 package org.pathvisio.core.exporter;
 
-import com.sun.xml.bind.Util;
-import org.biopax.paxtools.model.BioPAXFactory;
 import org.biopax.paxtools.model.BioPAXLevel;
-import org.biopax.paxtools.model.Model;
 import org.biopax.paxtools.model.level3.BioSource;
-import org.bridgedb.DataSource;
-import org.bridgedb.Xref;
 import org.pathvisio.core.debug.Logger;
 import org.pathvisio.core.model.*;
 import org.pathvisio.core.network.Edge;
 import org.pathvisio.core.network.Node;
 import org.pathvisio.core.network.PathwayAsNetwork;
 import org.pathvisio.core.util.FileUtils;
-import org.pathvisio.core.util.Utils;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.HashSet;
 
-public class BiopaxExporter extends ExportHelper{
+public class BiopaxExporterStrict extends ExportHelper{
 
     private PathwayAsNetwork panPwy;
 
-    BiopaxExporter(Pathway pathway){
+    public BiopaxExporterStrict(Pathway pathway) {
         this.pvPwy = pathway;
         factory = BioPAXLevel.L3.getDefaultFactory();
         bpModel = factory.createModel();
         panPwy = new PathwayAsNetwork(pvPwy);
 
         HashSet<PathwayElement> toKeep = new HashSet<>(), toRemove = new HashSet<>();
-        for(Edge edge:panPwy.getEdges()){
-            for(Node node:edge.getSources())
+        for (Edge edge : panPwy.getEdges()) {
+            for (Node node : edge.getSources())
                 toKeep.addAll(node.getDataNodes());
-            for(Node node:edge.getTargets())
-                if(!node.isReactionNode())
+            for (Node node : edge.getTargets())
+                if (!node.isReactionNode())
                     toKeep.addAll(node.getDataNodes());
         }
 
-        Node mw = panPwy.getDataNodes().get(null);
-        for(PathwayElement pe: pvPwy.getDataObjects())
-            if(!toKeep.contains(pe)&&pe.getObjectType()==ObjectType.DATANODE&&!pe.getDataNodeType().equals(DataNodeType.PATHWAY.toString()))
+        for (PathwayElement pe : pvPwy.getDataObjects())
+            if (!toKeep.contains(pe) && pe.getObjectType() == ObjectType.DATANODE && !pe.getDataNodeType().equals(DataNodeType.PATHWAY.toString()))
                 toRemove.add(pe);
-        for(PathwayElement pe: toRemove)
+        for (PathwayElement pe : toRemove){
             pvPwy.remove(pe);
+       }
         mapPathway();
     }
 

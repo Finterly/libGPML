@@ -71,7 +71,6 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		result.put("DataNode@height", new AttributeInfo ("gpml:Dimension", null, "required"));
 		result.put("DataNode@fontName", new AttributeInfo ("xsd:string", "Arial", "optional"));
 		result.put("DataNode@fontStyle", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("DataNode@fontDecoration", new AttributeInfo ("xsd:string", "Normal", "optional"));
 		result.put("DataNode@fontStrikethru", new AttributeInfo ("xsd:string", "Normal", "optional"));
 		result.put("DataNode@fontWeight", new AttributeInfo ("xsd:string", "Normal", "optional"));
 		result.put("DataNode@fontSize", new AttributeInfo ("xsd:nonNegativeInteger", "12", "optional"));
@@ -99,6 +98,12 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		result.put("State@fillColor", new AttributeInfo ("gpml:ColorType", "White", "optional"));
 		result.put("State@shapeType", new AttributeInfo ("xsd:string", "Rectangle", "optional"));
 		result.put("State@zOrder", new AttributeInfo ("xsd:integer", null, "optional"));
+		result.put("State@fontName", new AttributeInfo ("xsd:string", "Arial", "optional"));
+		result.put("State@fontStyle", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("State@fontWeight", new AttributeInfo ("xsd:string", "Normal", "optional"));
+		result.put("State@fontSize", new AttributeInfo ("xsd:nonNegativeInteger", "12", "optional"));
+		result.put("State@align", new AttributeInfo ("xsd:string", "Center", "optional"));
+		result.put("State@vAlign", new AttributeInfo ("xsd:string", "Top", "optional"));
 		result.put("State.Xref@dataSource", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("State.Xref@identifier", new AttributeInfo ("xsd:string", null, "required"));
 		result.put("State@elementID", new AttributeInfo ("xsd:ID", null, "required"));
@@ -149,8 +154,6 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		result.put("Label@height", new AttributeInfo ("gpml:Dimension", null, "required"));
 		result.put("Label@fontName", new AttributeInfo ("xsd:string", "Arial", "optional"));
 		result.put("Label@fontStyle", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("Label@fontDecoration", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("Label@fontStrikethru", new AttributeInfo ("xsd:string", "Normal", "optional"));
 		result.put("Label@fontWeight", new AttributeInfo ("xsd:string", "Normal", "optional"));
 		result.put("Label@fontSize", new AttributeInfo ("xsd:nonNegativeInteger", "12", "optional"));
 		result.put("Label@align", new AttributeInfo ("xsd:string", "Center", "optional"));
@@ -171,7 +174,6 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		result.put("Shape@height", new AttributeInfo ("gpml:Dimension", null, "required"));
 		result.put("Shape@fontName", new AttributeInfo ("xsd:string", "Arial", "optional"));
 		result.put("Shape@fontStyle", new AttributeInfo ("xsd:string", "Normal", "optional"));
-		result.put("Shape@fontDecoration", new AttributeInfo ("xsd:string", "Normal", "optional"));
 		result.put("Shape@fontStrikethru", new AttributeInfo ("xsd:string", "Normal", "optional"));
 		result.put("Shape@fontWeight", new AttributeInfo ("xsd:string", "Normal", "optional"));
 		result.put("Shape@fontSize", new AttributeInfo ("xsd:nonNegativeInteger", "12", "optional"));
@@ -301,8 +303,8 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 				e.addContent(new Element("Xref", getGpmlNamespace()));
 				updateGraphId(o, e);
 				updateGroupRef(o, e);
-				updateCommon (o, e);
 				updateLine(o, e); // Xref
+				updateCommon (o, e);
 				updateLineData(o, e);
 				updateLineStyle(o, e);
 				break;
@@ -940,7 +942,10 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 					citationElement.addContent(xref);
 					String dataSource = citation.getXref().getDataSource() == null ? "" : citation.getXref().getDataSource().getFullName();
 					xref.setAttribute("dataSource", dataSource);
+					if(citation.getXref().getId()!=null)
 					xref.setAttribute("identifier", citation.getXref().getId());
+					else
+					xref.setAttribute("identifier", "");
 				}
 
 				List<String> authors = citation.getAuthors();

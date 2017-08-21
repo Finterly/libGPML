@@ -365,7 +365,7 @@ public abstract class GpmlFormatAbstract2017
 		// id has to be unique!
 		if (id != null && !id.equals(""))
 		{
-			e.setAttribute("elementID", o.getGraphId());
+			e.setAttribute("elementID", id);
 		}
 	}
 

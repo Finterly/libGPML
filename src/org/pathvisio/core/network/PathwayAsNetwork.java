@@ -1,18 +1,15 @@
 package org.pathvisio.core.network;
 
 import org.bridgedb.Xref;
-import org.omg.CORBA.DATA_CONVERSION;
+import org.jetbrains.annotations.Nullable;
 import org.pathvisio.core.model.*;
-import sun.plugin.javascript.navig.Anchor;
 
-import java.nio.file.Path;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 
 /**
- * Created by saurabhk351 on 09/07/2017.
+ * Created
  */
 
 public class PathwayAsNetwork {
@@ -25,6 +22,11 @@ public class PathwayAsNetwork {
     private ArrayList<PathwayElement> lines = new ArrayList<>();
     private HashMap<Node, HashSet<Edge>> nodeEdges = new HashMap<>();
 
+    /**
+     * Constructor for @PathwayAsNetwork class
+     * Uses the pathway to a create a graph like interpretation of the pathway
+     * @param pathway
+     */
     public PathwayAsNetwork(Pathway pathway){
         this.pathway = pathway;
         assert (pathway!=null);
@@ -34,7 +36,6 @@ public class PathwayAsNetwork {
                     addDataNode(pathwayElement);
                     break;
                 case LINE:
-//                    addReactionNode(pathwayElement);
                     lines.add(pathwayElement);
             }
         }
@@ -43,28 +44,44 @@ public class PathwayAsNetwork {
 
         for (PathwayElement line:
                 lines) {
-            updateEdges(pathway,line);
+            mapEdges(pathway,line);
         }
     }
 
+    /**
+     * A comparison function for comparing two lines,
+     * used to sort to create a priority for mapping lines
+     * double connected > singly connected > not connected
+     * @param t1
+     * @param t2
+     * @return
+     */
     private int compareLines(PathwayElement t1, PathwayElement t2){
         GraphLink.GraphIdContainer
                    source1 = pathway.getGraphIdContainer(t1.getMStart().getGraphRef()),
                    target1 = pathway.getGraphIdContainer(t1.getMEnd().getGraphRef()),
                    source2 = pathway.getGraphIdContainer(t2.getMStart().getGraphRef()),
                    target2 = pathway.getGraphIdContainer(t2.getMEnd().getGraphRef());
-        return ((source2 instanceof PathwayElement)?1:0) +
-                   ((target2 instanceof PathwayElement)?1:0) -
-                   ((source1 instanceof PathwayElement)?1:0) -
-                   ((target1 instanceof PathwayElement)?1:0);
+        return (isDataNode(source2)?1:0) +
+                   (isDataNode(target2)?1:0) -
+                   (isDataNode(source1)?1:0) -
+                   (isDataNode(target1)?1:0);
     }
 
     private int reactions=0;
+
+    /**
+     * create reaction IDs for new reactions
+     * @return
+     */
     private String getReactionID(){
-//        int size = reactionNodes.size()+1;
         return "R"+(++reactions);
     }
 
+    /**
+     * Create a datanode of type Node using a pathwayElement of type DATANODE
+     * @param pathwayElement
+     */
     private void addDataNode(PathwayElement pathwayElement){
         Xref xref = pathwayElement.getXref();
         if(xref==null||xref.getId().equals("")||xref.getDataSource()==null) return;
@@ -74,23 +91,43 @@ public class PathwayAsNetwork {
             dataNodes.get(xref).add(pathwayElement);
     }
 
-
+    /**
+     * Create a reaction node of type Node using an Edge
+     * @param edge
+     */
     private void addReactionNode(Edge edge){
         String reactionID = getReactionID();
         if(!reactionNodes.containsKey(edge))
             reactionNodes.put(edge,new Node(edge));
     }
 
+    /**
+     * create an entry for a node connected with an edge
+     * @param node
+     * @param edge
+     */
     private void addNodeEdge(Node node, Edge edge){
         if(nodeEdges.getOrDefault(node,null)==null)
             nodeEdges.put(node,new HashSet<>());
         nodeEdges.get(node).add(edge);
     }
 
+    /**
+     * get the node object of a DATANODE pathway element
+     * returns null if not present in the map
+     * @param pathwayElement
+     * @return
+     */
     private Node getDataNode(PathwayElement pathwayElement){
         return dataNodes.getOrDefault(pathwayElement.getXref(), null);
     }
 
+    /**
+     * return the node object of an Edge
+     * returns null if not present in the map
+     * @param edge
+     * @return
+     */
     private Node getReactionNode(Edge edge){
         return reactionNodes.getOrDefault(edge, null);
     }
@@ -110,8 +147,8 @@ public class PathwayAsNetwork {
             }
         if(otherAnchor!=null){
             for(PathwayElement pline:lines){
-                if(pline.getMEnd().getGraphRef().equals(otherAnchor.getGraphId())
-                        ||pline.getMStart().getGraphRef().equals(otherAnchor.getGraphId())) {
+                if(otherAnchor.getGraphId().equals(pline.getMEnd().getGraphRef())
+                        ||otherAnchor.getGraphId().equals(pline.getMStart().getGraphRef())) {
                     otherLine = pline;
                     break;
                 }
@@ -120,10 +157,16 @@ public class PathwayAsNetwork {
         return otherLine;
     }
 
-    private boolean isDataNode(PathwayElement pathwayElement){
-        if(pathwayElement==null)
+    /**
+     * to check if a GraphIdContainer Object is a DATANODE/COMPLEX pathway
+     * @param container
+     * @return
+     */
+    private boolean isDataNode(GraphLink.GraphIdContainer container){
+        if(container==null || !(container instanceof PathwayElement))
             return false;
 
+        PathwayElement pathwayElement = (PathwayElement) container;
         boolean result = pathwayElement.getObjectType()==ObjectType.DATANODE;
 
         if(pathwayElement.getObjectType()==ObjectType.GROUP){
@@ -134,7 +177,14 @@ public class PathwayAsNetwork {
         return result;
     }
 
-    private void updateEdges(Pathway p,PathwayElement line){
+    /**
+     * checks both ends of the line
+     * adds/updates an Edge if both ends connected to some datanode directly
+     * or through an anchor
+     * @param p
+     * @param line
+     */
+    private void mapEdges(Pathway p, PathwayElement line){
         GraphLink.GraphIdContainer source = p.getGraphIdContainer(line.getMStart().getGraphRef());
         GraphLink.GraphIdContainer target = p.getGraphIdContainer(line.getMEnd().getGraphRef());
         MAnchor anchorT=null;
@@ -166,7 +216,7 @@ public class PathwayAsNetwork {
             sourceElement = targetElement;
             targetElement = temp;
         }
-// True if the line has a direct connection to both source and target
+        // True if the line has a direct connection to both source and target
         if (isDataNode(sourceElement) &&
                 isDataNode(targetElement)) {
             // Create Interaction object if not already
@@ -249,19 +299,43 @@ public class PathwayAsNetwork {
         edges.add(edge);
     }
 
+    /**
+     * Get the root Pathway used to instantiate
+     * this PathwayAsNetwork object
+     * @return Pathway
+     */
     public Pathway getPathway() {
         return pathway;
     }
 
+    /**
+     * Get a set containing all edges found in the pathway
+     * @return HashSet<Edge>
+     */
     public HashSet<Edge> getEdges() {
         return edges;
     }
 
-    public HashMap<Xref, Node> getDataNodes() {
-        return dataNodes;
+    /**
+     * get a data node by its Xref value
+     * @param xref
+     * @return
+     */
+    @Nullable
+    public Node getDataNodeByXref(Xref xref) {
+        return dataNodes.getOrDefault(xref, null);
     }
 
+
+    /**
+     * return a set of data nodes in a PathwayElement in case it is a complex
+     * @param pathwayElement
+     * @return
+     */
+    @Nullable
     private HashSet<Node> getDataNodes(PathwayElement pathwayElement) {
+        if(pathwayElement==null)
+            return null;
         HashSet<Node> nodes = new HashSet<>();
         if(pathwayElement.getObjectType()==ObjectType.DATANODE) {
             if (getDataNode(pathwayElement) != null)
@@ -276,10 +350,21 @@ public class PathwayAsNetwork {
         return nodes;
     }
 
+    /**
+     * get a set of edges connected with a node
+     * @param node
+     * @return
+     */
+    @Nullable
     public HashSet<Edge> getEdgesFromNode(Node node) {
         return nodeEdges.getOrDefault(node,null);
     }
 
+    /**
+     * get all edges in a tab separated string
+     * can be imported in Cytoscape (SIF format)
+     * @return
+     */
     public String toTSV(){
         StringBuilder res = new StringBuilder();
         for(Edge edge:edges){
