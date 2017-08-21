@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Krebs cycle" revision="20141014" organism="Populus trichocarpa" width="940.7142857142857" height="588.6734693877552">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">This plant pathway represents the Krebs cycle (mitochondrion). Pyruvate is imported from the glycolysis (WP2862) and converted to acetyl-CoA, which enters the Krebs cycle by getting linked with oxaloacetic acid to form citric acid. The cycle produces ATP and NADH, releases CO2 and finally regenerated oxaloacetic acid.</Comment>
+  <CitationRef citationID="f84" />
+  <DataNode elementID="e349b" textLabel="NADP MDH" fontSize="10" vAlign="Middle" type="Protein" centerX="553.5754560564014" centerY="259.042231806314" width="100.0" height="20.000000000000355" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="A9P8R3" />
+  </DataNode>
+  <DataNode elementID="f1387" textLabel="pyruvate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="438.2811296349716" centerY="106.91907547463711" width="120.0" height="20.0" zOrder="32795">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15361" />
+  </DataNode>
+  <DataNode elementID="aefca" textLabel="acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="349.26231464341885" centerY="156.86287587717698" width="120.0" height="20.0" zOrder="32796">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15351" />
+  </DataNode>
+  <DataNode elementID="eb50d" textLabel="malate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="473.0078105392001" centerY="297.734640840229" width="120.0" height="20.0" zOrder="32798">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15361" />
+  </DataNode>
+  <DataNode elementID="be0b9" textLabel="citric acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="259.7556451441111" centerY="229.86750867294495" width="120.0" height="20.0" zOrder="32802">
+    <Xref dataSource="ChEBI" identifier="CHEBI:30769" />
+  </DataNode>
+  <DataNode elementID="d249b" textLabel="cis-aconitic acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="203.60784648460157" centerY="297.7346408402289" width="120.0" height="20.0" zOrder="32803">
+    <Xref dataSource="ChEBI" identifier="CHEBI:32805" />
+  </DataNode>
+  <DataNode elementID="d4231" textLabel="isocitric acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="203.60784648460157" centerY="354.04114580164014" width="120.0" height="20.0" zOrder="32804">
+    <Xref dataSource="ChEBI" identifier="CHEBI:30887" />
+  </DataNode>
+  <DataNode elementID="f5e83" textLabel="2-oxoglutaric acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="203.60784648460157" centerY="415.0812186173522" width="120.0" height="20.0" zOrder="32805">
+    <Xref dataSource="ChEBI" identifier="CHEBI:30915" />
+  </DataNode>
+  <DataNode elementID="fd8aa" textLabel="succinic acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="473.0078105392001" centerY="408.46600362286495" width="120.0" height="20.0" zOrder="32806">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15741" />
+  </DataNode>
+  <DataNode elementID="e67ad" textLabel="succinyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="349.26231464341873" centerY="471.6090400422827" width="120.0" height="20.0" zOrder="32807">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15380" />
+  </DataNode>
+  <DataNode elementID="f48c4" textLabel="oxaloacetic acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="446.59405994709545" centerY="223.2522936784576" width="120.0" height="20.0" zOrder="32823">
+    <Xref dataSource="ChEBI" identifier="CHEBI:30744" />
+  </DataNode>
+  <DataNode elementID="a4593" textLabel="fumaric acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="473.0078105392001" centerY="354.04114580164037" width="120.0" height="20.0" zOrder="32849">
+    <Xref dataSource="ChEBI" identifier="CHEBI:18012" />
+  </DataNode>
+  <Interaction elementID="id1f1e797c" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="473.00781053920014" y="287.734640840229" elementID="f02e3" elementRef="eb50d" relX="0.0" relY="-1.0" />
+    <Point x="446.59405994709545" y="233.2522936784576" elementID="b251b" elementRef="f48c4" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.24581135307587837" shapeType="None" elementID="ff984" />
+  </Interaction>
+  <Interaction elementID="id650ae7c2" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="259.7556451441111" y="239.86750867294495" elementID="c9c1c" elementRef="be0b9" relX="0.0" relY="1.0" />
+    <Point x="203.60784648460157" y="287.7346408402289" elementID="d58f9" elementRef="d249b" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7634997c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="349.26231464341885" y="166.86287587717698" elementID="d48af" elementRef="aefca" relX="0.0" relY="1.0" />
+    <Point x="287.7496689239425" y="200.11039252628672" elementID="d7695" elementRef="f93d5" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="ida530d5bc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="503.57545605640144" y="259.042231806314" elementID="d320c" elementRef="e349b" relX="-1.0" relY="0.0" />
+    <Point x="468.62947448665847" y="272.27543676622895" elementID="ab45e" elementRef="ff984" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idd2906cb8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="438.2811296349716" y="116.91907547463711" elementID="f77a1" elementRef="f1387" relX="0.0" relY="1.0" />
+    <Point x="349.26231464341885" y="146.86287587717698" elementID="cdcf9" elementRef="aefca" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d4c6d" zOrder="32808" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="203.60784648460157" y="307.7346408402289" elementID="e44fe" elementRef="d249b" relX="0.0" relY="1.0" />
+    <Point x="203.60784648460157" y="344.04114580164014" elementID="f9b10" elementRef="d4231" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f4a7f" zOrder="32809" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="203.60784648460157" y="364.04114580164014" elementID="d3cf8" elementRef="d4231" relX="0.0" relY="1.0" />
+    <Point x="203.60784648460157" y="405.0812186173522" elementID="af2b8" elementRef="f5e83" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c4539" connectorType="Curved" zOrder="32810" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="203.60784648460157" y="425.0812186173522" elementID="cbea9" elementRef="f5e83" relX="0.0" relY="1.0" />
+    <Point x="289.26231464341873" y="471.6090400422827" elementID="f4c5b" elementRef="e67ad" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f3fa2" connectorType="Curved" zOrder="32811" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="409.26231464341873" y="471.6090400422827" elementID="ee8e0" elementRef="e67ad" relX="1.0" relY="0.0" />
+    <Point x="473.00781053920014" y="418.46600362286495" elementID="a63d8" elementRef="fd8aa" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e93eb" zOrder="32812" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="473.00781053920014" y="398.46600362286495" elementID="c9a6a" elementRef="fd8aa" relX="0.0" relY="-1.0" />
+    <Point x="473.00781053920014" y="364.04114580164037" elementID="f5b4c" elementRef="a4593" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b45a6" connectorType="Curved" zOrder="32813" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="446.59405994709545" y="213.2522936784576" elementID="bf250" elementRef="f48c4" relX="0.0" relY="-1.0" />
+    <Point x="259.7556451441111" y="219.86750867294495" elementID="d508f" elementRef="be0b9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.8210580345015658" shapeType="None" elementID="f93d5" />
+  </Interaction>
+  <Interaction elementID="e3d85" zOrder="32850" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="473.00781053920014" y="344.04114580164037" elementID="aabc2" elementRef="a4593" relX="0.0" relY="-1.0" />
+    <Point x="473.00781053920014" y="307.734640840229" elementID="ba322" elementRef="eb50d" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="a7ae2" textLabel="MITOCHONDRION" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="764.8979591836757" centerY="359.79591836734687" width="142.04081632653083" height="25.30612244897954" zOrder="28672" />
+  <Shape elementID="eabf3" shapeType="Mitochondria" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="456.63265306122446" centerY="295.9183673469388" width="908.1632653061224" height="525.5102040816328" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Mitochondria" />
+  </Shape>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Differential impact of chronic ozone exposure on expanding and fully expanded poplar leaves." URL="" citationID="f84" year="2010" source="Tree Physiol">
+      <Xref dataSource="PubMed" identifier="21030406" />
+      <Author name="Bohler S" />
+      <Author name="Sergeant K" />
+      <Author name="Lefèvre I" />
+      <Author name="Jolivet Y" />
+      <Author name="Hoffmann L" />
+      <Author name="Renaut J" />
+      <Author name="Dizengremel P" />
+      <Author name="Hausman JF" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="citric acid cycle pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000026" />
+  </OntologyTerms>
+</Pathway>
+

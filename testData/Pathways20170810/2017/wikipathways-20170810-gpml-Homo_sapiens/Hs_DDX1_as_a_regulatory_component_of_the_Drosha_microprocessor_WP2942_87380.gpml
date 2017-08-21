@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="DDX1 as a regulatory component of the Drosha microprocessor" revision="20150605" organism="Homo sapiens" width="778.3117453347927" height="518.0461031833147">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Posttranscriptional maturation is a critical step in microRNA (miRNA) biogenesis that determines mature miRNA levels. In addition to core components (Drosha and DGCR8 [DiGeorge syndrome critical region gene 8]) in the microprocessor, regulatory RNA-binding proteins may confer the specificity for recruiting and processing of individual primary miRNAs (pri-miRNAs). Here, we identify DDX1 as a regulatory protein that promotes the expression of a subset of miRNAs, including five members in the microRNA-200 (miR-200) family and four miRNAs in an eight-miRNA signature of a mesenchymal ovarian cancer subtype. A majority of DDX1-dependent miRNAs are induced after DNA damage. This induction is facilitated by the ataxia telangiectasia mutated (ATM)-mediated phosphorylation of DDX1. Inhibiting DDX1 promotes ovarian tumor growth and metastasis in a syngeneic mouse model. Analysis of The Cancer Genome Atlas (TCGA) reveals that low DDX1 levels are associated with poor clinical outcome in patients with serous ovarian cancer. These findings suggest that DDX1 is a key modulator in miRNA maturation and ovarian tumor suppression.
+
+This pathway is based on the graphical abstract from http://www.cell.com/cell-reports/abstract/S2211-1247(14)00660-3.</Comment>
+  <CitationRef citationID="a08" />
+  <DataNode elementID="aa8f3" textLabel="ATM" groupRef="dbe33" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="281.132821075741" centerY="180.24149286498363" width="63.99999999999955" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000149311" />
+  </DataNode>
+  <DataNode elementID="c3cbb" textLabel="DDX1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="366.03512623490417" centerY="183.3644346871569" width="54.66666666666683" height="17.46432491767314" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000079785" />
+  </DataNode>
+  <DataNode elementID="cec85" textLabel="NBN" groupRef="dbe33" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="295.79948774240745" centerY="160.2414928649838" width="48.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000104320" />
+  </DataNode>
+  <DataNode elementID="d3def" textLabel="DGCR8" groupRef="a953d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="207.89096231247723" centerY="360.7874130991582" width="52.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000128191" />
+  </DataNode>
+  <DataNode elementID="e52f5" textLabel="MRE11A" groupRef="dbe33" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="238.46615440907263" centerY="160.24149286498366" width="66.66666666666691" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000020922" />
+  </DataNode>
+  <DataNode elementID="f836e" textLabel="RAD50" groupRef="dbe33" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="266.4661544090741" centerY="140.24149286498368" width="64.00000000000061" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000113522" />
+  </DataNode>
+  <DataNode elementID="ff0c0" textLabel="DROSHA" groupRef="a953d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="207.8909623124774" centerY="340.7874130991582" width="52.000000000000014" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000113360" />
+  </DataNode>
+  <DataNode elementID="f09b8" textLabel="DDX1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="228.74204171240342" centerY="241.13794365166427" width="54.66666666666683" height="20.0" zOrder="32769">
+    <Xref dataSource="Ensembl" identifier="ENSG00000079785" />
+  </DataNode>
+  <DataNode elementID="e623d" textLabel="DDX1" groupRef="a953d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="254.55762897914215" centerY="340.45407976582425" width="41.3333333333337" height="19.333333333334465" zOrder="32772">
+    <Xref dataSource="Ensembl" identifier="ENSG00000079785" />
+  </DataNode>
+  <State elementID="df1b9" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="f09b8" relX="-0.9024390243902436" relY="-0.7333333333333343" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <Interaction elementID="id1d023ed6" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="273.23600439077927" y="73.06330040248814" elementID="f4bdd" elementRef="c47c5" relX="0.0" relY="1.0" />
+    <Point x="272.47164288327957" y="105.81046469081554" elementID="defd0" elementRef="f663d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2e804b5c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="228.5576289791431" y="382.78741309915813" elementID="acb08" elementRef="a953d" relX="0.0" relY="1.0" />
+    <Point x="228.73075532926168" y="446.2697672482118" elementID="bda35" elementRef="ee1e4" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7c0d7ced" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="126.23490669593879" y="446.21295279912204" elementID="ad42b" elementRef="f8a2c" relX="1.0" relY="0.0" />
+    <Point x="344.06695938529117" y="446.33369923161325" elementID="c0514" elementRef="fcb3b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.470526937463565" shapeType="None" elementID="ee1e4" />
+  </Interaction>
+  <Interaction elementID="ida7f10500" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="228.7420417124034" y="251.13794365166427" elementID="f1bbc" elementRef="f09b8" relX="0.0" relY="1.0" />
+    <Point x="228.5576289791431" y="318.787413099157" elementID="bd4c9" elementRef="a953d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc528e909" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="281.132821075741" y="190.24149286498363" elementID="eadd4" elementRef="aa8f3" relX="0.0" relY="1.0" />
+    <Point x="304.69683948966315" y="185.22304057444137" elementID="c7f57" elementRef="be6a1" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="ide4997318" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="338.7017929015708" y="183.3644346871569" elementID="d878e" elementRef="c3cbb" relX="-1.0" relY="0.0" />
+    <Point x="228.7420417124034" y="231.13794365166427" elementID="cfdcb" elementRef="f09b8" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.2636289592913731" shapeType="None" elementID="be6a1" />
+  </Interaction>
+  <Interaction elementID="ide6a62a5d" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="413.9517014270035" y="446.33369923161325" elementID="fc44a" elementRef="fcb3b" relX="1.0" relY="0.0" />
+    <Point x="494.9784120014592" y="446.3911452616171" elementID="e1237" elementRef="b6259" relX="-1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <GraphicalLine elementID="idc0f40ead" groupRef="d0749" zOrder="-5" lineThickness="2.0">
+    <Point x="95.6201815055571" y="153.67727771679475" elementID="f3ec3" />
+    <Point x="457.8594789808579" y="153.67727771679475" elementID="a2b52" />
+  </GraphicalLine>
+  <GraphicalLine elementID="f54fe" groupRef="d0749" zOrder="-4" lineThickness="2.0">
+    <Point x="95.62019758507122" y="163.67727771679475" elementID="d4598" />
+    <Point x="457.859495060372" y="163.67727771679475" elementID="ceccc" />
+  </GraphicalLine>
+  <Label elementID="b2a01" textLabel="Enhanced processing of &#xA;DDX1-dependent miRNAs" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="233.85803146724683" centerY="471.0461031833146" width="169.33333333333275" height="34.000000000000256" zOrder="28672" />
+  <Label elementID="b6259" textLabel="Epithelial-Mesenchymal Transition (EMT)&#xA;and Metastasis" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="621.645078668126" centerY="446.3911452616171" width="253.33333333333346" height="40.6666666666667" zOrder="28672" />
+  <Label elementID="c47c5" textLabel="Oncogenic stress" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="273.23600439077927" centerY="63.06330040248814" width="121.33333333333326" height="20.0" zOrder="28672" />
+  <Label elementID="f663d" textLabel="DNA damage" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="272.47164288327957" centerY="115.81046469081554" width="104.66666666666664" height="20.0" zOrder="28674" />
+  <Shape elementID="f8a2c" textLabel="pri-miRNA" shapeType="Rectangle" color="990099" fontSize="10" vAlign="Middle" centerX="91.29253567508262" centerY="446.21295279912204" width="69.88474204171234" height="18.660812294182364" zOrder="16384" rotation="0.0" />
+  <Shape elementID="fcb3b" textLabel="pre-miRNA" shapeType="Rectangle" color="990099" fontSize="10" vAlign="Middle" centerX="379.00933040614734" centerY="446.33369923161325" width="69.88474204171234" height="18.660812294182364" zOrder="32773" rotation="0.0" />
+  <Group elementID="a953d" groupType="Complex" />
+  <Group elementID="d0749" groupType="Group" />
+  <Group elementID="dbe33" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="The RNA-binding protein DDX1 promotes primary microRNA maturation and inhibits ovarian tumor progression." URL="" citationID="a08" year="2014" source="Cell Rep">
+      <Xref dataSource="PubMed" identifier="25176654" />
+      <Author name="Han C" />
+      <Author name="Liu Y" />
+      <Author name="Wan G" />
+      <Author name="Choi HJ" />
+      <Author name="Zhao L" />
+      <Author name="Ivan C" />
+      <Author name="He X" />
+      <Author name="Sood AK" />
+      <Author name="Zhang X" />
+      <Author name="Lu X" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+  </OntologyTerms>
+</Pathway>
+

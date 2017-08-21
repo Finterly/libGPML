@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Allantoin Degradation" organism="Saccharomyces cerevisiae" width="707.4368855788241" height="465.42454522939465">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP remarks">Based on http://pathway.yeastgenome.org/biocyc/</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">The allantoin degradation pathway, which converts allantoin to ammonia and carbon dioxide, allows S. cerevisiae to use allantoin as a sole nitrogen source. Conversion of allantoin to ammonia is carried out by the DAL1, DAL2, and DAL3 gene products, which work sequentially to generate urea (CITS: [3915539]).  Urea is then degraded to ammonia in a two-step process by the DUR1,2 protein, a multifunctional single enzyme originally thought to be encoded by two tightly-linked genes (hence the name DUR1,2; (CITS: [6105114]).  The allantoin catabolic pathway genes are regulated by a general signal that responds to the availability of readily utilizable nitrogen sources, and also by pathway-specific induction by allantoin or the intermediate allophanate.  These regulatory effects are mediated by cis-acting DNA elements and the trans-acting factors Gln3p, Gat1p, Dal80p, Dal81p, and Dal82p (CITS: [10488154])(CITS: [12062797])(CITS: [10702289])(CITS: [7899074]). 
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html</Comment>
+  <CitationRef citationID="bf8" />
+  <CitationRef citationID="yim" />
+  <DataNode elementID="a2af4" textLabel="H2O" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="109.41741495127175" centerY="141.11026890585308" width="41.06044538706263" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a3e" textLabel="urea" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="594.4685266100666" centerY="330.6466801687329" width="39.33333333333331" height="20.000000000000007" zOrder="32768">
+    <Xref dataSource="CAS" identifier="57-13-6" />
+  </DataNode>
+  <DataNode elementID="a40" textLabel="urea" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="439.4350890410562" centerY="155.35205045410342" width="39.33333333333336" height="20.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="57-13-6" />
+  </DataNode>
+  <DataNode elementID="a54" textLabel="DUR1,2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="492.48383852168587" centerY="290.33682593114895" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DUR1,2" />
+    <Xref dataSource="SGD" identifier="S000000412" />
+  </DataNode>
+  <DataNode elementID="a9abe" textLabel="urea-1-carboxylate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="324.77496599954287" centerY="330.64668016873287" width="117.6119402985075" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="15832" />
+  </DataNode>
+  <DataNode elementID="ab9" textLabel="DAL1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="141.02575712164958" centerY="82.31099908317437" width="41.9841" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DAL1" />
+    <Xref dataSource="SGD" identifier="S000001466" />
+  </DataNode>
+  <DataNode elementID="abd56" textLabel="(S)-ureidoglycolate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="594.4685266100665" centerY="108.86274271315348" width="111.64179104477608" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="57296" />
+  </DataNode>
+  <DataNode elementID="adf" textLabel="DAL3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="537.8479557784187" centerY="201.20217417273201" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DAL3" />
+    <Xref dataSource="SGD" identifier="S000001471" />
+  </DataNode>
+  <DataNode elementID="b0d" textLabel="DAL2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="401.1777542937956" centerY="60.05804189416135" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DAL2" />
+    <Xref dataSource="SGD" identifier="S000001468" />
+  </DataNode>
+  <DataNode elementID="b90" textLabel="ATP" groupRef="ab5de" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="528.6241893988794" centerY="385.4245452293946" width="41.06044538706262" height="20.00000000000003" zOrder="32768">
+    <Xref dataSource="CAS" identifier="1927-31-7" />
+  </DataNode>
+  <DataNode elementID="b99" textLabel="ADP" groupRef="e03af" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="457.6972888140837" centerY="403.8397499077569" width="66.64912280701756" height="19.000000000000007" zOrder="32768">
+    <Xref dataSource="CAS" identifier="58-64-0" />
+  </DataNode>
+  <DataNode elementID="bb506" textLabel="allantoate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="243.67961403010884" centerY="108.86274271315348" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="17536" />
+  </DataNode>
+  <DataNode elementID="bbf" textLabel="DUR1,2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="188.39027127022393" centerY="289.167235287874" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DUR1,2" />
+    <Xref dataSource="SGD" identifier="S000000412" />
+  </DataNode>
+  <DataNode elementID="ede" textLabel="allantoin" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="63.828867761452045" centerY="108.86274271315348" width="70.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="97-59-6" />
+  </DataNode>
+  <DataNode elementID="f46" textLabel="phosphate" groupRef="e03af" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="457.6972888140837" centerY="384.8397499077569" width="66.64912280701756" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="14265-44-2" />
+  </DataNode>
+  <DataNode elementID="f6fae" textLabel="glyoxylate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="644.3522530621204" centerY="259.5583578604525" width="66.1692650334075" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="fe9db" textLabel="CO2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="69.79901701518341" centerY="330.64668016873287" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a72bc" textLabel="H2O" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="366.80341707216263" centerY="154.82182776057206" width="42.72534464475072" height="20.0" zOrder="32769">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ac0b4" textLabel="H2O" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="225.85016348928406" centerY="376.2564677362625" width="41.06044538706263" height="20.0" zOrder="32770">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a52ed" textLabel="2 NH3" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="149.88525120858264" centerY="376.2564677362625" width="41.06044538706263" height="20.0" zOrder="32771">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e85f8" textLabel="H2O" groupRef="ab5de" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="528.6241893988794" centerY="405.42454522939465" width="41.06044538706263" height="20.0" zOrder="32772">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="d468b" textLabel="CO2" groupRef="ab5de" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="528.6241893988794" centerY="425.42454522939465" width="41.06044538706262" height="20.00000000000003" zOrder="32773">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <Interaction elementID="bd6b9" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="401.42165673282017" y="108.86274271315348" elementID="dcb6c" elementRef="c886d" relX="0.0" relY="0.0" />
+    <Point x="420.4283728869382" y="109.29690729397616" elementID="d3544" />
+    <Point x="439.4350890410562" y="145.35205045410342" elementID="da132" elementRef="a40" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="c1daa" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="492.48383852168587" y="300.33682593114895" elementID="a1d37" elementRef="a54" relX="0.0" relY="1.0" />
+    <Point x="492.77623618250476" y="330.6466801687329" elementID="f6aa9" elementRef="e4355" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="c29c9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="188.39027127022393" y="299.167235287874" elementID="f3015" elementRef="bbf" relX="0.0" relY="1.0" />
+    <Point x="188.0978736094052" y="330.64668016873287" elementID="d910c" elementRef="d913c" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="c2ca2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="564.5146224450854" y="201.20217417273201" elementID="a8470" elementRef="adf" relX="1.0" relY="0.0" />
+    <Point x="594.4685266100665" y="199.57631769538528" elementID="a405b" elementRef="a45eb" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="d1703" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="401.1777542937956" y="70.05804189416135" elementID="b3805" elementRef="b0d" relX="0.0" relY="1.0" />
+    <Point x="401.42165673282017" y="108.86274271315348" elementID="bee75" elementRef="c886d" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="dc3c6" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="366.8034170721626" y="144.82182776057206" elementID="eab80" elementRef="a72bc" relX="0.0" relY="-1.0" />
+    <Point x="384.11253690249134" y="109.29690729397616" elementID="aad62" />
+    <Point x="401.42165673282017" y="108.86274271315348" elementID="f2723" elementRef="c886d" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="e2f24" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="141.02575712164958" y="92.31099908317437" elementID="a63fa" elementRef="ab9" relX="0.0" relY="1.0" />
+    <Point x="140.86916626891477" y="108.86274271315348" elementID="e4134" elementRef="e2658" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="e5dbe" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="109.41741495127175" y="131.11026890585308" elementID="efaae" elementRef="a2af4" relX="0.0" relY="-1.0" />
+    <Point x="140.86916626891477" y="108.86274271315348" elementID="e87a7" elementRef="e2658" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="ea9f1" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="492.77623618250476" y="330.6466801687329" elementID="e4bfa" elementRef="e4355" relX="0.0" relY="0.0" />
+    <Point x="475.23676249829424" y="330.62922359196756" elementID="d9222" />
+    <Point x="457.6972888140837" y="367.3397499077569" elementID="ab8cb" elementRef="e03af" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="f77aa" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="188.0978736094052" y="330.64668016873287" elementID="e1198" elementRef="d913c" relX="0.0" relY="0.0" />
+    <Point x="168.7760781614897" y="330.62922359196756" elementID="d94e4" />
+    <Point x="149.88525120858264" y="366.2564677362625" elementID="e5fb7" elementRef="a52ed" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="fa486" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="225.85016348928406" y="366.2564677362625" elementID="f8b1c" elementRef="ac0b4" relX="0.0" relY="-1.0" />
+    <Point x="206.97401854934463" y="331.214018913605" elementID="f874b" />
+    <Point x="188.0978736094052" y="330.64668016873287" elementID="eb10a" elementRef="d913c" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="fb383" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="528.6241893988794" y="367.42454522939465" elementID="aaa27" elementRef="ab5de" relX="0.0" relY="-1.0" />
+    <Point x="510.70021279069204" y="330.62922359196756" elementID="f8e77" />
+    <Point x="492.77623618250476" y="330.6466801687329" elementID="f1a31" elementRef="e4355" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id25c65902" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="594.4685266100665" y="199.57631769538528" elementID="cbcbe" elementRef="a45eb" relX="0.0" relY="0.0" />
+    <Point x="644.3522530621203" y="249.55835786045247" elementID="cc4ca" elementRef="f6fae" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id511d91bf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="98.9955344281187" y="108.86274271315348" elementID="ffa85" elementRef="ede" relX="1.0" relY="0.0" />
+    <Point x="203.67961403010884" y="108.86274271315348" elementID="a08b7" elementRef="bb506" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="e2658" />
+  </Interaction>
+  <Interaction elementID="ida78ca1aa" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="265.96899585028905" y="330.64668016873287" elementID="b76ec" elementRef="a9abe" relX="-1.0" relY="0.0" />
+    <Point x="109.79901701518341" y="330.64668016873287" elementID="e83c9" elementRef="fe9db" relX="1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Anchor position="0.49863054872476603" shapeType="None" elementID="d913c" />
+  </Interaction>
+  <Interaction elementID="idb0519d50" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="283.67961403010884" y="108.86274271315348" elementID="fcf26" elementRef="bb506" relX="1.0" relY="0.0" />
+    <Point x="538.6476310876785" y="108.86274271315348" elementID="b5921" elementRef="abd56" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4617914202004643" shapeType="None" elementID="c886d" />
+  </Interaction>
+  <Interaction elementID="idbf33ab51" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="574.8018599434" y="330.6466801687329" elementID="fc3c7" elementRef="a3e" relX="-1.0" relY="0.0" />
+    <Point x="383.5809361487966" y="330.64668016873287" elementID="dd06f" elementRef="a9abe" relX="1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4289573658215437" shapeType="None" elementID="e4355" />
+  </Interaction>
+  <Interaction elementID="idd89e8668" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="594.4685266100665" y="118.86274271315348" elementID="e8a50" elementRef="abd56" relX="0.0" relY="1.0" />
+    <Point x="594.4685266100666" y="320.6466801687329" elementID="c8bf8" elementRef="a3e" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="a45eb" />
+  </Interaction>
+  <Group elementID="ab5de" groupType="Group" />
+  <Group elementID="e03af" groupType="Group" />
+  <InfoBox centerX="515.0" centerY="425.0" />
+  <Citations>
+    <Citation title="Birth of a metabolic gene cluster in yeast by adaptive gene relocation." URL="" citationID="bf8" year="2005" source="Nat Genet">
+      <Xref dataSource="PubMed" identifier="15951822" />
+      <Author name="Wong S" />
+      <Author name="Wolfe KH" />
+    </Citation>
+    <Citation title="Structural analysis of the dur loci in S. cerevisiae: two domains of a single multifunctional gene." URL="" citationID="yim" year="1980" source="Genetics">
+      <Xref dataSource="PubMed" identifier="6105114" />
+      <Author name="Cooper TG" />
+      <Author name="Lam C" />
+      <Author name="Turoscy V" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="nitrogen metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000036" />
+  </OntologyTerms>
+</Pathway>
+

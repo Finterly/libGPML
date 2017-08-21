@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BiochemicalReaction rdf:about="id101">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id101</bp:displayName>
+ <bp:right rdf:resource="f30d1" />
+ <bp:right rdf:resource="da75d" />
+ <bp:right rdf:resource="ea9a4" />
+ <bp:left rdf:resource="b96da" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id100">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id100</bp:displayName>
+ <bp:left rdf:resource="e95eb" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id71">
+ <bp:xref rdf:resource="id72" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NADPH</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="c53f3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">(S)-malate</bp:displayName>
+ <bp:entityReference rdf:resource="id47" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id70">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00217</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="bcff7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NAD</bp:displayName>
+ <bp:entityReference rdf:resource="id65" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id73">
+ <bp:xref rdf:resource="id74" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CoA</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="da75d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-oxoglutarate</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id72">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00221</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id75">
+ <bp:xref rdf:resource="id76" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id107">
+ <bp:controller rdf:resource="f4381" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id107</bp:displayName>
+ <bp:controlled rdf:resource="id106" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id74">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01423</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="cae57">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">water</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id106">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id106</bp:displayName>
+ <bp:right rdf:resource="b96da" />
+ <bp:right rdf:resource="b5c93" />
+ <bp:left rdf:resource="da75d" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id77">
+ <bp:xref rdf:resource="id78" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ATP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id109">
+ <bp:controller rdf:resource="dd5a4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id109</bp:displayName>
+ <bp:controlled rdf:resource="id106" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id76">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01341</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="id108">
+ <bp:controller rdf:resource="e5766" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id108</bp:displayName>
+ <bp:controlled rdf:resource="id106" />
+</bp:Catalysis>
+
+<bp:SmallMoleculeReference rdf:about="id79">
+ <bp:xref rdf:resource="id80" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ubiquinone-10</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id103">
+ <bp:controller rdf:resource="cea45" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id103</bp:displayName>
+ <bp:controlled rdf:resource="id101" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id78">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00538</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="id102">
+ <bp:controller rdf:resource="ee392" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id102</bp:displayName>
+ <bp:controlled rdf:resource="id101" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id105">
+ <bp:controller rdf:resource="a61f3" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id105</bp:displayName>
+ <bp:controlled rdf:resource="id101" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id104">
+ <bp:controller rdf:resource="eb68a" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id104</bp:displayName>
+ <bp:controlled rdf:resource="id101" />
+</bp:Catalysis>
+
+<bp:SmallMolecule rdf:about="ac347">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">water</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="a61f3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IDH3B</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3420 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="ab88e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cis-aconitate</bp:displayName>
+ <bp:entityReference rdf:resource="id63" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 16383</bp:comment>
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id60">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00254</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="d7980">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">water</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="e2231">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SDHB</bp:displayName>
+ <bp:entityReference rdf:resource="id61" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6390 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id62">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000008314</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id61">
+ <bp:xref rdf:resource="id62" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SDHB</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id64">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00072</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id63">
+ <bp:xref rdf:resource="id64" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cis-aconitate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="e6311">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CS</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1431 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id66">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00902</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id65">
+ <bp:xref rdf:resource="id66" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NAD</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id68">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000014093</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id67">
+ <bp:xref rdf:resource="id68" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IDH2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="c02ba">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">water</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id69">
+ <bp:xref rdf:resource="id70" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NADP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="c6452">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DLST</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1743 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="e95eb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">citrate</bp:displayName>
+ <bp:entityReference rdf:resource="id55" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="b5f1a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SDHA</bp:displayName>
+ <bp:entityReference rdf:resource="id39" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6389 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="a39f2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">oxaloacetate</bp:displayName>
+ <bp:entityReference rdf:resource="id49" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id91">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id91</bp:displayName>
+ <bp:right rdf:resource="d9ef6" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id90">
+ <bp:controller rdf:resource="e2231" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id90</bp:displayName>
+ <bp:controlled rdf:resource="id85" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id93">
+ <bp:controller rdf:resource="fbddc" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id93</bp:displayName>
+ <bp:controlled rdf:resource="id92" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id92">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id92</bp:displayName>
+ <bp:right rdf:resource="ac347" />
+ <bp:right rdf:resource="c53f3" />
+ <bp:left rdf:resource="fc117" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id95">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id95</bp:displayName>
+ <bp:right rdf:resource="bc872" />
+ <bp:right rdf:resource="d65f9" />
+ <bp:right rdf:resource="a39f2" />
+ <bp:left rdf:resource="c53f3" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id94">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id94</bp:displayName>
+ <bp:left rdf:resource="c6beb" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id97">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id97</bp:displayName>
+ <bp:right rdf:resource="e95eb" />
+ <bp:right rdf:resource="d568e" />
+ <bp:right rdf:resource="c02ba" />
+ <bp:left rdf:resource="a39f2" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id96">
+ <bp:controller rdf:resource="fd8f9" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id96</bp:displayName>
+ <bp:controlled rdf:resource="id95" />
+</bp:Catalysis>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NADH</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id99">
+ <bp:controller rdf:resource="d9ef6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id99</bp:displayName>
+ <bp:controlled rdf:resource="id97" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB02111</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="id98">
+ <bp:controller rdf:resource="e6311" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id98</bp:displayName>
+ <bp:controlled rdf:resource="id97" />
+</bp:Catalysis>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FH</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="a8ee4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ubiquinone-10</bp:displayName>
+ <bp:entityReference rdf:resource="id79" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01487</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SDHC</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000021688</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="ee392">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IDH3A</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3419 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="ab312">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NADH</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 57945</bp:comment>
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="ffbe6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">succinyl-CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 57292</bp:comment>
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id80">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01072</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id82">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB13111</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="f30d1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NADH</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 57945</bp:comment>
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id81">
+ <bp:xref rdf:resource="id82" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ubiquinol-10</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id84">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01429</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="f1927">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DLD</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1738 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="id83">
+ <bp:xref rdf:resource="id84" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pi</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="d568e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id73" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 57287</bp:comment>
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id86">
+ <bp:controller rdf:resource="b5f1a" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id86</bp:displayName>
+ <bp:controlled rdf:resource="id85" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id85">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id85</bp:displayName>
+ <bp:right rdf:resource="fc117" />
+ <bp:right rdf:resource="c5215" />
+ <bp:left rdf:resource="c6beb" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id88">
+ <bp:controller rdf:resource="a8ee4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id88</bp:displayName>
+ <bp:controlled rdf:resource="id85" />
+</bp:Catalysis>
+
+<bp:Protein rdf:about="f381d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OGDH</bp:displayName>
+ <bp:entityReference rdf:resource="id45" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4967 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Catalysis rdf:about="id87">
+ <bp:controller rdf:resource="ddb56" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id87</bp:displayName>
+ <bp:controlled rdf:resource="id85" />
+</bp:Catalysis>
+
+<bp:SmallMolecule rdf:about="ea9a4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CO2</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="fbddc">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FH</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2271 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="d65f9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NAD</bp:displayName>
+ <bp:entityReference rdf:resource="id65" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="e1568">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id73" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 57287</bp:comment>
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id89">
+ <bp:controller rdf:resource="d0245" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id89</bp:displayName>
+ <bp:controlled rdf:resource="id85" />
+</bp:Catalysis>
+
+<bp:SmallMolecule rdf:about="e5766">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NADPH</bp:displayName>
+ <bp:entityReference rdf:resource="id71" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 57783</bp:comment>
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="ea5a6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id73" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 57287</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Type your comment here</bp:comment>
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="bd36e">
+ <bp:xref rdf:resource="d25" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SUCLG2</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:8801 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id121" />
+ <bp:pathwayComponent rdf:resource="id120" />
+ <bp:pathwayComponent rdf:resource="id91" />
+ <bp:pathwayComponent rdf:resource="id101" />
+ <bp:pathwayComponent rdf:resource="id123" />
+ <bp:pathwayComponent rdf:resource="id90" />
+ <bp:pathwayComponent rdf:resource="id100" />
+ <bp:pathwayComponent rdf:resource="id122" />
+ <bp:pathwayComponent rdf:resource="id93" />
+ <bp:pathwayComponent rdf:resource="id92" />
+ <bp:pathwayComponent rdf:resource="id95" />
+ <bp:pathwayComponent rdf:resource="id94" />
+ <bp:pathwayComponent rdf:resource="id97" />
+ <bp:pathwayComponent rdf:resource="id107" />
+ <bp:pathwayComponent rdf:resource="id96" />
+ <bp:pathwayComponent rdf:resource="id106" />
+ <bp:pathwayComponent rdf:resource="id99" />
+ <bp:pathwayComponent rdf:resource="id109" />
+ <bp:pathwayComponent rdf:resource="id98" />
+ <bp:pathwayComponent rdf:resource="id108" />
+ <bp:pathwayComponent rdf:resource="id103" />
+ <bp:pathwayComponent rdf:resource="id102" />
+ <bp:pathwayComponent rdf:resource="id124" />
+ <bp:pathwayComponent rdf:resource="id105" />
+ <bp:pathwayComponent rdf:resource="id104" />
+ <bp:pathwayComponent rdf:resource="id110" />
+ <bp:pathwayComponent rdf:resource="id112" />
+ <bp:pathwayComponent rdf:resource="id111" />
+ <bp:pathwayComponent rdf:resource="id86" />
+ <bp:pathwayComponent rdf:resource="id118" />
+ <bp:pathwayComponent rdf:resource="id85" />
+ <bp:pathwayComponent rdf:resource="id117" />
+ <bp:pathwayComponent rdf:resource="id88" />
+ <bp:pathwayComponent rdf:resource="id87" />
+ <bp:pathwayComponent rdf:resource="id119" />
+ <bp:pathwayComponent rdf:resource="id114" />
+ <bp:pathwayComponent rdf:resource="id89" />
+ <bp:pathwayComponent rdf:resource="id113" />
+ <bp:pathwayComponent rdf:resource="id116" />
+ <bp:pathwayComponent rdf:resource="id115" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TCA Cycle</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string"> (GenMAPP notes)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string"> (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The [[wikipedia:citric_acid_cycle|citric acid cycle]], also known as the tricarboxylic acid cycle (TCA cycle) or the Krebs cycle, (or rarely, the Szent-Gyorgyi-Krebs cycle) is a series of enzyme-catalysed chemical reactions of central importance in all living cells that use oxygen as part of cellular respiration. In eukaryotes, the citric acid cycle occurs in the matrix of the mitochondrion. The components and reactions of the citric acid cycle were established by seminal work from both [[wikipedia:Albert_Szent-Gyorgyi|Albert Szent-Gyorgyi]] and [[wikipedia:Hans_Krebs|Hans Krebs]]. 
+Source: Wikipedia ([[wikipedia:citric_acid_cycle]]) (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP78_r70014 WP78(70014)]  with a 100.0% conversion rate. (HomologyConvert)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01273</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GTP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01201</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GDP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01967</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CO2</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">water</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="fd8f9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MDH2</bp:displayName>
+ <bp:entityReference rdf:resource="id41" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4191 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">acetyl-CoA</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000006463</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IDH3B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01206</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id35">
+ <bp:xref rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IDH3A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000018813</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id37">
+ <bp:xref rdf:resource="id38" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SUCLG1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id36">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000006227</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000001908</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DLD</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DLST</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="c57b3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SUCLG1</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:8802 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="e271d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADP</bp:displayName>
+ <bp:entityReference rdf:resource="id75" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 456216</bp:comment>
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="eb68a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NAD</bp:displayName>
+ <bp:entityReference rdf:resource="id65" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="bc872">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NADH</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 57945</bp:comment>
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="bdef5">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACO2</bp:displayName>
+ <bp:entityReference rdf:resource="id57" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:50 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="cea45">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IDH3G</bp:displayName>
+ <bp:entityReference rdf:resource="id43" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3421 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="d1c04">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACO2</bp:displayName>
+ <bp:entityReference rdf:resource="id57" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:50 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="f85a0">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GDP</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 58189</bp:comment>
+</bp:SmallMolecule>
+
+<bp:PublicationXref rdf:about="d25">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2004</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tews KN</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Frohlich D</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Adkins S</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lambeth DO</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Milavetz BI</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15234968</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Expression of two succinyl-CoA synthetases with different nucleotide specificities in mammalian tissues.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01022</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00208</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-oxoglutarate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="f4381">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CO2</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000009541</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SUCLG2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000004371</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CS</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMoleculeReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D-threo-Isocitrate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000015853</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">succinyl-CoA</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00193</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="ddb56">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SDHD</bp:displayName>
+ <bp:entityReference rdf:resource="id53" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6392 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="b5c93">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NADP</bp:displayName>
+ <bp:entityReference rdf:resource="id69" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="bc5b7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GTP</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 37565</bp:comment>
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id121">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id121</bp:displayName>
+ <bp:right rdf:resource="ab88e" />
+ <bp:right rdf:resource="cae57" />
+ <bp:left rdf:resource="b96da" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id120">
+ <bp:controller rdf:resource="bdef5" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id120</bp:displayName>
+ <bp:controlled rdf:resource="id119" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id123">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id123</bp:displayName>
+ <bp:right rdf:resource="d9ef6" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="b96da">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">D-threo-Isocitrate</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 15562</bp:comment>
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id122">
+ <bp:controller rdf:resource="d1c04" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id122</bp:displayName>
+ <bp:controlled rdf:resource="id121" />
+</bp:Catalysis>
+
+<bp:SmallMoleculeReference rdf:about="id51">
+ <bp:xref rdf:resource="id52" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">fumarate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id50">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00223</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="dd5a4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IDH2</bp:displayName>
+ <bp:entityReference rdf:resource="id67" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3418 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id53">
+ <bp:xref rdf:resource="id54" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SDHD</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id52">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00134</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id55">
+ <bp:xref rdf:resource="id56" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">citrate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id54">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000016266</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id57">
+ <bp:xref rdf:resource="id58" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACO2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id56">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00094</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id124">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id124</bp:displayName>
+ <bp:right rdf:resource="d9ef6" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id59">
+ <bp:xref rdf:resource="id60" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">succinate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id58">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000006429</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id49">
+ <bp:xref rdf:resource="id50" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">oxaloacetate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="d9ef6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">acetyl-CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 57288</bp:comment>
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id110">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id110</bp:displayName>
+ <bp:right rdf:resource="ab312" />
+ <bp:right rdf:resource="f5407" />
+ <bp:right rdf:resource="ffbe6" />
+ <bp:left rdf:resource="da75d" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="c6beb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">succinate</bp:displayName>
+ <bp:entityReference rdf:resource="id59" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 30031</bp:comment>
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id112">
+ <bp:controller rdf:resource="f1927" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id112</bp:displayName>
+ <bp:controlled rdf:resource="id110" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id111">
+ <bp:controller rdf:resource="f381d" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id111</bp:displayName>
+ <bp:controlled rdf:resource="id110" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id40">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000046019</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id42">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000009462</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="c7118">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ATP</bp:displayName>
+ <bp:entityReference rdf:resource="id77" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The ChEBI ID with the correct charge is: 30616</bp:comment>
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id118">
+ <bp:controller rdf:resource="c57b3" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id118</bp:displayName>
+ <bp:controlled rdf:resource="id116" />
+</bp:Catalysis>
+
+<bp:ProteinReference rdf:about="id41">
+ <bp:xref rdf:resource="id42" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MDH2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Catalysis rdf:about="id117">
+ <bp:controller rdf:resource="bd36e" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id117</bp:displayName>
+ <bp:controlled rdf:resource="id116" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id44">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000001059</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id43">
+ <bp:xref rdf:resource="id44" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IDH3G</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id119">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id119</bp:displayName>
+ <bp:right rdf:resource="e95eb" />
+ <bp:right rdf:resource="d7980" />
+ <bp:left rdf:resource="ab88e" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id46">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000006029</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="id114">
+ <bp:controller rdf:resource="ea5a6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id114</bp:displayName>
+ <bp:controlled rdf:resource="id110" />
+</bp:Catalysis>
+
+<bp:ProteinReference rdf:about="id45">
+ <bp:xref rdf:resource="id46" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OGDH</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Catalysis rdf:about="id113">
+ <bp:controller rdf:resource="bcff7" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id113</bp:displayName>
+ <bp:controlled rdf:resource="id110" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id48">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00156</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id116">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id116</bp:displayName>
+ <bp:right rdf:resource="c6beb" />
+ <bp:right rdf:resource="ac299" />
+ <bp:right rdf:resource="f85a0" />
+ <bp:right rdf:resource="c7118" />
+ <bp:right rdf:resource="bc5b7" />
+ <bp:right rdf:resource="e271d" />
+ <bp:right rdf:resource="e1568" />
+ <bp:left rdf:resource="ffbe6" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id47">
+ <bp:xref rdf:resource="id48" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">(S)-malate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="c5215">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ubiquinol-10</bp:displayName>
+ <bp:entityReference rdf:resource="id81" />
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id115">
+ <bp:controller rdf:resource="c6452" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id115</bp:displayName>
+ <bp:controlled rdf:resource="id110" />
+</bp:Catalysis>
+
+<bp:Protein rdf:about="d0245">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SDHC</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6391 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id39">
+ <bp:xref rdf:resource="id40" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SDHA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id38">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000006075</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="fc117">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">fumarate</bp:displayName>
+ <bp:entityReference rdf:resource="id51" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="ac299">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pi</bp:displayName>
+ <bp:entityReference rdf:resource="id83" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="f5407">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CO2</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+</rdf:RDF>

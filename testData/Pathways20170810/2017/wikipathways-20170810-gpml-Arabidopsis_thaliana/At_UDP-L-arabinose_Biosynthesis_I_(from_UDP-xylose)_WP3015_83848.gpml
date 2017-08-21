@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="UDP-L-arabinose Biosynthesis I (from UDP-xylose)" dataSource="Plant Reactome - http://plantreactome.gramene.org" revision="43" organism="Arabidopsis thaliana" width="311.0" height="300.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">This event has been computationally inferred from an event that has been demonstrated in another species.&lt;p&gt;The inference is based on Ensembl Compara orthology projection. Briefly, reactions for which all involved PhysicalEntities (in input, output and catalyst) have a mapped ortholog or paralog are inferred to the other species. High-level events are also inferred for these events to allow for easier navigation.&lt;p&gt;Details of projection methods and parameters may be found &lt;a href="/projection.html"&gt;here.&lt;/a&gt;&lt;p&gt;
+
+Source:[http://plantreactome.gramene.org/ Plant Reactome].</Comment>
+  <Attribute key="reactome_id" value="5402192" />
+  <DataNode elementID="ae28c" textLabel="Homologues of NAD&#xA;dependent&#xA;epimerase/dehydratase&#xA;family domain&#xA;containing protein&#xA;(LOC_OS04G52730.1)" fontSize="10" vAlign="Middle" type="Protein" centerX="183.5" centerY="136.5" width="137.0" height="59.0" zOrder="32768">
+    <Attribute key="reactome_id" value="5400401" />
+    <Xref dataSource="Reactome" identifier="5400401" />
+  </DataNode>
+  <DataNode elementID="e1945" textLabel="UDP-Xyl" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="80.5" centerY="73.0" width="65.0" height="30.0" zOrder="32768">
+    <Attribute key="reactome_id" value="742353" />
+    <Xref dataSource="ChEBI" identifier="CHEBI:16082" />
+  </DataNode>
+  <DataNode elementID="ee2ca" textLabel="UDP-L-arabinose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="81.5" centerY="204.5" width="101.0" height="31.0" zOrder="32768">
+    <Attribute key="reactome_id" value="1131157" />
+    <Xref dataSource="ChEBI" identifier="CHEBI:17983" />
+  </DataNode>
+  <Interaction elementID="c20c2" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="Reactome" identifier="5400487" />
+    <Comment source="Reactome">This event has been computationally inferred from an event that has been demonstrated in another species.&lt;p&gt;The inference is based on Ensembl Compara orthology projection. Briefly, reactions for which all involved PhysicalEntities (in input, output and catalyst) have a mapped ortholog or paralog are inferred to the other species. High-level events are also inferred for these events to allow for easier navigation.&lt;p&gt;Details of projection methods and parameters may be found &lt;a href="/projection.html"&gt;here.&lt;/a&gt;&lt;p&gt;</Comment>
+    <Attribute key="reactome_id" value="5400487" />
+    <Point x="80.0" y="91.0" elementID="e58f1" />
+    <Point x="80.0" y="186.0" elementID="a02b6" />
+    <Anchor position="0.0" shapeType="None" elementID="e99ee" />
+    <Anchor position="0.99" shapeType="None" elementID="fd576" />
+    <Anchor position="0.5" shapeType="None" elementID="e2783" />
+  </Interaction>
+  <Interaction elementID="d3d33" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="Reactome" identifier="5400487" />
+    <Point x="115.0" y="136.0" elementID="d653c" elementRef="ae28c" relX="-1.0" relY="-0.01694915254237288" />
+    <Point x="80.0" y="186.0" elementID="c34de" elementRef="e2783" relX="0.0" relY="47.5" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="d55c9" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="Reactome" identifier="5400487" />
+    <Point x="80.0" y="88.0" elementID="d766e" elementRef="e1945" relX="-0.015384615384615385" relY="1.0" />
+    <Point x="80.0" y="91.0" elementID="b10b0" elementRef="e99ee" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="fecd5" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="Reactome" identifier="5400487" />
+    <Point x="80.0" y="186.0" elementID="ddf9b" elementRef="fd576" relX="0.0" relY="0.9499999999999886" />
+    <Point x="81.0" y="189.0" elementID="fdfa6" elementRef="ee2ca" relX="-0.009900990099009901" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="b2a1b" textLabel="cytosol" fillColor="ffffff" fontSize="10" vAlign="Middle" groupRef="c80f5" centerX="141.0" centerY="33.5" width="64.0" height="33.0" zOrder="28672" />
+  <Shape elementID="fae70" groupRef="c80f5" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="142.5" centerY="137.0" width="277.0" height="266.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="c80f5" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+</Pathway>
+

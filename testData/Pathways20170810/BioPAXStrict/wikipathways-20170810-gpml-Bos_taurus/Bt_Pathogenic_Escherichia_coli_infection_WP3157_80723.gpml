@@ -1,0 +1,847 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:ProteinReference rdf:about="id71">
+ <bp:xref rdf:resource="id72" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTG1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id70">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000026199</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id73">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id73</bp:displayName>
+ <bp:right rdf:resource="fb077" />
+ <bp:left rdf:resource="ecacf" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id72">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000006189</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id75">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id75</bp:displayName>
+ <bp:right rdf:resource="c7591" />
+ <bp:right rdf:resource="bd719" />
+ <bp:left rdf:resource="e8cd3" />
+ <bp:left rdf:resource="fb71e" />
+ <bp:left rdf:resource="e2ae3" />
+ <bp:left rdf:resource="e4cf3" />
+ <bp:left rdf:resource="dd820" />
+ <bp:left rdf:resource="a69b8" />
+ <bp:left rdf:resource="de2dd" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="ae000">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WASL</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:8976 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;37;hsa:7454 hsa:8976 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id74">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id74</bp:displayName>
+ <bp:right rdf:resource="e8cd3" />
+ <bp:right rdf:resource="fb71e" />
+ <bp:right rdf:resource="e2ae3" />
+ <bp:right rdf:resource="e4cf3" />
+ <bp:right rdf:resource="dd820" />
+ <bp:right rdf:resource="a69b8" />
+ <bp:right rdf:resource="de2dd" />
+ <bp:left rdf:resource="cd3f9" />
+ <bp:left rdf:resource="ae000" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="dc65c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA1B</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;15;hsa:10376 hsa:112714 hsa:113457 hsa:51807 hsa:7277 hsa:7278 hsa:7846 hsa:79861 hsa:84790 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10376 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id77">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id77</bp:displayName>
+ <bp:right rdf:resource="a47ec" />
+ <bp:left rdf:resource="c623a" />
+ <bp:left rdf:resource="aa15d" />
+ <bp:left rdf:resource="e3e91" />
+ <bp:left rdf:resource="c09c7" />
+ <bp:left rdf:resource="dc65c" />
+ <bp:left rdf:resource="b9e8f" />
+ <bp:left rdf:resource="b55e3" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id76">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id76</bp:displayName>
+ <bp:right rdf:resource="a47ec" />
+ <bp:left rdf:resource="fac00" />
+ <bp:left rdf:resource="ad510" />
+ <bp:left rdf:resource="ee60e" />
+ <bp:left rdf:resource="b9771" />
+ <bp:left rdf:resource="b550b" />
+ <bp:left rdf:resource="a26ee" />
+ <bp:left rdf:resource="e7702" />
+ <bp:left rdf:resource="ae361" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="e4db1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ROCK2</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;28;hsa:6093 hsa:9475 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:9475 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id79">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id79</bp:displayName>
+ <bp:right rdf:resource="d2429" />
+ <bp:right rdf:resource="e4db1" />
+ <bp:left rdf:resource="e3498" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="b55e3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA4A</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;15;hsa:10376 hsa:112714 hsa:113457 hsa:51807 hsa:7277 hsa:7278 hsa:7846 hsa:79861 hsa:84790 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7277 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id78">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id78</bp:displayName>
+ <bp:right rdf:resource="e3498" />
+ <bp:left rdf:resource="a47ec" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="ae361">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB2B</bp:displayName>
+ <bp:entityReference rdf:resource="id47" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:347733 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="fb077">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TLR4</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7099 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;9;hsa:7099 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="aa15d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA8</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;15;hsa:10376 hsa:112714 hsa:113457 hsa:51807 hsa:7277 hsa:7278 hsa:7846 hsa:79861 hsa:84790 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:51807 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id60">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000005345</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id62">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000046248</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id61">
+ <bp:xref rdf:resource="id62" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC1B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id64">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000010386</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id63">
+ <bp:xref rdf:resource="id64" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id66">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000004242</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id65">
+ <bp:xref rdf:resource="id66" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC1A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id68">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000015278</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="a47ec">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARHGEF2</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:9181 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;42;hsa:9181 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id67">
+ <bp:xref rdf:resource="id68" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC5L</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id69">
+ <bp:xref rdf:resource="id70" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTB</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="e8cd3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC2</bp:displayName>
+ <bp:entityReference rdf:resource="id63" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;54;hsa:10092 hsa:10093 hsa:10094 hsa:10095 hsa:10109 hsa:10552 hsa:653888 hsa:81873 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10109 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="ef59b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">E-CADHERIN</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:999 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;17;hsa:999 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id90">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id90</bp:displayName>
+ <bp:left rdf:resource="df8ec" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="fb71e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC1B</bp:displayName>
+ <bp:entityReference rdf:resource="id61" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;54;hsa:10092 hsa:10093 hsa:10094 hsa:10095 hsa:10109 hsa:10552 hsa:653888 hsa:81873 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10095 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="b550b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB4B</bp:displayName>
+ <bp:entityReference rdf:resource="id43" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10383 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA8</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000030979</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA4A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000018530</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA1A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000030974</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="dd820">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC1A</bp:displayName>
+ <bp:entityReference rdf:resource="id65" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10552 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;54;hsa:10092 hsa:10093 hsa:10094 hsa:10095 hsa:10109 hsa:10552 hsa:653888 hsa:81873 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="b9e8f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA1C</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;15;hsa:10376 hsa:112714 hsa:113457 hsa:51807 hsa:7277 hsa:7278 hsa:7846 hsa:79861 hsa:84790 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:84790 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e0110">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB4A</bp:displayName>
+ <bp:entityReference rdf:resource="id41" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10382 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id80">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id80</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id82">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id82</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id81">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id81</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id84">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id84</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id83">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id83</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id86">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id86</bp:displayName>
+ <bp:right rdf:resource="ef59b" />
+ <bp:left rdf:resource="c24ea" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="c09c7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA3E</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;15;hsa:10376 hsa:112714 hsa:113457 hsa:51807 hsa:7277 hsa:7278 hsa:7846 hsa:79861 hsa:84790 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:112714 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id85">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id85</bp:displayName>
+ <bp:right rdf:resource="df8ec" />
+ <bp:left rdf:resource="ef59b" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id88">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id88</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="a2d0a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB2B</bp:displayName>
+ <bp:entityReference rdf:resource="id49" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7280 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id87">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id87</bp:displayName>
+ <bp:right rdf:resource="c24ea" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id89">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id89</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="e7702">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB1</bp:displayName>
+ <bp:entityReference rdf:resource="id51" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:81027 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id80" />
+ <bp:pathwayComponent rdf:resource="id90" />
+ <bp:pathwayComponent rdf:resource="id82" />
+ <bp:pathwayComponent rdf:resource="id81" />
+ <bp:pathwayComponent rdf:resource="id73" />
+ <bp:pathwayComponent rdf:resource="id84" />
+ <bp:pathwayComponent rdf:resource="id83" />
+ <bp:pathwayComponent rdf:resource="id75" />
+ <bp:pathwayComponent rdf:resource="id86" />
+ <bp:pathwayComponent rdf:resource="id74" />
+ <bp:pathwayComponent rdf:resource="id85" />
+ <bp:pathwayComponent rdf:resource="id77" />
+ <bp:pathwayComponent rdf:resource="id88" />
+ <bp:pathwayComponent rdf:resource="id76" />
+ <bp:pathwayComponent rdf:resource="id87" />
+ <bp:pathwayComponent rdf:resource="id79" />
+ <bp:pathwayComponent rdf:resource="id78" />
+ <bp:pathwayComponent rdf:resource="id89" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pathogenic Escherichia coli infection</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cellular Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP2272_r78594 WP2272(78594)]  with a 61.0% conversion rate. (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sources: [http://www.genome.jp/kegg/pathway/hsa/hsa05130.html KEGG] (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000015032</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CD14</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000006240</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="ad45c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB5</bp:displayName>
+ <bp:entityReference rdf:resource="id45" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:203068 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TLR4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000012244</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA1B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA3E</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="d20a8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB3</bp:displayName>
+ <bp:entityReference rdf:resource="id39" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10381 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e3498">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RHOA</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;44;hsa:387 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:387 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="aa58c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB1</bp:displayName>
+ <bp:entityReference rdf:resource="id51" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:81027 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WAS</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000001061</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WASL</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="a69b8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC5</bp:displayName>
+ <bp:entityReference rdf:resource="id55" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;54;hsa:10092 hsa:10093 hsa:10094 hsa:10095 hsa:10109 hsa:10552 hsa:653888 hsa:81873 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10092 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="b79c3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB2B</bp:displayName>
+ <bp:entityReference rdf:resource="id47" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:347733 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000046555</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id35">
+ <bp:xref rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARHGEF2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000004643</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="ba968">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB6</bp:displayName>
+ <bp:entityReference rdf:resource="id53" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:84617 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id37">
+ <bp:xref rdf:resource="id38" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RHOA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="bd719">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTG1</bp:displayName>
+ <bp:entityReference rdf:resource="id71" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;55;hsa:60 hsa:71 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:71 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id36">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000000113</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000005847</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ROCK2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PRKCA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="ad510">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB3</bp:displayName>
+ <bp:entityReference rdf:resource="id39" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10381 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="ecacf">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CD14</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;2;hsa:929 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:929 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="c623a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA1A</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;15;hsa:10376 hsa:112714 hsa:113457 hsa:51807 hsa:7277 hsa:7278 hsa:7846 hsa:79861 hsa:84790 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7846 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="df8ec">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CTNNB1</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;26;hsa:1499 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1499 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="cd3f9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WAS</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;37;hsa:7454 hsa:8976 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7454 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="b9771">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB4A</bp:displayName>
+ <bp:entityReference rdf:resource="id41" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10382 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e2ae3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC3</bp:displayName>
+ <bp:entityReference rdf:resource="id59" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;54;hsa:10092 hsa:10093 hsa:10094 hsa:10095 hsa:10109 hsa:10552 hsa:653888 hsa:81873 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10094 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e3e91">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBAL3</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:79861 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;15;hsa:10376 hsa:112714 hsa:113457 hsa:51807 hsa:7277 hsa:7278 hsa:7846 hsa:79861 hsa:84790 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000039992</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000015991</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">E-CADHERIN</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="a26ee">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB6</bp:displayName>
+ <bp:entityReference rdf:resource="id53" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:84617 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000016420</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CTNNB1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000008403</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ROCK1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBAL3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000001489</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBA1C</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000017740</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="de2dd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC4</bp:displayName>
+ <bp:entityReference rdf:resource="id57" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10093 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;54;hsa:10092 hsa:10093 hsa:10094 hsa:10095 hsa:10109 hsa:10552 hsa:653888 hsa:81873 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="fac00">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB2B</bp:displayName>
+ <bp:entityReference rdf:resource="id49" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7280 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id51">
+ <bp:xref rdf:resource="id52" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id50">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000046886</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id53">
+ <bp:xref rdf:resource="id54" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB6</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id52">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000018785</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e4cf3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC5L</bp:displayName>
+ <bp:entityReference rdf:resource="id67" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;54;hsa:10092 hsa:10093 hsa:10094 hsa:10095 hsa:10109 hsa:10552 hsa:653888 hsa:81873 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:81873 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id55">
+ <bp:xref rdf:resource="id56" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC5</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="c24ea">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PRKCA</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;36;hsa:5578 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5578 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id54">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000046337</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id57">
+ <bp:xref rdf:resource="id58" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id56">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000045582</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id59">
+ <bp:xref rdf:resource="id60" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARPC3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id58">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000007964</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id49">
+ <bp:xref rdf:resource="id50" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB2B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="c7591">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACTB</bp:displayName>
+ <bp:entityReference rdf:resource="id69" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;55;hsa:60 hsa:71 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:60 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id40">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000023730</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id42">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000021013</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id41">
+ <bp:xref rdf:resource="id42" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB4A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id44">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000025274</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id43">
+ <bp:xref rdf:resource="id44" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB4B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id46">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000006969</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="fb48f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB4B</bp:displayName>
+ <bp:entityReference rdf:resource="id43" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10383 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id45">
+ <bp:xref rdf:resource="id46" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB5</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id48">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000004093</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id47">
+ <bp:xref rdf:resource="id48" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB2B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id39">
+ <bp:xref rdf:resource="id40" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id38">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000004279</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="d2429">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ROCK1</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;28;hsa:6093 hsa:9475 (KeggConverter)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6093 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="ee60e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TUBB5</bp:displayName>
+ <bp:entityReference rdf:resource="id45" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:203068 (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Original kegg element: gene;47;hsa:10381 hsa:10382 hsa:10383 hsa:203068 hsa:347688 hsa:347733 hsa:56604 hsa:7280 hsa:81027 hsa:84617 (KeggConverter)</bp:comment>
+</bp:Protein>
+</rdf:RDF>

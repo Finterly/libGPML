@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lysine Biosynthesis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Based on http://pathway.yeastgenome.org/biocyc/ (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S. cerevisiae synthesizes the essential amino acid L-lysine via the L-alpha-aminoadipic acid pathway instead of the diaminopmelate pathway (CITS: [10714900]).  Originally proposed to be characteristic of fungi, recent studies suggest prokaryotes also synthesize lysine via the alpha-aminoadipic acid pathway (CITS: [11029074]). Intermediates in this pathway are often incorporated into secondary metabolites.  For example, it has been well- studied that alpha-aminoadipate is required for penicillin production (CITS: [10714900]).    Regulation of the lysine biosynthetic pathway in S. cerevisiae is an interaction between general amino acid control (via Gcn4p) (CITS: [Hinnebusch]), feedback inhibition of homocitrate synthase activity by lysine (CITS: [10103047]), and induction of Lys14p by alpha-aminoadipate semialdehyde (CITS: [10975256]). 
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+</rdf:RDF>

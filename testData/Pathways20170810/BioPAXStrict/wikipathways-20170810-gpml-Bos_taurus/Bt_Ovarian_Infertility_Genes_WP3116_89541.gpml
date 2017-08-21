@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="acbdd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHA</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3623 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="caf">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SMAD3</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4088 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ESR2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000024648</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">VDR</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000004498</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR5A1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000016414</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id27">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id27</bp:displayName>
+ <bp:right rdf:resource="bd3" />
+ <bp:right rdf:resource="fc2" />
+ <bp:right rdf:resource="bf8" />
+ <bp:right rdf:resource="e68" />
+ <bp:right rdf:resource="fff" />
+ <bp:right rdf:resource="af4" />
+ <bp:right rdf:resource="fa9" />
+ <bp:right rdf:resource="d93" />
+ <bp:left rdf:resource="caf" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="fc2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PGR</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5241 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="fa9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR5A1</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2516 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e68">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">VDR</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7421 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="fff">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NCOR1</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:9611 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000013271</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000047293</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NRIP1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000010069</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EGR1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="af4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EGR1</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1958 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id26">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id26</bp:displayName>
+ <bp:right rdf:resource="ed6" />
+ <bp:left rdf:resource="acbdd" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id25">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id25</bp:displayName>
+ <bp:right rdf:resource="bb7" />
+ <bp:left rdf:resource="e567c" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="bd3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ESR2</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2100 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TF2D</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000009017</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NCOR1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000002545</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="bf8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TF2D</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = S:P20226 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:displayName>
+</bp:BioSource>
+
+<bp:Protein rdf:about="bb7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GDF9</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2661 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="ed6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHA</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3623 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id27" />
+ <bp:pathwayComponent rdf:resource="id26" />
+ <bp:pathwayComponent rdf:resource="id25" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ovarian Infertility Genes</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cellular Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ovarian bottleneck genes associated with infertility.
+A valuable approach to the study of infertility is the comparison of mutations of individual human and mouse genes associated with infertility phenotypes. The individual gene pages in the OKdb (Ovarian Kaleidoscope Database: http://ovary.stanford.edu) contain information on associated fertility phenotypes sorted by ovarian and nonovarian defects and by subfertility or infertility. If one searches for null mutations (under mutation type) causing infertility (infertile - ovarian defect, under female fertility status) in mice (under species), 44 gene entries are found. The expression of these infertility genes in the oocyte and granulosa cells together with their cellular localization is presented in Ovarian Infertility gene map. The theca cell genes are not presented because most publications emphasize granulosa cell studies. (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP34_r72115 WP34(72115)]  with a 97.0% conversion rate. (HomologyConvert)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000009478</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GDF9</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000009972</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e567c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GDF9</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2661 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INHA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000012599</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SMAD3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PGR</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="d93">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NRIP1</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:8204 (HomologyConvert)</bp:comment>
+</bp:Protein>
+</rdf:RDF>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="e88">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sap18</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a59">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sufu</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id7" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hedgehog Signaling Pathway</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">http://cancer.cellmap.org; http://www.netpath.org (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cellular Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The Hedgehog proteins are a family of secreted ligands that include sonic hedgehog, Indian hedgehog and desert hedgehog in humans. Binding of Hedgehog ligands to their receptors, Patched 1 and 2, prevents inhibition of a 7 transmembrane receptor called Smoothened. This leads to activation of GLI family of transcription factors (GLI1-3). Signaling through the Hedgehog pathway is essential for development of many tissues and organs. This pathway is highly conserved among metazoans. Aberrant activation of this pathway has been associated with a number of human malignancies including carcinoma of lung, esophagus, pancreas and prostate.
+
+Source: NetPath http://www.netpath.org/pathways?path_id=NetPath_10 (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://www.wikipathways.org/index.php?title=Pathway:WP47&amp;amp;oldid=20775 WP47(r20775)] with a 84% conversion rate. (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NetPath:10 ; cellmap:10 - Hedgehog Signaling Pathway&amp;amp;#xD;
+This cancer signaling pathway is available at Cancer Cell Map (http://cancer.cellmap.org) and NetPath (http://www.netpath.org) and is part of a collaborative project between the Computational Biology Center at Memorial Sloan-Kettering Cancer Center (http://cbio.mskcc.org), PandeyLab at Johns Hopkins University (http://pandeylab.igm.jhmi.edu) and Institute of Bioinformatics (http://www.ibioinformatics.org).  If you use this pathway, you must cite the Cancer Cell Map and NetPath websites until the pathway is published. (GenMAPP notes)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">361769</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sufu</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">290284</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sap18</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="c92">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sufu</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id7</bp:displayName>
+ <bp:right rdf:resource="e70" />
+ <bp:left rdf:resource="e88" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="e70">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sufu</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+</rdf:RDF>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="f94">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pyrophosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="b77">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pyrophosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PGM1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">69-79-4</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">H2O</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S000001610</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SGD</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="be2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pyrophosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id15</bp:displayName>
+ <bp:right rdf:resource="be2" />
+ <bp:left rdf:resource="fb3" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:15377</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="a04">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">glucose-6-phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="fb8c3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">H2O</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id20">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id20</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id22</bp:displayName>
+ <bp:right rdf:resource="b77" />
+ <bp:left rdf:resource="fb3" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id21">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id21</bp:displayName>
+ <bp:right rdf:resource="bd6" />
+ <bp:left rdf:resource="d0cf2" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id24">
+ <bp:controller rdf:resource="f92" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id24</bp:displayName>
+ <bp:controlled rdf:resource="id23" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id23">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id23</bp:displayName>
+ <bp:right rdf:resource="fb3" />
+ <bp:left rdf:resource="a04" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id25">
+ <bp:controller rdf:resource="a31" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id25</bp:displayName>
+ <bp:controlled rdf:resource="id23" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id17">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id17</bp:displayName>
+ <bp:right rdf:resource="fb8c3" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id16</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id19">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id19</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id18">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id18</bp:displayName>
+ <bp:right rdf:resource="f94" />
+ <bp:left rdf:resource="fb3" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="bd6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">maltose</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:displayName>
+</bp:BioSource>
+
+<bp:SmallMolecule rdf:about="fb3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">glucose-1-phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id17" />
+ <bp:pathwayComponent rdf:resource="id16" />
+ <bp:pathwayComponent rdf:resource="id19" />
+ <bp:pathwayComponent rdf:resource="id18" />
+ <bp:pathwayComponent rdf:resource="id20" />
+ <bp:pathwayComponent rdf:resource="id22" />
+ <bp:pathwayComponent rdf:resource="id21" />
+ <bp:pathwayComponent rdf:resource="id24" />
+ <bp:pathwayComponent rdf:resource="id23" />
+ <bp:pathwayComponent rdf:resource="id15" />
+ <bp:pathwayComponent rdf:resource="id25" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Starch and Cellulose Biosynthesis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">In addition to being a common source of energy among most organisms, glucose is also a precursor to starch and cellulose biosynthesis. The production of ADP-, GDP-, and UDP-D-glucose stems from glucose-1-phosphate, which is converted from the common glucose derivative, glucose-6-phosphate. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">59-56-3</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">glucose-1-phosphate</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">glucose-6-phosphate</bp:name>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S000004711</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SGD</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PGM2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="d0cf2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">H2O</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2466-09-3</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pyrophosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="a31">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PGM2</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="f92">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PGM1</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">maltose</bp:displayName>
+</bp:SmallMoleculeReference>
+</rdf:RDF>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="cdcbb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ESR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a4f32">
+ <bp:xref rdf:resource="aca" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ESR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a7482">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ESR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="b2d14">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id11</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id10">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id10</bp:displayName>
+ <bp:left rdf:resource="c28d0" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id13</bp:displayName>
+ <bp:right rdf:resource="a4f32" />
+ <bp:left rdf:resource="c6ac8" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id12">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id12</bp:displayName>
+ <bp:right rdf:resource="c28d0" />
+ <bp:left rdf:resource="c6ac8" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="c6ac8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:Complex rdf:about="id15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id15</bp:displayName>
+ <bp:component rdf:resource="e9b9d" />
+ <bp:component rdf:resource="fedd0" />
+</bp:Complex>
+
+<bp:SmallMolecule rdf:about="e8526">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:Complex rdf:about="id14">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id14</bp:displayName>
+ <bp:component rdf:resource="cdcbb" />
+ <bp:component rdf:resource="ff625" />
+</bp:Complex>
+
+<bp:Protein rdf:about="e9b9d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ESR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="fedd0">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="f115e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ESR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="e1cf3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="d2b19">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ESR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Complex rdf:about="id17">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id17</bp:displayName>
+ <bp:component rdf:resource="f115e" />
+ <bp:component rdf:resource="e1cf3" />
+ <bp:component rdf:resource="a7482" />
+ <bp:component rdf:resource="e8526" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id16</bp:displayName>
+ <bp:component rdf:resource="d2b19" />
+ <bp:component rdf:resource="b2d14" />
+</bp:Complex>
+
+<bp:Protein rdf:about="ff625">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ESR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id11" />
+ <bp:pathwayComponent rdf:resource="id10" />
+ <bp:pathwayComponent rdf:resource="id8" />
+ <bp:pathwayComponent rdf:resource="id13" />
+ <bp:pathwayComponent rdf:resource="id7" />
+ <bp:pathwayComponent rdf:resource="id12" />
+ <bp:pathwayComponent rdf:resource="id9" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrogen Receptor Pathway</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The estrogen receptor is a nuclear receptor that is activated upon ligand binding and subsequently translocates to the nuclear. There, it activates transcription of target genes involved in  essential cellular processes. The ER receptor has been implicated in a multitude of diseases, most notably cancer (breast/ovarian) (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:48705</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000091831</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ESR1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id8</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id7</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:PublicationXref rdf:about="aca">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2011</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gustafsson J&#195;&#402;&#198;&#8217;&#195;&#162;&#226;&#8218;&#172;&#194;&#166;</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nilsson S</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">21124311</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Clin Pharmacol Ther</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrogen receptors: therapies targeted to receptor subtypes.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="c28d0">
+ <bp:xref rdf:resource="aca" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ESR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id9</bp:displayName>
+ <bp:left rdf:resource="a4f32" />
+</bp:BiochemicalReaction>
+</rdf:RDF>

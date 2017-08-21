@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycolysis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Based on http://pathway.yeastgenome.org/biocyc/ (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Many yeast and bacterial species ferment pyruvate to 2,3-butanediol via the intermediate, acetoin.  Although acetoin is a flavorless compound, it is a precursor to some off-odor compounds, such as diacetyl, which can be unfavorable in beer and wine.  Acetoin and 2,3-butanediol are both by-products of alcoholic fermentation by S. cerevisiae and other wine yeasts. Acetoin production during alcoholic fermentation depends on the yeast strain and other variables such as substrate and temperature (as reported in (CITS: [16535224])). Wine yeasts with high fermentation power generally produce low acetoin levels and large amounts of ethanol and higher alcohols (alcohols with more than 2 carbons) (as reported in (CITS: [16535224])).  
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+</rdf:RDF>

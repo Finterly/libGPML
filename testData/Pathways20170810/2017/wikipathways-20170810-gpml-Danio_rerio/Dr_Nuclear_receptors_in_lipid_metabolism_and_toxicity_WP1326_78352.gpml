@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Nuclear receptors in lipid metabolism and toxicity" organism="Danio rerio" width="929.5398230088498" height="738.3333333333334" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">Nuclear receptors are transcription factors that are activated upon binding to its ligands. Initially, they had been classified as classic endocrine nuclear hormone receptors and orphan receptors. However, further studies have led to the identification of lipid ligands for some of these adopted orphan receptors, which are responsible for lipid metabolism, storage or elimination. One of the characteristics of these receptors is that they act by forming heterodimers with retinoid X receptor (RXR). The receptors include peroxisome proliferators-Activated receptors (PPARs) for fatty acids, liver X receptor (LCR) for oxysterols, Farnesoid X receptors (FXR) for bile acids and steroid xenobiotic receptor/X receptor (SXR/PXR or Nsil2) for xenobiotics. Other orphan receptors also require RXR for its functions are vitamin D receptor (VDR) for vitamin D and retinoic acid receptor (RAR) for retinoid acids, although these receptors are not involved in lipid metabolism. Upon binding to various ligands, three classes of proteins are synthesized including lipid binding proteins, the ATP-binding cassette (ABC) transporters and cytochrome P450 member proteins which catalyzes lipid anabolism, metabolism and elimination.
+In addition to lipid metabolism, some members of the cytochrome P450 family genes are responsible for activation of procarcinogens, detoxification of environmental toxins and metabolism of drugs and xenobiotics. In particular, CAR, Nsil2 and recently identified VDR are important in up-regulation of these cytochromes. Of all the human cytochrome P450 genes, only a few CYP1A2, CYP2C9, CYP2C19, CYP2D6, CYP2E1 and CYP3A4 account for most toxicity effects, specifically CYP3A is responsible for clearing approximately half of the clinically prescribed drugs. For instance, acetaminophen, one of the most commonly used drug, is toxic in high doses due to the activation of CAR and the drugs subsequent conversion to acetyl-p-benzoquinone imine (NAPQI) by CYP1A2, CYP2E1 and CYP3A. </Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://www.wikipathways.org/index.php?title=Pathway:WP299&amp;oldid=45336 WP299(r45336)] with a 42% conversion rate.</Comment>
+  <DataNode elementID="a1540" textLabel="Fatty Acids" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="526.0" centerY="146.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="35366" />
+  </DataNode>
+  <DataNode elementID="a19" textLabel="ABCA1" groupRef="fbc12" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="323.3333333333333" centerY="80.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCA1 | ATP-binding cassette sub-family A (ABC..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a1e" textLabel="cyp3a65" groupRef="ef0bc" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="56.666666666666664" centerY="400.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP3A4 | cytochrome P450 family 3 subfamily A..." />
+    <Xref dataSource="Entrez Gene" identifier="553969" />
+  </DataNode>
+  <DataNode elementID="a22" textLabel="PPARA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="643.3333333333334" centerY="146.66666666666666" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PPARA | peroxisome proliferative activated rece..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a23" textLabel="abcc2" groupRef="e51ef" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="70.0" centerY="574.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC2 | ATP-binding cassette sub-family C (CFT..." />
+    <Xref dataSource="Entrez Gene" identifier="393561" />
+  </DataNode>
+  <DataNode elementID="a3d" textLabel="pparg" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="478.6666666666667" centerY="70.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PPARG | peroxisome proliferative activated rece..." />
+    <Xref dataSource="Entrez Gene" identifier="557037" />
+  </DataNode>
+  <DataNode elementID="a6f" textLabel="nr1i2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="184.33333333333334" centerY="574.3333333333334" width="46.666666666666664" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="NR1I2 | nuclear receptor subfamily 1 group I ..." />
+    <Xref dataSource="Entrez Gene" identifier="565875" />
+  </DataNode>
+  <DataNode elementID="a80" textLabel="abcb11b" groupRef="d37e1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="776.6666666666666" centerY="500.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCB11 | ATP-binding cassette sub-family B (MD..." />
+    <Xref dataSource="Entrez Gene" identifier="571189" />
+  </DataNode>
+  <DataNode elementID="a97" textLabel="RARA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="132.66666666666666" centerY="243.33333333333337" width="46.666666666666664" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="RARA | retinoic acid receptor alpha" />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ac3" textLabel="CYP8B1" groupRef="d37e1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="776.6666666666666" centerY="480.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP8B1 | cytochrome P450 family 8 subfamily B..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="aca" textLabel="CYP1A2" groupRef="ef0bc" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="56.666666666666664" centerY="320.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP1A2 | cytochrome P450 family 1 subfamily A..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="acd" textLabel="abcg5" groupRef="ed18b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="503.3333333333333" centerY="610.0" width="93.33333333333333" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCG5 | ATP-binding cassette sub-family G (WHI..." />
+    <Xref dataSource="Entrez Gene" identifier="557317" />
+  </DataNode>
+  <DataNode elementID="ae4b8" textLabel="Steroids" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="286.0" centerY="574.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="afd" textLabel="abcg1" groupRef="ed18b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="503.3333333333333" centerY="590.0" width="93.33333333333333" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCG1 | ATP-binding cassette sub-family G (WHI..." />
+    <Xref dataSource="Entrez Gene" identifier="556979" />
+  </DataNode>
+  <DataNode elementID="b23" textLabel="Cholesterol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="366.0" centerY="413.3333333333333" width="93.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="57-88-5" />
+  </DataNode>
+  <DataNode elementID="b23af" textLabel="MIR33B" groupRef="aa5b3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="636.0" centerY="584.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b79" textLabel="7-DehydroCholesterol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="366.6666666666667" centerY="356.6666666666667" width="141.33333333333334" height="16.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="434-16-2" />
+  </DataNode>
+  <DataNode elementID="bb0f2" textLabel="MIR33A" groupRef="aa5b3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="636.0" centerY="564.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="bbc" textLabel="CYP2C9" groupRef="ef1ae" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="793.3333333333334" centerY="320.0" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP2C9 | cytochrome P450 family 2 subfamily C..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="bdc" textLabel="ABCA1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="641.3333333333334" centerY="70.66666666666667" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCA1 | ATP-binding cassette sub-family A (ABC..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="bfd" textLabel="cyp3a65" groupRef="ef1ae" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="793.3333333333334" centerY="300.0" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP3A4 | cytochrome P450 family 3 subfamily A..." />
+    <Xref dataSource="Entrez Gene" identifier="553969" />
+  </DataNode>
+  <DataNode elementID="c148e" textLabel="1,25-Dihydroxy-Vitamins D3" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="526.0" centerY="310.0" width="164.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c25" textLabel="cyp26a1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="33.333333333333336" centerY="243.33333333333334" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP26A1 | cytochrome P450 family 26 subfamily..." />
+    <Xref dataSource="Entrez Gene" identifier="30381" />
+  </DataNode>
+  <DataNode elementID="c47" textLabel="NR1I3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="129.33333333333334" centerY="473.6666666666667" width="46.666666666666664" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="NR1I3 | nuclear receptor subfamily 1 group I ..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c5d" textLabel="VDR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="690.3333333333334" centerY="310.3333333333333" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="VDR | vitamin D (125- dihydroxyvitamin D3) rec..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c61" textLabel="ABCC3" groupRef="ef0bc" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="56.666666666666664" centerY="420.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC3 | ATP-binding cassette sub-family C (CFT..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c68" textLabel="CYP4A11" groupRef="b2195" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="760.0" centerY="116.66666666666667" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP4A11 | cytochrome P450 family 4 subfamily ..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c70" textLabel="CYP2B6" groupRef="ef0bc" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="56.666666666666664" centerY="340.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP2B6 | cytochrome P450 family 2 subfamily B..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ca9" textLabel="cyp7a1a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="448.0" centerY="445.6666666666667" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP7A1 | cytochrome P450 family 7 subfamily A..." />
+    <Xref dataSource="Entrez Gene" identifier="394148" />
+  </DataNode>
+  <DataNode elementID="cac80" textLabel="Bile Acids" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="542.0" centerY="413.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="3098" />
+  </DataNode>
+  <DataNode elementID="cdc" textLabel="rarga" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="142.33333333333334" centerY="278.6666666666667" width="46.666666666666664" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="RARB | retinoic acid receptor beta" />
+    <Xref dataSource="Entrez Gene" identifier="30606" />
+  </DataNode>
+  <DataNode elementID="cfb" textLabel="cyp7a1a" groupRef="ed18b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="503.3333333333333" centerY="550.0" width="93.33333333333333" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP7A1 | cytochrome P450 family 7 subfamily A..." />
+    <Xref dataSource="Entrez Gene" identifier="394148" />
+  </DataNode>
+  <DataNode elementID="d05" textLabel="ABCA1" groupRef="ed18b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="503.3333333333333" centerY="570.0" width="93.33333333333333" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCA1 | ATP-binding cassette sub-family A (ABC..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="d0c63" textLabel="Retinoic acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="226.0" centerY="243.33333333333334" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01852" />
+  </DataNode>
+  <DataNode elementID="d3d" textLabel="Acetyl CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="366.6666666666667" centerY="146.66666666666666" width="89.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="d4b" textLabel="LOC793309" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="487.33333333333337" centerY="383.3333333333333" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP27B1 | cytochrome P450 family 27 subfamily..." />
+    <Xref dataSource="Entrez Gene" identifier="793309" />
+  </DataNode>
+  <DataNode elementID="db1" textLabel="CYP2B6" groupRef="ef1ae" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="793.3333333333334" centerY="280.0" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP2B6 | cytochrome P450 family 2 subfamily B..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="db3" textLabel="rargb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="50.0" centerY="166.0" width="46.666666666666664" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="RARG | retinoic acid receptor gamma" />
+    <Xref dataSource="Entrez Gene" identifier="100034753" />
+  </DataNode>
+  <DataNode elementID="dbd" textLabel="cyp4t8" groupRef="fbc12" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="323.3333333333333" centerY="60.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP4B1 | cytochrome P450 family 4 subfamily B..." />
+    <Xref dataSource="Entrez Gene" identifier="387527" />
+  </DataNode>
+  <DataNode elementID="dd2" textLabel="cyp3a65" groupRef="e51ef" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="70.0" centerY="534.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP3A4 | cytochrome P450 family 3 subfamily A..." />
+    <Xref dataSource="Entrez Gene" identifier="553969" />
+  </DataNode>
+  <DataNode elementID="dd3" textLabel="ABCB4" groupRef="b2195" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="760.0" centerY="136.66666666666666" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCB4 | ATP-binding cassette sub-family B (MDR..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="dd8" textLabel="abcg6" groupRef="ed18b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="503.3333333333333" centerY="630.0" width="93.33333333333333" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="abcg6" />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ddc" textLabel="cyp24a1" groupRef="ef1ae" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="793.3333333333334" centerY="340.0" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP24A1 | cytochrome P450 family 24 subfamily..." />
+    <Xref dataSource="Entrez Gene" identifier="100004700" />
+  </DataNode>
+  <DataNode elementID="e53" textLabel="nr1h3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="366.0" centerY="590.0" width="46.666666666666664" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="NR1H3 | nuclear receptor subfamily 1 group H ..." />
+    <Xref dataSource="Entrez Gene" identifier="548341" />
+  </DataNode>
+  <DataNode elementID="e5c" textLabel="cyp7a1a" groupRef="d37e1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="776.6666666666666" centerY="460.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP7A1 | cytochrome P450 family 7 subfamily A..." />
+    <Xref dataSource="Entrez Gene" identifier="394148" />
+  </DataNode>
+  <DataNode elementID="e71" textLabel="ABCB1a" groupRef="e51ef" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="70.0" centerY="594.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCB1a" />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e8c" textLabel="nr1h4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="671.3333333333334" centerY="480.6666666666667" width="46.666666666666664" height="20.0" zOrder="32768">
+    <Comment source="GenMAPP remarks">Farnesoid X-activated receptor</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="NR1H4 | nuclear receptor subfamily 1 group H ..." />
+    <Xref dataSource="Entrez Gene" identifier="436847" />
+  </DataNode>
+  <DataNode elementID="e9f" textLabel="CYP2E1" groupRef="ef0bc" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="56.666666666666664" centerY="380.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP2E1 | cytochrome P450 family 2 subfamily E..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="eb4c4" textLabel="Lanosterol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="366.0" centerY="281.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="6374" />
+  </DataNode>
+  <DataNode elementID="ec02d" textLabel="Oxysterol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="366.0" centerY="524.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ec7" textLabel="CYP2C9" groupRef="ef0bc" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="56.666666666666664" centerY="360.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP2C9 | cytochrome P450 family 2 subfamily C..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="edf" textLabel="ABCD2" groupRef="b2195" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="760.0" centerY="156.66666666666666" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCD2 | ATP-binding cassette sub-family D (ALD..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ef7" textLabel="PPARD" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="546.0" centerY="70.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PPARD | peroxisome proliferative activated rece..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="f9d" textLabel="abcd3a" groupRef="b2195" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="760.0" centerY="176.66666666666666" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCD3 | ATP-binding cassette sub-family D (ALD..." />
+    <Xref dataSource="Entrez Gene" identifier="406803" />
+  </DataNode>
+  <DataNode elementID="fd4" textLabel="ABCB1" groupRef="e51ef" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="70.0" centerY="614.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCB1 | ATP-binding cassette sub-family B (MDR..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="fe0" textLabel="CYP2C9" groupRef="e51ef" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="70.0" centerY="554.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP2C9 | cytochrome P450 family 2 subfamily C..." />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ffef8" textLabel="Isoprenoids" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="366.0" centerY="226.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="24913" />
+  </DataNode>
+  <DataNode elementID="dcb6d" textLabel="MIR33A" groupRef="e332b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="70.0" centerY="677.0" width="80.0" height="20.0" zOrder="32770">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c2aac" textLabel="MIR33B" groupRef="e332b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="70.0" centerY="697.0" width="80.0" height="20.0" zOrder="32771">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a2766" textLabel="MIR33A" groupRef="ec829" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="859.5398230088498" centerY="60.40117994100285" width="80.0" height="20.0" zOrder="32773">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a6898" textLabel="MIR33B" groupRef="ec829" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="859.5398230088498" centerY="80.40117994100284" width="80.0" height="20.0" zOrder="32774">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <Interaction elementID="a00e7" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="106.0" y="473.6666666666667" elementID="fc851" elementRef="c47" relX="-1.0" relY="0.0" />
+    <Point x="56.66666666666666" y="435.0" elementID="df384" elementRef="ef0bc" relX="0.0" relY="0.9558823529411765" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a4043" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="566.0" y="146.0" elementID="b347f" elementRef="a1540" relX="1.0" relY="0.0" />
+    <Point x="616.6666666666667" y="146.66666666666666" elementID="a5724" elementRef="a22" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a7fa0" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="694.6666666666665" y="480.6666666666667" elementID="fe7cb" elementRef="e8c" relX="1.0" relY="0.0" />
+    <Point x="741.6666666666666" y="480.0" elementID="b3446" elementRef="d37e1" relX="-0.9210526315789473" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="acb04" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="546.0" y="136.0" elementID="dc88b" elementRef="a1540" relX="0.5" relY="-1.0" />
+    <Point x="546.0" y="80.0" elementID="cf4d0" elementRef="ef7" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="acd6b" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="226.66666666666669" y="369.5" elementID="fbcea" elementRef="db5" relX="0.0" relY="1.0" />
+    <Point x="319.33333333333337" y="413.3333333333333" elementID="ead20" elementRef="b23" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ad991" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="119.0" y="278.6666666666667" elementID="a5664" elementRef="cdc" relX="-1.0" relY="0.0" />
+    <Point x="50.0" y="253.33333333333334" elementID="bf1ee" elementRef="c25" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="adaeb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="487.33333333333337" y="373.3333333333333" elementID="d388c" elementRef="d4b" relX="0.0" relY="-1.0" />
+    <Point x="487.4666666666667" y="356.6666666666667" elementID="a88c4" elementRef="d9b46" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="aee11" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="226.66666666666666" y="481.3333333333333" elementID="c5d3c" elementRef="c87" relX="0.0" relY="1.0" />
+    <Point x="184.33333333333331" y="564.3333333333334" elementID="cebab" elementRef="a6f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b05f1" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="109.33333333333331" y="243.33333333333337" elementID="e99ab" elementRef="a97" relX="-1.0" relY="0.0" />
+    <Point x="66.66666666666667" y="243.33333333333334" elementID="dcccf" elementRef="c25" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b2d0f" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="206.0" y="253.33333333333334" elementID="b52bf" elementRef="d0c63" relX="-0.5" relY="1.0" />
+    <Point x="165.66666666666669" y="278.6666666666667" elementID="dd4d4" elementRef="cdc" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b628c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="366.0" y="291.0" elementID="be919" elementRef="eb4c4" relX="0.0" relY="1.0" />
+    <Point x="366.6666666666667" y="348.6666666666667" elementID="bf899" elementRef="b79" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b9c53" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="226.0" y="233.33333333333334" elementID="eb707" elementRef="d0c63" relX="0.0" relY="-1.0" />
+    <Point x="73.33333333333333" y="166.0" elementID="e2cdb" elementRef="db3" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="beca4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="187.0" y="473.3333333333333" elementID="d83cd" elementRef="c87" relX="-1.0" relY="0.0" />
+    <Point x="152.66666666666669" y="473.6666666666667" elementID="ea31d" elementRef="c47" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bf6a0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="366.0" y="236.0" elementID="a526c" elementRef="ffef8" relX="0.0" relY="1.0" />
+    <Point x="366.0" y="271.0" elementID="ec18c" elementRef="eb4c4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c0c99" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="452.0" y="70.0" elementID="bda4d" elementRef="a3d" relX="-1.0" relY="0.0" />
+    <Point x="368.3333333333333" y="70.0" elementID="dca2a" elementRef="fbc12" relX="0.9375" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c1a75" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="366.0" y="422.8333333333333" elementID="b43d2" elementRef="b23" relX="0.0" relY="1.0" />
+    <Point x="366.0" y="514.0" elementID="a8605" elementRef="ec02d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c2ba7" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="366.0" y="422.8333333333333" elementID="ce09b" elementRef="b23" relX="0.0" relY="1.0" />
+    <Point x="286.0" y="564.0" elementID="c4daf" elementRef="ae4b8" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c3f58" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="608.0" y="310.0" elementID="a74f4" elementRef="c148e" relX="1.0" relY="0.0" />
+    <Point x="670.3333333333334" y="310.3333333333333" elementID="f805e" elementRef="c5d" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c5a77" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="389.33333333333337" y="590.0" elementID="dc533" elementRef="e53" relX="1.0" relY="0.0" />
+    <Point x="451.66666666666663" y="590.0" elementID="e8147" elementRef="ed18b" relX="-0.9451219512195121" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="cb43e" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="416.6666666666667" y="696.6666666666666" elementID="a9b5d" />
+    <Point x="453.3333333333333" y="696.6666666666666" elementID="a95d5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d2a6e" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="526.0" y="136.0" elementID="f699d" elementRef="a1540" relX="0.0" relY="-1.0" />
+    <Point x="478.66666666666663" y="80.0" elementID="b31fb" elementRef="a3d" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d3920" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="50.0" y="176.0" elementID="b85c1" elementRef="db3" relX="0.0" relY="1.0" />
+    <Point x="50.0" y="233.33333333333334" elementID="e56eb" elementRef="c25" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d3edc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="411.33333333333326" y="146.66666666666666" elementID="cd148" elementRef="d3d" relX="1.0" relY="0.0" />
+    <Point x="486.0" y="146.0" elementID="fe3b0" elementRef="a1540" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d4da1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="226.66666666666669" y="350.5" elementID="e6c66" elementRef="db5" relX="0.0" relY="-1.0" />
+    <Point x="226.0" y="253.33333333333334" elementID="bfc50" elementRef="d0c63" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d5281" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="412.66666666666663" y="413.3333333333333" elementID="ac8da" elementRef="b23" relX="1.0" relY="0.0" />
+    <Point x="502.0" y="413.0" elementID="b58fb" elementRef="cac80" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="e223a" />
+  </Interaction>
+  <Interaction elementID="d5976" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="437.33333333333337" y="356.6666666666667" elementID="b5254" elementRef="b79" relX="1.0" relY="0.0" />
+    <Point x="526.0" y="320.0" elementID="d6df0" elementRef="c148e" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="d9b46" />
+  </Interaction>
+  <Interaction elementID="d925e" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="161.0" y="574.3333333333334" elementID="ca836" elementRef="a6f" relX="-1.0" relY="0.0" />
+    <Point x="105.0" y="574.0" elementID="ed013" elementRef="e51ef" relX="0.9210526315789473" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="daabc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="226.66666666666669" y="369.5" elementID="b7a88" elementRef="db5" relX="0.0" relY="1.0" />
+    <Point x="226.66666666666666" y="465.3333333333333" elementID="b80d3" elementRef="c87" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="db1af" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="366.0" y="534.0" elementID="de170" elementRef="ec02d" relX="0.0" relY="1.0" />
+    <Point x="366.0" y="580.0" elementID="c89d9" elementRef="e53" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="df68e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="526.0" y="156.0" elementID="e7d7c" elementRef="a1540" relX="0.0" relY="1.0" />
+    <Point x="526.6666666666666" y="240.5" elementID="b8c09" elementRef="ea8" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e193e" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="562.0" y="423.0" elementID="ccbd9" elementRef="cac80" relX="0.5" relY="1.0" />
+    <Point x="648.0" y="480.6666666666667" elementID="b4c4c" elementRef="e8c" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e5b95" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="366.66666666666663" y="156.16666666666666" elementID="abd6d" elementRef="d3d" relX="0.0" relY="1.0" />
+    <Point x="366.0" y="216.0" elementID="aed33" elementRef="ffef8" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e8afc" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="670.0000000000002" y="146.66666666666666" elementID="aacb0" elementRef="a22" relX="1.0" relY="0.0" />
+    <Point x="721.6666666666667" y="146.66666666666666" elementID="d2f96" elementRef="b2195" relX="-0.9274193548387096" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ece87" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="526.6666666666666" y="259.5" elementID="bc0e6" elementRef="ea8" relX="0.0" relY="1.0" />
+    <Point x="526.0" y="300.0" elementID="ae7d7" elementRef="c148e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ed3a8" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="572.6666666666667" y="70.0" elementID="e8be2" elementRef="ef7" relX="1.0" relY="0.0" />
+    <Point x="614.6666666666667" y="70.66666666666667" elementID="d8092" elementRef="bdc" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="efd5f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="266.0" y="564.0" elementID="c2ae5" elementRef="ae4b8" relX="-0.5" relY="-1.0" />
+    <Point x="141.0" y="483.6666666666667" elementID="c0972" elementRef="c47" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f1c1d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="186.0" y="243.33333333333334" elementID="afce4" elementRef="d0c63" relX="-1.0" relY="0.0" />
+    <Point x="156.0" y="243.33333333333337" elementID="eb454" elementRef="a97" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f391b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="448.0" y="435.6666666666667" elementID="cf8ff" elementRef="ca9" relX="0.0" relY="-1.0" />
+    <Point x="448.4" y="413.2" elementID="b5966" elementRef="e223a" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="f57d4" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="710.3333333333334" y="310.3333333333333" elementID="bc576" elementRef="c5d" relX="1.0" relY="0.0" />
+    <Point x="755.0" y="310.0" elementID="e2da8" elementRef="ef1ae" relX="-0.9274193548387096" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f7fcd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="366.6666666666667" y="364.6666666666667" elementID="f63a4" elementRef="b79" relX="0.0" relY="1.0" />
+    <Point x="366.0" y="403.8333333333333" elementID="d9ec9" elementRef="b23" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f80b2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="246.0" y="574.0" elementID="a5d71" elementRef="ae4b8" relX="-1.0" relY="0.0" />
+    <Point x="207.66666666666663" y="574.3333333333334" elementID="d1e0b" elementRef="a6f" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id42daa0bd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="587.0" y="570.0" elementID="b1939" />
+    <Point x="550.0" y="570.0" elementID="c4655" elementRef="d05" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id81cb2c2c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="811.5398230088498" y="70.40117994100285" elementID="bc571" elementRef="ec829" relX="-1.0" relY="0.0" />
+    <Point x="668.0000000000002" y="70.66666666666667" elementID="f10f8" elementRef="bdc" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idd4e0c7e3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="70.0" y="659.0" elementID="a5942" elementRef="e332b" relX="0.0" relY="-1.0" />
+    <Point x="70.0" y="624.0" elementID="f8e85" elementRef="fd4" relX="0.0" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Label elementID="c87" textLabel="Xenobiotics" color="ff0000" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="226.66666666666666" centerY="473.3333333333333" width="79.33333333333333" height="16.0" zOrder="28672" />
+  <Label elementID="db5" textLabel="DIET" color="008080" fillColor="ffffff" fontStyle="Italic" fontSize="12" vAlign="Middle" centerX="226.66666666666666" centerY="360.0" width="42.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="ea8" textLabel="DIET" color="008080" fillColor="ffffff" fontStyle="Italic" fontSize="12" vAlign="Middle" centerX="526.6666666666666" centerY="250.0" width="42.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="ec8" textLabel="Gene expression" color="ff0000" fillColor="ffffff" fontWeight="Bold" fontStyle="Italic" fontSize="12" vAlign="Middle" centerX="526.6666666666666" centerY="696.6666666666666" width="133.33333333333334" height="18.0" zOrder="28672" />
+  <Group elementID="aa5b3" groupType="Group" />
+  <Group elementID="b2195" />
+  <Group elementID="d37e1" />
+  <Group elementID="e332b" groupType="Group" />
+  <Group elementID="e51ef" />
+  <Group elementID="ec829" groupType="Group" />
+  <Group elementID="ed18b" />
+  <Group elementID="ef0bc" />
+  <Group elementID="ef1ae" />
+  <Group elementID="fbc12" />
+  <InfoBox centerX="11.666666666666666" centerY="708.3333333333334" />
+  <OntologyTerms>
+    <OntologyTerm term="lipid metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000010" />
+    <OntologyTerm term="lipid metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000010" />
+  </OntologyTerms>
+</Pathway>
+

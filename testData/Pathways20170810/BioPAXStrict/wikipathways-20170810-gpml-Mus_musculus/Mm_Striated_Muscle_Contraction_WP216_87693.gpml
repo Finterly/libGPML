@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BiochemicalReaction rdf:about="id11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id11</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id10">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id10</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:Complex rdf:about="id13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id13</bp:displayName>
+</bp:Complex>
+
+<bp:BiochemicalReaction rdf:about="id12">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id12</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:Complex rdf:about="id15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id15</bp:displayName>
+ <bp:component rdf:resource="b02" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id14">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id14</bp:displayName>
+</bp:Complex>
+
+<bp:Protein rdf:about="f6f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tcap</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b02">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ttn</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Complex rdf:about="id20">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id20</bp:displayName>
+</bp:Complex>
+
+<bp:Complex rdf:about="id22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id22</bp:displayName>
+</bp:Complex>
+
+<bp:Complex rdf:about="id21">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id21</bp:displayName>
+</bp:Complex>
+
+<bp:Complex rdf:about="id23">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id23</bp:displayName>
+</bp:Complex>
+
+<bp:Complex rdf:about="id17">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id17</bp:displayName>
+</bp:Complex>
+
+<bp:Complex rdf:about="id16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id16</bp:displayName>
+</bp:Complex>
+
+<bp:Complex rdf:about="id19">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id19</bp:displayName>
+</bp:Complex>
+
+<bp:Complex rdf:about="id18">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id18</bp:displayName>
+</bp:Complex>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mus musculus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mus musculus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id11" />
+ <bp:pathwayComponent rdf:resource="id10" />
+ <bp:pathwayComponent rdf:resource="id8" />
+ <bp:pathwayComponent rdf:resource="id7" />
+ <bp:pathwayComponent rdf:resource="id12" />
+ <bp:pathwayComponent rdf:resource="id9" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Striated Muscle Contraction</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string"> (GenMAPP notes)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string"> (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Physiological Process (WikiPathways-category)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">21393</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tcap</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">22138</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ttn</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id8</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id7</bp:displayName>
+ <bp:right rdf:resource="b02" />
+ <bp:left rdf:resource="f6f" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id9</bp:displayName>
+</bp:BiochemicalReaction>
+</rdf:RDF>

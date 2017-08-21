@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Serotonin Receptor 2 and STAT3 Signaling" organism="Homo sapiens" width="353.0" height="483.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Source: Ariadne Genomics Pathway Studio.</Comment>
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <DataNode elementID="afa00" textLabel="HTR2A" color="cc0000" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="182.0" centerY="176.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>5-hydroxytryptamine (serotonin) receptor 2A</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3356" />
+  </DataNode>
+  <DataNode elementID="cacda" textLabel="JAK2" color="cc0000" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="182.0" centerY="336.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>Janus kinase 2</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3717" />
+  </DataNode>
+  <DataNode elementID="cafea" textLabel="GNAQ" color="cc0000" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="283.0" centerY="254.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>guanine nucleotide binding protein, alpha q polypeptide</Comment>
+    <Xref dataSource="Entrez Gene" identifier="2776" />
+  </DataNode>
+  <DataNode elementID="ce8ce" textLabel="STAT3" color="cc0000" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="180.0" centerY="443.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>signal transducer and activator of transcription</Comment>
+    <Xref dataSource="Entrez Gene" identifier="6774" />
+  </DataNode>
+  <DataNode elementID="d4a3b" textLabel="serotonin" color="00cc00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="183.0" centerY="89.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="50-67-9" />
+  </DataNode>
+  <Interaction elementID="b5b37" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment>Regulation GNAQ --+&gt; JAK2</Comment>
+    <Comment>15640156 (CellLineName: COS-7) Indeed, transfection of a constitutively activated mutant of Galpha(q) (Q209L) in COS-7 cells demonstrated that Galpha(q) is able to associate and activate JAK2. 
+</Comment>
+    <CitationRef citationID="f9a" />
+    <Point x="283.0" y="264.0" elementID="a4a68" elementRef="cafea" relX="0.0" relY="1.0" />
+    <Point x="202.0" y="326.0" elementID="e3146" elementRef="cacda" relX="0.5" relY="-1.0" arrowHead="mim-necessary-stimulation" />
+  </Interaction>
+  <Interaction elementID="ba2f3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment>DirectRegulation HTR2A --+&gt; GNAQ</Comment>
+    <Comment>9439849 (Organ: hypothalamic, Tissue: cortex) These results suggest that fluoxetine gradually increases the G-protein coupling of 5-HT2A/2C receptors without altering the levels of Gq- or G11-proteins. 
+
+12721328 (Organ: hypothalamic, Tissue: cortex, CellType: neural) These fluoxetine-induced changes in 5-HT2A receptor signaling occur without changing the levels of Galphaq or RGS4 proteins. 
+</Comment>
+    <CitationRef citationID="cd8" />
+    <CitationRef citationID="d9a" />
+    <Point x="202.0" y="186.0" elementID="c73bb" elementRef="afa00" relX="0.5" relY="1.0" />
+    <Point x="283.0" y="244.0" elementID="db26a" elementRef="cafea" relX="0.0" relY="-1.0" arrowHead="mim-necessary-stimulation" />
+  </Interaction>
+  <Interaction elementID="be6b0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment>Direct Regulation serotonin --+&gt; HTR2A</Comment>
+    <Comment>8808177 (Organ: blood vessel, CellType: neural) Stimulation of the 5-HT2A receptors by serotonin has been reported to exert an excitatory effect on neocortical neurons in rats and mice, to facilitate ischaemia-induced release of excitatory amino acids and to mediate the vasomotor constrictor component of the response of blood vessels to 5-HT. 5-HT2A receptor antagonists have, therefore, been proposed as potential protectants against the effects of cerebral ischaemia. 
+
+14654098 (Organ: hippocampal, CellType: neural) High doses of 5-HT also recruited both 5-HT2 and 5-HT3 receptors, causing an increase in the rate and amplitude of sIPSCs. cOA (1 microM), in the presence of Y 25130, failed to potentiate the 5-HT2 receptor induced enhancement of sIPSCs. 
+
+11157082 Since 5-HT enhances GABA release ( Liu and Alreja 1997 ), 5-HT2A receptor blockade of clozapine may directly reduce pallidal GABA release. 
+
+10431683 Mirtazapine is an atypical antidepressant with alpha 2 adrenergic antagonist and serotonin 5-HT2 and 5-HT3 receptor-blocking activity. 
+
+8627578 Neomycin (3 mM) inhibited maximal 5-HT-induced contraction by approximately 50% without inhibiting [3H]5-HT binding to 5-HT2A receptors. 
+
+9016798 (Tissue: crypt) Superfusing 5-HT (10 microM) in the bath solution increased both K+ and Cl- currents, which were antagonized by the presence of ketanserin (1 microM), a selective 5-HT2A antagonist, in the bath solution. 
+
+9272731 (Tissue: mesangia) The L-type channel blocker verapamil, however, dose-dependently (0.1-10 microM) and specifically inhibited 5-HT-elicited Ca2+ signals by interference with binding of 5-HT to 5-HT2A receptors. 5-HT-mediated Ca2+ release was reduced by 80% when protein kinase C was activated by the phorbolester TPA (0.1 microM). 
+
+</Comment>
+    <CitationRef citationID="c21" />
+    <CitationRef citationID="c0c" />
+    <CitationRef citationID="fee" />
+    <CitationRef citationID="f4e" />
+    <CitationRef citationID="d34" />
+    <CitationRef citationID="f11" />
+    <CitationRef citationID="afb" />
+    <Point x="183.0" y="99.0" elementID="eb3bf" elementRef="d4a3b" relX="0.0" relY="1.0" />
+    <Point x="182.0" y="166.0" elementID="d700a" elementRef="afa00" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d2154" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="" />
+    <Comment>Binding HTR2A ---- JAK2</Comment>
+    <Comment>9169451 The blot showing 5-HT 2A receptor-Jak2 kinase association (Fig. 3 A ) was stripped and reprobed with anti-STAT3 antibody. 
+</Comment>
+    <CitationRef citationID="b19" />
+    <Point x="182.0" y="186.0" elementID="fc815" elementRef="afa00" relX="0.0" relY="1.0" />
+    <Point x="182.0" y="326.0" elementID="b5da0" elementRef="cacda" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="fe91c" zOrder="12288" lineThickness="1.0" color="999900">
+    <Xref dataSource="" identifier="" />
+    <Comment>Prot Modification JAK2 --+&gt; STAT3</Comment>
+    <Comment>15156153 Hes proteins associate with JAK2 and STAT3, and facilitate complex formation between JAK2 and STAT3, thus promoting STAT3 phosphorylation and activation. 
+
+15688010 Tkip also inhibited constitutive (DU145) and IL-6-induced (LNCaP) activation of STAT3, consistent with the fact that STAT3 activation is mediated by JAK2. 
+
+11708838 (Organ: heart, CellLineName: IPC) The results demonstrated extensive phosphorylation of JAK2 and STAT3 in the IPC hearts which was almost completely abolished by an inhibitor of JAK2, AG490. 
+
+15155836 (Organ: kidney, CellLineName: 293) Inhibition of c-Src and Janus kinase 2 and 3 activities abolished STAT3 activation induced by Galpha14QL, but no physical association between Galpha14QL and c-Src could be detected by coimmunoprecipitation. 
+
+15650183 (Organ: liver) Using a series of inhibitors and dominant negative mutants, we show that HCV-induced activation of STAT-3 is mediated by oxidative stress and influenced by the activation of cellular kinases, including p38 mitogen-activated protein kinase, JNK, JAK-2, and Src. 
+
+15151905 (Tissue: endothelial) IL-6 treatment increased the phosphorylation of JAK2, an upstream activator of STAT3. 
+
+10891587 (Organ: brain, Tissue: glia, CellType: neural) The PSD fraction also had a janus kinase 2 (Jak2)-like molecule, Jak2, believed to phosphorylate Stat3. 
+
+</Comment>
+    <CitationRef citationID="bfb" />
+    <CitationRef citationID="d8d" />
+    <CitationRef citationID="fe9" />
+    <CitationRef citationID="a3c" />
+    <CitationRef citationID="aa9" />
+    <CitationRef citationID="e0c" />
+    <CitationRef citationID="e51" />
+    <Point x="182.0" y="346.0" elementID="d0266" elementRef="cacda" relX="0.0" relY="1.0" />
+    <Point x="180.0" y="433.0" elementID="d2257" elementRef="ce8ce" relX="0.0" relY="-1.0" arrowHead="mim-necessary-stimulation" />
+  </Interaction>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Occurrence of a transcription factor, signal transducer and activators of transcription 3 (Stat3), in the postsynaptic density of the rat brain." URL="" citationID="e51" year="2000" source="Brain Res Mol Brain Res">
+      <Xref dataSource="PubMed" identifier="10891587 " />
+      <Author name="Murata S" />
+      <Author name="Usuda N" />
+      <Author name="Okano A" />
+      <Author name="Kobayashi S" />
+      <Author name="Suzuki T" />
+    </Citation>
+    <Citation title="Lack of efficacy of 5-HT2A receptor antagonists to reduce brain damage after 3 minutes of transient global cerebral ischaemia in gerbils." URL="" citationID="c21" year="1995" source="Fundam Clin Pharmacol">
+      <Xref dataSource="PubMed" identifier="8808177 " />
+      <Author name="Piera MJ" />
+      <Author name="Beaughard M" />
+      <Author name="Michelin MT" />
+      <Author name="Winslow E" />
+      <Author name="Massingham R" />
+    </Citation>
+    <Citation title="Neomycin selectively inhibits 5-hydroxytryptamine-induced contraction in the guinea pig trachea." URL="" citationID="d34" year="1996" source="J Pharmacol Exp Ther">
+      <Xref dataSource="PubMed" identifier="8627578" />
+      <Author name="Cox DA" />
+      <Author name="Watts SW" />
+      <Author name="Cohen ML" />
+    </Citation>
+    <Citation title="The information content of spontaneous retinal waves." URL="" citationID="fee" year="2001" source="J Neurosci">
+      <Xref dataSource="PubMed" identifier="11157082" />
+      <Author name="Butts DA" />
+      <Author name="Rokhsar DS" />
+    </Citation>
+    <Citation title="Serotonin activates electrolyte transport via 5-HT2A receptor in rat colonic crypt cells." URL="" citationID="f11" year="1997" source="Biochem Biophys Res Commun">
+      <Xref dataSource="PubMed" identifier="9016798 " />
+      <Author name="Imada-Shirakata Y" />
+      <Author name="Kotera T" />
+      <Author name="Ueda S" />
+      <Author name="Okuma M" />
+    </Citation>
+    <Citation title="Identification and localization of a skeletal muscle secrotonin 5-HT2A receptor coupled to the Jak/STAT pathway." URL="" citationID="b19" year="1997" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="9169451 " />
+      <Author name="Guillet-Deniau I" />
+      <Author name="Burnol AF" />
+      <Author name="Girard J" />
+    </Citation>
+    <Citation title="Chronic fluoxetine differentially affects 5-hydroxytryptamine (2A) receptor signaling in frontal cortex, oxytocin- and corticotropin-releasing factor-containing neurons in rat paraventricular nucleus." URL="" citationID="d9a" year="2003" source="J Pharmacol Exp Ther">
+      <Xref dataSource="PubMed" identifier="12721328 " />
+      <Author name="Damjanoska KJ" />
+      <Author name="Van de Kar LD" />
+      <Author name="Kindel GH" />
+      <Author name="Zhang Y" />
+      <Author name="D'Souza DN" />
+      <Author name="Garcia F" />
+      <Author name="Battaglia G" />
+      <Author name="Muma NA" />
+    </Citation>
+    <Citation title="A novel mechanism for JAK2 activation by a G protein-coupled receptor, the CCK2R: implication of this signaling pathway in pancreatic tumor models." URL="" citationID="f9a" year="2005" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="15640156 " />
+      <Author name="Ferrand A" />
+      <Author name="Kowalski-Chauvel A" />
+      <Author name="Bertrand C" />
+      <Author name="Escrieut C" />
+      <Author name="Mathieu A" />
+      <Author name="Portolan G" />
+      <Author name="Pradayrol L" />
+      <Author name="Fourmy D" />
+      <Author name="Dufresne M" />
+      <Author name="Seva C" />
+    </Citation>
+    <Citation title="Signal transducer and activator of transcription 3 activation by the delta-opioid receptor via Galpha14 involves multiple intermediates." URL="" citationID="a3c" year="2004" source="Mol Pharmacol">
+      <Xref dataSource="PubMed" identifier="15155836" />
+      <Author name="Lo RK" />
+      <Author name="Wong YH" />
+    </Citation>
+    <Citation title="A SOCS-1 peptide mimetic inhibits both constitutive and IL-6 induced activation of STAT3 in prostate cancer cells." URL="" citationID="d8d" year="2005" source="Oncogene">
+      <Xref dataSource="PubMed" identifier="15688010 " />
+      <Author name="Flowers LO" />
+      <Author name="Subramaniam PS" />
+      <Author name="Johnson HM" />
+    </Citation>
+    <Citation title="Sexual functioning in depressed outpatients taking mirtazapine." URL="" citationID="f4e" year="1999" source="Depress Anxiety">
+      <Xref dataSource="PubMed" identifier="10431683 " />
+      <Author name="Boyarsky BK" />
+      <Author name="Haque W" />
+      <Author name="Rouleau MR" />
+      <Author name="Hirschfeld RM" />
+    </Citation>
+    <Citation title="Fluoxetine gradually increases [125I]DOI-labelled 5-HT2A/2C receptors in the hypothalamus without changing the levels of Gq- and G11-proteins." URL="" citationID="cd8" year="1997" source="Brain Res">
+      <Xref dataSource="PubMed" identifier="9439849" />
+      <Author name="Li Q" />
+      <Author name="Muma NA" />
+      <Author name="Battaglia G" />
+      <Author name="Van de Kar LD" />
+    </Citation>
+    <Citation title="The sleep inducing brain lipid cis-oleamide (cOA) does not modulate serotonergic transmission in the CA1 pyramidal neurons of the hippocampus in vitro." URL="" citationID="c0c" year="2004" source="Neuropharmacology">
+      <Xref dataSource="PubMed" identifier="14654098" />
+      <Author name="Dougalis A" />
+      <Author name="Lees G" />
+      <Author name="Ganellin CR" />
+    </Citation>
+    <Citation title="Hepatitis C virus (HCV) constitutively activates STAT-3 via oxidative stress: role of STAT-3 in HCV replication." URL="" citationID="aa9" year="2005" source="J Virol">
+      <Xref dataSource="PubMed" identifier="15650183 " />
+      <Author name="Waris G" />
+      <Author name="Turkson J" />
+      <Author name="Hassanein T" />
+      <Author name="Siddiqui A" />
+    </Citation>
+    <Citation title="Interleukin-6-induced JAK2/STAT3 signaling pathway in endothelial cells is suppressed by hemodynamic flow." URL="" citationID="e0c" year="2004" source="Am J Physiol Cell Physiol">
+      <Xref dataSource="PubMed" identifier="15151905 " />
+      <Author name="Ni CW" />
+      <Author name="Hsieh HJ" />
+      <Author name="Chao YJ" />
+      <Author name="Wang DL" />
+    </Citation>
+    <Citation title="Role of STAT3 in ischemic preconditioning." URL="" citationID="fe9" year="2001" source="J Mol Cell Cardiol">
+      <Xref dataSource="PubMed" identifier="11708838 " />
+      <Author name="Hattori R" />
+      <Author name="Maulik N" />
+      <Author name="Otani H" />
+      <Author name="Zhu L" />
+      <Author name="Cordis G" />
+      <Author name="Engelman RM" />
+      <Author name="Siddiqui MA" />
+      <Author name="Das DK" />
+    </Citation>
+    <Citation title="Mechanisms of serotonin-induced Ca2+ responses in mesangial cells." URL="" citationID="afb" year="1997" source="Naunyn Schmiedebergs Arch Pharmacol">
+      <Xref dataSource="PubMed" identifier="9272731 " />
+      <Author name="Goppelt-Struebe M" />
+      <Author name="Stroebel M" />
+    </Citation>
+    <Citation title="Hes binding to STAT3 mediates crosstalk between Notch and JAK-STAT signalling." URL="" citationID="bfb" year="2004" source="Nat Cell Biol">
+      <Xref dataSource="PubMed" identifier="15156153 " />
+      <Author name="Kamakura S" />
+      <Author name="Oishi K" />
+      <Author name="Yoshimatsu T" />
+      <Author name="Nakafuku M" />
+      <Author name="Masuyama N" />
+      <Author name="Gotoh Y" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="neuron" ontology="Cell Type" ontologyTermID="CL:0000540" />
+    <OntologyTerm term="serotonin signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000854" />
+  </OntologyTerms>
+</Pathway>
+

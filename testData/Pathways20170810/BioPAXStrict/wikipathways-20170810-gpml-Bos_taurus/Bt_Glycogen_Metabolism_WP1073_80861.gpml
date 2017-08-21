@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Catalysis rdf:about="id101">
+ <bp:controller rdf:resource="d29" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id101</bp:displayName>
+ <bp:controlled rdf:resource="id97" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id100">
+ <bp:controller rdf:resource="c04" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id100</bp:displayName>
+ <bp:controlled rdf:resource="id97" />
+</bp:Catalysis>
+
+<bp:SmallMoleculeReference rdf:about="id71">
+ <bp:xref rdf:resource="id72" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="b13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHKA1</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5255 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id70">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">9005-79-2</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id73">
+ <bp:xref rdf:resource="id74" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose-6-phosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="b8494">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycogen (n+1)</bp:displayName>
+ <bp:entityReference rdf:resource="id69" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id72">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">50-99-7</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id75">
+ <bp:xref rdf:resource="id76" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose-1-phosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:BiochemicalReaction rdf:about="id107">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id107</bp:displayName>
+ <bp:right rdf:resource="b4d" />
+ <bp:right rdf:resource="a03" />
+ <bp:right rdf:resource="fd9" />
+ <bp:left rdf:resource="c42" />
+ <bp:left rdf:resource="b42" />
+ <bp:left rdf:resource="c65" />
+ <bp:left rdf:resource="edd" />
+ <bp:left rdf:resource="c15" />
+ <bp:left rdf:resource="f57" />
+ <bp:left rdf:resource="ac1" />
+ <bp:left rdf:resource="d5a" />
+ <bp:left rdf:resource="a4f" />
+ <bp:left rdf:resource="d4b" />
+ <bp:left rdf:resource="bf6" />
+ <bp:left rdf:resource="df7" />
+ <bp:left rdf:resource="a2e" />
+ <bp:left rdf:resource="df9" />
+ <bp:left rdf:resource="e1e" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id74">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">56-73-5</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id106">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id106</bp:displayName>
+ <bp:right rdf:resource="a3c" />
+ <bp:right rdf:resource="bdb" />
+ <bp:left rdf:resource="b13" />
+ <bp:left rdf:resource="eb4" />
+ <bp:left rdf:resource="e17" />
+ <bp:left rdf:resource="a9b" />
+ <bp:left rdf:resource="a31" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id77">
+ <bp:xref rdf:resource="id78" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cAMP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:BiochemicalReaction rdf:about="id109">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id109</bp:displayName>
+ <bp:right rdf:resource="b13" />
+ <bp:right rdf:resource="eb4" />
+ <bp:right rdf:resource="e17" />
+ <bp:right rdf:resource="a9b" />
+ <bp:right rdf:resource="a31" />
+ <bp:left rdf:resource="afdba" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id76">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">59-56-3</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id108">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id108</bp:displayName>
+ <bp:right rdf:resource="a3c" />
+ <bp:right rdf:resource="bdb" />
+ <bp:left rdf:resource="c42" />
+ <bp:left rdf:resource="b42" />
+ <bp:left rdf:resource="c65" />
+ <bp:left rdf:resource="edd" />
+ <bp:left rdf:resource="c15" />
+ <bp:left rdf:resource="f57" />
+ <bp:left rdf:resource="ac1" />
+ <bp:left rdf:resource="d5a" />
+ <bp:left rdf:resource="a4f" />
+ <bp:left rdf:resource="d4b" />
+ <bp:left rdf:resource="bf6" />
+ <bp:left rdf:resource="df7" />
+ <bp:left rdf:resource="a2e" />
+ <bp:left rdf:resource="df9" />
+ <bp:left rdf:resource="e1e" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id79">
+ <bp:xref rdf:resource="id80" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UDP-glucose</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id103">
+ <bp:controller rdf:resource="f01" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id103</bp:displayName>
+ <bp:controlled rdf:resource="id102" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id78">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00058</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id102">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id102</bp:displayName>
+ <bp:right rdf:resource="da6" />
+ <bp:left rdf:resource="e3e" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id105">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id105</bp:displayName>
+ <bp:right rdf:resource="b4d" />
+ <bp:right rdf:resource="a03" />
+ <bp:right rdf:resource="fd9" />
+ <bp:left rdf:resource="b13" />
+ <bp:left rdf:resource="eb4" />
+ <bp:left rdf:resource="e17" />
+ <bp:left rdf:resource="a9b" />
+ <bp:left rdf:resource="a31" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id104">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id104</bp:displayName>
+ <bp:right rdf:resource="a3c" />
+ <bp:right rdf:resource="bdb" />
+ <bp:left rdf:resource="ea5" />
+ <bp:left rdf:resource="bf3" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="d4b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R5D</bp:displayName>
+ <bp:entityReference rdf:resource="id43" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5528 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="aa2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycogen</bp:displayName>
+ <bp:entityReference rdf:resource="id69" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="ea5">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GSK3B</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2932 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="f0d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PGM1</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5236 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="c42">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R5E</bp:displayName>
+ <bp:entityReference rdf:resource="id47" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5529 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id60">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000023416</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="a03">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PYGM</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5837 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id62">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000046338</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id61">
+ <bp:xref rdf:resource="id62" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R3B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id64">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000000469</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id63">
+ <bp:xref rdf:resource="id64" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2CA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id66">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000001933</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id65">
+ <bp:xref rdf:resource="id66" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id68">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000020277</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id67">
+ <bp:xref rdf:resource="id68" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R1B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="b9f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose-1-phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id75" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id69">
+ <bp:xref rdf:resource="id70" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycogen (n+1)</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycogen</bp:name>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="d5a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R2B</bp:displayName>
+ <bp:entityReference rdf:resource="id55" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5521 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="eb4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHKG1</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5260 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="fd9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PYGL</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5836 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Catalysis rdf:about="id91">
+ <bp:controller rdf:resource="f0d" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id91</bp:displayName>
+ <bp:controlled rdf:resource="id90" />
+</bp:Catalysis>
+
+<bp:Protein rdf:about="ced">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UGP2</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7360 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id90">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id90</bp:displayName>
+ <bp:right rdf:resource="f2c" />
+ <bp:left rdf:resource="d5dd2" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id93">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id93</bp:displayName>
+ <bp:left rdf:resource="dcc" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id92">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id92</bp:displayName>
+ <bp:left rdf:resource="f2c" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id95">
+ <bp:controller rdf:resource="ced" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id95</bp:displayName>
+ <bp:controlled rdf:resource="id94" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id94">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id94</bp:displayName>
+ <bp:right rdf:resource="d1c90" />
+ <bp:left rdf:resource="b9f" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id97">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id97</bp:displayName>
+ <bp:right rdf:resource="e3e" />
+ <bp:left rdf:resource="d1c90" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id96">
+ <bp:controller rdf:resource="b6f" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id96</bp:displayName>
+ <bp:controlled rdf:resource="id94" />
+</bp:Catalysis>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AGL</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="e17">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHKA2</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5256 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Catalysis rdf:about="id99">
+ <bp:controller rdf:resource="a3c" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id99</bp:displayName>
+ <bp:controlled rdf:resource="id97" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000013333</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="id98">
+ <bp:controller rdf:resource="bdb" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id98</bp:displayName>
+ <bp:controlled rdf:resource="id97" />
+</bp:Catalysis>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PYGM</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000006491</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PYGB</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="ac1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R5C</bp:displayName>
+ <bp:entityReference rdf:resource="id49" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5527 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000001032</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="f2c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose-6-phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id73" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="da6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycogen</bp:displayName>
+ <bp:entityReference rdf:resource="id69" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="d5dd2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose 1-phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id81" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="bdb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GYS1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2997 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="b42">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R2C</bp:displayName>
+ <bp:entityReference rdf:resource="id57" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5522 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id80">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00286</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="c65">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2CA</bp:displayName>
+ <bp:entityReference rdf:resource="id63" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5515 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id82">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01586</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id81">
+ <bp:xref rdf:resource="id82" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose 1-phosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id84">
+ <bp:controller rdf:resource="b4d" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id84</bp:displayName>
+ <bp:controlled rdf:resource="id83" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id83">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id83</bp:displayName>
+ <bp:right rdf:resource="d5dd2" />
+ <bp:left rdf:resource="aa2" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id86">
+ <bp:controller rdf:resource="a03" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id86</bp:displayName>
+ <bp:controlled rdf:resource="id83" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id85">
+ <bp:controller rdf:resource="fd9" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id85</bp:displayName>
+ <bp:controlled rdf:resource="id83" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id88">
+ <bp:controller rdf:resource="df1" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id88</bp:displayName>
+ <bp:controlled rdf:resource="id87" />
+</bp:Catalysis>
+
+<bp:Protein rdf:about="a9b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHKG2</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5261 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id87">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id87</bp:displayName>
+ <bp:right rdf:resource="dcc" />
+ <bp:left rdf:resource="b8494" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id89">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id89</bp:displayName>
+ <bp:right rdf:resource="aa2" />
+ <bp:left rdf:resource="b8494" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="bf3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GSK3A</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2931 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="bf6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R3A</bp:displayName>
+ <bp:entityReference rdf:resource="id59" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5523 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id91" />
+ <bp:pathwayComponent rdf:resource="id101" />
+ <bp:pathwayComponent rdf:resource="id90" />
+ <bp:pathwayComponent rdf:resource="id100" />
+ <bp:pathwayComponent rdf:resource="id93" />
+ <bp:pathwayComponent rdf:resource="id92" />
+ <bp:pathwayComponent rdf:resource="id95" />
+ <bp:pathwayComponent rdf:resource="id94" />
+ <bp:pathwayComponent rdf:resource="id97" />
+ <bp:pathwayComponent rdf:resource="id107" />
+ <bp:pathwayComponent rdf:resource="id96" />
+ <bp:pathwayComponent rdf:resource="id106" />
+ <bp:pathwayComponent rdf:resource="id99" />
+ <bp:pathwayComponent rdf:resource="id109" />
+ <bp:pathwayComponent rdf:resource="id98" />
+ <bp:pathwayComponent rdf:resource="id108" />
+ <bp:pathwayComponent rdf:resource="id103" />
+ <bp:pathwayComponent rdf:resource="id102" />
+ <bp:pathwayComponent rdf:resource="id105" />
+ <bp:pathwayComponent rdf:resource="id104" />
+ <bp:pathwayComponent rdf:resource="id84" />
+ <bp:pathwayComponent rdf:resource="id83" />
+ <bp:pathwayComponent rdf:resource="id86" />
+ <bp:pathwayComponent rdf:resource="id85" />
+ <bp:pathwayComponent rdf:resource="id88" />
+ <bp:pathwayComponent rdf:resource="id87" />
+ <bp:pathwayComponent rdf:resource="id89" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycogen Metabolism</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string"> (GenMAPP notes)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string"> (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP500_r63201 WP500(63201)]  with a 91.0% conversion rate. (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycogen is a very large, branched polymer of glucose residues. Within skeletal muscle and liver glucose is stored as glycogen. In the liver, glycogen synthesis and degradation are regulated to maintain blood-glucose levels as required to meet the needs of the organism as a whole. In contrast, in muscle, these processes are regulated to meet the energy needs of the muscle itself. 
+
+Glycogen synthesis
+Glycogen synthesis is, unlike its breakdown, endergonic. This means that glycogen synthesis requires the input of energy. Energy for glycogen synthesis comes from UTP, which reacts with glucose-1-phosphate, forming UDP-glucose, in reaction catalyzed by UDP-glucose pyrophosphorylase. Glycogen is synthesized from monomers of UDP-glucose by the enzyme glycogen synthase, which progressively lengthens the glycogen chain with (a1-&gt;4) bonded glucose. As glycogen synthase can only lengthen an existing chain, the protein glycogenin is needed to initiate the synthesis of glycogen. The glycogen-branching enzyme, amylo (a1-&gt;4) to (a1-&gt;6) transglycosylase, catalyzes the transfer of a terminal fragment of 6-7 glucose residues from a nonreducing end to the C-6 hydroxyl group of a glucose residue deeper into the interior of the glycogen molecule. The branching enzyme can act upon only a branch having at least 11 residues, and the enzyme may transfer to the same glucose chain or adjacent glucose chains.
+
+Glycogen degradation
+Glycogen degradation consists of three steps: (1) the release of glucose 1-phosphate from glycogen, (2) the remodeling of the glycogen substrate to permit further degradation, and (3) the conversion of glucose 1-phosphate into glucose 6-phosphate for further metabolism.
+
+Information partly derived from &quot;Biochemistry&quot; by Stryer and [http://en.wikipedia.org/wiki/Glycogen Wikipedia]. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000048057</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e1e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R2A</bp:displayName>
+ <bp:entityReference rdf:resource="id53" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5520 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GSK3B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000036262</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GBE1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000039958</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GYS1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="a31">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHKB</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5257 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GYS2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHKB</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000015355</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="f57">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R4</bp:displayName>
+ <bp:entityReference rdf:resource="id65" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5524 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHKG1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000004806</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id35">
+ <bp:xref rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHKG2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000008195</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id37">
+ <bp:xref rdf:resource="id38" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GSK3A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id36">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000003417</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000015848</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHKA1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="b4d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PYGB</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5834 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHKA2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="a2e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2CB</bp:displayName>
+ <bp:entityReference rdf:resource="id39" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5516 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="edd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R1B</bp:displayName>
+ <bp:entityReference rdf:resource="id67" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5519 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="c04">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GYG1</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2992 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000019011</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000000111</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="d29">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GYG2</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:8908 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UGP2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000001721</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GYG1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000013341</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GYG2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="a3c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GYS2</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2998 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PYGL</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000004625</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PGM1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000011494</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="e3e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycogen (n+1)</bp:displayName>
+ <bp:entityReference rdf:resource="id69" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="dcc">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose</bp:displayName>
+ <bp:entityReference rdf:resource="id71" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="c15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R1A</bp:displayName>
+ <bp:entityReference rdf:resource="id51" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5518 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id51">
+ <bp:xref rdf:resource="id52" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R1A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id50">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000020192</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id53">
+ <bp:xref rdf:resource="id54" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R2A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id52">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000019851</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id55">
+ <bp:xref rdf:resource="id56" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R2B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id54">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000018317</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id57">
+ <bp:xref rdf:resource="id58" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R2C</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id56">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000001862</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id59">
+ <bp:xref rdf:resource="id60" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R3A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id58">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000020598</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id49">
+ <bp:xref rdf:resource="id50" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R5C</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="a4f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R5B</bp:displayName>
+ <bp:entityReference rdf:resource="id41" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5526 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="b6f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UGP2</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7360 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="d1c90">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">UDP-glucose</bp:displayName>
+ <bp:entityReference rdf:resource="id79" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="afdba">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cAMP</bp:displayName>
+ <bp:entityReference rdf:resource="id77" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="f01">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GBE1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2632 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id40">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000009245</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id42">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000007061</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id41">
+ <bp:xref rdf:resource="id42" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R5B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id44">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000005533</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id43">
+ <bp:xref rdf:resource="id44" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R5D</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id46">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000000754</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id45">
+ <bp:xref rdf:resource="id46" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R5A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="df1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AGL</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:178 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id48">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000019784</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id47">
+ <bp:xref rdf:resource="id48" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R5E</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id39">
+ <bp:xref rdf:resource="id40" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2CB</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id38">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000020756</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="df7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R5A</bp:displayName>
+ <bp:entityReference rdf:resource="id45" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5525 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="df9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPP2R3B</bp:displayName>
+ <bp:entityReference rdf:resource="id61" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:28227 (HomologyConvert)</bp:comment>
+</bp:Protein>
+</rdf:RDF>

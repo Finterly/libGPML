@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="ae74e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHKB</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:12651 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="f61d7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">O-Phosphoethanolamine</bp:displayName>
+ <bp:entityReference rdf:resource="id57" />
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id71">
+ <bp:controller rdf:resource="ef072" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id71</bp:displayName>
+ <bp:controlled rdf:resource="id70" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id70">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id70</bp:displayName>
+ <bp:right rdf:resource="e0953" />
+ <bp:left rdf:resource="fdc80" />
+ <bp:left rdf:resource="ab80d" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id73">
+ <bp:controller rdf:resource="e4f78" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id73</bp:displayName>
+ <bp:controlled rdf:resource="id72" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id72">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id72</bp:displayName>
+ <bp:right rdf:resource="f61d7" />
+ <bp:right rdf:resource="cbcb0" />
+ <bp:left rdf:resource="a0e47" />
+ <bp:left rdf:resource="dc928" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id75">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id75</bp:displayName>
+ <bp:right rdf:resource="c84a9" />
+ <bp:right rdf:resource="d8e1c" />
+ <bp:left rdf:resource="e0953" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id74">
+ <bp:controller rdf:resource="ea284" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id74</bp:displayName>
+ <bp:controlled rdf:resource="id72" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id77">
+ <bp:controller rdf:resource="e83c8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id77</bp:displayName>
+ <bp:controlled rdf:resource="id75" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id76">
+ <bp:controller rdf:resource="d357c" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id76</bp:displayName>
+ <bp:controlled rdf:resource="id75" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id79">
+ <bp:controller rdf:resource="ab0ef" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id79</bp:displayName>
+ <bp:controlled rdf:resource="id78" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id78">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id78</bp:displayName>
+ <bp:right rdf:resource="c84a9" />
+ <bp:right rdf:resource="b5aaf" />
+ <bp:left rdf:resource="fd7aa" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="b6f97">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SAH</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="da9c1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Serine</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id60">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00570</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id62">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2056-98-6</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id61">
+ <bp:xref rdf:resource="id62" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CTP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id64">
+ <bp:controller rdf:resource="ae74e" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id64</bp:displayName>
+ <bp:controlled rdf:resource="id63" />
+</bp:Catalysis>
+
+<bp:Protein rdf:about="d19af">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTDSS1</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:19210 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id63">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id63</bp:displayName>
+ <bp:right rdf:resource="cbcb0" />
+ <bp:right rdf:resource="ab80d" />
+ <bp:left rdf:resource="e4dfe" />
+ <bp:left rdf:resource="dc928" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id66">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id66</bp:displayName>
+ <bp:right rdf:resource="fd7aa" />
+ <bp:left rdf:resource="fdc80" />
+ <bp:left rdf:resource="f61d7" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id65">
+ <bp:controller rdf:resource="d2d2c" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id65</bp:displayName>
+ <bp:controlled rdf:resource="id63" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id68">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id68</bp:displayName>
+ <bp:right rdf:resource="a0e47" />
+ <bp:left rdf:resource="ac53a" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="b5aaf">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphatidylethanolamine</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id67">
+ <bp:controller rdf:resource="e4223" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id67</bp:displayName>
+ <bp:controlled rdf:resource="id66" />
+</bp:Catalysis>
+
+<bp:Protein rdf:about="ea284">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ETNK2</bp:displayName>
+ <bp:entityReference rdf:resource="id51" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:214253 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="ab80d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphocholine</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id69">
+ <bp:controller rdf:resource="cf6f1" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id69</bp:displayName>
+ <bp:controlled rdf:resource="id68" />
+</bp:Catalysis>
+
+<bp:SmallMolecule rdf:about="a0e47">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ethanolamine</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="d8e1c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphatidylcholines</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sphingolipids</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:18132</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PEMT</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:26739</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHKB</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000133027</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e4f78">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ETNK1</bp:displayName>
+ <bp:entityReference rdf:resource="id47" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:75320 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="cbcb0">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ATP</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="c84a9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CMP</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="cf6f1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SGPL1</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20397 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="d2d2c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHKA</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:12660 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id80">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id80</bp:displayName>
+ <bp:right rdf:resource="b5aaf" />
+ <bp:left rdf:resource="b5830" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id82">
+ <bp:controller rdf:resource="d19af" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id82</bp:displayName>
+ <bp:controlled rdf:resource="id81" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id81">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id81</bp:displayName>
+ <bp:right rdf:resource="e9c3a" />
+ <bp:right rdf:resource="b5830" />
+ <bp:left rdf:resource="e2f7d" />
+ <bp:left rdf:resource="d8e1c" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id84">
+ <bp:controller rdf:resource="f6066" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id84</bp:displayName>
+ <bp:controlled rdf:resource="id83" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id83">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id83</bp:displayName>
+ <bp:right rdf:resource="d9ede" />
+ <bp:right rdf:resource="b5830" />
+ <bp:left rdf:resource="da9c1" />
+ <bp:left rdf:resource="b5aaf" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id86">
+ <bp:controller rdf:resource="ad86c" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id86</bp:displayName>
+ <bp:controlled rdf:resource="id85" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id85">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id85</bp:displayName>
+ <bp:right rdf:resource="a4a29" />
+ <bp:right rdf:resource="d8e1c" />
+ <bp:right rdf:resource="b6f97" />
+ <bp:left rdf:resource="b5aaf" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="ef072">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHPT1</bp:displayName>
+ <bp:entityReference rdf:resource="id53" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:212862 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id80" />
+ <bp:pathwayComponent rdf:resource="id71" />
+ <bp:pathwayComponent rdf:resource="id82" />
+ <bp:pathwayComponent rdf:resource="id70" />
+ <bp:pathwayComponent rdf:resource="id81" />
+ <bp:pathwayComponent rdf:resource="id73" />
+ <bp:pathwayComponent rdf:resource="id84" />
+ <bp:pathwayComponent rdf:resource="id72" />
+ <bp:pathwayComponent rdf:resource="id83" />
+ <bp:pathwayComponent rdf:resource="id64" />
+ <bp:pathwayComponent rdf:resource="id75" />
+ <bp:pathwayComponent rdf:resource="id86" />
+ <bp:pathwayComponent rdf:resource="id63" />
+ <bp:pathwayComponent rdf:resource="id74" />
+ <bp:pathwayComponent rdf:resource="id85" />
+ <bp:pathwayComponent rdf:resource="id66" />
+ <bp:pathwayComponent rdf:resource="id77" />
+ <bp:pathwayComponent rdf:resource="id65" />
+ <bp:pathwayComponent rdf:resource="id76" />
+ <bp:pathwayComponent rdf:resource="id68" />
+ <bp:pathwayComponent rdf:resource="id79" />
+ <bp:pathwayComponent rdf:resource="id67" />
+ <bp:pathwayComponent rdf:resource="id78" />
+ <bp:pathwayComponent rdf:resource="id69" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kennedy pathway</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Mus musculus pathway &quot;Kennedy pathway&quot;, WP1771 revision 79806, with a 92.0% conversion rate. (HomologyMapper)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The CDP-choline pathway, first identified by Eugene Kennedy in 1956, is the predominant mechanism by which mammalian cells synthesize phosphatidylcholine (PC) for incorporation into membranes or lipid-derived signalling molecules. The CDP-choline pathway represents one half of what is known as the Kennedy pathway. The other half is the CDP-ethanolamine pathway which is responsible for the biosynthesis of the phospholipid product phosphatidylethanolamine (PE).
+Source: [https://en.wikipedia.org/wiki/CDP-choline_pathway Wikipedia] (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00189</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ethanolamine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00019</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SAM</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000134255</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CEPT1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphocholine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="e4223">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCYT2</bp:displayName>
+ <bp:entityReference rdf:resource="id43" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:68671 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHKA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000156471</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCYT1B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000110721</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id35">
+ <bp:xref rdf:resource="id36" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphatidylcholines</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000102230</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id37">
+ <bp:xref rdf:resource="id38" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Serine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id36">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">8002-43-5</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000166224</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SGPL1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTDSS1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="ab0ef">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CEPT1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:99712 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="e9c3a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Choline</bp:displayName>
+ <bp:entityReference rdf:resource="id45" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="ac53a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sphingolipids</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="ad86c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PEMT</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:18618 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00350</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00021</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SAH</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:17361</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CMP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="d9ede">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ethanolamine</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1927-31-7</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ATP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphatidylserine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000100288</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphatidylethanolamine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C02737</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="e2f7d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Serine</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id51">
+ <bp:xref rdf:resource="id52" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ETNK2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id50">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000161217</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id53">
+ <bp:xref rdf:resource="id54" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHPT1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id52">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000143845</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id55">
+ <bp:xref rdf:resource="id56" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTDSS2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="d357c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCYT1B</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:236899 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id54">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000111666</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id57">
+ <bp:xref rdf:resource="id58" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">O-Phosphoethanolamine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id56">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000174915</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id59">
+ <bp:xref rdf:resource="id60" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDP-Ethanolamine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="dc928">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADP</bp:displayName>
+ <bp:entityReference rdf:resource="id39" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id58">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00346</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id49">
+ <bp:xref rdf:resource="id50" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCYT1A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="fdc80">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CTP</bp:displayName>
+ <bp:entityReference rdf:resource="id61" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="fd7aa">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDP-Ethanolamine</bp:displayName>
+ <bp:entityReference rdf:resource="id59" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="f6066">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTDSS2</bp:displayName>
+ <bp:entityReference rdf:resource="id55" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:27388 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="b5830">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphatidylserine</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id40">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">58-64-0</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id42">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00307</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="e0953">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDP-choline</bp:displayName>
+ <bp:entityReference rdf:resource="id41" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id41">
+ <bp:xref rdf:resource="id42" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CDP-choline</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id44">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000185813</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id43">
+ <bp:xref rdf:resource="id44" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCYT2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id46">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00114</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id45">
+ <bp:xref rdf:resource="id46" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Choline</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id48">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000139163</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id47">
+ <bp:xref rdf:resource="id48" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ETNK1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMoleculeReference rdf:about="id39">
+ <bp:xref rdf:resource="id40" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id38">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00065</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="a4a29">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SAM</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="e4dfe">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Choline</bp:displayName>
+ <bp:entityReference rdf:resource="id45" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="e83c8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PCYT1A</bp:displayName>
+ <bp:entityReference rdf:resource="id49" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13026 (HomologyMapper)</bp:comment>
+</bp:Protein>
+</rdf:RDF>

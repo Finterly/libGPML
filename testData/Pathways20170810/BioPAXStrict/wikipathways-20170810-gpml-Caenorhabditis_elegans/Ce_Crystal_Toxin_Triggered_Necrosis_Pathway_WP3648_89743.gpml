@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="c1666">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ASP-1</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="e14eb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">H+</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id31">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id31</bp:displayName>
+ <bp:right rdf:resource="da060" />
+ <bp:left rdf:resource="fd1b5" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id30">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id30</bp:displayName>
+ <bp:right rdf:resource="e14eb" />
+ <bp:left rdf:resource="bb1f4" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cysteine  Protease</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id33">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id33</bp:displayName>
+ <bp:right rdf:resource="bb1f4" />
+ <bp:left rdf:resource="da060" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00006606</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id32">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id32</bp:displayName>
+ <bp:right rdf:resource="abed4" />
+ <bp:left rdf:resource="a37fd" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">VHA-12</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id35">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id35</bp:displayName>
+ <bp:right rdf:resource="bf0ec" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="fd1b5">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Calpain TRA-3</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00000543</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id34">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id34</bp:displayName>
+ <bp:left rdf:resource="e14eb" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ATP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00006921</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Complex rdf:about="id36">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id36</bp:displayName>
+ <bp:component rdf:resource="c1666" />
+ <bp:component rdf:resource="f60b1" />
+ <bp:component rdf:resource="f8f2d" />
+</bp:Complex>
+
+<bp:BiochemicalReaction rdf:about="id28">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id28</bp:displayName>
+ <bp:right rdf:resource="fd1b5" />
+ <bp:left rdf:resource="abed4" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id27">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id27</bp:displayName>
+ <bp:right rdf:resource="a37fd" />
+ <bp:left rdf:resource="f08f8" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id29">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id29</bp:displayName>
+ <bp:right rdf:resource="bb1f4" />
+ <bp:left rdf:resource="f1657" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="f1657">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ATP</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="f60b1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ASP-3</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:Protein>
+
+<bp:Protein rdf:about="bf0ec">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Killer Cathepsin Protease</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:Protein>
+
+<bp:Protein rdf:about="da060">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cysteine  Protease</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00000214</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00000216</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ASP-3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00000217</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="a37fd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ITR-1 Channel</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="bb1f4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">VHA-12</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ASP-4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00000783</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Killer Cathepsin Protease</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="abed4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ca2+</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">H+</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01532</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ASP-1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1038</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubChem-compound</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="f08f8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cry6Aa</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Caenorhabditis elegans</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Caenorhabditis elegans</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id28" />
+ <bp:pathwayComponent rdf:resource="id27" />
+ <bp:pathwayComponent rdf:resource="id29" />
+ <bp:pathwayComponent rdf:resource="id31" />
+ <bp:pathwayComponent rdf:resource="id30" />
+ <bp:pathwayComponent rdf:resource="id33" />
+ <bp:pathwayComponent rdf:resource="id32" />
+ <bp:pathwayComponent rdf:resource="id35" />
+ <bp:pathwayComponent rdf:resource="id34" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Crystal Toxin Triggered Necrosis Pathway</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway is modeled on a description provided in Zhang et al. under the title &quot;A deficiency in the necrosis pathway confers tolerance to Cry6Aa&quot;. Cry6Aa binds to the calcium channel ITR-1 and increases intracellular Ca2+ levels. Ca2+ binds to and activates Calpain TRA-3 which promotes cysteine protease activity. Cysteine Protease activates VHA-12 that uses ATP to increase pH of the cytosol. The increase in H+ concentration signals to the ASP-1/ASP-3/ASP-4 complex which leads to activation of killer cathepsin protease and leads to cell necrosis. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Q45757</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cry6Aa</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WBGene00002173</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ITR-1 Channel</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">271</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubChem-compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ca2+</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="f8f2d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ASP-4</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Calpain TRA-3</bp:displayName>
+</bp:ProteinReference>
+</rdf:RDF>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Oxidative Branch of the Pentose Phosphate Pathway" organism="Saccharomyces cerevisiae" width="971.6666666666667" height="352.8333333333333">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP remarks">Based on http://pathway.yeastgenome.org/biocyc/</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">The reactions of the oxidative branch of the pentose phosphate pathway occur in the cytosol and are important for generating NADPH through the oxidative reduction of NADP+. NADPH is an important source of the reducing energy required by many enzymes in central biosynthetic pathways  (CITS:[8929392]) (CITS:[8910528]) (CITS:[9813062]) (CITS:[11298766]) (CITS:[1628611]). Although there are other biochemical pathways that generate NADPH in yeast, the pentose phosphate pathway is considered the major source of NADPH, and insufficient NADPH probably contributes to  the fitness defects seen in mutants of the oxidative branch of the pentose phosphate pathway (CITS:[12047390]) (CITS:[15960801]). Because NADPH is an essential  cofactor for glutathione- and thioredoxin-dependent enzymes that  defend cells against oxidative damage,  the oxidative branch of the  pentose phosphate pathway is also important for protecting yeast from  oxidative stress (CITS:[8929392])(CITS:[8910528])(CITS:[11557322])(CITS:[16179340]).   Metabolism through the pentose phosphate pathway varies according to the metabolic needs of the cell (CITS:[10803891]) (CITS:[15066826]). The first reaction of the oxidative branch of the pentose phosphate pathway is irreversible, and is the rate limiting reaction for the entire pentose phosphate pathway (CITS:[12047390]). Although Zwf1p expression in yeast is essentially constitutive (CITS:[16179340]), Zwf1p activity is inhibited by NADPH and stimulated by processes that decrease the cytosolic levels of NADPH (CITS:[ 3277619]).   
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html</Comment>
+  <CitationRef citationID="inm" />
+  <CitationRef citationID="y37" />
+  <CitationRef citationID="ig1" />
+  <DataNode elementID="a5e" textLabel="NADPH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="283.3333333333333" centerY="160.0" width="63.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="53-57-6" />
+  </DataNode>
+  <DataNode elementID="b48" textLabel="GND2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="803.3333333333334" centerY="206.66666666666666" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="GND2" />
+    <Xref dataSource="SGD" identifier="S000003488" />
+  </DataNode>
+  <DataNode elementID="c81" textLabel="ZWF1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="243.33333333333334" centerY="80.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ZWF1" />
+    <Xref dataSource="SGD" identifier="S000005185" />
+  </DataNode>
+  <DataNode elementID="d1f" textLabel="NADPH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="910.0" centerY="226.66666666666666" width="63.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="53-57-6" />
+  </DataNode>
+  <DataNode elementID="e09" textLabel="Glucose-6-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="86.66666666666667" centerY="96.66666666666667" width="169.33333333333334" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="59-56-3" />
+  </DataNode>
+  <DataNode elementID="eee" textLabel="ribulose-5-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="833.3333333333334" centerY="313.3333333333333" width="168.33333333333334" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="4151-19-3" />
+  </DataNode>
+  <DataNode elementID="f38" textLabel="GND1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="803.3333333333334" centerY="186.66666666666666" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="GND1" />
+    <Xref dataSource="SGD" identifier="S000001226" />
+  </DataNode>
+  <Interaction elementID="id3acfc35a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="833.3333333333334" y="106.66666666666667" elementID="bd911" />
+    <Point x="833.3333333333334" y="300.0" elementID="bbd9e" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbdd62bfd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="603.3333333333334" y="96.66666666666667" elementID="b6367" />
+    <Point x="753.3333333333334" y="96.66666666666667" elementID="d6dfb" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc42c453b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="870.0" y="236.66666666666666" elementID="be264" />
+    <Point x="876.6666666666666" y="236.66666666666666" elementID="c0b34" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idea923378" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="173.33333333333334" y="96.66666666666667" elementID="e69c3" />
+    <Point x="320.0" y="96.66666666666667" elementID="ef812" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ideb24969b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="283.3333333333333" y="123.33333333333333" elementID="b33fb" />
+    <Point x="283.3333333333333" y="130.0" elementID="a1bdf" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf31df691" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="690.0" y="120.0" elementID="d4f3f" />
+    <Point x="733.3333333333334" y="96.66666666666667" elementID="ef390" />
+  </Interaction>
+  <Label elementID="ae0" textLabel="D-6-phospho-glucono-delta-lactone" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="463.3333333333333" centerY="96.66666666666667" width="276.3333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="c63" textLabel="H+" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="910.0" centerY="243.33333333333334" width="26.333333333333332" height="19.0" zOrder="28672" />
+  <Label elementID="c9b" textLabel="NADP" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="903.3333333333334" centerY="156.66666666666666" width="51.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="cf9" textLabel="6-phospho-gluconate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="843.3333333333334" centerY="96.66666666666667" width="169.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="e1a" textLabel="NADP" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="200.0" centerY="136.66666666666666" width="51.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="e20" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="683.3333333333334" centerY="130.0" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="edc" textLabel="H+" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="283.3333333333333" centerY="140.0" width="26.333333333333332" height="19.0" zOrder="28672" />
+  <Shape elementID="c48" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="873.3333333333334" centerY="196.66666666666666" width="81.10349333333333" height="80.0" zOrder="16384" rotation="1.570796" />
+  <Shape elementID="fda" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="243.33333333333334" centerY="123.33333333333333" width="80.27729333333333" height="53.333333333333336" zOrder="16384" rotation="3.141593" />
+  <InfoBox centerX="15.0" centerY="255.0" />
+  <Legend centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Isolation and characterization of the ZWF1 gene of Saccharomyces cerevisiae, encoding glucose-6-phosphate dehydrogenase." URL="" citationID="ig1" year="1990" source="Gene">
+      <Xref dataSource="PubMed" identifier="2269430" />
+      <Author name="Nogae I" />
+      <Author name="Johnston M" />
+    </Citation>
+    <Citation title="Induction of specific enzymes of the oxidative pentose phosphate pathway by glucono-delta-lactone in Saccharomyces cerevisiae." URL="" citationID="inm" year="1992" source="J Gen Microbiol">
+      <Xref dataSource="PubMed" identifier="1328471" />
+      <Author name="Sinha A" />
+      <Author name="Maitra PK" />
+    </Citation>
+    <Citation title="Division of labor among the yeast Sol proteins implicated in tRNA nuclear export and carbohydrate metabolism." URL="" citationID="y37" year="2004" source="Genetics">
+      <Xref dataSource="PubMed" identifier="15454531" />
+      <Author name="Stanford DR" />
+      <Author name="Whitney ML" />
+      <Author name="Hurto RL" />
+      <Author name="Eisaman DM" />
+      <Author name="Shen WC" />
+      <Author name="Hopper AK" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="pentose phosphate pathway - oxidative phase" ontology="Pathway Ontology" ontologyTermID="PW:0000573" />
+  </OntologyTerms>
+</Pathway>
+

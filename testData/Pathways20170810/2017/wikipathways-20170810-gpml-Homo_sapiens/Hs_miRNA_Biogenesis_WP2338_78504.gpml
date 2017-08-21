@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="miRNA Biogenesis" revision="20121022" organism="Homo sapiens" width="1041.9386002255528" height="573.092337668838">
+  <Xref dataSource="" identifier="" />
+  <Author name="Susan Coort" />
+  <Comment source="WikiPathways-description">microRNA biogenesis + an example of a miRBase entry.
+As an example immature hsa-mir-146a is shown
+ </Comment>
+  <Comment source="WikiPathways-category">Molecular Function</Comment>
+  <CitationRef citationID="dc4" />
+  <CitationRef citationID="ad1" />
+  <DataNode elementID="acaf7" textLabel="pri-miRNAs" fontSize="13" vAlign="Middle" type="Protein" centerX="113.0" centerY="234.2253771073647" width="130.0" height="28.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b31ef" textLabel="RAN" groupRef="aafd7" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="482.1415651446688" centerY="315.40192675653736" width="32.208588957055156" height="28.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="5901" />
+  </DataNode>
+  <DataNode elementID="c29d9" textLabel="XPO5" groupRef="aafd7" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="498.4013067935279" centerY="288.0354442519334" width="64.10628357344706" height="28.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000124571" />
+  </DataNode>
+  <DataNode elementID="c57c3" textLabel="GTP" groupRef="aafd7" color="0000ff" fontSize="12" vAlign="Middle" type="Metabolite" centerX="514.3024680372584" centerY="315.4677268923838" width="31.796698867286068" height="28.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01440" />
+  </DataNode>
+  <DataNode elementID="c6f64" textLabel="DROSHA" groupRef="ded01" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="221.2253771073647" centerY="297.72029443095096" width="66.0" height="28.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000113360" />
+  </DataNode>
+  <DataNode elementID="d2d75" textLabel="RNA polymerase II" fontSize="13" vAlign="Middle" type="Protein" centerX="236.85467428429604" centerY="169.03054048623702" width="134.8056426332288" height="28.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e00ce" textLabel="DICER1" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="677.9612183708912" centerY="279.48833034111317" width="55.0" height="28.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100697" />
+  </DataNode>
+  <DataNode elementID="aabce" textLabel="DGCR8" groupRef="ded01" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="221.2253771073647" centerY="324.6347283116769" width="66.0" height="28.0" zOrder="32769">
+    <Xref dataSource="Ensembl" identifier="ENSG00000128191" />
+  </DataNode>
+  <DataNode elementID="d91e6" textLabel="DICER1" groupRef="b8049" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="680.4647730739277" centerY="384.5033488564666" width="55.0" height="28.0" zOrder="32778">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100697" />
+  </DataNode>
+  <DataNode elementID="f545c" textLabel="TRBP" groupRef="b8049" fontSize="12" vAlign="Middle" type="Protein" centerX="680.4647730739277" centerY="411.57405592717345" width="55.0" height="28.0" zOrder="32779">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="Q15633" />
+  </DataNode>
+  <Interaction elementID="id4095b90a" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="612.6294205191712" y="259.805135513643" elementID="f4a61" />
+    <Point x="611.9575008575978" y="308.3960124086836" elementID="c0dd3" elementRef="c8719" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="c152d" />
+  </Interaction>
+  <Interaction elementID="id6fce187" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="612.3606526545418" y="279.24148627165926" elementID="f3eec" elementRef="c152d" relX="0.0" relY="0.0" />
+    <Point x="650.4612183708912" y="279.48833034111317" elementID="d6d97" elementRef="e00ce" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id7e9001e4" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="391.8217031423808" y="233.93379769679245" elementID="ad920" elementRef="aec7c" relX="1.0" relY="0.0" />
+    <Point x="548.1610642763304" y="233.934" elementID="ca477" arrowHead="mim-conversion" />
+    <Anchor position="0.6815976014045486" shapeType="None" elementID="ac65a" />
+    <Anchor position="0.6860505336178692" shapeType="None" elementID="e3797" />
+  </Interaction>
+  <Interaction elementID="id7f91736b" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="221.01069156283387" y="234.07587441330682" elementID="b4ba3" elementRef="ecfbd" relX="0.0" relY="0.0" />
+    <Point x="221.2253771073647" y="271.72029443095096" elementID="c2a73" elementRef="ded01" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="id8099a9be" connectorType="Elbow" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="611.9575008575978" y="359.13255307305957" elementID="f89f6" elementRef="c8719" relX="0.0" relY="1.0" />
+    <Point x="656.7299136558067" y="449.38158497480526" elementID="b9435" />
+    <Point x="701.5023264540156" y="516.872951791793" elementID="dabae" elementRef="f2c62" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.15563163538588026" shapeType="None" elementID="c1084" />
+    <Anchor position="0.3663993415242997" shapeType="None" elementID="f14b5" />
+  </Interaction>
+  <Interaction elementID="id88b7f8a4" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="178.0" y="234.2253771073647" elementID="f9e11" elementRef="acaf7" relX="1.0" relY="0.0" />
+    <Point x="261.8849906566993" y="233.93379769679245" elementID="f8b81" elementRef="aec7c" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Anchor position="0.5127340567856273" shapeType="None" elementID="ecfbd" />
+  </Interaction>
+  <Interaction elementID="id9af349d5" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="118.34075723830733" y="115.296" elementID="f1e7a" />
+    <Point x="287.34075723830733" y="115.296" elementID="d2000" />
+  </Interaction>
+  <Interaction elementID="ida3335c30" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="611.9575008575978" y="397.6179569399908" elementID="f678c" elementRef="c1084" relX="0.0" relY="0.0" />
+    <Point x="640.9647730739277" y="398.03870239182004" elementID="ff1c1" elementRef="b8049" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idce6dfe5c" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="498.24585962319634" y="262.0354442519334" elementID="afdd6" elementRef="aafd7" relX="0.0" relY="-1.0" />
+    <Point x="498.38223669640035" y="233.93393558617348" elementID="e2f8b" elementRef="ac65a" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf2c3055b" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="176.93389592123768" y="124.33192686357243" elementID="f7525" />
+    <Point x="113.0" y="220.2253771073647" elementID="d3305" elementRef="acaf7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf4ee4da5" connectorType="Elbow" zOrder="12288" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="612.3136123136122" y="449.38158497480526" elementID="bdfba" elementRef="f14b5" relX="0.0" relY="0.0" />
+    <Point x="567.9932361022384" y="449.4206075790792" elementID="c1bff" />
+    <Point x="523.6728598908646" y="512.7753421099296" elementID="c2404" elementRef="dc401" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="f3c9f" zOrder="16385" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="118.34075723830733" y="121.296" elementID="eafca" />
+    <Point x="287.34075723830733" y="121.296" elementID="b616c" />
+  </Interaction>
+  <Interaction elementID="aa623" zOrder="33020" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="290.8191778898556" y="243.48493754607162" elementID="c0ac6" />
+    <Point x="360.79605745793054" y="244.3894552599446" elementID="d94e5" />
+  </Interaction>
+  <Interaction elementID="e5a36" groupRef="aec7c" zOrder="33022" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="296.4353395060171" y="223.4564468689271" elementID="e3c63" />
+    <Point x="360.1112321268542" y="223.4992898975414" elementID="aeb12" />
+  </Interaction>
+  <Interaction elementID="f1d1f" groupRef="aec7c" zOrder="33028" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="300.9413771722041" y="233.98046840398382" elementID="f5be4" />
+    <Point x="300.98862377309496" y="243.41362096847584" elementID="c5c45" />
+  </Interaction>
+  <Interaction elementID="d3ec9" groupRef="aec7c" zOrder="33030" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="300.9694232924897" y="223.51718804665492" elementID="dda65" />
+    <Point x="301.01666989338054" y="232.95034061114683" elementID="cbaac" />
+  </Interaction>
+  <Interaction elementID="f5b6c" groupRef="aec7c" zOrder="33031" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="296.9183170288566" y="233.9046400046895" elementID="d7618" />
+    <Point x="296.96556362974746" y="243.33779256918152" elementID="d5de6" />
+  </Interaction>
+  <Interaction elementID="ffc59" groupRef="aec7c" zOrder="33032" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="292.58363332676777" y="233.82881160539532" elementID="c8f4b" />
+    <Point x="292.6308799276586" y="243.26196416988736" elementID="be3cb" />
+  </Interaction>
+  <Interaction elementID="bdfa5" groupRef="aec7c" zOrder="33033" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="304.60503147780156" y="233.90464000468867" elementID="b14b3" />
+    <Point x="304.6522780786924" y="243.33779256918072" elementID="beb9b" />
+  </Interaction>
+  <Interaction elementID="fa1cb" groupRef="aec7c" zOrder="33034" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="304.63307759808714" y="223.44135964735977" elementID="a7acb" />
+    <Point x="304.680324198978" y="232.87451221185168" elementID="a9c7d" />
+  </Interaction>
+  <Interaction elementID="d2f4c" groupRef="aec7c" zOrder="33035" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="315.3321531148643" y="234.14043516413543" elementID="adcbd" />
+    <Point x="315.37939971575514" y="243.57358772862747" elementID="b07ef" />
+  </Interaction>
+  <Interaction elementID="a2112" groupRef="aec7c" zOrder="33036" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="315.3601992351499" y="223.67715480680653" elementID="eef2f" />
+    <Point x="315.4074458360407" y="233.11030737129843" elementID="d8924" />
+  </Interaction>
+  <Interaction elementID="aaf38" groupRef="aec7c" zOrder="33037" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="308.29673190368777" y="234.16848128442285" elementID="d3207" />
+    <Point x="308.3439785045786" y="243.60163384891487" elementID="b3f45" />
+  </Interaction>
+  <Interaction elementID="a222a" groupRef="aec7c" zOrder="33038" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="308.32477802397335" y="223.70520092709395" elementID="f2ae1" />
+    <Point x="308.3720246248642" y="233.13835349158586" elementID="f91f3" />
+  </Interaction>
+  <Interaction elementID="b682e" groupRef="aec7c" zOrder="33039" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="311.7526371701253" y="234.19652740470934" elementID="f5142" />
+    <Point x="311.79988377101614" y="243.62967996920142" elementID="f7b70" />
+  </Interaction>
+  <Interaction elementID="e6b8c" groupRef="aec7c" zOrder="33040" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="311.7806832904109" y="223.73324704738044" elementID="ce164" />
+    <Point x="311.8279298913017" y="233.16639961187238" elementID="cb8f8" />
+  </Interaction>
+  <Interaction elementID="cece3" groupRef="aec7c" zOrder="33041" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="325.8515257127661" y="234.2723558040018" elementID="ecd55" />
+    <Point x="325.89877231365693" y="243.7055083684938" elementID="c772c" />
+  </Interaction>
+  <Interaction elementID="eab66" groupRef="aec7c" zOrder="33042" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="325.87957183305167" y="223.8090754466729" elementID="f67c9" />
+    <Point x="325.9268184339425" y="233.2422280111648" elementID="bfa60" />
+  </Interaction>
+  <Interaction elementID="f3127" groupRef="aec7c" zOrder="33043" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="332.1120430078733" y="234.30040192428882" elementID="a9b13" />
+    <Point x="332.15928960876414" y="243.73355448878095" elementID="cbeef" />
+  </Interaction>
+  <Interaction elementID="c5049" groupRef="aec7c" zOrder="33044" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="332.1400891281589" y="223.83712156695992" elementID="e6005" />
+    <Point x="332.1873357290497" y="233.27027413145183" elementID="ed0db" />
+  </Interaction>
+  <Interaction elementID="ba207" groupRef="aec7c" zOrder="33045" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="328.8161045015883" y="234.12069900541485" elementID="f6100" />
+    <Point x="328.86335110247916" y="243.5538515699068" elementID="eb89c" />
+  </Interaction>
+  <Interaction elementID="b58d5" groupRef="aec7c" zOrder="33046" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="328.8441506218739" y="223.65741864808598" elementID="bee50" />
+    <Point x="328.89139722276474" y="233.09057121257783" elementID="f0cff" />
+  </Interaction>
+  <Interaction elementID="d86be" groupRef="aec7c" zOrder="33047" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="360.0065064959803" y="234.4603686844424" elementID="f0954" />
+    <Point x="360.05375309687116" y="243.89352124893452" elementID="e2e2a" />
+  </Interaction>
+  <Interaction elementID="f53de" groupRef="aec7c" zOrder="33048" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="360.0345526162659" y="223.9970883271136" elementID="dfce4" />
+    <Point x="360.08179921715674" y="233.43024089160542" elementID="b9d78" />
+  </Interaction>
+  <Interaction elementID="b85b9" groupRef="aec7c" zOrder="33049" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="340.0345526162661" y="234.32844804457514" elementID="e3bee" />
+    <Point x="340.08179921715697" y="243.76160060906727" elementID="f7d4f" />
+  </Interaction>
+  <Interaction elementID="e9db9" groupRef="aec7c" zOrder="33050" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="340.0625987365517" y="223.86516768724624" elementID="d9eed" />
+    <Point x="340.10984533744255" y="233.29832025173815" elementID="e11cb" />
+  </Interaction>
+  <Interaction elementID="ad5ab" groupRef="aec7c" zOrder="33051" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="343.49045788270354" y="234.25261964528121" elementID="a1b2c" />
+    <Point x="343.5377044835944" y="243.68577220977343" elementID="e0e0a" />
+  </Interaction>
+  <Interaction elementID="acaa2" groupRef="aec7c" zOrder="33052" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="343.5185040029891" y="223.78933928795232" elementID="b8103" />
+    <Point x="343.56575060387996" y="233.22249185244422" elementID="c95c4" />
+  </Interaction>
+  <Interaction elementID="d25ab" groupRef="aec7c" zOrder="33053" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="347.4657357470431" y="234.38454028514866" elementID="cc8c1" />
+    <Point x="347.5129823479339" y="243.81769284964076" elementID="e10bb" />
+  </Interaction>
+  <Interaction elementID="f45f0" groupRef="aec7c" zOrder="33054" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="347.49378186732866" y="223.92125992781988" elementID="f46cd" />
+    <Point x="347.5410284682195" y="233.3544124923117" elementID="da9fe" />
+  </Interaction>
+  <Interaction elementID="f7f61" groupRef="aec7c" zOrder="33055" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="351.23326457222316" y="234.41258640543518" elementID="e2bda" />
+    <Point x="351.280511173114" y="243.84573896992725" elementID="a1a94" />
+  </Interaction>
+  <Interaction elementID="b49b5" groupRef="aec7c" zOrder="33056" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="351.26131069250874" y="223.9493060481062" elementID="fa349" />
+    <Point x="351.3085572933996" y="233.38245861259819" elementID="bb1eb" />
+  </Interaction>
+  <Interaction elementID="b30f8" groupRef="aec7c" zOrder="33057" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="355.20854243656373" y="234.4406325257218" elementID="a306e" />
+    <Point x="355.2557890374546" y="243.87378509021391" elementID="f66fc" />
+  </Interaction>
+  <Interaction elementID="a2414" groupRef="aec7c" zOrder="33058" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="355.2365885568493" y="223.97735216839294" elementID="e5ff2" />
+    <Point x="355.28383515774016" y="233.41050473288485" elementID="dce93" />
+  </Interaction>
+  <Interaction elementID="d1a03" groupRef="c8719" zOrder="33099" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="576.7051884387009" y="343.1909723170468" elementID="da9a5" />
+    <Point x="646.6820680067759" y="344.0954900309198" elementID="adb54" />
+  </Interaction>
+  <Interaction elementID="aa642" groupRef="c8719" zOrder="33101" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="582.3213500548626" y="323.2869319130063" elementID="b34c8" />
+    <Point x="645.9972426756996" y="323.3297749416206" elementID="fb3c4" />
+  </Interaction>
+  <Interaction elementID="e0a26" groupRef="c8719" zOrder="33107" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="586.8273877210496" y="333.81095344806306" elementID="e0695" />
+    <Point x="586.8746343219403" y="343.244106012555" elementID="e2a03" />
+  </Interaction>
+  <Interaction elementID="fa994" groupRef="c8719" zOrder="33109" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="586.8554338413352" y="323.34767309073413" elementID="c707f" />
+    <Point x="586.9026804422259" y="332.78082565522607" elementID="ed834" />
+  </Interaction>
+  <Interaction elementID="ccc00" groupRef="c8719" zOrder="33110" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="582.8043275777021" y="333.73512504876874" elementID="e6cf2" />
+    <Point x="582.8515741785928" y="343.16827761326067" elementID="c3375" />
+  </Interaction>
+  <Interaction elementID="ef96c" groupRef="c8719" zOrder="33111" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="578.4696438756131" y="333.6592966494746" elementID="ec563" />
+    <Point x="578.516890476504" y="343.0924492139665" elementID="cb724" />
+  </Interaction>
+  <Interaction elementID="ae896" groupRef="c8719" zOrder="33112" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="590.491042026647" y="333.73512504876794" elementID="b41d1" />
+    <Point x="590.5382886275378" y="343.1682776132599" elementID="ac17c" />
+  </Interaction>
+  <Interaction elementID="aa3b6" groupRef="c8719" zOrder="33113" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="590.5190881469326" y="323.271844691439" elementID="b545a" />
+    <Point x="590.5663347478234" y="332.70499725593095" elementID="cfccb" />
+  </Interaction>
+  <Interaction elementID="d52f2" groupRef="c8719" zOrder="33114" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="601.2181636637098" y="333.9709202082147" elementID="f36b3" />
+    <Point x="601.2654102646005" y="343.4040727727066" elementID="db0e6" />
+  </Interaction>
+  <Interaction elementID="e4e22" groupRef="c8719" zOrder="33115" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="601.2462097839954" y="323.50763985088577" elementID="d6185" />
+    <Point x="601.2934563848861" y="332.9407924153777" elementID="d1ba6" />
+  </Interaction>
+  <Interaction elementID="f2098" groupRef="c8719" zOrder="33116" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="594.1827424525333" y="333.9989663285021" elementID="b38b2" />
+    <Point x="594.229989053424" y="343.432118892994" elementID="c5cca" />
+  </Interaction>
+  <Interaction elementID="edbb8" groupRef="c8719" zOrder="33117" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="594.2107885728188" y="323.53568597117317" elementID="bd45b" />
+    <Point x="594.2580351737096" y="332.9688385356651" elementID="fac40" />
+  </Interaction>
+  <Interaction elementID="e7e94" groupRef="c8719" zOrder="33118" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="597.6386477189707" y="334.0270124487886" elementID="ee31b" />
+    <Point x="597.6858943198616" y="343.4601650132806" elementID="e2b0b" />
+  </Interaction>
+  <Interaction elementID="da067" groupRef="c8719" zOrder="33119" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="597.6666938392563" y="323.56373209145966" elementID="b02f5" />
+    <Point x="597.7139404401472" y="332.99688465595165" elementID="cbc3e" />
+  </Interaction>
+  <Interaction elementID="a3bcd" groupRef="c8719" zOrder="33120" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="611.7375362616116" y="334.10284084808103" elementID="e0647" />
+    <Point x="611.7847828625023" y="343.53599341257296" elementID="be9f9" />
+  </Interaction>
+  <Interaction elementID="bdb3b" groupRef="c8719" zOrder="33121" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="611.7655823818972" y="323.6395604907521" elementID="c1aa2" />
+    <Point x="611.8128289827879" y="333.07271305524404" elementID="df4e1" />
+  </Interaction>
+  <Interaction elementID="cdf20" groupRef="c8719" zOrder="33122" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="617.9980535567187" y="334.1308869683681" elementID="e7075" />
+    <Point x="618.0453001576096" y="343.5640395328601" elementID="a7fe1" />
+  </Interaction>
+  <Interaction elementID="f79ad" groupRef="c8719" zOrder="33123" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="618.0260996770043" y="323.66760661103916" elementID="a61af" />
+    <Point x="618.0733462778952" y="333.1007591755311" elementID="c9cae" />
+  </Interaction>
+  <Interaction elementID="ae716" groupRef="c8719" zOrder="33124" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="614.7021150504337" y="333.9511840494941" elementID="d09ec" />
+    <Point x="614.7493616513246" y="343.38433661398597" elementID="e9831" />
+  </Interaction>
+  <Interaction elementID="e393e" groupRef="c8719" zOrder="33125" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="614.7301611707193" y="323.4879036921652" elementID="f01fb" />
+    <Point x="614.7774077716102" y="332.9210562566571" elementID="b7c82" />
+  </Interaction>
+  <Interaction elementID="b9137" groupRef="c8719" zOrder="33126" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="645.8925170448257" y="334.29085372852165" elementID="bba9e" />
+    <Point x="645.9397636457167" y="343.72400629301364" elementID="b92f7" />
+  </Interaction>
+  <Interaction elementID="c36de" groupRef="c8719" zOrder="33127" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="645.9205631651113" y="323.82757337119284" elementID="bec97" />
+    <Point x="645.9678097660022" y="333.26072593568466" elementID="efa8d" />
+  </Interaction>
+  <Interaction elementID="f1429" groupRef="c8719" zOrder="33128" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="625.9205631651115" y="334.1589330886544" elementID="b11d9" />
+    <Point x="625.9678097660025" y="343.5920856531464" elementID="ae075" />
+  </Interaction>
+  <Interaction elementID="cd74a" groupRef="c8719" zOrder="33129" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="625.9486092853971" y="323.6956527313255" elementID="cae88" />
+    <Point x="625.995855886288" y="333.1288052958174" elementID="e3e4a" />
+  </Interaction>
+  <Interaction elementID="b8948" groupRef="c8719" zOrder="33130" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="629.3764684315489" y="334.0831046893605" elementID="be743" />
+    <Point x="629.4237150324399" y="343.5162572538526" elementID="a84aa" />
+  </Interaction>
+  <Interaction elementID="b254c" groupRef="c8719" zOrder="33131" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="629.4045145518345" y="323.61982433203156" elementID="aa7b1" />
+    <Point x="629.4517611527255" y="333.0529768965235" elementID="bca29" />
+  </Interaction>
+  <Interaction elementID="f85de" groupRef="c8719" zOrder="33132" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="633.3517462958886" y="334.2150253292279" elementID="ba31e" />
+    <Point x="633.3989928967793" y="343.6481778937199" elementID="cc45a" />
+  </Interaction>
+  <Interaction elementID="e3542" groupRef="c8719" zOrder="33133" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="633.3797924161742" y="323.7517449718991" elementID="a5af0" />
+    <Point x="633.4270390170649" y="333.18489753639096" elementID="f3e01" />
+  </Interaction>
+  <Interaction elementID="bdf8f" groupRef="c8719" zOrder="33134" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="637.1192751210687" y="334.24307144951445" elementID="a2571" />
+    <Point x="637.1665217219594" y="343.6762240140064" elementID="c1e3c" />
+  </Interaction>
+  <Interaction elementID="c246f" groupRef="c8719" zOrder="33135" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="637.1473212413542" y="323.7797910921854" elementID="bbe4a" />
+    <Point x="637.194567842245" y="333.21294365667745" elementID="e35b7" />
+  </Interaction>
+  <Interaction elementID="f2698" groupRef="c8719" zOrder="33136" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="641.0945529854092" y="334.27111756980105" elementID="f3666" />
+    <Point x="641.1417995863" y="343.70427013429304" elementID="b1b9d" />
+  </Interaction>
+  <Interaction elementID="ec755" groupRef="c8719" zOrder="33137" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="641.1225991056948" y="323.8078372124722" elementID="fce1d" />
+    <Point x="641.1698457065855" y="333.2409897769641" elementID="bb07e" />
+  </Interaction>
+  <Interaction elementID="adf0f" groupRef="f2c62" zOrder="33142" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="664.9357900438165" y="534.4046274593652" elementID="df077" />
+    <Point x="734.9126696118915" y="535.3091451732381" elementID="fb1e0" />
+  </Interaction>
+  <Interaction elementID="e990a" groupRef="f2c62" zOrder="33149" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="675.0579893261652" y="525.0246085903814" elementID="c0363" />
+    <Point x="675.1052359270559" y="534.4577611548733" elementID="d17fe" />
+  </Interaction>
+  <Interaction elementID="d7d38" groupRef="f2c62" zOrder="33152" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="671.0349291828177" y="524.948780191087" elementID="ecfaa" />
+    <Point x="671.0821757837084" y="534.381932755579" elementID="cac55" />
+  </Interaction>
+  <Interaction elementID="b88be" groupRef="f2c62" zOrder="33153" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="666.7002454807287" y="524.872951791793" elementID="e0591" />
+    <Point x="666.7474920816196" y="534.3061043562849" elementID="b3bb0" />
+  </Interaction>
+  <Interaction elementID="da175" groupRef="f2c62" zOrder="33154" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="678.7216436317626" y="524.9487801910863" elementID="ae28d" />
+    <Point x="678.7688902326533" y="534.3819327555782" elementID="b5cff" />
+  </Interaction>
+  <Interaction elementID="f030b" groupRef="f2c62" zOrder="33156" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="689.4487652688254" y="525.184575350533" elementID="acdcb" />
+    <Point x="689.4960118697161" y="534.617727915025" elementID="eb9ac" />
+  </Interaction>
+  <Interaction elementID="f3a15" groupRef="f2c62" zOrder="33158" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="682.4133440576488" y="525.2126214708204" elementID="e4235" />
+    <Point x="682.4605906585396" y="534.6457740353123" elementID="c9830" />
+  </Interaction>
+  <Interaction elementID="d15aa" groupRef="f2c62" zOrder="33160" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="685.8692493240862" y="525.2406675911069" elementID="b10ca" />
+    <Point x="685.9164959249772" y="534.673820155599" elementID="c11de" />
+  </Interaction>
+  <Interaction elementID="e0686" groupRef="f2c62" zOrder="33162" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="699.9681378667271" y="525.3164959903994" elementID="a7de7" />
+    <Point x="700.0153844676179" y="534.7496485548913" elementID="b41c8" />
+  </Interaction>
+  <Interaction elementID="e5147" groupRef="f2c62" zOrder="33164" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="706.2286551618342" y="525.3445421106865" elementID="fd5ba" />
+    <Point x="706.2759017627252" y="534.7776946751784" elementID="af5c4" />
+  </Interaction>
+  <Interaction elementID="a80d0" groupRef="f2c62" zOrder="33166" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="702.9327166555493" y="525.1648391918125" elementID="e9375" />
+    <Point x="702.9799632564402" y="534.5979917563043" elementID="a2a37" />
+  </Interaction>
+  <Interaction elementID="c6587" groupRef="f2c62" zOrder="33168" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="734.1231186499413" y="525.50450887084" elementID="dfbc9" />
+    <Point x="734.1703652508322" y="534.937661435332" elementID="b2312" />
+  </Interaction>
+  <Interaction elementID="aad53" groupRef="f2c62" zOrder="33170" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="714.1511647702271" y="525.3725882309727" elementID="d23bb" />
+    <Point x="714.198411371118" y="534.8057407954648" elementID="bbf02" />
+  </Interaction>
+  <Interaction elementID="f8f5d" groupRef="f2c62" zOrder="33172" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="717.6070700366645" y="525.2967598316789" elementID="a12c7" />
+    <Point x="717.6543166375554" y="534.7299123961709" elementID="b40df" />
+  </Interaction>
+  <Interaction elementID="bbe1d" groupRef="f2c62" zOrder="33174" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="721.5823479010041" y="525.4286804715463" elementID="c6623" />
+    <Point x="721.6295945018949" y="534.8618330360382" elementID="af9de" />
+  </Interaction>
+  <Interaction elementID="cafc8" groupRef="f2c62" zOrder="33176" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="725.3498767261842" y="525.4567265918328" elementID="c4794" />
+    <Point x="725.397123327075" y="534.8898791563247" elementID="e74ab" />
+  </Interaction>
+  <Interaction elementID="eeb89" groupRef="f2c62" zOrder="33178" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="729.3251545905248" y="525.4847727121194" elementID="b21b1" />
+    <Point x="729.3724011914155" y="534.9179252766114" elementID="e92bd" />
+  </Interaction>
+  <Interaction elementID="b2b31" groupRef="dc401" zOrder="33185" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="490.9840427072979" y="527.4087807513436" elementID="c00aa" />
+    <Point x="554.659935328135" y="527.451623779958" elementID="cfaaf" />
+  </Interaction>
+  <Interaction elementID="c3dcf" groupRef="dc401" zOrder="33193" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="495.51812649377047" y="527.4695219290716" elementID="f9284" />
+    <Point x="495.5653730946612" y="536.9026744935634" elementID="aaf5d" />
+  </Interaction>
+  <Interaction elementID="deb09" groupRef="dc401" zOrder="33197" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="499.1817807993679" y="527.3936935297763" elementID="a4480" />
+    <Point x="499.22902740025864" y="536.8268460942684" elementID="dad6b" />
+  </Interaction>
+  <Interaction elementID="c2321" groupRef="dc401" zOrder="33199" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="509.7223700730658" y="527.6294886892231" elementID="f5a65" />
+    <Point x="509.76961667395653" y="537.0626412537151" elementID="b2cdf" />
+  </Interaction>
+  <Interaction elementID="e5f3b" groupRef="dc401" zOrder="33201" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="502.8734812252542" y="527.6575348095105" elementID="a759a" />
+    <Point x="502.9207278261449" y="537.0906873740025" elementID="d8e56" />
+  </Interaction>
+  <Interaction elementID="a3ae1" groupRef="dc401" zOrder="33203" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="506.3293864916916" y="527.685580929797" elementID="f9be8" />
+    <Point x="506.37663309258255" y="537.118733494289" elementID="cd633" />
+  </Interaction>
+  <Interaction elementID="d850a" groupRef="dc401" zOrder="33205" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="520.4282750343327" y="527.7614093290895" elementID="d17b2" />
+    <Point x="520.4755216352235" y="537.1945618935815" elementID="bc1f0" />
+  </Interaction>
+  <Interaction elementID="c0b0e" groupRef="dc401" zOrder="33207" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="526.6887923294398" y="527.7894554493764" elementID="aeed2" />
+    <Point x="526.7360389303308" y="537.2226080138685" elementID="b16fd" />
+  </Interaction>
+  <Interaction elementID="be340" groupRef="dc401" zOrder="33209" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="523.3928538231548" y="527.6097525305026" elementID="e9638" />
+    <Point x="523.4401004240458" y="537.0429050949945" elementID="dd4ac" />
+  </Interaction>
+  <Interaction elementID="f426d" groupRef="dc401" zOrder="33211" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="554.5832558175467" y="527.9494222095302" elementID="e38bd" />
+    <Point x="554.6305024184377" y="537.382574774022" elementID="f37e7" />
+  </Interaction>
+  <Interaction elementID="f65c5" groupRef="dc401" zOrder="33213" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="534.6113019378325" y="527.8175015696629" elementID="dd689" />
+    <Point x="534.6585485387235" y="537.2506541341547" elementID="be1e9" />
+  </Interaction>
+  <Interaction elementID="f5068" groupRef="dc401" zOrder="33215" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="538.06720720427" y="527.7416731703688" elementID="c9d80" />
+    <Point x="538.1144538051609" y="537.1748257348609" elementID="d2344" />
+  </Interaction>
+  <Interaction elementID="e63fc" groupRef="dc401" zOrder="33217" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="542.0424850686096" y="527.8735938102363" elementID="af2b2" />
+    <Point x="542.0897316695003" y="537.3067463747284" elementID="d20e9" />
+  </Interaction>
+  <Interaction elementID="e7709" groupRef="dc401" zOrder="33219" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="545.8100138937897" y="527.9016399305228" elementID="a0343" />
+    <Point x="545.8572604946804" y="537.3347924950149" elementID="a9d93" />
+  </Interaction>
+  <Interaction elementID="cc724" groupRef="dc401" zOrder="33221" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="549.7852917581303" y="527.9296860508096" elementID="af6e2" />
+    <Point x="549.832538359021" y="537.3628386153016" elementID="b0e67" />
+  </Interaction>
+  <Interaction elementID="f7e02" groupRef="c851f" zOrder="33228" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="576.5113331049888" y="242.7260984277212" elementID="c976c" />
+    <Point x="646.4882126730638" y="243.6306161415942" elementID="c119e" />
+  </Interaction>
+  <Interaction elementID="ca7e8" groupRef="c851f" zOrder="33230" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="582.1274947211505" y="222.69760775057668" elementID="b6f7b" />
+    <Point x="645.8033873419874" y="222.74045077919098" elementID="d3ed9" />
+  </Interaction>
+  <Interaction elementID="d4d55" groupRef="c851f" zOrder="33236" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="586.6335323873375" y="233.2216292856334" elementID="ebac9" />
+    <Point x="586.6807789882283" y="242.65478185012543" elementID="df4c0" />
+  </Interaction>
+  <Interaction elementID="b018b" groupRef="c851f" zOrder="33238" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="586.6615785076231" y="222.7583489283045" elementID="cc4f3" />
+    <Point x="586.7088251085139" y="232.19150149279642" elementID="f2587" />
+  </Interaction>
+  <Interaction elementID="d0280" groupRef="c851f" zOrder="33239" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="582.61047224399" y="233.1458008863391" elementID="ed178" />
+    <Point x="582.6577188448808" y="242.5789534508311" elementID="d4044" />
+  </Interaction>
+  <Interaction elementID="ab32c" groupRef="c851f" zOrder="33240" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="578.2757885419011" y="233.0699724870449" elementID="e911c" />
+    <Point x="578.3230351427919" y="242.50312505153695" elementID="d7953" />
+  </Interaction>
+  <Interaction elementID="b1f7b" groupRef="c851f" zOrder="33241" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="590.2971866929348" y="233.14580088633826" elementID="a0053" />
+    <Point x="590.3444332938257" y="242.5789534508303" elementID="cece8" />
+  </Interaction>
+  <Interaction elementID="d9b40" groupRef="c851f" zOrder="33242" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="590.3252328132204" y="222.68252052900937" elementID="eaa65" />
+    <Point x="590.3724794141112" y="232.11567309350127" elementID="c6afd" />
+  </Interaction>
+  <Interaction elementID="e4551" groupRef="c851f" zOrder="33243" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="601.0243083299977" y="233.38159604578502" elementID="c66c5" />
+    <Point x="601.0715549308885" y="242.81474861027706" elementID="f847b" />
+  </Interaction>
+  <Interaction elementID="efc8b" groupRef="c851f" zOrder="33244" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="601.0523544502832" y="222.91831568845612" elementID="ec63b" />
+    <Point x="601.0996010511741" y="232.35146825294802" elementID="fb845" />
+  </Interaction>
+  <Interaction elementID="e9499" groupRef="c851f" zOrder="33245" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="593.9888871188211" y="233.40964216607244" elementID="e59f1" />
+    <Point x="594.036133719712" y="242.84279473056446" elementID="c3f0e" />
+  </Interaction>
+  <Interaction elementID="b6197" groupRef="c851f" zOrder="33246" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="594.0169332391067" y="222.94636180874355" elementID="f93b1" />
+    <Point x="594.0641798399976" y="232.37951437323545" elementID="f8c0c" />
+  </Interaction>
+  <Interaction elementID="aac83" groupRef="c851f" zOrder="33247" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="597.4447923852587" y="233.43768828635893" elementID="c7a50" />
+    <Point x="597.4920389861495" y="242.870840850851" elementID="ec916" />
+  </Interaction>
+  <Interaction elementID="b2611" groupRef="c851f" zOrder="33248" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="597.4728385055442" y="222.97440792903004" elementID="e7c2a" />
+    <Point x="597.5200851064351" y="232.40756049352197" elementID="fca09" />
+  </Interaction>
+  <Interaction elementID="e70a3" groupRef="c851f" zOrder="33249" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="611.5436809278993" y="233.51351668565138" elementID="de399" />
+    <Point x="611.5909275287902" y="242.9466692501434" elementID="c3a62" />
+  </Interaction>
+  <Interaction elementID="d9234" groupRef="c851f" zOrder="33250" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="611.5717270481849" y="223.05023632832248" elementID="d16ec" />
+    <Point x="611.6189736490758" y="232.4833888928144" elementID="a50a6" />
+  </Interaction>
+  <Interaction elementID="a390f" groupRef="c851f" zOrder="33251" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="617.8041982230066" y="233.5415628059384" elementID="d4ec2" />
+    <Point x="617.8514448238974" y="242.97471537043054" elementID="aee18" />
+  </Interaction>
+  <Interaction elementID="b869b" groupRef="c851f" zOrder="33252" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="617.8322443432921" y="223.0782824486095" elementID="ce83f" />
+    <Point x="617.879490944183" y="232.51143501310142" elementID="c850d" />
+  </Interaction>
+  <Interaction elementID="d5732" groupRef="c851f" zOrder="33253" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="614.5082597167216" y="233.36185988706444" elementID="c3286" />
+    <Point x="614.5555063176124" y="242.7950124515564" elementID="bee11" />
+  </Interaction>
+  <Interaction elementID="f4e01" groupRef="c851f" zOrder="33254" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="614.5363058370071" y="222.89857952973557" elementID="b7f71" />
+    <Point x="614.583552437898" y="232.33173209422742" elementID="e1cc9" />
+  </Interaction>
+  <Interaction elementID="ea449" groupRef="c851f" zOrder="33255" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="645.6986617111136" y="233.70152956609198" elementID="d9f63" />
+    <Point x="645.7459083120044" y="243.1346821305841" elementID="d2300" />
+  </Interaction>
+  <Interaction elementID="aa943" groupRef="c851f" zOrder="33256" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="645.7267078313992" y="223.2382492087632" elementID="a9039" />
+    <Point x="645.77395443229" y="232.671401773255" elementID="f9964" />
+  </Interaction>
+  <Interaction elementID="e37d9" groupRef="c851f" zOrder="33257" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="625.7267078313994" y="233.56960892622473" elementID="ad81d" />
+    <Point x="625.7739544322902" y="243.00276149071686" elementID="fa695" />
+  </Interaction>
+  <Interaction elementID="f0311" groupRef="c851f" zOrder="33258" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="625.754753951685" y="223.10632856889583" elementID="f8fc5" />
+    <Point x="625.8020005525758" y="232.53948113338774" elementID="d13f3" />
+  </Interaction>
+  <Interaction elementID="d49f0" groupRef="c851f" zOrder="33259" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="629.1826130978368" y="233.4937805269308" elementID="c0b7e" />
+    <Point x="629.2298596987276" y="242.92693309142302" elementID="bfa35" />
+  </Interaction>
+  <Interaction elementID="fbbf6" groupRef="c851f" zOrder="33260" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="629.2106592181224" y="223.0305001696019" elementID="dc496" />
+    <Point x="629.2579058190132" y="232.4636527340938" elementID="d3f02" />
+  </Interaction>
+  <Interaction elementID="c4e7e" groupRef="c851f" zOrder="33261" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="633.1578909621763" y="233.62570116679825" elementID="cf0ce" />
+    <Point x="633.2051375630672" y="243.05885373129036" elementID="c3781" />
+  </Interaction>
+  <Interaction elementID="fd239" groupRef="c851f" zOrder="33262" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="633.1859370824619" y="223.16242080946947" elementID="afd16" />
+    <Point x="633.2331836833528" y="232.5955733739613" elementID="fa5b8" />
+  </Interaction>
+  <Interaction elementID="b0f89" groupRef="c851f" zOrder="33263" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="636.9254197873564" y="233.65374728708477" elementID="ee7b8" />
+    <Point x="636.9726663882473" y="243.08689985157685" elementID="d4c69" />
+  </Interaction>
+  <Interaction elementID="e0939" groupRef="c851f" zOrder="33264" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="636.953465907642" y="223.1904669297558" elementID="b5ace" />
+    <Point x="637.0007125085328" y="232.62361949424778" elementID="dfe9c" />
+  </Interaction>
+  <Interaction elementID="facc6" groupRef="c851f" zOrder="33265" lineThickness="2.0" color="0000cc">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="640.900697651697" y="233.6817934073714" elementID="e5b4c" />
+    <Point x="640.9479442525878" y="243.1149459718635" elementID="a343b" />
+  </Interaction>
+  <Interaction elementID="a03ff" groupRef="c851f" zOrder="33266" lineThickness="2.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Attribute key="org.pathvisio.core.ds" value="" />
+    <Attribute key="org.pathvisio.core.id" value="" />
+    <Point x="640.9287437719826" y="223.21851305004253" elementID="fdedf" />
+    <Point x="640.9759903728734" y="232.65166561453444" elementID="c9fbc" />
+  </Interaction>
+  <Label elementID="d3cd9" textLabel="Mature sequence hsa-miR-146a-5p &#xA;Accession: MIMAT0000449&#xA;Previous: hsa-miR-146;hsa-miR-146a" shapeType="Rectangle" lineThickness="2.0" color="ff0000" fillColor="ffffff" fontWeight="Bold" fontSize="13" vAlign="Middle" centerX="359.0277208258865" centerY="477.3186158537448" width="295.1136018584898" height="66.88272036626688" zOrder="-10" />
+  <Label elementID="caa6b" textLabel="Mature sequence hsa-miR-146a-3p&#xA;Accession: MIMAT0004608&#xA;Previous: hsa-miR-146a*&#xA;&#xA;" shapeType="Rectangle" lineThickness="2.0" color="ff0000" fillColor="ffffff" fontWeight="Bold" fontSize="13" vAlign="Middle" groupRef="f66e3" centerX="864.3817992963079" centerY="478.8883332560499" width="295.1136018584898" height="66.88272036626688" zOrder="-8" />
+  <Label elementID="e716f" textLabel="Stem-loop sequence hsa-mir-146a &#xA;Accession: MI0000477 &#xA;Previous: hsa-mir-146" shapeType="Rectangle" lineThickness="2.0" color="ff0000" fillColor="ffffff" fontWeight="Bold" fontSize="13" vAlign="Middle" centerX="610.825550932347" centerY="167.01278875456228" width="295.1136018584898" height="66.88272036626688" zOrder="-4" />
+  <Label elementID="af623" textLabel="Label" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="239.0" centerY="244.0" width="128.0" height="0.0" zOrder="28672" />
+  <Label elementID="cd80e" textLabel="pre-miRNA" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="712.5554683826009" centerY="232.66529715282218" width="105.51209144804415" height="21.256611263752834" zOrder="28672" />
+  <Label elementID="d5a1a" textLabel="Transcription" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="217.0703234880452" centerY="145.37613019891523" width="98.0" height="21.256611263752863" zOrder="28672" />
+  <Label elementID="fb9e3" textLabel="Nucleus" color="009900" fillColor="ffffff" fontWeight="Bold" fontSize="15" vAlign="Middle" centerX="104.24191651969466" centerY="305.4512051734278" width="77.0" height="15.0" zOrder="28673" />
+  <Label elementID="bceab" textLabel="Cytoplasm" color="009900" fillColor="ffffff" fontWeight="Bold" fontSize="15" vAlign="Middle" centerX="821.8033947583481" centerY="271.41866175567833" width="114.5270349154708" height="26.83732351135666" zOrder="32771" />
+  <Label elementID="bf5c3" textLabel="miRNA duplex" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="719.3259490867306" centerY="331.0897815014293" width="122.13055526902014" height="21.256611263752863" zOrder="32945" />
+  <Label elementID="b994b" textLabel="DNA" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="309.83916379654" centerY="118.5736823120767" width="78.5296277593077" height="21.256611263752863" zOrder="32974" />
+  <Label elementID="d8c16" textLabel="pre-miRNA" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="334.3504753673293" centerY="206.9385732065951" width="86.70095073465862" height="21.256611263752863" zOrder="33018" />
+  <Label elementID="a38e4" textLabel="5'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="aec7c" centerX="283.8849906566993" centerY="224.06552736460438" width="28.0" height="15.0" zOrder="33025" />
+  <Label elementID="b9c64" textLabel="3'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="aec7c" centerX="283.8849906566993" centerY="243.80206802898056" width="28.0" height="15.0" zOrder="33029" />
+  <Label elementID="fcb41" textLabel="5'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="c8719" centerX="570.7710012055446" centerY="323.8960124086836" width="28.0" height="15.0" zOrder="33104" />
+  <Label elementID="d361d" textLabel="3'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="c8719" centerX="570.7710012055446" centerY="343.63255307305957" width="28.0" height="15.0" zOrder="33108" />
+  <Label elementID="f038a" textLabel="5'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="c8719" centerX="653.144000509651" centerY="343.63255307305957" width="28.0" height="15.0" zOrder="33138" />
+  <Label elementID="b625e" textLabel="3'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="c8719" centerX="653.144000509651" centerY="323.8960124086836" width="28.0" height="15.0" zOrder="33139" />
+  <Label elementID="f806f" textLabel="3'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="f2c62" centerX="657.6300507932644" centerY="535.592337668838" width="28.0" height="15.0" zOrder="33150" />
+  <Label elementID="e5a2d" textLabel="5'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="f2c62" centerX="745.3746021147667" centerY="535.592337668838" width="28.0" height="15.0" zOrder="33180" />
+  <Label elementID="a474c" textLabel="5'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="dc401" centerX="484.84313239556565" centerY="528.2753421099295" width="28.0" height="15.0" zOrder="33188" />
+  <Label elementID="df32a" textLabel="3'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="dc401" centerX="562.5025873861636" centerY="528.2753421099295" width="28.0" height="15.0" zOrder="33223" />
+  <Label elementID="a6dc4" textLabel="5'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="c851f" centerX="569.5771458718327" centerY="223.30668824625397" width="28.0" height="15.0" zOrder="33233" />
+  <Label elementID="e17d2" textLabel="3'" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="c851f" centerX="569.5771458718327" centerY="243.04322891063015" width="28.0" height="15.0" zOrder="33237" />
+  <Shape elementID="f9495" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="223.61202674562867" centerY="229.0367543699818" width="421.4969916920136" height="310.9489153951755" zOrder="16384" rotation="9.452739716010089E-4">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="c90bd" groupRef="c851f" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="597.4422845641103" centerY="240.06850026973734" width="10.229230157678483" height="4.263953944459018" zOrder="32933" rotation="0.0" />
+  <Shape elementID="bb7ec" groupRef="aec7c" shapeType="Oval" lineThickness="2.0" color="ff0000" fontSize="10" vAlign="Middle" centerX="336.0375490464657" centerY="223.60212732706748" width="7.867632000315074" height="5.6111528894544165" zOrder="33019" rotation="0.0" />
+  <Shape elementID="ebc81" groupRef="aec7c" shapeType="Oval" lineThickness="2.0" fontSize="10" vAlign="Middle" centerX="369.96930804179453" centerY="233.55785401783703" width="27.7047902011725" height="28.47072394952454" zOrder="33021" rotation="0.0" />
+  <Shape elementID="b404a" shapeType="Oval" lineThickness="2.0" color="0000cc" fontSize="10" vAlign="Middle" centerX="320.59722134985196" centerY="243.89108089078167" width="10.434571911959218" height="7.0573263145716965" zOrder="33023" rotation="0.0" />
+  <Shape elementID="c1804" groupRef="aec7c" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="335.9541063557815" centerY="224.95238048475323" width="7.606187505341343" height="3.1743447826795044" zOrder="33024" rotation="0.0" />
+  <Shape elementID="b807e" groupRef="aec7c" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="358.8072780942171" centerY="234.00777655936935" width="5.958234511482564" height="19.845407069694705" zOrder="33026" rotation="0.0" />
+  <Shape elementID="ddf86" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="320.6520662005495" centerY="242.03161920968836" width="10.229230157678483" height="4.263953944459018" zOrder="33027" rotation="0.0" />
+  <Shape elementID="b89bb" groupRef="c8719" shapeType="Oval" lineThickness="2.0" color="ff0000" fontSize="10" vAlign="Middle" centerX="621.9235595953111" centerY="323.4326123711465" width="7.867632000315074" height="5.6111528894544165" zOrder="33098" rotation="0.0" />
+  <Shape elementID="b895a" groupRef="c8719" shapeType="Oval" lineThickness="2.0" color="0000cc" fontSize="10" vAlign="Middle" centerX="606.4832318986975" centerY="343.59711566175685" width="10.434571911959218" height="7.0573263145716965" zOrder="33102" rotation="0.0" />
+  <Shape elementID="d4c45" groupRef="c8719" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="621.8401169046269" centerY="324.7828655288325" width="7.606187505341343" height="3.1743447826795044" zOrder="33103" rotation="0.0" />
+  <Shape elementID="d4c13" groupRef="c8719" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="644.6932886430625" centerY="333.83826160344853" width="5.958234511482564" height="19.845407069694705" zOrder="33105" rotation="0.0" />
+  <Shape elementID="a3d51" groupRef="c8719" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="606.5380767493949" centerY="341.73765398066365" width="10.229230157678483" height="4.263953944459018" zOrder="33106" rotation="0.0" />
+  <Shape elementID="dfe13" groupRef="f2c62" shapeType="Oval" lineThickness="2.0" color="0000cc" fontSize="10" vAlign="Middle" centerX="694.713833503813" centerY="534.8107708040809" width="10.434571911959218" height="7.0573263145716965" zOrder="33144" rotation="0.0" />
+  <Shape elementID="f11b9" groupRef="f2c62" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="694.7686783545105" centerY="532.951309122982" width="10.229230157678483" height="4.263953944459018" zOrder="33148" rotation="0.0" />
+  <Shape elementID="ed56e" groupRef="dc401" shapeType="Oval" lineThickness="2.0" color="ff0000" fontSize="10" vAlign="Middle" centerX="530.5862522477465" centerY="527.5544612094839" width="7.867632000315074" height="5.6111528894544165" zOrder="33183" rotation="0.0" />
+  <Shape elementID="f0916" groupRef="dc401" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="530.5028095570625" centerY="528.9047143671697" width="7.606187505341343" height="3.1743447826795044" zOrder="33187" rotation="0.0" />
+  <Shape elementID="cbd93" groupRef="c851f" shapeType="Oval" lineThickness="2.0" color="ff0000" fontSize="10" vAlign="Middle" centerX="621.729704261599" centerY="222.84328820871735" width="7.867632000315074" height="5.6111528894544165" zOrder="33227" rotation="0.0" />
+  <Shape elementID="dbd0f" groupRef="c851f" shapeType="Oval" lineThickness="2.0" fontSize="10" vAlign="Middle" centerX="655.6614632569277" centerY="232.79901489948662" width="27.7047902011725" height="28.47072394952454" zOrder="33229" rotation="0.0" />
+  <Shape elementID="fb7d8" groupRef="c851f" shapeType="Oval" lineThickness="2.0" color="0000cc" fontSize="10" vAlign="Middle" centerX="606.2893765649853" centerY="243.13224177243126" width="10.434571911959218" height="7.0573263145716965" zOrder="33231" rotation="0.0" />
+  <Shape elementID="fc6ca" groupRef="c851f" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="621.6462615709147" centerY="224.19354136640283" width="7.606187505341343" height="3.1743447826795044" zOrder="33232" rotation="0.0" />
+  <Shape elementID="c62ff" groupRef="c851f" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="644.4994333093503" centerY="233.24893744101894" width="5.958234511482564" height="19.845407069694705" zOrder="33234" rotation="0.0" />
+  <Shape elementID="f2dc3" groupRef="c851f" shapeType="Rectangle" lineThickness="2.0" color="ffffff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="606.3442214156829" centerY="241.27278009133823" width="10.229230157678483" height="4.263953944459018" zOrder="33235" rotation="0.0" />
+  <Group elementID="aafd7" groupType="Complex" />
+  <Group elementID="aec7c" groupType="Group" />
+  <Group elementID="b8049" groupType="Complex" />
+  <Group elementID="c851f" groupType="Group" />
+  <Group elementID="c8719" groupType="Group" />
+  <Group elementID="dc401" groupType="Group" />
+  <Group elementID="ded01" groupType="Complex" />
+  <Group elementID="f2c62" groupType="Group" />
+  <Group elementID="f66e3" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="MicroRNA function in animal development." URL="" citationID="dc4" year="2005" source="FEBS Lett">
+      <Xref dataSource="PubMed" identifier="16111679" />
+      <Author name="Wienholds E" />
+      <Author name="Plasterk RH" />
+    </Citation>
+    <Citation title="Widespread regulatory activity of vertebrate microRNA* species." URL="" citationID="ad1" year="2011" source="RNA">
+      <Xref dataSource="PubMed" identifier="21177881" />
+      <Author name="Yang JS" />
+      <Author name="Phillips MD" />
+      <Author name="Betel D" />
+      <Author name="Mu P" />
+      <Author name="Ventura A" />
+      <Author name="Siepel AC" />
+      <Author name="Chen KC" />
+      <Author name="Lai EC" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="microRNA pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000808" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="e2320">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FA</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="f5c88">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cholesteryl
+ester</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id31">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id31</bp:displayName>
+ <bp:right rdf:resource="fe999" />
+ <bp:left rdf:resource="a9626" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id30">
+ <bp:controller rdf:resource="e67ea" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id30</bp:displayName>
+ <bp:controlled rdf:resource="id29" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id33">
+ <bp:controller rdf:resource="fe999" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id33</bp:displayName>
+ <bp:controlled rdf:resource="id32" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id32">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id32</bp:displayName>
+ <bp:right rdf:resource="e2320" />
+ <bp:right rdf:resource="fbb22" />
+ <bp:left rdf:resource="ffd78" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id35">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id35</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id34">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id34</bp:displayName>
+ <bp:right rdf:resource="d8f6c" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id37">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id37</bp:displayName>
+ <bp:right rdf:resource="d8f6c" />
+ <bp:left rdf:resource="b807e" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="b3f63">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apo C-II</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Catalysis rdf:about="id36">
+ <bp:controller rdf:resource="a08d9" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id36</bp:displayName>
+ <bp:controlled rdf:resource="id35" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id28">
+ <bp:controller rdf:resource="d1855" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id28</bp:displayName>
+ <bp:controlled rdf:resource="id27" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id27">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id27</bp:displayName>
+ <bp:right rdf:resource="f5c88" />
+ <bp:left rdf:resource="a7738" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id29">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id29</bp:displayName>
+ <bp:right rdf:resource="a7738" />
+ <bp:left rdf:resource="c44d8" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="b807e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apo E</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:35366</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="a8ab0">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cholesterol</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="e67ea">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LCAT</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000130164</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LDLR</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:26523</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ROS</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="fbb22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">glycerol</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00131</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">glycerol</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LPL</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:17855</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FA</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000175445</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="fe999">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LPL</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:Protein>
+
+<bp:Protein rdf:about="e41e3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apo E</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="dd634">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apo E</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="c44d8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cholesterol</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="dd474">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apo E</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="cbadb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TG</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="ffd78">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TG</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cholesterol</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="b88d7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cholesterol</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000087237</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LCAT</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00067</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TG</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000213398</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="a08d9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ROS</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="a7738">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cholesteryl
+ester</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="d8f6c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LDLR</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="a8182">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cholesterol</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:Complex rdf:about="id40">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id40</bp:displayName>
+ <bp:component rdf:resource="a9626" />
+ <bp:component rdf:resource="e41e3" />
+ <bp:component rdf:resource="ffd78" />
+ <bp:component rdf:resource="a8ab0" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id42">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id42</bp:displayName>
+ <bp:component rdf:resource="d6a32" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id41">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id41</bp:displayName>
+ <bp:component rdf:resource="b88d7" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id43">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id43</bp:displayName>
+ <bp:component rdf:resource="a8182" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id39">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id39</bp:displayName>
+ <bp:component rdf:resource="cbadb" />
+ <bp:component rdf:resource="f5c88" />
+ <bp:component rdf:resource="b1904" />
+ <bp:component rdf:resource="dd474" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id38">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id38</bp:displayName>
+ <bp:component rdf:resource="d1855" />
+ <bp:component rdf:resource="a7738" />
+ <bp:component rdf:resource="dd634" />
+ <bp:component rdf:resource="e67ea" />
+ <bp:component rdf:resource="c44d8" />
+ <bp:component rdf:resource="b3f63" />
+</bp:Complex>
+
+<bp:Protein rdf:about="b1904">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apo C-II</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="d1855">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CETP</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a9626">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apo C-II</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="d6a32">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cholesterol</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id28" />
+ <bp:pathwayComponent rdf:resource="id27" />
+ <bp:pathwayComponent rdf:resource="id29" />
+ <bp:pathwayComponent rdf:resource="id31" />
+ <bp:pathwayComponent rdf:resource="id30" />
+ <bp:pathwayComponent rdf:resource="id33" />
+ <bp:pathwayComponent rdf:resource="id32" />
+ <bp:pathwayComponent rdf:resource="id35" />
+ <bp:pathwayComponent rdf:resource="id34" />
+ <bp:pathwayComponent rdf:resource="id37" />
+ <bp:pathwayComponent rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Composition of Lipid Particles</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This particle describes the chemical composition of various lipid particles. See also WP430 and other pathways.
+
+Additional sources
+- A. Goldberg, Overview of Lipid Metabolism, 2015. http://www.msdmanuals.com/professional/endocrine-and-metabolic-disorders/lipid-disorders/overview-of-lipid-metabolism (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P02655</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apo C-II</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">P02649</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Uniprot</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apo E</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:17002</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cholesterylester</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CETP</bp:displayName>
+</bp:ProteinReference>
+</rdf:RDF>

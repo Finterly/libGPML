@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Triacylglycerol Biosynthesis" organism="Arabidopsis thaliana" width="904.0" height="567.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Triacylglycerol (TAG) is the major lipid reserve in plants and animals. The assembly of TAG occurs in the endoplasmic reticulum (ER). Four consecutive reactions are catalyzed by ER membrane bound enzymes. The two intermediates, phosphatidate and 1,2-diacylglycerol, are also substrates for the synthesis of membrane lipids glycosylglycerides and phosphoglycerides. Thus, the last step in the pathway, catalyzed by diacylglycerol acyltransferase, is the only dedicated step in triacylglycerol synthesis.
+
+The traditional Kennedy pathway does not include the reaction (EC 2.3.1.158, phospholipid:diacylglycerol acyltransferase, PDAT) where phospholipid is utilized as the acyl donor in TAG formation. The role of the PDAT route in TAG biosynthesis was clearly shown in yeast[ Dahlqvist00 ]. PDAT activity in plants was demonstrated in a few oil seed plants including caster bean[ Dahlqvist00 ]. The caster bean seeds have a high content of ricinoleat in the seed oil. Ricinoleat and other unusual fatty acids are modified from acyl groups linked to phospholipids, and transferred to TAG afterwards. PDAT was proposed playing an important role in the last step. However, the contribution of PDAT to TAG biosynthesis in other plants is not clear. Overexpressing or knockout of the Arabidopsis PDAT had no effect on TAG biosynthesis[ Stahl04 , Mhaske05 ].
+
+The constitution of different species of saturated and unsaturated fatty acids at the sn-1, sn-2, and sn-3 positions of the glycerol backbone varies among different plants, and is determined by substrate specificities of the three acyltransferases involved in this pathway. The composition of distinct fatty acids in TAG determines the quality and property of lipids of different plants, and also contributes to cold temperature sensitivity of different plants. 
+
+The pathway and description were copied from Gramene and AraCyc: http://pathway.gramene.org/ARA/NEW-IMAGE?object=TRIGLSYN-PWY</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <CitationRef citationID="c2f" />
+  <CitationRef citationID="a8d" />
+  <CitationRef citationID="c72" />
+  <CitationRef citationID="a3c" />
+  <DataNode elementID="a103c" textLabel="glycerol-3-phosphate acyltransferase" groupRef="a3ce8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="272.9999979654948" centerY="119.00000356038412" width="180.01666666666668" height="20.0" zOrder="32768">
+    <Xref dataSource="TAIR" identifier="AT1G32200" />
+  </DataNode>
+  <DataNode elementID="a3b5d" textLabel="Phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="842.0" centerY="313.0" width="64.0" height="20.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="14265-44-2" />
+  </DataNode>
+  <DataNode elementID="a4c8a" textLabel="1-acylglycerol-3-phosphate O-acyltransferase" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="618.5" centerY="121.0" width="217.0" height="20.0" zOrder="32768">
+    <Xref dataSource="TAIR" identifier="AT3G11430" />
+  </DataNode>
+  <DataNode elementID="ae85d" textLabel="Coenzyme A" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="571.0" centerY="527.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="85-61-0" />
+  </DataNode>
+  <DataNode elementID="b6e8b" textLabel="Coenzyme A" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="670.0" centerY="217.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="85-61-0" />
+  </DataNode>
+  <DataNode elementID="bbd42" textLabel="Coenzyme A" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="324.0" centerY="217.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="85-61-0" />
+  </DataNode>
+  <DataNode elementID="c4606" textLabel="a fatty acyl CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="673.5" centerY="527.0" width="85.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:37554" />
+  </DataNode>
+  <DataNode elementID="c5ca5" textLabel="Water" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="831.7416666666667" centerY="257.98333333333335" width="44.516666666666666" height="20.0" zOrder="32768">
+    <Xref dataSource="KEGG Compound" identifier="C00001" />
+  </DataNode>
+  <DataNode elementID="c61e9" textLabel="a 2-lysophosphatidate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="445.0" centerY="168.0" width="116.0" height="20.0" zOrder="32768">
+    <Comment>Synonyms: a 1-acyl-sn-glycerol-3-phosphate , an acyl-sn-glycerol-3P , an acyl-sn-glycerol-3-phosphate , a 1-acyl-sn-glycerol-3P </Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c74df" textLabel="PDAT" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="578.0" centerY="335.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="TAIR" identifier="AT5G13640" />
+  </DataNode>
+  <DataNode elementID="cce93" textLabel="a fatty acyl CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="560.5" centerY="217.0" width="85.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:37554" />
+  </DataNode>
+  <DataNode elementID="d5463" textLabel="diacylglycerol acyltransferase" groupRef="a28e5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="624.0" centerY="453.0" width="143.0" height="20.0" zOrder="32768">
+    <Xref dataSource="TAIR" identifier="AT3G51520" />
+  </DataNode>
+  <DataNode elementID="d58cb" textLabel="a 1,2-diacylglycerol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="786.0" centerY="424.0" width="102.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="dfc72" textLabel="a phosphatidylcholine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="624.5" centerY="392.0" width="113.0" height="20.0" zOrder="32768">
+    <Xref dataSource="KEGG Compound" identifier="C00157" />
+  </DataNode>
+  <DataNode elementID="e1b4f" textLabel="a fatty acyl CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="214.5" centerY="217.0" width="85.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:37554" />
+  </DataNode>
+  <DataNode elementID="e6bde" textLabel="LPP2" groupRef="f1d2c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="710.0" centerY="274.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="TAIR" identifier="AT1G15080" />
+  </DataNode>
+  <DataNode elementID="ee79e" textLabel="LPP1" groupRef="f1d2c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="710.0" centerY="254.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="TAIR" identifier="AT2G01180" />
+  </DataNode>
+  <DataNode elementID="f0a4d" textLabel="acyltransferase" groupRef="a3ce8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="273.0" centerY="99.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="TAIR" identifier="AT4G00400" />
+  </DataNode>
+  <DataNode elementID="f22e7" textLabel="sn-glyceryl-3-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="96.99166666666666" centerY="167.99999593098957" width="124.01666666666667" height="20.0" zOrder="32768">
+    <Xref dataSource="KEGG Compound" identifier="C00093" />
+  </DataNode>
+  <DataNode elementID="f38d3" textLabel="PAP2" groupRef="f1d2c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="710.0" centerY="294.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="TAIR" identifier="AT3G18220" />
+  </DataNode>
+  <DataNode elementID="f4722" textLabel="LPP3" groupRef="f1d2c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="710.0" centerY="314.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="TAIR" identifier="AT3G02600" />
+  </DataNode>
+  <DataNode elementID="f547e" textLabel="a triacylglycerol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="467.5" centerY="423.0" width="87.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:17855" />
+  </DataNode>
+  <DataNode elementID="f6225" textLabel="TAG1" groupRef="a28e5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="624.0" centerY="433.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="TAIR" identifier="AT2G19450" />
+  </DataNode>
+  <DataNode elementID="fcefb" textLabel="L-Phosphatidic acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="786.0" centerY="168.0" width="106.0" height="20.0" zOrder="32768">
+    <Xref dataSource="KEGG Compound" identifier="C00416" />
+  </DataNode>
+  <Interaction elementID="a36aa" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="503.0" y="168.0" elementID="fbd85" elementRef="c61e9" relX="1.0" relY="0.0" />
+    <Point x="733.0" y="168.0" elementID="cf983" elementRef="fcefb" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.5" shapeType="None" elementID="f6ef3" />
+  </Interaction>
+  <Interaction elementID="a4727" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="786.0" y="284.0" elementID="d8772" elementRef="ac17d" relX="0.0" relY="0.0" />
+    <Point x="810.0" y="313.0" elementID="d88e7" elementRef="a3b5d" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b2dfd" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="560.5" y="207.0" elementID="b1fca" elementRef="cce93" relX="0.0" relY="-1.0" />
+    <Point x="618.0" y="168.0" elementID="d84f1" elementRef="f6ef3" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="b3e07" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="760.5" y="434.0" elementID="f0fc4" elementRef="d58cb" relX="-0.5" relY="1.0" />
+    <Point x="624.875" y="488.0" elementID="cc9d6" />
+    <Point x="489.25" y="433.0" elementID="b3396" elementRef="f547e" relX="0.5" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.5022811811685118" shapeType="None" elementID="eda2c" />
+  </Interaction>
+  <Interaction elementID="b883b" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="623.8609968679444" y="487.9790971942874" elementID="cc321" elementRef="eda2c" relX="0.0" relY="0.0" />
+    <Point x="571.0" y="517.0" elementID="c1c6d" elementRef="ae85d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bb48f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="758.0" y="284.0" elementID="ef1f8" elementRef="f1d2c" relX="1.0" relY="0.0" />
+    <Point x="786.0" y="284.0" elementID="dc98c" elementRef="ac17d" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="be291" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="809.4833333333333" y="257.98333333333335" elementID="f4711" elementRef="c5ca5" relX="-1.0" relY="0.0" />
+    <Point x="786.0" y="284.0" elementID="aba70" elementRef="ac17d" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="beaeb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="159.0" y="167.99999593098957" elementID="d9e16" elementRef="f22e7" relX="1.0" relY="0.0" />
+    <Point x="387.0" y="168.0" elementID="efe80" elementRef="c61e9" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.5" shapeType="None" elementID="be278" />
+  </Interaction>
+  <Interaction elementID="c1186" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="618.0" y="168.0" elementID="a41b6" elementRef="f6ef3" relX="0.0" relY="0.0" />
+    <Point x="670.0" y="207.0" elementID="dcdee" elementRef="b6e8b" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ca990" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="624.0" y="471.0" elementID="ef46d" elementRef="a28e5" relX="0.0" relY="1.0" />
+    <Point x="623.8609968679444" y="487.9790971942874" elementID="fe49d" elementRef="eda2c" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="caf1e" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="214.5" y="207.0" elementID="e21c6" elementRef="e1b4f" relX="0.0" relY="-1.0" />
+    <Point x="273.0" y="167.9999979654948" elementID="d6dab" elementRef="be278" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="cb60b" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="760.5" y="414.0" elementID="f486e" elementRef="d58cb" relX="-0.5" relY="-1.0" />
+    <Point x="624.875" y="365.0" elementID="dc22c" />
+    <Point x="489.25" y="413.0" elementID="b4b0d" elementRef="f547e" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.6513347734236236" shapeType="None" elementID="b5855" />
+  </Interaction>
+  <Interaction elementID="d4ff9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="786.0" y="178.0" elementID="d819d" elementRef="fcefb" relX="0.0" relY="1.0" />
+    <Point x="786.0" y="414.0" elementID="eadbc" elementRef="d58cb" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4491525423728814" shapeType="None" elementID="ac17d" />
+  </Interaction>
+  <Interaction elementID="d6e81" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="673.5" y="517.0" elementID="b718e" elementRef="c4606" relX="0.0" relY="-1.0" />
+    <Point x="623.8609968679444" y="487.9790971942874" elementID="e891d" elementRef="eda2c" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="e44f9" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="624.5" y="382.0" elementID="b3c70" elementRef="dfc72" relX="0.0" relY="-1.0" />
+    <Point x="578.859546802991" y="367.2784343984843" elementID="d7198" elementRef="b5855" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e488b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="618.5" y="131.0" elementID="c3434" elementRef="a4c8a" relX="0.0" relY="1.0" />
+    <Point x="618.0" y="168.0" elementID="e9bb4" elementRef="f6ef3" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e4a34" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="273.0" y="167.9999979654948" elementID="ae0f1" elementRef="be278" relX="0.0" relY="0.0" />
+    <Point x="324.0" y="207.0" elementID="e9e4c" elementRef="bbd42" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f0f62" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="578.0" y="345.0" elementID="abc30" elementRef="c74df" relX="0.0" relY="1.0" />
+    <Point x="578.859546802991" y="367.2784343984843" elementID="c6d0c" elementRef="b5855" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fb07f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="272.9999979654948" y="137.00000356038413" elementID="df672" elementRef="a3ce8" relX="0.0" relY="1.0" />
+    <Point x="273.0" y="167.9999979654948" elementID="c8cbf" elementRef="be278" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Group elementID="a28e5" groupType="Group" />
+  <Group elementID="a3ce8" groupType="Group" />
+  <Group elementID="f1d2c" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="The Arabidopsis thaliana TAG1 mutant has a mutation in a diacylglycerol acyltransferase gene." URL="" citationID="a3c" year="1999" source="Plant J">
+      <Xref dataSource="PubMed" identifier="10571850" />
+      <Author name="Zou J" />
+      <Author name="Wei Y" />
+      <Author name="Jako C" />
+      <Author name="Kumar A" />
+      <Author name="Selvaraj G" />
+      <Author name="Taylor DC" />
+    </Citation>
+    <Citation title="Phospholipid:diacylglycerol acyltransferase: an enzyme that catalyzes the acyl-CoA-independent formation of triacylglycerol in yeast and plants." URL="" citationID="c2f" year="2000" source="Proc Natl Acad Sci U S A">
+      <Xref dataSource="PubMed" identifier="10829075" />
+      <Author name="Dahlqvist A" />
+      <Author name="Stahl U" />
+      <Author name="Lenman M" />
+      <Author name="Banas A" />
+      <Author name="Lee M" />
+      <Author name="Sandager L" />
+      <Author name="Ronne H" />
+      <Author name="Stymne S" />
+    </Citation>
+    <Citation title="Isolation and characterization of an Arabidopsis thaliana knockout line for phospholipid: diacylglycerol transacylase gene (At5g13640)." URL="" citationID="a8d" year="2005" source="Plant Physiol Biochem">
+      <Xref dataSource="PubMed" identifier="15907694" />
+      <Author name="Mhaske V" />
+      <Author name="Beldjilali K" />
+      <Author name="Ohlrogge J" />
+      <Author name="Pollard M" />
+    </Citation>
+    <Citation title="Cloning and functional characterization of a phospholipid:diacylglycerol acyltransferase from Arabidopsis." URL="" citationID="c72" year="2004" source="Plant Physiol">
+      <Xref dataSource="PubMed" identifier="15247387" />
+      <Author name="Stï¿½ï¿½Î©hl U" />
+      <Author name="Carlsson AS" />
+      <Author name="Lenman M" />
+      <Author name="Dahlqvist A" />
+      <Author name="Huang B" />
+      <Author name="Banas W" />
+      <Author name="Banas A" />
+      <Author name="Stymne S" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="triacylglycerol biosynthetic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000736" />
+  </OntologyTerms>
+</Pathway>
+

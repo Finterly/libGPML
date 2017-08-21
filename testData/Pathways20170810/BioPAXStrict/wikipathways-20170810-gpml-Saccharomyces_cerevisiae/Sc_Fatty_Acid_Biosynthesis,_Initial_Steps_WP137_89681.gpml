@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Fatty Acid Biosynthesis, Initial Steps</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Based on http://pathway.yeastgenome.org/biocyc/ (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pyridoxal phosphate (PLP) is the active form of vitamin B&lt;sub&gt;6&lt;/sub&gt; and is a cofactor in many reactions  of amino acid metabolism. Pyridoxine (PN), pyridoxamine (PM), pyridoxal (PL),  pyridoxine 5&apos;-phosphate (PNP) and pyridoxamine 5&apos;-phosphate (PMP) are all forms of  vitamin B&lt;sub&gt;6&lt;/sub&gt; that can be converted to PLP via the PLP salvage pathway.  Most unicellular organisms and plants can synthesize PLP, whereas mammals cannot and require vitamin B&lt;sub&gt;6&lt;/sub&gt; in their diet.  Thus far, three PLP biosynthetic pathways have been characterized: the de novo PLP biosynthesis pathway as characterized in &lt;I&gt;Escherichia coli&lt;/I&gt; (CITS: [12686115]), the de novo PLP biosynthesis pathway as being studied in fungi (CITS: [15483325],[14764090]), and the PLP salvage pathway (CITS: [15483325], [17696614],[8764513],[9537380]). &lt;I&gt;Saccharomyces cerevisiae&lt;/I&gt; synthesize PLP via the fungal type de novo PLP synthesis pathway and the PLP salvage pathway (CITS: [7896706], [17696614], [15483325], [14764090]). Extracellular PN, PL and PM are transported into the cell by Tpn1p, a member of the purine-cytosine permease family (CITS: [12649274]). 
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+</rdf:RDF>

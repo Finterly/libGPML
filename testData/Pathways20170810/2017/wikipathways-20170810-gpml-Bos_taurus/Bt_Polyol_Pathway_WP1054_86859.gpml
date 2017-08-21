@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Polyol Pathway" organism="Bos taurus" width="605.0" height="518.0" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">When glucose is unused, it is metabolized via the polyol pathway. This pathway consists of two main enzymatic steps. First, glucose is reduced to sorbitol by aldose reductase. In this step, NADPH is oxidized to NADP+. The next step is the oxidation of sorbitol to D-fructose by sorbitol dehydrogenase.
+Fructose can then be phosphorylated by fructokinase and subsequently be metabolized via dihydroxyacetone phosphate or glyceraldehyde to D-glyceraldehyde 3-phosphate, which can be used as a substrate in the process of glycolysis.
+The sorbitol pathway plays a role in diabetic renal complications because aldose reductase metabolizes the excess of glucose to toxic metabolites that induce hyperfiltration and glomerular dysfunction.</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP690_r72132 WP690(72132)]  with a 100.0% conversion rate.</Comment>
+  <CitationRef citationID="ccc" />
+  <CitationRef citationID="e59" />
+  <CitationRef citationID="f60" />
+  <DataNode elementID="a02f1" textLabel="Sorbitol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="287.0" centerY="97.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00247" />
+  </DataNode>
+  <DataNode elementID="a4027" textLabel="D-Glucose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="491.0" centerY="97.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00122" />
+  </DataNode>
+  <DataNode elementID="a9883" textLabel="KHK" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="376.0" centerY="227.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000138030</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011325" />
+  </DataNode>
+  <DataNode elementID="b29e5" textLabel="D-Fructose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="287.98333333333335" centerY="188.98333333333332" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00660" />
+  </DataNode>
+  <DataNode elementID="b6834" textLabel="ALDOB" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="464.0" centerY="340.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000136872</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015358" />
+  </DataNode>
+  <DataNode elementID="bd923" textLabel="Dihydroxyacetone phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="202.0" centerY="386.0" width="158.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01473" />
+  </DataNode>
+  <DataNode elementID="c05e7" textLabel="Glyceraldehyde" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="370.0" centerY="386.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01051" />
+  </DataNode>
+  <DataNode elementID="c43b6" textLabel="ALR2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="395.0" centerY="43.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:231</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020794" />
+  </DataNode>
+  <DataNode elementID="e285c" textLabel="Fructose 1-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="287.0" centerY="281.0" width="112.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01076" />
+  </DataNode>
+  <DataNode elementID="e91ea" textLabel="Glycolysis" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="491.0" centerY="182.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP534" />
+  </DataNode>
+  <DataNode elementID="f61f1" textLabel="SORD" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="372.0" centerY="141.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000140263</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000025496" />
+  </DataNode>
+  <DataNode elementID="f6cd9" textLabel="D-Glyceraldehyde 3-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="287.0" centerY="478.0" width="160.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01112" />
+  </DataNode>
+  <DataNode elementID="fa8dc" textLabel="Glycolysis" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="535.0" centerY="478.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP534" />
+  </DataNode>
+  <Interaction elementID="a2c0b" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="287.0" y="291.0" elementID="aba41" elementRef="e285c" relX="0.0" relY="1.0" />
+    <Point x="244.5" y="311.0" elementID="ddb9d" />
+    <Point x="202.0" y="376.0" elementID="f2bd7" elementRef="bd923" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a82a0" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="367.0" y="478.0" elementID="b8590" elementRef="f6cd9" relX="1.0" relY="0.0" />
+    <Point x="495.0" y="478.0" elementID="fd64b" elementRef="fa8dc" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b21bb" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="287.0" y="291.0" elementID="c6f95" elementRef="e285c" relX="0.0" relY="1.0" />
+    <Point x="370.0" y="376.0" elementID="bb4d0" elementRef="c05e7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.7292758962732038" shapeType="None" elementID="f0e37" />
+  </Interaction>
+  <Interaction elementID="b31eb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="451.0" y="97.0" elementID="c0cbb" elementRef="a4027" relX="-1.0" relY="0.0" />
+    <Point x="327.0" y="97.0" elementID="b1d51" elementRef="a02f1" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.45161290322580644" shapeType="None" elementID="a2901" />
+  </Interaction>
+  <Interaction elementID="c1b0c" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="491.0" y="107.0" elementID="cb625" elementRef="a4027" relX="0.0" relY="1.0" />
+    <Point x="491.0" y="172.0" elementID="e63b6" elementRef="e91ea" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="cc6fe" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="424.0" y="340.0" elementID="e1ada" elementRef="b6834" relX="-1.0" relY="0.0" />
+    <Point x="363.58576572721483" y="340.0287255717861" elementID="e5a4d" elementRef="f0e37" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="d2d24" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="332.0" y="141.0" elementID="f7ebc" elementRef="f61f1" relX="-1.0" relY="0.0" />
+    <Point x="287.4645592848075" y="141.00731442514387" elementID="cbe32" elementRef="d40a7" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="dc056" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="336.0" y="227.0" elementID="cb193" elementRef="a9883" relX="-1.0" relY="0.0" />
+    <Point x="287.59000000000003" y="227.79" elementID="e4128" elementRef="fde1d" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="f6dce" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="395.0" y="53.0" elementID="ace69" elementRef="c43b6" relX="0.0" relY="1.0" />
+    <Point x="395.0" y="97.0" elementID="bb120" elementRef="a2901" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="f6dda" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="287.98333333333335" y="198.98333333333332" elementID="e39ac" elementRef="b29e5" relX="0.0" relY="1.0" />
+    <Point x="287.0" y="271.0" elementID="eac5e" elementRef="e285c" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="fde1d" />
+  </Interaction>
+  <Interaction elementID="f7c71" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="287.0" y="107.0" elementID="d2411" elementRef="a02f1" relX="0.0" relY="1.0" />
+    <Point x="287.98333333333335" y="178.98333333333332" elementID="c9f25" elementRef="b29e5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.47243317099065346" shapeType="None" elementID="d40a7" />
+  </Interaction>
+  <Interaction elementID="fc0ff" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="370.0" y="396.0" elementID="d01c2" elementRef="c05e7" relX="0.0" relY="1.0" />
+    <Point x="328.5" y="411.0" elementID="f10e0" />
+    <Point x="287.0" y="468.0" elementID="ec449" elementRef="f6cd9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ff7ae" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="202.0" y="396.0" elementID="cd0b8" elementRef="bd923" relX="0.0" relY="1.0" />
+    <Point x="244.5" y="411.0" elementID="fb5ca" />
+    <Point x="287.0" y="468.0" elementID="c7a82" elementRef="f6cd9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Biochemistry and molecular cell biology of diabetic complications." URL="" citationID="f60" year="2001" source="Nature">
+      <Xref dataSource="PubMed" identifier="11742414" />
+      <Author name="Brownlee M" />
+    </Citation>
+    <Citation title="Aldose reductase and the role of the polyol pathway in diabetic nephropathy." URL="" citationID="ccc" year="2000" source="Kidney Int Suppl">
+      <Xref dataSource="PubMed" identifier="10997684" />
+      <Author name="Dunlop M" />
+    </Citation>
+    <Citation title="Molecular basis of hereditary fructose intolerance: mutations and polymorphisms in the human aldolase B gene." URL="" citationID="e59" year="1995" source="Hum Mutat">
+      <Xref dataSource="PubMed" identifier="8535439" />
+      <Author name="Tolan DR" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="glucose utilization pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000555" />
+    <OntologyTerm term="glucose oxidation pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000556" />
+    <OntologyTerm term="kidney disease pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000300" />
+    <OntologyTerm term="diabetes mellitus" ontology="Disease" ontologyTermID="DOID:9351" />
+  </OntologyTerms>
+</Pathway>
+

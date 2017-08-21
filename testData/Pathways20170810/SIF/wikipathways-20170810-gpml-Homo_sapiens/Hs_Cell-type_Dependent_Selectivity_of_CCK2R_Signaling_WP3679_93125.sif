@@ -1,0 +1,63 @@
+ADP-Ribose cyclase	Line	R44
+R44	Arrow	R12
+Ca 2+	Line	R14
+R14	Arrow	Ca 2+
+8-NH2-cADPR	Line	R30
+R30	mim-inhibition	RYR3
+R30	mim-inhibition	RYR2
+R30	mim-inhibition	RYR1
+RYR3	Line	R40
+RYR2	Line	R40
+RYR1	Line	R40
+R40	Arrow	R26
+Flufenamic acid	Line	R10
+2-APB	Line	R10
+R10	mim-inhibition	TRPC1
+YM022	Line	R38
+R38	mim-inhibition	CCK2R
+IP3 receptor	Line	R46
+R46	Arrow	R34
+CCK	Line	R3
+R3	Arrow	CCK2R
+R3	Arrow	Gi/0
+Ca 2+	Line	R34
+R34	Arrow	Ca 2+
+YM022	Line	R22
+R22	mim-inhibition	CCK2R
+DAG lipase	Line	R36
+R36	Arrow	DAG
+PLCB1	Line	R20
+R20	Arrow	DAG
+CCK2R	Line	R12
+Gi/0	Line	R12
+R12	Arrow	cyclic ADPR
+CB1	Line	R18
+R18	mim-inhibition	GABA
+
+RYR3	Line	R42
+RYR2	Line	R42
+RYR1	Line	R42
+R42	Arrow	R14
+Ryanodine	Line	R16
+R16	TBar	RYR3
+R16	TBar	RYR2
+R16	TBar	RYR1
+Ca 2+	Line	R26
+R26	Arrow	Ca 2+
+cyclic ADPR	Line	R1
+R1	Arrow	RYR3
+R1	Arrow	RYR2
+R1	Arrow	RYR1
+Ca 2+	Line	R24
+Na +	Line	R24
+R24	Arrow	Ca 2+
+R24	Arrow	Na +
+CCK	Line	R28
+R28	Arrow	CCK2R
+R28	Arrow	Gq
+Ca 2+	Line	R6
+R6	Arrow	TRPC1
+Gq	Line	R8
+R8	Arrow	PLCB1
+NEM	Line	R32
+R32	mim-inhibition	Gi/0

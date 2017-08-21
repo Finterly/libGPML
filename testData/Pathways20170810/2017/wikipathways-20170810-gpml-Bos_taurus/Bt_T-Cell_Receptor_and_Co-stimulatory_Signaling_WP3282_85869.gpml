@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="T-Cell Receptor and Co-stimulatory Signaling" organism="Bos taurus" width="1094.44242141301" height="1023.6974789915965">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">The activation and translocation of transcription factors NFAT, AP-1 and NF-kappa-B via the co-stimulatory signaling cascade triggered by MHC peptide, B7 proteins and PD-L1. The activation of NFAT involves a Ca2+/calcineurin disruption of a massive RNA-protein complex prior to its translocation into the nucleus and ultimate transcription factor activity.</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP2583_r79880 WP2583(79880)]  with a 70.0% conversion rate.</Comment>
+  <DataNode elementID="dde01" textLabel="LCK" groupRef="b9041" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.0483286679053" centerY="236.0277627100356" width="55.5" height="22.2677202133259" zOrder="32773">
+    <Comment>Cytoplasmic tyrosine kinase - Lck in its inactive state is bound to CD4/CD8 cytoplasmic tail and it's terminal tyrosine is phosphorylated. Dephosphorylation of this amino acid (by tyrosine phosphotase CD45 -- CD4/CD8 binding its ligand) causes a conformations change in LcK and it becomes an active tyrosine kinase.
+
+LcK is activated when the extracellular part of CD8 binds its (MHC:peptide) ligand. Lck is a Src family kinase that is constitutively expressed. It phosphorylates all TCR ITAMS.
+
+Rephosphorylation of this carboxyl-terminal tyrosine by Csk returns Lck to the inactive state.
+
+Basically, Lck is bound to CD8. When CD8 binds MHC:peptide, Lck gets activated and can phosphorylate nearby ITAMs.</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3932</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000012695" />
+  </DataNode>
+  <DataNode elementID="f346f" textLabel="ZAP70" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="245.6650666694012" centerY="247.2587392089953" width="55.5" height="22.2677202133259" zOrder="32774">
+    <Comment>ZAP-70 is kinase that becomes activated after phosphorylation. It contains to tandem SH2 domains that bind to phosphorylated ITAMs on the TCR complex cytoplasmic tails. 
+
+It docks at the TCR (requires both ITAM positions to be phosphorylated), is then phosphorylated by Lck, and then recruits other signaling proteins.
+
+</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7535</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000005892" />
+  </DataNode>
+  <DataNode elementID="beb89" textLabel="PIP2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="651.5187139579423" centerY="247.25873920899528" width="55.5" height="22.2677202133259" zOrder="32775">
+    <Comment>PIP2 is a membrane lipid. </Comment>
+    <Xref dataSource="HMDB" identifier="HMDB10059" />
+  </DataNode>
+  <DataNode elementID="ff54e" textLabel="LAT / SLP-76 scaffold complex" fontSize="10" vAlign="Middle" type="Protein" centerX="245.10974069131055" centerY="342.0630299083109" width="159.08324145534695" height="22.2677202133259" zOrder="32777">
+    <Comment>Linker for Activation of T cells - LAT is a transmembrane scaffold protein. It can be phosphorylated by Zap-70.
+
+This scaffold includes LAT, SLP-76, Grb2, SOS, GADS</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b8443" textLabel="PIP3" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="651.5293601924932" centerY="342.0630299083109" width="55.5" height="22.2677202133259" zOrder="32778">
+    <Comment>PIP3 is a membrane lipid generated from PIP2 by the enzyme P13K. PIP3 has a PH binding domain that can be recognized by PLC-g, Itk, and Atk.</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB10147" />
+  </DataNode>
+  <DataNode elementID="f5b02" textLabel="PLCG1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="285.4411200421986" centerY="401.1881866315349" width="55.5" height="22.2677202133259" zOrder="32779">
+    <Comment>PLC-g is a phospholipase, a class of enzymes that cleave phospholipids just before the phosphate group.
+
+PLC-g is initially brought to the plasma membrane by binding of its PH domain to membrane lipid PIP3. PLC-g then binds to LAT and SLP-76 and can be activated by Itk mediated phosphorylation.
+
+PLC-g ultimately produces 3 different second messangers to activate 3 paths leading to different TFs that lead to IL-2 transcription</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5335</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017584" />
+  </DataNode>
+  <DataNode elementID="b6ecd" textLabel="ITK" fontSize="10" vAlign="Middle" type="Protein" centerX="382.0483286679053" centerY="342.06302990831097" width="55.5" height="22.2677202133259" zOrder="32780">
+    <Comment>Itk is a membrane associated tryosine kinase. It binds to phosphorylated LAT and SLP-76 scafflods. From here is activates PLC-g by phosphorylation</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3702</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000000306" />
+  </DataNode>
+  <DataNode elementID="c5e7e" textLabel="AKT1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="723.0124390142305" centerY="401.1881866315349" width="55.5" height="22.2677202133259" zOrder="32781">
+    <Comment>Akt is a serine/threonine-specific protein kinase that plays a key role in many cellular processes such as glucose metabolism, apoptosis, cell proliferation, transcription, and cell migration.
+
+Akt is recruited to the membrane by PIP3. Here Akt can be activated / phosphorylated (indirectly) by P13K and can then phosphorylate a variety of downstream pathways. Noteably, Akt promotes cell survival by inhibiting the cell death pathway and stimulates cell metabolism by increasing the utilization of glucose.</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:207</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017636" />
+  </DataNode>
+  <DataNode elementID="b78e0" textLabel="PRKCA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="638.4114095623721" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32782">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5578</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000001061" />
+  </DataNode>
+  <DataNode elementID="d4781" textLabel="PTPN6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="752.3768928750031" centerY="242.7215341273256" width="55.5" height="22.2677202133259" zOrder="32783">
+    <Comment>SHP-1/2 are tyrosine phosphatases. Here, SHP removes phosphates from PIP3 reverting it back to PIP2. (reverses the work of tyrosine kinase P13K)
+
+SHP is recruited to the PD-1 cytoplasmic tail when PD-1 ITIMs are phosphorylated.</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5777</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020294" />
+  </DataNode>
+  <DataNode elementID="f2340" textLabel="P13K" fontSize="10" vAlign="Middle" type="Protein" centerX="508.66702864236515" centerY="287.2607832076517" width="55.5" height="22.2677202133259" zOrder="32785">
+    <Comment>P13K converts membrane lipid PIP2 to PIP3 by adding a phosphate. P13K activity is dependent upon CD28 co-stimulation because P13K can bind to phosphorylated ITIMs on CD28.
+
+PI3K can also bind ICOS</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="fea98" textLabel="Ca2+" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="194.79282753847878" centerY="554.9332084091923" width="55.5" height="22.2677202133259" zOrder="32787">
+    <Comment>Calcium ions are second messengers, small-molecule biochemical mediators. Calcium is released from the ER by IP3. It diffuses throughough the cell enabling the signal to activate a variety of taget proteins. A certain calcium ion concentration must be acheived before targets can be activated.</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB00464" />
+  </DataNode>
+  <DataNode elementID="eeb8e" textLabel="Bcl-xL" shapeType="Hexagon" fontSize="10" vAlign="Middle" type="Protein" centerX="561.9006109159052" centerY="865.4709351208364" width="55.5" height="24.714526341316173" zOrder="32788">
+    <Comment>Bcl-xL is a transmembrane protein in the mitochondria. It is a anti-apoptosis protein because it prevents release of cytochrome c from the mitochondria.</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="cf1d5" textLabel="Erk" fontSize="10" vAlign="Middle" type="Protein" centerX="455.1785004299707" centerY="678.2041917454685" width="55.5" height="22.2677202133259" zOrder="32789">
+    <Comment>Erk is MAP kinase that is phosphorylated by MAPKK, Mek. SHP's and PP2A may also dephosphorylate Erk to some extent.</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="d965c" textLabel="NFKB1" shapeType="Oval" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="656.3783527616621" centerY="764.6265735460373" width="55.5" height="24.097420397609767" zOrder="32791">
+    <Comment></Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4790</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020270" />
+  </DataNode>
+  <DataNode elementID="dc90a" textLabel="AP-1 " shapeType="Oval" fontSize="10" vAlign="Middle" type="Protein" centerX="454.1744013987545" centerY="789.6135907162216" width="55.5" height="24.097420397609767" zOrder="32792">
+    <Comment>A heterodimeric protein composed of proteins belonging to the c-Fos, c-Jun, ATF and JDP families</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ff620" textLabel="NFATC2" shapeType="Oval" fontSize="10" vAlign="Middle" type="Protein" centerX="194.79282753847878" centerY="860.0345286577382" width="55.5" height="24.097420397609767" zOrder="32793">
+    <Comment></Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4773</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000018270" />
+  </DataNode>
+  <DataNode elementID="f2b94" textLabel="RASA1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="542.7602317169815" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32795">
+    <Comment>Ras-GAP rapidly downregulates the activity of Ras by converting its bound GTP to GDP</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5921</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009565" />
+  </DataNode>
+  <DataNode elementID="f002d" textLabel="Ras-GTP" fontSize="10" vAlign="Middle" type="Protein" centerX="454.960625633583" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32797">
+    <Comment>Ras is a small G protein of GTPase. It is located in the membrane, and it acts as a molecular switch. It is inactive when bound to GDP, but becomes active when GDP is switched for GTP. Binding the GTP induces a conformational change in Ras thus enabling it to bind to and do other things.</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ab4fe" textLabel="DAG" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="456.81913195646626" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32798">
+    <Comment>Produced from PIP2 cleaveage by PLC-g.
+
+DAG is a membrane protein which can now recruit other signaling molecules to the membrane by serving as a binding target. </Comment>
+    <Xref dataSource="HMDB" identifier="HMDB07223" />
+  </DataNode>
+  <DataNode elementID="d1518" textLabel="IP3" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="194.4729594059932" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32799">
+    <Comment>IP3 is generated when PLC-g cleaves PIP2.
+
+IP3 is a second messanger that diffuses into the cytosol and binds to IP3 receptors on the ER therey opening calcium channels.</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB01059" />
+  </DataNode>
+  <DataNode elementID="e07f7" textLabel="Calmodulin" fontSize="10" vAlign="Middle" type="Protein" centerX="194.79282753847878" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32800">
+    <Comment>Calmodulin is a calcium binding protein. Binding Ca ions induces a conformational change allowing calmodulin to bind to and regulate a variety of effector proteins.</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Multiple homologues found: En:ENSBTAG00000001575;En:ENSBTAG00000025644;</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="beeba" textLabel="RASGRP1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="404.29333725338984" centerY="554.9332084091923" width="55.5" height="22.2677202133259" zOrder="32802">
+    <Comment>RasGRP binds to DAG in the membrane where it can activate Ras</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10125</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021872" />
+  </DataNode>
+  <DataNode elementID="b595a" textLabel="IL2" shapeType="Hexagon" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="454.4285005291818" centerY="865.4709351208364" width="55.5" height="24.714526341316173" zOrder="32808">
+    <Comment>All three TFs (NFAT, AP-1, and NFkB) a needed to initiate IL-2 transcription.</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3558</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020883" />
+  </DataNode>
+  <DataNode elementID="e95dc" textLabel="PPP3CA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="194.79282753847878" centerY="678.2041917454685" width="55.5" height="22.2677202133259" zOrder="32809">
+    <Comment>Calcineurin is a protein phosphatase that acts on NFAT. </Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5530</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016005" />
+  </DataNode>
+  <DataNode elementID="dd1b4" textLabel="BIKBA" fontSize="10" vAlign="Middle" type="Protein" centerX="656.3783527616621" centerY="678.2041917454685" width="55.5" height="22.2677202133259" zOrder="32814">
+    <Comment>IkB is an inhibitory protein which when bound to NFkB holds it in an inactive state.</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = S:P25963</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016683" />
+  </DataNode>
+  <DataNode elementID="a7ff6" textLabel="IKK complex" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="656.4194395387262" centerY="553.1183263765245" width="70.10122981546994" height="22.2677202133259" zOrder="32815">
+    <Comment>IKK is a complex of serine kinases. It phosphorylates IkB, stimulating IkB's ubiquitination which targets IkB for degradation by the proteasome.</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e9f05" textLabel="PTEN" fontSize="10" vAlign="Middle" type="Protein" centerX="712.5942045476347" centerY="287.2607832076517" width="55.5" height="22.2677202133259" zOrder="32828">
+    <Comment>Phosphatase and tensin homolog - PTEN is constitutively expressed and is a PIP3 phosphatase.</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5728</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009498" />
+  </DataNode>
+  <DataNode elementID="b6cf9" textLabel="PDK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="623.2035710059913" centerY="401.18818663153496" width="55.5" height="22.2677202133259" zOrder="32829">
+    <Comment>Phosphoinositide-dependent kinase-1: recruited to the membrane by docking at PIP3 and phosphorylates/activates Akt</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5163</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016836" />
+  </DataNode>
+  <DataNode elementID="e35aa" textLabel="Ras-GDP" fontSize="10" vAlign="Middle" type="Protein" centerX="361.4525777647799" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32832">
+    <Comment>Ras is a small G protein of GTPase. It is located in the membrane, and it acts as a molecular switch. It is inactive when bound to GDP, but becomes active when GDP is switched for GTP. Binding the GTP induces a conformational change in Ras thus enabling it to bind to and do other things.</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c6db8" textLabel="PIP2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="318.0553775092797" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32833">
+    <Comment>PIP2 is a membrane lipid.</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB10059" />
+  </DataNode>
+  <DataNode elementID="da6cd" textLabel="MHC&#xA;peptide" shapeType="Oval" fontSize="10" vAlign="Middle" type="Complex" centerX="342.05566308433765" centerY="43.220831367985326" width="54.133597883598085" height="50.310269445813695" zOrder="32844">
+    <Comment></Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a8ece" textLabel="B7-1/&#xA;B7-2" shapeType="Oval" fontSize="10" vAlign="Middle" type="Complex" centerX="482.761492245162" centerY="55.01756458032649" width="53.63232812157827" height="50.310269445813695" zOrder="32845">
+    <Comment></Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="f7b20" textLabel="B7-1/&#xA;B7-2" shapeType="Oval" fontSize="10" vAlign="Middle" type="Complex" centerX="607.5191718848695" centerY="55.01756458032649" width="53.63232812157827" height="50.310269445813695" zOrder="32846">
+    <Comment></Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c951f" textLabel="PD-L1" shapeType="Oval" fontSize="10" vAlign="Middle" type="Complex" centerX="764.1780244761183" centerY="55.01756458032649" width="53.63232812157827" height="50.310269445813695" zOrder="32847">
+    <Comment></Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="cc296" textLabel="NFATC2" groupRef="daadd" shapeType="Oval" fontSize="10" vAlign="Middle" type="Protein" centerX="249.34881537027502" centerY="771.9512898011951" width="55.5" height="24.097420397609767" zOrder="32850">
+    <Comment></Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4773</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000018270" />
+  </DataNode>
+  <DataNode elementID="ee0e6" textLabel="CSNK1A1" groupRef="daadd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.42889575453904" centerY="747.8464561428176" width="55.5" height="22.2677202133259" zOrder="32851">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="f3f11" textLabel="GSK3A" groupRef="daadd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.42889575453904" centerY="770.1141763561435" width="55.5" height="22.2677202133259" zOrder="32852">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2931</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020756" />
+  </DataNode>
+  <DataNode elementID="fd8f4" textLabel="GSK3B" groupRef="daadd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.42889575453904" centerY="792.3818965694694" width="55.5" height="22.2677202133259" zOrder="32853">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2932</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000048057" />
+  </DataNode>
+  <DataNode elementID="d02ac" textLabel="DYRK1A" groupRef="daadd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="194.98445131009515" centerY="792.3745866279484" width="55.5" height="22.2677202133259" zOrder="32854">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1859</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000001771" />
+  </DataNode>
+  <DataNode elementID="a4c27" textLabel="DYRK2" groupRef="daadd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="194.98445131009515" centerY="770.1068664146225" width="55.5" height="22.2677202133259" zOrder="32855">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:8445</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007256" />
+  </DataNode>
+  <DataNode elementID="dea5f" textLabel="NRON" groupRef="daadd" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="194.98445131009515" centerY="747.8391462012966" width="55.5" height="22.2677202133259" zOrder="32856">
+    <Comment>NRON is a long non-coding RNA</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:641373</Comment>
+    <CitationRef citationID="a44" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000044315" />
+  </DataNode>
+  <DataNode elementID="cd850" textLabel="FYN" groupRef="b9041" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.0483286679053" centerY="258.2954829233614" width="55.5" height="22.2677202133259" zOrder="32857">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2534</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011851" />
+  </DataNode>
+  <DataNode elementID="e47c1" textLabel="TCRA" groupRef="a140c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="303.3742617059901" centerY="84.87778682804313" width="55.5" height="22.2677202133259" zOrder="32858">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="aa665" textLabel="TCRB" groupRef="a140c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="303.3742617059901" centerY="107.14550704136913" width="55.5" height="22.2677202133259" zOrder="32859">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ed56f" textLabel="CD8A" groupRef="b8142" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.33173333606874" centerY="85.83016778042398" width="55.5" height="22.2677202133259" zOrder="32860">
+    <Comment>CD8 co-receptor - alpha subunit</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:925</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021141" />
+  </DataNode>
+  <DataNode elementID="c363d" textLabel="CD8B" groupRef="b8142" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.33173333606874" centerY="108.09788799374985" width="55.5" height="22.2677202133259" zOrder="32861">
+    <Comment>CD8 co-receptor - beta subunit</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:926</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000008956" />
+  </DataNode>
+  <DataNode elementID="ed30d" textLabel="CD28" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="481.2609529367945" centerY="95.43001140572807" width="55.5" height="22.2677202133259" zOrder="32862">
+    <Comment>CD28 is a co-stimulatory surface receptor. It bind B7-1 and B7-2. After CD28 binds its ligand, it is phosphorylated by Lck. The effect of this phosphorylation activates P13K to generate PIP3 which recruits Itk to the cell membrane where Lck can phosphorylate it. Then Itk-P can recruit PLC-g</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:940</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007445" />
+  </DataNode>
+  <DataNode elementID="c2643" textLabel="CTLA4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="607.413403027538" centerY="95.43001140572805" width="55.5" height="22.2677202133259" zOrder="32863">
+    <Comment>Expression is enhanced by IL-2.
+Function is controlled largely by regulation of its surface expression. Initially CTLA-4 is in the intracellular membrane but moves to the cell surface after T-cell receptor signaling.
+When CTLA-4 cytoplasmic tail is NOT phosphorylated it binds to AP-2 (clathrin adapter molecule) and is removed from the surface. When the tail is phosphorylated AP-2 cannot bind and CTLA-4 is expressed on the surface.
+CTLA-4 competes with CD28 for B7 ligand, and it has a higher affinity of B7 in part because CTLA-4 binds B7 in a dimer.
+CTLA-4 interfers with the formation of lipid rafts, TCR:ZAP70 microclusters, and central supramolecular activation complex.</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1493</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000013170" />
+  </DataNode>
+  <DataNode elementID="e282a" textLabel="PDCD1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="766.2337297063043" centerY="95.43001140572808" width="55.5" height="22.2677202133259" zOrder="32864">
+    <Comment>PD-1 is repressed by pro-inflammatry cytokines. It's ligand, PD-L1, is constitutively expressed on T-cells. PD-1 contains a ITIM (immunoreceptor tyrosine-based inhibitory motif) in its cytoplasmic tail. When this ITIM is phosphorylated, it recruits either of 2 inhibitory phosphatases called SHP</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5133</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011543" />
+  </DataNode>
+  <State elementID="e2b6f" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="cc296" relX="0.557452189031134" relY="-1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <Interaction elementID="id12ffba13" zOrder="12288" lineThickness="1.0" color="ff0033">
+    <Xref dataSource="" identifier="protein-protein interation" />
+    <Comment>IkB hols NFkB in the cytoplams in an inactive state by binding to it. Once IkB is phosphorylated, NFkb is realeased and enters the nucleus.</Comment>
+    <Point x="656.3783527616621" y="689.3380518521315" elementID="a802f" elementRef="dd1b4" relX="0.0" relY="1.0" />
+    <Point x="656.3783527616621" y="752.5778633472324" elementID="ef185" elementRef="d965c" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id139f5313" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="de-phosphorylation" />
+    <Comment>Dephosphorylation of NFAT by calcineurin allows NFAT to enter the nucleus.</Comment>
+    <Point x="194.79282753847878" y="689.3380518521315" elementID="abb91" elementRef="e95dc" relX="0.0" relY="1.0" />
+    <Point x="194.38885556240703" y="724.7052860946336" elementID="f21a3" elementRef="daadd" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id2489f199" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="0033ff">
+    <Xref dataSource="" identifier="de-phosphorylation" />
+    <Comment>SHP can de-phosphorylate Zap-70.</Comment>
+    <Point x="738.5018928750031" y="231.58767402066266" elementID="b4fd4" elementRef="d4781" relX="-0.5" relY="-1.0" />
+    <Point x="485.14597977220217" y="207.80399274047184" elementID="f0917" />
+    <Point x="231.7900666694012" y="236.12487910233233" elementID="c0dff" elementRef="f346f" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id26a22e18" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="454.1744013987545" y="801.6623009150264" elementID="b0aca" elementRef="dc90a" relX="0.0" relY="1.0" />
+    <Point x="454.4285005291818" y="853.1136719501783" elementID="db611" elementRef="b595a" relX="0.0" relY="-1.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="id283fc4e0" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="324.65136141898404" y="342.0630299083109" elementID="e1cb9" elementRef="ff54e" relX="1.0" relY="0.0" />
+    <Point x="354.2983286679053" y="342.06302990831097" elementID="edb8e" elementRef="b6ecd" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2fca9322" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="protein-protein interaction" />
+    <Comment>Like PD-1, CTLA-4 also has an ITIM. When PP2A is phosphorylated and dissociates from CTLA-4 ITIM, SHPs can dock there.</Comment>
+    <Point x="621.288403027538" y="106.563871512391" elementID="a3808" elementRef="c2643" relX="0.5" relY="1.0" />
+    <Point x="686.8326479512706" y="139.74591651542647" elementID="d3c1c" />
+    <Point x="752.3768928750031" y="231.58767402066266" elementID="e6f54" elementRef="d4781" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id3874e5dc" zOrder="12288" lineThickness="1.0" color="3333ff">
+    <Xref dataSource="" identifier="" />
+    <Comment>PTEN dephosphorylates PIP3 converting it back into PIP2</Comment>
+    <Point x="684.8442045476347" y="287.2607832076517" elementID="bce46" elementRef="e9f05" relX="-1.0" relY="0.0" />
+    <Point x="651.5229724517626" y="287.4072275100541" elementID="dafa4" elementRef="d6af8" relX="0.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id4244a269" zOrder="12288" lineThickness="1.0" color="ff9900">
+    <Xref dataSource="" identifier="" />
+    <Point x="389.2025777647799" y="618.5276895077518" elementID="edeca" elementRef="e35aa" relX="1.0" relY="0.0" />
+    <Point x="427.210625633583" y="618.5276895077518" elementID="be364" elementRef="f002d" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="c363b" />
+  </Interaction>
+  <Interaction elementID="id4362a538" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="phosphorylation" />
+    <Comment>Lck can phosphorylate ITAMs on CD28 when it binds its ligand (MHC:peptide) and hence is brought close to the TCR</Comment>
+    <Point x="417.7983286679053" y="232.0277627100356" elementID="f773d" elementRef="b9041" relX="1.0" relY="-0.5" />
+    <Point x="467.3859529367945" y="106.56387151239102" elementID="d112c" elementRef="ed30d" relX="-0.5" relY="1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id4430e9f9" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="protein-protein interaction" />
+    <Comment>P13K binds to phosphorylated CD28 ITAMs</Comment>
+    <Point x="495.1359529367945" y="106.56387151239102" elementID="d1c24" elementRef="ed30d" relX="0.5" relY="1.0" />
+    <Point x="494.79202864236515" y="276.12692310098873" elementID="efc47" elementRef="f2340" relX="-0.5" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id49612b91" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="protein-protein interaction" />
+    <Comment>When ITAMs on CTLA-4 have been phosphorylated, P13K can dock there and begin its kinase action.</Comment>
+    <Point x="607.413403027538" y="106.563871512391" elementID="d8da2" elementRef="c2643" relX="0.0" relY="1.0" />
+    <Point x="522.5420286423652" y="276.12692310098873" elementID="faf6e" elementRef="f2340" relX="0.5" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id4b01005b" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="phosphorylation" />
+    <Comment>Once Itk is recruited to the membrane by binding to PIP3, it can be activated/phosphorylated by Lck</Comment>
+    <Point x="382.0483286679053" y="277.42934303002437" elementID="d50d0" elementRef="b9041" relX="0.0" relY="1.0" />
+    <Point x="382.0483286679053" y="330.929169801648" elementID="d3e17" elementRef="b6ecd" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id54643aa6" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="" />
+    <Point x="650.9535710059913" y="401.18818663153496" elementID="e6746" elementRef="b6cf9" relX="1.0" relY="0.0" />
+    <Point x="695.2624390142305" y="401.1881866315349" elementID="e93cc" elementRef="c5e7e" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id57452236" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="phosphorylation" />
+    <Comment>Once PKC localizes to the membrane it can phosphorylate membrane protein CARMA1.</Comment>
+    <Point x="638.4114095623721" y="487.1272818537492" elementID="c1ffc" elementRef="b78e0" relX="0.0" relY="1.0" />
+    <Point x="638.8941320848587" y="541.9844662698615" elementID="a9bcd" elementRef="a7ff6" relX="-0.5" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id57e04b22" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="656.3783527616621" y="776.6752837448422" elementID="a2349" elementRef="d965c" relX="0.0" relY="1.0" />
+    <Point x="589.6506109159052" y="865.4709351208364" elementID="eea25" elementRef="eeb8e" relX="1.0" relY="0.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="id61bb862f" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="protein-protein interaction / activation" />
+    <Comment>CD4/8 binding its ligand activates Lck</Comment>
+    <Point x="382.33173333606874" y="131.2317481004128" elementID="dea39" elementRef="b8142" relX="0.0" relY="1.0" />
+    <Point x="382.0483286679053" y="216.89390260337268" elementID="e7a40" elementRef="b9041" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id6316c817" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="phosphorylation" />
+    <Comment>Lck can phosphorylate PD-1 ITIMS when PD-1 had bound its ligand and it brought close to the immunological synapse.</Comment>
+    <Point x="399.9233286679053" y="216.89390260337268" elementID="eb5d6" elementRef="b9041" relX="0.5" relY="-1.0" />
+    <Point x="780.1087297063043" y="106.56387151239103" elementID="cd532" elementRef="e282a" relX="0.5" relY="1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id641b35cd" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="404.29333725338984" y="566.0670685158552" elementID="bcb51" elementRef="beeba" relX="0.0" relY="1.0" />
+    <Point x="404.4057969123011" y="618.5276895077518" elementID="a5fe4" elementRef="c363b" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id68241bda" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="protein-protein interaction" />
+    <Comment>Once calmodulin das bound Ca ions and changes conformation, it can bind to and activate calcineurin.</Comment>
+    <Point x="194.79282753847878" y="629.6615496144148" elementID="a88cc" elementRef="e07f7" relX="0.0" relY="1.0" />
+    <Point x="194.79282753847878" y="667.0703316388056" elementID="f6af3" elementRef="e95dc" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id6f3349d2" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="0066ff">
+    <Xref dataSource="" identifier="de-phosphorylation" />
+    <Comment>SHP phosphoatase can de-phosphorylate PIP3 and revert it back to PIP2</Comment>
+    <Point x="752.3768928750031" y="253.85539423398856" elementID="f2ea9" elementRef="d4781" relX="0.0" relY="1.0" />
+    <Point x="679.2793601924932" y="342.0630299083109" elementID="b7a56" elementRef="b8443" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id85f10f7a" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="" />
+    <Point x="382.0483286679053" y="353.1968900149739" elementID="e3946" elementRef="b6ecd" relX="0.0" relY="1.0" />
+    <Point x="313.1911200421986" y="401.1881866315349" elementID="aa620" elementRef="f5b02" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id87e48fbb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="194.38885556240703" y="815.5157566761324" elementID="d06fc" elementRef="daadd" relX="0.0" relY="1.0" />
+    <Point x="194.79282753847878" y="847.9858184589333" elementID="e5a86" elementRef="ff620" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id90944a8f" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="" />
+    <Point x="364.1733286679053" y="216.89390260337268" elementID="cc468" elementRef="b9041" relX="-0.5" relY="-1.0" />
+    <Point x="303.3742617059901" y="130.2793671480321" elementID="e920b" elementRef="a140c" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id94d147d0" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="" />
+    <Comment>Ras activates Raf</Comment>
+    <Point x="454.960625633583" y="629.6615496144148" elementID="a5606" elementRef="f002d" relX="0.0" relY="1.0" />
+    <Point x="455.1785004299707" y="667.0703316388056" elementID="f9396" elementRef="cf1d5" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id95054879" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="protein-protein interaction" />
+    <Comment>IP3 binds the ER to release calcium</Comment>
+    <Point x="194.4729594059932" y="487.1272818537492" elementID="e430c" elementRef="d1518" relX="0.0" relY="1.0" />
+    <Point x="194.79282753847878" y="543.7993483025293" elementID="b287e" elementRef="fea98" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id98914f7b" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="" />
+    <Point x="656.4194395387262" y="564.2521864831874" elementID="db222" elementRef="a7ff6" relX="0.0" relY="1.0" />
+    <Point x="656.3783527616621" y="667.0703316388056" elementID="bb6f0" elementRef="dd1b4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9e40c182" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="454.4285005291818" y="877.8281982914946" elementID="b6fd4" elementRef="b595a" relX="0.0" relY="1.0" />
+    <Point x="453.72460069318015" y="948.7787153844797" elementID="b2079" elementRef="bdd9d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9e7cce8" zOrder="12288" lineThickness="1.0" color="ff9900">
+    <Xref dataSource="" identifier="comes from" />
+    <Point x="651.5187139579423" y="258.39259931565823" elementID="c8f6b" elementRef="beb89" relX="0.0" relY="1.0" />
+    <Point x="651.5293601924932" y="330.92916980164796" elementID="d30cd" elementRef="b8443" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="d6af8" />
+  </Interaction>
+  <Interaction elementID="ida06fc4da" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="222.54282753847878" y="860.0345286577382" elementID="c3c25" elementRef="ff620" relX="1.0" relY="0.0" />
+    <Point x="426.6785005291818" y="859.2923035355074" elementID="da381" elementRef="b595a" relX="-1.0" relY="-0.5" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="ida1506fa6" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="protein-protein interaction" />
+    <Comment>DAG recruites PKC to the membrane where i docks to DAG and acts as a kinase.</Comment>
+    <Point x="484.56913195646626" y="475.99342174708624" elementID="e28b9" elementRef="ab4fe" relX="1.0" relY="0.0" />
+    <Point x="610.6614095623721" y="475.99342174708624" elementID="a5d5d" elementRef="b78e0" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="ida37351ba" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="284.8805510551473" y="353.19689001497386" elementID="d6344" elementRef="ff54e" relX="0.5" relY="1.0" />
+    <Point x="285.4411200421986" y="390.05432652487195" elementID="cf9b0" elementRef="f5b02" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idac77b406" zOrder="12288" lineThickness="1.0" color="ff9900">
+    <Xref dataSource="" identifier="" />
+    <Point x="345.8053775092797" y="475.99342174708624" elementID="f4317" elementRef="c6db8" relX="1.0" relY="0.0" />
+    <Point x="429.06913195646626" y="475.99342174708624" elementID="f8aa6" elementRef="ab4fe" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="c2b15" />
+  </Interaction>
+  <Interaction elementID="idaf4f9a86" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="637.6543601924932" y="353.19689001497386" elementID="b4760" elementRef="b8443" relX="-0.5" relY="1.0" />
+    <Point x="637.0785710059913" y="390.054326524872" elementID="a08b3" elementRef="b6cf9" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb6262259" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="protein-protein interaction" />
+    <Comment>PLC-g cleaves PIP2 to produce DAG and IP3</Comment>
+    <Point x="299.3161200421986" y="412.32204673819786" elementID="b5b39" elementRef="f5b02" relX="0.5" relY="1.0" />
+    <Point x="379.1108792881543" y="475.99342174708624" elementID="fd4ae" elementRef="c2b15" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb713e88d" zOrder="12288" lineThickness="1.0" color="ff0033">
+    <Xref dataSource="" identifier="protein-protein interaction" />
+    <Comment>Ras-Gap is a GTPase that converts GTP to GDP</Comment>
+    <Point x="515.0102317169815" y="618.5276895077518" elementID="f4c8d" elementRef="f2b94" relX="-1.0" relY="0.0" />
+    <Point x="482.710625633583" y="618.5276895077518" elementID="b0d50" elementRef="f002d" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idb93be9d6" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="proteion-protein interaction" />
+    <Comment>Akt is recruited to the membrane by PIP3; it can dock there and become activated.</Comment>
+    <Point x="665.4043601924932" y="353.19689001497386" elementID="a3752" elementRef="b8443" relX="0.5" relY="1.0" />
+    <Point x="723.0124390142305" y="390.05432652487195" elementID="b258c" elementRef="c5e7e" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idbd80ffef" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="protein-protein interaction" />
+    <Comment>Once TCR ITAMs are phosphorylated, Zap-70 can dock there</Comment>
+    <Point x="283.4992617059901" y="130.2793671480321" elementID="d6d15" elementRef="a140c" relX="-0.5" relY="1.0" />
+    <Point x="259.5400666694012" y="236.12487910233233" elementID="a04e8" elementRef="f346f" relX="0.5" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idbe349dc1" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="" />
+    <Point x="536.4170286423652" y="287.2607832076517" elementID="e9c66" elementRef="f2340" relX="1.0" relY="0.0" />
+    <Point x="651.5229724517626" y="287.4072275100541" elementID="d3c3d" elementRef="d6af8" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc4ba447e" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="protein-protein interation" />
+    <Comment>Calmodulin binds Ca 2+ ions inducing a conformational change</Comment>
+    <Point x="194.79282753847878" y="566.0670685158552" elementID="eb47f" elementRef="fea98" relX="0.0" relY="1.0" />
+    <Point x="194.79282753847878" y="607.3938294010889" elementID="aa6af" elementRef="e07f7" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="iddf233a60" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="628.6283527616621" y="764.6265735460373" elementID="a405b" elementRef="d965c" relX="-1.0" relY="0.0" />
+    <Point x="522.0" y="818.1380701261014" elementID="aea2c" />
+    <Point x="482.1785005291818" y="871.6495667061655" elementID="e55fd" elementRef="b595a" relX="1.0" relY="0.5" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="ide5eb4822" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="0033ff">
+    <Xref dataSource="" identifier="de-phosphorylation" />
+    <Comment>When phosphatase SHP binds to phosphorylated ITIMs on PD-1 cytoplasmic tail it becomes an active phosphatases and begins de-phosphorylating neighboring ITAMS and kinases.</Comment>
+    <Point x="780.1268928750031" y="242.7215341273256" elementID="c0a6e" elementRef="d4781" relX="1.0" relY="0.0" />
+    <Point x="323.2492617059901" y="130.2793671480321" elementID="b7c01" elementRef="a140c" relX="0.5" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idf1d50316" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="455.1785004299707" y="689.3380518521315" elementID="bccd9" elementRef="cf1d5" relX="0.0" relY="1.0" />
+    <Point x="454.1744013987545" y="777.5648805174167" elementID="df885" elementRef="dc90a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf1fab056" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="protein-protein interaction" />
+    <Comment>SHP-1 and SHP-2 can dock at phosphorylated PD-1 ITIMS</Comment>
+    <Point x="766.2337297063043" y="106.56387151239103" elementID="df4a8" elementRef="e282a" relX="0.0" relY="1.0" />
+    <Point x="766.2518928750031" y="231.58767402066266" elementID="c2650" elementRef="d4781" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf3c791ae" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="" />
+    <Point x="723.0124390142305" y="412.32204673819786" elementID="b8401" elementRef="c5e7e" relX="0.0" relY="1.0" />
+    <Point x="698.4785930034121" y="506.0" elementID="d8203" />
+    <Point x="673.9447469925938" y="541.9844662698615" elementID="c35ed" elementRef="a7ff6" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf90384d2" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="phosphorylation" />
+    <Comment>When Zap-70 is recruited to the membrane by docking to phosphorylated ITAMs on The TCR, Lck can phosphorylate Zap-70.</Comment>
+    <Point x="346.2983286679053" y="247.16162281669853" elementID="dad59" elementRef="b9041" relX="-1.0" relY="0.0" />
+    <Point x="273.4150666694012" y="247.25873920899528" elementID="d296f" elementRef="f346f" relX="1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idf9242188" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="" />
+    <Point x="245.6650666694012" y="258.39259931565823" elementID="af9a5" elementRef="f346f" relX="0.0" relY="1.0" />
+    <Point x="245.10974069131055" y="330.92916980164796" elementID="e27c4" elementRef="ff54e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfaee1523" zOrder="12288" lineThickness="1.0" color="ff9900">
+    <Xref dataSource="" identifier="" />
+    <Point x="290.3053775092797" y="475.99342174708624" elementID="dfc5b" elementRef="c6db8" relX="-1.0" relY="0.0" />
+    <Point x="222.2229594059932" y="475.99342174708624" elementID="c4a1c" elementRef="d1518" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.2772640368335718" shapeType="None" elementID="c973f" />
+  </Interaction>
+  <Interaction elementID="idfe2bcb03" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
+    <Xref dataSource="" identifier="phosphorylation" />
+    <Comment>Lck can phosphorylate CTLA-4 ITAMS when CTLA-4 binds B7 ligand</Comment>
+    <Point x="417.7983286679053" y="247.16162281669853" elementID="ea8ad" elementRef="b9041" relX="1.0" relY="0.0" />
+    <Point x="593.538403027538" y="106.563871512391" elementID="da160" elementRef="c2643" relX="-0.5" relY="1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idff186ca1" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="456.81913195646626" y="487.1272818537492" elementID="b028e" elementRef="ab4fe" relX="0.0" relY="1.0" />
+    <Point x="430.556234604928" y="506.0" elementID="e684c" />
+    <Point x="404.29333725338984" y="543.7993483025293" elementID="fbbf6" elementRef="beeba" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a653a" zOrder="32830" lineStyle="Broken" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="561.9006109159052" y="877.8281982914946" elementID="c08fe" elementRef="eeb8e" relX="0.0" relY="1.0" />
+    <Point x="562.4485637698998" y="947.8712743681456" elementID="fde02" elementRef="d8ce7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b2840" zOrder="32834" lineThickness="1.0" color="33cc00">
+    <Xref dataSource="" identifier="protein-protein interaction" />
+    <Comment>PLC-g cleaves PIP2 to produce DAG and IP3</Comment>
+    <Point x="271.5661200421986" y="412.32204673819786" elementID="c648c" elementRef="f5b02" relX="-0.5" relY="1.0" />
+    <Point x="271.42857142857144" y="475.99342174708624" elementID="bc304" elementRef="c973f" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <GraphicalLine elementID="id72961117" zOrder="12288" lineThickness="2.0" color="ff9933">
+    <Point x="850.608779664344" y="751.4856792276144" elementID="a000b" />
+    <Point x="887.645816701381" y="751.4856792276144" elementID="e3eff" />
+  </GraphicalLine>
+  <GraphicalLine elementID="d9cd8" zOrder="32865" lineThickness="2.0" color="3333ff">
+    <Point x="850.6087796643437" y="730.5179372921313" elementID="faf7e" />
+    <Point x="887.6458167013808" y="730.5179372921313" elementID="bd3dc" />
+  </GraphicalLine>
+  <GraphicalLine elementID="a55ce" zOrder="32866" lineThickness="2.0" color="cc00cc">
+    <Point x="850.6087796643437" y="710.1953566469697" elementID="af1cd" />
+    <Point x="887.6458167013808" y="710.1953566469697" elementID="c2d37" />
+  </GraphicalLine>
+  <GraphicalLine elementID="ea44f" zOrder="32867" lineThickness="2.0" color="00cc33">
+    <Point x="850.6087796643433" y="691.1630985824536" elementID="e68aa" />
+    <Point x="887.6458167013803" y="691.1630985824536" elementID="cc0f4" />
+  </GraphicalLine>
+  <GraphicalLine elementID="c37ba" zOrder="32868" lineThickness="1.0">
+    <Point x="850.2432340354474" y="639.2276147114846" elementID="bb394" />
+    <Point x="887.2802710724844" y="639.2276147114846" elementID="e0e5f" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="c9b3a" zOrder="32869" lineThickness="1.0">
+    <Point x="853.4587670635384" y="662.7760018082585" elementID="e1d3e" />
+    <Point x="890.4958041005755" y="662.7760018082585" elementID="b6abe" arrowHead="TBar" />
+  </GraphicalLine>
+  <Label elementID="bdd9d" textLabel="Proliferation" color="ff0033" fillColor="ffffff" fontWeight="Bold" fontSize="16" vAlign="Middle" centerX="453.7246006931802" centerY="962.183373368079" width="125.56149732620293" height="26.809315967198643" zOrder="28672" />
+  <Label elementID="ea9bf" textLabel="LEGEND" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="927.285596756186" centerY="603.1416328947009" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="f76a1" textLabel="protein-protein interaction" fillColor="ffffff" fontSize="11" vAlign="Middle" centerX="983.1873069862534" centerY="641.098675851745" width="149.84537850209585" height="19.990009990010037" zOrder="28672" />
+  <Label elementID="eb212" textLabel="inhibition" fillColor="ffffff" fontSize="11" vAlign="Middle" centerX="943.0359409393647" centerY="664.1013183705164" width="69.52266638833947" height="22.977022977022216" zOrder="32822" />
+  <Label elementID="b4fd7" textLabel="activation / recruitment" fillColor="ffffff" fontSize="11" vAlign="Middle" centerX="975.3564712025641" centerY="690.3304118576809" width="138.55421822256426" height="24.96503496503294" zOrder="32823" />
+  <Label elementID="cac09" textLabel="phosphorylation" fillColor="ffffff" fontSize="11" vAlign="Middle" centerX="960.3082104769204" centerY="711.0387357918058" width="103.3395460261151" height="21.968031968029436" zOrder="32824" />
+  <Label elementID="e3c5c" textLabel="dephosphorylation" fillColor="ffffff" fontSize="11" vAlign="Middle" centerX="965.171720081968" centerY="731.3775904854988" width="116.74937712667874" height="25.954045954044204" zOrder="32825" />
+  <Label elementID="f4440" textLabel="necessary precursor" fillColor="ffffff" fontSize="11" vAlign="Middle" centerX="971.5277762797907" centerY="751.0087657618357" width="129.23019409343806" height="25.944055944053574" zOrder="32827" />
+  <Label elementID="d8ce7" textLabel="Survival" color="ff0033" fillColor="ffffff" fontWeight="Bold" fontSize="16" vAlign="Middle" centerX="562.4485637698998" centerY="961.2759323517448" width="125.5614973262029" height="26.809315967198586" zOrder="32831" />
+  <Label elementID="bbacf" textLabel="" shapeType="Rectangle" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="873.1283379685782" centerY="787.9525440916465" width="55.5" height="22.2677202133259" zOrder="32835">
+    <Comment></Comment>
+  </Label>
+  <Label elementID="c42b6" textLabel="" shapeType="Oval" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="874.1373289775687" centerY="829.234676055267" width="55.5" height="24.097420397609767" zOrder="32836">
+    <Comment></Comment>
+  </Label>
+  <Label elementID="ed31b" textLabel="" shapeType="Hexagon" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="873.1483179885573" centerY="868.0599224326209" width="55.5" height="28.537877777137282" zOrder="32837">
+    <Comment></Comment>
+  </Label>
+  <Label elementID="af244" textLabel="signaling molecule" fillColor="ffffff" fontSize="11" vAlign="Middle" centerX="966.8359755432133" centerY="782.9867877398584" width="125.82061859431138" height="25.944055944053574" zOrder="32838" />
+  <Label elementID="da178" textLabel="transcription factor" fillColor="ffffff" fontSize="11" vAlign="Middle" align="Left" centerX="982.9421456262729" centerY="825.6655517619055" width="129.65255779938474" height="25.944055944053574" zOrder="32839" />
+  <Label elementID="b2480" textLabel="target gene" fillColor="ffffff" fontSize="11" vAlign="Middle" align="Left" centerX="972.3395554326261" centerY="865.9238506769209" width="107.81684307187837" height="25.944055944053574" zOrder="32840" />
+  <Label elementID="d12be" textLabel="" shapeType="Oval" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="872.800340069023" centerY="919.2588983030868" width="53.63232812157827" height="50.310269445813695" zOrder="32848">
+    <Comment></Comment>
+  </Label>
+  <Label elementID="eebe4" textLabel="ligand" fillColor="ffffff" fontSize="11" vAlign="Middle" align="Left" centerX="961.9129681310378" centerY="917.8153850684545" width="85.08536159039693" height="25.944055944053574" zOrder="32849" />
+  <Shape elementID="a056d" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="460.9665093428432" centerY="841.5337931534667" width="328.5270480094356" height="174.027930161867" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="a533f" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="947.1830350243328" centerY="787.8357330990984" width="234.51877277735412" height="401.3549453343519" zOrder="16384" rotation="0.0" />
+  <Shape elementID="e3250" shapeType="RoundedRectangle" lineStyle="Broken" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="451.6767068273093" centerY="544.9431133614969" width="726.6465863453818" height="897.5087312601993" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Extracellular region" />
+  </Shape>
+  <Group elementID="a140c" groupType="Complex" />
+  <Group elementID="b8142" groupType="Complex" />
+  <Group elementID="b9041" groupType="Group" />
+  <Group elementID="daadd" groupType="Complex">
+    <CitationRef citationID="a9d" />
+  </Group>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Long non-coding RNA in liver diseases." URL="" citationID="a44" year="2014" source="Hepatology">
+      <Xref dataSource="PubMed" identifier="24493213" />
+      <Author name="Takahashi K" />
+      <Author name="Yan I" />
+      <Author name="Haga H" />
+      <Author name="Patel T" />
+    </Citation>
+    <Citation title="Orai1-NFAT signalling pathway triggered by T cell receptor stimulation." URL="" citationID="a9d" year="2013" source="Mol Cells">
+      <Xref dataSource="PubMed" identifier="23483280" />
+      <Author name="Srikanth S" />
+      <Author name="Gwack Y" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="Toll-like receptor signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000814" />
+    <OntologyTerm term="nuclear factor of activated T-cells signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000317" />
+    <OntologyTerm term="calcineurin signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000315" />
+  </OntologyTerms>
+</Pathway>
+

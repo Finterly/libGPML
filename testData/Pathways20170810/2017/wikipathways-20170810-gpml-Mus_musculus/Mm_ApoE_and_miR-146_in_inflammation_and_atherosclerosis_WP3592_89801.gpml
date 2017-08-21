@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="ApoE and miR-146 in inflammation and atherosclerosis" revision="20151214" organism="Mus musculus" width="790.0" height="688.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Apolipoprotein E (ApoE) enhances purine-rich PU-box-binding protein 1 (PU.1)-dependent miR-146a transcription to suppress nuclear factor-κB (NF-κB)-driven monocyte and macrophage activation and thereby inflammation and atherosclerosis.
+
+Environmental ligands of toll-like receptors (TLRs), including lipopolysaccharide (LPS) and oxidized low-density lipoprotein (oxLDL), caused by hyperlipidemia provoke inflammatory signaling in monocytes and macrophages resulting in NF-κB activation. Gene transcription from NF-κB activity results in the production of inflammatory mediators, including proatherogenic cytokines. It also results in the production of primary miR-146a (pri-miR-146a) that is subsequently processed into mature miR-146a that silences the expression of key TLR-adaptor molecules interleukin-1 receptor-associated kinase 1 (IRAK1) and TNF receptor-associated factor 6 (TRAF6). The production of miR-146a thereby serves as a regulatory feedback loop to suppress NF-κB activity and resolve inflammation. Findings from our study identified that cellular apoE expression contributes to amplify this regulatory feedback loop by increasing PU.1-dependent transcription of pri-miR-146a and thereby mature miR-146a production.
+</Comment>
+  <CitationRef citationID="d6b" />
+  <DataNode elementID="e6c3d" textLabel="Lipopolysaccharide" shapeType="None" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Metabolite" centerX="275.5" centerY="50.0" width="125.0" height="20.0" zOrder="28672">
+    <Xref dataSource="ChEBI" identifier="CHEBI:16412" />
+  </DataNode>
+  <DataNode elementID="b2151" textLabel="Nfkb2" groupRef="ed453" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="318.6683673469391" centerY="322.3775510204081" width="57.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000025225" />
+  </DataNode>
+  <DataNode elementID="bfc4d" textLabel="ApoE" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="626.0714285714284" centerY="285.85714285714283" width="64.14285714285688" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000002985" />
+  </DataNode>
+  <DataNode elementID="cc3aa" textLabel="p65" groupRef="ed453" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="318.6683673469391" centerY="302.3775510204081" width="57.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000024927" />
+  </DataNode>
+  <DataNode elementID="da74b" textLabel="Mir146" color="990099" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="480.0" centerY="222.0" width="66.0" height="20.0" zOrder="32768">
+    <Xref dataSource="miRBase Sequence" identifier="MI0000170" />
+  </DataNode>
+  <DataNode elementID="e6e69" textLabel="PU.1" groupRef="faf3d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="626.5" centerY="458.0" width="51.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="20375" />
+  </DataNode>
+  <DataNode elementID="ed792" textLabel="Irak1" groupRef="c85f5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="318.668367346939" centerY="212.9285714285714" width="54.03061224489794" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000031392" />
+  </DataNode>
+  <DataNode elementID="fa33a" textLabel="Tlr4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="275.83418367346957" centerY="123.82653061224488" width="57.668367346939135" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000039005" />
+  </DataNode>
+  <DataNode elementID="fc1b1" textLabel="Traf4" groupRef="c85f5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="318.668367346939" centerY="232.9285714285714" width="54.03061224489794" height="20.000000000000007" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000017386" />
+  </DataNode>
+  <DataNode elementID="ffe69" textLabel="Tlr2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="375.5" centerY="125.0" width="63.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000027995" />
+  </DataNode>
+  <DataNode elementID="ba110" textLabel="ox-LDL" shapeType="None" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Metabolite" centerX="375.5" centerY="51.0" width="65.0" height="20.0" zOrder="32769">
+    <Xref dataSource="ChEBI" identifier="CHEBI:60151" />
+  </DataNode>
+  <DataNode elementID="c87cb" textLabel="p65" groupRef="eeded" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="318.6683673469391" centerY="448.3775510204081" width="57.0" height="20.0" zOrder="32771">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000024927" />
+  </DataNode>
+  <DataNode elementID="c2fa9" textLabel="Nfkb2" groupRef="eeded" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="318.6683673469391" centerY="468.3775510204081" width="57.0" height="20.0" zOrder="32772">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000025225" />
+  </DataNode>
+  <State elementID="e285b" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="cc3aa" relX="0.9649122807017544" relY="-1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="af2b2" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="c87cb" relX="0.8947368421052632" relY="-1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <Interaction elementID="id23731ff3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="318.6683673469391" y="340.3775510204081" elementID="c3abe" elementRef="ed453" relX="0.0" relY="1.0" />
+    <Point x="318.6683673469391" y="430.3775510204081" elementID="dc08f" elementRef="eeded" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id29f19bad" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="275.83418367346957" y="133.82653061224488" elementID="e2fbb" elementRef="fa33a" relX="0.0" relY="1.0" />
+    <Point x="318.668367346939" y="194.9285714285714" elementID="ab540" elementRef="c85f5" relX="0.0" relY="-1.0" arrowHead="mim-binding" />
+  </Interaction>
+  <Interaction elementID="id3169426f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="479.5" y="440.0" elementID="a6377" elementRef="aab86" relX="0.0" relY="-1.0" />
+    <Point x="479.5" y="398.0" elementID="f52fd" elementRef="a84e6" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id39896e46" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="447.0" y="222.0" elementID="fdac6" elementRef="da74b" relX="-1.0" relY="0.0" />
+    <Point x="353.683673469388" y="222.9285714285714" elementID="d47b2" elementRef="c85f5" relX="1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id3b137d88" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="141.0" y="468.0" elementID="d447a" elementRef="d4c80" relX="0.0" relY="1.0" />
+    <Point x="190.0" y="528.5" elementID="c00f5" elementRef="deee3" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5fc40f62" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="282.1683673469391" y="458.3775510204081" elementID="f23b8" elementRef="eeded" relX="-1.0" relY="0.0" />
+    <Point x="189.0" y="458.0" elementID="c5f7a" elementRef="d4c80" relX="1.0" relY="0.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="id75364118" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="626.0714285714284" y="295.85714285714283" elementID="e8411" elementRef="bfc4d" relX="0.0" relY="1.0" />
+    <Point x="626.5" y="440.0" elementID="f8382" elementRef="faf3d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id79dfb402" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="275.5" y="60.0" elementID="a5e7e" elementRef="e6c3d" relX="0.0" relY="1.0" />
+    <Point x="275.83418367346957" y="113.82653061224488" elementID="b6797" elementRef="fa33a" relX="0.0" relY="-1.0" arrowHead="mim-binding" />
+  </Interaction>
+  <Interaction elementID="idb607b62c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="375.5" y="61.0" elementID="a76fe" elementRef="ba110" relX="0.0" relY="1.0" />
+    <Point x="375.5" y="115.0" elementID="f1235" elementRef="ffe69" relX="0.0" relY="-1.0" arrowHead="mim-binding" />
+  </Interaction>
+  <Interaction elementID="idbe323268" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="479.5" y="378.0" elementID="ff9b8" elementRef="a84e6" relX="0.0" relY="-1.0" />
+    <Point x="479.5" y="289.0" elementID="ae7f3" elementRef="eb278" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idc1efcbcf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="355.1683673469391" y="458.3775510204081" elementID="efad2" elementRef="eeded" relX="1.0" relY="0.0" />
+    <Point x="427.0" y="458.0" elementID="c4646" elementRef="aab86" relX="-1.0" relY="0.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="idf64f1c51" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="375.5" y="135.0" elementID="ca5dc" elementRef="ffe69" relX="0.0" relY="1.0" />
+    <Point x="318.668367346939" y="194.9285714285714" elementID="d289a" elementRef="c85f5" relX="0.0" relY="-1.0" arrowHead="mim-binding" />
+  </Interaction>
+  <Interaction elementID="idf6b9813b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="318.668367346939" y="250.9285714285714" elementID="af85b" elementRef="c85f5" relX="0.0" relY="1.0" />
+    <Point x="318.6683673469391" y="292.3775510204081" elementID="ddc8a" elementRef="cc3aa" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a295e" zOrder="32778" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="479.5" y="269.0" elementID="c5f6c" elementRef="eb278" relX="0.0" relY="-1.0" />
+    <Point x="480.0" y="232.0" elementID="f05e5" elementRef="da74b" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="f3315" zOrder="32779" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="593.0" y="458.0" elementID="d82e0" elementRef="faf3d" relX="-1.0" relY="0.0" />
+    <Point x="532.0" y="458.0" elementID="c0530" elementRef="aab86" relX="1.0" relY="0.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Label elementID="deee3" textLabel="Monocyte and macrophage &#xA;activation" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="287.5" centerY="528.5" width="195.0" height="41.0" zOrder="32773" />
+  <Label elementID="ac979" textLabel="pri-miR-146a" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="aab86" centerX="479.5" centerY="458.0" width="89.0" height="20.0" zOrder="32774" />
+  <Label elementID="a84e6" textLabel="pre-miR-146a" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="479.5" centerY="388.0" width="89.0" height="20.0" zOrder="32776" />
+  <Label elementID="eb278" textLabel="pre-miR-146a" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="479.5" centerY="279.0" width="89.0" height="20.0" zOrder="32777" />
+  <Label elementID="d4c80" textLabel="cytokine genes" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="141.0" centerY="458.0" width="96.0" height="20.0" zOrder="32785" />
+  <Shape elementID="d3f3c" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="403.0" centerY="391.0" width="714.0" height="534.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="ded5d" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="397.5" centerY="489.5" width="687.0" height="287.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="aab86" groupType="Group" />
+  <Group elementID="b99ea" groupType="Group" />
+  <Group elementID="c48cd" groupType="Group" />
+  <Group elementID="c85f5" groupType="Group" />
+  <Group elementID="ed453" groupType="Group" />
+  <Group elementID="eeded" groupType="Group" />
+  <Group elementID="faf3d" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Apolipoprotein E enhances microRNA-146a in monocytes and macrophages to suppress nuclear factor-κB-driven inflammation and atherosclerosis." URL="" citationID="d6b" year="2015" source="Circ Res">
+      <Xref dataSource="PubMed" identifier="25904598" />
+      <Author name="Li K" />
+      <Author name="Ching D" />
+      <Author name="Luk FS" />
+      <Author name="Raffai RL" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="disease pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000013" />
+  </OntologyTerms>
+</Pathway>
+

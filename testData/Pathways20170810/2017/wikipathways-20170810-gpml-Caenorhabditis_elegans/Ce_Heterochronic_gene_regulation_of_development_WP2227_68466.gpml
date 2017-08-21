@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Heterochronic gene regulation of development" organism="Caenorhabditis elegans" width="661.0" height="601.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="kyook@caltech.edu" />
+  <Comment source="WikiPathways-category">Physiological Process</Comment>
+  <Comment source="WikiPathways-description">"The heterochronic gene pathway of Caenorhabditis elegans. The heterochronic pathway regulating larval development is shown. The arrows indicate activation; bars indicate repression. Regulatory relationships shown here are supported by genetic data, but not all are direct. lin-42 is not shown, as its complex expression pattern and genetic interactions suggest that it acts at multiple steps in the pathways, and its precise placement is uncertain. Note that in absence of ligand DAF-12 represses let-7 family miRNAs."</Comment>
+  <CitationRef citationID="ee6" />
+  <DataNode elementID="e3be2" textLabel="lin-4" fontSize="10" vAlign="Middle" type="Rna" centerX="96.0" centerY="164.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WormBase" identifier="F59G1.6" />
+  </DataNode>
+  <DataNode elementID="c23ef" textLabel="LIN-66" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="95.0" centerY="229.0" width="80.0" height="20.0" zOrder="32769">
+    <Xref dataSource="WormBase" identifier="B0513.1" />
+  </DataNode>
+  <DataNode elementID="d143e" textLabel="LIN-14" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="244.0" centerY="103.0" width="80.0" height="20.0" zOrder="32770">
+    <Xref dataSource="WormBase" identifier="T25C12.1" />
+  </DataNode>
+  <DataNode elementID="d8aaf" textLabel="LIN-28" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="246.0" centerY="190.0" width="80.0" height="20.0" zOrder="32771">
+    <Xref dataSource="WormBase" identifier="F02E9.2" />
+  </DataNode>
+  <DataNode elementID="f5dcd" textLabel="mir-48" fontSize="10" vAlign="Middle" type="Rna" centerX="289.0" centerY="303.0" width="80.0" height="20.0" zOrder="32772">
+    <Xref dataSource="WormBase" identifier="F56A12.3" />
+  </DataNode>
+  <DataNode elementID="e030f" textLabel="mir-241" fontSize="10" vAlign="Middle" type="Rna" centerX="289.0" centerY="323.0" width="80.0" height="20.0" zOrder="32773">
+    <Xref dataSource="WormBase" identifier="F56A12.4" />
+  </DataNode>
+  <DataNode elementID="ef84a" textLabel="mir-84" fontSize="10" vAlign="Middle" type="Rna" centerX="289.0" centerY="343.0" width="80.0" height="20.0" zOrder="32774">
+    <Xref dataSource="WormBase" identifier="B0395.4" />
+  </DataNode>
+  <DataNode elementID="f9145" textLabel="DAF-12" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="158.0" centerY="324.0" width="80.0" height="20.0" zOrder="32775">
+    <Xref dataSource="WormBase" identifier="F11A1.3" />
+  </DataNode>
+  <DataNode elementID="f2559" textLabel="let-7" fontSize="10" vAlign="Middle" type="Rna" centerX="140.0" centerY="498.0" width="80.0" height="20.0" zOrder="32776">
+    <Xref dataSource="WormBase" identifier="C05G5.6" />
+  </DataNode>
+  <DataNode elementID="ab126" textLabel="LIN-46" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="417.0" centerY="201.0" width="80.0" height="20.0" zOrder="32777">
+    <Xref dataSource="WormBase" identifier="R186.4" />
+  </DataNode>
+  <DataNode elementID="a71ad" textLabel="HBL-1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="421.0" centerY="321.0" width="80.0" height="20.0" zOrder="32778">
+    <Xref dataSource="WormBase" identifier="F13D11.2" />
+  </DataNode>
+  <DataNode elementID="f210c" textLabel="LIN-41" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="296.0" centerY="484.0" width="80.0" height="20.0" zOrder="32792">
+    <Xref dataSource="WormBase" identifier="C12C8.3" />
+  </DataNode>
+  <DataNode elementID="fa303" textLabel="HBL-1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="298.0" centerY="534.0" width="80.0" height="20.0" zOrder="32793">
+    <Xref dataSource="WormBase" identifier="F13D11.2" />
+  </DataNode>
+  <DataNode elementID="a4f01" textLabel="LIN-29" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="430.0" centerY="508.0" width="80.0" height="20.0" zOrder="32794">
+    <Xref dataSource="WormBase" identifier="W03C9.4" />
+  </DataNode>
+  <Interaction elementID="id22a58723" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="226.0" y="200.0" elementID="df2e6" elementRef="d8aaf" relX="-0.5" relY="1.0" />
+    <Point x="137.5" y="269.0" elementID="c0352" />
+    <Point x="49.0" y="383.5" elementID="b5436" />
+    <Point x="100.0" y="498.0" elementID="af168" elementRef="f2559" relX="-1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id3373814a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="180.0" y="498.0" elementID="af410" elementRef="f2559" relX="1.0" relY="0.0" />
+    <Point x="256.0" y="484.0" elementID="be2bf" elementRef="f210c" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id6a8d3799" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="298.0" y="544.0" elementID="b508c" elementRef="fa303" relX="0.0" relY="1.0" />
+    <Point x="140.0" y="508.0" elementID="f37ad" elementRef="f2559" relX="0.0" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id74f3adfb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="116.0" y="154.0" elementID="bce1d" elementRef="e3be2" relX="0.5" relY="-1.0" />
+    <Point x="204.0" y="103.0" elementID="f7d43" elementRef="d143e" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id922211ca" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="114.0" y="171.0" elementID="ad256" />
+    <Point x="206.0" y="190.0" elementID="bff86" elementRef="d8aaf" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="idc71e4c20" zOrder="12288" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="284.0" y="103.0" elementID="d9872" elementRef="d143e" relX="1.0" relY="0.0" />
+    <Point x="551.0" y="101.0" elementID="ab0c0" elementRef="b85f4" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ided1589f5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="226.0" y="180.0" elementID="a970d" elementRef="d8aaf" relX="-0.5" relY="-1.0" />
+    <Point x="224.0" y="113.0" elementID="f5c93" elementRef="d143e" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b0411" zOrder="32779" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="135.0" y="229.0" elementID="f501e" elementRef="c23ef" relX="1.0" relY="0.0" />
+    <Point x="206.0" y="190.0" elementID="b088f" elementRef="d8aaf" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="fcb38" zOrder="32780" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="289.0" y="293.0" elementID="ec5bf" elementRef="f5dcd" relX="0.0" relY="-1.0" />
+    <Point x="266.0" y="200.0" elementID="e021b" elementRef="d8aaf" relX="0.5" relY="1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="a696a" zOrder="32781" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="178.0" y="314.0" elementID="c42db" elementRef="f9145" relX="0.5" relY="-1.0" />
+    <Point x="246.0" y="200.0" elementID="cdde0" elementRef="d8aaf" relX="0.0" relY="1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="b03de" zOrder="32782" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="417.0" y="211.0" elementID="ae355" elementRef="ab126" relX="0.0" relY="1.0" />
+    <Point x="421.0" y="311.0" elementID="aaf07" elementRef="a71ad" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="c4711" zOrder="32783" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="329.0" y="323.0" elementID="c59a2" elementRef="e030f" relX="1.0" relY="0.0" />
+    <Point x="381.0" y="321.0" elementID="c102f" elementRef="a71ad" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="ffe8d" zOrder="32784" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="461.0" y="321.0" elementID="b447d" elementRef="a71ad" relX="1.0" relY="0.0" />
+    <Point x="551.0" y="234.0" elementID="de98c" elementRef="f243b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c30e4" zOrder="32789" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="461.0" y="321.0" elementID="cd8ad" elementRef="a71ad" relX="1.0" relY="0.0" />
+    <Point x="571.0" y="337.0" elementID="be1a6" elementRef="d4215" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="c52e8" zOrder="32790" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="264.0" y="113.0" elementID="abcfc" elementRef="d143e" relX="0.5" relY="1.0" />
+    <Point x="266.0" y="180.0" elementID="a067a" elementRef="d8aaf" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f20b7" zOrder="32791" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="198.0" y="324.0" elementID="d4321" elementRef="f9145" relX="1.0" relY="0.0" />
+    <Point x="249.0" y="323.0" elementID="ac1de" elementRef="e030f" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e717e" zOrder="32795" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="180.0" y="498.0" elementID="d0ae1" elementRef="f2559" relX="1.0" relY="0.0" />
+    <Point x="258.0" y="534.0" elementID="e1002" elementRef="fa303" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="c41f2" zOrder="32796" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="336.0" y="484.0" elementID="fab4d" elementRef="f210c" relX="1.0" relY="0.0" />
+    <Point x="390.0" y="508.0" elementID="c64b7" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="a7fbf" zOrder="32797" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="338.0" y="534.0" elementID="c771d" elementRef="fa303" relX="1.0" relY="0.0" />
+    <Point x="390.0" y="508.0" elementID="e553f" elementRef="a4f01" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="ce41e" zOrder="32798" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="470.0" y="508.0" elementID="fa99e" elementRef="a4f01" relX="1.0" relY="0.0" />
+    <Point x="571.0" y="466.0" elementID="a7f24" elementRef="ee982" relX="-0.5" relY="1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="bb086" zOrder="32799" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="470.0" y="508.0" elementID="a8bff" elementRef="a4f01" relX="1.0" relY="0.0" />
+    <Point x="551.0" y="561.0" elementID="bd801" elementRef="fdb37" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="b85f4" textLabel="L1" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="591.0" centerY="101.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="f243b" textLabel="L2" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="591.0" centerY="234.0" width="80.0" height="20.0" zOrder="32785" />
+  <Label elementID="d4215" textLabel="L3" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="591.0" centerY="347.0" width="80.0" height="20.0" zOrder="32786" />
+  <Label elementID="ee982" textLabel="L4" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="591.0" centerY="456.0" width="80.0" height="20.0" zOrder="32787" />
+  <Label elementID="fdb37" textLabel="ADULT" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="591.0" centerY="561.0" width="80.0" height="20.0" zOrder="32788" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="miRNAs give worms the time of their lives: small RNAs and temporal control in Caenorhabditis elegans." URL="" citationID="ee6" year="2010" source="Dev Dyn">
+      <Xref dataSource="PubMed" identifier="20232378" />
+      <Author name="Resnick TD" />
+      <Author name="McCulloch KA" />
+      <Author name="Rougvie AE" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="signaling pathway pertinent to development" ontology="Pathway Ontology" ontologyTermID="PW:0000650" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BiochemicalReaction rdf:about="id11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id11</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6935</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id13</bp:displayName>
+ <bp:left rdf:resource="d0b22" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id12">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id12</bp:displayName>
+ <bp:right rdf:resource="d0b22" />
+ <bp:left rdf:resource="e8574" />
+ <bp:left rdf:resource="c13ed" />
+ <bp:left rdf:resource="d0147" />
+</bp:BiochemicalReaction>
+
+<bp:Rna rdf:about="c13ed">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-miR-200c-3p</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Rna>
+
+<bp:Protein rdf:about="d0b22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ZEB1</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Rna rdf:about="e8574">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-miR-200a-3p</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Rna>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id11" />
+ <bp:pathwayComponent rdf:resource="id13" />
+ <bp:pathwayComponent rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hypoxia-mediated EMT and Stemness</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Model of hypoxia mediated EMT and stemness. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:RelationshipXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MIMAT0000682</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">miRBase mature sequence</bp:db>
+</bp:RelationshipXref>
+
+<bp:RnaReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-miR-200a-3p</bp:displayName>
+</bp:RnaReference>
+
+<bp:RelationshipXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MIMAT0000318</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">miRBase mature sequence</bp:db>
+</bp:RelationshipXref>
+
+<bp:RnaReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-miR-200b-3p</bp:displayName>
+</bp:RnaReference>
+
+<bp:RelationshipXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MIMAT0000617</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">miRBase mature sequence</bp:db>
+</bp:RelationshipXref>
+
+<bp:RnaReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-miR-200c-3p</bp:displayName>
+</bp:RnaReference>
+
+<bp:Rna rdf:about="d0147">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-miR-200b-3p</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Rna>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ZEB1</bp:displayName>
+</bp:ProteinReference>
+</rdf:RDF>

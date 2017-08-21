@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="b3c7a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPARA</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000186951 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="ed0e3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPARA</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000186951 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:Complex rdf:about="id11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id11</bp:displayName>
+ <bp:component rdf:resource="b3c7a" />
+ <bp:component rdf:resource="ed550" />
+ <bp:component rdf:resource="aaa19" />
+</bp:Complex>
+
+<bp:BiochemicalReaction rdf:about="id10">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id10</bp:displayName>
+ <bp:right rdf:resource="ed0e3" />
+ <bp:left rdf:resource="c1d61" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="ed550">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RXRA</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000186350 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="aaa19">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id10" />
+ <bp:pathwayComponent rdf:resource="id9" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPAR Alpha Pathway</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPAR alpha (also known as NR1C1) is a nuclear receptor that is involved with transcriptional regulation of genes involved in beta-oxidation, metabolism, fatty acid transport, etc. (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP2878_r79689 WP2878(79689)]  with a 96.0% conversion rate. (HomologyConvert)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:48705</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000008063</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="d8951">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RXRA</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000186350 (HomologyConvert)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="c1d61">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PPARA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSBTAG00000017851</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RXRA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id9</bp:displayName>
+ <bp:left rdf:resource="ed0e3" />
+ <bp:left rdf:resource="d8951" />
+</bp:BiochemicalReaction>
+</rdf:RDF>

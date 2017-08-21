@@ -1,0 +1,44 @@
+Pyruvate	Line	R51
+R51	Arrow	Lactate
+Glucose	Line	R5
+R5	mim-modification	G6P
+Insulin	Line	R3
+R3	mim-catalysis	SLC2A4
+ALDOA	Line	R93
+R93	mim-conversion	R15
+GPI	Line	R65
+R65	Arrow	R9
+Glucose	Line	R35
+R35	Arrow	G6P
+Ribose	Line	R40
+R40	Arrow	Sedoheptulose
+GPT	Line	R77
+R77	Line	R53
+Glucose	Line	R7
+R7	mim-binding	G6P
+G6P	Line	R9
+R9	Arrow	Fructose 6P
+Insulin	Line	R1
+R1	mim-catalysis	SLC2A4
+NADH	Line	R49
+R49	Line	NAD+
+SLC2A1	Line	R55
+R55	Line	Glucose
+LDHA	Line	R75
+R75	Arrow	R51
+Fructose 6P	Line	R13
+R13	mim-conversion	Fructose 1,6-bisphosphate
+Hexokinase	Line	R63
+R63	mim-modification	R5
+G6P	Line	R23
+R23	mim-conversion	Glycogen
+Pyruvate	Line	R53
+R53	Line	Alanine
+Fructose 1,6-bisphosphate	Line	R15
+R15	mim-conversion	G3P
+PFKP	Line	R91
+R91	mim-conversion	R13
+Glycogen	Line	R21
+R21	mim-conversion	G6P
+Pyruvate	Line	R27
+R27	mim-conversion	Kreb's Cycle

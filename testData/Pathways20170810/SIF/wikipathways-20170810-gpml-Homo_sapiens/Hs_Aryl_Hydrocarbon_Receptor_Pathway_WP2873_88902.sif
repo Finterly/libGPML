@@ -1,0 +1,61 @@
+Ligand	Line	R3
+R3	Arrow	AHR
+EGFR pathway	Line	R9
+R9	Arrow	TNF
+
+
+TNF
+
+	Line	R11
+R11	TBar	CYP1A1
+SRC
+
+	Line	R17
+R17	Arrow	SRC
+
+
+Ligand	Line	R15
+ARNT	Line	R15
+AHR	Line	R15
+R15	Arrow	Ligand
+R15	Arrow	ARNT
+R15	Arrow	AHR
+AHR	Line	R19
+ARNT	Line	R19
+R19	Arrow	Ligand
+R19	Arrow	ARNT
+R19	Arrow	AHR
+EGFR	Line	R21
+R21	Arrow	EGFR pathway
+CDC37	Line	R1
+R1	Arrow	CDC37
+R1	Arrow	SRC
+
+
+SRC
+
+	Line	R7
+R7	Arrow	EGFR
+TNF
+
+	Line	R13
+R13	Arrow	CYP1B1
+AIP	Line	R5
+PTGES3	Line	R5
+HSP90AA1	Line	R5
+AHR	Line	R5
+SRC
+
+	Line	R5
+R5	Arrow	AIP
+R5	Arrow	PTGES3
+R5	Arrow	Ligand
+R5	Arrow	HSP90AA1
+R5	Arrow	AHR
+R5	Arrow	SRC
+
+
+AHRR	Line	R23
+R23	TBar	Ligand
+R23	TBar	ARNT
+R23	TBar	AHR

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="e22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cytosine</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="eaa">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uridine</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id11</bp:displayName>
+ <bp:right rdf:resource="a51" />
+ <bp:left rdf:resource="e22" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">58-96-8</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id13</bp:displayName>
+ <bp:right rdf:resource="e22" />
+ <bp:left rdf:resource="afa" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id12">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id12</bp:displayName>
+ <bp:left rdf:resource="a51" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id15</bp:displayName>
+ <bp:left rdf:resource="afa" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id14">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id14</bp:displayName>
+ <bp:right rdf:resource="a51" />
+ <bp:left rdf:resource="eaa" />
+</bp:BiochemicalReaction>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id11" />
+ <bp:pathwayComponent rdf:resource="id13" />
+ <bp:pathwayComponent rdf:resource="id12" />
+ <bp:pathwayComponent rdf:resource="id15" />
+ <bp:pathwayComponent rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Salvage Pathways of Pyrimidine Ribonucleotides</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Based on http://pathway.yeastgenome.org/biocyc/ (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pyrimidine nucleotides are essential as components of nucleic acids, as substrates for amino acid synthesis and as energy sources, but defects in the de novo biosynthesis of pyrimidines are not lethal in S. cerevisiae cells  (CITS:10501935).  This is because salvage pathways are able to utilize preformed bases (either from exogenous sources or internal turnover sources) for the synthesis of pyrimidines (CITS:2189783). If the required substrates are available, salvage pathways are preferred over de novo synthesis pathways for pyrimidine biosynthesis (CITS:12111094).  The salvage pathways of pyrimidine ribonucleotides consist of 1) importing exogenous bases into the cell, and 2) the interconversion of various bases (CITS:2189783)(CITS:12111094). Three proteins are involved in the import of exogenous bases used by the salvage pathway for pyrimidine ribonucleotide biosynthesis. Uracil enters the cell via the Fur4p uracil permease (CITS:6290876)(CITS:3276521), cytosine enters the cell via the Fcy2p purine-cytosine transporter (CITS:6387700)(CITS:2191181), and uridine enters the cell via the Fui1p uridine permease (CITS:9485596).  As with many of the metabolic pathways of S. cerevisiae, the pathways for the salvage of pyrimidine ribonucleotides are under both transcriptional and post-transcriptional catabolite repression at a variety of points  (CITS:10074071)(CITS:11125145)(CITS:12111094)(CITS:12570998)(CITS:12791685)(CITS:1429716)(CITS:14657252).  This pathway is of biomedical interest because cytosine deaminase (Fcy1p) is not found in mammals (CITS:12637534) and is capable of catalyzing the deamination of the prodrug 5-fluorocytosine (5FC) to form the anticancer drug 5-fluorouracil (5FU) (CITS:15823054). Expression of Fcy1p in tumor cells increases their sensitivity to 5FC, and expression of Fur1p increases tumor cell sensitivity to 5FU (CITS:10919655). Tumor cells expressing a novel chimeric protein, produced from a gene containing the FCY1 and FUR1 coding sequences fused in frame, display significantly increased sensitivity to 5-FC suggesting that this novel suicide gene may constitute an original and potent candidate therapeutic gene for cancer gene therapy (CITS:10919655).  
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">71-30-7</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cytosine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">66-22-8</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uracil</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="a51">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uracil</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">65-46-3</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="afa">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cytidine</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cytidine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">uridine</bp:displayName>
+</bp:SmallMoleculeReference>
+</rdf:RDF>

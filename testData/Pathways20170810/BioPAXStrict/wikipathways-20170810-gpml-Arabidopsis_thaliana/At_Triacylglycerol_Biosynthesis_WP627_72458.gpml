@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="c4606">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">a fatty acyl CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="b6e8b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Coenzyme A</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="f547e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">a triacylglycerol</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="ae85d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Coenzyme A</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00416</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="f22e7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">sn-glyceryl-3-phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">a triacylglycerol</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">14265-44-2</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="e1b4f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">a fatty acyl CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="fcefb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Phosphatidic acid</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:17855</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="a3b5d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="bbd42">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Coenzyme A</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Arabidopsis thaliana</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Arabidopsis thaliana</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Triacylglycerol Biosynthesis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Triacylglycerol (TAG) is the major lipid reserve in plants and animals. The assembly of TAG occurs in the endoplasmic reticulum (ER). Four consecutive reactions are catalyzed by ER membrane bound enzymes. The two intermediates, phosphatidate and 1,2-diacylglycerol, are also substrates for the synthesis of membrane lipids glycosylglycerides and phosphoglycerides. Thus, the last step in the pathway, catalyzed by diacylglycerol acyltransferase, is the only dedicated step in triacylglycerol synthesis.
+
+The traditional Kennedy pathway does not include the reaction (EC 2.3.1.158, phospholipid:diacylglycerol acyltransferase, PDAT) where phospholipid is utilized as the acyl donor in TAG formation. The role of the PDAT route in TAG biosynthesis was clearly shown in yeast[ Dahlqvist00 ]. PDAT activity in plants was demonstrated in a few oil seed plants including caster bean[ Dahlqvist00 ]. The caster bean seeds have a high content of ricinoleat in the seed oil. Ricinoleat and other unusual fatty acids are modified from acyl groups linked to phospholipids, and transferred to TAG afterwards. PDAT was proposed playing an important role in the last step. However, the contribution of PDAT to TAG biosynthesis in other plants is not clear. Overexpressing or knockout of the Arabidopsis PDAT had no effect on TAG biosynthesis[ Stahl04 , Mhaske05 ].
+
+The constitution of different species of saturated and unsaturated fatty acids at the sn-1, sn-2, and sn-3 positions of the glycerol backbone varies among different plants, and is determined by substrate specificities of the three acyltransferases involved in this pathway. The composition of distinct fatty acids in TAG determines the quality and property of lipids of different plants, and also contributes to cold temperature sensitivity of different plants. 
+
+The pathway and description were copied from Gramene and AraCyc: http://pathway.gramene.org/ARA/NEW-IMAGE?object=TRIGLSYN-PWY (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C00093</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KEGG Compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">sn-glyceryl-3-phosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:37554</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">a fatty acyl CoA</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">85-61-0</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Coenzyme A</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="cce93">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">a fatty acyl CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Phosphatidic acid</bp:displayName>
+</bp:SmallMoleculeReference>
+</rdf:RDF>

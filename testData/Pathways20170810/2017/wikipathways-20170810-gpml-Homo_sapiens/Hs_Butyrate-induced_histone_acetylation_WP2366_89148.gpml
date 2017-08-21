@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Butyrate-induced histone acetylation" organism="Homo sapiens" width="873.0" height="602.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="Egon Willighagen" />
+  <Comment source="WikiPathways-description">Metabolism of butyrate is suggested to be an energy source for histone acetylation.</Comment>
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <CitationRef citationID="e96" />
+  <DataNode elementID="ac06e" textLabel="TCA&#xA;cycle" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="314.0" centerY="299.0" width="80.0" height="34.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP78" />
+  </DataNode>
+  <DataNode elementID="aeb78" textLabel="Butyrate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="323.0" centerY="106.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:17968" />
+  </DataNode>
+  <DataNode elementID="b336d" textLabel="ACL" fontSize="10" vAlign="Middle" type="Protein" centerX="550.0" centerY="251.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="P53396" />
+  </DataNode>
+  <DataNode elementID="bd0fe" textLabel="Glucose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="550.0" centerY="31.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:17634" />
+  </DataNode>
+  <DataNode elementID="c395e" textLabel="AKT" fontSize="10" vAlign="Middle" type="Protein" centerX="551.0" centerY="119.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="P31749" />
+  </DataNode>
+  <DataNode elementID="c4bec" textLabel="HDACs" fontSize="10" vAlign="Middle" type="Protein" centerX="516.0" centerY="502.0" width="54.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Wikipedia" identifier="Histone deacetylase" />
+  </DataNode>
+  <DataNode elementID="d424d" textLabel="Butyrate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="323.0" centerY="192.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:17968" />
+  </DataNode>
+  <DataNode elementID="d58d7" textLabel="Acetyl CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="324.0" centerY="250.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15351" />
+  </DataNode>
+  <DataNode elementID="d6834" textLabel="Lipid&#xA;biosynthesis" fontSize="10" vAlign="Middle" type="Pathway" centerX="708.0" centerY="167.5" width="80.0" height="33.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP357" />
+  </DataNode>
+  <DataNode elementID="da500" textLabel="Citrate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="549.0" centerY="316.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:35808" />
+  </DataNode>
+  <DataNode elementID="dae0d" textLabel="Acetylated Histone" fillColor="00cc33" fontSize="10" vAlign="Middle" type="Complex" centerX="705.5" centerY="463.0" width="111.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Wikipedia" identifier="Histone" />
+  </DataNode>
+  <DataNode elementID="e3721" textLabel="Acetyl CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="707.0" centerY="316.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15351" />
+  </DataNode>
+  <DataNode elementID="f3fcc" textLabel="Butyrate" fillColor="00cc33" fontSize="10" vAlign="Middle" type="Metabolite" centerX="322.0" centerY="27.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:17968" />
+  </DataNode>
+  <DataNode elementID="fe8cf" textLabel="Citrate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="396.0" centerY="316.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:35808" />
+  </DataNode>
+  <DataNode elementID="d629b" textLabel="Butyrate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="388.0" centerY="502.0" width="80.0" height="20.0" zOrder="32769">
+    <Xref dataSource="ChEBI" identifier="CHEBI:17968" />
+  </DataNode>
+  <Interaction elementID="id2d0a4b1d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="707.0" y="326.0" elementID="cda26" elementRef="e3721" relX="0.0" relY="1.0" />
+    <Point x="705.5" y="453.0" elementID="c170f" elementRef="dae0d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5457525d" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="283.0" y="106.0" elementID="d3cf3" elementRef="aeb78" relX="-1.0" relY="0.0" />
+    <Point x="157.0" y="284.5" elementID="e5691" />
+    <Point x="650.0" y="463.0" elementID="c21d9" elementRef="dae0d" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6dc40e6d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="550.0" y="41.0" elementID="f3ad5" elementRef="bd0fe" relX="0.0" relY="1.0" />
+    <Point x="551.0" y="109.0" elementID="e5668" elementRef="c395e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id81b34331" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="323.0" y="116.0" elementID="ab7a6" elementRef="aeb78" relX="0.0" relY="1.0" />
+    <Point x="323.0" y="182.0" elementID="a2ea4" elementRef="d424d" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id831c4ab3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="707.0" y="306.0" elementID="bbd01" elementRef="e3721" relX="0.0" relY="-1.0" />
+    <Point x="708.0" y="184.0" elementID="affca" elementRef="d6834" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9804a251" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="436.0" y="316.0" elementID="fb23a" elementRef="fe8cf" relX="1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Point x="509.0" y="316.0" elementID="f855b" elementRef="da500" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="ida4a53531" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="323.0" y="202.0" elementID="f1a8d" elementRef="d424d" relX="0.0" relY="1.0" />
+    <Point x="324.0" y="240.0" elementID="f50eb" elementRef="d58d7" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idb33be4fb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="589.0" y="316.0" elementID="f391c" elementRef="da500" relX="1.0" relY="0.0" />
+    <Point x="667.0" y="316.0" elementID="b8eb3" elementRef="e3721" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idc24c6072" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="322.0" y="37.0" elementID="ecffb" elementRef="f3fcc" relX="0.0" relY="1.0" />
+    <Point x="323.0" y="96.0" elementID="b2bf9" elementRef="aeb78" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idcd2be9d8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="324.0" y="260.0" elementID="fe446" elementRef="d58d7" relX="0.0" relY="1.0" />
+    <Point x="396.0" y="306.0" elementID="c64e7" elementRef="fe8cf" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idf3a20ce1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="551.0" y="129.0" elementID="ce7fe" elementRef="c395e" relX="0.0" relY="1.0" />
+    <Point x="550.0" y="241.0" elementID="f5c4a" elementRef="b336d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <GraphicalLine elementID="ed41f" zOrder="12288" lineThickness="1.0">
+    <Point x="516.0" y="502.0" elementID="e2dbd" elementRef="c4bec" relX="0.0" relY="0.0" />
+    <Point x="593.9027078082704" y="501.4331048268864" elementID="c3684" arrowHead="mim-inhibition" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id37ca741b" zOrder="12288" lineThickness="1.0">
+    <CitationRef citationID="df4" />
+    <Point x="428.0" y="502.0" elementID="c8202" elementRef="d629b" relX="1.0" relY="0.0" />
+    <Point x="489.0" y="502.0" elementID="cf246" elementRef="c4bec" relX="-1.0" relY="0.0" arrowHead="TBar" />
+  </GraphicalLine>
+  <Label elementID="c1a17" textLabel="Beta oxidation" fontSize="10" vAlign="Middle" centerX="251.0" centerY="221.0" width="86.0" height="20.0" zOrder="32768" />
+  <Shape elementID="a0647" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="707.5" centerY="453.0" width="197.0" height="194.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="a225d" shapeType="Mitochondria" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="329.25" centerY="272.75" width="317.5" height="256.5" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Mitochondria" />
+  </Shape>
+  <Shape elementID="f3fff" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="489.25" centerY="316.0" width="707.5" height="512.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Inhibition of histone deacetylase activity by butyrate." URL="" citationID="df4" year="2003" source="J Nutr">
+      <Xref dataSource="PubMed" identifier="12840228" />
+      <Author name="Davie JR" />
+    </Citation>
+    <Citation title="The Warburg Effect Dictates the Mechanism of Butyrate-Mediated Histone Acetylation and Cell Proliferation." URL="" citationID="e96" year="2012" source="Mol Cell">
+      <Xref dataSource="PubMed" identifier="23063526" />
+      <Author name="Donohoe DR" />
+      <Author name="Collins LB" />
+      <Author name="Wali A" />
+      <Author name="Bigler R" />
+      <Author name="Sun W" />
+      <Author name="Bultman SJ" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="classic metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000002" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:PublicationXref rdf:about="d52">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2002</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Campwala KH</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Wan YJ</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">French SW</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Konishi T</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Han G</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cai Y</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">11803135</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Eur J Pharm Sci</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The role of hepatocyte RXR alpha in xenobiotic-sensing nuclear receptor-mediated pathways.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:SmallMolecule rdf:about="b5a8f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="c756d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:PublicationXref rdf:about="bdd">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2004</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Waitt GM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Warren EN</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Wisely BB</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Xu RX</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Collins JL</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Williams JD</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Moore JT</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Moore LB</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Willson TM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lambert MH</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Weinert EE</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15610735</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mol Cell</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">A structural basis for constitutive activity in the human CAR/RXRalpha heterodimer.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="a3d92">
+ <bp:xref rdf:resource="d52" />
+ <bp:xref rdf:resource="bdd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RXRA</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">retinoid X receptor, alpha </bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="dc40d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR1H3</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nuclear receptor subfamily 1, group H, member 3 </bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="ffd99">
+ <bp:xref rdf:resource="d52" />
+ <bp:xref rdf:resource="bdd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RXRA</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">retinoid X receptor, alpha </bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e7df7">
+ <bp:xref rdf:resource="ed4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR1H3</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nuclear receptor subfamily 1, group H, member 3 </bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id11</bp:displayName>
+ <bp:right rdf:resource="c756d" />
+ <bp:left rdf:resource="e7df7" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="b2f22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LXR ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T3</bp:comment>
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id10">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id10</bp:displayName>
+ <bp:left rdf:resource="ffd99" />
+</bp:BiochemicalReaction>
+
+<bp:Complex rdf:about="id13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id13</bp:displayName>
+ <bp:component rdf:resource="d8848" />
+ <bp:component rdf:resource="c756d" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id12">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id12</bp:displayName>
+ <bp:component rdf:resource="b5a8f" />
+ <bp:component rdf:resource="a3d92" />
+ <bp:component rdf:resource="dc40d" />
+</bp:Complex>
+
+<bp:Protein rdf:about="d8848">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR1H3</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nuclear receptor subfamily 1, group H, member 3 </bp:comment>
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="ed4">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2011</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mori M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hashimoto K</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">21908933</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Endocr J</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Crosstalk of thyroid hormone receptor and liver X receptor in lipid metabolism and beyond [Review].</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id11" />
+ <bp:pathwayComponent rdf:resource="id10" />
+ <bp:pathwayComponent rdf:resource="id9" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Liver X Receptor Pathway</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The liver X receptor (LXR) is a nuclear receptor involved in the regulation of liver-specific processes, such as cholesterol, fatty acid and glucose homeostasis. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">10062</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR1H3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:86029</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LXR ligand</bp:name>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6256</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RXRA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id9</bp:displayName>
+ <bp:right rdf:resource="e7df7" />
+ <bp:left rdf:resource="b2f22" />
+</bp:BiochemicalReaction>
+</rdf:RDF>

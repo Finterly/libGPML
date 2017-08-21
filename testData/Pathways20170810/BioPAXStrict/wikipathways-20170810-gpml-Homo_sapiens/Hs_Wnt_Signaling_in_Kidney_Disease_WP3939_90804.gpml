@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="d4b7c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MAPK9</bp:displayName>
+ <bp:entityReference rdf:resource="id71" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:26420 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id71">
+ <bp:xref rdf:resource="id72" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MAPK9</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id70">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000107404</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id73">
+ <bp:xref rdf:resource="id74" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MAPK10</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id72">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000050748</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id75">
+ <bp:xref rdf:resource="id76" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MAPK8</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="f5b5a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INVS</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000028344 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="b90fc">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT10B</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22410 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id74">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000109339</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e7137">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD8</bp:displayName>
+ <bp:entityReference rdf:resource="id49" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14370 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id77">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id77</bp:displayName>
+ <bp:left rdf:resource="e260b" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="d6d64">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT2B</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22414 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id76">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000107643</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id79">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id79</bp:displayName>
+ <bp:right rdf:resource="d4b7c" />
+ <bp:right rdf:resource="ba0a5" />
+ <bp:right rdf:resource="fbdaf" />
+ <bp:left rdf:resource="e927b" />
+ <bp:left rdf:resource="b3ca8" />
+ <bp:left rdf:resource="e8e3b" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id78">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id78</bp:displayName>
+ <bp:right rdf:resource="a79e8" />
+ <bp:left rdf:resource="e927b" />
+ <bp:left rdf:resource="b3ca8" />
+ <bp:left rdf:resource="e8e3b" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="c8741">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT1</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22408 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="ba0a5">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MAPK8</bp:displayName>
+ <bp:entityReference rdf:resource="id75" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:26419 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="a02b4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD9</bp:displayName>
+ <bp:entityReference rdf:resource="id57" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14371 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="a00e0">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DVL3</bp:displayName>
+ <bp:entityReference rdf:resource="id67" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13544 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id60">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000163251</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="efafa">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DVL2</bp:displayName>
+ <bp:entityReference rdf:resource="id65" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13543 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id62">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000164930</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id61">
+ <bp:xref rdf:resource="id62" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD6</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id64">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000104290</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id63">
+ <bp:xref rdf:resource="id64" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id66">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000004975</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id65">
+ <bp:xref rdf:resource="id66" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DVL2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id68">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000161202</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="f16d2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT5A</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22418 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id67">
+ <bp:xref rdf:resource="id68" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DVL3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id69">
+ <bp:xref rdf:resource="id70" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DVL1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="e8067">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT16</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:93735 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e82c7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT10A</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22409 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LRP5</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000119509</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LRP6</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000162337</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="b01b5">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD7</bp:displayName>
+ <bp:entityReference rdf:resource="id55" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14369 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000070018</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="b4545">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD7</bp:displayName>
+ <bp:entityReference rdf:resource="id55" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14369 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="f98ab">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD4</bp:displayName>
+ <bp:entityReference rdf:resource="id51" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14366 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e927b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DVL2</bp:displayName>
+ <bp:entityReference rdf:resource="id65" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13543 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="c28ba">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT7A</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22421 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id80">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id80</bp:displayName>
+ <bp:right rdf:resource="e927b" />
+ <bp:right rdf:resource="b3ca8" />
+ <bp:right rdf:resource="e8e3b" />
+ <bp:left rdf:resource="d807c" />
+ <bp:left rdf:resource="d84fc" />
+ <bp:left rdf:resource="aa653" />
+ <bp:left rdf:resource="eddb6" />
+ <bp:left rdf:resource="c23f4" />
+ <bp:left rdf:resource="f8c46" />
+ <bp:left rdf:resource="f4e2e" />
+ <bp:left rdf:resource="b01b5" />
+ <bp:left rdf:resource="ebb8e" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id82">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id82</bp:displayName>
+ <bp:right rdf:resource="a00e0" />
+ <bp:right rdf:resource="efafa" />
+ <bp:right rdf:resource="a351e" />
+ <bp:left rdf:resource="e461a" />
+ <bp:left rdf:resource="a5781" />
+ <bp:left rdf:resource="df6aa" />
+ <bp:left rdf:resource="f8a11" />
+ <bp:left rdf:resource="a02b4" />
+ <bp:left rdf:resource="b4545" />
+ <bp:left rdf:resource="d0aea" />
+ <bp:left rdf:resource="e7137" />
+ <bp:left rdf:resource="bed20" />
+ <bp:left rdf:resource="d85b7" />
+ <bp:left rdf:resource="f98ab" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id81">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id81</bp:displayName>
+ <bp:right rdf:resource="e927b" />
+ <bp:right rdf:resource="b3ca8" />
+ <bp:right rdf:resource="e8e3b" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id84">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id84</bp:displayName>
+ <bp:right rdf:resource="e260b" />
+ <bp:left rdf:resource="a00e0" />
+ <bp:left rdf:resource="efafa" />
+ <bp:left rdf:resource="a351e" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id83">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id83</bp:displayName>
+ <bp:left rdf:resource="d4b7c" />
+ <bp:left rdf:resource="ba0a5" />
+ <bp:left rdf:resource="fbdaf" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id86">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id86</bp:displayName>
+ <bp:right rdf:resource="d807c" />
+ <bp:right rdf:resource="d84fc" />
+ <bp:right rdf:resource="aa653" />
+ <bp:right rdf:resource="eddb6" />
+ <bp:right rdf:resource="c23f4" />
+ <bp:right rdf:resource="f8c46" />
+ <bp:right rdf:resource="f4e2e" />
+ <bp:right rdf:resource="b01b5" />
+ <bp:right rdf:resource="ebb8e" />
+ <bp:left rdf:resource="c28ba" />
+ <bp:left rdf:resource="bb0cc" />
+ <bp:left rdf:resource="de75e" />
+ <bp:left rdf:resource="b90fc" />
+ <bp:left rdf:resource="ad343" />
+ <bp:left rdf:resource="f68e9" />
+ <bp:left rdf:resource="d6d64" />
+ <bp:left rdf:resource="f16d2" />
+ <bp:left rdf:resource="a6c0a" />
+ <bp:left rdf:resource="c8741" />
+ <bp:left rdf:resource="a9c73" />
+ <bp:left rdf:resource="e8067" />
+ <bp:left rdf:resource="abf91" />
+ <bp:left rdf:resource="d8115" />
+ <bp:left rdf:resource="e82c7" />
+ <bp:left rdf:resource="eef62" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="d0aea">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD2</bp:displayName>
+ <bp:entityReference rdf:resource="id53" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:57265 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id85">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id85</bp:displayName>
+ <bp:right rdf:resource="a00e0" />
+ <bp:right rdf:resource="efafa" />
+ <bp:right rdf:resource="a351e" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="ad343">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT9B</bp:displayName>
+ <bp:entityReference rdf:resource="id39" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22412 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id88">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id88</bp:displayName>
+ <bp:right rdf:resource="e461a" />
+ <bp:right rdf:resource="a5781" />
+ <bp:right rdf:resource="df6aa" />
+ <bp:right rdf:resource="f8a11" />
+ <bp:right rdf:resource="a02b4" />
+ <bp:right rdf:resource="b4545" />
+ <bp:right rdf:resource="d0aea" />
+ <bp:right rdf:resource="e7137" />
+ <bp:right rdf:resource="bed20" />
+ <bp:right rdf:resource="d85b7" />
+ <bp:right rdf:resource="f98ab" />
+ <bp:left rdf:resource="c28ba" />
+ <bp:left rdf:resource="bb0cc" />
+ <bp:left rdf:resource="de75e" />
+ <bp:left rdf:resource="b90fc" />
+ <bp:left rdf:resource="ad343" />
+ <bp:left rdf:resource="f68e9" />
+ <bp:left rdf:resource="d6d64" />
+ <bp:left rdf:resource="f16d2" />
+ <bp:left rdf:resource="a6c0a" />
+ <bp:left rdf:resource="c8741" />
+ <bp:left rdf:resource="a9c73" />
+ <bp:left rdf:resource="e8067" />
+ <bp:left rdf:resource="abf91" />
+ <bp:left rdf:resource="d8115" />
+ <bp:left rdf:resource="e82c7" />
+ <bp:left rdf:resource="eef62" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id87">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id87</bp:displayName>
+ <bp:left rdf:resource="a79e8" />
+</bp:BiochemicalReaction>
+
+<bp:Complex rdf:about="id89">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id89</bp:displayName>
+ <bp:component rdf:resource="c1b2f" />
+ <bp:component rdf:resource="f5b5a" />
+</bp:Complex>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id80" />
+ <bp:pathwayComponent rdf:resource="id82" />
+ <bp:pathwayComponent rdf:resource="id81" />
+ <bp:pathwayComponent rdf:resource="id84" />
+ <bp:pathwayComponent rdf:resource="id83" />
+ <bp:pathwayComponent rdf:resource="id86" />
+ <bp:pathwayComponent rdf:resource="id85" />
+ <bp:pathwayComponent rdf:resource="id77" />
+ <bp:pathwayComponent rdf:resource="id88" />
+ <bp:pathwayComponent rdf:resource="id87" />
+ <bp:pathwayComponent rdf:resource="id79" />
+ <bp:pathwayComponent rdf:resource="id78" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Wnt Signaling in Kidney Disease</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Mus musculus pathway &quot;Wnt Signaling in Kidney Disease&quot;, WP3857 revision 90183, with a 97.0% conversion rate. (HomologyMapper)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway is modeled after Figure 5 of the article &quot;Glomerulocystic kidney disease&quot; (Bissler, et al. 2010). The gene product Wnt signals two different paths titled canonical and non-canonical. The non-canonical path is mediated by the membrane bound protein Disheveled (Dvl) which then controls the planar cell Polarity. The canonical path on the other hand is mediated by the cytoplasmic protein Disheveled (Dvl) and then is effected through b-catenin transcription. The complex of Nphp2 and Nphp3 seem to help facilitate the process by controlling the Wnt signaling.  Bergmann, et al. (2008) showed that Nphp3 deficiency in Xenopus resulted to planar cell polarity defects. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00464</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Calcium</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="a351e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DVL1</bp:displayName>
+ <bp:entityReference rdf:resource="id69" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13542 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000113971</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NPHP3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000168036</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CTNNB1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">INVS</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="d84fc">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD6</bp:displayName>
+ <bp:entityReference rdf:resource="id61" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14368 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="fbdaf">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MAPK10</bp:displayName>
+ <bp:entityReference rdf:resource="id73" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:26414 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT11</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000134245</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="de75e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT4</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22417 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000085741</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id35">
+ <bp:xref rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT3A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000162552</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id37">
+ <bp:xref rdf:resource="id38" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT5B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id36">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000154342</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000114251</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e461a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD6</bp:displayName>
+ <bp:entityReference rdf:resource="id61" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14368 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT5A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="a5781">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LRP6</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000030201 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT2B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="b3ca8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DVL3</bp:displayName>
+ <bp:entityReference rdf:resource="id67" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13544 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="df6aa">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD5</bp:displayName>
+ <bp:entityReference rdf:resource="id59" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14367 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000169884</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000154764</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="f68e9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT5B</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22419 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT7A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000002745</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT16</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="d85b7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD1</bp:displayName>
+ <bp:entityReference rdf:resource="id47" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14362 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000115596</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT6</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT10A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000125084</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT10B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000135925</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="aa653">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD5</bp:displayName>
+ <bp:entityReference rdf:resource="id59" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14367 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="abf91">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT7B</bp:displayName>
+ <bp:entityReference rdf:resource="id45" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22422 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="eef62">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT6</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22420 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="bb0cc">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT3A</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22416 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="a79e8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Calcium</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id51">
+ <bp:xref rdf:resource="id52" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="eddb6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD1</bp:displayName>
+ <bp:entityReference rdf:resource="id47" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14362 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id50">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000177283</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id53">
+ <bp:xref rdf:resource="id54" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id52">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000174804</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id55">
+ <bp:xref rdf:resource="id56" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD7</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id54">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000180340</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e8e3b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DVL1</bp:displayName>
+ <bp:entityReference rdf:resource="id69" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:13542 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id57">
+ <bp:xref rdf:resource="id58" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD9</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id56">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000155760</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id59">
+ <bp:xref rdf:resource="id60" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD5</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="a6c0a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT3</bp:displayName>
+ <bp:entityReference rdf:resource="id43" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22415 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id58">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000188763</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id49">
+ <bp:xref rdf:resource="id50" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD8</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="f8a11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD3</bp:displayName>
+ <bp:entityReference rdf:resource="id63" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14365 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="d8115">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT11</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22411 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="c1b2f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NPHP3</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000032558 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id40">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000158955</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id42">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000105989</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id41">
+ <bp:xref rdf:resource="id42" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id44">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000108379</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="bed20">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LRP5</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000024913 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id43">
+ <bp:xref rdf:resource="id44" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="f8c46">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD9</bp:displayName>
+ <bp:entityReference rdf:resource="id57" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14371 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id46">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000188064</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id45">
+ <bp:xref rdf:resource="id46" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT7B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id48">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000157240</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id47">
+ <bp:xref rdf:resource="id48" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="ebb8e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD2</bp:displayName>
+ <bp:entityReference rdf:resource="id53" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:57265 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id39">
+ <bp:xref rdf:resource="id40" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT9B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id38">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000111186</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="d807c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD8</bp:displayName>
+ <bp:entityReference rdf:resource="id49" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14370 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="a9c73">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WNT2</bp:displayName>
+ <bp:entityReference rdf:resource="id41" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:22413 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="c23f4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD3</bp:displayName>
+ <bp:entityReference rdf:resource="id63" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14365 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="f4e2e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FZD4</bp:displayName>
+ <bp:entityReference rdf:resource="id51" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:14366 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e260b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CTNNB1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000006932 (HomologyMapper)</bp:comment>
+</bp:Protein>
+</rdf:RDF>

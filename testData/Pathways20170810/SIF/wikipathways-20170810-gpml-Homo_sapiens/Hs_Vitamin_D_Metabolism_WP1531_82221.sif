@@ -1,0 +1,40 @@
+Calcidiol	Line	R7
+R7	Arrow	Calcidiol
+Parathyroid hormone	Line	R13
+R13	mim-stimulation	CYP27B1
+CYP27B1	Line	R27
+R27	Arrow	R11
+CYP2R1 	Line	R25
+CYP27A1	Line	R25
+R25	Arrow	R5
+Calcidiol	Line	R11
+R11	Arrow	Calcitriol
+Calcitriol	Line	R21
+Vitamin D binding protein	Line	R21
+R21	mim-binding	VDR
+DHCR7	Line	R35
+R35	mim-modification	R23
+Calcitriol	Line	R17
+R17	mim-stimulation	CYP24A1
+Parathyroid hormone	Line	R15
+R15	mim-stimulation	CYP24A1
+7-Dehydro-
+cholesterol	Line	R1
+R1	Arrow	Previtamin D3
+Previtamin D3	Line	R3
+R3	Arrow	Cholecalciferol
+Calcidiol	Line	R9
+R9	Arrow	Inactive
+24,25-OH-
+vitamin D
+CYP24A1	Line	R29
+R29	Arrow	R9
+7-Dehydro-
+cholesterol	Line	R23
+R23	mim-modification	Cholesterol
+Cholecalciferol	Line	R5
+Vitamin D binding protein	Line	R5
+R5	Arrow	Calcidiol
+Pi	Line	R19
+Ca	Line	R19
+R19	mim-inhibition	CYP27B1

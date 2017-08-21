@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="f0706">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">water</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id31">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id31</bp:displayName>
+ <bp:right rdf:resource="fbd1c" />
+ <bp:right rdf:resource="dabdb" />
+ <bp:left rdf:resource="c6a3a" />
+ <bp:left rdf:resource="cd7ce" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:15361</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id33">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id33</bp:displayName>
+ <bp:right rdf:resource="c20" />
+ <bp:left rdf:resource="d4c" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id32">
+ <bp:controller rdf:resource="b0a" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id32</bp:displayName>
+ <bp:controlled rdf:resource="id31" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id35">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id35</bp:displayName>
+ <bp:right rdf:resource="f4857" />
+ <bp:right rdf:resource="dabdb" />
+ <bp:left rdf:resource="cd7ce" />
+ <bp:left rdf:resource="a8a" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id34">
+ <bp:controller rdf:resource="e6a" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id34</bp:displayName>
+ <bp:controlled rdf:resource="id33" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id37">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id37</bp:displayName>
+ <bp:right rdf:resource="cd7ce" />
+ <bp:left rdf:resource="c20" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id36">
+ <bp:controller rdf:resource="d38" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id36</bp:displayName>
+ <bp:controlled rdf:resource="id35" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:16810</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="c6a3a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-alanine</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="e6a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARO7</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-oxoglutarate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="b0a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARO9</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="d4c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">chorismate</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pyruvate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="db144">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">carbon dioxide</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:17295</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:16526</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">carbon dioxide</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S000006264</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SGD</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARO7</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:15377</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">water</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">chorismate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S000003170</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SGD</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="fbd1c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pyruvate</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-phenylalanine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">17333</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="f4857">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-oxoglutarate</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="a13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHA2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="d38">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARO8</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-alanine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="a8a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-glutamate</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">126-49-8</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phenylpyruvate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:16977</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARO8</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:8105</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="c20">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">prephenate</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="dabdb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-phenylalanine</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id39">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id39</bp:displayName>
+ <bp:right rdf:resource="f0706" />
+ <bp:right rdf:resource="db144" />
+ <bp:left rdf:resource="c20" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id38">
+ <bp:controller rdf:resource="a13" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id38</bp:displayName>
+ <bp:controlled rdf:resource="id37" />
+</bp:Catalysis>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id39" />
+ <bp:pathwayComponent rdf:resource="id38" />
+ <bp:pathwayComponent rdf:resource="id31" />
+ <bp:pathwayComponent rdf:resource="id33" />
+ <bp:pathwayComponent rdf:resource="id32" />
+ <bp:pathwayComponent rdf:resource="id35" />
+ <bp:pathwayComponent rdf:resource="id34" />
+ <bp:pathwayComponent rdf:resource="id37" />
+ <bp:pathwayComponent rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phenylalanine Biosynthesis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Biosynthesis of the aromatic amino acids phenylalanine, tyrosine, and tryptophan proceeds via a common pathway to chorismate, at which point the pathway branches (CITS:[Jones][1943992]).  One branch proceeds to phenylalanine and tyrosine, and the other to tryptophan (CITS:[Jones]). The phenylalanine and tyrosine branch has one reaction in common, rearrangement of chorismate to prephenate, at which point, the pathway branches again to either phenylalanine or tyrosine (CITS:[1943992])). S. cerevisiae, similar to E. coli, synthesize phenylalanine and tyrosine via the intermediate 4-hydroxyphenylpyruvate and phenylpyruvate, respectively, while some other organisms synthesize them via arogenate (CITS:[1943992]).  Aromatic amino acid biosynthesis in S. cerevisiae is controlled by a combination of feedback inhibition, activation of enzyme activity, and regulation of enzyme synthesis (CITS:[Jones][1943992]).  The carbon flow through the pathways is regulated primarily at the initial step and the branching points by the terminal end-products. The initial step of chorismate biosynthesis can be catalyzed by two isoenzymes Aro3p or Aro4p, whereby Aro3p is inhibited by phenylalanine, and Aro4p by tyrosine (CITS:[Jones][1943992]).  The first step in the phenylalanine-tyrosine branch is feedback inhibited by tyrosine and activated by tryptophan (CITS:[1943992]).  The transcriptional activator GCN4 regulates most of the genes encoding for the aromatic amino acid biosynthetic enzymes; however, no GCN4 regulation was found for ARO7 of the phenylalanine and tyrosine and branch, TYR1 of the tyrosine branch, or TRP1 of the tryptophan branch (CITS:[1943992]). 
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html
+Based on http://pathway.yeastgenome.org/biocyc/ (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S000005260</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SGD</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PHA2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="cd7ce">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phenylpyruvate</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">56-86-0</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-glutamate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S000001179</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SGD</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARO9</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">prephenate</bp:displayName>
+</bp:SmallMoleculeReference>
+</rdf:RDF>

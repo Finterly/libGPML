@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="One Carbon Metabolism" organism="Bos taurus" width="1511.0" height="759.0" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">This one-carbon metabolism pathway is centered around folate. Folate has two key carbon-carbon double bonds. Saturating one of them yields dihydrofolate (DHF) and adding an additional molecule of hydrogen across the second yields tetrahydrofolate (THF). Folates serve as donors of single carbons in any one of three oxidation states: 5-methyl-THF (CH3THF; reduced), 5,10 methylene-THF (CH2THF; intermediate) and 10-formyl-THF (CHOTHF; oxidized). The single carbon donor CH3THF is used to convert homocysteine into methionine which can then be used to methylate DNA, the donor CH2THF is used (along with a molecule of hydrogen at the site of one of the double bonds) to convert dUMP (deoxyuridylate) into dTMP (thymidylate) and the donor CHOTHF is used to set up ring closure reactions in de novo purine synthesis. CH3THF is the primary methyl-group donor for processes such as DNA methylation reactions. Purines are used both in RNA synthesis and in DNA synthesis and dTMP is synthesized srtictly for DNA synthesis, be it for DNA repair or DNA replication.
+The folate pathway is central to any study related to DNA methylation, dTMP synthesis or purine synthesis.
+
+Differential methylation (e.g. hypermethylation of tumor suppressors) as well as disturbances in nucleotide synthesis and repair, are associated with several forms of cancer. There are also indications that hypermethylation is involved in the progression of adenomas to cancer. 
+
+The pathway is also illustrative of the role of a number of B vitamins, including vitamin B12 (cobalamine) which is important for the sythesis of folate (vitamin B9) and of methionine. 
+</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP241_r80389 WP241(80389)]  with a 97.0% conversion rate.</Comment>
+  <DataNode elementID="a47" textLabel="Deoxyuridine monophosphate" color="0000ff" fontSize="11" vAlign="Middle" type="Metabolite" centerX="96.0" centerY="336.0" width="189.0" height="20.0" zOrder="28672">
+    <Xref dataSource="PubChem-compound" identifier="65063" />
+  </DataNode>
+  <DataNode elementID="c8c" textLabel="Deoxythymidine monophosphate" color="0000ff" fontSize="11" vAlign="Middle" type="Metabolite" centerX="92.5" centerY="230.0" width="193.0" height="20.0" zOrder="28672">
+    <Xref dataSource="PubChem-compound" identifier="9700" />
+  </DataNode>
+  <DataNode elementID="a0b" textLabel="MAT1A" groupRef="d6d9d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1133.0" centerY="192.33333333333334" width="80.0" height="27.333333333333332" zOrder="32768">
+    <Comment>KEGG Database Methionine metabolism - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4143</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000005963" />
+  </DataNode>
+  <DataNode elementID="a0c" textLabel="BHMT" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="997.4916666666668" centerY="473.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:635</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000002255" />
+  </DataNode>
+  <DataNode elementID="a19" textLabel="Tetrahydrofolate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="604.4916666666667" centerY="227.5" width="221.01666666666668" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="135-16-0" />
+  </DataNode>
+  <DataNode elementID="a42" textLabel="5-Methyl Tetrahydrofolate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="588.4916666666667" centerY="713.5" width="129.01666666666668" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="134-35-0" />
+  </DataNode>
+  <DataNode elementID="a74" textLabel="MTHFS" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="620.0" centerY="589.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Multiple homologues found: En:ENSBTAG00000020023;En:ENSBTAG00000020023;</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a74c2" textLabel="DHFR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="431.00000356038413" centerY="110.98333333333333" width="66.03333333333333" height="20.033333333333335" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1719</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007681" />
+  </DataNode>
+  <DataNode elementID="a7b" textLabel="MTHFD2" groupRef="e013b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="789.0" centerY="581.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10797</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000004881" />
+  </DataNode>
+  <DataNode elementID="a92" textLabel="MTHFD1" groupRef="e013b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="789.0" centerY="541.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4522</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009641" />
+  </DataNode>
+  <DataNode elementID="aa1" textLabel="MTHFD1L" groupRef="ee605" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="408.0" centerY="508.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:25902</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009846" />
+  </DataNode>
+  <DataNode elementID="abd76" textLabel="Alcohol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="629.0" centerY="73.0" width="56.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="702" />
+  </DataNode>
+  <DataNode elementID="adf" textLabel="FOLH1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="481.4916666666667" centerY="73.98333333333333" width="66.03333333333333" height="20.033333333333335" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2346</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007397" />
+  </DataNode>
+  <DataNode elementID="aeb" textLabel="Betaine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1047.4916666666666" centerY="425.5" width="81.01666666666667" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="107-43-7" />
+  </DataNode>
+  <DataNode elementID="b1439" textLabel="glycine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="495.0" centerY="260.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00123" />
+  </DataNode>
+  <DataNode elementID="b1b" textLabel="MTFMT" groupRef="cbe1d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="751.0" centerY="398.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:123263</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021630" />
+  </DataNode>
+  <DataNode elementID="b3b" textLabel="DNMT1" groupRef="c4413" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1172.0" centerY="394.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1786</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000002736" />
+  </DataNode>
+  <DataNode elementID="ba6" textLabel="MTHFD1" groupRef="ee605" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="408.0" centerY="488.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4522</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009641" />
+  </DataNode>
+  <DataNode elementID="bb282" textLabel="Thymidylate Synthesis" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="72.0" centerY="119.0" width="146.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="bce0f" textLabel="5-Formyl Tetrahydrofolate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="596.9916666666667" centerY="491.5" width="134.01666666666665" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="135-16-0" />
+  </DataNode>
+  <DataNode elementID="bed71" textLabel="Riboflavin&#xA;Vitamin B2" groupRef="ea0db" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="265.0" centerY="555.0" width="80.0" height="28.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00244" />
+  </DataNode>
+  <DataNode elementID="c01" textLabel="10-Formyl Tetrahydrofolate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="777.9916666666667" centerY="456.5" width="166.01666666666668" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="2800-34-2" />
+  </DataNode>
+  <DataNode elementID="c04" textLabel="MTR" groupRef="d550f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="964.0" centerY="386.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4548</Comment>
+    <CitationRef citationID="cf5" />
+    <CitationRef citationID="fd6" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000012251" />
+  </DataNode>
+  <DataNode elementID="c07" textLabel="5,10-Methenyl Tetrahydrofolate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="591.9916666666667" centerY="644.5" width="162.01666666666668" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="7444-29-3" />
+  </DataNode>
+  <DataNode elementID="c0a" textLabel="MTHFR" groupRef="ea0db" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.0" centerY="531.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4524</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020698" />
+  </DataNode>
+  <DataNode elementID="c1d" textLabel="MTHFD1L" groupRef="cbe1d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="751.0" centerY="378.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:25902</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009846" />
+  </DataNode>
+  <DataNode elementID="c5a" textLabel="FTCD" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="581.0" centerY="329.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10841</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020404" />
+  </DataNode>
+  <DataNode elementID="c6a43" textLabel="5-Formimino Tetrahydrofolate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="496.9916666666667" centerY="407.5" width="158.01666666666665" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="135-16-0" />
+  </DataNode>
+  <DataNode elementID="c78" textLabel="DNMT3B" groupRef="c4413" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1172.0" centerY="434.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: Methionine metabolism - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1789</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000003901" />
+  </DataNode>
+  <DataNode elementID="c9047" textLabel="Non-homologous end joining" groupRef="e7ee4" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="230.5" centerY="120.0" width="173.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP438" />
+  </DataNode>
+  <DataNode elementID="ca3" textLabel="AHCYL2" groupRef="ff813" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1175.0" centerY="593.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG Database Methionine metabolism - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:23382</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000001754" />
+  </DataNode>
+  <DataNode elementID="cb2" textLabel="ALDH1L1" groupRef="cbe1d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="751.0" centerY="298.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10840</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000014470" />
+  </DataNode>
+  <DataNode elementID="cc5" textLabel="AMT" groupRef="a71c2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="357.0" centerY="271.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:275</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000002321" />
+  </DataNode>
+  <DataNode elementID="ccb" textLabel="MTRR" groupRef="d550f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="964.0" centerY="366.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4552</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009401" />
+  </DataNode>
+  <DataNode elementID="ccf" textLabel="Folate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="533.4916666666667" centerY="137.98333333333332" width="81.01666666666667" height="28.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="59-30-3" />
+  </DataNode>
+  <DataNode elementID="d00" textLabel="Dihydrofolate&#xA;Vitamin B9" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="345.9916666666667" centerY="192.0" width="84.01666666666667" height="26.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="4033-27-6" />
+  </DataNode>
+  <DataNode elementID="d10" textLabel="MAT2B" groupRef="d6d9d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1133.0" centerY="216.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG Database Methionine metabolism - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:27430</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000012350" />
+  </DataNode>
+  <DataNode elementID="d13" textLabel="5,10-Methylene Tetrahydrofolate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="377.9916666666667" centerY="353.5" width="162.01666666666668" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="25513-46-6" />
+  </DataNode>
+  <DataNode elementID="d31" textLabel="Methionine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1056.4916666666666" centerY="262.5" width="81.01666666666667" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="63-68-3" />
+  </DataNode>
+  <DataNode elementID="d37" textLabel="FTCD" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="530.0" centerY="453.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10841</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020404" />
+  </DataNode>
+  <DataNode elementID="d3d" textLabel="SHMT1" groupRef="a71c2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="357.0" centerY="231.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6470</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017094" />
+  </DataNode>
+  <DataNode elementID="d76" textLabel="AMT" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="569.0" centerY="556.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:275</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000002321" />
+  </DataNode>
+  <DataNode elementID="d833e" textLabel="MIsmatch repair" groupRef="e7ee4" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="228.0" centerY="103.0" width="126.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP531" />
+  </DataNode>
+  <DataNode elementID="d97" textLabel="S-adenosylhomocysteine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1239.9916666666666" centerY="482.5" width="162.01666666666668" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="979-92-0" />
+  </DataNode>
+  <DataNode elementID="dd1" textLabel="S-Adenosylmethionine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1238.6583333333333" centerY="351.5" width="162.01666666666668" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="29908-03-0" />
+  </DataNode>
+  <DataNode elementID="df4" textLabel="TYMS" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="263.0" centerY="281.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7298</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007003" />
+  </DataNode>
+  <DataNode elementID="e02" textLabel="MTHFD1" groupRef="cbe1d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="751.0" centerY="358.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4522</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009641" />
+  </DataNode>
+  <DataNode elementID="e31b6" textLabel="Methylcobalamin" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="898.3333333333334" centerY="223.33333333333337" width="80.0" height="34.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB02274" />
+  </DataNode>
+  <DataNode elementID="e3cdb" textLabel="serine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="489.0" centerY="284.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="617" />
+  </DataNode>
+  <DataNode elementID="e3df5" textLabel="Cobalamin&#xA;Vitamin B12" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="897.65" centerY="297.98333333333335" width="81.36666666666666" height="34.03333333333333" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB02174" />
+  </DataNode>
+  <DataNode elementID="e4e" textLabel="GART" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="687.0" centerY="523.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2618</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009188" />
+  </DataNode>
+  <DataNode elementID="e55" textLabel="SHMT2" groupRef="a71c2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="357.0" centerY="251.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6472</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000031500" />
+  </DataNode>
+  <DataNode elementID="e94" textLabel="MTHFD1L" groupRef="e013b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="789.0" centerY="561.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:25902</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009846" />
+  </DataNode>
+  <DataNode elementID="eb3" textLabel="DNMT3A" groupRef="c4413" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1172.0" centerY="414.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG Database Methionine metabolism - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1788</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021143" />
+  </DataNode>
+  <DataNode elementID="ecc41" textLabel="Homocystine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1047.0" centerY="648.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:17485" />
+  </DataNode>
+  <DataNode elementID="edfe5" textLabel="Pyridoxal 5'-phosphate&#xA;Vitamin B6" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="416.125" centerY="312.125" width="136.75" height="26.75" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01491" />
+  </DataNode>
+  <DataNode elementID="ef6" textLabel="ATIC" groupRef="cbe1d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="751.0" centerY="338.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:471</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000019274" />
+  </DataNode>
+  <DataNode elementID="f77" textLabel="Homocysteine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1047.4916666666666" centerY="538.5" width="81.01666666666667" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="HMDB" identifier="HMDB00742" />
+  </DataNode>
+  <DataNode elementID="f83" textLabel="MTHFD2" groupRef="ee605" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="408.0" centerY="528.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10797</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000004881" />
+  </DataNode>
+  <DataNode elementID="f8ea1" textLabel="glutaredoxin-1 " fontSize="10" vAlign="Middle" type="Protein" centerX="956.0" centerY="604.0" width="80.0" height="20.0" zOrder="32768">
+    <CitationRef citationID="cf1" />
+    <Xref dataSource="NCBI Protein" identifier="NP_001032693.1" />
+  </DataNode>
+  <DataNode elementID="fa9" textLabel="AHCY" groupRef="ff813" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1175.0" centerY="573.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>KEGG Database Methionine metabolism - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:191</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000018101" />
+  </DataNode>
+  <DataNode elementID="fc6" textLabel="TCN2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="804.0" centerY="660.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6948</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000002770" />
+  </DataNode>
+  <DataNode elementID="fd1" textLabel="GART" groupRef="cbe1d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="751.0" centerY="318.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2618</Comment>
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009188" />
+  </DataNode>
+  <DataNode elementID="fe0c8" textLabel="DHFR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="440.00000356038413" centerY="185.98333333333332" width="66.03333333333333" height="20.033333333333335" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1719</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007681" />
+  </DataNode>
+  <DataNode elementID="fea" textLabel="DHFR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="682.0000035603841" centerY="179.98333333333332" width="66.03333333333333" height="20.033333333333335" zOrder="32768">
+    <Comment>KEGG database: One carbon pool by folate - Homo sapiens (human)</Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1719</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007681" />
+  </DataNode>
+  <DataNode elementID="fed" textLabel="Polyglutamate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="533.4916666666667" centerY="18.5" width="81.01666666666667" height="31.0" zOrder="32768">
+    <CitationRef citationID="cf5" />
+    <Xref dataSource="CAS" identifier="25513-46-6" />
+  </DataNode>
+  <Interaction elementID="a1142" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="533.4916666666667" y="34.0" elementID="acf3e" elementRef="fed" relX="0.0" relY="1.0" />
+    <Point x="533.4916666666667" y="123.98333333333332" elementID="c595b" elementRef="ccf" relX="0.0" relY="-1.0000000000000004" arrowHead="Arrow" />
+    <Anchor position="0.4334135951102056" shapeType="None" elementID="bfef1" />
+  </Interaction>
+  <Interaction elementID="a2acf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="551.4875" y="629.0" elementID="b69f3" elementRef="c07" relX="-0.5" relY="-1.0" />
+    <Point x="563.4875" y="507.0" elementID="e32a9" elementRef="bce0f" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.25313039384905067" shapeType="None" elementID="f932e" />
+  </Interaction>
+  <Interaction elementID="a6083" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1238.6583333333333" y="367.0" elementID="f3f9d" elementRef="dd1" relX="0.0" relY="1.0" />
+    <Point x="1239.9916666666663" y="467.0" elementID="ff58b" elementRef="d97" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.63" shapeType="None" elementID="c918d" />
+  </Interaction>
+  <Interaction elementID="a9b29" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="713.0" y="242.0" elementID="d052c" elementRef="a19" relX="0.9819018173591735" relY="0.9354838709677419" />
+    <Point x="777.9916666666667" y="441.0" elementID="d4b18" elementRef="c01" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.09749061781733054" shapeType="None" elementID="b57f1" />
+  </Interaction>
+  <Interaction elementID="a9d7b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1239.4983333333332" y="430.0" elementID="cb716" elementRef="c918d" relX="0.0" relY="0.0" />
+    <Point x="1220.0" y="414.0" elementID="bd8c9" elementRef="c4413" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="a9e5b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="566.3238729948329" y="295.902337275379" elementID="ab972" elementRef="a15fa" relX="0.0" relY="0.0" />
+    <Point x="581.0" y="319.0" elementID="f8766" elementRef="c5a" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="aaa13" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1163.306889169803" y="533.5206931135126" elementID="d035d" elementRef="c241c" relX="0.0" relY="0.0" />
+    <Point x="1175.0" y="555.0" elementID="e4d10" elementRef="ff813" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="ab125" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="431.00000356038413" y="121.0" elementID="a9db3" elementRef="a74c2" relX="0.0" relY="1.0" />
+    <Point x="437.7263848257191" y="133.7640551441521" elementID="e0ed7" elementRef="ca5fa" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="ac978" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="493.98333333333335" y="227.5" elementID="f5633" elementRef="a19" relX="-1.0" relY="0.0" />
+    <Point x="337.4875" y="338.0" elementID="fbfbc" elementRef="d13" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.2575708402613868" shapeType="None" elementID="fba6a" />
+    <Anchor position="0.4" shapeType="None" elementID="eb909" />
+    <Anchor position="0.4" shapeType="None" elementID="d6484" />
+  </Interaction>
+  <Interaction elementID="af5fc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1220.0" y="414.0" elementID="b5bf7" elementRef="c4413" relX="1.0" relY="0.0" />
+    <Point x="1274.2522978232432" y="416.6402228333948" elementID="d62ef" elementRef="d6ea7" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="b0a38" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="719.3360777363114" y="261.4006329456488" elementID="b10c5" elementRef="b57f1" relX="0.0" relY="0.0" />
+    <Point x="751.0" y="280.0" elementID="d262e" elementRef="cbe1d" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="b2f2f" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="337.4875" y="369.0" elementID="da7b3" elementRef="d13" relX="-0.5" relY="1.0" />
+    <Point x="523.9833333333333" y="713.5" elementID="e8ff5" elementRef="a42" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.3054526328380802" shapeType="None" elementID="f7edf" />
+  </Interaction>
+  <Interaction elementID="b4ae6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1047.1966666666667" y="604.4" elementID="ea987" elementRef="acfaf" relX="0.0" relY="0.0" />
+    <Point x="996.0" y="604.0" elementID="ef6fd" elementRef="f8ea1" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="b4fcc" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="510.98333333333335" y="644.5" elementID="afc55" elementRef="c07" relX="-1.0" relY="0.0" />
+    <Point x="377.9916666666667" y="369.0" elementID="a7d85" elementRef="d13" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.7911450703894298" shapeType="None" elementID="c4501" />
+  </Interaction>
+  <Interaction elementID="b9cbb" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="296.98333333333335" y="353.5" elementID="f8930" elementRef="d13" relX="-1.0" relY="0.0" />
+    <Point x="268.0" y="272.25" elementID="a36ed" />
+    <Point x="303.98333333333335" y="192.0" elementID="ba119" elementRef="d00" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4077401145960317" shapeType="None" elementID="ae3ec" />
+  </Interaction>
+  <Interaction elementID="ba4f8" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1339.0" y="376.0" elementID="a81eb" elementRef="c93" relX="-1.0" relY="0.0" />
+    <Point x="1274.0" y="420.0" elementID="ac3c0" />
+    <Point x="1359.0" y="464.0" elementID="a64f8" elementRef="a84" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.43664047151277025" shapeType="None" elementID="d6ea7" />
+  </Interaction>
+  <Interaction elementID="ba53a" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1006.9833333333331" y="538.5" elementID="dfa85" elementRef="f77" relX="-1.0" relY="0.0" />
+    <Point x="928.0" y="400.5" elementID="d4bbc" />
+    <Point x="1015.9833333333331" y="262.5" elementID="a5eef" elementRef="d31" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.44490538573507993" shapeType="None" elementID="ac86a" />
+    <Anchor position="0.9022616587382951" shapeType="None" elementID="a3e22" />
+  </Interaction>
+  <Interaction elementID="bb049" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="455.0" y="260.0" elementID="b193d" elementRef="b1439" relX="-1.0" relY="0.0" />
+    <Point x="370.0" y="272.0" elementID="a3659" />
+    <Point x="449.0" y="284.0" elementID="c0c63" elementRef="e3cdb" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bb8fd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1047.4916666666666" y="441.0" elementID="e8544" elementRef="aeb" relX="0.0" relY="1.0" />
+    <Point x="1047.4916666666666" y="523.0" elementID="fa8e0" elementRef="f77" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="bf7db" />
+  </Interaction>
+  <Interaction elementID="bba99" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="678.5037007734522" y="496.8463809951666" elementID="a7b29" elementRef="a6d38" relX="0.0" relY="0.0" />
+    <Point x="707.0" y="513.0" elementID="fed62" elementRef="e4e" relX="0.5" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="bcb04" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="604.0" y="242.0" elementID="f1f38" elementRef="a19" relX="-0.004449136565869844" relY="0.9354838709677419" />
+    <Point x="596.9916666666667" y="476.0" elementID="bc5db" elementRef="bce0f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.27079245283018877" shapeType="None" elementID="e62e2" />
+  </Interaction>
+  <Interaction elementID="bdeb7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="601.0" y="73.0" elementID="dba23" elementRef="abd76" relX="-1.0" relY="0.0" />
+    <Point x="533.4916666666667" y="73.0" elementID="ca801" elementRef="bfef1" relX="0.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="bdf2b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="715.0166702270508" y="179.9833333333333" elementID="a9934" elementRef="fea" relX="1.0" relY="0.0" />
+    <Point x="600.7717541296811" y="172.02840610487283" elementID="a5a6c" elementRef="f4a4a" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="bf2ef" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1239.9916666666663" y="498.0" elementID="ffcdc" elementRef="d97" relX="0.0" relY="1.0" />
+    <Point x="1088.0" y="538.5" elementID="d140d" elementRef="f77" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.5429527605564718" shapeType="None" elementID="c241c" />
+  </Interaction>
+  <Interaction elementID="bf7ea" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="510.0" y="443.0" elementID="f6968" elementRef="d37" relX="-0.5" relY="-1.0" />
+    <Point x="500.2604674282314" y="472.93730764391614" elementID="fff23" elementRef="e3bf2" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="c200a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="382.7501410387457" y="438.52667398038693" elementID="d91df" elementRef="c4501" relX="0.0" relY="0.0" />
+    <Point x="408.0" y="478.0" elementID="c2c94" elementRef="ba6" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="c3964" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="631.2958333333333" y="555.8" elementID="cf97f" elementRef="cfb9e" relX="0.0" relY="0.0" />
+    <Point x="620.0" y="579.0" elementID="f7b4f" elementRef="a74" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="c4206" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="964.0" y="404.0" elementID="bc518" elementRef="d550f" relX="0.0" relY="1.0" />
+    <Point x="928.4785536318034" y="416.9487119550522" elementID="b2788" elementRef="ac86a" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="c6bc2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="268.41978005398704" y="287.88067843598515" elementID="bed89" elementRef="ae3ec" relX="0.0" relY="0.0" />
+    <Point x="303.0" y="281.0" elementID="f3130" elementRef="df4" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="c9467" connectorType="Curved" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="92.5" y="220.0" elementID="cbf5a" elementRef="c8c" relX="0.0" relY="-1.0" />
+    <Point x="72.0" y="129.0" elementID="a2c27" elementRef="bb282" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ca6d9" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="574.0" y="130.98333333333332" elementID="cfb9a" elementRef="ccf" relX="1.0" relY="-0.5" />
+    <Point x="604.4916666666667" y="212.0" elementID="b72c3" elementRef="a19" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.5674472436598086" shapeType="None" elementID="f4a4a" />
+  </Interaction>
+  <Interaction elementID="cdd14" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="630.4958333333334" y="507.0" elementID="b13ad" elementRef="bce0f" relX="0.5" relY="1.0" />
+    <Point x="632.4958333333334" y="629.0" elementID="f1a29" elementRef="c07" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="cfb9e" />
+  </Interaction>
+  <Interaction elementID="ce830" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1097.0" y="262.5" elementID="d2bbe" elementRef="d31" relX="1.0" relY="0.0" />
+    <Point x="1238.6583333333333" y="336.0" elementID="f8f9c" elementRef="dd1" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.10561374147289876" shapeType="None" elementID="dce76" />
+  </Interaction>
+  <Interaction elementID="d3185" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1047.0" y="638.0" elementID="b08e7" elementRef="ecc41" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point x="1047.4916666666666" y="554.0" elementID="a8688" elementRef="f77" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="acfaf" />
+  </Interaction>
+  <Interaction elementID="d660d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="496.9916666666667" y="423.0" elementID="a7280" elementRef="c6a43" relX="0.0" relY="1.0" />
+    <Point x="510.98333333333335" y="636.75" elementID="f511a" elementRef="c07" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+    <Anchor position="0.23362483108264856" shapeType="None" elementID="e3bf2" />
+  </Interaction>
+  <Interaction elementID="d8a14" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="673.0" y="636.75" elementID="cbf80" elementRef="c07" relX="1.0" relY="-0.5" />
+    <Point x="680.0" y="243.0" elementID="b9c0a" elementRef="a19" relX="0.6832818037855365" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.3557677920766143" shapeType="None" elementID="a6d38" />
+  </Interaction>
+  <Interaction elementID="dfbce" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="602.1021962264151" y="305.36543396226415" elementID="c36ba" elementRef="e62e2" relX="0.0" relY="0.0" />
+    <Point x="581.0" y="319.0" elementID="ee80c" elementRef="c5a" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="e2c91" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="337.4875" y="531.1940753177171" elementID="a5857" elementRef="f7edf" relX="0.0" relY="0.0" />
+    <Point x="305.0" y="531.0" elementID="f587a" elementRef="c0a" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="e3b89" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="764.0" y="660.0" elementID="bb060" elementRef="fc6" relX="-1.0" relY="0.0" />
+    <Point x="788.9753209094439" y="681.3610668472942" elementID="cf316" elementRef="a330b" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="e4a7c" connectorType="Curved" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="98.49717514124293" y="225.0" elementID="b28bf" elementRef="c8c" relX="0.062146892655367235" relY="-0.5" />
+    <Point x="230.5" y="138.0" elementID="dce95" elementRef="e7ee4" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e795d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1047.4916666666666" y="473.8" elementID="cd039" elementRef="bf7db" relX="0.0" relY="0.0" />
+    <Point x="1037.4916666666668" y="473.0" elementID="c58bc" elementRef="a0c" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="e8fdb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="388.0" y="198.5" elementID="e1e89" elementRef="d00" relX="1.0" relY="0.5" />
+    <Point x="493.98333333333335" y="219.75" elementID="b7825" elementRef="a19" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+    <Anchor position="0.49282392130426794" shapeType="None" elementID="f1164" />
+  </Interaction>
+  <Interaction elementID="e9680" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="776.2025974615385" y="508.6257028698529" elementID="ce72c" elementRef="bc5d1" relX="0.0" relY="0.0" />
+    <Point x="813.0" y="523.0" elementID="d3469" elementRef="e013b" relX="0.5" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="ea837" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="777.9916666666667" y="472.0" elementID="fdbe9" elementRef="c01" relX="0.0" relY="1.0" />
+    <Point x="673.0" y="652.25" elementID="d16e1" elementRef="c07" relX="1.0" relY="0.5" arrowHead="Arrow" />
+    <Anchor position="0.15995607200672132" shapeType="None" elementID="bc5d1" />
+  </Interaction>
+  <Interaction elementID="ed12d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="533.4916666666667" y="73.0" elementID="e73a1" elementRef="bfef1" relX="0.0" relY="0.0" />
+    <Point x="514.5083333333333" y="73.98333333333333" elementID="d6e42" elementRef="adf" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="ee083" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="938.3333333333335" y="297.98333333333335" elementID="a2adf" elementRef="e3df5" relX="1.0" relY="0.0" />
+    <Point x="976.0" y="260.65833333333336" elementID="d3963" />
+    <Point x="938.3333333333334" y="223.33333333333337" elementID="b2366" elementRef="e31b6" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.5944168799855631" shapeType="None" elementID="a6d10" />
+  </Interaction>
+  <Interaction elementID="eecbe" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="440.00000356038413" y="195.99999999999994" elementID="b3828" elementRef="fe0c8" relX="0.0" relY="1.0" />
+    <Point x="440.2311219262307" y="208.9725083277157" elementID="a7295" elementRef="f1164" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="f114b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="604.4916666666667" y="243.0" elementID="febe8" elementRef="a19" relX="0.0" relY="1.0" />
+    <Point x="496.9916666666667" y="392.0" elementID="ec3fa" elementRef="c6a43" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.3550492434589194" shapeType="None" elementID="a15fa" />
+  </Interaction>
+  <Interaction elementID="f1d72" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="856.9666666666667" y="297.98333333333335" elementID="cbfb3" elementRef="e3df5" relX="-1.0" relY="0.0" />
+    <Point x="818.0" y="260.65833333333336" elementID="ddac9" />
+    <Point x="858.3333333333334" y="223.33333333333337" elementID="aa4d5" elementRef="e31b6" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.5888518508347778" shapeType="None" elementID="bbdfd" />
+  </Interaction>
+  <Interaction elementID="f52d5" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="653.0" y="713.5" elementID="ded17" elementRef="a42" relX="1.0" relY="0.0" />
+    <Point x="918.0" y="470.5" elementID="f1f6f" />
+    <Point x="715.0" y="227.5" elementID="bfa89" elementRef="a19" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.18581800810593718" shapeType="None" elementID="a330b" />
+    <Anchor position="0.8668261045419062" shapeType="None" elementID="eb79a" />
+  </Interaction>
+  <Interaction elementID="f66da" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="569.0" y="566.0" elementID="aeaf5" elementRef="d76" relX="0.0" relY="1.0" />
+    <Point x="554.5250647261886" y="598.1180919504159" elementID="a5a00" elementRef="f932e" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="f775a" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="190.5" y="336.0" elementID="bda9d" elementRef="a47" relX="1.0" relY="0.0" />
+    <Point x="269.0" y="283.0" elementID="d37be" />
+    <Point x="189.0" y="230.0" elementID="b33b4" elementRef="c8c" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.49434902554062465" shapeType="None" elementID="b709e" />
+  </Interaction>
+  <Interaction elementID="fac19" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1115.3878843131436" y="262.9849749680708" elementID="ac475" elementRef="dce76" relX="0.0" relY="0.0" />
+    <Point x="1133.0" y="234.0" elementID="d102a" elementRef="d6d9d" relX="0.0" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="faff4" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="492.98333333333335" y="130.98333333333332" elementID="c3459" elementRef="ccf" relX="-1.0" relY="-0.5" />
+    <Point x="345.9916666666667" y="179.0" elementID="a5926" elementRef="d00" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.3154125278451042" shapeType="None" elementID="c19fb" />
+    <Anchor position="0.338474844441228" shapeType="None" elementID="ca5fa" />
+  </Interaction>
+  <Interaction elementID="fc0e7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="439.5450858183684" y="233.0152199610264" elementID="a890c" elementRef="fba6a" relX="0.0" relY="0.0" />
+    <Point x="405.0" y="251.0" elementID="e949b" elementRef="a71c2" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="fc168" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="303.0" y="281.0" elementID="ed048" elementRef="df4" relX="1.0" relY="0.0" />
+    <Point x="268.958735860974" y="283.54807078394856" elementID="f0766" elementRef="b709e" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id150a43b8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="983.0244769981771" y="272.4870880463176" elementID="ac81f" elementRef="a3e22" relX="0.0" relY="0.0" />
+    <Point x="974.6569533325351" y="249.54090235171955" elementID="b56bb" elementRef="a6d10" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id87644ed6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="811.0749401929363" y="254.93205007270075" elementID="da242" elementRef="eb79a" relX="0.0" relY="0.0" />
+    <Point x="819.4851953095181" y="249.38812662063918" elementID="d44ea" elementRef="bbdfd" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Label elementID="a2285" textLabel="DNA repair pathways" fillColor="ffffff" fontWeight="Bold" fontStyle="Italic" fontSize="13" vAlign="Middle" groupRef="e7ee4" centerX="229.5" centerY="83.0" width="167.0" height="20.0" zOrder="28672" />
+  <Label elementID="a84" textLabel="DNA 5-methylcytosine" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" centerX="1420.0" centerY="464.0" width="122.0" height="20.0" zOrder="28672" />
+  <Label elementID="c93" textLabel="DNA" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" centerX="1357.5" centerY="376.0" width="37.0" height="20.0" zOrder="28672" />
+  <Group elementID="a71c2" />
+  <Group elementID="c4413" />
+  <Group elementID="cbe1d" />
+  <Group elementID="d550f" />
+  <Group elementID="d6d9d" />
+  <Group elementID="e013b" />
+  <Group elementID="e7ee4" groupType="Group" />
+  <Group elementID="ea0db" groupType="Complex" />
+  <Group elementID="ee605" />
+  <Group elementID="ff813" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Twenty-four non-synonymous polymorphisms in the one-carbon metabolic pathway and riskof colorectal adenoma in the Nurses' Health Study." URL="" citationID="cf5" year="2007" source="Carcinogenesis">
+      <Xref dataSource="PubMed" identifier="17389618" />
+      <Author name="Hazra A" />
+      <Author name="Wu K" />
+      <Author name="Kraft P" />
+      <Author name="Fuchs CS" />
+      <Author name="Giovannucci EL" />
+      <Author name="Hunter DJ" />
+    </Citation>
+    <Citation title="Structure-based perspectives on B12-dependent enzymes." URL="" citationID="fd6" year="1997" source="Annu Rev Biochem">
+      <Xref dataSource="PubMed" identifier="9242908" />
+      <Author name="Ludwig ML" />
+      <Author name="Matthews RG" />
+    </Citation>
+    <Citation title="Glutathione-homocystine transhydrogenase." URL="" citationID="cf1" year="1955" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="13271447" />
+      <Author name="RACKER E" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="folate mediated one-carbon metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000189" />
+  </OntologyTerms>
+</Pathway>
+

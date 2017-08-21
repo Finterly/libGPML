@@ -1,0 +1,22 @@
+GLYATL1	Line	R15
+GLYAT	Line	R15
+GLYATL2	Line	R15
+R15	mim-conversion	R7
+glycine	Line	R9
+R9	Arrow	hippuric acid
+Benzoyl-CoA	Line	R5
+R5	Arrow	Coenzyme A
+Benzoic acid AMP ester	Line	R11
+R11	mim-conversion	AMP
+Acetyl CoA	Line	R3
+R3	mim-conversion	Benzoyl-CoA
+Benzoic acid AMP ester	Line	R13
+R13	mim-conversion	Benzoyl-CoA
+Acyl-CoA synthetase	Line	R17
+R17	mim-conversion	R13
+Benzoyl-CoA	Line	R7
+R7	mim-conversion	hippuric acid
+Benzoic acid AMP ester	Line	R1
+ATP	Line	R1
+R1	mim-conversion	Phosphate
+R1	mim-conversion	Benzoic acid AMP ester

@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="b98">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetyl-CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="e75">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Malate</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id71">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id71</bp:displayName>
+ <bp:right rdf:resource="fc1bd" />
+ <bp:left rdf:resource="e75" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="bac">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Fructose-6-phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id70">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id70</bp:displayName>
+ <bp:left rdf:resource="fc1bd" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id73">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id73</bp:displayName>
+ <bp:right rdf:resource="c71" />
+ <bp:left rdf:resource="c8d" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id72">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id72</bp:displayName>
+ <bp:right rdf:resource="e46" />
+ <bp:left rdf:resource="c8d" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id75">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id75</bp:displayName>
+ <bp:right rdf:resource="e46" />
+ <bp:left rdf:resource="b7e" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id74">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id74</bp:displayName>
+ <bp:right rdf:resource="c71" />
+ <bp:left rdf:resource="b70" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id77">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id77</bp:displayName>
+ <bp:right rdf:resource="c142c" />
+ <bp:left rdf:resource="a6615" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id76">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id76</bp:displayName>
+ <bp:right rdf:resource="b98" />
+ <bp:left rdf:resource="cea" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id79">
+ <bp:controller rdf:resource="f6900" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id79</bp:displayName>
+ <bp:controlled rdf:resource="id78" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id78">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id78</bp:displayName>
+ <bp:right rdf:resource="fc1bd" />
+ <bp:left rdf:resource="cee01" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id60">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id60</bp:displayName>
+ <bp:right rdf:resource="b98" />
+ <bp:left rdf:resource="c142c" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="cee01">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oxaloacetate</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id62">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id62</bp:displayName>
+ <bp:right rdf:resource="a56" />
+ <bp:left rdf:resource="a6615" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id61">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id61</bp:displayName>
+ <bp:right rdf:resource="fdc" />
+ <bp:left rdf:resource="cee01" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id64">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id64</bp:displayName>
+ <bp:right rdf:resource="cea" />
+ <bp:left rdf:resource="b7e" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id63">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id63</bp:displayName>
+ <bp:right rdf:resource="b7e" />
+ <bp:left rdf:resource="a56" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id66">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id66</bp:displayName>
+ <bp:right rdf:resource="b71" />
+ <bp:left rdf:resource="cee01" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id65">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id65</bp:displayName>
+ <bp:right rdf:resource="a56" />
+ <bp:left rdf:resource="b70" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id68">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id68</bp:displayName>
+ <bp:left rdf:resource="b98" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id67">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id67</bp:displayName>
+ <bp:right rdf:resource="c142c" />
+ <bp:left rdf:resource="e75" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id69">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id69</bp:displayName>
+ <bp:right rdf:resource="b98" />
+ <bp:left rdf:resource="e46" />
+</bp:BiochemicalReaction>
+
+<bp:PublicationXref rdf:about="c3b">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1999</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Agrimi G</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Palmieri F</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">De Marco V</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Palmieri L</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Vozza A</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Walker JE</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Runswick MJ</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">10428783</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Identification of the yeast mitochondrial transporter for oxaloacetate and sulfate.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:SmallMolecule rdf:about="c142c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pyruvate</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="cea">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetyl-CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphoenolpyruvate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01401</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dihydroxyacetone phosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">138-08-9</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glyceraldehyde-3-phosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01473</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="ed56c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3-Phosphoglycerate</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id80">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id80</bp:displayName>
+ <bp:right rdf:resource="e75" />
+ <bp:left rdf:resource="b71" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="fdc">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphoenolpyruvate</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id82">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id82</bp:displayName>
+ <bp:right rdf:resource="e75" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id81">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id81</bp:displayName>
+ <bp:right rdf:resource="c8d" />
+ <bp:left rdf:resource="a56" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="b3a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id71" />
+ <bp:pathwayComponent rdf:resource="id70" />
+ <bp:pathwayComponent rdf:resource="id51" />
+ <bp:pathwayComponent rdf:resource="id73" />
+ <bp:pathwayComponent rdf:resource="id50" />
+ <bp:pathwayComponent rdf:resource="id72" />
+ <bp:pathwayComponent rdf:resource="id53" />
+ <bp:pathwayComponent rdf:resource="id75" />
+ <bp:pathwayComponent rdf:resource="id52" />
+ <bp:pathwayComponent rdf:resource="id74" />
+ <bp:pathwayComponent rdf:resource="id55" />
+ <bp:pathwayComponent rdf:resource="id77" />
+ <bp:pathwayComponent rdf:resource="id54" />
+ <bp:pathwayComponent rdf:resource="id76" />
+ <bp:pathwayComponent rdf:resource="id57" />
+ <bp:pathwayComponent rdf:resource="id79" />
+ <bp:pathwayComponent rdf:resource="id56" />
+ <bp:pathwayComponent rdf:resource="id78" />
+ <bp:pathwayComponent rdf:resource="id59" />
+ <bp:pathwayComponent rdf:resource="id58" />
+ <bp:pathwayComponent rdf:resource="id49" />
+ <bp:pathwayComponent rdf:resource="id80" />
+ <bp:pathwayComponent rdf:resource="id60" />
+ <bp:pathwayComponent rdf:resource="id82" />
+ <bp:pathwayComponent rdf:resource="id81" />
+ <bp:pathwayComponent rdf:resource="id62" />
+ <bp:pathwayComponent rdf:resource="id61" />
+ <bp:pathwayComponent rdf:resource="id42" />
+ <bp:pathwayComponent rdf:resource="id64" />
+ <bp:pathwayComponent rdf:resource="id41" />
+ <bp:pathwayComponent rdf:resource="id63" />
+ <bp:pathwayComponent rdf:resource="id44" />
+ <bp:pathwayComponent rdf:resource="id66" />
+ <bp:pathwayComponent rdf:resource="id43" />
+ <bp:pathwayComponent rdf:resource="id65" />
+ <bp:pathwayComponent rdf:resource="id46" />
+ <bp:pathwayComponent rdf:resource="id68" />
+ <bp:pathwayComponent rdf:resource="id45" />
+ <bp:pathwayComponent rdf:resource="id67" />
+ <bp:pathwayComponent rdf:resource="id48" />
+ <bp:pathwayComponent rdf:resource="id47" />
+ <bp:pathwayComponent rdf:resource="id69" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycolysis and Gluconeogenesis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">
+Based on Glycolysis and Gluconeogenesis Pathways at SGD and on Kruckeberg, AL and Dickinson, JR (2004) Carbon Metabolism in The Metabolism and Molecular Physiology of Saccharomyces cerevisiae, Dickinson, JR and Schweizer, M, eds, CRC Press.
+   (GenMAPP notes)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">
+Right click here for references
+   (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gluconeogenesis is the generation of glucose from non-sugar carbon substrates such as pyruvate, lactate, glycerol, and glucogenic amino acids (primarily alanine and glutamine). The process is essentially the reversal of the glycolysis pathway. The pathway is particularly important in animals, as the production of glucose from other metabolites is necessary for use as a fuel source by the brain, testes, erythrocytes and kidney medulla, all of which can use only glucose as the energy source. Gluconeogenesis in animals is perfomed mostly in the liver. The pathway is carried by cytoplasmic enzymes to the level of glucose-6-phosphate. Since free glucose tends to freely diffuse out of the cell, actual glucose formation is carried out in the lumen of the endoplasmic reticulum by gluocose-6-phosphatase . Glucose is then shuttled into the cytosol by glucose transporters. The main souces of carbon for gluconeogenesis in animals is lactate, formed in skeletal muscle cells during anaerobic glycolysis and carried to the liver in the blood stream. The conversion of glucose into lactate by glycolysis and back to glucose by gluconeogenesis is referred to as the Cori Cycle. 
+
+Pathway summary from [http://biocyc.org/ MetaCyc] (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">
+Metabolic Process
+   (WikiPathways-category)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">YDR050C</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TPI1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">50-99-7</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">643-13-0</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="c71">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ethanol</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Fructose-6-phosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="c73">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TPI1</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose 6-phosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3-Phosphoglycerate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01270</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Phosphoglycerate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00807</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id35">
+ <bp:xref rdf:resource="id36" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pyruvate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00362</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id37">
+ <bp:xref rdf:resource="id38" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oxaloacetate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id36">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00243</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01058</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Fructose-1,6-bisphosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1,3-Bisphosphoglycerate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="fc1bd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oxaloacetate</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="e46">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetate</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">75-07-0</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">64-17-5</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ethanol</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">64-19-7</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">617-48-1</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Malate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetyl-CoA</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01112</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetaldehyde</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">72-89-9</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="a6615">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pyruvate</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="dd6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glyceraldehyde-3-phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="b70">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ethanol</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="b71">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Malate</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="a56">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetaldehyde</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id51">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id51</bp:displayName>
+ <bp:right rdf:resource="dda4b" />
+ <bp:left rdf:resource="c73" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id50">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id50</bp:displayName>
+ <bp:right rdf:resource="ed56c" />
+ <bp:left rdf:resource="dda4b" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id53">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id53</bp:displayName>
+ <bp:right rdf:resource="fdc" />
+ <bp:left rdf:resource="f1f75" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id52">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id52</bp:displayName>
+ <bp:right rdf:resource="f1f75" />
+ <bp:left rdf:resource="ed56c" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id55">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id55</bp:displayName>
+ <bp:right rdf:resource="a4b" />
+ <bp:left rdf:resource="dd6" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id54">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id54</bp:displayName>
+ <bp:right rdf:resource="dd6" />
+ <bp:left rdf:resource="a4b" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id57">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id57</bp:displayName>
+ <bp:right rdf:resource="a6615" />
+ <bp:left rdf:resource="fdc" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id56">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id56</bp:displayName>
+ <bp:right rdf:resource="b1cce" />
+ <bp:left rdf:resource="c73" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="a4b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dihydroxyacetone phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="c8d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetaldehyde</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id59">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id59</bp:displayName>
+ <bp:right rdf:resource="f1f75" />
+ <bp:left rdf:resource="fdc" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id58">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id58</bp:displayName>
+ <bp:right rdf:resource="cee01" />
+ <bp:left rdf:resource="a6615" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id49">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id49</bp:displayName>
+ <bp:right rdf:resource="ed56c" />
+ <bp:left rdf:resource="f1f75" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="f6900">
+ <bp:xref rdf:resource="c3b" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OAC1</bp:displayName>
+ <bp:entityReference rdf:resource="id39" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="cbc">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glucose 6-phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id40">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">853739</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id42">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id42</bp:displayName>
+ <bp:right rdf:resource="bac" />
+ <bp:left rdf:resource="cbc" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id41">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id41</bp:displayName>
+ <bp:right rdf:resource="cbc" />
+ <bp:left rdf:resource="b3a" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="b1cce">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Fructose-1,6-bisphosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id44">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id44</bp:displayName>
+ <bp:right rdf:resource="b1cce" />
+ <bp:left rdf:resource="bac" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id43">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id43</bp:displayName>
+ <bp:right rdf:resource="cbc" />
+ <bp:left rdf:resource="bac" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="f1f75">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Phosphoglycerate</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id46">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id46</bp:displayName>
+ <bp:right rdf:resource="bac" />
+ <bp:left rdf:resource="b1cce" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id45">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id45</bp:displayName>
+ <bp:right rdf:resource="c73" />
+ <bp:left rdf:resource="b1cce" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id48">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id48</bp:displayName>
+ <bp:right rdf:resource="c73" />
+ <bp:left rdf:resource="dda4b" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id47">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id47</bp:displayName>
+ <bp:right rdf:resource="dda4b" />
+ <bp:left rdf:resource="ed56c" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id39">
+ <bp:xref rdf:resource="id40" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OAC1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="b7e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetate</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id38">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00223</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="dda4b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1,3-Bisphosphoglycerate</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+</bp:SmallMolecule>
+</rdf:RDF>

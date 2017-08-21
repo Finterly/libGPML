@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="EV release from cardiac cells and their functional effects" revision="20150605" organism="Homo sapiens" width="1148.0" height="851.5">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Summary of reported EV release from cardiac cells in culture and their functional effects. EV release has been reported in numerous cell lines and primary cultures, both at baseline and in response to stimuli. Transfer of EVs between cell types has been demonstrated as well as delivery of cargo.
+
+Note that this pathway represents a review of multiple studies in multiple organisms. This pathway displays the human orthologs.
+
+HUVEC: human aortic endothelial cell
+
+HMEC-1: human microvascular endothelial cell
+
+HASMC: human aortic smooth muscle cell
+
+NRVM: neonatal rat ventricular myocyte.</Comment>
+  <CitationRef citationID="bf3" />
+  <DataNode elementID="aeae7" textLabel="Homocysteine" groupRef="b1382" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="309.0" centerY="126.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00742" />
+  </DataNode>
+  <DataNode elementID="b2f10" textLabel="Ox-LDL" groupRef="b1382" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="309.0" centerY="106.0" width="56.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:60151" />
+  </DataNode>
+  <DataNode elementID="c27e5" textLabel="TNFalpha&#xA;mRNA" groupRef="e111d" fontSize="10" vAlign="Middle" type="Rna" centerX="458.0" centerY="784.5" width="48.0" height="25.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="7124" />
+  </DataNode>
+  <DataNode elementID="c8f0a" textLabel="ERBB4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="185.333333333333" centerY="557.3333333333343" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000178568" />
+  </DataNode>
+  <DataNode elementID="bd93d" textLabel="MIR126" groupRef="d046a" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="614.6666666666666" centerY="284.3333333333333" width="47.33333333333326" height="20.0" zOrder="32770">
+    <Xref dataSource="Ensembl" identifier="ENSG00000199161" />
+  </DataNode>
+  <DataNode elementID="ba43e" textLabel="MIR146A" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="128.3333333333336" centerY="199.00000000000006" width="66.66666666666669" height="20.0" zOrder="32772">
+    <Xref dataSource="Ensembl" identifier="ENSG00000207936" />
+  </DataNode>
+  <DataNode elementID="c16a4" textLabel="MIR150" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="228.33333333333346" centerY="62.33333333333335" width="64.00000000000004" height="21.99999999999999" zOrder="32774">
+    <Xref dataSource="Ensembl" identifier="ENSG00000207782" />
+  </DataNode>
+  <DataNode elementID="b0b42" textLabel="MIR143" groupRef="f0e06" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="896.0" centerY="288.3333333333333" width="72.0" height="20.0" zOrder="32776">
+    <Xref dataSource="Ensembl" identifier="ENSG00000208035" />
+  </DataNode>
+  <DataNode elementID="fdb5f" textLabel="KLF2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="826.3333333333343" centerY="205.33333333333323" width="57.333333333333265" height="20.0" zOrder="32778">
+    <Xref dataSource="Ensembl" identifier="ENSG00000127528" />
+  </DataNode>
+  <DataNode elementID="a0fef" textLabel="Ethanol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="70.66666666666609" centerY="672.0000000000008" width="66.66666666666671" height="20.0" zOrder="32780">
+    <Xref dataSource="HMDB" identifier="HMDB00108" />
+  </DataNode>
+  <DataNode elementID="d6295" textLabel="CXCL12" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="467.6666666666669" centerY="222.00000000000003" width="62.666666666666565" height="20.66666666666663" zOrder="32782">
+    <Xref dataSource="Ensembl" identifier="ENSG00000107562" />
+  </DataNode>
+  <DataNode elementID="afa3f" textLabel="Prolactin" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="128.33333333333343" centerY="131.33333333333343" width="80.0" height="19.333333333333435" zOrder="32784">
+    <Xref dataSource="Ensembl" identifier="ENSG00000172179" />
+  </DataNode>
+  <DataNode elementID="f363f" textLabel="RGS16" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="544.3333333333331" centerY="193.5" width="61.333333333333385" height="19.0" zOrder="32786">
+    <Xref dataSource="Ensembl" identifier="ENSG00000143333" />
+  </DataNode>
+  <DataNode elementID="a6ab0" textLabel="C-Myb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="227.99999999999997" centerY="205.3333333333333" width="60.00000000000001" height="20.0" zOrder="32788">
+    <Xref dataSource="Ensembl" identifier="ENSG00000118513" />
+  </DataNode>
+  <DataNode elementID="ae8d8" textLabel="hsa-miR-146a-5p" groupRef="afa5f" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="87.5" centerY="331.33333333333326" width="79.0" height="20.0" zOrder="32790">
+    <Xref dataSource="miRBase mature sequence" identifier="MIMAT0000449" />
+  </DataNode>
+  <DataNode elementID="af87a" textLabel="Ethanol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="225.99999999999824" centerY="638.0000000000007" width="66.66666666666671" height="20.0" zOrder="32792">
+    <Xref dataSource="HMDB" identifier="HMDB00108" />
+  </DataNode>
+  <DataNode elementID="f4341" textLabel="hsa-miR-145-5p" groupRef="f0e06" color="990099" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="896.5" centerY="309.3333333333333" width="71.0" height="20.0" zOrder="32794">
+    <Xref dataSource="miRBase mature sequence" identifier="MIMAT0000437" />
+  </DataNode>
+  <Interaction elementID="id34017bd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="eab" />
+    <Point x="416.3333333333333" y="616.666666666667" elementID="ae2f9" elementRef="f57c3" relX="0.0" relY="1.0" />
+    <Point x="440.875" y="751.0" elementID="fd19f" elementRef="df9bb" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id3fa83bc0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="501.5" y="784.75" elementID="be6d7" elementRef="e111d" relX="1.0" relY="0.0" />
+    <Point x="839.3333333333333" y="698.666666666667" elementID="a16fd" elementRef="a66b5" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id431e598e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b5f" />
+    <Point x="309.0" y="144.0" elementID="a98b2" elementRef="b1382" relX="0.0" relY="1.0" />
+    <Point x="309.0" y="177.66666666666697" elementID="b4a7e" elementRef="cd661" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id467d8a3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b37" />
+    <Point x="217.6666666666665" y="673.0000000000036" elementID="e7955" elementRef="b1f65" relX="-0.5" relY="1.0" />
+    <Point x="192.125" y="727.0" elementID="bca5f" elementRef="e47cf" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7805c596" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="a21" />
+    <Point x="416.3333333333333" y="596.666666666667" elementID="a2dbc" elementRef="f57c3" relX="0.0" relY="-1.0" />
+    <Point x="355.625" y="500.5" elementID="c9ead" elementRef="d5047" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb87368f9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="472.6666666666666" y="598.6666666666704" elementID="a5e47" elementRef="b1f65" relX="1.0" relY="0.0" />
+    <Point x="621.0" y="553.875" elementID="b693b" elementRef="bd717" relX="-1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide1d26d18" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="c18" />
+    <Point x="826.3333333333343" y="215.33333333333323" elementID="f24a9" elementRef="fdb5f" relX="0.0" relY="1.0" />
+    <Point x="874.5" y="261.0" elementID="c6465" elementRef="ff228" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf24dfb94" zOrder="12290" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="f12" />
+    <Point x="661.5" y="330.0" elementID="f5507" elementRef="ea7ea" relX="0.0" relY="-1.0" />
+    <Point x="628.625" y="313.5" elementID="c9f7a" elementRef="d4fa1" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id378bba00" zOrder="12292" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="fb1" />
+    <Point x="86.5" y="376.5" elementID="a7dc3" elementRef="afa5f" relX="0.0" relY="1.0" />
+    <Point x="170.333333333333" y="547.3333333333343" elementID="c8746" elementRef="c8f0a" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id669fb5e3" zOrder="12294" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="215.333333333333" y="557.3333333333343" elementID="bfcc9" elementRef="c8f0a" relX="1.0" relY="0.0" />
+    <Point x="240.0" y="557.3333333333335" elementID="ac094" elementRef="d5372" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb3912a04" zOrder="12298" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="228.0" y="215.3333333333333" elementID="c70f3" elementRef="a6ab0" relX="0.0" relY="1.0" />
+    <Point x="276.0000000000001" y="270.0000000000001" elementID="e00d9" elementRef="afbe9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id23304253" zOrder="12300" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="c52" />
+    <Point x="354.6666666666664" y="61.66666666666671" elementID="a7b9c" elementRef="ad00a" relX="-1.0" relY="0.0" />
+    <Point x="260.3333333333335" y="62.33333333333335" elementID="cdba7" elementRef="c16a4" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd539262" zOrder="12302" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="c18" />
+    <Point x="852.0" y="318.75" elementID="a488c" elementRef="ff228" relX="-1.0" relY="0.5" />
+    <Point x="779.0" y="352.0" elementID="a8eed" elementRef="ef37e" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id931b1306" zOrder="12304" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="f12" />
+    <Point x="671.5" y="218.0" elementID="ec2bb" elementRef="c615f" relX="0.0" relY="1.0" />
+    <Point x="628.625" y="254.0" elementID="b48f7" elementRef="d4fa1" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8dc821cd" zOrder="12306" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="f12" />
+    <Point x="598.875" y="254.0" elementID="accf2" elementRef="d4fa1" relX="-0.5" relY="-1.0" />
+    <Point x="544.333333333333" y="203.0" elementID="d065f" elementRef="f363f" relX="0.0" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id5b71f0f7" zOrder="12308" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="228.33333333333346" y="73.33333333333334" elementID="b0284" elementRef="c16a4" relX="0.0" relY="1.0" />
+    <Point x="228.0" y="195.3333333333333" elementID="f0e50" elementRef="a6ab0" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id30aefcaf" connectorType="Curved" zOrder="12310" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="fb1" />
+    <Point x="95.00000000000026" y="199.00000000000006" elementID="b58e7" elementRef="ba43e" relX="-1.0" relY="0.0" />
+    <Point x="86.5" y="287.0" elementID="b9f33" elementRef="afa5f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idcf81ed9e" zOrder="12312" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="103.99999999999945" y="672.0000000000008" elementID="c8347" elementRef="a0fef" relX="1.0" relY="0.0" />
+    <Point x="192.66666666666487" y="638.0000000000007" elementID="a1592" elementRef="af87a" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc1010c2e" zOrder="12314" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="598.875" y="313.5" elementID="c60fe" elementRef="d4fa1" relX="-0.5" relY="1.0" />
+    <Point x="570.3999675113367" y="330.66666666666663" elementID="ca727" elementRef="baa1e" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id274c462a" zOrder="12316" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="fb1" />
+    <Point x="128.33333333333343" y="141.00000000000014" elementID="a3740" elementRef="afa3f" relX="0.0" relY="1.0" />
+    <Point x="128.3333333333336" y="189.00000000000006" elementID="ffe58" elementRef="ba43e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc01508b1" connectorType="Curved" zOrder="32844" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="513.6666666666663" y="193.5" elementID="dff29" elementRef="f363f" relX="-1.0" relY="0.0" />
+    <Point x="467.66666666666697" y="211.6666666666667" elementID="a5afb" elementRef="d6295" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="dfaa5" zOrder="32884" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b5f" />
+    <Point x="347.0" y="177.66666666666697" elementID="a2bf6" elementRef="cd661" relX="0.0" relY="-1.0" />
+    <Point x="400.0" y="152.625" elementID="e554f" elementRef="ff986" relX="-1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ce333" zOrder="32890" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="679.5" y="539.25" elementID="bf9c0" elementRef="bd717" relX="1.0" relY="0.0" />
+    <Point x="955.0" y="481.75" elementID="e02cc" elementRef="e4935" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <GraphicalLine elementID="id6f8cc5ce" zOrder="12288" lineThickness="1.0">
+    <Point x="738.0" y="135.0" elementID="d5383" />
+    <Point x="777.0" y="125.0" elementID="ce534" />
+  </GraphicalLine>
+  <GraphicalLine elementID="c5600" zOrder="32868" lineThickness="1.0">
+    <Point x="747.0" y="146.0" elementID="aab83" />
+    <Point x="786.0" y="136.0" elementID="a5798" />
+  </GraphicalLine>
+  <GraphicalLine elementID="d64c4" zOrder="32870" lineThickness="1.0">
+    <Point x="777.0" y="125.0" elementID="a8d86" />
+    <Point x="812.0" y="129.0" elementID="ac1db" />
+  </GraphicalLine>
+  <GraphicalLine elementID="c7176" zOrder="32872" lineThickness="1.0">
+    <Point x="784.0" y="136.0" elementID="ee095" />
+    <Point x="821.0" y="142.0" elementID="acdd6" />
+  </GraphicalLine>
+  <GraphicalLine elementID="a475d" zOrder="32874" lineThickness="1.0">
+    <Point x="821.0" y="142.0" elementID="f809d" />
+    <Point x="860.0" y="132.0" elementID="c3eab" />
+  </GraphicalLine>
+  <GraphicalLine elementID="b1dd8" zOrder="32876" lineThickness="1.0">
+    <Point x="813.0" y="130.0" elementID="ad636" />
+    <Point x="852.0" y="120.0" elementID="bad4f" />
+  </GraphicalLine>
+  <Label elementID="b9d4d" textLabel="HSP70" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="acd9d" centerX="1076.0" centerY="129.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="cef74" textLabel="DNA&#xA;RNA" color="ff3333" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="650.5" centerY="540.0" width="57.0" height="30.0" zOrder="28672" />
+  <Label elementID="ef37e" textLabel="Multiple targets" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="739.0" centerY="352.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="fa875" textLabel="Apoptotic body" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="690.0" centerY="273.0" width="96.0" height="20.0" zOrder="28672" />
+  <Label elementID="c615f" textLabel="Serum starvation" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="671.5" centerY="208.0" width="97.0" height="20.0" zOrder="28674" />
+  <Label elementID="e3921" textLabel="Monocyte&#xA;(THP-1)" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="477.0" centerY="37.0" width="80.0" height="20.0" zOrder="28676" />
+  <Label elementID="d5372" textLabel="Decreased metabolic activity" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="312.66666666666663" centerY="557.3333333333335" width="145.3333333333333" height="20.0" zOrder="28678" />
+  <Label elementID="f57c3" textLabel="Hypoxia" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="416.3333333333333" centerY="606.666666666667" width="80.0" height="20.0" zOrder="28680" />
+  <Label elementID="afbe9" textLabel="Migration" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="276.0000000000001" centerY="280.0000000000001" width="80.0" height="20.0" zOrder="28682" />
+  <Label elementID="ea7ea" textLabel="Serum starvation" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="661.5" centerY="340.0" width="97.0" height="20.0" zOrder="32848" />
+  <Label elementID="c1a5e" textLabel="Endothelial cells&#xA;(HUVECs, HMEC-1, and rat&#xA;aortic endothelial cells)" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="959.0" centerY="208.5" width="144.0" height="41.0" zOrder="32866" />
+  <Label elementID="fec02" textLabel="Sheer stress" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="891.0" centerY="123.0" width="80.0" height="20.0" zOrder="32878" />
+  <Label elementID="a6d14" textLabel="Smooth muscle cells&#xA;(HASMCs)" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="936.0" centerY="377.5" width="114.0" height="41.0" zOrder="32880" />
+  <Label elementID="ca781" textLabel="Cardiomyocyte&#xA;(NRVM, adult rat&#xA;cardiomyocyte, HL-1)" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="346.0" centerY="713.5" width="114.0" height="41.0" zOrder="32885" />
+  <Label elementID="f6351" textLabel="Cardiomyocyte&#xA;(NRVM)" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="873.0" centerY="748.5" width="88.0" height="41.0" zOrder="32887" />
+  <Label elementID="b66f2" textLabel="DNA&#xA;RNA" color="ff3333" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="a9c10" centerX="978.5" centerY="482.0" width="57.0" height="30.0" zOrder="32889" />
+  <Label elementID="e6cb8" textLabel="Fibroblast&#xA;(NIH-3T3)" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="992.0" centerY="547.5" width="88.0" height="41.0" zOrder="32891" />
+  <Label elementID="a66b5" textLabel="Apoptosis" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="870.6666666666666" centerY="698.666666666667" width="62.66666666666674" height="20.0" zOrder="32893" />
+  <Label elementID="f8685" textLabel="CD63" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="acd9d" centerX="1073.0" centerY="29.0" width="80.0" height="20.0" zOrder="32935" />
+  <Label elementID="a895e" textLabel="HSP60" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="acd9d" centerX="1078.0" centerY="54.0" width="80.0" height="20.0" zOrder="32937" />
+  <Label elementID="bd4ae" textLabel="HSC70" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="acd9d" centerX="1077.0" centerY="80.0" width="80.0" height="20.0" zOrder="32949" />
+  <Label elementID="b2a97" textLabel="HSC90" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="acd9d" centerX="1076.0" centerY="104.0" width="80.0" height="20.0" zOrder="32951" />
+  <Shape elementID="dc91d" shapeType="RoundedRectangle" lineThickness="2.0" color="666666" fillColor="ccccff" fontSize="10" vAlign="Middle" centerX="927.7244147211115" centerY="677.7073081308217" width="212.11549610888994" height="92.74794959496916" zOrder="-34" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="ff228" groupRef="f0e06" shapeType="Oval" fillColor="f2e3e3" fontSize="10" vAlign="Middle" centerX="897.0" centerY="299.5" width="90.0" height="77.0" zOrder="-32" rotation="0.0" />
+  <Shape elementID="d4fa1" groupRef="d046a" shapeType="Oval" fillColor="ebeaea" fontSize="10" vAlign="Middle" centerX="613.75" centerY="283.75" width="59.5" height="59.5" zOrder="-30" rotation="0.0" />
+  <Shape elementID="b17bf" groupRef="afa5f" shapeType="Oval" fillColor="f2e3e3" fontSize="10" vAlign="Middle" centerX="86.5" centerY="331.75" width="91.0" height="73.5" zOrder="-28" rotation="0.0" />
+  <Shape elementID="a5e03" groupRef="ff986" shapeType="Oval" fillColor="f2e3e3" fontSize="10" vAlign="Middle" centerX="423.25" centerY="141.25" width="24.5" height="24.5" zOrder="-26" rotation="0.0" />
+  <Shape elementID="ca77e" shapeType="RoundedRectangle" lineThickness="2.0" color="666666" fillColor="f2e3e3" fontSize="10" vAlign="Middle" centerX="807.0000000000001" centerY="209.00000000000088" width="138.00000000000023" height="58.66666666666845" zOrder="-24" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="df9bb" groupRef="e111d" shapeType="Oval" fillColor="ccccff" fontSize="10" vAlign="Middle" centerX="457.75" centerY="784.75" width="67.5" height="67.5" zOrder="-22" rotation="0.0" />
+  <Shape elementID="bd717" shapeType="Oval" lineThickness="2.0" fillColor="ccccff" fontSize="10" vAlign="Middle" centerX="650.25" centerY="539.25" width="58.5" height="58.5" zOrder="-20" rotation="0.0" />
+  <Shape elementID="b1f65" shapeType="RoundedRectangle" lineThickness="2.0" color="666666" fillColor="ccccff" fontSize="10" vAlign="Middle" centerX="302.6666666666665" centerY="598.6666666666704" width="340.0000000000001" height="148.66666666666663" zOrder="-18" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="cd661" shapeType="RoundedRectangle" lineThickness="2.0" color="666666" fillColor="f2e3e3" fontSize="10" vAlign="Middle" centerX="347.0" centerY="208.3333333333345" width="152.0" height="61.333333333335105" zOrder="-16" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="f239b" groupRef="fa3c4" shapeType="Oval" lineThickness="2.0" color="c0c0c0" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="767.2666450075578" centerY="345.1333635573999" width="79.19995668178262" height="39.60006044813231" zOrder="-14" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="d30d0" shapeType="Oval" lineThickness="2.0" color="c0c0c0" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="660.5999783408911" centerY="345.46669689073286" width="79.19995668178262" height="39.60006044813231" zOrder="-12" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="a0089" shapeType="RoundedRectangle" lineThickness="2.0" color="666666" fillColor="f2e3e3" fontSize="10" vAlign="Middle" centerX="667.1666666666665" centerY="209.0000000000009" width="139.66666666666697" height="58.66666666666845" zOrder="-10" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="baa1e" groupRef="cd0b7" shapeType="Oval" lineThickness="2.0" color="c0c0c0" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="550.5999783408911" centerY="350.46669689073286" width="79.19995668178262" height="39.60006044813231" zOrder="-8" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="bb8cd" shapeType="RoundedRectangle" lineThickness="2.0" color="666666" fillColor="f2e3e3" fontSize="10" vAlign="Middle" centerX="509.99999999999955" centerY="209.00000000000088" width="169.33333333333414" height="60.00000000000175" zOrder="-6" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="c4b8a" shapeType="RoundedRectangle" lineThickness="2.0" color="666666" fillColor="f2e3e3" fontSize="10" vAlign="Middle" centerX="177.0" centerY="209.0000000000008" width="184.0" height="60.00000000000159" zOrder="-4" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="f7e37" groupRef="dbe61" shapeType="Oval" lineThickness="2.0" color="c0c0c0" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="496.59997834089154" centerY="383.46669689073275" width="79.19995668178262" height="39.60006044813231" zOrder="-2" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="aa9b3" shapeType="Oval" lineThickness="2.0" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="319.25" centerY="629.25" width="46.5" height="46.5" zOrder="16384" rotation="0.0" />
+  <Shape elementID="ac26e" groupRef="ff986" shapeType="Oval" fillColor="ff00cc" fontSize="10" vAlign="Middle" centerX="412.75" centerY="134.75" width="9.5" height="9.5" zOrder="16384" rotation="0.0" />
+  <Shape elementID="c3f7a" groupRef="acd9d" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="1064.5" centerY="81.75" width="101.0" height="140.5" zOrder="16384" rotation="0.0" />
+  <Shape elementID="ea7a7" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="ffffcc" fontSize="10" vAlign="Middle" centerX="947.199994161016" centerY="483.1000106172875" width="160.39998832203173" height="80.20002123457505" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="f5c13" groupRef="e040d" shapeType="Oval" lineThickness="2.0" color="c0c0c0" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="766.9333116742248" centerY="412.8000302240662" width="79.19995668178262" height="39.60006044813231" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="ad00a" shapeType="Oval" lineThickness="2.0" color="666666" fillColor="00cc99" fontSize="10" vAlign="Middle" centerX="403.33333333333314" centerY="61.6666666666667" width="97.33333333333347" height="95.33333333333333" zOrder="16388" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="f7b78" groupRef="e040d" shapeType="Oval" fillColor="3366ff" fontSize="10" vAlign="Middle" centerX="752.8333333333337" centerY="411.16666666666674" width="16.999999999999936" height="16.99999999999995" zOrder="16390" rotation="0.0" />
+  <Shape elementID="bac04" groupRef="fa3c4" shapeType="Oval" fillColor="3366ff" fontSize="10" vAlign="Middle" centerX="751.8333333333333" centerY="341.5000000000004" width="16.999999999999936" height="16.99999999999995" zOrder="32797" rotation="0.0" />
+  <Shape elementID="c01d1" groupRef="eb6ee" shapeType="Oval" lineThickness="2.0" color="c0c0c0" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="715.2666450075583" centerY="378.1333635573997" width="79.19995668178262" height="39.60006044813231" zOrder="32804" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="cfa3f" groupRef="eb6ee" shapeType="Oval" fillColor="3366ff" fontSize="10" vAlign="Middle" centerX="701.1666666666674" centerY="377.8333333333333" width="16.999999999999936" height="16.99999999999995" zOrder="32806" rotation="0.0" />
+  <Shape elementID="e8d7e" groupRef="b8699" shapeType="Oval" lineThickness="2.0" color="c0c0c0" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="429.59997834089125" centerY="411.8000302240664" width="79.19995668178262" height="39.60006044813231" zOrder="32810" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="cde32" groupRef="b8699" shapeType="Oval" fillColor="3366ff" fontSize="10" vAlign="Middle" centerX="414.1666666666672" centerY="410.16666666666686" width="16.999999999999936" height="16.99999999999995" zOrder="32812" rotation="0.0" />
+  <Shape elementID="ceba2" groupRef="cd0b7" shapeType="Oval" fillColor="3366ff" fontSize="10" vAlign="Middle" centerX="539.1666666666674" centerY="350.1666666666663" width="16.999999999999936" height="16.99999999999995" zOrder="32816" rotation="0.0" />
+  <Shape elementID="d1e48" groupRef="a13ff" shapeType="Oval" lineThickness="2.0" color="c0c0c0" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="436.2666450075584" centerY="353.1333635573996" width="79.19995668178262" height="39.60006044813231" zOrder="32820" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="e9de9" groupRef="dbe61" shapeType="Oval" fillColor="3366ff" fontSize="10" vAlign="Middle" centerX="483.16666666666697" centerY="382.50000000000017" width="16.999999999999936" height="16.99999999999995" zOrder="32822" rotation="0.0" />
+  <Shape elementID="bd96e" groupRef="a13ff" shapeType="Oval" fillColor="3366ff" fontSize="10" vAlign="Middle" centerX="424.1666666666668" centerY="352.16666666666697" width="16.999999999999936" height="16.99999999999995" zOrder="32826" rotation="0.0" />
+  <Shape elementID="d3f9e" groupRef="c4c04" shapeType="Oval" lineThickness="2.0" color="c0c0c0" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="558.5999783408911" centerY="412.46669689073286" width="79.19995668178262" height="39.60006044813231" zOrder="32830" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="d940a" groupRef="c4c04" shapeType="Oval" fillColor="3366ff" fontSize="10" vAlign="Middle" centerX="548.1666666666674" centerY="412.1666666666663" width="16.999999999999936" height="16.99999999999995" zOrder="32832" rotation="0.0" />
+  <Shape elementID="be37e" shapeType="Oval" fillColor="660066" fontSize="10" vAlign="Middle" centerX="319.1666666666668" centerY="220.16666666666697" width="16.999999999999936" height="16.99999999999995" zOrder="32834" rotation="0.0" />
+  <Shape elementID="ee07b" shapeType="Oval" fillColor="660066" fontSize="10" vAlign="Middle" centerX="176.1666666666668" centerY="221.16666666666697" width="16.999999999999936" height="16.99999999999995" zOrder="32836" rotation="0.0" />
+  <Shape elementID="e2e5a" shapeType="Oval" fillColor="660066" fontSize="10" vAlign="Middle" centerX="518.1666666666669" centerY="225.16666666666697" width="16.999999999999936" height="16.99999999999995" zOrder="32838" rotation="0.0" />
+  <Shape elementID="c50e3" shapeType="Oval" fillColor="660066" fontSize="10" vAlign="Middle" centerX="615.1666666666669" centerY="224.16666666666697" width="16.999999999999936" height="16.99999999999995" zOrder="32840" rotation="0.0" />
+  <Shape elementID="ebdda" shapeType="Oval" lineThickness="2.0" color="666666" fillColor="00cccc" fontSize="10" vAlign="Middle" centerX="412.48236897309187" centerY="74.30588845240239" width="49.63140461285121" height="48.611776904804714" zOrder="32842" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="d19e6" shapeType="Oval" fillColor="3366ff" fontSize="10" vAlign="Middle" centerX="646.1666666666674" centerY="352.1666666666663" width="16.999999999999936" height="16.99999999999995" zOrder="32846" rotation="0.0" />
+  <Shape elementID="df6be" shapeType="Oval" lineThickness="2.0" color="c0c0c0" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="606.5999783408911" centerY="379.46669689073286" width="79.19995668178262" height="39.60006044813231" zOrder="32852" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="a5a3b" shapeType="Oval" fillColor="3366ff" fontSize="10" vAlign="Middle" centerX="589.1666666666674" centerY="380.1666666666663" width="16.999999999999936" height="16.99999999999995" zOrder="32854" rotation="0.0" />
+  <Shape elementID="be883" shapeType="Oval" lineThickness="2.0" color="c0c0c0" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="662.5999783408911" centerY="409.46669689073286" width="79.19995668178262" height="39.60006044813231" zOrder="32860" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="e0a7d" shapeType="Oval" fillColor="3366ff" fontSize="10" vAlign="Middle" centerX="642.1666666666674" centerY="411.1666666666663" width="16.999999999999936" height="16.99999999999995" zOrder="32862" rotation="0.0" />
+  <Shape elementID="c7002" shapeType="Oval" fillColor="660066" fontSize="10" vAlign="Middle" centerX="777.1666666666669" centerY="223.16666666666697" width="16.999999999999936" height="16.99999999999995" zOrder="32864" rotation="0.0" />
+  <Shape elementID="e7824" groupRef="ff986" shapeType="Oval" fillColor="ff00cc" fontSize="10" vAlign="Middle" centerX="424.75" centerY="129.75" width="9.5" height="9.5" zOrder="32881" rotation="0.0" />
+  <Shape elementID="fad73" groupRef="ff986" shapeType="Oval" fillColor="ff00cc" fontSize="10" vAlign="Middle" centerX="434.75" centerY="138.75" width="9.5" height="9.5" zOrder="32882" rotation="0.0" />
+  <Shape elementID="fda67" groupRef="ff986" shapeType="Oval" fillColor="ff00cc" fontSize="10" vAlign="Middle" centerX="427.75" centerY="151.75" width="9.5" height="9.5" zOrder="32883" rotation="0.0" />
+  <Shape elementID="e4935" groupRef="a9c10" shapeType="Oval" lineThickness="3.0" color="cccc00" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="979.75" centerY="481.75" width="49.5" height="49.5" zOrder="32888" rotation="0.0" />
+  <Shape elementID="d8b51" shapeType="Oval" lineThickness="2.0" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="932.25" centerY="677.25" width="46.5" height="46.5" zOrder="32892" rotation="0.0" />
+  <Shape elementID="b1567" groupRef="e111d" shapeType="Oval" fillColor="990033" fontSize="10" vAlign="Middle" centerX="428.75" centerY="766.75" width="9.5" height="9.5" zOrder="32896" rotation="0.0" />
+  <Shape elementID="eed01" groupRef="e111d" shapeType="Oval" fillColor="990033" fontSize="10" vAlign="Middle" centerX="450.75" centerY="752.75" width="9.5" height="9.5" zOrder="32897" rotation="0.0" />
+  <Shape elementID="e0cc5" groupRef="e111d" shapeType="Oval" fillColor="990033" fontSize="10" vAlign="Middle" centerX="488.75" centerY="779.75" width="9.5" height="9.5" zOrder="32898" rotation="0.0" />
+  <Shape elementID="d81e0" groupRef="e111d" shapeType="Oval" fillColor="990033" fontSize="10" vAlign="Middle" centerX="477.75" centerY="757.75" width="9.5" height="9.5" zOrder="32899" rotation="0.0" />
+  <Shape elementID="ea2ce" groupRef="e111d" shapeType="Oval" fillColor="990033" fontSize="10" vAlign="Middle" centerX="484.75" centerY="803.75" width="9.5" height="9.5" zOrder="32900" rotation="0.0" />
+  <Shape elementID="d82db" groupRef="e111d" shapeType="Oval" fillColor="990033" fontSize="10" vAlign="Middle" centerX="461.75" centerY="816.75" width="9.5" height="9.5" zOrder="32901" rotation="0.0" />
+  <Shape elementID="cbf13" groupRef="d5047" shapeType="Oval" fillColor="ccccff" fontSize="10" vAlign="Middle" centerX="346.25" centerY="427.25" width="30.5" height="30.5" zOrder="32912" rotation="0.0" />
+  <Shape elementID="c0f31" groupRef="d5047" shapeType="Oval" fillColor="0000cc" fontSize="10" vAlign="Middle" centerX="356.75" centerY="417.75" width="9.5" height="9.5" zOrder="32913" rotation="0.0" />
+  <Shape elementID="fe52d" groupRef="d5047" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="359.75" centerY="432.75" width="9.5" height="9.5" zOrder="32914" rotation="0.0" />
+  <Shape elementID="c732f" groupRef="d5047" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="339.75" centerY="413.75" width="9.5" height="9.5" zOrder="32915" rotation="0.13517069864900902" />
+  <Shape elementID="ee07c" groupRef="d5047" shapeType="Oval" fillColor="009933" fontSize="10" vAlign="Middle" centerX="344.75" centerY="440.75" width="9.5" height="9.5" zOrder="32916" rotation="0.0" />
+  <Shape elementID="fe566" groupRef="e47cf" shapeType="Oval" fillColor="ccccff" fontSize="10" vAlign="Middle" centerX="147.25" centerY="780.25" width="30.5" height="30.5" zOrder="32918" rotation="0.0" />
+  <Shape elementID="a7194" groupRef="e47cf" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="157.75" centerY="770.75" width="9.5" height="9.5" zOrder="32919" rotation="0.0" />
+  <Shape elementID="fadd7" groupRef="e47cf" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="160.75" centerY="785.75" width="9.5" height="9.5" zOrder="32920" rotation="0.0" />
+  <Shape elementID="d6660" groupRef="e47cf" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="131.75" centerY="780.75" width="9.5" height="9.5" zOrder="32921" rotation="0.0" />
+  <Shape elementID="fee09" groupRef="e47cf" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="140.75" centerY="766.75" width="9.5" height="9.5" zOrder="32922" rotation="0.13517069864900902" />
+  <Shape elementID="f8919" groupRef="e47cf" shapeType="Oval" fillColor="ccccff" fontSize="10" vAlign="Middle" centerX="182.25" centerY="750.25" width="30.5" height="30.5" zOrder="32923" rotation="0.0" />
+  <Shape elementID="d0ab2" groupRef="e47cf" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="192.75" centerY="740.75" width="9.5" height="9.5" zOrder="32924" rotation="0.0" />
+  <Shape elementID="e23c4" groupRef="e47cf" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="195.75" centerY="755.75" width="9.5" height="9.5" zOrder="32925" rotation="0.0" />
+  <Shape elementID="af6bf" groupRef="e47cf" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="166.75" centerY="750.75" width="9.5" height="9.5" zOrder="32926" rotation="0.0" />
+  <Shape elementID="ea665" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="173.75" centerY="710.75" width="9.5" height="9.5" zOrder="32927" rotation="0.13517069864900902" />
+  <Shape elementID="b2e40" groupRef="e47cf" shapeType="Oval" fillColor="ccccff" fontSize="10" vAlign="Middle" centerX="190.25" centerY="791.25" width="30.5" height="30.5" zOrder="32928" rotation="0.0" />
+  <Shape elementID="d95ba" groupRef="e47cf" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="200.75" centerY="781.75" width="9.5" height="9.5" zOrder="32929" rotation="0.0" />
+  <Shape elementID="e6b63" groupRef="e47cf" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="203.75" centerY="796.75" width="9.5" height="9.5" zOrder="32930" rotation="0.0" />
+  <Shape elementID="cbb73" groupRef="e47cf" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="174.75" centerY="791.75" width="9.5" height="9.5" zOrder="32931" rotation="0.0" />
+  <Shape elementID="abc57" groupRef="e47cf" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="183.75" centerY="777.75" width="9.5" height="9.5" zOrder="32932" rotation="0.13517069864900902" />
+  <Shape elementID="d92f7" groupRef="acd9d" shapeType="Oval" fillColor="ff00cc" fontSize="10" vAlign="Middle" centerX="1036.75" centerY="129.75" width="15.5" height="15.5" zOrder="32933" rotation="0.0" />
+  <Shape elementID="f885a" groupRef="acd9d" shapeType="Oval" fillColor="990033" fontSize="10" vAlign="Middle" centerX="1036.75" centerY="28.75" width="15.5" height="15.5" zOrder="32934" rotation="0.0" />
+  <Shape elementID="e6c21" groupRef="acd9d" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="1036.75" centerY="53.75" width="15.5" height="15.5" zOrder="32936" rotation="0.0" />
+  <Shape elementID="e3b0d" groupRef="d5047" shapeType="Oval" fillColor="ccccff" fontSize="10" vAlign="Middle" centerX="304.25" centerY="466.25" width="30.5" height="30.5" zOrder="32938" rotation="0.0" />
+  <Shape elementID="ea269" groupRef="d5047" shapeType="Oval" fillColor="0000cc" fontSize="10" vAlign="Middle" centerX="314.75" centerY="456.75" width="9.5" height="9.5" zOrder="32939" rotation="0.0" />
+  <Shape elementID="afae6" groupRef="d5047" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="317.75" centerY="471.75" width="9.5" height="9.5" zOrder="32940" rotation="0.0" />
+  <Shape elementID="c7837" groupRef="d5047" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="297.75" centerY="452.75" width="9.5" height="9.5" zOrder="32941" rotation="0.13517069864900902" />
+  <Shape elementID="f7ed2" groupRef="d5047" shapeType="Oval" fillColor="009933" fontSize="10" vAlign="Middle" centerX="302.75" centerY="479.75" width="9.5" height="9.5" zOrder="32942" rotation="0.0" />
+  <Shape elementID="abc68" groupRef="d5047" shapeType="Oval" fillColor="ccccff" fontSize="10" vAlign="Middle" centerX="354.25" centerY="474.25" width="30.5" height="30.5" zOrder="32943" rotation="0.0" />
+  <Shape elementID="db400" groupRef="d5047" shapeType="Oval" fillColor="0000cc" fontSize="10" vAlign="Middle" centerX="364.75" centerY="464.75" width="9.5" height="9.5" zOrder="32944" rotation="0.0" />
+  <Shape elementID="cd93e" groupRef="d5047" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="367.75" centerY="479.75" width="9.5" height="9.5" zOrder="32945" rotation="0.0" />
+  <Shape elementID="f3b53" groupRef="d5047" shapeType="Oval" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="347.75" centerY="460.75" width="9.5" height="9.5" zOrder="32946" rotation="0.13517069864900902" />
+  <Shape elementID="a029c" groupRef="d5047" shapeType="Oval" fillColor="009933" fontSize="10" vAlign="Middle" centerX="352.75" centerY="487.75" width="9.5" height="9.5" zOrder="32947" rotation="0.0" />
+  <Shape elementID="dbee5" groupRef="acd9d" shapeType="Oval" fillColor="0000cc" fontSize="10" vAlign="Middle" centerX="1036.75" centerY="78.75" width="15.5" height="15.5" zOrder="32948" rotation="0.0" />
+  <Shape elementID="ca11a" groupRef="acd9d" shapeType="Oval" fillColor="009933" fontSize="10" vAlign="Middle" centerX="1036.75" centerY="103.75" width="15.5" height="15.5" zOrder="32950" rotation="0.0" />
+  <Group elementID="a1260" groupType="Group" />
+  <Group elementID="a13ff" groupType="Group" />
+  <Group elementID="a420c" groupType="Group" />
+  <Group elementID="a64e4" groupType="Group" />
+  <Group elementID="a9c10" groupType="Group" />
+  <Group elementID="a9cb6" groupType="Group" />
+  <Group elementID="acd9d" groupType="Group" />
+  <Group elementID="afa5f" groupType="Group" />
+  <Group elementID="b1382" groupType="Group" />
+  <Group elementID="b3fe3" groupType="Group" />
+  <Group elementID="b8699" groupType="Group" />
+  <Group elementID="c4c04" groupType="Group" />
+  <Group elementID="cd0b7" groupType="Group" />
+  <Group elementID="d046a" groupType="Group" />
+  <Group elementID="d5047" groupType="Group" />
+  <Group elementID="d6b90" groupType="Group" />
+  <Group elementID="d6de9" groupType="Group" />
+  <Group elementID="db91b" groupType="Group" />
+  <Group elementID="dbe61" groupType="Group" />
+  <Group elementID="e040d" groupType="Group" />
+  <Group elementID="e111d" groupType="Group" />
+  <Group elementID="e2ef6" groupType="Group" />
+  <Group elementID="e47cf" groupType="Group" />
+  <Group elementID="e974c" groupType="Group" />
+  <Group elementID="eabe4" groupType="Group" />
+  <Group elementID="eb6ee" groupType="Group" />
+  <Group elementID="f0e06" groupType="Group" />
+  <Group elementID="fa3c4" groupType="Group" />
+  <Group elementID="fb488" groupType="Group" />
+  <Group elementID="ff986" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Secreted monocytic miR-150 enhances targeted endothelial cell migration." URL="" citationID="c52" year="2010" source="Mol Cell">
+      <Xref dataSource="PubMed" identifier="20603081" />
+      <Author name="Zhang Y" />
+      <Author name="Liu D" />
+      <Author name="Chen X" />
+      <Author name="Li J" />
+      <Author name="Li L" />
+      <Author name="Bian Z" />
+      <Author name="Sun F" />
+      <Author name="Lu J" />
+      <Author name="Yin Y" />
+      <Author name="Cai X" />
+      <Author name="Sun Q" />
+      <Author name="Wang K" />
+      <Author name="Ba Y" />
+      <Author name="Wang Q" />
+      <Author name="Wang D" />
+      <Author name="Yang J" />
+      <Author name="Liu P" />
+      <Author name="Xu T" />
+      <Author name="Yan Q" />
+      <Author name="Zhang J" />
+      <Author name="Zen K" />
+      <Author name="Zhang CY" />
+    </Citation>
+    <Citation title="HSP60 trafficking in adult cardiac myocytes: role of the exosomal pathway." URL="" citationID="a21" year="2007" source="Am J Physiol Heart Circ Physiol">
+      <Xref dataSource="PubMed" identifier="17307989" />
+      <Author name="Gupta S" />
+      <Author name="Knowlton AA" />
+    </Citation>
+    <Citation title="Heat shock protein 70 is secreted from endothelial cells by a non-classical pathway involving exosomes." URL="" citationID="b5f" year="2009" source="Biochem Biophys Res Commun">
+      <Xref dataSource="PubMed" identifier="19555663" />
+      <Author name="Zhan R" />
+      <Author name="Leng X" />
+      <Author name="Liu X" />
+      <Author name="Wang X" />
+      <Author name="Gong J" />
+      <Author name="Yan L" />
+      <Author name="Wang L" />
+      <Author name="Wang Y" />
+      <Author name="Qian LJ" />
+    </Citation>
+    <Citation title="MicroRNA-146a is a therapeutic target and biomarker for peripartum cardiomyopathy." URL="" citationID="fb1" year="2013" source="J Clin Invest">
+      <Xref dataSource="PubMed" identifier="23619365" />
+      <Author name="Halkein J" />
+      <Author name="Tabruyn SP" />
+      <Author name="Ricke-Hoch M" />
+      <Author name="Haghikia A" />
+      <Author name="Nguyen NQ" />
+      <Author name="Scherr M" />
+      <Author name="Castermans K" />
+      <Author name="Malvaux L" />
+      <Author name="Lambert V" />
+      <Author name="Thiry M" />
+      <Author name="Sliwa K" />
+      <Author name="Noel A" />
+      <Author name="Martial JA" />
+      <Author name="Hilfiker-Kleiner D" />
+      <Author name="Struman I" />
+    </Citation>
+    <Citation title="Delivery of microRNA-126 by apoptotic bodies induces CXCL12-dependent vascular protection." URL="" citationID="f12" year="2009" source="Sci Signal">
+      <Xref dataSource="PubMed" identifier="19996457" />
+      <Author name="Zernecke A" />
+      <Author name="Bidzhekov K" />
+      <Author name="Noels H" />
+      <Author name="Shagdarsuren E" />
+      <Author name="Gan L" />
+      <Author name="Denecke B" />
+      <Author name="Hristov M" />
+      <Author name="Köppel T" />
+      <Author name="Jahantigh MN" />
+      <Author name="Lutgens E" />
+      <Author name="Wang S" />
+      <Author name="Olson EN" />
+      <Author name="Schober A" />
+      <Author name="Weber C" />
+    </Citation>
+    <Citation title="Cardiac myocyte exosomes: stability, HSP60, and proteomics." URL="" citationID="b37" year="2013" source="Am J Physiol Heart Circ Physiol">
+      <Xref dataSource="PubMed" identifier="23376832" />
+      <Author name="Malik ZA" />
+      <Author name="Kott KS" />
+      <Author name="Poe AJ" />
+      <Author name="Kuo T" />
+      <Author name="Chen L" />
+      <Author name="Ferrara KW" />
+      <Author name="Knowlton AA" />
+    </Citation>
+    <Citation title="Mechanism of TNF-α autocrine effects in hypoxic cardiomyocytes: initiated by hypoxia inducible factor 1α, presented by exosomes." URL="" citationID="eab" year="2012" source="J Mol Cell Cardiol">
+      <Xref dataSource="PubMed" identifier="23085511" />
+      <Author name="Yu X" />
+      <Author name="Deng L" />
+      <Author name="Wang D" />
+      <Author name="Li N" />
+      <Author name="Chen X" />
+      <Author name="Cheng X" />
+      <Author name="Yuan J" />
+      <Author name="Gao X" />
+      <Author name="Liao M" />
+      <Author name="Wang M" />
+      <Author name="Liao Y" />
+    </Citation>
+    <Citation title="Atheroprotective communication between endothelial cells and smooth muscle cells through miRNAs." URL="" citationID="c18" year="2012" source="Nat Cell Biol">
+      <Xref dataSource="PubMed" identifier="22327366" />
+      <Author name="Hergenreider E" />
+      <Author name="Heydt S" />
+      <Author name="Tréguer K" />
+      <Author name="Boettger T" />
+      <Author name="Horrevoets AJ" />
+      <Author name="Zeiher AM" />
+      <Author name="Scheffer MP" />
+      <Author name="Frangakis AS" />
+      <Author name="Yin X" />
+      <Author name="Mayr M" />
+      <Author name="Braun T" />
+      <Author name="Urbich C" />
+      <Author name="Boon RA" />
+      <Author name="Dimmeler S" />
+    </Citation>
+    <Citation title="Extracellular Vesicles in Heart Disease: Excitement for the Future ?" URL="" citationID="bf3" year="2014" source="Exosomes Microvesicles">
+      <Xref dataSource="PubMed" identifier="25429310" />
+      <Author name="Danielson KM" />
+      <Author name="Das S" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+  </OntologyTerms>
+</Pathway>
+

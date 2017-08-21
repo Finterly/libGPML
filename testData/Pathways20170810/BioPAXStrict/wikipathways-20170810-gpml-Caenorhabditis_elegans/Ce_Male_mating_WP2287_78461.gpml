@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="fe9e4">
+ <bp:xref rdf:resource="cde" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CWP-5</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:Protein rdf:about="e3618">
+ <bp:xref rdf:resource="edd" />
+ <bp:xref rdf:resource="ead" />
+ <bp:xref rdf:resource="e47" />
+ <bp:xref rdf:resource="da8" />
+ <bp:xref rdf:resource="c81" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2/PC-2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">anti PKD-2 antibodies only label male-specific neurons</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2 localized to cilia by CIL-1</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2 protein is hghly enriched in sensory cilia that are directly exposed to the environment</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2 GFP accumulates in a ring around the ciliary transition zones. </bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">lov-1 and pkd-2 are expressed in male-specific sensory neurons and are localized to the similar region of the same cell.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Within the ciliary region, PKD-2::GFP is distributed throughout the cilium, but primarily concentrated at the ciliary base, which corresponds to the distal-most dendrite and transition zone regions.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">In wild-type adult males, PKD-2 is distributed along the ciliary axoneme and accumulates in the transition zone between the cilium and dendrite. &lt;localization is developmentally regulated. &gt; In ray neurons of wild-type late L4 males, the magority of the PKD-2 protein localizes to the tip of the cilium and around the transition zone, whereas the staining along the ciliary axoneme is weak. </bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Functional localization of PKD-2 is in the ciliary plasma membrane and in intracellular membrane</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="c0b6d">
+ <bp:xref rdf:resource="c50" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAM-1/STAM</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GFP-tagged STAM-1 fusion protein localized to cytoplasmic and dendritic puncta resembling endosomes</bp:comment>
+</bp:Protein>
+
+<bp:Complex rdf:about="id28">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id28</bp:displayName>
+ <bp:component rdf:resource="e158c" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CK2</bp:comment>
+</bp:Complex>
+
+<bp:Complex rdf:about="id27">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id27</bp:displayName>
+ <bp:component rdf:resource="bc131" />
+</bp:Complex>
+
+<bp:Protein rdf:about="e158c">
+ <bp:xref rdf:resource="edd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KIN-10/CK2</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CK2, lov-1, and pkd-2 act in the same genetic pathway regulating mating behavior.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2(S534) is one but not the only in vitro CK2 phosphorylation site. </bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CK2-phosphorylated PKD-2 is dephosphorylated by calcineurin</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CK2 modulates PKD-2 function.</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="ee71e">
+ <bp:xref rdf:resource="edd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2/PC-2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2 phosphorylation state appears to modulate its function and ciliary localization, with S534A and S534D reflecting two extreme states.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CK2-phosphorylated PKD-2 is dephosphorylated by calcineurin.</bp:comment>
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="c81">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1999</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sternberg PW</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Barr MM</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">10517638</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nature</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">A polycystic kidney-disease gene homologue required for male mating behaviour in C. elegans.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:PublicationXref rdf:about="edd">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2006</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hu J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Knobel KM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bae YK</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Barr MM</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">16481400</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mol Biol Cell</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Casein kinase II and calcineurin modulate TRPP function and ciliary localization.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:PublicationXref rdf:about="cde">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2010</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Miller RM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Portman DS</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">20223935</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dis Model Mech</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">A latent capacity of the C. elegans polycystins to disrupt sensory transduction is repressed by the single-pass ciliary membrane protein CWP-5.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="a4af0">
+ <bp:xref rdf:resource="edd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KIN-10/CK2</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id20">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id20</bp:displayName>
+ <bp:right rdf:resource="d7cde" />
+ <bp:left rdf:resource="d2970" />
+</bp:BiochemicalReaction>
+
+<bp:PublicationXref rdf:about="e47">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2001</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nguyen CQ</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sternberg PW</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hall DH</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DeModena J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Barr MM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Braun D</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">11553327</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Curr Biol</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The Caenorhabditis elegans autosomal dominant polycystic kidney disease gene homologs lov-1 and pkd-2 act in the same pathway.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:BiochemicalReaction rdf:about="id22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id22</bp:displayName>
+ <bp:right rdf:resource="bb606" />
+ <bp:left rdf:resource="a092a" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id21">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id21</bp:displayName>
+ <bp:right rdf:resource="d2970" />
+ <bp:left rdf:resource="e158c" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id24">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id24</bp:displayName>
+ <bp:right rdf:resource="ee71e" />
+ <bp:left rdf:resource="d2970" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id23">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id23</bp:displayName>
+ <bp:right rdf:resource="fe9e4" />
+ <bp:left rdf:resource="bb606" />
+</bp:BiochemicalReaction>
+
+<bp:Complex rdf:about="id26">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id26</bp:displayName>
+ <bp:component rdf:resource="aebfe" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id25">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id25</bp:displayName>
+ <bp:component rdf:resource="a4af0" />
+</bp:Complex>
+
+<bp:BiochemicalReaction rdf:about="id17">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id17</bp:displayName>
+ <bp:right rdf:resource="bb2d7" />
+ <bp:left rdf:resource="e5093" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id16</bp:displayName>
+ <bp:left rdf:resource="ce8bd" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id19">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id19</bp:displayName>
+ <bp:right rdf:resource="e3618" />
+ <bp:left rdf:resource="a092a" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id18">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id18</bp:displayName>
+ <bp:left rdf:resource="a092a" />
+</bp:BiochemicalReaction>
+
+<bp:PublicationXref rdf:about="c50">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2007</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hu J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Wittekind SG</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Barr MM</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">17581863</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mol Biol Cell</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAM and Hrs down-regulate ciliary TRP receptors.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:PublicationXref rdf:about="c97">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2005</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hu J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Barr MM</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15563610</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mol Biol Cell</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ATP-2 interacts with the PLAT domain of LOV-1 and is involved in Caenorhabditis elegans polycystin signaling.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:PublicationXref rdf:about="ead">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2006</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hu J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rosenbaum JL</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Qin H</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Knobel KM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bae YK</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Barr MM</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">16943275</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Development</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">General and cell-type specific mechanisms target TRPP2/PKD-2 to cilia.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CWP-5</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C50C3.7</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KIN-10/CK2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">F48C11.2</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id15</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T01G9.6</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="bb2d7">
+ <bp:xref rdf:resource="c50" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAM-1/STAM</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">stam-1 and pkd-2 are clearly coexpressed in male-specific ciliated CEM, ray B-type(RnB), and hook HOB sensory neurons</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAM-1A specifically associates with the LOV-1 C-tail</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAM-1 and HGRS-1 expression completely overlaps in cell bodies and ciliary bases of polysystin-expressing neurons</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAM-1A binds, sorts, and targets the polycystin complex for lysosomal degradation</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAM-1A::GFP labels puncta and accumulates at ciliary bases, but is obviously excluded from the cilium proper of CEM, RnB and HOB neurons
+
+</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAM-1A. but not STAM-1B, specifically acts in the polycystin down-regulation process. </bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAM-1A co-localizes at the ciliary base with LOV-1 and PKD-2</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="ddfdf">
+ <bp:xref rdf:resource="ead" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2/PC-2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2 is synthesized in the ER and packaged into vesicles that are transported to the ciliary base and inserted onto the ciliary membrane.</bp:comment>
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="da8">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2009</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kim E</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bae YK</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L&apos;hernault SW</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Barr MM</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">19781942</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Curr Biol</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The CIL-1 PI 5-phosphatase localizes TRP Polycystins to cilia and activates sperm in C. elegans.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="d2970">
+ <bp:xref rdf:resource="edd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2/PC-2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2 phosphorylation state appears to modulate its function and ciliary localization, with S534A and S534D reflecting two extreme states. </bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CK2-phosphorylated PKD-2 is dephosphorylated by calcineurin.</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="bdbb9">
+ <bp:xref rdf:resource="c81" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LOV-1/PC-1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LOV-1 localizes to intracellular membranes</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="d7cde">
+ <bp:xref rdf:resource="edd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2/PC-2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2 phosphorylation state appears to modulate its function and ciliary localization, with S534A and S534D reflecting two extreme states.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CK2-phosphorylated PKD-2 is dephosphorylated by calcineurin.</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="bb606">
+ <bp:xref rdf:resource="c97" />
+ <bp:xref rdf:resource="e47" />
+ <bp:xref rdf:resource="da8" />
+ <bp:xref rdf:resource="c81" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LOV-1/PC-1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LOV-1 is expressed in male specific sensory neurons...with basodendritic subcellular localization in cell body and sensory endings</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">lov-1 and pkd-2 are expressed in male-specific sensory neurons and are localized to the similar region of the same cell.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LOV-1 localized to cilia by CIL-1</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">lov-1 and atp-2 are coexpressed in the tail ray B neurons and HOB hook neuron...as well as the male-specific CEM head neurons.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">lov-1 is exclusively expressed in three categories of adult male sensory neurons: the rays, the hook, and the head CEMs</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e5093">
+ <bp:xref rdf:resource="e47" />
+ <bp:xref rdf:resource="c81" />
+ <bp:xref rdf:resource="c50" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2/PC-2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2 degradation does not require K48 polyubiquitination and is likely due to STAM-1-Hrs-mediated degradation. </bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2 localizes to intracellular membranes</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Functional localization of PKD-2 is in the ciliary plasma membrane and in intracellular membrane</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="a092a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIL-1</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Caenorhabditis elegans</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Caenorhabditis elegans</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id17" />
+ <bp:pathwayComponent rdf:resource="id16" />
+ <bp:pathwayComponent rdf:resource="id19" />
+ <bp:pathwayComponent rdf:resource="id18" />
+ <bp:pathwayComponent rdf:resource="id20" />
+ <bp:pathwayComponent rdf:resource="id22" />
+ <bp:pathwayComponent rdf:resource="id21" />
+ <bp:pathwayComponent rdf:resource="id24" />
+ <bp:pathwayComponent rdf:resource="id23" />
+ <bp:pathwayComponent rdf:resource="id15" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Male mating</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Caenorhabditis elegans males exhibit sterotypic and invariant mating behavior starting the moment the animal senses a hermaphrodite and ending with insemination.  This complex behavior has been broken down into six steps or sub behaviors: male response to hermaphrodite contact, backwards movement along her body, sharply turning in a ventral coil upon reaching the head or tail, continued backing until his tail contacts the vulva (vulval location), spicule insertion, and ejaculation into the hermaphrodite uterus. Each of these sub behaviors have been molecularly dissected and it has been found that two of these sub behaviors, male response to hermaphrodite contact and vulval location involve similar molecules.  In particular these behaviors involve cell autonomous signaling through LOV-1 and PKD-2, which are homologs of human polycystin kidney disease (PKD) associated genes PC-1 and PC-2 respectively. Studies in C. elegans have shown that these genes likely have a sensory function rather than structural or development role in the cilia of male sensory neurons. The identification and characterization of LOV-1 and PKD-2 in C. elegans has lead to insights and new avenues of inquiry in the study of human PKD polycystin pathways.  (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Physiological Process (WikiPathways-category)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Y73F8A.1</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="aea45">
+ <bp:xref rdf:resource="ead" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2/PC-2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2 is synthesized in the ER and packaged into vesicles that are transported to the ciliary base and inserted onto the ciliary membrane.</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2/PC-2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="ce8bd">
+ <bp:xref rdf:resource="ead" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2/PC-2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PKD-2 is synthesized in the ER and packaged into vesicles that are transported to the ciliary base and inserted onto the ciliary membrane.</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ZK945.9</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">LOV-1/PC-1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="aebfe">
+ <bp:xref rdf:resource="edd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KIN-10/CK2</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">C34G6.7</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="bc131">
+ <bp:xref rdf:resource="edd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KIN-10/CK2</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KIN-3::GFP and KIN-10 GFP are enriched in cilia and also found in cell bodies (including nuclei), dendrites, and axons.</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">kin-3 and kin-10 are coexpressed with lov-1 and pkd-2 in the male-specific CEM head neurons and ray RnB and hook HOB tail neurons</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAM-1/STAM</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CIL-1</bp:displayName>
+</bp:ProteinReference>
+</rdf:RDF>

@@ -1,0 +1,1536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Allograft Rejection" dataSource="http://www.genome.jp/kegg-bin/show_pathway?hsa05330" organism="Homo sapiens" width="2543.305322128852" height="1093.5728010079529">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">This pathway illustrates molecular interactions involved in the fundamental adaptive immune response for allograft destruction. This pathway was adapted in large part from the KEGG pathway http://www.genome.jp/kegg/pathway/hsa/hsa05330.html. In the initial step of this diagram, antigen presenting cells (APC's), either those from the donor (direct pathway) or from the recipient (indirect pathway) activate naive t cells leading to both CD8+ and CD4+ T cell maturation. CD8+ stimulated T cells lead to apoptosis of the allograft donor cells whereas CD4+ T cells differentiate into TH1, TH2, T17, and Treg cells. Activated TH1 produces TNFA and NO and damages donor graft cells by cytotoxicity. TH2 cell activates B cells. Activated B cells lead to plasma cell formation followed by IgG antibodies and the complement cascade pathway in acute antibody-mediated rejection (AMR) and chronic AMR with C3 being the therapeutic target. Exogenous treatment with YCF inhibits C3, thus preventing AMR. Eculizumab binds to C5 which prevent C5a production and the membrane attack complex.  C3a and C35 act as potent chemotactic factors, promoting the infiltration of pro-inflammatory cells. Belatacept inhibits CD80/86 binding to CD28. Corticosteroids inhibit pro-inflammatory cytokines. Corticosteroids contribute to immune suppression such as CTLA4 which inhibits T-cell activation.
+</Comment>
+  <Comment source="WikiPathways-category">Physiological Process</Comment>
+  <Attribute key="ConversionDate" value="20110521" />
+  <Attribute key="KeggId" value="path:hsa05330" />
+  <CitationRef citationID="f48" />
+  <CitationRef citationID="bde" />
+  <CitationRef citationID="d87" />
+  <CitationRef citationID="bb2" />
+  <CitationRef citationID="e98" />
+  <CitationRef citationID="cbe" />
+  <CitationRef citationID="f4e" />
+  <DataNode elementID="a16d3" textLabel="GDNF" groupRef="d097b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1613.7331932773086" centerY="639.1764705882349" width="57.4663865546172" height="20.784313725489937" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000168621" />
+  </DataNode>
+  <DataNode elementID="a3118" textLabel="C5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2150.896358543419" centerY="671.0826330532211" width="46.0" height="19.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000106804" />
+  </DataNode>
+  <DataNode elementID="a65a2" textLabel="CCL19" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2000.3963585434183" centerY="837.5826330532211" width="59.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000172724" />
+  </DataNode>
+  <DataNode elementID="a99fd" textLabel="VEGFA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1553.966386554617" centerY="761.7843137254899" width="55.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000112715" />
+  </DataNode>
+  <DataNode elementID="aa018" textLabel="MICA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1737.466386554617" centerY="945.7843137254899" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="100507436" />
+  </DataNode>
+  <DataNode elementID="aa113" textLabel="BHMT2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="906.4663865546203" centerY="651.7843137254899" width="50.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000132840" />
+  </DataNode>
+  <DataNode elementID="acd55" textLabel="LRRK2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2000.3963585434183" centerY="857.5826330532211" width="59.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000188906" />
+  </DataNode>
+  <DataNode elementID="addb4" textLabel="PECR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1676.466386554617" centerY="883.7843137254899" width="39.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000115425" />
+  </DataNode>
+  <DataNode elementID="af96d" textLabel="GDNF" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="854.9663865546222" centerY="713.7843137254899" width="38.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000168621" />
+  </DataNode>
+  <DataNode elementID="b0ca3" textLabel="PDGFRA" groupRef="d097b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1613.7331932773086" centerY="680.7450980392148" width="57.4663865546172" height="20.784313725489937" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000134853" />
+  </DataNode>
+  <DataNode elementID="b38c3" textLabel="STAT1" groupRef="b81ac" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1553.966386554617" centerY="701.7843137254899" width="55.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000115415" />
+  </DataNode>
+  <DataNode elementID="b7493" textLabel="IL21" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1930.8963585434183" centerY="839.5826330532211" width="47.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138684" />
+  </DataNode>
+  <DataNode elementID="b76ed" textLabel="C5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2150.896358543419" centerY="816.5826330532211" width="30.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000106804" />
+  </DataNode>
+  <DataNode elementID="ba766" textLabel="CXCL11" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1737.466386554617" centerY="925.7843137254899" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000169248" />
+  </DataNode>
+  <DataNode elementID="c1cd4" textLabel="IL2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="983.966386554617" centerY="281.78431372548994" width="40.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000109471" />
+  </DataNode>
+  <DataNode elementID="c3a7a" textLabel="CXCR5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1613.7331932773086" centerY="761.0" width="57.4663865546172" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000160683" />
+  </DataNode>
+  <DataNode elementID="c3cc3" textLabel="GNLY" color="0033ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1439.5" centerY="111.0" width="47.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000115523" />
+  </DataNode>
+  <DataNode elementID="c5447" textLabel="HARS" groupRef="d097b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1613.7331932773086" centerY="741.8529411764698" width="57.4663865546172" height="18.294117647060375" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000170445" />
+  </DataNode>
+  <DataNode elementID="c8e31" textLabel="BHMT2" groupRef="d097b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1613.7331932773086" centerY="701.5294117647047" width="57.4663865546172" height="20.784313725489937" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000132840" />
+  </DataNode>
+  <DataNode elementID="ca773" textLabel="CXCL9" color="cc0000" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="906.4663865546203" centerY="671.7843137254899" width="50.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138755" />
+  </DataNode>
+  <DataNode elementID="cafeb" textLabel="CCL19" groupRef="d097b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1613.7331932773086" centerY="722.3137254901947" width="57.4663865546172" height="20.784313725489937" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000172724" />
+  </DataNode>
+  <DataNode elementID="cc0d9" textLabel="CXCL9" groupRef="b81ac" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1553.966386554617" centerY="641.7843137254899" width="55.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138755" />
+  </DataNode>
+  <DataNode elementID="ccb56" textLabel="CXCL13" groupRef="b81ac" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1553.966386554617" centerY="721.7843137254899" width="55.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000156234" />
+  </DataNode>
+  <DataNode elementID="ccbca" textLabel="CSNK2A2" groupRef="d097b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1613.7331932773086" centerY="659.9607843137248" width="57.4663865546172" height="20.784313725489937" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000070770" />
+  </DataNode>
+  <DataNode elementID="cde81" textLabel="C3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2109.896358543419" centerY="729.5826330532211" width="38.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000125730" />
+  </DataNode>
+  <DataNode elementID="d2ca9" textLabel="TUBA1B" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1720.466386554617" centerY="854.7843137254899" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000123416" />
+  </DataNode>
+  <DataNode elementID="d3735" textLabel="PDGFRA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1675.466386554617" centerY="946.7843137254899" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000134853" />
+  </DataNode>
+  <DataNode elementID="d61a0" textLabel="GDNF" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1930.8963585434183" centerY="859.5826330532211" width="47.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000168621" />
+  </DataNode>
+  <DataNode elementID="d9847" textLabel="CXCL12" groupRef="b81ac" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1553.966386554617" centerY="681.7843137254899" width="55.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000107562" />
+  </DataNode>
+  <DataNode elementID="e19b5" textLabel="CCL21" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1795.966386554617" centerY="859.7843137254899" width="47.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000137077" />
+  </DataNode>
+  <DataNode elementID="e1c1e" textLabel="GABPA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1737.466386554617" centerY="965.7843137254899" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000154727" />
+  </DataNode>
+  <DataNode elementID="e1f14" textLabel="AGTR1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1675.466386554617" centerY="926.7843137254899" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000144891" />
+  </DataNode>
+  <DataNode elementID="e842d" textLabel="CXCL11" groupRef="b81ac" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1553.966386554617" centerY="661.7843137254899" width="55.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000169248" />
+  </DataNode>
+  <DataNode elementID="e8800" textLabel="CSNK2A2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1684.966386554617" centerY="815.7843137254899" width="50.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000070770" />
+  </DataNode>
+  <DataNode elementID="ebf63" textLabel="C3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2110.896358543419" centerY="698.5826330532211" width="38.0" height="18.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000125730" />
+  </DataNode>
+  <DataNode elementID="eee9f" textLabel="CCL21" groupRef="b81ac" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1553.966386554617" centerY="741.7843137254899" width="55.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000137077" />
+  </DataNode>
+  <DataNode elementID="f05e5" textLabel="IL1A" groupRef="f95a5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="785.9663865546235" centerY="743.7843137254899" width="50.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000115008" />
+  </DataNode>
+  <DataNode elementID="f3f23" textLabel="C4A" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1865.4796918767513" centerY="772.5826330532211" width="34.166666666666075" height="18.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="720" />
+  </DataNode>
+  <DataNode elementID="f5368" textLabel="COL5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1675.466386554617" centerY="966.7843137254899" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000130635" />
+  </DataNode>
+  <DataNode elementID="f6725" textLabel="IL8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1868.3963585434183" centerY="861.5826330532211" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000169429" />
+  </DataNode>
+  <DataNode elementID="f68e3" textLabel="HARS" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="906.4663865546203" centerY="711.7843137254899" width="50.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000170445" />
+  </DataNode>
+  <DataNode elementID="f6aa9" textLabel="IFNG" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1795.966386554617" centerY="839.7843137254899" width="47.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000111537" />
+  </DataNode>
+  <DataNode elementID="f6acf" textLabel="CXCL11" color="cc0000" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="906.4663865546203" centerY="691.7843137254899" width="50.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000169248" />
+  </DataNode>
+  <DataNode elementID="f7c3c" textLabel="CXCL9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1868.3963585434183" centerY="841.5826330532211" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138755" />
+  </DataNode>
+  <DataNode elementID="f96b0" textLabel="VIM" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1732.966386554617" centerY="825.7843137254899" width="28.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000026025" />
+  </DataNode>
+  <DataNode elementID="fa723" textLabel="IL21" groupRef="d097b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1613.7331932773086" centerY="619.392156862745" width="57.4663865546172" height="18.784313725489937" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138684" />
+  </DataNode>
+  <DataNode elementID="fd27e" textLabel="IFNG" groupRef="b81ac" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1553.966386554617" centerY="621.7843137254899" width="55.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000111537" />
+  </DataNode>
+  <DataNode elementID="fea98" textLabel="ABCB1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2252.125" centerY="214.75" width="55.75" height="20.0" zOrder="32768">
+    <CitationRef citationID="fac" />
+    <Xref dataSource="Ensembl" identifier="ENSG00000085563" />
+  </DataNode>
+  <DataNode elementID="c00bd" textLabel="CD28" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="575.9999999999998" centerY="495.0000000000002" width="40.0" height="20.0" zOrder="32780">
+    <Comment source="KeggConverter">Original kegg element: gene;29;hsa:940</Comment>
+    <Xref dataSource="Entrez Gene" identifier="940" />
+  </DataNode>
+  <DataNode elementID="cc347" textLabel="IFNG" color="0033ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="924.4663865546192" centerY="562.7843137254899" width="37.0" height="20.0" zOrder="32782">
+    <Xref dataSource="Ensembl" identifier="ENSG00000111537" />
+  </DataNode>
+  <DataNode elementID="bba7d" textLabel="IL13" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="854.9663865546222" centerY="693.7843137254899" width="38.0" height="20.0" zOrder="32794">
+    <Xref dataSource="Ensembl" identifier="ENSG00000169194" />
+  </DataNode>
+  <DataNode elementID="b068c" textLabel="IL4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="854.9663865546222" centerY="653.7843137254899" width="38.0" height="20.0" zOrder="32798">
+    <Xref dataSource="Ensembl" identifier="ENSG00000113520" />
+  </DataNode>
+  <DataNode elementID="d8220" textLabel="IL12B" groupRef="b862b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="821.9663865546244" centerY="152.78431372549034" width="58.0" height="20.0" zOrder="32808">
+    <Comment source="KeggConverter">Original kegg element: gene;41;hsa:3592 hsa:3593</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3593" />
+  </DataNode>
+  <DataNode elementID="fd42e" textLabel="HLA-B" groupRef="ec3d3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1297.966386554617" centerY="75.78431372549015" width="80.0" height="20.0" zOrder="32810">
+    <Comment source="KeggConverter">Original kegg element: gene;20;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3106" />
+  </DataNode>
+  <DataNode elementID="a5180" textLabel="ko:K10785" groupRef="e0014" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1165.966386554617" centerY="129.78431372549028" width="80.0" height="20.0" zOrder="32830">
+    <Xref dataSource="Kegg ortholog" identifier="K10784..." />
+  </DataNode>
+  <DataNode elementID="d2fea" textLabel="Nitric oxide" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1427.466386554617" centerY="431.78431372548994" width="68.0" height="20.0" zOrder="32834">
+    <Xref dataSource="KEGG Compound" identifier="C00533" />
+  </DataNode>
+  <DataNode elementID="d6f94" textLabel="IL10" groupRef="c43fb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1129.466386554617" centerY="612.7843137254899" width="31.0" height="20.0" zOrder="32850">
+    <Comment source="KeggConverter">Original kegg element: gene;31;hsa:3586</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3586" />
+  </DataNode>
+  <DataNode elementID="efd3a" textLabel="Cell adhesion molecules (CAMs)" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="588.4663865546235" centerY="685.7843137254899" width="189.0" height="20.0" zOrder="32866">
+    <Comment source="KeggConverter">Original kegg element: map;7;path:hsa04514</Comment>
+    <Xref dataSource="KEGG Genes" identifier="path:hsa04514" />
+  </DataNode>
+  <DataNode elementID="c8ca2" textLabel="HLA-G" groupRef="ec3d3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1297.966386554617" centerY="35.784313725490236" width="80.0" height="20.0" zOrder="32868">
+    <Comment source="KeggConverter">Original kegg element: gene;20;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3135" />
+  </DataNode>
+  <DataNode elementID="abd48" textLabel="HLA-F" groupRef="ec3d3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1297.966386554617" centerY="135.78431372549034" width="80.0" height="20.0" zOrder="32874">
+    <Comment source="KeggConverter">Original kegg element: gene;20;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3134" />
+  </DataNode>
+  <DataNode elementID="bea5c" textLabel="PRF1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1612.966386554617" centerY="238.78431372549016" width="38.0" height="20.0" zOrder="32880">
+    <Comment source="KeggConverter">Original kegg element: gene;22;hsa:5551</Comment>
+    <Xref dataSource="Entrez Gene" identifier="5551" />
+  </DataNode>
+  <DataNode elementID="f899d" textLabel="HLA-C" groupRef="ec3d3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1297.966386554617" centerY="115.78431372549018" width="80.0" height="20.0" zOrder="32886">
+    <Comment source="KeggConverter">Original kegg element: gene;20;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3107" />
+  </DataNode>
+  <DataNode elementID="f0c7a" textLabel="IL2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="924.4663865546192" centerY="542.7843137254899" width="37.0" height="20.0" zOrder="32902">
+    <Xref dataSource="Ensembl" identifier="ENSG00000109471" />
+  </DataNode>
+  <DataNode elementID="fd566" textLabel="IL21" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="800.9663865546239" centerY="815.7843137254899" width="50.0" height="18.0" zOrder="32904">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138684" />
+  </DataNode>
+  <DataNode elementID="a26b5" textLabel="FOXP3" color="0033ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="642.4663865546235" centerY="719.7843137254899" width="43.0" height="20.0" zOrder="32914">
+    <Xref dataSource="Ensembl" identifier="ENSG00000049768" />
+  </DataNode>
+  <DataNode elementID="a00d3" textLabel="IL22" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="800.9663865546239" centerY="834.7843137254899" width="50.0" height="20.0" zOrder="32920">
+    <Xref dataSource="Ensembl" identifier="ENSG00000127318" />
+  </DataNode>
+  <DataNode elementID="e92c3" textLabel="HLA-E" groupRef="ec3d3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1297.966386554617" centerY="55.7843137254902" width="80.0" height="20.0" zOrder="32940">
+    <Comment source="KeggConverter">Original kegg element: gene;20;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3133" />
+  </DataNode>
+  <DataNode elementID="c09e4" textLabel="GZMB" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1612.966386554617" centerY="264.78431372548994" width="36.0" height="20.0" zOrder="32968">
+    <Comment source="KeggConverter">Original kegg element: gene;21;hsa:3002</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3002" />
+  </DataNode>
+  <DataNode elementID="ba467" textLabel="TGFB1" color="0033ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="713.9663865546235" centerY="720.7843137254899" width="44.0" height="20.0" zOrder="32976">
+    <Xref dataSource="Ensembl" identifier="ENSG00000105329" />
+  </DataNode>
+  <DataNode elementID="feb4b" textLabel="IL10" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="713.9663865546235" centerY="738.4093137254899" width="44.0" height="15.25" zOrder="32978">
+    <Xref dataSource="Ensembl" identifier="ENSG00000136634" />
+  </DataNode>
+  <DataNode elementID="b593d" textLabel="TNF" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1427.466386554617" centerY="404.78431372548994" width="37.0" height="20.0" zOrder="32982">
+    <Comment source="KeggConverter">Original kegg element: gene;39;hsa:7124</Comment>
+    <Xref dataSource="Entrez Gene" identifier="7124" />
+  </DataNode>
+  <DataNode elementID="c6f91" textLabel="ko:K10784" groupRef="e0014" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1165.966386554617" centerY="149.78431372549034" width="80.0" height="20.0" zOrder="32984">
+    <Xref dataSource="Kegg ortholog" identifier="K10784..." />
+  </DataNode>
+  <DataNode elementID="c41f2" textLabel="IL5" groupRef="c43fb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1129.466386554617" centerY="592.7843137254899" width="31.0" height="20.0" zOrder="32986">
+    <Comment source="KeggConverter">Original kegg element: gene;27;hsa:3567</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3567" />
+  </DataNode>
+  <DataNode elementID="f0348" textLabel="IL17A" color="0033ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="800.9663865546239" centerY="796.7843137254899" width="50.0" height="20.0" zOrder="32994">
+    <Xref dataSource="Ensembl" identifier="ENSG00000112115" />
+  </DataNode>
+  <DataNode elementID="e8dbd" textLabel="IL4" groupRef="c43fb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1129.466386554617" centerY="572.7843137254899" width="31.0" height="20.0" zOrder="33012">
+    <Comment source="KeggConverter">Original kegg element: gene;26;hsa:3565</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3565" />
+  </DataNode>
+  <DataNode elementID="c838b" textLabel="IL12A" groupRef="b862b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="821.9663865546244" centerY="172.78431372549034" width="58.0" height="20.0" zOrder="33018">
+    <Comment source="KeggConverter">Original kegg element: gene;41;hsa:3592 hsa:3593</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3592" />
+  </DataNode>
+  <DataNode elementID="bd16d" textLabel="IFNG" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1094.966386554617" centerY="328.28431372548994" width="46.0" height="25.0" zOrder="33020">
+    <Comment source="KeggConverter">Original kegg element: gene;34;hsa:3458</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3458" />
+  </DataNode>
+  <DataNode elementID="ed2c3" textLabel="IL5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="854.9663865546222" centerY="673.7843137254899" width="38.0" height="20.0" zOrder="33032">
+    <Xref dataSource="Ensembl" identifier="ENSG00000113525" />
+  </DataNode>
+  <DataNode elementID="f7a59" textLabel="CD40LG" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1058.966386554617" centerY="682.7843137254899" width="44.0" height="20.0" zOrder="33087">
+    <Comment source="KeggConverter">Original kegg element: gene;38;hsa:959</Comment>
+    <Xref dataSource="Entrez Gene" identifier="959" />
+  </DataNode>
+  <DataNode elementID="da924" textLabel="CD40" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1178.466386554617" centerY="683.7843137254899" width="37.0" height="20.0" zOrder="33093">
+    <Comment source="KeggConverter">Original kegg element: gene;37;hsa:958</Comment>
+    <Xref dataSource="Entrez Gene" identifier="958" />
+  </DataNode>
+  <DataNode elementID="a8b00" textLabel="FAS" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1649.966386554617" centerY="160.78431372549034" width="32.0" height="20.0" zOrder="33116">
+    <Comment source="KeggConverter">Original kegg element: gene;17;hsa:355</Comment>
+    <Xref dataSource="Entrez Gene" identifier="355" />
+  </DataNode>
+  <DataNode elementID="abf5e" textLabel="HLA-A" groupRef="ec3d3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1297.966386554617" centerY="95.78431372549011" width="80.0" height="20.0" zOrder="33117">
+    <Comment source="KeggConverter">Original kegg element: gene;20;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3105" />
+  </DataNode>
+  <DataNode elementID="eda7b" textLabel="FASLG" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1530.966386554617" centerY="162.78431372549034" width="40.0" height="20.0" zOrder="33118">
+    <Comment source="KeggConverter">Original kegg element: gene;18;hsa:356</Comment>
+    <Xref dataSource="Entrez Gene" identifier="356" />
+  </DataNode>
+  <DataNode elementID="db28a" textLabel="BOLA class I histocompatibility antigen" groupRef="ec3d3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1297.966386554617" centerY="155.78431372549034" width="80.0" height="20.0" zOrder="33119">
+    <Comment source="KeggConverter">Original kegg element: gene;20;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="652614" />
+  </DataNode>
+  <DataNode elementID="b60d9" textLabel="ko:K06856" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1237.966386554617" centerY="701.7843137254899" width="80.0" height="20.0" zOrder="33152">
+    <Xref dataSource="Kegg ortholog" identifier="K06856" />
+  </DataNode>
+  <DataNode elementID="b8705" textLabel="Belatacept" color="00ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="501.1666666666664" centerY="491.0374832663991" width="56.333333333333485" height="18.74163319946456" zOrder="33154">
+    <Xref dataSource="CAS" identifier="706808-37-9" />
+  </DataNode>
+  <DataNode elementID="cf6d7" textLabel="CTLA4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="517.9680820509013" centerY="548.9702563756422" width="38.0" height="18.74163319946456" zOrder="33155">
+    <Xref dataSource="Ensembl" identifier="ENSG00000163599" />
+  </DataNode>
+  <DataNode elementID="dc2c0" textLabel="C2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1865.4796918767513" centerY="755.5826330532211" width="34.16666666666606" height="16.0" zOrder="33160">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C2" />
+    <Xref dataSource="Entrez Gene" identifier="717" />
+  </DataNode>
+  <DataNode elementID="c765a" textLabel="C9" groupRef="ca7d5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2251.429819143697" centerY="839.3023400897106" width="34.89532293986667" height="17.759465478841776" zOrder="33162">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C9" />
+    <Xref dataSource="Entrez Gene" identifier="735" />
+  </DataNode>
+  <DataNode elementID="fcd84" textLabel="C8B" groupRef="ca7d5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2212.731972076139" centerY="857.0884262253395" width="34.89532293986667" height="18.48626577579853" zOrder="33163">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C8b" />
+    <Xref dataSource="Entrez Gene" identifier="732" />
+  </DataNode>
+  <DataNode elementID="aff7f" textLabel="C6" groupRef="ca7d5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2212.731972076139" centerY="820.4226073502897" width="34.89532293986667" height="20.0" zOrder="33164">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C6" />
+    <Xref dataSource="Entrez Gene" identifier="729" />
+  </DataNode>
+  <DataNode elementID="d560a" textLabel="CD55" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2020.3963585434183" centerY="672.2492997198876" width="37.0" height="20.0" zOrder="33167">
+    <Xref dataSource="Entrez Gene" identifier="1604" />
+  </DataNode>
+  <DataNode elementID="ac812" textLabel="C1QA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1760.966386554617" centerY="632.1176470588234" width="70.0" height="20.66666666666697" zOrder="33168">
+    <Comment source="GenMAPP remarks">update: C1QA HUMAN</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C1qa" />
+    <Xref dataSource="Entrez Gene" identifier="712" />
+  </DataNode>
+  <DataNode elementID="afd30" textLabel="C1QB" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1760.966386554617" centerY="652.4509803921569" width="70.0" height="20.0" zOrder="33170">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C1qb" />
+    <Xref dataSource="Entrez Gene" identifier="713" />
+  </DataNode>
+  <DataNode elementID="e37b4" textLabel="C4A" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1897.3963585434183" centerY="705.0826330532211" width="43.0" height="17.0" zOrder="33171">
+    <Xref dataSource="Entrez Gene" identifier="720" />
+  </DataNode>
+  <DataNode elementID="a7997" textLabel="C7" groupRef="ca7d5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2251.429819143697" centerY="820.4226073502897" width="34.89532293986667" height="20.0" zOrder="33172">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C7" />
+    <Xref dataSource="Entrez Gene" identifier="730" />
+  </DataNode>
+  <DataNode elementID="ec4f0" textLabel="C8A" groupRef="ca7d5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2212.731972076139" centerY="839.4252057170307" width="34.89532293986667" height="18.48626577579853" zOrder="33173">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C8a" />
+    <Xref dataSource="Entrez Gene" identifier="731" />
+  </DataNode>
+  <DataNode elementID="c7911" textLabel="C4B" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1934.2296918767522" centerY="772.5826330532211" width="31.33333333333303" height="18.0" zOrder="33175">
+    <Xref dataSource="Entrez Gene" identifier="721" />
+  </DataNode>
+  <DataNode elementID="cdbe2" textLabel="C1QC" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1760.966386554617" centerY="672.4509803921569" width="70.0" height="20.0" zOrder="33176">
+    <Comment source="GenMAPP remarks">update C1QC HUMAN</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="C1qc" />
+    <Xref dataSource="Entrez Gene" identifier="714" />
+  </DataNode>
+  <DataNode elementID="a4a14" textLabel="C3" color="0000cc" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1952.3963585434183" centerY="730.0826330532211" width="45.0" height="17.0" zOrder="33223">
+    <Xref dataSource="Ensembl" identifier="ENSG00000125730" />
+  </DataNode>
+  <DataNode elementID="e98c6" textLabel="CD55" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2297.396358543419" centerY="701.5826330532211" width="47.0" height="20.0" zOrder="33224">
+    <Xref dataSource="Entrez Gene" identifier="1604" />
+  </DataNode>
+  <DataNode elementID="b9638" textLabel="ECULIZUMAB" color="00ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="2084.896358543419" centerY="767.4534496529534" width="70.0" height="19.74163319946456" zOrder="33227">
+    <Xref dataSource="CAS" identifier="219685-50-4" />
+  </DataNode>
+  <DataNode elementID="bd408" textLabel="CD40LG" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1046.966386554617" centerY="412.78431372548994" width="44.0" height="20.0" zOrder="33234">
+    <Comment source="KeggConverter">Original kegg element: gene;38;hsa:959</Comment>
+    <Xref dataSource="Entrez Gene" identifier="959" />
+  </DataNode>
+  <DataNode elementID="dcd7f" textLabel="CD40" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1148.466386554617" centerY="412.78431372548994" width="37.0" height="20.0" zOrder="33236">
+    <Comment source="KeggConverter">Original kegg element: gene;37;hsa:958</Comment>
+    <Xref dataSource="Entrez Gene" identifier="958" />
+  </DataNode>
+  <DataNode elementID="b1535" textLabel="CASP8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1712.966386554617" centerY="160.78431372549034" width="46.0" height="20.0" zOrder="33340">
+    <Xref dataSource="Ensembl" identifier="ENSG00000064012" />
+  </DataNode>
+  <DataNode elementID="da548" textLabel="CASP7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1786.466386554617" centerY="171.78431372549034" width="49.0" height="20.0" zOrder="33341">
+    <Xref dataSource="Ensembl" identifier="ENSG00000165806" />
+  </DataNode>
+  <DataNode elementID="fa8cc" textLabel="CASP3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1786.466386554617" centerY="151.78431372549034" width="49.0" height="20.0" zOrder="33342">
+    <Xref dataSource="Ensembl" identifier="ENSG00000164305" />
+  </DataNode>
+  <DataNode elementID="c5b7b" textLabel="CASP9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1786.466386554617" centerY="191.78431372549034" width="49.0" height="20.0" zOrder="33343">
+    <Xref dataSource="Ensembl" identifier="ENSG00000132906" />
+  </DataNode>
+  <DataNode elementID="aa0c9" textLabel="PRKCZ" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1650.466386554617" centerY="849.7843137254899" width="47.0" height="20.0" zOrder="33352">
+    <Xref dataSource="Ensembl" identifier="ENSG00000067606" />
+  </DataNode>
+  <DataNode elementID="c49b6" textLabel="Tacrolimus" color="00ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1083.966386554617" centerY="271.8967635246868" width="70.0" height="18.74163319946456" zOrder="33354">
+    <Xref dataSource="CAS" identifier="104987-11-3" />
+  </DataNode>
+  <DataNode elementID="e9a8d" textLabel="Ciclosporin" color="00ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1083.966386554617" centerY="290.63839672415133" width="70.0" height="18.74163319946456" zOrder="33356">
+    <Xref dataSource="CAS" identifier="59865-13-3" />
+  </DataNode>
+  <DataNode elementID="d7215" textLabel="Daclizumab" groupRef="d6fe8" color="00ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1132.966386554617" centerY="477.1551303252222" width="74.0" height="18.74163319946456" zOrder="33357">
+    <Xref dataSource="CAS" identifier="152923-56-3" />
+  </DataNode>
+  <DataNode elementID="d3141" textLabel="Basiliximab" groupRef="d6fe8" color="00ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1132.966386554617" centerY="495.8967635246868" width="74.0" height="18.74163319946456" zOrder="33358">
+    <Xref dataSource="CAS" identifier="152923-56-3" />
+  </DataNode>
+  <DataNode elementID="dca27" textLabel="Prednisone" groupRef="ac839" color="00ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="902.9663865546229" centerY="762.8967635246868" width="102.0" height="18.74163319946456" zOrder="33362">
+    <Xref dataSource="CAS" identifier="53-03-2" />
+  </DataNode>
+  <DataNode elementID="fa8f8" textLabel="Methylprednisolone" groupRef="ac839" color="00ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="902.9663865546229" centerY="745.1551303252222" width="102.0" height="18.74163319946456" zOrder="33363">
+    <Xref dataSource="CAS" identifier="83-43-2" />
+  </DataNode>
+  <DataNode elementID="f3ca0" textLabel="Sirolimus" color="00ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1083.966386554617" centerY="253.15513032522227" width="70.0" height="18.74163319946456" zOrder="33364">
+    <Xref dataSource="CAS" identifier="53123-88-9" />
+  </DataNode>
+  <DataNode elementID="df38b" textLabel="IL2RA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1027.966386554617" centerY="486.78431372548994" width="48.0" height="20.0" zOrder="33365">
+    <Xref dataSource="Ensembl" identifier="ENSG00000134460" />
+  </DataNode>
+  <DataNode elementID="b08ed" textLabel="IL1B" groupRef="f95a5" color="0033ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="785.9663865546235" centerY="763.7843137254899" width="50.0" height="20.0" zOrder="33366">
+    <Xref dataSource="Ensembl" identifier="ENSG00000125538" />
+  </DataNode>
+  <DataNode elementID="a0134" textLabel="HLA-DRB3" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="367.7716963301299" centerY="520.5927442641888" width="62.74862183021037" height="19.999999999999986" zOrder="33391">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3125" />
+  </DataNode>
+  <DataNode elementID="d6974" textLabel="HLA-DRA" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="432.82131044258847" centerY="500.41633853100234" width="62.74862183021037" height="19.999999999999986" zOrder="33392">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3122" />
+  </DataNode>
+  <DataNode elementID="f4378" textLabel="HLA-DMB" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="432.82131044258847" centerY="460.41633853100234" width="62.74862183021037" height="20.000000000000046" zOrder="33393">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3109" />
+  </DataNode>
+  <DataNode elementID="fff8a" textLabel="HLA-DRB1" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="367.77169633012977" centerY="440.5927442641888" width="62.74862183021037" height="19.999999999999986" zOrder="33394">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3123" />
+  </DataNode>
+  <DataNode elementID="bcc50" textLabel="HLA-DQA2" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="432.8213104425887" centerY="540.7470992807268" width="62.74862183021037" height="19.999999999999986" zOrder="33395">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3118" />
+  </DataNode>
+  <DataNode elementID="f2cb2" textLabel="HLA-DPA1" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="367.7716963301299" centerY="500.5927442641889" width="62.74862183021037" height="19.999999999999986" zOrder="33396">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3113" />
+  </DataNode>
+  <DataNode elementID="dcdc7" textLabel="HLA-DOB" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="432.82131044258847" centerY="480.41633853100234" width="62.74862183021037" height="19.999999999999986" zOrder="33397">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3112" />
+  </DataNode>
+  <DataNode elementID="c393f" textLabel="HLA-DRB4" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="367.77169633012977" centerY="420.5927442641889" width="62.74862183021034" height="20.0" zOrder="33398">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3126" />
+  </DataNode>
+  <DataNode elementID="dba08" textLabel="HLA-DOA" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="432.8213104425887" centerY="420.2619835144643" width="62.74862183021037" height="19.999999999999986" zOrder="33399">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3111" />
+  </DataNode>
+  <DataNode elementID="ed491" textLabel="HLA-DQA1" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="367.7716963301299" centerY="480.5927442641889" width="62.74862183021037" height="19.999999999999986" zOrder="33400">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3117" />
+  </DataNode>
+  <DataNode elementID="fdf8c" textLabel="HLA-DQB1" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="367.77169633012977" centerY="460.5927442641888" width="62.74862183021037" height="19.999999999999986" zOrder="33401">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3119" />
+  </DataNode>
+  <DataNode elementID="e6cbc" textLabel="HLA-DRB5" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="432.8213104425887" centerY="520.4163385310022" width="62.74862183021037" height="19.999999999999986" zOrder="33402">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3127" />
+  </DataNode>
+  <DataNode elementID="eb968" textLabel="CD80" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="398.6426996377372" centerY="560.2619835144642" width="62.74862183021037" height="19.999999999999986" zOrder="33403">
+    <Comment source="KeggConverter">Original kegg element: gene;28;hsa:941 hsa:942</Comment>
+    <Xref dataSource="Entrez Gene" identifier="941" />
+  </DataNode>
+  <DataNode elementID="ce847" textLabel="HLA-DMA" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="432.8213104425887" centerY="440.2619835144643" width="62.74862183021037" height="19.999999999999986" zOrder="33404">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3108" />
+  </DataNode>
+  <DataNode elementID="fc11f" textLabel="HLA-DPB1" groupRef="afceb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="367.7716963301299" centerY="540.5927442641889" width="62.74862183021037" height="19.999999999999986" zOrder="33405">
+    <Comment source="KeggConverter">Original kegg element: gene;10;hsa:100133583 hsa:3108 hsa:3109 hsa:3111 hsa:3112 hsa:3113 hsa:3115 hsa:3117 hsa:3118 hsa:3119 hsa:3122 hsa:3123 hsa:3125 hsa:3126 hsa:3127</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3115" />
+  </DataNode>
+  <DataNode elementID="cfa9c" textLabel="CD28" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="915.4663865546202" centerY="187.78431372549034" width="53.0" height="20.0" zOrder="33409">
+    <Comment source="KeggConverter">Original kegg element: gene;36;hsa:940</Comment>
+    <Xref dataSource="Entrez Gene" identifier="940" />
+  </DataNode>
+  <DataNode elementID="d2ea1" textLabel="CD80" groupRef="e4d58" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="275.0" centerY="209.0" width="52.0" height="20.0" zOrder="33422">
+    <Comment source="KeggConverter">Original kegg element: gene;35;hsa:941 hsa:942</Comment>
+    <Xref dataSource="Entrez Gene" identifier="941" />
+  </DataNode>
+  <DataNode elementID="f3011" textLabel="HLA-E" groupRef="f4fd0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="274.0" centerY="135.0" width="52.0" height="20.0" zOrder="33423">
+    <Comment source="KeggConverter">Original kegg element: gene;32;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3133" />
+  </DataNode>
+  <DataNode elementID="de13f" textLabel="HLA-G" groupRef="f4fd0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="274.0" centerY="115.0" width="52.0" height="20.0" zOrder="33424">
+    <Comment source="KeggConverter">Original kegg element: gene;32;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3135" />
+  </DataNode>
+  <DataNode elementID="bd02d" textLabel="HLA-F" groupRef="f4fd0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="328.0" centerY="155.0" width="52.0" height="20.0" zOrder="33425">
+    <Comment source="KeggConverter">Original kegg element: gene;32;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3134" />
+  </DataNode>
+  <DataNode elementID="e9a55" textLabel="HLA-B" groupRef="f4fd0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="274.0" centerY="155.0" width="52.0" height="20.0" zOrder="33426">
+    <Comment source="KeggConverter">Original kegg element: gene;32;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3106" />
+  </DataNode>
+  <DataNode elementID="c6941" textLabel="HLA-C" groupRef="f4fd0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="328.0" centerY="135.0" width="52.0" height="20.0" zOrder="33427">
+    <Comment source="KeggConverter">Original kegg element: gene;32;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3107" />
+  </DataNode>
+  <DataNode elementID="f70c5" textLabel="HLA-A" groupRef="f4fd0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="328.0" centerY="115.0" width="52.0" height="20.0" zOrder="33428">
+    <Comment source="KeggConverter">Original kegg element: gene;32;hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614</Comment>
+    <Xref dataSource="Entrez Gene" identifier="3105" />
+  </DataNode>
+  <DataNode elementID="b18fa" textLabel="CD86" groupRef="e4d58" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="275.0" centerY="189.0" width="52.0" height="20.0" zOrder="33429">
+    <Comment source="KeggConverter">Original kegg element: gene;35;hsa:941 hsa:942</Comment>
+    <Xref dataSource="Entrez Gene" identifier="942" />
+  </DataNode>
+  <DataNode elementID="f3f84" textLabel="GZMB" color="0033ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1439.5" centerY="132.0" width="47.0" height="20.0" zOrder="33442">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100453" />
+  </DataNode>
+  <DataNode elementID="e42a3" textLabel="PRF1" color="0033ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1439.5" centerY="152.0" width="47.0" height="20.0" zOrder="33443">
+    <Xref dataSource="Ensembl" identifier="ENSG00000180644" />
+  </DataNode>
+  <DataNode elementID="de8e7" textLabel="Fenofibrate" color="00ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1013.4593837534982" centerY="562.0872397151636" width="64.50980392157477" height="18.74163319946456" zOrder="33447">
+    <CitationRef citationID="f22" />
+    <Xref dataSource="CAS" identifier="49562-28-9" />
+  </DataNode>
+  <DataNode elementID="f4df2" textLabel="Fenofibrate" color="00ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="892.0308123249255" centerY="796.8491444770701" width="64.50980392157477" height="18.74163319946456" zOrder="33448">
+    <CitationRef citationID="f22" />
+    <Xref dataSource="CAS" identifier="49562-28-9" />
+  </DataNode>
+  <Interaction elementID="a33dd" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">PPrel;18;17</Comment>
+    <Comment source="KeggConverter">activation; --&gt;</Comment>
+    <Point x="1550.966386554617" y="162.78431372549034" elementID="dcb1b" elementRef="eda7b" relX="1.0" relY="0.0" />
+    <Point x="1633.966386554617" y="160.78431372549034" elementID="ed0a5" elementRef="a8b00" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id143df5e3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="981.2044817927108" y="562.0872397151636" elementID="ff691" elementRef="de8e7" relX="-1.0" relY="0.0" />
+    <Point x="942.9663865546192" y="562.7843137254899" elementID="db00c" elementRef="cc347" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id157b2dd2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2119.896358543419" y="767.4534496529534" elementID="c6606" elementRef="b9638" relX="1.0" relY="0.0" />
+    <Point x="2154.896358543419" y="767.5826330532211" elementID="fba61" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id1cbc6599" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1039.8981134622506" y="179.81575923542118" elementID="f83f4" elementRef="d66a2" relX="1.0" relY="0.0" />
+    <Point x="1405.9663865546167" y="179.28431372549028" elementID="ea51c" elementRef="f2114" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id1db180f1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2020.3963585434183" y="682.2492997198876" elementID="a62b7" elementRef="d560a" relX="0.0" relY="1.0" />
+    <Point x="2020.8963585434185" y="709.5826330532211" elementID="f06de" elementRef="ed22e" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id24bc7337" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="977.8499206911661" y="122.92151559418971" elementID="de56d" elementRef="d66a2" relX="0.0" relY="-1.0" />
+    <Point x="921.4663865546207" y="102.57280100795316" elementID="df345" elementRef="b73bf" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id298bb99d" zOrder="12288" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1728.966386554617" y="685.7843137254899" elementID="a527e" />
+    <Point x="1728.966386554617" y="718.7843137254899" elementID="ab134" />
+  </Interaction>
+  <Interaction elementID="id2ee67ef0" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1821.966386554617" y="172.28431372549034" elementID="f78b0" elementRef="f8b6d" relX="1.0" relY="0.0" />
+    <Point x="1979.4432773109324" y="283.1792717086835" elementID="ab21e" elementRef="dd2fb" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2f6d7c75" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1612.966386554617" y="248.78431372549016" elementID="bcf6b" elementRef="bea5c" relX="0.0" relY="1.0" />
+    <Point x="1610.6976788294148" y="253.97606959698373" elementID="c8b08" elementRef="ddbed" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id30fc941e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1243.966386554617" y="418.78431372548994" elementID="b3c7b" elementRef="a828b" relX="1.0" relY="0.0" />
+    <Point x="1658.966386554617" y="418.78431372548994" elementID="a6f81" elementRef="bfcf8" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4257f237" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2313.4145658263405" y="439.04341736694596" elementID="e446d" elementRef="f660f" relX="-1.0" relY="-0.5" />
+    <Point x="2008.6932773109324" y="311.1792717086835" elementID="d57a4" elementRef="dd2fb" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id42b7e0cc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1468.0145793257013" y="233.78431372549028" elementID="c19f3" elementRef="f2114" relX="0.0" relY="1.0" />
+    <Point x="1507.966386554617" y="273.78431372548994" elementID="ea5a9" elementRef="d1f8a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id496b2fcf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2066.431521886263" y="729.688084935364" elementID="fc0c5" elementRef="d65c3" relX="0.0" relY="0.0" />
+    <Point x="2091.896358543419" y="698.5826330532211" elementID="ee33d" elementRef="ebf63" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id53cee9d2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1896.8963585434183" y="770.5826330532211" elementID="f1dc4" />
+    <Point x="1897.3963585434183" y="713.5826330532211" elementID="af896" elementRef="e37b4" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5e6f3eb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2167.896358543419" y="820.5826330532211" elementID="d568e" />
+    <Point x="2187.2843106062055" y="820.399845291027" elementID="f95c2" elementRef="ca7d5" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id68943bfc" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1065.716386554617" y="646.7843137254899" elementID="a8c70" elementRef="e99e8" relX="0.5" relY="-1.0" />
+    <Point x="1131.3195455134967" y="593.0" elementID="c2ac8" />
+    <Point x="1196.9227044723764" y="641.4473794342316" elementID="a03f2" elementRef="a05be" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.49840056900389607" shapeType="None" elementID="b6c35" />
+  </Interaction>
+  <Interaction elementID="id6992457e" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="142.1697905181922" y="410.1487045203973" elementID="d874a" elementRef="f98a2" relX="1.0" relY="-0.5" />
+    <Point x="196.47558007670824" y="560.1472323464144" elementID="c3747" elementRef="f787a" relX="-1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6a4e195c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1974.8963585434183" y="730.0826330532211" elementID="fd223" elementRef="a4a14" relX="1.0" relY="0.0" />
+    <Point x="2090.896358543419" y="729.5826330532211" elementID="c8f0e" elementRef="cde81" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.789096235714176" shapeType="None" elementID="d65c3" />
+  </Interaction>
+  <Interaction elementID="id6ad90bdf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1951.8963585434183" y="690.5826330532211" elementID="c13ef" elementRef="b1302" relX="0.0" relY="1.0" />
+    <Point x="1952.3963585434183" y="721.5826330532211" elementID="d7999" elementRef="a4a14" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id70adfffd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="501.1666666666664" y="500.40829986613136" elementID="fb139" elementRef="b8705" relX="0.0" relY="1.0" />
+    <Point x="510.047363475508" y="518.804485196515" elementID="cca80" elementRef="e2154" relX="0.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id7131271c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="763.4309113203536" y="587.19930703205" elementID="e7901" elementRef="d84a9" relX="0.0" relY="-1.0" />
+    <Point x="822.9663865546229" y="562.2843137254899" elementID="ca853" elementRef="a0cec" relX="-1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id72bf799b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1087.966386554617" y="486.5259469249545" elementID="ab4db" elementRef="d6fe8" relX="-1.0" relY="0.0" />
+    <Point x="1051.966386554617" y="486.78431372548994" elementID="fad0b" elementRef="df38b" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id75a1bb41" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2273.896358543419" y="701.5826330532211" elementID="fd159" elementRef="e98c6" relX="-1.0" relY="0.0" />
+    <Point x="2246.8963585434194" y="701.5826330532211" elementID="bc5d3" elementRef="ab1be" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id7841720b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2248.8427621605465" y="805.223727798469" elementID="bd3a7" />
+    <Point x="2283.887955182076" y="764.7331932773108" elementID="fd6f5" elementRef="ebab2" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id78ea6311" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1293.198329032352" y="700.6785573667214" elementID="e228f" elementRef="a05be" relX="1.0" relY="0.0" />
+    <Point x="1352.0" y="701.392156862745" elementID="cacf2" elementRef="c6f51" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7b9094bb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1468.0145793257013" y="233.78431372549028" elementID="e4783" elementRef="f2114" relX="0.0" relY="1.0" />
+    <Point x="1444.466386554617" y="276.78431372548994" elementID="c592f" elementRef="e3655" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8285507" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1129.0212111260703" y="593.095782560667" elementID="abcf9" elementRef="b6c35" relX="0.0" relY="0.0" />
+    <Point x="1105.966386554617" y="592.7843137254899" elementID="c2187" elementRef="c43fb" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id83b7e36d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1882.5630252100843" y="772.5826330532211" elementID="a9886" elementRef="f3f23" relX="1.0" relY="0.0" />
+    <Point x="1918.5630252100857" y="772.5826330532211" elementID="c5e9a" elementRef="c7911" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id881d70dc" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1019.4663865546181" y="369.78431372548994" elementID="f42b6" elementRef="ecafa" relX="0.5" relY="-1.0" />
+    <Point x="1094.5913865546177" y="322.0" elementID="bc563" />
+    <Point x="1169.716386554617" y="373.78431372548994" elementID="bcc53" elementRef="a828b" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.5022169089873643" shapeType="None" elementID="abf81" />
+  </Interaction>
+  <Interaction elementID="id8992657e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1665.966386554617" y="160.78431372549034" elementID="a1ab5" elementRef="a8b00" relX="1.0" relY="0.0" />
+    <Point x="1689.966386554617" y="160.78431372549034" elementID="cfd7a" elementRef="b1535" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8ada55d2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="517.9680820509013" y="539.5994397759099" elementID="aa283" elementRef="cf6d7" relX="0.0" relY="-1.0" />
+    <Point x="510.047363475508" y="518.804485196515" elementID="b97cb" elementRef="e2154" relX="0.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id8be014b3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1096.4655675440317" y="322.06567009092214" elementID="c001d" elementRef="abf81" relX="0.0" relY="0.0" />
+    <Point x="1094.966386554617" y="315.78431372548994" elementID="ef227" elementRef="bd16d" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="id98d2fe8e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2100.896358543419" y="652.5826330532211" elementID="da24f" />
+    <Point x="2415.896358543419" y="652.5826330532211" elementID="a4291" />
+  </Interaction>
+  <Interaction elementID="id99e37f3f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="927.9663865546181" y="431.78431372548994" elementID="d8475" elementRef="ecafa" relX="-1.0" relY="0.0" />
+    <Point x="883.0841911061614" y="443.89877155681506" elementID="c4c2a" elementRef="ac4d7" relX="1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9dcd3e8f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1035.466386554617" y="767.6343806598943" elementID="ceead" elementRef="e99e8" relX="0.0" relY="1.0" />
+    <Point x="986.466386554617" y="800.7843137254899" elementID="d1d4a" elementRef="b1ccf" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida1afacf4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1610.6976788294148" y="253.97606959698373" elementID="a7f2c" elementRef="ddbed" relX="0.0" relY="0.0" />
+    <Point x="1612.966386554617" y="254.78431372548994" elementID="ed13c" elementRef="c09e4" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="ida85c5b26" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1468.0145793257013" y="233.78431372549028" elementID="f9f31" elementRef="f2114" relX="0.0" relY="1.0" />
+    <Point x="1404.966386554617" y="254.6785573667214" elementID="afe75" elementRef="d83b4" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idacff58d0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2067.1932773109324" y="297.1792717086835" elementID="fe35a" elementRef="dd2fb" relX="1.0" relY="0.0" />
+    <Point x="2262.4145658263374" y="297.1792717086835" elementID="f21b8" elementRef="b0326" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idad622444" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1848.966386554617" y="418.78431372548994" elementID="f01bc" elementRef="bfcf8" relX="1.0" relY="0.0" />
+    <Point x="1979.4432773109324" y="311.1792717086835" elementID="ee965" elementRef="dd2fb" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idafdb8733" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2342.887955182076" y="757.9831932773108" elementID="bc1b7" elementRef="ebab2" relX="0.0" relY="-1.0" />
+    <Point x="2341.4145658263405" y="497.54341736694596" elementID="a2967" elementRef="f660f" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb2d6e54b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1934.2296918767522" y="763.5826330532211" elementID="aa226" elementRef="c7911" relX="0.0" relY="-1.0" />
+    <Point x="1941.1463585434183" y="738.5826330532211" elementID="a17a7" elementRef="a4a14" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbd677132" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1642.4663865546172" y="701.5294117647047" elementID="a8a9a" />
+    <Point x="1694.216386554617" y="703.7843137254899" elementID="ebe09" elementRef="e9e59" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbdd352de" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2280.0" y="214.75" elementID="a3f48" elementRef="fea98" relX="1.0" relY="0.0" />
+    <Point x="2314.0" y="215.0" elementID="b42ee" elementRef="ea015" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbdd4693" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2150.896358543419" y="680.5826330532211" elementID="ee19a" elementRef="a3118" relX="0.0" relY="1.0" />
+    <Point x="2150.896358543419" y="806.5826330532211" elementID="e4218" elementRef="b76ed" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc567b19e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="927.9663865546181" y="431.78431372548994" elementID="b137d" elementRef="ecafa" relX="-1.0" relY="0.0" />
+    <Point x="909.4663865546204" y="366.5728010079529" elementID="aba8c" elementRef="b2614" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc7ae1b7e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1041.966386554617" y="281.5259469249545" elementID="f39ee" />
+    <Point x="1003.966386554617" y="281.78431372548994" elementID="fd061" elementRef="c1cd4" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idcebca21d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="988.9663865546181" y="369.78431372548994" elementID="e817c" elementRef="ecafa" relX="0.0" relY="-1.0" />
+    <Point x="977.8499206911661" y="236.71000287665265" elementID="b51c7" elementRef="d66a2" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd06676ce" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="596.014579325708" y="909.5728010079529" elementID="d5080" elementRef="d7dd1" relX="0.0" relY="1.0" />
+    <Point x="651.2163865546235" y="936.7843137254899" elementID="edebe" elementRef="f2c94" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd256900c" zOrder="12288" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1706.966386554617" y="757.7843137254899" elementID="da4be" />
+    <Point x="1723.966386554617" y="757.7843137254899" elementID="a3c60" />
+  </Interaction>
+  <Interaction elementID="idd28a408b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1472.062772096786" y="701.392156862745" elementID="d2e69" elementRef="c6f51" relX="1.0" relY="0.0" />
+    <Point x="1526.466386554617" y="701.7843137254899" elementID="e4291" elementRef="b38c3" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd7993fd7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="596.014579325708" y="909.5728010079529" elementID="c2102" elementRef="d7dd1" relX="0.0" relY="1.0" />
+    <Point x="552.9663865546235" y="948.4814355461057" elementID="e4eac" elementRef="e6244" relX="1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd8ae40bc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="927.9663865546181" y="431.78431372548994" elementID="f4af9" elementRef="ecafa" relX="-1.0" relY="0.0" />
+    <Point x="874.9663865546232" y="395.62567918733714" elementID="fa3a2" elementRef="f6a96" relX="1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idda42f3e5" zOrder="12288" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1715.966386554617" y="758.7843137254899" elementID="f9371" />
+    <Point x="1715.966386554617" y="781.7843137254899" elementID="ef66e" />
+  </Interaction>
+  <Interaction elementID="idded00739" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="859.7759103641381" y="796.8491444770701" elementID="e7580" elementRef="f4df2" relX="-1.0" relY="0.0" />
+    <Point x="825.9663865546239" y="796.7843137254899" elementID="e15c5" elementRef="f0348" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="iddf9c01b8" zOrder="12288" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1729.966386554617" y="724.7843137254899" elementID="ca1f9" />
+    <Point x="1717.966386554617" y="741.7843137254899" elementID="b0695" />
+  </Interaction>
+  <Interaction elementID="ide3671838" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2342.887955182076" y="784.9831932773108" elementID="a77bd" elementRef="ebab2" relX="0.0" relY="1.0" />
+    <Point x="2342.887955182076" y="810.9831932773108" elementID="b2603" elementRef="c5778" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idee922d55" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1530.062772096786" y="206.53431372549028" elementID="b6ba5" elementRef="f2114" relX="1.0" relY="0.5" />
+    <Point x="1541.0" y="230.26715686274514" elementID="b82ff" />
+    <Point x="1612.1081932773086" y="254.0" elementID="a6186" />
+    <Point x="1683.216386554617" y="207.78431372549034" elementID="c3171" elementRef="f8b6d" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.5273472760426775" shapeType="None" elementID="ddbed" />
+  </Interaction>
+  <Interaction elementID="idf3c0f1f5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="596.014579325708" y="909.5728010079529" elementID="ca6cc" elementRef="d7dd1" relX="0.0" relY="1.0" />
+    <Point x="595.4663865546235" y="963.7843137254899" elementID="bcf82" elementRef="d0d70" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf5f4b06a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="843.9663865546229" y="754.0259469249545" elementID="d7406" elementRef="ac839" relX="-1.0" relY="0.0" />
+    <Point x="818.9663865546235" y="753.7843137254899" elementID="f96ba" elementRef="f95a5" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idf696d897" connectorType="Curved" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2388.0" y="230.0" elementID="cef01" elementRef="ea015" relX="0.0" relY="1.0" />
+    <Point x="2366.4145658263374" y="287.1792717086835" elementID="dc67f" elementRef="b0326" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfdf3a277" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1844.8963585434183" y="654.5826330532211" elementID="c15cf" />
+    <Point x="2090.896358543419" y="653.5826330532211" elementID="c10a0" />
+  </Interaction>
+  <Interaction elementID="id2394193" zOrder="12292" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="825.4791040914382" y="672.5406724938972" elementID="a2f5a" elementRef="d84a9" relX="1.0" relY="0.5" />
+    <Point x="974.966386554617" y="707.2093471926921" elementID="d29bf" elementRef="e99e8" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id20fc5901" zOrder="12296" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="825.4791040914382" y="644.0935506732815" elementID="b8750" elementRef="d84a9" relX="1.0" relY="0.0" />
+    <Point x="988.9663865546181" y="493.78431372548994" elementID="bda37" elementRef="ecafa" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d052e" zOrder="12298" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">PPrel;35;36</Comment>
+    <Comment source="KeggConverter">activation; --&gt;</Comment>
+    <Point x="309.0" y="199.0" elementID="c9674" elementRef="e4d58" relX="1.0" relY="0.0" />
+    <Point x="888.9663865546202" y="187.78431372549034" elementID="d8ba8" elementRef="cfa9c" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id1aca58f5" zOrder="12302" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="763.4309113203536" y="700.9877943145129" elementID="a0895" elementRef="d84a9" relX="0.0" relY="1.0" />
+    <Point x="814.9463062333399" y="867.9744074336563" elementID="a6a66" elementRef="f1b57" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id56204a33" zOrder="12304" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="282.8621346985565" y="560.1472323464144" elementID="fca13" elementRef="f787a" relX="1.0" relY="0.5" />
+    <Point x="367.26838872263204" y="560.2619835144642" elementID="edc9d" elementRef="eb968" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e7f27" zOrder="12306" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">PPrel;32;33</Comment>
+    <Comment source="KeggConverter">activation; --&gt;</Comment>
+    <Point x="362.0" y="135.0" elementID="f33a5" elementRef="f4fd0" relX="1.0" relY="0.0" />
+    <Point x="896.96638655462" y="150.31643043193282" elementID="b7e0f" elementRef="e7c82" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a868a" zOrder="12310" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">PPrel;38;37</Comment>
+    <Comment source="KeggConverter">activation; --&gt;</Comment>
+    <Point x="1080.966386554617" y="682.7843137254899" elementID="be113" elementRef="f7a59" relX="1.0" relY="0.0" />
+    <Point x="1159.966386554617" y="683.7843137254899" elementID="da16a" elementRef="da924" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bd700" zOrder="12312" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">PPrel;20;19</Comment>
+    <Comment source="KeggConverter">activation; --&gt;</Comment>
+    <Point x="1249.966386554617" y="95.78431372549029" elementID="ccfd4" elementRef="ec3d3" relX="-1.0" relY="0.0" />
+    <Point x="1213.966386554617" y="139.7843137254903" elementID="f2e2c" elementRef="e0014" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2f642323" zOrder="12314" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="691.9663865546235" y="720.7843137254899" elementID="fbe39" elementRef="ba467" relX="-1.0" relY="0.0" />
+    <Point x="663.9663865546235" y="719.7843137254899" elementID="ef9ee" elementRef="a26b5" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id44c9d551" zOrder="12316" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="624.2409638554211" y="516.1820615796516" elementID="e75c8" elementRef="cab63" relX="0.0" relY="1.0" />
+    <Point x="701.382718549269" y="615.6464288526657" elementID="afe8c" elementRef="d84a9" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="iddead0023" zOrder="12320" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="276.1904761904762" y="339.04761904761904" elementID="a732e" />
+    <Point x="349.63702282359714" y="339.35090653935396" elementID="d7bd1" elementRef="b4d62" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="be1fa" zOrder="12322" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">PPrel;28;29</Comment>
+    <Comment source="KeggConverter">activation; --&gt;</Comment>
+    <Point x="430.0170105528424" y="560.2619835144642" elementID="ca0a6" elementRef="eb968" relX="1.0" relY="0.0" />
+    <Point x="555.9999999999998" y="495.0000000000002" elementID="e25c8" elementRef="c00bd" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.6352472923039643" shapeType="None" elementID="e2154" />
+  </Interaction>
+  <Interaction elementID="id8d287630" zOrder="12324" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="732.4068149348113" y="700.9877943145129" elementID="f4cf8" elementRef="d84a9" relX="-0.5" relY="1.0" />
+    <Point x="627.0386757112503" y="795.7843137254899" elementID="b89c1" elementRef="d7dd1" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb8af0677" zOrder="12326" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="686.2891566265057" y="430.84069611780444" elementID="eda6c" elementRef="cab63" relX="1.0" relY="-0.5" />
+    <Point x="915.8017279200815" y="208.26288105603692" elementID="ac82c" elementRef="d66a2" relX="-1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d19ca" zOrder="12328" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">PPrel;10;11</Comment>
+    <Comment source="KeggConverter">activation; --&gt;</Comment>
+    <Point x="472.1956213576939" y="446.2619835144643" elementID="d010d" elementRef="afceb" relX="1.0" relY="-0.5" />
+    <Point x="530.9999999999998" y="446.5321167064425" elementID="a8cf2" elementRef="ec0b5" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="aa236" zOrder="33186" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1734.966386554617" y="685.7843137254899" elementID="ec648" />
+    <Point x="1735.966386554617" y="718.7843137254899" elementID="d8c5d" />
+  </Interaction>
+  <Interaction elementID="a316b" zOrder="33187" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1735.966386554617" y="724.7843137254899" elementID="b78ef" />
+    <Point x="1747.966386554617" y="741.7843137254899" elementID="bb60b" />
+  </Interaction>
+  <Interaction elementID="b34ac" zOrder="33188" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1725.966386554617" y="722.7843137254899" elementID="f6803" />
+    <Point x="1713.966386554617" y="739.7843137254899" elementID="d7749" />
+  </Interaction>
+  <Interaction elementID="f5289" zOrder="33189" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1739.966386554617" y="722.7843137254899" elementID="e85cb" />
+    <Point x="1751.966386554617" y="739.7843137254899" elementID="b6ff3" />
+  </Interaction>
+  <Interaction elementID="de032" zOrder="33191" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1788.966386554617" y="724.7843137254899" elementID="ad87e" />
+    <Point x="1776.966386554617" y="741.7843137254899" elementID="a4534" />
+  </Interaction>
+  <Interaction elementID="e4748" zOrder="33192" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1788.966386554617" y="685.7843137254899" elementID="cca5c" />
+    <Point x="1788.966386554617" y="718.7843137254899" elementID="ee6d7" />
+  </Interaction>
+  <Interaction elementID="d80b4" zOrder="33193" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1793.966386554617" y="685.7843137254899" elementID="e2041" />
+    <Point x="1794.966386554617" y="718.7843137254899" elementID="dc8a6" />
+  </Interaction>
+  <Interaction elementID="ab535" zOrder="33194" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1794.966386554617" y="724.7843137254899" elementID="f1782" />
+    <Point x="1806.966386554617" y="741.7843137254899" elementID="e6431" />
+  </Interaction>
+  <Interaction elementID="a49fb" zOrder="33195" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1784.966386554617" y="722.7843137254899" elementID="b9927" />
+    <Point x="1772.966386554617" y="739.7843137254899" elementID="bfc81" />
+  </Interaction>
+  <Interaction elementID="b821d" zOrder="33196" lineThickness="3.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1798.966386554617" y="722.7843137254899" elementID="b6ed2" />
+    <Point x="1810.966386554617" y="739.7843137254899" elementID="ae80d" />
+  </Interaction>
+  <Interaction elementID="ded52" zOrder="33197" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1726.6673484489404" y="743.7843137254899" elementID="b9220" />
+    <Point x="1726.6673484489404" y="758.596491551981" elementID="aec78" />
+  </Interaction>
+  <Interaction elementID="d4ef6" zOrder="33199" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1738.966386554617" y="745.7843137254899" elementID="e8b73" />
+    <Point x="1738.966386554617" y="758.7843137254899" elementID="cddda" />
+  </Interaction>
+  <Interaction elementID="b35ef" zOrder="33200" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1747.966386554617" y="759.7843137254899" elementID="bab25" />
+    <Point x="1747.966386554617" y="782.7843137254899" elementID="eb01e" />
+  </Interaction>
+  <Interaction elementID="b8cb7" zOrder="33201" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1738.966386554617" y="758.7843137254899" elementID="efcc6" />
+    <Point x="1755.966386554617" y="758.7843137254899" elementID="b61cc" />
+  </Interaction>
+  <Interaction elementID="dfce0" zOrder="33202" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1758.6673484489404" y="744.7843137254899" elementID="c7d26" />
+    <Point x="1758.6673484489404" y="759.596491551981" elementID="bb10e" />
+  </Interaction>
+  <Interaction elementID="b9d65" zOrder="33204" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1798.966386554617" y="744.7843137254899" elementID="b0e49" />
+    <Point x="1798.966386554617" y="757.7843137254899" elementID="fec73" />
+  </Interaction>
+  <Interaction elementID="d6020" zOrder="33205" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1807.966386554617" y="758.7843137254899" elementID="e3bf0" />
+    <Point x="1807.966386554617" y="781.7843137254899" elementID="b1dc5" />
+  </Interaction>
+  <Interaction elementID="bcc08" zOrder="33206" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1798.966386554617" y="757.7843137254899" elementID="e97b5" />
+    <Point x="1815.9663865546172" y="757.7843137254899" elementID="c1a12" />
+  </Interaction>
+  <Interaction elementID="afb1e" zOrder="33207" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1818.6673484489409" y="743.7843137254899" elementID="f6c77" />
+    <Point x="1818.6673484489409" y="758.596491551981" elementID="ae11c" />
+  </Interaction>
+  <Interaction elementID="eac2d" zOrder="33209" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1766.966386554617" y="744.7843137254899" elementID="d8071" />
+    <Point x="1766.966386554617" y="757.7843137254899" elementID="b06f0" />
+  </Interaction>
+  <Interaction elementID="ab481" zOrder="33210" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1775.966386554617" y="760.7843137254899" elementID="aacb6" />
+    <Point x="1775.966386554617" y="782.7843137254899" elementID="e982b" />
+  </Interaction>
+  <Interaction elementID="a5793" zOrder="33211" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1766.966386554617" y="757.7843137254899" elementID="c0a73" />
+    <Point x="1783.966386554617" y="757.7843137254899" elementID="a8a23" />
+  </Interaction>
+  <Interaction elementID="d9b33" zOrder="33212" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1786.6673484489404" y="743.7843137254899" elementID="a6966" />
+    <Point x="1786.6673484489404" y="758.596491551981" elementID="b309e" />
+  </Interaction>
+  <Interaction elementID="ae9df" zOrder="33237" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">PPrel;38;37</Comment>
+    <Comment source="KeggConverter">activation; --&gt;</Comment>
+    <Point x="1068.966386554617" y="412.78431372548994" elementID="d8d96" elementRef="bd408" relX="1.0" relY="0.0" />
+    <Point x="1129.966386554617" y="412.78431372548994" elementID="ffb4e" elementRef="dcd7f" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ac600" zOrder="33244" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="977.8499206911661" y="122.92151559418971" elementID="d058e" elementRef="d66a2" relX="0.0" relY="-1.0" />
+    <Point x="1010.966386554617" y="106.12567918733734" elementID="b8943" elementRef="ed9fc" relX="-1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b8350" zOrder="33248" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="977.8499206911661" y="122.92151559418971" elementID="f194e" elementRef="d66a2" relX="0.0" relY="-1.0" />
+    <Point x="976.966386554617" y="80.78431372549026" elementID="f74b5" elementRef="b5018" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a6ed4" zOrder="33276" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="624.2409638554211" y="402.3935742971887" elementID="d7769" elementRef="cab63" relX="0.0" relY="-1.0" />
+    <Point x="655.4999999999998" y="376.78848728246305" elementID="ac1de" elementRef="c4181" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="aa0cc" zOrder="33277" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="624.2409638554211" y="402.3935742971887" elementID="d29e4" elementRef="cab63" relX="0.0" relY="-1.0" />
+    <Point x="602.9999999999998" y="362.78848728246305" elementID="d859f" elementRef="c8c9b" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d1770" zOrder="33278" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="624.2409638554211" y="402.3935742971887" elementID="c92c6" elementRef="cab63" relX="0.0" relY="-1.0" />
+    <Point x="567.0000000000002" y="377.8413654618473" elementID="e06aa" elementRef="c2176" relX="1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f8774" zOrder="33279" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="763.4309113203536" y="587.19930703205" elementID="a8cb1" elementRef="d84a9" relX="0.0" relY="-1.0" />
+    <Point x="747.9663865546235" y="551.7843137254899" elementID="b862f" elementRef="a3998" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b429d" zOrder="33280" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="763.4309113203536" y="587.19930703205" elementID="c7904" elementRef="d84a9" relX="0.0" relY="-1.0" />
+    <Point x="784.9663865546239" y="531.7843137254899" elementID="d9939" elementRef="d7642" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d44eb" zOrder="33306" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="814.9463062333399" y="981.7628947161193" elementID="ffcd0" elementRef="f1b57" relX="0.0" relY="1.0" />
+    <Point x="747.4663865546235" y="995.7843137254899" elementID="c0e1b" elementRef="c6e28" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a098b" zOrder="33307" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="814.9463062333399" y="981.7628947161193" elementID="ac363" elementRef="f1b57" relX="0.0" relY="1.0" />
+    <Point x="865.9663865546211" y="1001.7314355461057" elementID="a0768" elementRef="a338f" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d3c84" zOrder="33308" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="814.9463062333399" y="981.7628947161193" elementID="f52bb" elementRef="f1b57" relX="0.0" relY="1.0" />
+    <Point x="813.2163865546241" y="1011.7843137254899" elementID="c4984" elementRef="c0305" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="eb8c9" zOrder="33317" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1412.031386048393" y="646.7843137254899" elementID="b2d75" elementRef="c6f51" relX="0.0" relY="-1.0" />
+    <Point x="1392.966386554617" y="612.7843137254899" elementID="c08c0" elementRef="e4f00" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ea9b4" zOrder="33318" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1412.031386048393" y="646.7843137254899" elementID="ca00e" elementRef="c6f51" relX="0.0" relY="-1.0" />
+    <Point x="1429.966386554617" y="617.5343137254899" elementID="bad88" elementRef="be61e" relX="-1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ecf0f" zOrder="33319" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1412.031386048393" y="646.7843137254899" elementID="edadc" elementRef="c6f51" relX="0.0" relY="-1.0" />
+    <Point x="1343.466386554617" y="636.7843137254899" elementID="ce5e7" elementRef="e6508" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="afe08" zOrder="33322" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1229.0145793257016" y="759.9097352992112" elementID="fe40a" elementRef="a05be" relX="0.0" relY="1.0" />
+    <Point x="1298.966386554617" y="783.9814355461057" elementID="a51fb" elementRef="a7ae1" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a578e" zOrder="33323" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1229.0145793257016" y="759.9097352992112" elementID="a67e3" elementRef="a05be" relX="0.0" relY="1.0" />
+    <Point x="1265.966386554617" y="817.7843137254899" elementID="b13f7" elementRef="ee97e" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ec1c6" zOrder="33324" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1229.0145793257016" y="759.9097352992112" elementID="dad8b" elementRef="a05be" relX="0.0" relY="1.0" />
+    <Point x="1215.966386554617" y="807.7843137254899" elementID="db1ae" elementRef="de25b" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f4c66" zOrder="33325" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1035.466386554617" y="767.6343806598943" elementID="ce0ab" elementRef="e99e8" relX="0.0" relY="1.0" />
+    <Point x="1067.966386554617" y="780.7843137254899" elementID="cfee8" elementRef="d912c" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c57ae" zOrder="33326" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1035.466386554617" y="767.6343806598943" elementID="e3c56" elementRef="e99e8" relX="0.0" relY="1.0" />
+    <Point x="1034.966386554617" y="845.7843137254899" elementID="db4a3" elementRef="e61a9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id3f4db36a" zOrder="33344" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1735.966386554617" y="160.78431372549034" elementID="f267f" elementRef="b1535" relX="1.0" relY="0.0" />
+    <Point x="1760.966386554617" y="160.78431372549034" elementID="ead55" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a0de0" zOrder="33346" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1704.966386554617" y="743.7843137254899" elementID="a037e" />
+    <Point x="1704.966386554617" y="756.7843137254899" elementID="f4782" />
+  </Interaction>
+  <Label elementID="a89b6" textLabel="Macrophage" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1217.466386554617" centerY="365.78431372548994" width="95.0" height="20.0" zOrder="28672" />
+  <Label elementID="aa01b" textLabel="Donor Cells" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="1729.0658263305274" centerY="119.49999999999991" width="117.0" height="33.0" zOrder="28672" />
+  <Label elementID="ab1be" textLabel="C5 CONVERTASE" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2199.4481792717097" centerY="701.5826330532211" width="94.89635854341941" height="20.0" zOrder="28672" />
+  <Label elementID="ad7a8" textLabel="Legend" fillColor="ffffff" fontWeight="Bold" fontSize="16" vAlign="Middle" centerX="537.0" centerY="31.0" width="102.0" height="26.0" zOrder="28672" />
+  <Label elementID="b1302" textLabel="Y-CVF" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1951.8963585434183" centerY="681.0826330532211" width="40.0" height="19.0" zOrder="28672" />
+  <Label elementID="b2a59" textLabel="IgM?" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1703.966386554617" centerY="723.7843137254899" width="34.0" height="20.0" zOrder="28672" />
+  <Label elementID="bc74f" textLabel="NEUTROPHILS/&#xA;MACRO/NK" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2378.9145658263405" centerY="468.54341736694596" width="115.0" height="26.0" zOrder="28672" />
+  <Label elementID="c03ee" textLabel="?" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="1521.0" centerY="722.0" width="26.0" height="20.0" zOrder="28672" />
+  <Label elementID="c5778" textLabel="ATTACK&#xA;ENDOTHELIAL&#xA;CELLS" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2342.887955182076" centerY="828.9831932773108" width="80.0" height="36.0" zOrder="28672" />
+  <Label elementID="cd6df" textLabel="ACUTE &#xA;AMR REJECTION" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="2119.3963585434185" centerY="593.5826330532211" width="171.0" height="38.0" zOrder="28672" />
+  <Label elementID="d15a5" textLabel="TT: Therapeutic Target (decrease)" color="0033ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="580.5" centerY="75.0" width="181.0" height="20.0" zOrder="28672" />
+  <Label elementID="d2e2e" textLabel="peroxisome" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="1687.966386554617" centerY="900.7843137254899" width="72.0" height="20.0" zOrder="28672" />
+  <Label elementID="d6d1e" textLabel="IgG&#xA;Abs to" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1586.966386554617" centerY="592.7843137254899" width="54.0" height="32.0" zOrder="28672" />
+  <Label elementID="d832b" textLabel="Non-Immune &#xA;Phenomena" fillColor="ffffff" fontStyle="Italic" fontSize="14" vAlign="Middle" centerX="2311.0" centerY="175.0" width="100.0" height="28.0" zOrder="28672" />
+  <Label elementID="dd2fb" textLabel="Fibrosis" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="2008.6932773109324" centerY="297.1792717086835" width="117.0" height="28.0" zOrder="28672" />
+  <Label elementID="e028e" textLabel="ALTERNATIVE COMPLEMENT&#xA;PATHWAY" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2258.990196078434" centerY="642.3809523809522" width="155.0" height="20.0" zOrder="28672" />
+  <Label elementID="e4d0c" textLabel="Apoptosis" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="1775.466386554617" centerY="216.78431372549034" width="103.0" height="20.0" zOrder="28672" />
+  <Label elementID="e5446" textLabel="C1 COMPLEX" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1762.466386554617" centerY="606.2843137254899" width="107.0" height="13.0" zOrder="28672" />
+  <Label elementID="e719c" textLabel="TT: Therapeutic Target (increase)" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="578.0" centerY="58.0" width="160.0" height="20.0" zOrder="28672" />
+  <Label elementID="ea015" textLabel="Calcineurin Inhibitor &#xA;Nephrotoxicity" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="2388.0" centerY="215.0" width="148.0" height="30.0" zOrder="28672" />
+  <Label elementID="ebab2" textLabel="MEMBRANE ATTACK &#xA;COMPLEX ACTIVATION" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2342.887955182076" centerY="771.4831932773108" width="118.0" height="27.0" zOrder="28672" />
+  <Label elementID="ec1c1" textLabel="Plasma&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1437.966386554617" centerY="725.2843137254899" width="52.0" height="29.0" zOrder="28672" />
+  <Label elementID="ed22e" textLabel="C3 CONVERTASE" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2020.8963585434183" centerY="715.0826330532211" width="102.0" height="11.0" zOrder="28672" />
+  <Label elementID="f1fdb" textLabel="CLASSICAL COMPLEMENT&#xA;PATHWAY" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1959.3963585434183" centerY="643.5826330532211" width="149.0" height="20.0" zOrder="28672" />
+  <Label elementID="f54a5" textLabel="Treg" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="618.4663865546235" centerY="888.7843137254899" width="45.0" height="20.0" zOrder="28672" />
+  <Label elementID="faf54" textLabel="nucleus" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="1683.466386554617" centerY="799.7843137254899" width="51.0" height="24.0" zOrder="28672" />
+  <Label elementID="fd20a" textLabel="CHRONIC &#xA;AMR REJECTION" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="2423.805322128852" centerY="592.7899159663865" width="179.0" height="44.0" zOrder="28672" />
+  <Label elementID="d2c1c" textLabel="CD 8+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1008.6906168089677" centerY="200.5701236317821" width="42.55153949129863" height="29.57161981258355" zOrder="28674" />
+  <Label elementID="e304e" textLabel="Donor Cell&#xA;Maturation" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="392.54151946685147" centerY="288.22560868770427" width="132.36947791164653" height="41.49933065595702" zOrder="28676" />
+  <Label elementID="d4c1c" textLabel="TH2&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="972.7214066349381" centerY="828.3258130561458" width="43.51004016064235" height="29.08299866131165" zOrder="28678" />
+  <Label elementID="af8f3" textLabel="TH17" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="842.1886087768452" centerY="949.7361209544056" width="48.03212851405624" height="20.0" zOrder="28680" />
+  <Label elementID="f85c1" textLabel="Naive &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="651.8219544846049" centerY="481.6907630522088" width="58.9022757697453" height="52.20883534136533" zOrder="28682" />
+  <Label elementID="cbb4f" textLabel="TT" color="0000cc" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="610.5589455382895" centerY="720.876872709156" width="25.0" height="20.0" zOrder="28684" />
+  <Label elementID="f8cb4" textLabel="TH1&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1021.0607640646572" centerY="452.78431372548994" width="51.81124497991959" height="34.0" zOrder="28686" />
+  <Label elementID="a6a0b" textLabel="Direct" fillColor="ffffff" fontWeight="Bold" fontSize="16" vAlign="Middle" centerX="804.4213492625988" centerY="275.2391076912687" width="57.40294511378852" height="20.0" zOrder="28688" />
+  <Label elementID="ed5bf" textLabel="Direct &#xA;Donor APC" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="237.80266084551357" centerY="265.2003862565293" width="114.39467830897286" height="53.46745452962193" zOrder="28690" />
+  <Label elementID="a213b" textLabel="Indirect&#xA;Recipient APC" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="236.12791934696133" centerY="620.6318607764391" width="155.74416130607733" height="34.80589022757704" zOrder="28692" />
+  <Label elementID="df257" textLabel="CD 4+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="791.4215405037544" centerY="662.9422789196001" width="60.080321285140606" height="36.7737617135208" zOrder="33080" />
+  <Label elementID="e49e0" textLabel="Indirect" fillColor="ffffff" fontWeight="Bold" fontSize="16" vAlign="Middle" centerX="631.8118862002628" centerY="573.3411967196519" width="70.22222222222263" height="20.0" zOrder="33082" />
+  <Label elementID="d2c76" textLabel="B cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1257.289010383265" centerY="728.139066068194" width="34.64524765729584" height="20.709504685408092" zOrder="33092" />
+  <Label elementID="bf30b" textLabel="CD 8+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1490.242156300266" centerY="201.5701236317821" width="46.55153949129863" height="29.57161981258355" zOrder="33112" />
+  <Label elementID="b0326" textLabel="Allograft Rejection" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="2366.4145658263374" centerY="297.1792717086835" width="208.0" height="20.0" zOrder="33153" />
+  <Label elementID="eb3fc" textLabel="TT" color="0000cc" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1919.3963585434183" centerY="731.0826330532211" width="21.0" height="17.0" zOrder="33222" />
+  <Label elementID="f32b3" textLabel="CD 8+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="909.2421563002695" centerY="77.57012363178191" width="42.55153949129863" height="29.57161981258355" zOrder="33240" />
+  <Label elementID="f069b" textLabel="CD 8+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1042.2421563002663" centerY="93.5701236317819" width="42.55153949129863" height="29.57161981258355" zOrder="33243" />
+  <Label elementID="e83e8" textLabel="CD 8+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="978.2421563002663" centerY="51.28431372549024" width="42.55153949129863" height="33.0" zOrder="33247" />
+  <Label elementID="ac4d7" textLabel="TH1&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="857.1785686162016" centerY="452.39877155681506" width="51.81124497991959" height="34.0" zOrder="33251" />
+  <Label elementID="a7f76" textLabel="CD 8+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1378.2421563002663" centerY="257.5701236317817" width="42.55153949129863" height="29.57161981258355" zOrder="33254" />
+  <Label elementID="ab7fb" textLabel="CD 8+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1512.2421563002663" centerY="302.5701236317817" width="42.55153949129863" height="29.57161981258355" zOrder="33257" />
+  <Label elementID="e4840" textLabel="CD 8+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1434.2421563002663" centerY="305.5701236317817" width="42.55153949129863" height="29.57161981258355" zOrder="33260" />
+  <Label elementID="ea6f4" textLabel="Naive &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="603.6291834002682" centerY="332.09638554216883" width="58.9022757697453" height="37.80722891566268" zOrder="33263" />
+  <Label elementID="d00d2" textLabel="Naive &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="670.6291834002682" centerY="346.09638554216883" width="58.9022757697453" height="37.80722891566268" zOrder="33266" />
+  <Label elementID="f6ee3" textLabel="Naive &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="536.6291834002686" centerY="363.09638554216883" width="58.9022757697453" height="37.80722891566268" zOrder="33269" />
+  <Label elementID="ef7df" textLabel="TH1&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="910.1785686161993" centerY="343.39877155681506" width="51.81124497991959" height="34.0" zOrder="33271" />
+  <Label elementID="e7d08" textLabel="TH1&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="847.1785686162021" centerY="385.39877155681506" width="51.81124497991959" height="34.0" zOrder="33274" />
+  <Label elementID="e9c8b" textLabel="CD 4+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="851.5058778531504" centerY="550.9623592408848" width="57.078982597055074" height="37.643908969210315" zOrder="33282" />
+  <Label elementID="a7f3a" textLabel="CD 4+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="799.5058778531514" centerY="506.9623592408848" width="57.078982597055074" height="37.643908969210315" zOrder="33285" />
+  <Label elementID="d4de7" textLabel="CD 4+ &#xA;T cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="734.505877853151" centerY="526.9623592408848" width="57.078982597055074" height="37.643908969210315" zOrder="33288" />
+  <Label elementID="af43e" textLabel="Treg" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="524.4663865546235" centerY="961.7843137254899" width="45.0" height="20.0" zOrder="33290" />
+  <Label elementID="cc60b" textLabel="Treg" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="597.4663865546235" centerY="992.7843137254899" width="45.0" height="20.0" zOrder="33293" />
+  <Label elementID="dc6e4" textLabel="Treg" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="665.4663865546235" centerY="963.7843137254899" width="45.0" height="20.0" zOrder="33296" />
+  <Label elementID="e30da" textLabel="TH17" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="749.2568818692147" centerY="1021.5460272462392" width="48.03212851405624" height="20.0" zOrder="33298" />
+  <Label elementID="d21c4" textLabel="TH17" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="894.2568818692123" centerY="1014.5460272462392" width="48.03212851405624" height="20.0" zOrder="33301" />
+  <Label elementID="e9e1e" textLabel="TH17" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="828.256881869215" centerY="1037.5460272462392" width="48.03212851405624" height="20.0" zOrder="33304" />
+  <Label elementID="f1d75" textLabel="Plasma&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1391.966386554617" centerY="586.2843137254899" width="52.0" height="29.0" zOrder="33310" />
+  <Label elementID="e31cc" textLabel="Plasma&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1459.966386554617" centerY="605.2843137254899" width="52.0" height="29.0" zOrder="33313" />
+  <Label elementID="bb186" textLabel="Plasma&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1328.966386554617" centerY="610.2843137254899" width="52.0" height="29.0" zOrder="33316" />
+  <Label elementID="bb253" textLabel="B cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1217.289010383265" centerY="836.139066068194" width="34.64524765729584" height="20.709504685408092" zOrder="33321" />
+  <Label elementID="b3e00" textLabel="B cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1280.289010383265" centerY="846.139066068194" width="34.64524765729584" height="20.709504685408092" zOrder="33329" />
+  <Label elementID="c66f8" textLabel="B cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1326.289010383265" centerY="799.139066068194" width="34.64524765729584" height="20.709504685408092" zOrder="33332" />
+  <Label elementID="e2ba2" textLabel="TH2&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1066.7214066349381" centerY="807.3258130561458" width="43.51004016064235" height="29.08299866131165" zOrder="33335" />
+  <Label elementID="b506b" textLabel="TH2&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1034.7214066349381" centerY="873.3258130561458" width="43.51004016064235" height="29.08299866131165" zOrder="33338" />
+  <Label elementID="b1448" textLabel="TH2&#xA;cell" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1060.7214066349381" centerY="736.3258130561458" width="43.51004016064235" height="29.08299866131165" zOrder="33345" />
+  <Label elementID="a3a4b" textLabel="HLA&#xA;" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1695.466386554617" centerY="773.2843137254899" width="27.0" height="17.0" zOrder="33347" />
+  <Label elementID="e3fa4" textLabel="IgG3" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1702.466386554617" centerY="709.7843137254899" width="33.0" height="14.0" zOrder="33348" />
+  <Label elementID="e9e59" textLabel="IgG1" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1702.466386554617" centerY="696.7843137254899" width="33.0" height="14.0" zOrder="33349" />
+  <Label elementID="c81c9" textLabel="NON&#xA;HLA&#xA;Antibodies" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1619.466386554617" centerY="814.7843137254899" width="49.0" height="42.0" zOrder="33350" />
+  <Label elementID="c0a32" textLabel="Donor Parenchymal&#xA;Graft Cells" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="87.53143703074011" centerY="198.04603123999175" width="205.83679517777085" height="53.46745452962193" zOrder="33371" />
+  <Label elementID="af418" textLabel="MHCI" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" groupRef="e5e1e" centerX="140.21392811230112" centerY="530.2101762433778" width="96.18523930340984" height="27.292988196816623" zOrder="33374" />
+  <Label elementID="e46fb" textLabel="MHCII" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" groupRef="e5e1e" centerX="140.21392811230112" centerY="551.0811795509845" width="96.18523930340984" height="27.292988196816623" zOrder="33375" />
+  <Label elementID="aae2e" textLabel="MHCII" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="399.06445575444957" centerY="585.5482347302768" width="96.18523930340984" height="27.292988196816623" zOrder="33406" />
+  <Label elementID="e7c82" textLabel="TCR" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="923.96638655462" centerY="150.31643043193282" width="54.0" height="27.292988196816623" zOrder="33410" />
+  <Label elementID="ec0b5" textLabel="TCR" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="560.9999999999998" centerY="446.5321167064425" width="60.0" height="27.292988196816623" zOrder="33411" />
+  <Label elementID="a1166" textLabel="Direct &#xA;Donor APC" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="235.30266084551357" centerY="46.20038625652933" width="127.39467830897286" height="53.46745452962193" zOrder="33415" />
+  <Label elementID="d787d" textLabel="MHCI" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" groupRef="b8729" centerX="301.3859237021584" centerY="88.53211670644248" width="96.18523930340984" height="27.292988196816623" zOrder="33430" />
+  <Label elementID="b1265" textLabel="MHCII" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="1173.18031466694" centerY="727.8654932764745" width="96.18523930340984" height="27.292988196816623" zOrder="33431" />
+  <Label elementID="cf85c" textLabel="TT" color="cc0033" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="941.4663865546235" centerY="673.7843137254899" width="25.0" height="20.0" zOrder="33439" />
+  <Label elementID="eb33f" textLabel="TT" color="cc0033" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="941.4663865546235" centerY="691.7843137254899" width="25.0" height="20.0" zOrder="33440" />
+  <Label elementID="e07ab" textLabel="TT" color="0000cc" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1472.4663865546236" centerY="432.78431372548994" width="25.0" height="20.0" zOrder="33441" />
+  <Label elementID="e6ff4" textLabel="TT" color="0000cc" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1474.4663865546236" centerY="113.78431372548994" width="25.0" height="20.0" zOrder="33444" />
+  <Label elementID="bce8a" textLabel="TT" color="0000cc" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1473.4663865546236" centerY="133.78431372548994" width="25.0" height="20.0" zOrder="33445" />
+  <Label elementID="a38e5" textLabel="TT" color="0000cc" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1473.4663865546236" centerY="154.78431372548994" width="25.0" height="20.0" zOrder="33446" />
+  <Label elementID="bac7b" textLabel="TT" color="0000cc" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="765.7495081517189" centerY="797.1200669015327" width="25.0" height="20.0" zOrder="33449" />
+  <Label elementID="bb069" textLabel="TT" color="0000cc" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="897.3466043404684" centerY="564.8333155403717" width="25.0" height="20.0" zOrder="33450" />
+  <Label elementID="b178d" textLabel="TT" color="0000cc" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="749.4337186780341" centerY="762.6554571011686" width="25.0" height="20.0" zOrder="33451" />
+  <Label elementID="d8e61" textLabel="TT" color="0000cc" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="746.7295444493585" centerY="722.7462012028005" width="25.0" height="20.0" zOrder="33452" />
+  <Label elementID="b6a7f" textLabel="?" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="1649.0" centerY="761.0" width="26.0" height="20.0" zOrder="33453" />
+  <Label elementID="b082d" textLabel="?" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="1520.0" centerY="761.0" width="26.0" height="20.0" zOrder="33454" />
+  <Shape elementID="a828b" shapeType="Oval" fillColor="666666" fontSize="10" vAlign="Middle" centerX="1194.466386554617" centerY="418.78431372548994" width="99.0" height="90.0" zOrder="16384" rotation="0.0" />
+  <Shape elementID="b569b" shapeType="Oval" color="cc0000" fillColor="990000" fontSize="10" vAlign="Middle" centerX="2374.4145658263405" centerY="439.04341736694596" width="18.0" height="15.0" zOrder="16384" rotation="0.0" />
+  <Shape elementID="bf08a" shapeType="Oval" color="333333" fillColor="333333" fontSize="10" vAlign="Middle" centerX="1192.966386554617" centerY="430.28431372548994" width="20.0" height="17.0" zOrder="16384" rotation="0.021735706841792664" />
+  <Shape elementID="bff4e" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="575.5" centerY="52.5" width="175.0" height="73.0" zOrder="16384" rotation="0.0" />
+  <Shape elementID="d477f" shapeType="Oval" fillColor="999999" fontSize="10" vAlign="Middle" centerX="110.81725468577781" centerY="265.3409592061744" width="37.9862183020947" height="30.268467475193006" zOrder="16384" rotation="0.0" />
+  <Shape elementID="d4a66" shapeType="Oval" color="333333" fillColor="333333" fontSize="10" vAlign="Middle" centerX="1211.091386554617" centerY="430.40931372548994" width="11.75" height="11.25" zOrder="16384" rotation="0.0" />
+  <Shape elementID="eff30" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="85.45893054024293" centerY="258.99476295479633" width="112.95865490628455" height="79.88257993384764" zOrder="16384" rotation="0.0" />
+  <Shape elementID="f660f" shapeType="Oval" lineThickness="3.0" color="006633" fontSize="10" vAlign="Middle" centerX="2369.4145658263405" centerY="458.54341736694596" width="112.0" height="78.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="e7147" groupRef="e2d08" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="233.97558007670818" centerY="357.9476525144821" width="51.470588235294265" height="129.20168067226888" zOrder="16386" rotation="0.0" />
+  <Shape elementID="cab63" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="624.2409638554211" centerY="459.28781793842023" width="124.09638554216917" height="113.78848728246294" zOrder="16388" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="dca15" groupRef="e2d08" shapeType="Rectangle" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="255.50919352208598" centerY="386.83420713632813" width="30.0" height="30.0" zOrder="16390" rotation="0.0" />
+  <Shape elementID="c43ca" groupRef="e2d08" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="214.27810108511142" centerY="345.50227436321745" width="27.605042016806376" height="39.18487394957904" zOrder="33056" rotation="0.0" />
+  <Shape elementID="f6216" groupRef="e2d08" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="237.53860528679195" centerY="304.1661399094371" width="27.605042016806376" height="38.44537815125913" zOrder="33058" rotation="0.0" />
+  <Shape elementID="a28bb" groupRef="e2d08" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="217.20247083301024" centerY="312.5358878085991" width="27.605042016806376" height="39.18487394957904" zOrder="33060" rotation="0.0" />
+  <Shape elementID="aea67" groupRef="e2d08" shapeType="Rectangle" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="255.86213469855647" centerY="335.4896693212004" width="30.0" height="30.0" zOrder="33062" rotation="0.0" />
+  <Shape elementID="d84a9" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="763.4309113203536" centerY="644.0935506732815" width="124.09638554216917" height="113.78848728246294" zOrder="33076" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="d66a2" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="977.8499206911661" centerY="179.81575923542118" width="124.09638554216917" height="113.78848728246294" zOrder="33078" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="ecafa" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="988.9663865546181" centerY="431.78431372548994" width="122.0" height="124.0" zOrder="33084" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="e99e8" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1035.466386554617" centerY="707.2093471926921" width="121.0" height="120.85006693440437" zOrder="33086" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="f1b57" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="814.9463062333399" centerY="924.8686510748878" width="124.09638554216917" height="113.78848728246294" zOrder="33088" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="d7dd1" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="596.014579325708" centerY="852.6785573667214" width="124.09638554216917" height="113.78848728246294" zOrder="33090" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="a05be" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1229.0145793257016" centerY="700.6785573667214" width="124.09638554216917" height="113.78848728246294" zOrder="33091" rotation="0.03834669057998672">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="f2114" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1468.0145793257013" centerY="179.28431372549028" width="124.09638554216917" height="109.0" zOrder="33111" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="d643a" shapeType="Oval" fillColor="666666" fontSize="10" vAlign="Middle" centerX="1722.3991933653685" centerY="172.27644647941418" width="49.23683794752762" height="30.964845786093214" zOrder="33114" rotation="6.154759961377517" />
+  <Shape elementID="f8b6d" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="1729.466386554617" centerY="172.28431372549034" width="185.0" height="71.0" zOrder="33115" rotation="0.0" />
+  <Shape elementID="daa3b" shapeType="Oval" fillColor="666666" fontSize="10" vAlign="Middle" centerX="1755.3991933653685" centerY="419.27644647941395" width="49.23683794752762" height="30.964845786093214" zOrder="33124" rotation="6.154759961377517" />
+  <Shape elementID="bfcf8" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="1753.966386554617" centerY="418.78431372548994" width="190.0" height="70.0" zOrder="33125" rotation="0.0" />
+  <Shape elementID="c6f51" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1412.031386048393" centerY="701.392156862745" width="120.06277209678592" height="109.21568627451006" zOrder="33156" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="e01ae" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1703.2663802118357" centerY="849.7843137254899" width="110.59998731443739" height="124.0" zOrder="33185" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="a6833" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="1806.466386554617" centerY="807.2843137254899" width="15.0" height="15.0" zOrder="33214" rotation="0.0" />
+  <Shape elementID="b4f63" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1795.466386554617" centerY="806.7843137254899" width="57.0" height="38.0" zOrder="33215" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="f9f97" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="1872.3963585434183" centerY="803.0826330532211" width="15.0" height="15.0" zOrder="33217" rotation="0.0" />
+  <Shape elementID="d6d9f" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1861.8868283911243" centerY="806.2969187675048" width="59.59998731443784" height="40.0" zOrder="33218" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="a633c" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="1941.8963585434183" centerY="803.0826330532211" width="14.0" height="15.0" zOrder="33220" rotation="0.0" />
+  <Shape elementID="f8b75" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1931.6963522006376" centerY="805.0826330532211" width="59.59998731443784" height="37.0" zOrder="33221" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="d148a" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1999.3963585434183" centerY="805.5826330532211" width="63.0" height="36.0" zOrder="33226" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="faa8b" shapeType="Oval" color="333333" fillColor="333333" fontSize="10" vAlign="Middle" centerX="1202.341386554617" centerY="408.78431372548994" width="20.75" height="20.0" zOrder="33229" rotation="0.0" />
+  <Shape elementID="a984f" shapeType="Oval" color="333333" fillColor="333333" fontSize="10" vAlign="Middle" centerX="1169.841386554617" centerY="430.40931372548994" width="11.75" height="11.25" zOrder="33230" rotation="0.0" />
+  <Shape elementID="a1c87" shapeType="Oval" color="333333" fillColor="333333" fontSize="10" vAlign="Middle" centerX="1219.966386554617" centerY="434.40931372548994" width="22.0" height="11.25" zOrder="33231" rotation="0.0" />
+  <Shape elementID="ce819" shapeType="Oval" color="333333" fillColor="333333" fontSize="10" vAlign="Middle" centerX="1181.841386554617" centerY="396.40931372548994" width="11.75" height="11.25" zOrder="33232" rotation="0.0" />
+  <Shape elementID="a7ce6" shapeType="Oval" color="333333" fillColor="333333" fontSize="10" vAlign="Middle" centerX="1200.966386554617" centerY="448.90931372548994" width="20.0" height="18.25" zOrder="33233" rotation="0.0" />
+  <Shape elementID="ad665" shapeType="Oval" color="333333" fillColor="333333" fontSize="10" vAlign="Middle" centerX="1164.966386554617" centerY="405.40931372548994" width="12.0" height="17.25" zOrder="33235" rotation="0.0" />
+  <Shape elementID="b73bf" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="906.9663865546207" centerY="75.67855736672169" width="58.0" height="53.78848728246294" zOrder="33239" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="ed9fc" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1040.966386554617" centerY="91.6785573667216" width="60.0" height="57.78848728246294" zOrder="33242" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="b5018" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="976.966386554617" centerY="49.784313725490264" width="64.0" height="62.0" zOrder="33246" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="eee14" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="857.4663865546228" centerY="448.6785573667214" width="55.0" height="51.78848728246294" zOrder="33252" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="d83b4" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1375.966386554617" centerY="254.67855736672144" width="58.0" height="53.78848728246294" zOrder="33253" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="d1f8a" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1507.966386554617" centerY="300.6785573667214" width="58.0" height="53.78848728246294" zOrder="33256" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="e3655" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1429.966386554617" centerY="303.6785573667214" width="58.0" height="53.78848728246294" zOrder="33259" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="c8c9b" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="602.9999999999998" centerY="330.8942436412316" width="62.0" height="63.78848728246294" zOrder="33262" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="c4181" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="670.9999999999998" centerY="344.8942436412316" width="62.0" height="63.78848728246294" zOrder="33265" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="c2176" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="536.0000000000002" centerY="361.8942436412316" width="62.0" height="63.78848728246294" zOrder="33268" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="b2614" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="909.4663865546204" centerY="340.6785573667214" width="55.0" height="51.78848728246294" zOrder="33272" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="f6a96" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="847.4663865546232" centerY="382.6785573667214" width="55.0" height="51.78848728246294" zOrder="33275" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="a0cec" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="850.9663865546229" centerY="548.7843137254899" width="56.0" height="54.0" zOrder="33281" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="d7642" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="798.9663865546239" centerY="504.78431372548994" width="56.0" height="54.0" zOrder="33284" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="a3998" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="733.9663865546235" centerY="524.7843137254899" width="56.0" height="54.0" zOrder="33287" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="e6244" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="524.4663865546235" centerY="962.1785573667214" width="57.0" height="54.78848728246294" zOrder="33291" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="d0d70" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="595.4663865546235" centerY="991.1785573667214" width="57.0" height="54.78848728246294" zOrder="33294" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="f2c94" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="665.4663865546235" centerY="964.1785573667214" width="57.0" height="54.78848728246294" zOrder="33297" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="c6e28" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="747.4663865546235" centerY="1021.6785573667214" width="53.0" height="51.78848728246294" zOrder="33299" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="a338f" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="892.4663865546211" centerY="1014.6785573667214" width="53.0" height="51.78848728246294" zOrder="33302" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="c0305" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="826.4663865546241" centerY="1037.6785573667214" width="53.0" height="51.78848728246294" zOrder="33305" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="e4f00" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1392.966386554617" centerY="584.2843137254899" width="62.0" height="57.0" zOrder="33309" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="be61e" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1460.966386554617" centerY="603.2843137254899" width="62.0" height="57.0" zOrder="33312" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="e6508" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1327.966386554617" centerY="608.2843137254899" width="62.0" height="57.0" zOrder="33315" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="de25b" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1215.966386554617" centerY="834.1785573667214" width="52.0" height="52.78848728246294" zOrder="33320" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="ee97e" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1278.966386554617" centerY="844.1785573667214" width="52.0" height="52.78848728246294" zOrder="33328" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="a7ae1" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1324.966386554617" centerY="797.1785573667214" width="52.0" height="52.78848728246294" zOrder="33331" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="b1ccf" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="972.966386554617" centerY="827.1785573667214" width="54.0" height="52.78848728246294" zOrder="33333" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="d912c" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1067.966386554617" centerY="807.1785573667214" width="54.0" height="52.78848728246294" zOrder="33336" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="e61a9" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1034.966386554617" centerY="872.1785573667214" width="54.0" height="52.78848728246294" zOrder="33339" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="ac3f5" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="2010.3963585434183" centerY="805.0826330532211" width="15.0" height="15.0" zOrder="33351" rotation="0.0" />
+  <Shape elementID="a11b7" shapeType="Oval" color="333333" fillColor="333333" fontSize="10" vAlign="Middle" centerX="1226.841386554617" centerY="412.40931372548994" width="11.75" height="11.25" zOrder="33360" rotation="0.0" />
+  <Shape elementID="a8ff6" shapeType="Oval" color="333333" fillColor="333333" fontSize="10" vAlign="Middle" centerX="1202.841386554617" centerY="387.90931372548994" width="19.75" height="12.25" zOrder="33361" rotation="0.0" />
+  <Shape elementID="dd56b" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="85.61328555678097" centerY="345.1469128996696" width="112.95865490628455" height="79.88257993384764" zOrder="33367" rotation="0.0" />
+  <Shape elementID="a875e" shapeType="Oval" fillColor="999999" fontSize="10" vAlign="Middle" centerX="110.97160970231585" centerY="351.49310915104746" width="37.9862183020947" height="30.268467475193006" zOrder="33368" rotation="0.0" />
+  <Shape elementID="f98a2" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="85.69046306504993" centerY="430.1193495038592" width="112.95865490628455" height="79.88257993384764" zOrder="33369" rotation="0.0" />
+  <Shape elementID="d8c90" shapeType="Oval" fillColor="999999" fontSize="10" vAlign="Middle" centerX="111.0487872105848" centerY="436.4655457552369" width="37.9862183020947" height="30.268467475193006" zOrder="33370" rotation="0.0" />
+  <Shape elementID="f4bf7" groupRef="b4d62" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="391.13702282359714" centerY="381.9538477158263" width="51.470588235294265" height="129.20168067226888" zOrder="33384" rotation="0.0" />
+  <Shape elementID="f7d5a" groupRef="b4d62" shapeType="Rectangle" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="412.67063626897493" centerY="410.84040233767223" width="30.0" height="30.0" zOrder="33385" rotation="0.0" />
+  <Shape elementID="b8b2f" groupRef="b4d62" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="371.43954383200037" centerY="369.50846956456155" width="27.605042016806376" height="39.18487394957904" zOrder="33386" rotation="0.0" />
+  <Shape elementID="e1767" groupRef="b4d62" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="394.7000480336809" centerY="328.1723351107812" width="27.605042016806376" height="38.44537815125913" zOrder="33387" rotation="0.0" />
+  <Shape elementID="e79c4" groupRef="b4d62" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="374.3639135798992" centerY="336.5420830099432" width="27.605042016806376" height="39.18487394957904" zOrder="33388" rotation="0.0" />
+  <Shape elementID="d0cc2" groupRef="b4d62" shapeType="Rectangle" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="413.0235774454454" centerY="359.4958645225445" width="30.0" height="30.0" zOrder="33389" rotation="0.0" />
+  <Shape elementID="d7995" groupRef="b8729" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="232.97558007670818" centerY="140.94765251448212" width="51.470588235294265" height="129.20168067226888" zOrder="33413" rotation="0.0" />
+  <Shape elementID="b274b" groupRef="b8729" shapeType="Rectangle" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="254.50919352208598" centerY="169.83420713632813" width="30.0" height="30.0" zOrder="33414" rotation="0.0" />
+  <Shape elementID="c7424" groupRef="b8729" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="213.27810108511142" centerY="128.50227436321745" width="27.605042016806376" height="39.18487394957904" zOrder="33416" rotation="0.0" />
+  <Shape elementID="c8ff5" groupRef="b8729" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="236.5386052867919" centerY="87.1661399094371" width="27.605042016806376" height="38.44537815125913" zOrder="33417" rotation="0.0" />
+  <Shape elementID="fefa7" groupRef="b8729" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="216.20247083301024" centerY="95.53588780859911" width="27.605042016806376" height="39.18487394957904" zOrder="33418" rotation="0.0" />
+  <Shape elementID="ea31a" groupRef="b8729" shapeType="Rectangle" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="254.86213469855647" centerY="118.48966932120038" width="30.0" height="30.0" zOrder="33419" rotation="0.0" />
+  <Shape elementID="bde98" groupRef="f787a" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="237.97558007670818" centerY="525.9476525144821" width="51.470588235294265" height="129.20168067226888" zOrder="33433" rotation="0.0" />
+  <Shape elementID="ecf01" groupRef="f787a" shapeType="Rectangle" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="259.509193522086" centerY="554.8342071363281" width="30.0" height="30.0" zOrder="33434" rotation="0.0" />
+  <Shape elementID="e4f0e" groupRef="f787a" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="218.27810108511142" centerY="513.5022743632175" width="27.605042016806376" height="39.18487394957904" zOrder="33435" rotation="0.0" />
+  <Shape elementID="d4a5f" groupRef="f787a" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="241.53860528679195" centerY="472.1661399094371" width="27.605042016806376" height="38.44537815125913" zOrder="33436" rotation="0.0" />
+  <Shape elementID="e8dc5" groupRef="f787a" shapeType="Oval" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="221.20247083301024" centerY="480.5358878085991" width="27.605042016806376" height="39.18487394957904" zOrder="33437" rotation="0.0" />
+  <Shape elementID="ff6fc" groupRef="f787a" shapeType="Rectangle" color="cc3300" fillColor="cc3300" fontSize="10" vAlign="Middle" centerX="259.8621346985565" centerY="503.4896693212004" width="30.0" height="30.0" zOrder="33438" rotation="0.0" />
+  <Group elementID="ac839" groupType="Group" />
+  <Group elementID="afceb" groupType="Group" />
+  <Group elementID="b4d62" groupType="Group" />
+  <Group elementID="b81ac" groupType="Group" />
+  <Group elementID="b862b" textLabel="hsa:3592 hsa:3593" />
+  <Group elementID="b8729" groupType="Group" />
+  <Group elementID="beed8" groupType="Group" />
+  <Group elementID="c43fb" groupType="Group" />
+  <Group elementID="c5c55" groupType="Group" />
+  <Group elementID="ca1b5" groupType="Group" />
+  <Group elementID="ca7d5" groupType="Group" />
+  <Group elementID="d097b" groupType="Group" />
+  <Group elementID="d6fe8" groupType="Group" />
+  <Group elementID="e0014" textLabel="ko:K10784 ko:K10785" />
+  <Group elementID="e2d08" groupType="Group" />
+  <Group elementID="e4d58" textLabel="hsa:941 hsa:942" />
+  <Group elementID="e5e1e" groupType="Group" />
+  <Group elementID="ec3d3" textLabel="hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614" />
+  <Group elementID="f07ce" groupType="Group" />
+  <Group elementID="f4fd0" textLabel="hsa:3105 hsa:3106 hsa:3107 hsa:3133 hsa:3134 hsa:3135 hsa:652614" />
+  <Group elementID="f787a" groupType="Group" />
+  <Group elementID="f95a5" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Transplant immunology for non-immunologist." URL="" citationID="d87" year="2012" source="Mt Sinai J Med">
+      <Xref dataSource="PubMed" identifier="22678861" />
+      <Author name="Heeger PS" />
+      <Author name="Dinavahi R" />
+    </Citation>
+    <Citation title="Non-HLA antibodies to immunogenic epitopes predict the evolution of chronic renal allograft injury." URL="" citationID="bde" year="2012" source="J Am Soc Nephrol">
+      <Xref dataSource="PubMed" identifier="22302197" />
+      <Author name="Sigdel TK" />
+      <Author name="Li L" />
+      <Author name="Tran TQ" />
+      <Author name="Khatri P" />
+      <Author name="Naesens M" />
+      <Author name="Sansanwal P" />
+      <Author name="Dai H" />
+      <Author name="Hsieh SC" />
+      <Author name="Sarwal MM" />
+    </Citation>
+    <Citation title="Role of non-HLA antibodies in organ transplantation." URL="" citationID="bb2" year="2012" source="Curr Opin Organ Transplant">
+      <Xref dataSource="PubMed" identifier="22790079" />
+      <Author name="Dragun D" />
+      <Author name="Philippe A" />
+      <Author name="Catar R" />
+    </Citation>
+    <Citation title="The role of complement in antibody-mediated rejection in kidney transplantation." URL="" citationID="e98" year="2012" source="Nat Rev Nephrol">
+      <Xref dataSource="PubMed" identifier="23026942 " />
+      <Author name="Stegall MD" />
+      <Author name="Chedid MF" />
+      <Author name="Cornell LD" />
+    </Citation>
+    <Citation title="Characterization of intra-graft B cells during renal allograft rejection." URL="" citationID="f4e" year="2008" source="Kidney Int">
+      <Xref dataSource="PubMed" identifier="18547992" />
+      <Author name="Zarkhin V" />
+      <Author name="Kambham N" />
+      <Author name="Li L" />
+      <Author name="Kwok S" />
+      <Author name="Hsieh SC" />
+      <Author name="Salvatierra O" />
+      <Author name="Sarwal MM" />
+    </Citation>
+    <Citation title="Increased expression of cytotoxic effector molecules: different interpretations for steroid-based and steroid-free immunosuppression." URL="" citationID="cbe" year="2003" source="Pediatr Transplant">
+      <Xref dataSource="PubMed" identifier="12581329" />
+      <Author name="Satterwhite T" />
+      <Author name="Chua MS" />
+      <Author name="Hsieh SC" />
+      <Author name="Chang S" />
+      <Author name="Scandling J" />
+      <Author name="Salvatierra O" />
+      <Author name="Sarwal MM" />
+    </Citation>
+    <Citation title="Significance and suppression of redundant IL17 responses in acute allograft rejection by bioinformatics based drug repositioning of fenofibrate." URL="" citationID="f22" year="2013" source="PLoS One">
+      <Xref dataSource="PubMed" identifier="23437201" />
+      <Author name="Roedder S" />
+      <Author name="Kimura N" />
+      <Author name="Okamura H" />
+      <Author name="Hsieh SC" />
+      <Author name="Gong Y" />
+      <Author name="Sarwal MM" />
+    </Citation>
+    <Citation title="Balancing efficacy and toxicity of kidney transplant immunosuppression." URL="" citationID="fac" year="2009" source="Transplant Proc">
+      <Xref dataSource="PubMed" identifier="19857756" />
+      <Author name="Naesens M" />
+      <Author name="Lerut E" />
+      <Author name="Sarwal M" />
+      <Author name="Van Damme B" />
+      <Author name="Vanrenterghem Y" />
+      <Author name="Kuypers DR" />
+    </Citation>
+    <Citation title="Rejection of the kidney allograft." URL="" citationID="f48" year="2010" source="N Engl J Med">
+      <Xref dataSource="PubMed" identifier="20925547 " />
+      <Author name="Nankivell BJ" />
+      <Author name="Alexander SI" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="disease pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000013" />
+    <OntologyTerm term="allograft rejection pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001025" />
+  </OntologyTerms>
+</Pathway>
+

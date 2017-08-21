@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="The Glyoxylate, Anapleurotic and Succinyl CoA (GAS) pathway" Version="20140224" Organism="Mycobacterium tuberculosis">
+  <Comment Source="WikiPathways-description">Schematic of the GAS pathway which is characterised by flux through the glyoxylate shunt and anaplerotic reactions for oxidation of pyruvate and succinyl CoA synthetase for the generation of succinyl CoA.
+
+From: (http://www.plospathogens.org/article/info%3Adoi%2F10.1371%2Fjournal.ppat.1002091)</Comment>
+  <BiopaxRef>f44</BiopaxRef>
+  <Graphics BoardWidth="795.2493496875001" BoardHeight="707.2850046875002"/>
+  <DataNode TextLabel="CO2" GraphId="ad207" Type="Metabolite">
+    <Graphics CenterX="118.0" CenterY="130.47436874999994" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="274"/>
+  </DataNode>
+  <DataNode TextLabel="Succinyl-CoA" GraphId="a0a3f" Type="Metabolite">
+    <Graphics CenterX="416.06778937499996" CenterY="664.9426940625002" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="83179"/>
+  </DataNode>
+  <DataNode TextLabel="02" GraphId="e9235" Type="Metabolite">
+    <Graphics CenterX="596.0234896874999" CenterY="447.97482843750004" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="952"/>
+  </DataNode>
+  <DataNode TextLabel="Citrate" GraphId="c55a8" Type="Metabolite" GroupRef="f1aea">
+    <Graphics CenterX="478.6055859375" CenterY="316.51782749999995" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="29081 "/>
+  </DataNode>
+  <DataNode TextLabel="Isocitrate" GraphId="fb2a2" Type="Metabolite" GroupRef="f1aea">
+    <Graphics CenterX="478.60558593750005" CenterY="336.51782749999995" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="4573809"/>
+  </DataNode>
+  <DataNode TextLabel="glyoxylate" GraphId="b7529" Type="Metabolite">
+    <Graphics CenterX="328.0043615625001" CenterY="492.6446831249998" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="2849615"/>
+  </DataNode>
+  <DataNode TextLabel="Succinate" GraphId="a72dc" Type="Metabolite">
+    <Graphics CenterX="181.231981875" CenterY="617.72027625" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="140973"/>
+  </DataNode>
+  <DataNode TextLabel="L-Malate" GraphId="c083f" Type="Metabolite">
+    <Graphics CenterX="62.53779656249995" CenterY="422.4491971875" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="4573566"/>
+  </DataNode>
+  <DataNode TextLabel="Pyruvate" GraphId="fbc9b" Type="Metabolite" GroupRef="ca18f">
+    <Graphics CenterX="253.12425437500008" CenterY="46.8019128125" Width="139.5499618749999" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="96901"/>
+  </DataNode>
+  <DataNode TextLabel="Oxaloacetate" GraphId="b45a8" Type="Metabolite">
+    <Graphics CenterX="247.598623125" CenterY="422.4491971875" Width="80.0" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="2509917"/>
+  </DataNode>
+  <DataNode TextLabel="phosphoenolpyruvate" GraphId="b4984" Type="Metabolite" GroupRef="ca18f">
+    <Graphics CenterX="253.12425437500002" CenterY="26.8019128125" Width="139.5499618749999" Height="20.0" ZOrder="32768" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="980"/>
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="f91d0" Type="Metabolite">
+    <Graphics CenterX="655.2641162499999" CenterY="554.9756693749998" Width="80.0" Height="20.0" ZOrder="32770" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="274"/>
+  </DataNode>
+  <DataNode TextLabel="Succinyl-CoA" GraphId="c3498" Type="Metabolite">
+    <Graphics CenterX="657.0747521875003" CenterY="667.2850046875002" Width="80.0" Height="20.0" ZOrder="32771" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="83179"/>
+  </DataNode>
+  <DataNode TextLabel="CO2" GraphId="daa31" Type="Metabolite">
+    <Graphics CenterX="725.2493496875001" CenterY="358.2180562499997" Width="80.0" Height="20.0" ZOrder="32772" FontSize="10" Valign="Middle" Color="0000ff"/>
+    <Xref Database="Chemspider" ID="274"/>
+  </DataNode>
+  <Interaction GraphId="idee467e50">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="526.6055859375001" Y="326.51782749999995" GraphRef="f1517" RelX="1.0" RelY="0.0"/>
+      <Point X="685.2493496875001" Y="358.2180562499997" GraphRef="daa31" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="id566be735">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="526.6055859375001" Y="326.51782749999995" GraphRef="f1517" RelX="1.0" RelY="0.0"/>
+      <Point X="596.0234896874999" Y="437.97482843750004" GraphRef="e9235" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="ide42af691">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="596.0234896874999" Y="457.97482843750004" GraphRef="e9235" RelX="0.0" RelY="1.0"/>
+      <Point X="597.2997712499999" Y="477.97482843750004"/>
+      <Point X="598.5760528124999" Y="511.47524890624993"/>
+      <Point X="655.2641162499999" Y="544.9756693749998" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="idc5f5a153">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="596.0234896874999" Y="457.97482843750004" GraphRef="e9235" RelX="0.0" RelY="1.0"/>
+      <Point X="456.06778937499996" Y="664.9426940625002" GraphRef="a0a3f" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="id1d7bb5b7">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="456.06778937499996" Y="664.9426940625002" GraphRef="a0a3f" RelX="1.0" RelY="0.0"/>
+      <Point X="617.0747521875003" Y="667.2850046875002" GraphRef="c3498" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="id23f7cd5f">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="478.60558593750005" Y="354.51782749999995" GraphRef="f1517" RelX="0.0" RelY="1.0"/>
+      <Point X="368.0043615625001" Y="492.6446831249998" GraphRef="b7529" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="idb7e5d649">
+    <Graphics ConnectorType="Curved" ZOrder="12288" LineThickness="1.0">
+      <Point X="502.6055859375001" Y="354.51782749999995" GraphRef="f1517" RelX="0.5" RelY="1.0"/>
+      <Point X="221.231981875" Y="617.72027625" GraphRef="a72dc" RelX="1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="id32963e3d">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="181.231981875" Y="627.72027625" GraphRef="a72dc" RelX="0.0" RelY="1.0"/>
+      <Point X="376.06778937499996" Y="664.9426940625002" GraphRef="a0a3f" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="idee74cd1c">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="293.98003093750003" Y="241.21721531249995" GraphRef="e48ba" RelX="1.0" RelY="0.0"/>
+      <Point X="430.6055859375" Y="326.51782749999995" GraphRef="f1517" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="id32ffb16">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="253.12425437500005" Y="64.8019128125" GraphRef="f0818" RelX="0.0" RelY="1.0"/>
+      <Point X="253.98003093750003" Y="231.21721531249995" GraphRef="e48ba" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+      <Anchor Position="0.4" Shape="None" GraphId="c5a44"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="id83c0ce1e">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="158.0" Y="130.47436874999994" GraphRef="ad207" RelX="1.0" RelY="0.0"/>
+      <Point X="253.46656500000003" Y="131.3680338125" GraphRef="c5a44" RelX="0.0" RelY="0.0" ArrowHead="mim-catalysis"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="id7db002ee">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="288.0043615625001" Y="492.6446831249998" GraphRef="b7529" RelX="-1.0" RelY="0.0"/>
+      <Point X="144.56212718749998" Y="422.4491971875" GraphRef="cd4d5" RelX="0.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="idacb3d4a1">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="144.56212718749998" Y="422.4491971875" GraphRef="cd4d5" RelX="0.0" RelY="0.0"/>
+      <Point X="430.6055859375" Y="326.51782749999995" GraphRef="f1517" RelX="-1.0" RelY="0.0" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction GraphId="id397cd0d">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="102.53779656249995" Y="422.4491971875" GraphRef="c083f" RelX="1.0" RelY="0.0"/>
+      <Point X="207.59862312500002" Y="422.4491971875" GraphRef="b45a8" RelX="-1.0" RelY="0.0" ArrowHead="mim-conversion"/>
+      <Anchor Position="0.4" Shape="None" GraphId="cd4d5"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Interaction>
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="253.12425437500005" Y="64.8019128125" GraphRef="f0818" RelX="0.0" RelY="1.0"/>
+      <Point X="118.0" Y="120.47436874999994" GraphRef="ad207" RelX="0.0" RelY="-1.0" ArrowHead="Arrow"/>
+    </Graphics>
+    <Xref Database="" ID=""/>
+  </Interaction>
+  <Label TextLabel="Ac" GraphId="e48ba">
+    <Graphics CenterX="253.98003093750003" CenterY="241.21721531249995" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle"/>
+  </Label>
+  <Group GroupId="f1aea" GraphId="f1517" Style="Group"/>
+  <Group GroupId="ca18f" GraphId="f0818" Style="Group"/>
+  <InfoBox CenterX="0.0" CenterY="0.0"/>
+  <Biopax>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="f44">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">21814509</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13C metabolic flux analysis identifies an unusual route for pyruvate dissimilation in mycobacteria which requires isocitrate lyase and carbon dioxide fixation.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PLoS Pathog</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beste DJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bonde B</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hawkins N</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ward JL</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beale MH</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Noack S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nöh K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kruger NJ</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ratcliffe RG</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McFadden J</bp:AUTHORS>
+    </bp:PublicationXref>
+  <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#"><bp:TERM>classic metabolic pathway</bp:TERM><bp:ID>PW:0000002</bp:ID><bp:Ontology>Pathway Ontology</bp:Ontology></bp:openControlledVocabulary></Biopax>
+</Pathway>

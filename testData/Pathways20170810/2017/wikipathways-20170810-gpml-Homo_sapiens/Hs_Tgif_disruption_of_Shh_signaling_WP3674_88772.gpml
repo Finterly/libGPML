@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Tgif disruption of Shh signaling" revision="20160620" organism="Homo sapiens" width="647.4137931034483" height="298.7967332123411">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Mutations in the Sonic Hedgehog(SHH) gene result in HPE in humans and mice, and the Shh pathway is targeted by other mutations that cause HPE. HPE is a severe human genetic disease affecting craniofacial development of children.  The TGIF1 gene maps to the HPE4, and the heterozygous loss of the TGIF1 mutations are associated with HPE, however mouse models have yet to explain how the inhibition of TGIF causes the genetic disease Holoprosencephaly.  Using a conditional Tgif1 allele, we show that mouse embryos lacking both Tgif1 and the related Tgif2 have HPE-like phenotypes reminiscent of Shh null embryos. This pathway is based on figure 9 from Taniguchi et al.</Comment>
+  <CitationRef citationID="e72" />
+  <DataNode elementID="a7ab6" textLabel="TGIF2" groupRef="bdb1e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="242.91379310344826" centerY="110.79673321234117" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000118707" />
+  </DataNode>
+  <DataNode elementID="a9cec" textLabel="SHH" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="420.0" centerY="255.79673321234128" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000164690" />
+  </DataNode>
+  <DataNode elementID="c21c6" textLabel="NKX2-1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="577.4137931034483" centerY="255.79673321234128" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000136352" />
+  </DataNode>
+  <DataNode elementID="c3e23" textLabel="FGF8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="79.41379310344826" centerY="121.79673321234117" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000107831" />
+  </DataNode>
+  <DataNode elementID="cc33e" textLabel="SMAD2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="242.91379310344826" centerY="190.79673321234128" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000175387" />
+  </DataNode>
+  <DataNode elementID="ef408" textLabel="FOXG1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="79.41379310344826" centerY="222.79673321234128" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000176165" />
+  </DataNode>
+  <DataNode elementID="f6157" textLabel="TGIF1" groupRef="bdb1e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="242.91379310344826" centerY="130.79673321234117" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000177426" />
+  </DataNode>
+  <DataNode elementID="faed2" textLabel="GLI3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="420.0" centerY="76.79673321234117" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000106571" />
+  </DataNode>
+  <DataNode elementID="ff9de" textLabel="NODAL" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="242.91379310344826" centerY="242.79673321234128" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000156574" />
+  </DataNode>
+  <Interaction elementID="id3f39f41c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="79.41379310344826" y="131.79673321234117" elementID="bba36" elementRef="c3e23" relX="0.0" relY="1.0" />
+    <Point x="79.41379310344826" y="212.79673321234128" elementID="f877b" elementRef="ef408" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5ab67169" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="460.0" y="255.79673321234128" elementID="bd21f" elementRef="a9cec" relX="1.0" relY="0.0" />
+    <Point x="537.4137931034483" y="255.79673321234128" elementID="effbd" elementRef="c21c6" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.48813255709807535" shapeType="None" elementID="b0382" />
+  </Interaction>
+  <Interaction elementID="id6c165d74" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="420.0" y="245.79673321234128" elementID="a5f70" elementRef="a9cec" relX="0.0" relY="-1.0" />
+    <Point x="420.0" y="86.79673321234117" elementID="d5860" elementRef="faed2" relX="0.0" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id7096a13" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="242.91379310344826" y="232.79673321234128" elementID="f6743" elementRef="ff9de" relX="0.0" relY="-1.0" />
+    <Point x="242.91379310344826" y="200.79673321234128" elementID="e5881" elementRef="cc33e" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7435f341" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="440.0" y="86.79673321234117" elementID="be9bd" elementRef="faed2" relX="0.5" relY="1.0" />
+    <Point x="497.78819278224756" y="255.79673321234128" elementID="bfb3f" elementRef="b0382" relX="0.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="ida408347a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="202.91379310344826" y="190.79673321234128" elementID="c9429" elementRef="cc33e" relX="-1.0" relY="0.0" />
+    <Point x="119.41379310344826" y="121.79673321234117" elementID="ee11c" elementRef="c3e23" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida6a23148" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="420.0" y="66.79673321234117" elementID="ad3be" elementRef="faed2" relX="0.0" relY="-1.0" />
+    <Point x="249.70689655172413" y="49.79673321234117" elementID="efd4e" />
+    <Point x="79.41379310344826" y="111.79673321234117" elementID="c6f17" elementRef="c3e23" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="ideb6c0667" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="262.91379310344826" y="200.79673321234128" elementID="a5847" elementRef="cc33e" relX="0.5" relY="1.0" />
+    <Point x="380.0" y="255.79673321234128" elementID="bf4b4" elementRef="a9cec" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="idf811be72" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="262.91379310344826" y="180.79673321234128" elementID="ab967" elementRef="cc33e" relX="0.5" relY="-1.0" />
+    <Point x="380.0" y="76.79673321234117" elementID="c9f47" elementRef="faed2" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfb402b17" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="242.91379310344826" y="152.79673321234117" elementID="f3009" elementRef="bdb1e" relX="0.0" relY="1.0" />
+    <Point x="242.91379310344826" y="180.79673321234128" elementID="e8c8b" elementRef="cc33e" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Shape elementID="ea6d4" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="242.16379310344826" centerY="172.2967332123411" width="154.5" height="193.0" zOrder="16384" rotation="0.0" />
+  <Group elementID="bdb1e" groupType="Complex" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Loss of Tgif function causes holoprosencephaly by disrupting the SHH signaling pathway." URL="" citationID="e72" year="2012" source="PLoS Genet">
+      <Xref dataSource="PubMed" identifier="22383895" />
+      <Author name="Taniguchi K" />
+      <Author name="Anderson AE" />
+      <Author name="Sutherland AE" />
+      <Author name="Wotton D" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="altered Hedgehog signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000321" />
+    <OntologyTerm term="signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000003" />
+  </OntologyTerms>
+</Pathway>
+

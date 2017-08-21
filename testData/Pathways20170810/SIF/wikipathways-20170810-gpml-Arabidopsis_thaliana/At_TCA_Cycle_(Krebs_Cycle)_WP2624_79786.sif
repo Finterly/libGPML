@@ -1,0 +1,95 @@
+malate dehydrogenase 2	Line	R63
+R63	mim-conversion	R15
+Glycolysis	Line	R1
+R1	Arrow	pyruvate
+fumarase	Line	R80
+R80	mim-conversion	R13
+NAD+	Line	R3
+pyruvate	Line	R3
+CoA	Line	R3
+R3	mim-conversion	Acetyl-CoA
+R3	mim-conversion	NADH
+R3	mim-conversion	CO2
+isocitrate	Line	R21
+R21	Arrow	isocitrate
+Acetyl-CoA	Line	R5
+oxaloacetate	Line	R5
+R5	mim-conversion	citrate
+R5	mim-conversion	CoA
+2-oxoglutarate dehydrogenase	Line	R57
+R57	mim-conversion	R9
+aconitase 2	Line	R38
+R38	mim-conversion	R7
+malate	Line	R17
+NAD+	Line	R17
+R17	mim-conversion	NADH
+R17	mim-conversion	CO2
+R17	mim-conversion	pyruvate
+NAD+	Line	R9
+2-oxoglutarate	Line	R9
+CoA	Line	R9
+R9	mim-conversion	NADH
+R9	mim-conversion	Succinyl-CoA
+R9	mim-conversion	CO2
+isocitrate	Line	R30
+NAD+	Line	R30
+R30	mim-conversion	NADH
+R30	mim-conversion	CO2
+R30	mim-conversion	2-oxoglutarate
+fumarate	Line	R13
+H2O	Line	R13
+R13	mim-conversion	malate
+H2O	Line	R28
+Succinyl-CoA	Line	R28
+ADP	Line	R28
+R28	mim-conversion	ATP
+R28	mim-conversion	succinate
+R28	mim-conversion	CoA
+citrate	Line	R7
+R7	mim-conversion	isocitrate
+succinate	Line	R11
+FAD+	Line	R11
+R11	mim-conversion	fumarate
+R11	mim-conversion	FADH2
+malic enzyme 2	Line	R72
+malic enzyme 1	Line	R72
+R72	mim-conversion	R17
+succinyl-CoA synthetase beta	Line	R59
+succinyl-CoA synthetase alpha-2	Line	R59
+succinyl-CoA synthetase alpha-1	Line	R59
+R59	mim-conversion	R28
+Glycolysis	Line	R19
+R19	Arrow	malate
+malate	Line	R15
+NAD+	Line	R15
+R15	mim-conversion	NADH
+R15	mim-conversion	oxaloacetate
+citrate synthase 5	Line	R74
+citrate synthase 4	Line	R74
+R74	mim-conversion	R5
+succinate dehydrogenase 1	Line	R78
+succinate dehydrogenase FeS 3	Line	R78
+succinate dehydrogenase FeS 2	Line	R78
+succinate dehydrogenase FeS 1	Line	R78
+succinate dehydrogenase 2	Line	R78
+R78	mim-conversion	R11
+pyruvate dehydrogenase alpha-1	Line	R61
+pyruvate dehydrogenase beta-1	Line	R61
+pyruvate dehydrogenase alpha-2	Line	R61
+R61	mim-conversion	R3
+isocitrate dehydrogenase	Line	R67
+R67	mim-conversion	R30
+isocitrate dehydrogenase 4	Line	R76
+isocitrate dehydrogenase 2	Line	R76
+isocitrate dehydrogenase 3	Line	R76
+isocitrate dehydrogenase 5	Line	R76
+isocitrate dehydrogenase 1	Line	R76
+isocitrate dehydrogenase 6	Line	R76
+R76	mim-conversion	R26
+isocitrate	Line	R26
+NAD+	Line	R26
+R26	mim-conversion	NADH
+R26	mim-conversion	CO2
+R26	mim-conversion	2-oxoglutarate
+2-oxoglutarate	Line	R23
+R23	Arrow	2-oxoglutarate

@@ -1,0 +1,24 @@
+agtr1	Line	R7
+agtr2	Line	R7
+R7	Arrow	Aldosterone
+Angiotensin II	Line	R5
+R5	Arrow	agtr1
+R5	Arrow	agtr2
+kng1	Line	R11
+R11	Arrow	Bradykinin
+ace2	Line	R22
+R22	Arrow	R3
+ACE Inhibitor	Line	R9
+R9	TBar	ace2
+ace2	Line	R20
+R20	Arrow	R13
+agt	Line	R1
+R1	Arrow	Angiotensin I
+ACE Inhibitor	Line	R16
+R16	TBar	ace2
+ren	Line	R18
+R18	Arrow	R1
+Angiotensin I	Line	R3
+R3	Arrow	Angiotensin II
+Bradykinin	Line	R13
+R13	Arrow	bdkrb2

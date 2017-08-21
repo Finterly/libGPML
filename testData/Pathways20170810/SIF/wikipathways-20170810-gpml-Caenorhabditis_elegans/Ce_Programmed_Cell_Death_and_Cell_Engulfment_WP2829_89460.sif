@@ -1,0 +1,24 @@
+CES-2	Line	R3
+R3	mim-inhibition	CES-1
+CED-4	Line	R13
+R13	Line	CED-4
+EGL-1	Line	R15
+R15	Line	EGL-1
+R15	Line	CED-9
+CES-1	Line	R17
+R17	mim-inhibition	EGL-1
+CED-9	Line	R19
+R19	mim-binding	CED-9
+CED-6	Line	R11
+R11	Arrow	CED-2/CrkII
+Active CED-3
+Protease	Line	R7
+R7	mim-cleavage	Active CED-3
+Protease
+CED-7	Line	R9
+R9	Arrow	CED-6
+TRA-1	Line	R1
+R1	mim-inhibition	EGL-1
+CED-4	Line	R5
+R5	mim-necessary-stimulation	Active CED-3
+Protease

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Nicotine Activity on Chromaffin Cells" organism="Homo sapiens" width="780.5" height="501.0" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Nicotine is an alkaloid found in tobacco plants. It is a substance that acts as a stimulant in humans and is one of the main factors responsible for tobacco dependence. When nicotine enters the body, it is distributed quickly through the bloodstream, and it can cross the blood-brain barrier to enter the central nervous system (CNS). It binds to two main types of nicotinic acetylcholine receptors: the ganglion type and the CNS type.
+
+In chromaffin cells in the adrenal medulla, nicotine binds to the ganglion-type nicotinic acetylcholine receptor, which is composed of alpha 3 (CHRNA3) and beta 4 (CHRNB4) subunits. By binding to the receptors, nicotine causes cell depolarization and an influx of calcium through voltage dependent calcium channels. Calcium triggers the release of epinephrine from the chromaffin vesicles into the bloodstream, which leads to increased heart rate and blood pressure and elevation of blood glucose level.
+
+Sources: [http://www.pharmgkb.org/do/serve?objId=PA162355620&amp;objCls=Pathway PharmGKB:Nicotine in Chromaffin Cells], [http://en.wikipedia.org/wiki/Nicotine Wikipedia:Nicotine]</Comment>
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <DataNode elementID="a155b" textLabel="Na+" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="184.0" centerY="264.0" width="32.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00588" />
+  </DataNode>
+  <DataNode elementID="a2bc2" textLabel="K+" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="184.0" centerY="300.0" width="32.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00586" />
+  </DataNode>
+  <DataNode elementID="ace5a" textLabel="Na+" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="83.5" centerY="263.0" width="33.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00588" />
+  </DataNode>
+  <DataNode elementID="b33f3" textLabel="Nicotine" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="53.5" centerY="182.0" width="57.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01934" />
+  </DataNode>
+  <DataNode elementID="b40f9" textLabel="K+" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="83.5" centerY="300.0" width="32.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00586" />
+  </DataNode>
+  <DataNode elementID="b74f6" textLabel="Ca++" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="415.0" centerY="67.0" width="38.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00464" />
+  </DataNode>
+  <DataNode elementID="d193d" textLabel="CHRNB4" groupRef="a42c5" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="137.5" centerY="233.0" width="61.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="1143" />
+  </DataNode>
+  <DataNode elementID="d2028" textLabel="Epinephrine" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="631.0" centerY="361.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00068" />
+  </DataNode>
+  <DataNode elementID="e2572" textLabel="Epinephrine" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="415.0" centerY="361.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00068" />
+  </DataNode>
+  <DataNode elementID="f41e1" textLabel="CACNA1G" groupRef="e4b6d" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="338.5" centerY="129.0" width="63.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="8913" />
+  </DataNode>
+  <DataNode elementID="f79c3" textLabel="CACNA1C" groupRef="e4b6d" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="338.5" centerY="149.0" width="63.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="775" />
+  </DataNode>
+  <DataNode elementID="f7a09" textLabel="CHRNA3" groupRef="a42c5" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="137.5" centerY="213.0" width="61.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="1136" />
+  </DataNode>
+  <DataNode elementID="f7b46" textLabel="Ca++" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="415.0" centerY="226.0" width="38.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00464" />
+  </DataNode>
+  <Interaction elementID="a9a04" groupRef="aec77" connectorType="Curved" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="200.0" y="264.0" elementID="ab168" elementRef="a155b" relX="1.0" relY="0.0" />
+    <Point x="318.75" y="167.0" elementID="a35cc" elementRef="e4b6d" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="aedf2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="455.0" y="361.0" elementID="e7afa" elementRef="e2572" relX="1.0" relY="0.0" />
+    <Point x="591.0" y="361.0" elementID="d8bc4" elementRef="d2028" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="af4c9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="137.5" y="251.0" elementID="eca63" elementRef="a42c5" relX="0.0" relY="1.0" />
+    <Point x="127.2" y="263.4" elementID="c145e" elementRef="fe6e4" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="b81fe" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="631.0" y="371.0" elementID="e06d9" elementRef="d2028" relX="0.0" relY="1.0" />
+    <Point x="631.0" y="410.0" elementID="f3677" elementRef="a970d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c0eae" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="415.0" y="236.0" elementID="fd75e" elementRef="f7b46" relX="0.0" relY="1.0" />
+    <Point x="415.0" y="351.0" elementID="fae09" elementRef="e2572" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c0ef4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="168.0" y="300.0" elementID="dac4d" elementRef="a2bc2" relX="-1.0" relY="0.0" />
+    <Point x="99.5" y="300.0" elementID="c9404" elementRef="b40f9" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.5985401459854015" shapeType="None" elementID="f0a0b" />
+  </Interaction>
+  <Interaction elementID="cda15" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="53.5" y="192.0" elementID="e324d" elementRef="b33f3" relX="0.0" relY="1.0" />
+    <Point x="99.0" y="223.0" elementID="e4c54" elementRef="a42c5" relX="-1.0" relY="0.0" arrowHead="mim-binding" />
+  </Interaction>
+  <Interaction elementID="d4e65" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="100.0" y="263.0" elementID="a3985" elementRef="ace5a" relX="1.0" relY="0.0" />
+    <Point x="168.0" y="264.0" elementID="f9f88" elementRef="a155b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="fe6e4" />
+  </Interaction>
+  <Interaction elementID="d5bc7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="378.0" y="139.0" elementID="c5c10" elementRef="e4b6d" relX="1.0" relY="0.0" />
+    <Point x="415.0" y="132.6" elementID="e7a8a" elementRef="fff4e" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="e426a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="415.0" y="77.0" elementID="f8c9f" elementRef="b74f6" relX="0.0" relY="1.0" />
+    <Point x="415.0" y="216.0" elementID="a642c" elementRef="f7b46" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="fff4e" />
+  </Interaction>
+  <Interaction elementID="f655f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="137.5" y="251.0" elementID="ede99" elementRef="a42c5" relX="0.0" relY="1.0" />
+    <Point x="127.0" y="300.0" elementID="cca27" elementRef="f0a0b" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Label elementID="a970d" textLabel="Increased heart rate&#xA;Increased blood pressure&#xA;Raise glucose level" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="631.0" centerY="437.5" width="170.0" height="55.0" zOrder="28672" />
+  <Label elementID="c9032" textLabel="Bloodstream" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="688.0" centerY="298.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="da6d5" textLabel="Membrane&#xA;depolarization" fillColor="ffffff" fontSize="12" vAlign="Middle" groupRef="aec77" centerX="247.5" centerY="170.0" width="97.0" height="20.0" zOrder="28672" />
+  <Label elementID="e6434" textLabel="Vesicle" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="418.0" centerY="401.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="fa6de" textLabel="Chromaffin cell" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="201.0" centerY="449.0" width="80.0" height="20.0" zOrder="28672" />
+  <Shape elementID="b960b" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="320.25" centerY="301.5" width="382.5" height="339.0" zOrder="-2" rotation="0.0">
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="c863a" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="648.25" centerY="374.0" width="204.5" height="192.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="f0ebd" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="407.0" centerY="357.0" width="188.0" height="112.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="a42c5" groupType="Group" />
+  <Group elementID="aec77" groupType="Group" />
+  <Group elementID="e4b6d" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="chromaffin cell" ontology="Cell Type" ontologyTermID="CL:0000166" />
+    <OntologyTerm term="nicotine pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000721" />
+  </OntologyTerms>
+</Pathway>
+

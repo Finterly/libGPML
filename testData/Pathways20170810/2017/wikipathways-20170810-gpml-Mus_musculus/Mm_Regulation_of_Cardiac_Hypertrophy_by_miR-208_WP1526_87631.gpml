@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Regulation of Cardiac Hypertrophy by miR-208" organism="Mus musculus" width="893.0" height="525.4732510288067" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">MicroRNA-208a regulates cardiac hypertrophy pathways in mice.
+MicroRNAs are shown in purple. Knock out and overexpression of miR-208a are shown in blue. Processes are shown at the top and include hypertrophy, atrial fibrilation and prolonged PR interval &amp; abberand conduction.</Comment>
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <CitationRef citationID="f60" />
+  <DataNode elementID="a2d46" textLabel="Trap1" fontSize="10" vAlign="Middle" type="Protein" centerX="548.8302469135806" centerY="221.1718106995882" width="67.5" height="17.5" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="327987" />
+  </DataNode>
+  <DataNode elementID="a71d5" textLabel="Gata4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="682.25" centerY="480.75" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="14463" />
+  </DataNode>
+  <DataNode elementID="b45cb" textLabel="beta-MHC" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="51.75" centerY="425.4351851851852" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="140781" />
+  </DataNode>
+  <DataNode elementID="b9875" textLabel="miR-208b" shapeType="RoundedRectangle" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="548.5339506172829" centerY="327.82613168724265" width="83.5" height="21.5" zOrder="32768">
+    <Comment>MI0005552</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000077928" />
+  </DataNode>
+  <DataNode elementID="bf9d8" textLabel="miR-208a" shapeType="RoundedRectangle" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="374.0" centerY="195.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="miRBase Sequence" identifier="MI0000555" />
+  </DataNode>
+  <DataNode elementID="dcd4e" textLabel="Cx40" fontSize="10" vAlign="Middle" type="Protein" centerX="528.0781893004103" centerY="156.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="14613" />
+  </DataNode>
+  <DataNode elementID="f4864" textLabel="Hop" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="823.0" centerY="480.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="74318" />
+  </DataNode>
+  <DataNode elementID="f91d7" textLabel="Myostatin" fontSize="10" vAlign="Middle" type="Protein" centerX="718.9969135802457" centerY="327.8487654320986" width="84.5" height="22.5" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="17700" />
+  </DataNode>
+  <Interaction elementID="id101ed129" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="823.0" y="470.0" elementID="e816f" elementRef="f4864" relX="0.0" relY="-1.0" />
+    <Point x="568.0781893004103" y="156.0" elementID="e5482" elementRef="dcd4e" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id10796641" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="414.0" y="195.0" elementID="f5820" elementRef="bf9d8" relX="1.0" relY="0.0" />
+    <Point x="488.07818930041026" y="156.0" elementID="e07da" elementRef="dcd4e" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id16d201f3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="548.5339506172829" y="317.07613168724265" elementID="c6d9f" elementRef="b9875" relX="0.0" relY="-1.0" />
+    <Point x="548.8302469135806" y="229.9218106995882" elementID="aab18" elementRef="a2d46" relX="0.0" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id17dd8f1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="354.0" y="185.0" elementID="b8859" elementRef="bf9d8" relX="-0.5" relY="-1.0" />
+    <Point x="103.70370370370371" y="145.36625514403295" elementID="d532f" elementRef="e2d4a" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id1f657449" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="565.7052469135806" y="229.9218106995882" elementID="e0baa" elementRef="a2d46" relX="0.5" relY="1.0" />
+    <Point x="152.0" y="286.0" elementID="ba00d" elementRef="ef0b5" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2397b047" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="374.0" y="185.0" elementID="de9e3" elementRef="bf9d8" relX="0.0" relY="-1.0" />
+    <Point x="412.77366255144045" y="164.60905349794237" elementID="b9883" />
+    <Point x="451.5473251028809" y="99.47325102880657" elementID="d4ce3" elementRef="ec49a" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2834867c" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="531.9552469135806" y="229.9218106995882" elementID="ca8be" elementRef="a2d46" relX="-0.5" relY="1.0" />
+    <Point x="377.5203189300413" y="308.641975308642" elementID="e732a" />
+    <Point x="223.08539094650197" y="418.0" elementID="e4bbf" elementRef="a0cb4" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id2923b917" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="51.75" y="415.4351851851852" elementID="ab317" elementRef="b45cb" relX="0.0" relY="-1.0" />
+    <Point x="51.5329218106996" y="155.36625514403295" elementID="b58d0" elementRef="e2d4a" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id30c8cef3" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="205.0" y="286.0" elementID="bc1a6" elementRef="c9190" relX="0.0" relY="-1.0" />
+    <Point x="334.0" y="195.0" elementID="b1b7f" elementRef="bf9d8" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4344a768" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="374.0" y="185.0" elementID="f9d05" elementRef="bf9d8" relX="0.0" relY="-1.0" />
+    <Point x="294.9135802469132" y="99.79629629629629" elementID="f7af9" elementRef="caa69" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id563ec578" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="722.25" y="480.75" elementID="ee017" elementRef="a71d5" relX="1.0" relY="0.0" />
+    <Point x="783.0" y="480.0" elementID="ecb1d" elementRef="f4864" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id63fc196a" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="394.0" y="205.0" elementID="fc192" elementRef="bf9d8" relX="0.5" relY="1.0" />
+    <Point x="642.25" y="480.75" elementID="f9bf4" elementRef="a71d5" relX="-1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id7351c64e" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="303.75308641975295" y="417.99999999999994" elementID="eb594" elementRef="c036a" relX="0.0" relY="-1.0" />
+    <Point x="548.5339506172829" y="338.57613168724265" elementID="f5949" elementRef="b9875" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8cbb42ad" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="206.63786008230443" y="423.5" elementID="ecb45" elementRef="a0cb4" relX="-1.0" relY="0.0" />
+    <Point x="91.75" y="425.4351851851852" elementID="a46c1" elementRef="b45cb" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb6465aab" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment></Comment>
+    <CitationRef citationID="e50" />
+    <Point x="508.07818930041026" y="146.0" elementID="f5123" elementRef="dcd4e" relX="-0.5" relY="-1.0" />
+    <Point x="508.0473251028809" y="99.47325102880657" elementID="aac49" elementRef="ec49a" relX="0.5" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="iddca1ffee" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="718.9969135802457" y="316.5987654320986" elementID="cbbcf" elementRef="f91d7" relX="0.0" relY="-1.0" />
+    <Point x="398.3076131687237" y="68.3127572016461" elementID="dde04" />
+    <Point x="77.61831275720165" y="135.36625514403295" elementID="f70cc" elementRef="e2d4a" relX="0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="ide42a4c71" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="414.0" y="195.0" elementID="a241d" elementRef="bf9d8" relX="1.0" relY="0.0" />
+    <Point x="515.0802469135806" y="221.1718106995882" elementID="fc35d" elementRef="a2d46" relX="-1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idf068a87f" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="374.0" y="205.0" elementID="b5a5d" elementRef="bf9d8" relX="0.0" relY="1.0" />
+    <Point x="314.9902263374485" y="332.5102880658436" elementID="a48a2" />
+    <Point x="255.98045267489707" y="418.0" elementID="d416e" elementRef="a0cb4" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfb60d04c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="590.2839506172829" y="327.82613168724265" elementID="ab086" elementRef="b9875" relX="1.0" relY="0.0" />
+    <Point x="676.7469135802457" y="327.8487654320986" elementID="b6569" elementRef="f91d7" relX="-1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id471728c8" connectorType="Elbow" zOrder="32769" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="414.0" y="195.0" elementID="a5941" elementRef="bf9d8" relX="1.0" relY="0.0" />
+    <Point x="697.8719135802457" y="316.5987654320986" elementID="b1112" elementRef="f91d7" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <GraphicalLine elementID="bd71a" zOrder="12288" lineThickness="1.0">
+    <Point x="174.48559670781893" y="417.28395061728395" elementID="e8eda" />
+    <Point x="351.44032921810697" y="417.28395061728395" elementID="c271d" />
+  </GraphicalLine>
+  <GraphicalLine elementID="e24b8" zOrder="12288" lineThickness="1.0">
+    <Point x="194.23868312757202" y="399.1769547325103" elementID="cb596" />
+    <Point x="213.16872427983537" y="399.1769547325103" elementID="a9d1f" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="f3874" zOrder="12288" lineThickness="1.0">
+    <Point x="194.23868312757202" y="416.4609053497942" elementID="afe36" />
+    <Point x="194.23868312757202" y="400.0" elementID="c6c8b" />
+  </GraphicalLine>
+  <GraphicalLine elementID="ef51d" zOrder="32770" lineThickness="1.0">
+    <Point x="118.641975308642" y="268.4362139917701" elementID="f9734" />
+    <Point x="137.5720164609055" y="268.4362139917701" elementID="b39c1" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="b28f2" zOrder="32771" lineThickness="1.0">
+    <Point x="117.81893004115213" y="284.8971193415644" elementID="dc508" />
+    <Point x="117.81893004115213" y="268.4362139917702" elementID="bd886" />
+  </GraphicalLine>
+  <GraphicalLine elementID="b8d01" zOrder="32772" lineThickness="1.0">
+    <Point x="174.6090534979423" y="428.93004115226336" elementID="f9589" />
+    <Point x="351.5637860082305" y="428.93004115226336" elementID="b3794" />
+  </GraphicalLine>
+  <GraphicalLine elementID="e39a5" zOrder="32773" lineThickness="1.0">
+    <Point x="102.30452674897117" y="296.54320987654427" elementID="df8ec" />
+    <Point x="279.25925925926015" y="296.54320987654427" elementID="b3d0d" />
+  </GraphicalLine>
+  <GraphicalLine elementID="cc012" zOrder="32774" lineThickness="1.0">
+    <Point x="103.25102880658429" y="285.9670781893016" elementID="c2d78" />
+    <Point x="280.2057613168734" y="285.9670781893016" elementID="d5c66" />
+  </GraphicalLine>
+  <Label elementID="a0cb4" textLabel="beta-MHC" shapeType="Rectangle" fillColor="ffffff" fontSize="10" vAlign="Middle" align="Left" centerX="239.53292181069952" centerY="423.5" width="65.79012345679024" height="11.0" zOrder="-4" />
+  <Label elementID="ef0b5" textLabel="beta-MHC" shapeType="Rectangle" fillColor="ffffff" fontSize="10" vAlign="Middle" align="Left" centerX="192.0" centerY="291.5" width="160.0" height="11.0" zOrder="-2" />
+  <Label elementID="a4830" textLabel="Knock-out" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="322.90534979423825" centerY="133.7448559670783" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="c036a" textLabel="miR-208b" shapeType="Rectangle" color="990099" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="303.75308641975295" centerY="423.49999999999994" width="62.0" height="11.0" zOrder="28672" />
+  <Label elementID="c9190" textLabel="miR-208a" shapeType="Rectangle" color="990099" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="205.0" centerY="291.5" width="62.0" height="11.0" zOrder="28672" />
+  <Label elementID="caa69" textLabel="Atrial fibrilations" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="274.9135802469132" centerY="89.79629629629629" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="e2b92" textLabel="Overexpression" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="412.4691358024689" centerY="132.92181069958855" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="e2d4a" textLabel="Hypertrophy" color="ff0000" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="51.5329218106996" centerY="145.36625514403295" width="104.34156378600822" height="20.0" zOrder="28672" />
+  <Label elementID="ec49a" textLabel="Prolonged PR interval, abberand conduction" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="451.5473251028809" centerY="88.97325102880657" width="226.0" height="21.0" zOrder="28672" />
+  <Shape elementID="b01ad" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="233.74485596707817" centerY="342.95987654321" width="306.1728395061728" height="305.0267489711934" zOrder="-6" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="MicroRNA-208a is a regulator of cardiac hypertrophy and conduction in mice." URL="" citationID="f60" year="2009" source="J Clin Invest">
+      <Xref dataSource="PubMed" identifier="19726871" />
+      <Author name="Callis TE" />
+      <Author name="Pandya K" />
+      <Author name="Seok HY" />
+      <Author name="Tang RH" />
+      <Author name="Tatsuguchi M" />
+      <Author name="Huang ZP" />
+      <Author name="Chen JF" />
+      <Author name="Deng Z" />
+      <Author name="Gunn B" />
+      <Author name="Shumate J" />
+      <Author name="Willis MS" />
+      <Author name="Selzman CH" />
+      <Author name="Wang DZ" />
+    </Citation>
+    <Citation title="Role of gap junctions in cardiac conduction and development: insights from the connexin knockout mice." URL="" citationID="e50" year="2000" source="Circ Res">
+      <Xref dataSource="PubMed" identifier="10969030" />
+      <Author name="Lo CW" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="hypertrophic cardiomyopathy pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000296" />
+  </OntologyTerms>
+</Pathway>
+

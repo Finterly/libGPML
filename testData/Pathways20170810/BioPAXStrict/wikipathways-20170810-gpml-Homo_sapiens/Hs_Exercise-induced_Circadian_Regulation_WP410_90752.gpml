@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="fdfce">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CRY1</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARNTL</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1407</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="d39">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CLOCK</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CLOCK</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">406</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id15</bp:displayName>
+ <bp:right rdf:resource="ea3" />
+ <bp:right rdf:resource="d39" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">9575</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="ea3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ARNTL</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:Protein rdf:about="bf4b5">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PER2</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:Protein rdf:about="abcfb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PER1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a615d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CRY2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b4bb4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PER2</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:Protein rdf:about="f61">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PER2</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:Protein rdf:about="abb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CRY1</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:Protein rdf:about="c87">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CRY2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="d0f57">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PER1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="efd80">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CRY1</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id20">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id20</bp:displayName>
+ <bp:right rdf:resource="c87" />
+ <bp:left rdf:resource="a615d" />
+</bp:BiochemicalReaction>
+
+<bp:Complex rdf:about="id21">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id21</bp:displayName>
+ <bp:component rdf:resource="bc05f" />
+ <bp:component rdf:resource="fdfce" />
+ <bp:component rdf:resource="abcfb" />
+ <bp:component rdf:resource="b4bb4" />
+</bp:Complex>
+
+<bp:BiochemicalReaction rdf:about="id17">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id17</bp:displayName>
+ <bp:right rdf:resource="bea" />
+ <bp:left rdf:resource="d0f57" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id16</bp:displayName>
+ <bp:right rdf:resource="f61" />
+ <bp:left rdf:resource="bf4b5" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="bc05f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CRY2</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id19">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id19</bp:displayName>
+ <bp:right rdf:resource="abb" />
+ <bp:left rdf:resource="efd80" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id18">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id18</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id17" />
+ <bp:pathwayComponent rdf:resource="id16" />
+ <bp:pathwayComponent rdf:resource="id19" />
+ <bp:pathwayComponent rdf:resource="id18" />
+ <bp:pathwayComponent rdf:resource="id20" />
+ <bp:pathwayComponent rdf:resource="id15" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Exercise-induced Circadian Regulation</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Time- and exercise-dependent gene regulation in human skeletal muscle&amp;#xD;
+Alexander C Zambon, Erin L McDearmon, Nathan Salomonis, Karen M Vranizan, Kirsten L Johansen, Deborah Adey, Joseph S Takahashi, Morris Schambelan, Bruce R Conklin&amp;#xD;
+Genome Biology 4(10): R61&amp;#xD;
+http://genomebiology.com/2003/4/10/R61&amp;#xD;
+Published 25 September 2003 (GenMAPP notes)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Human genes regulated in the diurnal comparison with orthologues that display circadian regulation in mouse heart and liver (Panda 2002, Storch 2002), and SCN (Panda 2002). The 608 significantly regulated (P &amp;lt; 0.05) hSkM genes identified in the diurnal comparison (0800 h and 2000 h) were subjected to an additional statistical filter of absolute fold change &amp;gt; 20% (n = 239) and linked to mouse circadianly regulated orthologues. This pathway represents the resultant 44 putative hSkM circadianly regulated genes; L, promoter for the light-responsive element; E, E-box (Clock/Bmal1 promoter). Orthologue information is denoted to the left of the gene boxes: mHrts and mLvrs, mouse orthologue was circadianly regulated as described  (Storch 2002) in mouse heart or liver, respectively; mLvrp and mSCNp, mouse orthologue was diurnally regulated as described (Panda 2002) in mouse liver or SCN, respectively. (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Physiological Process (WikiPathways-category)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1408</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CRY2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5187</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PER1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">8864</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PER2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="bea">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PER1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CRY1</bp:displayName>
+</bp:ProteinReference>
+</rdf:RDF>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Brain derived neurotrophic factor" organism="Rattus norvegicus" width="704.0" height="814.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="David" />
+  <Comment source="WikiPathways-description">Brain-derived neurotrophic factor (BDNF) is a growth factor found in the central and peripheral nervous systems. BDNF binds to two well-characterized receptors, TrkB and p75 (aka, low-affinity nerve growth factor receptor) to influence neuronal cell survival and differentiation. In the hippocampus, BDNF activity is also implicated in learning and memory.</Comment>
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <CitationRef citationID="c75" />
+  <DataNode elementID="a9e43" textLabel="p75" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="414.9047619047634" centerY="467.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="24596" />
+  </DataNode>
+  <DataNode elementID="ac174" textLabel="Raf" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="212.0" centerY="574.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="24703" />
+  </DataNode>
+  <DataNode elementID="b4d31" textLabel="PAI-1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="619.5667777914952" centerY="421.05943120549875" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="24617" />
+  </DataNode>
+  <DataNode elementID="bdd0d" textLabel="Ras" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="212.0" centerY="538.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="24525" />
+  </DataNode>
+  <DataNode elementID="c0d88" textLabel="mBDNF" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="212.0" centerY="368.71428571428567" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="24225" />
+  </DataNode>
+  <DataNode elementID="c38c0" textLabel="tPA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="618.9358254105451" centerY="345.6523439107696" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="25692" />
+  </DataNode>
+  <DataNode elementID="cb82f" textLabel="TrkB" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="212.0" centerY="466.75" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="25054" />
+  </DataNode>
+  <DataNode elementID="db770" textLabel="plasminogen" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="553.7499999999998" centerY="385.9166666666668" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="85253" />
+  </DataNode>
+  <DataNode elementID="df26e" textLabel="Erk2 (MAPK 1)" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="212.0" centerY="647.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="116590" />
+  </DataNode>
+  <DataNode elementID="e4df1" textLabel="MAP2K1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="212.0" centerY="610.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="170851" />
+  </DataNode>
+  <DataNode elementID="f9fa7" textLabel="plasmin" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="553.7499999999998" centerY="298.90476190476113" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="fb2c9" textLabel="proBDNF" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="414.9047619047634" centerY="232.90476190476173" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="24225" />
+  </DataNode>
+  <DataNode elementID="de560" textLabel="proBDNF" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="414.9047619047634" centerY="367.71428571428567" width="80.0" height="20.0" zOrder="32771">
+    <Xref dataSource="Entrez Gene" identifier="24225" />
+  </DataNode>
+  <DataNode elementID="f3845" textLabel="BDNF" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="255.0" centerY="165.0" width="80.0" height="20.0" zOrder="32773">
+    <Xref dataSource="Entrez Gene" identifier="24225" />
+  </DataNode>
+  <Interaction elementID="id2402c8a6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="212.0" y="584.0" elementID="fc6a2" elementRef="ac174" relX="0.0" relY="1.0" />
+    <Point x="212.0" y="600.0" elementID="e823f" elementRef="e4df1" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id248169f2" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="295.0" y="165.0" elementID="d7681" elementRef="f3845" relX="1.0" relY="0.0" />
+    <Point x="414.9047619047634" y="222.90476190476173" elementID="eb685" elementRef="fb2c9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2cbff397" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="374.9047619047634" y="367.71428571428567" elementID="c7c7c" elementRef="de560" relX="-1.0" relY="0.0" />
+    <Point x="252.0" y="368.71428571428567" elementID="c714d" elementRef="c0d88" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="f219a" />
+  </Interaction>
+  <Interaction elementID="id46064bbc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="553.7499999999998" y="375.9166666666668" elementID="fc59a" elementRef="db770" relX="0.0" relY="-1.0" />
+    <Point x="553.7499999999998" y="308.90476190476113" elementID="f4b31" elementRef="f9fa7" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4505911708919365" shapeType="None" elementID="a9dd0" />
+  </Interaction>
+  <Interaction elementID="id5756d45f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="212.0" y="620.0" elementID="f482e" elementRef="e4df1" relX="0.0" relY="1.0" />
+    <Point x="212.0" y="637.0" elementID="dbbbc" elementRef="df26e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id583f4cb2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="e12" />
+    <Point x="414.9047619047634" y="377.71428571428567" elementID="ec228" elementRef="de560" relX="0.0" relY="1.0" />
+    <Point x="414.9047619047634" y="457.0" elementID="d9278" elementRef="a9e43" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id76687706" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="212.0" y="657.0" elementID="d9e78" elementRef="df26e" relX="0.0" relY="1.0" />
+    <Point x="212.5" y="697.0" elementID="d4597" elementRef="c81e1" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9481aa43" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b44" />
+    <Point x="513.7499999999998" y="298.90476190476113" elementID="a901c" elementRef="f9fa7" relX="-1.0" relY="0.0" />
+    <Point x="325.8426966292135" y="337.07865168539325" elementID="e4b66" />
+    <Point x="325.74285714285804" y="368.11428571428564" elementID="f52e2" elementRef="f219a" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idaa74d5e5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="dde" />
+    <Point x="212.0" y="378.71428571428567" elementID="ea38c" elementRef="c0d88" relX="0.0" relY="1.0" />
+    <Point x="212.0" y="456.75" elementID="cf73d" elementRef="cb82f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbc6b51e2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="619.5667777914952" y="411.05943120549875" elementID="e9a9f" elementRef="b4d31" relX="0.0" relY="-1.0" />
+    <Point x="618.9358254105451" y="355.6523439107696" elementID="d3151" elementRef="c38c0" relX="0.0" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idc4519641" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="212.0" y="548.0" elementID="cc5ad" elementRef="bdd0d" relX="0.0" relY="1.0" />
+    <Point x="212.0" y="564.0" elementID="e91c9" elementRef="ac174" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd4af981" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="414.9047619047634" y="477.0" elementID="bbe3c" elementRef="a9e43" relX="0.0" relY="1.0" />
+    <Point x="415.7286084701815" y="525.0" elementID="c16eb" elementRef="e3cf3" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idee5d05c5" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="414.9047619047634" y="242.90476190476173" elementID="dfe28" elementRef="fb2c9" relX="0.0" relY="1.0" />
+    <Point x="414.9047619047634" y="357.71428571428567" elementID="d7fa2" elementRef="de560" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf0314e07" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="578.9358254105451" y="345.6523439107696" elementID="d3423" elementRef="c38c0" relX="-1.0" relY="0.0" />
+    <Point x="553.7499999999998" y="345.7216940363008" elementID="c3cad" elementRef="a9dd0" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idfb90e451" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="212.0" y="476.75" elementID="dfbe4" elementRef="cb82f" relX="0.0" relY="1.0" />
+    <Point x="212.0" y="528.0" elementID="a24a1" elementRef="bdd0d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <GraphicalLine elementID="id2dce6ec8" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Point x="166.98903932946487" y="154.73887814313346" elementID="e5925" />
+    <Point x="166.98903932946487" y="141.84397163120568" elementID="b0094" />
+    <Point x="166.98903932946487" y="128.9490651192779" elementID="e8dad" />
+    <Point x="166.98903932946487" y="128.9490651192779" elementID="fbf15" />
+    <Point x="197.93681495809156" y="128.9490651192779" elementID="cf4ed" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id809ea552" zOrder="12288" lineThickness="1.0">
+    <Point x="318.5041908446164" y="175.37072856221795" elementID="b97a3" />
+    <Point x="127.01482914248872" y="175.37072856221795" elementID="e4ca5" />
+  </GraphicalLine>
+  <GraphicalLine elementID="e4af9" zOrder="32772" lineThickness="1.0">
+    <Point x="320.76724693745984" y="155.71244358478378" elementID="d23cf" />
+    <Point x="129.27788523533192" y="155.71244358478378" elementID="e42f2" />
+  </GraphicalLine>
+  <Label elementID="c81e1" textLabel="Cell survival, &#xA;Hippocampal Plasticity,&#xA;Long term potentiation" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="212.5" centerY="719.5" width="123.0" height="45.0" zOrder="28672">
+    <CitationRef citationID="c97" />
+  </Label>
+  <Label elementID="e3cf3" textLabel="Apoptosis,&#xA;Atrophy,&#xA;Long term depression" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="415.7286084701815" centerY="555.0" width="120.0" height="60.0" zOrder="28672">
+    <CitationRef citationID="c97" />
+  </Label>
+  <Shape elementID="a9d43" shapeType="RoundedRectangle" lineStyle="Broken" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="378.75" centerY="361.5" width="578.5" height="165.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Extracellular region" />
+  </Shape>
+  <Shape elementID="c4cb1" textLabel="MAPK Pathway" shapeType="RoundedRectangle" color="999999" fontSize="10" vAlign="Bottom" centerX="213.25" centerY="628.75" width="177.5" height="262.5" zOrder="16384" rotation="0.0" />
+  <Shape elementID="e2188" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="380.75" centerY="625.25" width="558.5" height="317.5" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="ef8b4" textLabel="Nucleus" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" align="Left" centerX="227.75" centerY="163.25" width="278.5" height="145.5" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="f72bd" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="371.75" centerY="162.75" width="604.5" height="190.5" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Prenatal stress differentially alters brain-derived neurotrophic factor expression and signaling across rat strains." URL="" citationID="c97" year="2011" source="Neuroscience">
+      <Xref dataSource="PubMed" identifier="21497180" />
+      <Author name="Neeley EW" />
+      <Author name="Berger R" />
+      <Author name="Koenig JI" />
+      <Author name="Leonard S" />
+    </Citation>
+    <Citation title="Prenatal stress differentially alters brain-derived neurotrophic factor expression and signaling across rat strains." URL="" citationID="c75" year="2011" source="Neuroscience">
+      <Xref dataSource="PubMed" identifier="21497180 " />
+      <Author name="Neeley EW" />
+      <Author name="Berger R" />
+      <Author name="Koenig JI" />
+      <Author name="Leonard S" />
+    </Citation>
+    <Citation title="Cleavage of proBDNF by tPA/plasmin is essential for long-term hippocampal plasticity." URL="" citationID="b44" year="2004" source="Science">
+      <Xref dataSource="PubMed" identifier="15486301" />
+      <Author name="Pang PT" />
+      <Author name="Teng HK" />
+      <Author name="Zaitsev E" />
+      <Author name="Woo NT" />
+      <Author name="Sakata K" />
+      <Author name="Zhen S" />
+      <Author name="Teng KK" />
+      <Author name="Yung WH" />
+      <Author name="Hempstead BL" />
+      <Author name="Lu B" />
+    </Citation>
+    <Citation title="Exercise influences hippocampal plasticity by modulating brain-derived neurotrophic factor processing." URL="" citationID="dde" year="2011" source="Neuroscience">
+      <Xref dataSource="PubMed" identifier="21756980" />
+      <Author name="Ding Q" />
+      <Author name="Ying Z" />
+      <Author name="Gómez-Pinilla F" />
+    </Citation>
+    <Citation title="Activation of p75NTR by proBDNF facilitates hippocampal long-term depression." URL="" citationID="e12" year="2005" source="Nat Neurosci">
+      <Xref dataSource="PubMed" identifier="16025106" />
+      <Author name="Woo NH" />
+      <Author name="Teng HK" />
+      <Author name="Siao CJ" />
+      <Author name="Chiaruttini C" />
+      <Author name="Pang PT" />
+      <Author name="Milner TA" />
+      <Author name="Hempstead BL" />
+      <Author name="Lu B" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="brain-derived neurotrophic factor signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000572" />
+  </OntologyTerms>
+</Pathway>
+

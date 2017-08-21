@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="f6e95">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5-MTHF</bp:displayName>
+ <bp:entityReference rdf:resource="id59" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="c1d7b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC6</bp:displayName>
+ <bp:entityReference rdf:resource="id97" />
+</bp:Protein>
+
+<bp:Protein rdf:about="eea11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC1</bp:displayName>
+ <bp:entityReference rdf:resource="id55" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="e6556">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5,10-MTHF</bp:displayName>
+ <bp:entityReference rdf:resource="id47" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="bab40">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetate</bp:displayName>
+ <bp:entityReference rdf:resource="id73" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="a175b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homocysteine</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="c0634">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tetrahydrofolate</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id161">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id161</bp:displayName>
+ <bp:left rdf:resource="f8a3f" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id160">
+ <bp:controller rdf:resource="d613e" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id160</bp:displayName>
+ <bp:controlled rdf:resource="id156" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id163">
+ <bp:controller rdf:resource="a72b4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id163</bp:displayName>
+ <bp:controlled rdf:resource="id162" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id162">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id162</bp:displayName>
+ <bp:right rdf:resource="cae0b" />
+ <bp:left rdf:resource="bab40" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">dTMP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00187</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="d543a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nucleic acids</bp:displayName>
+ <bp:entityReference rdf:resource="id39" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">dUMP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01227</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="a65ca">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">dUMP</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TYMS</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="b2f30">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactive oxygen species</bp:displayName>
+ <bp:entityReference rdf:resource="id83" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01409</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="ee398">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MAT1A</bp:displayName>
+ <bp:entityReference rdf:resource="id53" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="b5bc6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Coenzyme A</bp:displayName>
+ <bp:entityReference rdf:resource="id79" />
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id154">
+ <bp:controller rdf:resource="b2ef3" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id154</bp:displayName>
+ <bp:controlled rdf:resource="id151" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id153">
+ <bp:controller rdf:resource="e28ad" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id153</bp:displayName>
+ <bp:controlled rdf:resource="id151" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id156">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id156</bp:displayName>
+ <bp:right rdf:resource="b1824" />
+ <bp:right rdf:resource="f8a3f" />
+ <bp:left rdf:resource="d1582" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="fd98e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC4</bp:displayName>
+ <bp:entityReference rdf:resource="id93" />
+</bp:Protein>
+
+<bp:Catalysis rdf:about="id155">
+ <bp:controller rdf:resource="fe9c4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id155</bp:displayName>
+ <bp:controlled rdf:resource="id151" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id150">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id150</bp:displayName>
+ <bp:right rdf:resource="b2f30" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id152">
+ <bp:controller rdf:resource="a7dcd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id152</bp:displayName>
+ <bp:controlled rdf:resource="id151" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id151">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id151</bp:displayName>
+ <bp:right rdf:resource="ab942" />
+ <bp:right rdf:resource="bab40" />
+ <bp:left rdf:resource="b1824" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id158">
+ <bp:controller rdf:resource="f1788" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id158</bp:displayName>
+ <bp:controlled rdf:resource="id156" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id157">
+ <bp:controller rdf:resource="c8b46" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id157</bp:displayName>
+ <bp:controlled rdf:resource="id156" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id159">
+ <bp:controller rdf:resource="a7206" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id159</bp:displayName>
+ <bp:controlled rdf:resource="id156" />
+</bp:Catalysis>
+
+<bp:Protein rdf:about="f0a2b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HAT1</bp:displayName>
+ <bp:entityReference rdf:resource="id57" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b0e4e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DHFR</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id143" />
+ <bp:pathwayComponent rdf:resource="id142" />
+ <bp:pathwayComponent rdf:resource="id145" />
+ <bp:pathwayComponent rdf:resource="id144" />
+ <bp:pathwayComponent rdf:resource="id141" />
+ <bp:pathwayComponent rdf:resource="id140" />
+ <bp:pathwayComponent rdf:resource="id107" />
+ <bp:pathwayComponent rdf:resource="id109" />
+ <bp:pathwayComponent rdf:resource="id108" />
+ <bp:pathwayComponent rdf:resource="id147" />
+ <bp:pathwayComponent rdf:resource="id146" />
+ <bp:pathwayComponent rdf:resource="id149" />
+ <bp:pathwayComponent rdf:resource="id148" />
+ <bp:pathwayComponent rdf:resource="id132" />
+ <bp:pathwayComponent rdf:resource="id131" />
+ <bp:pathwayComponent rdf:resource="id134" />
+ <bp:pathwayComponent rdf:resource="id133" />
+ <bp:pathwayComponent rdf:resource="id130" />
+ <bp:pathwayComponent rdf:resource="id139" />
+ <bp:pathwayComponent rdf:resource="id136" />
+ <bp:pathwayComponent rdf:resource="id135" />
+ <bp:pathwayComponent rdf:resource="id138" />
+ <bp:pathwayComponent rdf:resource="id137" />
+ <bp:pathwayComponent rdf:resource="id121" />
+ <bp:pathwayComponent rdf:resource="id120" />
+ <bp:pathwayComponent rdf:resource="id123" />
+ <bp:pathwayComponent rdf:resource="id122" />
+ <bp:pathwayComponent rdf:resource="id161" />
+ <bp:pathwayComponent rdf:resource="id160" />
+ <bp:pathwayComponent rdf:resource="id163" />
+ <bp:pathwayComponent rdf:resource="id162" />
+ <bp:pathwayComponent rdf:resource="id129" />
+ <bp:pathwayComponent rdf:resource="id128" />
+ <bp:pathwayComponent rdf:resource="id125" />
+ <bp:pathwayComponent rdf:resource="id124" />
+ <bp:pathwayComponent rdf:resource="id127" />
+ <bp:pathwayComponent rdf:resource="id126" />
+ <bp:pathwayComponent rdf:resource="id110" />
+ <bp:pathwayComponent rdf:resource="id154" />
+ <bp:pathwayComponent rdf:resource="id153" />
+ <bp:pathwayComponent rdf:resource="id112" />
+ <bp:pathwayComponent rdf:resource="id156" />
+ <bp:pathwayComponent rdf:resource="id111" />
+ <bp:pathwayComponent rdf:resource="id155" />
+ <bp:pathwayComponent rdf:resource="id150" />
+ <bp:pathwayComponent rdf:resource="id152" />
+ <bp:pathwayComponent rdf:resource="id151" />
+ <bp:pathwayComponent rdf:resource="id118" />
+ <bp:pathwayComponent rdf:resource="id117" />
+ <bp:pathwayComponent rdf:resource="id119" />
+ <bp:pathwayComponent rdf:resource="id114" />
+ <bp:pathwayComponent rdf:resource="id158" />
+ <bp:pathwayComponent rdf:resource="id113" />
+ <bp:pathwayComponent rdf:resource="id157" />
+ <bp:pathwayComponent rdf:resource="id116" />
+ <bp:pathwayComponent rdf:resource="id115" />
+ <bp:pathwayComponent rdf:resource="id159" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ethanol effects on histone modifications</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ethanol effects on histone modifications which contribute to the development of fetal alcohol syndrome.
+Pathway based on Chater-Diehl et al. 2017 (https://doi.org/10.1016/j.alcohol.2017.01.005)  (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000134014</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ELP3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00742</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homocysteine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000101444</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AHCY</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Serine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="c767a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Folic acid</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id143">
+ <bp:controller rdf:resource="a65ca" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id143</bp:displayName>
+ <bp:controlled rdf:resource="id141" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id142">
+ <bp:controller rdf:resource="a9b6e" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id142</bp:displayName>
+ <bp:controlled rdf:resource="id141" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id145">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id145</bp:displayName>
+ <bp:right rdf:resource="b5bc6" />
+ <bp:left rdf:resource="cae0b" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id144">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id144</bp:displayName>
+ <bp:right rdf:resource="e5cac" />
+ <bp:left rdf:resource="d1582" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="cce35">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S-Adenosylmethionine</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id141">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id141</bp:displayName>
+ <bp:right rdf:resource="a6558" />
+ <bp:right rdf:resource="e90a9" />
+ <bp:left rdf:resource="e6556" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id140">
+ <bp:controller rdf:resource="e5cac" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id140</bp:displayName>
+ <bp:controlled rdf:resource="id139" />
+</bp:Catalysis>
+
+<bp:ProteinReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ATF2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01185</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ethanol</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000115966</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id35">
+ <bp:xref rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Catalysis rdf:about="id147">
+ <bp:controller rdf:resource="f0a2b" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id147</bp:displayName>
+ <bp:controlled rdf:resource="id145" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00108</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="id146">
+ <bp:controller rdf:resource="a0c25" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id146</bp:displayName>
+ <bp:controlled rdf:resource="id145" />
+</bp:Catalysis>
+
+<bp:ProteinReference rdf:about="id37">
+ <bp:xref rdf:resource="id38" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KAT2B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Catalysis rdf:about="id149">
+ <bp:controller rdf:resource="d4715" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id149</bp:displayName>
+ <bp:controlled rdf:resource="id145" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id36">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000196591</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="id148">
+ <bp:controller rdf:resource="cedfc" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id148</bp:displayName>
+ <bp:controlled rdf:resource="id145" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000204371</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EHMT2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMoleculeReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S-Adenosylmethionine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="a3f24">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AHCY</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="e90a9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dihydrofolate</bp:displayName>
+ <bp:entityReference rdf:resource="id51" />
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id132">
+ <bp:controller rdf:resource="e5cac" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id132</bp:displayName>
+ <bp:controlled rdf:resource="id131" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id131">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id131</bp:displayName>
+ <bp:right rdf:resource="d583b" />
+ <bp:left rdf:resource="a175b" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id134">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id134</bp:displayName>
+ <bp:right rdf:resource="a175b" />
+ <bp:left rdf:resource="aa710" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id133">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id133</bp:displayName>
+ <bp:right rdf:resource="d543a" />
+ <bp:left rdf:resource="d85fa" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id130">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id130</bp:displayName>
+ <bp:right rdf:resource="cf2b6" />
+ <bp:right rdf:resource="fd98e" />
+ <bp:right rdf:resource="d4053" />
+ <bp:right rdf:resource="f6c85" />
+ <bp:right rdf:resource="e3d09" />
+ <bp:right rdf:resource="fe598" />
+ <bp:right rdf:resource="c1d7b" />
+ <bp:right rdf:resource="ca232" />
+ <bp:right rdf:resource="c159f" />
+ <bp:right rdf:resource="eea11" />
+ <bp:left rdf:resource="d1582" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000228716</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id139">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id139</bp:displayName>
+ <bp:right rdf:resource="c0634" />
+ <bp:left rdf:resource="f6e95" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">67016</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="a9b6e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TYMS</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tetrahydrofolate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000177000</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id136">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id136</bp:displayName>
+ <bp:right rdf:resource="cce35" />
+ <bp:left rdf:resource="d583b" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MTHFR</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Catalysis rdf:about="id135">
+ <bp:controller rdf:resource="a3f24" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id135</bp:displayName>
+ <bp:controlled rdf:resource="id134" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00121</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id138">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id138</bp:displayName>
+ <bp:right rdf:resource="ff68d" />
+ <bp:left rdf:resource="d1582" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Folic acid</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id137">
+ <bp:controller rdf:resource="ee398" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id137</bp:displayName>
+ <bp:controlled rdf:resource="id136" />
+</bp:Catalysis>
+
+<bp:SmallMoleculeReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S-Adenosylhomocysteine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000176890</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DHFR</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00939</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="f1788">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADH1B</bp:displayName>
+ <bp:entityReference rdf:resource="id67" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="e80c9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycine</bp:displayName>
+ <bp:entityReference rdf:resource="id49" />
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id121">
+ <bp:controller rdf:resource="d4053" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id121</bp:displayName>
+ <bp:controlled rdf:resource="id114" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id120">
+ <bp:controller rdf:resource="c159f" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id120</bp:displayName>
+ <bp:controlled rdf:resource="id114" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id123">
+ <bp:controller rdf:resource="cf2b6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id123</bp:displayName>
+ <bp:controlled rdf:resource="id114" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id122">
+ <bp:controller rdf:resource="eea11" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id122</bp:displayName>
+ <bp:controlled rdf:resource="id114" />
+</bp:Catalysis>
+
+<bp:SmallMoleculeReference rdf:about="id51">
+ <bp:xref rdf:resource="id52" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dihydrofolate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id50">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00123</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="fe9c4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ALDH1A1</bp:displayName>
+ <bp:entityReference rdf:resource="id77" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id53">
+ <bp:xref rdf:resource="id54" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MAT1A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Catalysis rdf:about="id129">
+ <bp:controller rdf:resource="b0e4e" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id129</bp:displayName>
+ <bp:controlled rdf:resource="id128" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id52">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">67014</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id128">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id128</bp:displayName>
+ <bp:right rdf:resource="c0634" />
+ <bp:left rdf:resource="e90a9" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id55">
+ <bp:xref rdf:resource="id56" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id54">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000151224</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id57">
+ <bp:xref rdf:resource="id58" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HAT1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id125">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id125</bp:displayName>
+ <bp:right rdf:resource="ee398" />
+ <bp:left rdf:resource="d1582" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id56">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000116478</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="id124">
+ <bp:controller rdf:resource="f6c85" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id124</bp:displayName>
+ <bp:controlled rdf:resource="id114" />
+</bp:Catalysis>
+
+<bp:SmallMoleculeReference rdf:about="id59">
+ <bp:xref rdf:resource="id60" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5-MTHF</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id127">
+ <bp:controller rdf:resource="c5d15" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id127</bp:displayName>
+ <bp:controlled rdf:resource="id126" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id58">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000128708</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id126">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id126</bp:displayName>
+ <bp:right rdf:resource="f6e95" />
+ <bp:left rdf:resource="e6556" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id49">
+ <bp:xref rdf:resource="id50" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Glycine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="c159f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC7</bp:displayName>
+ <bp:entityReference rdf:resource="id99" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b2ef3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ALDH1A2</bp:displayName>
+ <bp:entityReference rdf:resource="id87" />
+</bp:Protein>
+
+<bp:Catalysis rdf:about="id110">
+ <bp:controller rdf:resource="ff68d" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id110</bp:displayName>
+ <bp:controlled rdf:resource="id109" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id112">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id112</bp:displayName>
+ <bp:right rdf:resource="aa710" />
+ <bp:left rdf:resource="cce35" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id111">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id111</bp:displayName>
+ <bp:right rdf:resource="d85fa" />
+ <bp:left rdf:resource="a6558" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id40">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">33696</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id42">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00696</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="id118">
+ <bp:controller rdf:resource="c1d7b" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id118</bp:displayName>
+ <bp:controlled rdf:resource="id114" />
+</bp:Catalysis>
+
+<bp:SmallMoleculeReference rdf:about="id41">
+ <bp:xref rdf:resource="id42" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Methionine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id117">
+ <bp:controller rdf:resource="e3d09" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id117</bp:displayName>
+ <bp:controlled rdf:resource="id114" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id44">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">39447</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id43">
+ <bp:xref rdf:resource="id44" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pyrimidines</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id119">
+ <bp:controller rdf:resource="fd98e" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id119</bp:displayName>
+ <bp:controlled rdf:resource="id114" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id46">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000116984</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id114">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id114</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id45">
+ <bp:xref rdf:resource="id46" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MTR</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Catalysis rdf:about="id113">
+ <bp:controller rdf:resource="cafbd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id113</bp:displayName>
+ <bp:controlled rdf:resource="id112" />
+</bp:Catalysis>
+
+<bp:UnificationXref rdf:about="id48">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01533</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="ff68d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SLC19A1</bp:displayName>
+ <bp:entityReference rdf:resource="id61" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Formerly known as RFC1</bp:comment>
+</bp:Protein>
+
+<bp:Catalysis rdf:about="id116">
+ <bp:controller rdf:resource="ca232" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id116</bp:displayName>
+ <bp:controlled rdf:resource="id114" />
+</bp:Catalysis>
+
+<bp:SmallMoleculeReference rdf:about="id47">
+ <bp:xref rdf:resource="id48" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5,10-MTHF</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Catalysis rdf:about="id115">
+ <bp:controller rdf:resource="fe598" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id115</bp:displayName>
+ <bp:controlled rdf:resource="id114" />
+</bp:Catalysis>
+
+<bp:SmallMoleculeReference rdf:about="id39">
+ <bp:xref rdf:resource="id40" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nucleic acids</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id38">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000114166</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="a6558">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">dTMP</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="a0c25">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ELP3</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="e5cac">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MTR</bp:displayName>
+ <bp:entityReference rdf:resource="id45" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id101">
+ <bp:xref rdf:resource="id102" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC8</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id100">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000061273</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id71">
+ <bp:xref rdf:resource="id72" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADH1A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id70">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000130649</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id73">
+ <bp:xref rdf:resource="id74" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id72">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000187758</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id75">
+ <bp:xref rdf:resource="id76" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetyl-CoA</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:BiochemicalReaction rdf:about="id107">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id107</bp:displayName>
+ <bp:right rdf:resource="e80c9" />
+ <bp:right rdf:resource="e6556" />
+ <bp:left rdf:resource="c0634" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id74">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">30089</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id106">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000100429</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id77">
+ <bp:xref rdf:resource="id78" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ALDH1A1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id109">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id109</bp:displayName>
+ <bp:right rdf:resource="e90a9" />
+ <bp:left rdf:resource="c767a" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id76">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01206</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="id108">
+ <bp:controller rdf:resource="a60d0" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id108</bp:displayName>
+ <bp:controlled rdf:resource="id107" />
+</bp:Catalysis>
+
+<bp:SmallMoleculeReference rdf:about="id79">
+ <bp:xref rdf:resource="id80" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Coenzyme A</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:ProteinReference rdf:about="id103">
+ <bp:xref rdf:resource="id104" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC9</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id78">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000165092</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id102">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000147099</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id105">
+ <bp:xref rdf:resource="id106" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC10</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id104">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000048052</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="a60d0">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Serine</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="d1582">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ethanol</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="cf2b6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC8</bp:displayName>
+ <bp:entityReference rdf:resource="id101" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id60">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01396</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id62">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000173638</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id61">
+ <bp:xref rdf:resource="id62" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SLC19A1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id64">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00990</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id63">
+ <bp:xref rdf:resource="id64" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetaldehyde</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id66">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000131069</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id65">
+ <bp:xref rdf:resource="id66" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACSS2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id68">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000196616</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id67">
+ <bp:xref rdf:resource="id68" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADH1B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id69">
+ <bp:xref rdf:resource="id70" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CYP2E1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="ab942">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactive oxygen species</bp:displayName>
+ <bp:entityReference rdf:resource="id83" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="fe598">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC5</bp:displayName>
+ <bp:entityReference rdf:resource="id95" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id91">
+ <bp:xref rdf:resource="id92" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id90">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000184254</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id93">
+ <bp:xref rdf:resource="id94" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id92">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000171720</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id95">
+ <bp:xref rdf:resource="id96" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC5</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="d85fa">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pyrimidines
+</bp:displayName>
+ <bp:entityReference rdf:resource="id43" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id94">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000068024</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id97">
+ <bp:xref rdf:resource="id98" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC6</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id96">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000108840</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id99">
+ <bp:xref rdf:resource="id100" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC7</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id98">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000094631</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="d583b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Methionine</bp:displayName>
+ <bp:entityReference rdf:resource="id41" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="f8a3f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactive oxygen species</bp:displayName>
+ <bp:entityReference rdf:resource="id83" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id80">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01423</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id82">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000111275</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id81">
+ <bp:xref rdf:resource="id82" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ALDH2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id84">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">26523</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id83">
+ <bp:xref rdf:resource="id84" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Reactive oxygen species</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="e28ad">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ALDH2</bp:displayName>
+ <bp:entityReference rdf:resource="id81" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id86">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000248144</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id85">
+ <bp:xref rdf:resource="id86" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADH1C</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id88">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000128918</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="d613e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADH1A</bp:displayName>
+ <bp:entityReference rdf:resource="id71" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id87">
+ <bp:xref rdf:resource="id88" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ALDH1A2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="ca232">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC3</bp:displayName>
+ <bp:entityReference rdf:resource="id91" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id89">
+ <bp:xref rdf:resource="id90" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ALDH1A3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="a7206">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CYP2E1</bp:displayName>
+ <bp:entityReference rdf:resource="id69" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="b1824">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetaldehyde</bp:displayName>
+ <bp:entityReference rdf:resource="id63" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="a72b4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ACSS2</bp:displayName>
+ <bp:entityReference rdf:resource="id65" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a7dcd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ALDH1A3</bp:displayName>
+ <bp:entityReference rdf:resource="id89" />
+</bp:Protein>
+
+<bp:Protein rdf:about="c8b46">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADH1C</bp:displayName>
+ <bp:entityReference rdf:resource="id85" />
+</bp:Protein>
+
+<bp:Protein rdf:about="e3d09">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC9</bp:displayName>
+ <bp:entityReference rdf:resource="id103" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="cae0b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Acetyl-CoA</bp:displayName>
+ <bp:entityReference rdf:resource="id75" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="c5d15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MTHFR</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:Protein>
+
+<bp:Protein rdf:about="f6c85">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC10</bp:displayName>
+ <bp:entityReference rdf:resource="id105" />
+</bp:Protein>
+
+<bp:Protein rdf:about="cafbd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EHMT2</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">G9a</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="d4715">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">KAT2B</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">also known as PCAF</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="cedfc">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ATF2</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+</bp:Protein>
+
+<bp:Protein rdf:about="d4053">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HDAC2</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="aa710">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">S-Adenosylhomocysteine</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:SmallMolecule>
+</rdf:RDF>

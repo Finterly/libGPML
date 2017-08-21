@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="miR-517 relationship with ARCN1 and USP1" revision="20151222" organism="Homo sapiens" width="546.4034021871198" height="368.6269744835964">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Schematic summarizing predicted miR-517a relationships with ARCN1 and USP1.
+
+A genomewide miRNA mimic toxicity screen indicates common and selective vulnerabilities of epithelial ovarian cancer cells. miR-517a targets a common vulnerability, primarily via its target ARCN1.</Comment>
+  <CitationRef citationID="fb3" />
+  <DataNode elementID="a1ea8" textLabel="hsa-miR-517a-3p" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="275.7715674362097" centerY="76.54921020656145" width="89.81773997569873" height="20.0" zOrder="32768">
+    <Xref dataSource="miRBase mature sequence" identifier="MIMAT0002852" />
+  </DataNode>
+  <DataNode elementID="a6245" textLabel="p21" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="276.37910085054443" centerY="318.3475091130014" width="64.3013365735116" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000124762" />
+  </DataNode>
+  <DataNode elementID="d07b7" textLabel="ID1" groupRef="a4704" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="151.22721749696365" centerY="308.6269744835964" width="57.0109356014581" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000125968" />
+  </DataNode>
+  <DataNode elementID="dc550" textLabel="USP1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="152.44228432563784" centerY="191.9805589307411" width="61.87120291616043" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000162607" />
+  </DataNode>
+  <DataNode elementID="e5e24" textLabel="ARCN1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="389.3803159173768" centerY="172.5394896719319" width="69.16160388821395" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000095139" />
+  </DataNode>
+  <DataNode elementID="f31b9" textLabel="ID2" groupRef="a4704" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="151.22721749696365" centerY="328.6269744835964" width="57.0109356014581" height="19.999999999999975" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000115738" />
+  </DataNode>
+  <Interaction elementID="id1248fdcd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="152.44228432563784" y="201.9805589307411" elementID="d0387" elementRef="dc550" relX="0.0" relY="1.0" />
+    <Point x="151.22721749696365" y="290.6269744835964" elementID="a2067" elementRef="a4704" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id1368493e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="308.52976913730026" y="318.3475091130014" elementID="d65a1" elementRef="a6245" relX="1.0" relY="0.0" />
+    <Point x="368.54191980558824" y="318.6269744835967" elementID="ff9dc" elementRef="b492b" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id39f2e108" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="187.73268529769268" y="318.6269744835964" elementID="a4ad9" elementRef="a4704" relX="1.0" relY="0.0" />
+    <Point x="244.2284325637886" y="318.3475091130014" elementID="c753d" elementRef="a6245" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id53b70276" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="275.7715674362097" y="86.54921020656145" elementID="c55f2" elementRef="a1ea8" relX="0.0" relY="1.0" />
+    <Point x="389.38031591737683" y="162.5394896719319" elementID="ff8b9" elementRef="e5e24" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id916949df" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="275.7715674362097" y="86.54921020656145" elementID="b72b6" elementRef="a1ea8" relX="0.0" relY="1.0" />
+    <Point x="152.44228432563784" y="181.9805589307411" elementID="a5241" elementRef="dc550" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="idb11c7c85" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="389.38031591737683" y="182.5394896719319" elementID="f7781" elementRef="e5e24" relX="0.0" relY="1.0" />
+    <Point x="388.8213851761841" y="234.22843256379073" elementID="a728c" elementRef="b7d34" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="b7d34" textLabel="Cell viability" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="388.8213851761841" centerY="244.22843256379073" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="b492b" textLabel="Cell cycle progression" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="442.472660996354" centerY="318.6269744835967" width="147.86148238153157" height="20.0" zOrder="32769" />
+  <Group elementID="a4704" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="A genome-scale screen reveals context-dependent ovarian cancer sensitivity to miRNA overexpression." URL="" citationID="fb3" year="2015" source="Mol Syst Biol">
+      <Xref dataSource="PubMed" identifier="26655797" />
+      <Author name="Shields BB" />
+      <Author name="Pecot CV" />
+      <Author name="Gao H" />
+      <Author name="McMillan E" />
+      <Author name="Potts M" />
+      <Author name="Nagel C" />
+      <Author name="Purinton S" />
+      <Author name="Wang Y" />
+      <Author name="Ivan C" />
+      <Author name="Kim HS" />
+      <Author name="Borkowski RJ" />
+      <Author name="Khan S" />
+      <Author name="Rodriguez-Aguayo C" />
+      <Author name="Lopez-Berestein G" />
+      <Author name="Lea J" />
+      <Author name="Gazdar A" />
+      <Author name="Baggerly KA" />
+      <Author name="Sood AK" />
+      <Author name="White MA" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+  </OntologyTerms>
+</Pathway>
+

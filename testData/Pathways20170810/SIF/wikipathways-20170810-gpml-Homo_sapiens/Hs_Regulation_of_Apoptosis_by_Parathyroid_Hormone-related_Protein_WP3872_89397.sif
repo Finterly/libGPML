@@ -1,0 +1,22 @@
+PI3-K	Line	R8
+R8	Arrow	AKT1
+Integrin B4
+	Line	R6
+Integrin A6
+	Line	R6
+R6	Arrow	PI3-K
+Intracrine PTHrP
+	Line	R1
+R1	Arrow	Integrin B4
+
+R1	Arrow	Integrin A6
+
+MYC	Line	R16
+R16	mim-inhibition	Apoptosis
+
+GSK3B	Line	R14
+GSK3A	Line	R14
+R14	Arrow	MYC
+AKT1	Line	R12
+R12	mim-inhibition	GSK3B
+R12	mim-inhibition	GSK3A

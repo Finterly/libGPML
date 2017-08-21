@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="ff5d7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cu</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="aa2e7">
+ <bp:xref rdf:resource="bdc" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CUA-1.2</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">&quot;CUA-1.2 consistently localizes to the basolateral membrane of enterocytes regardless of Cu conditions. &quot;</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id11</bp:displayName>
+ <bp:right rdf:resource="ff5d7" />
+ <bp:right rdf:resource="cb747" />
+ <bp:left rdf:resource="b5977" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id10">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id10</bp:displayName>
+ <bp:right rdf:resource="f3cb8" />
+ <bp:right rdf:resource="de144" />
+ <bp:left rdf:resource="aa2e7" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id13</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="fae63">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cu</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id12">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id12</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id15</bp:displayName>
+ <bp:right rdf:resource="e8ea2" />
+ <bp:left rdf:resource="cb747" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id14">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id14</bp:displayName>
+ <bp:right rdf:resource="f0b3a" />
+ <bp:left rdf:resource="caac2" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="cf863">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cu</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="f0b3a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cu</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="caac2">
+ <bp:xref rdf:resource="bdc" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CUA-1.1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="b279a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cu</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="f9c0c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cu</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="b5977">
+ <bp:xref rdf:resource="bdc" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CUA-1.1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CUA-1.1 isoform localizes to the basolateral membrane and Golgi to either export Cu ions to peripheral tissues, or to direct Cu into the secretory pathway.</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="cb747">
+ <bp:xref rdf:resource="bdc" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CUA-1.1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="bdc">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2017</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kim BE</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Chun H</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Jia S</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Chan J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lee J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sharma AK</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">27881675</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The Intestinal Copper Exporter CUA-1 Is Required for Systemic Copper Homeostasis in Caenorhabditis elegans.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:SmallMolecule rdf:about="bc2cd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cu</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id20">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id20</bp:displayName>
+ <bp:right rdf:resource="aa2e7" />
+ <bp:left rdf:resource="b279a" />
+ <bp:left rdf:resource="f16ba" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="e8ea2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cu</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id22</bp:displayName>
+ <bp:right rdf:resource="caac2" />
+ <bp:right rdf:resource="f9c0c" />
+ <bp:left rdf:resource="b5977" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id21">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id21</bp:displayName>
+ <bp:right rdf:resource="fae63" />
+ <bp:right rdf:resource="ee286" />
+ <bp:left rdf:resource="b5977" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="ee286">
+ <bp:xref rdf:resource="bdc" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CUA-1.1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="e2d88">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cu</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id17">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id17</bp:displayName>
+ <bp:right rdf:resource="bc2cd" />
+ <bp:left rdf:resource="ee286" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id16</bp:displayName>
+ <bp:right rdf:resource="cf863" />
+ <bp:left rdf:resource="f3cb8" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id19">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id19</bp:displayName>
+ <bp:right rdf:resource="b5977" />
+ <bp:left rdf:resource="b279a" />
+ <bp:left rdf:resource="f16ba" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id18">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id18</bp:displayName>
+ <bp:right rdf:resource="e2d88" />
+ <bp:left rdf:resource="e9a16" />
+</bp:BiochemicalReaction>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Caenorhabditis elegans</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Caenorhabditis elegans</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id20" />
+ <bp:pathwayComponent rdf:resource="id11" />
+ <bp:pathwayComponent rdf:resource="id22" />
+ <bp:pathwayComponent rdf:resource="id10" />
+ <bp:pathwayComponent rdf:resource="id21" />
+ <bp:pathwayComponent rdf:resource="id13" />
+ <bp:pathwayComponent rdf:resource="id12" />
+ <bp:pathwayComponent rdf:resource="id15" />
+ <bp:pathwayComponent rdf:resource="id14" />
+ <bp:pathwayComponent rdf:resource="id17" />
+ <bp:pathwayComponent rdf:resource="id16" />
+ <bp:pathwayComponent rdf:resource="id19" />
+ <bp:pathwayComponent rdf:resource="id18" />
+ <bp:pathwayComponent rdf:resource="id9" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Copper homeostasis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Adapted from figure 7 from Chun et al (see Bibliography). Cu homeostasis in worms is maintained by distinctly localized intestinal CUA-1 isoforms.
+A model of Cu homeostasis in C. elegans is shown. Dietary Cu ions are transported from the lumen of the intestine to the enterocytes by an unidentified Cu importer, and CUC-1 delivers Cu to CUA-1. Under basal Cu or Cu-deficient conditions, CUA-1.1 isoform localizes to the basolateral membrane and Golgi to either export Cu ions to peripheral tissues, or to direct Cu into the secretory pathway. CUA-1.2 consistently localizes to the basolateral membrane of enterocytes regardless of Cu conditions. CUA-1.1 is redistributed to the gut-granule membranes in response to elevated Cu levels in order to promote Cu detoxification in C. elegans.&quot; (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ZK652.11</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="e9a16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">elemental
+copper</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CUC-1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:37404</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="f3cb8">
+ <bp:xref rdf:resource="bdc" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CUA-1.2</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">&quot;CUA-1.2 consistently localizes to the basolateral membrane of enterocytes regardless of Cu conditions. &quot;  Evidence: &quot;Confocal images of transgenic animals [Pvha-6::CUA-1.2::GFP::unc-54 3&#8217;UTR] expressing CUA-1.2::GFP in the intestine in the presence of 50 &#956;M of supplemental Cu or BCS.&quot;</bp:comment>
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cu</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">elementalcopper</bp:name>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Y76A2A.2</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">WormBase</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CUA-1.2</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CUA-1.1</bp:name>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="f16ba">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CUC-1</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="de144">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cu</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id9</bp:displayName>
+ <bp:right rdf:resource="f16ba" />
+ <bp:left rdf:resource="e2d88" />
+</bp:BiochemicalReaction>
+</rdf:RDF>

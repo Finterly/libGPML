@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Serine Biosynthesis" organism="Saccharomyces cerevisiae" width="595.0" height="390.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP notes"></Comment>
+  <Comment source="GenMAPP remarks">Based on http://pathway.yeastgenome.org/biocyc/</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <DataNode elementID="afd" textLabel="SER3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="246.66666666666666" centerY="83.33333333333333" width="46.666666666666664" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SER3" />
+    <Xref dataSource="SGD" identifier="S000000883" />
+  </DataNode>
+  <DataNode elementID="b19" textLabel="L-serine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="103.33333333333333" centerY="300.0" width="67.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="56-45-1" />
+  </DataNode>
+  <DataNode elementID="b35" textLabel="L-glutamate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="353.3333333333333" centerY="190.03333333333333" width="95.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="56-86-0" />
+  </DataNode>
+  <DataNode elementID="b7f" textLabel="SER1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="463.3333333333333" centerY="223.33333333333334" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SER1" />
+    <Xref dataSource="SGD" identifier="S000005710" />
+  </DataNode>
+  <DataNode elementID="cab" textLabel="SER2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="263.3333333333333" centerY="286.6666666666667" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SER2" />
+    <Xref dataSource="SGD" identifier="S000003440" />
+  </DataNode>
+  <DataNode elementID="cdd" textLabel="SER33" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="246.66666666666666" centerY="63.333333333333336" width="46.666666666666664" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SER33" />
+    <Xref dataSource="SGD" identifier="S000001336" />
+  </DataNode>
+  <DataNode elementID="e98" textLabel="phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="213.33333333333334" centerY="340.0" width="87.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="14265-44-2" />
+  </DataNode>
+  <DataNode elementID="f4a" textLabel="NADH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="290.0" centerY="143.33333333333334" width="52.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="53-84-9" />
+  </DataNode>
+  <Interaction elementID="id131c2823" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="290.0" y="126.66666666666667" elementID="c1af2" />
+    <Point x="290.0" y="133.33333333333334" elementID="a8fca" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8acf4244" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="440.0" y="106.66666666666667" elementID="f136f" />
+    <Point x="440.0" y="290.0" elementID="ce607" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8e10b108" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="366.6666666666667" y="300.0" elementID="b9099" />
+    <Point x="140.0" y="300.0" elementID="ba929" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id92599b20" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="410.0" y="256.6666666666667" elementID="cb4aa" />
+    <Point x="403.3333333333333" y="256.6666666666667" elementID="af148" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf218769e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="156.66666666666666" y="96.66666666666667" elementID="b7d2e" />
+    <Point x="336.6666666666667" y="96.66666666666667" elementID="c44c6" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="a95" textLabel="2-oxoglutarate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="343.3333333333333" centerY="256.7" width="115.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="b47" textLabel="3-phospho-serine" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="440.0" centerY="300.0" width="140.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="bd9" textLabel="NAD" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="196.66666666666666" centerY="143.33333333333334" width="40.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="cf3" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="313.3333333333333" centerY="340.0" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="e7a" textLabel="3-phospho-hydroxypyruvate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="453.3333333333333" centerY="96.66666666666667" width="223.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="ee0" textLabel="3-phosphoglycerate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="80.0" centerY="96.66666666666667" width="158.33333333333334" height="19.0" zOrder="28672" />
+  <Shape elementID="ae0" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="263.3333333333333" centerY="330.0" width="100.22197333333334" height="60.0" zOrder="16384" rotation="3.141593" />
+  <Shape elementID="fb9" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="243.33333333333334" centerY="133.33553333333333" width="93.33333333333333" height="73.63574666666666" zOrder="16384" rotation="3.141593" />
+  <Shape elementID="fea" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="403.3492" centerY="223.3662666666667" width="66.99917333333333" height="73.63574666666666" zOrder="16384" rotation="4.712389" />
+  <InfoBox centerX="425.0" centerY="338.3333333333333" />
+  <Legend centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="serine metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001084" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,58 @@
+Parietal Cell production
+	Line	R1
+R1	Arrow	Gastric Intrinsic Factor
+CCK	Line	R19
+Secretin	Line	R19
+VIP	Line	R19
+R19	TBar	Parietal Cell production
+
+pepsinogen	Line	R9
+R9	mim-stimulation	Gastric Gastrin Release
+pepsinogen	Line	R13
+R13	mim-conversion	Pepsin C
+R13	mim-conversion	Pepsin B
+GRP	Line	R21
+R21	mim-stimulation	Parietal Cell production
+
+Acetylcholine	Line	R25
+R25	mim-stimulation	Gastric Histamine release
+hydrochloric acid	Line	R37
+R37	Arrow	R15
+Gastric Gastrin Release	Line	R3
+R3	Arrow	Gastrin
+Gastrin	Line	R29
+R29	mim-stimulation	Gastric Histamine release
+Histamine
+	Line	R31
+R31	mim-stimulation	Parietal Cell production
+
+Gastric Histamine release	Line	R33
+R33	Arrow	Histamine
+
+Mucus and bicarbonate secretion	Line	R15
+R15	Arrow	MUC6
+R15	Arrow	Bicarbonate ions
+GRP	Line	R27
+R27	mim-stimulation	Gastric Histamine release
+Acetylcholine	Line	R41
+R41	Arrow	R3
+Gastric pepsin release	Line	R7
+R7	Arrow	pepsinogen
+hydrochloric acid	Line	R35
+R35	mim-conversion	R13
+pepsinogen	Line	R11
+R11	mim-stimulation	Parietal Cell production
+
+Parietal Cell production
+	Line	R17
+R17	Arrow	hydrochloric acid
+R17	Arrow	potassium chloride
+R17	Arrow	Sodium Chloride
+GRP	Line	R39
+R39	Arrow	R3
+Gastrin	Line	R5
+R5	mim-stimulation	Parietal Cell production
+
+Acetylcholine	Line	R23
+R23	mim-stimulation	Parietal Cell production
+

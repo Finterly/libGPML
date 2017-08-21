@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="H19 action Rb-E2F1 signaling and CDK-β-catenin activity" Version="20170306" Organism="Homo sapiens">
+  <Comment Source="WikiPathways-description">A scheme of H19 action: New insights of H19 action on Rb-E2F1 signaling and CDK-β-catenin activity. In this proposed model, H19 interacts with macroH2A, and this may consequently lead to de-repression of genes including CDK8, CDK4, and CCND1. Increased CDK4-cyclin D1 complex phosphorylates Rb to disrupt Rb-E2F1 interaction, leading to E2F1 activation. The increase of CDK8 expression enhances the function of mediator complex including MED1, and facilitates the gene regulation by β-catenin. These downstream targets could work in a synergistic way of promoting cell proliferation and increasing cell motility in CRC.
+Reference: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5264449/</Comment>
+  <BiopaxRef>cdc</BiopaxRef>
+  <Graphics BoardWidth="649.0" BoardHeight="506.5" />
+  <DataNode TextLabel="macroH2A" GraphId="aacb8" Type="GeneProduct" GroupRef="d524f">
+    <Graphics CenterX="423.5" CenterY="59.0" Width="69.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000113648" />
+  </DataNode>
+  <DataNode TextLabel="CDK4" GraphId="ab405" Type="GeneProduct" GroupRef="bdebf">
+    <Graphics CenterX="184.5" CenterY="133.0" Width="45.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000135446" />
+  </DataNode>
+  <DataNode TextLabel="H19" GraphId="ab411" Type="Rna" GroupRef="d524f">
+    <Graphics CenterX="391.0" CenterY="84.0" Width="58.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="990099" />
+    <Xref Database="Ensembl" ID="ENSG00000130600" />
+  </DataNode>
+  <DataNode TextLabel="G1-S transition" GraphId="dea00" Type="Pathway">
+    <Graphics CenterX="170.0" CenterY="396.0" Width="90.0" Height="25.0" ZOrder="32768" FontWeight="Bold" FontSize="12" Valign="Middle" ShapeType="None" Color="14961e" />
+    <Xref Database="WikiPathways" ID="WP45" />
+  </DataNode>
+  <DataNode TextLabel="CTNNB1" GraphId="fe54e" Type="GeneProduct">
+    <Graphics CenterX="530.0" CenterY="254.0" Width="66.0" Height="25.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000168036" />
+  </DataNode>
+  <DataNode TextLabel="CCND1" GraphId="a545e" Type="GeneProduct" GroupRef="bdebf">
+    <Graphics CenterX="184.5" CenterY="158.0" Width="61.0" Height="25.0" ZOrder="32769" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000110092" />
+  </DataNode>
+  <DataNode TextLabel="E2F1" GraphId="df2bb" Type="GeneProduct">
+    <Graphics CenterX="170.5" CenterY="327.0" Width="61.0" Height="25.0" ZOrder="32770" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000101412" />
+  </DataNode>
+  <DataNode TextLabel="CDK8" GraphId="ca5ca" Type="GeneProduct">
+    <Graphics CenterX="316.5" CenterY="254.0" Width="61.0" Height="25.0" ZOrder="32771" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000132964" />
+  </DataNode>
+  <DataNode TextLabel="CDK8" GraphId="e3a0e" Type="GeneProduct" GroupRef="c8040">
+    <Graphics CenterX="333.5" CenterY="347.0" Width="61.0" Height="25.0" ZOrder="32772" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000132964" />
+  </DataNode>
+  <DataNode TextLabel="MED1" GraphId="d5a02" Type="GeneProduct" GroupRef="c8040">
+    <Graphics CenterX="299.5" CenterY="372.0" Width="61.0" Height="25.0" ZOrder="32773" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000125686" />
+  </DataNode>
+  <DataNode TextLabel="CSRP2" GraphId="e5f2c" Type="GeneProduct" GroupRef="ac7c0">
+    <Graphics CenterX="478.5" CenterY="323.0" Width="61.0" Height="25.0" ZOrder="32774" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000175183" />
+  </DataNode>
+  <DataNode TextLabel="JAG1" GraphId="a66fd" Type="GeneProduct" GroupRef="ac7c0">
+    <Graphics CenterX="478.5" CenterY="348.0" Width="61.0" Height="25.0" ZOrder="32775" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000101384" />
+  </DataNode>
+  <DataNode TextLabel="SOX4" GraphId="f279d" Type="GeneProduct" GroupRef="ac7c0">
+    <Graphics CenterX="478.5" CenterY="373.0" Width="61.0" Height="25.0" ZOrder="32776" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000124766" />
+  </DataNode>
+  <DataNode TextLabel="CDH1" GraphId="e95b1" Type="GeneProduct" GroupRef="fbbec">
+    <Graphics CenterX="574.5" CenterY="324.0" Width="61.0" Height="25.0" ZOrder="32777" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000039068" />
+  </DataNode>
+  <DataNode TextLabel="TULP3" GraphId="b3438" Type="GeneProduct" GroupRef="fbbec">
+    <Graphics CenterX="574.5" CenterY="349.0" Width="61.0" Height="25.0" ZOrder="32778" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000078246" />
+  </DataNode>
+  <DataNode TextLabel="PMAIP1" GraphId="f8b16" Type="GeneProduct" GroupRef="fbbec">
+    <Graphics CenterX="574.5" CenterY="374.0" Width="61.0" Height="25.0" ZOrder="32779" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000141682" />
+  </DataNode>
+  <DataNode TextLabel="RB1" GraphId="ad1bc" Type="GeneProduct">
+    <Graphics CenterX="73.0" CenterY="316.0" Width="46.0" Height="25.0" ZOrder="32780" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000139687" />
+  </DataNode>
+  <DataNode TextLabel="E2F1" GraphId="c32fb" Type="GeneProduct" GroupRef="b99fc">
+    <Graphics CenterX="98.5" CenterY="252.0" Width="61.0" Height="25.0" ZOrder="32786" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000101412" />
+  </DataNode>
+  <DataNode TextLabel="RB1" GraphId="c9bb7" Type="GeneProduct" GroupRef="b99fc">
+    <Graphics CenterX="78.0" CenterY="227.0" Width="46.0" Height="25.0" ZOrder="32787" FontSize="12" Valign="Middle" />
+    <Xref Database="Ensembl" ID="ENSG00000139687" />
+  </DataNode>
+  <State GraphRef="ad1bc" TextLabel="P" GraphId="f7e81">
+    <Graphics RelX="1.0" RelY="-0.84" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <State GraphRef="c9bb7" TextLabel="P" GraphId="eefbc">
+    <Graphics RelX="1.0" RelY="-0.7096188747731389" Width="15.0" Height="15.0" ShapeType="Oval" />
+    <Xref Database="" ID="" />
+  </State>
+  <Interaction GraphId="id2e7e9608">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="574.5" Y="394.5" GraphRef="d643c" RelX="0.0" RelY="1.0" />
+      <Point X="574.0" Y="451.5" GraphRef="c888f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id5b703362">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="114.5" Y="272.5" GraphRef="a00f8" RelX="0.5" RelY="1.0" />
+      <Point X="170.5" Y="314.5" GraphRef="df2bb" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id67204f6c">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="513.5" Y="266.5" GraphRef="fe54e" RelX="-0.5" RelY="1.0" />
+      <Point X="478.5" Y="302.5" GraphRef="f558b" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id8f30766f">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="170.5" Y="339.5" GraphRef="df2bb" RelX="0.0" RelY="1.0" />
+      <Point X="170.0" Y="383.5" GraphRef="dea00" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id947172ed">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="347.0" Y="254.0" GraphRef="ca5ca" RelX="1.0" RelY="0.0" />
+      <Point X="497.0" Y="254.0" GraphRef="fe54e" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="id99c9121f">
+    <Graphics ConnectorType="Elbow" ZOrder="12288" LineThickness="1.0">
+      <Point X="364.0" Y="146.0" GraphRef="afdc6" RelX="-1.0" RelY="0.0" />
+      <Point X="316.5" Y="241.5" GraphRef="ca5ca" RelX="0.0" RelY="-1.0" ArrowHead="mim-transcription-translation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idc02d1cf8">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="192.5" Y="408.5" GraphRef="dea00" RelX="0.5" RelY="1.0" />
+      <Point X="271.0" Y="449.75" GraphRef="f61a0" RelX="-1.0" RelY="-0.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idd2f7294d">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="146.0" Y="162.0" GraphRef="d955e" RelX="-1.0" RelY="0.5" />
+      <Point X="78.0" Y="214.5" GraphRef="c9bb7" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idd54b8361">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="92.0" Y="272.5" GraphRef="a00f8" RelX="0.0" RelY="1.0" />
+      <Point X="73.0" Y="303.5" GraphRef="ad1bc" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idd975a653">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="316.5" Y="392.5" GraphRef="b827a" RelX="0.0" RelY="1.0" />
+      <Point X="316.0" Y="443.5" GraphRef="f61a0" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="iddeb3a82e">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="316.5" Y="266.5" GraphRef="ca5ca" RelX="0.0" RelY="1.0" />
+      <Point X="316.5" Y="326.5" GraphRef="b827a" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idedaf9dc2">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="546.5" Y="266.5" GraphRef="fe54e" RelX="0.5" RelY="1.0" />
+      <Point X="574.5" Y="303.5" GraphRef="d643c" RelX="0.0" RelY="-1.0" ArrowHead="mim-inhibition" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idef46713c">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="478.5" Y="393.5" GraphRef="f558b" RelX="0.0" RelY="1.0" />
+      <Point X="361.0" Y="449.75" GraphRef="f61a0" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="idffd481c0">
+    <Graphics ZOrder="12288" LineStyle="Broken" LineThickness="1.0">
+      <Point X="410.0" Y="104.5" GraphRef="f11cd" RelX="0.0" RelY="1.0" />
+      <Point X="410.0" Y="135.0" GraphRef="afdc6" RelX="-0.5" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="d2ad6">
+    <Graphics ZOrder="32785" LineThickness="1.0">
+      <Point X="364.0" Y="146.0" GraphRef="afdc6" RelX="-1.0" RelY="0.0" />
+      <Point X="223.0" Y="145.5" GraphRef="d955e" RelX="1.0" RelY="0.0" ArrowHead="mim-transcription-translation" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="a1939">
+    <Graphics ZOrder="32788" LineStyle="Broken" LineThickness="1.0">
+      <Point X="574.5" Y="394.5" GraphRef="d643c" RelX="0.0" RelY="1.0" />
+      <Point X="361.0" Y="449.75" GraphRef="f61a0" RelX="1.0" RelY="-0.5" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="d2dee">
+    <Graphics ZOrder="32789" LineStyle="Broken" LineThickness="1.0">
+      <Point X="478.5" Y="393.5" GraphRef="f558b" RelX="0.0" RelY="1.0" />
+      <Point X="574.0" Y="451.5" GraphRef="c888f" RelX="0.0" RelY="-1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <GraphicalLine GraphId="id11ca655c" GroupRef="d7c96">
+    <Graphics ZOrder="12288" LineThickness="2.0" Color="999999">
+      <Point X="372.0" Y="143.0" />
+      <Point X="540.0" Y="144.0" />
+    </Graphics>
+  </GraphicalLine>
+  <GraphicalLine GraphId="ac25a" GroupRef="d7c96">
+    <Graphics ZOrder="32784" LineThickness="2.0" Color="999999">
+      <Point X="372.0" Y="148.0" />
+      <Point X="540.0" Y="149.0" />
+    </Graphics>
+  </GraphicalLine>
+  <Label TextLabel="Phosphorylation" GraphId="ea77f">
+    <Graphics CenterX="80.5" CenterY="173.0" Width="101.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Label TextLabel="CRC growth" GraphId="f61a0">
+    <Graphics CenterX="316.0" CenterY="456.0" Width="90.0" Height="25.0" ZOrder="28672" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Label TextLabel="CRC migration" GraphId="c888f">
+    <Graphics CenterX="574.0" CenterY="464.0" Width="90.0" Height="25.0" ZOrder="32782" FillColor="ffffff" FontWeight="Bold" FontSize="12" Valign="Middle" />
+  </Label>
+  <Group GroupId="b99fc" GraphId="a00f8" Style="Group" />
+  <Group GroupId="d7c96" GraphId="afdc6" Style="Group" />
+  <Group GroupId="c8040" GraphId="b827a" Style="Group" />
+  <Group GroupId="fbbec" GraphId="d643c" Style="Group" />
+  <Group GroupId="bdebf" GraphId="d955e" Style="Group" />
+  <Group GroupId="d524f" GraphId="f11cd" Style="Group" />
+  <Group GroupId="ac7c0" GraphId="f558b" Style="Group" />
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+  <Biopax>
+    <bp:openControlledVocabulary xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+      <bp:TERM xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorectal cancer</bp:TERM>
+      <bp:ID xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9256</bp:ID>
+      <bp:Ontology xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disease</bp:Ontology>
+    </bp:openControlledVocabulary>
+    <bp:PublicationXref xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" rdf:id="cdc">
+      <bp:ID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">27789274</bp:ID>
+      <bp:DB rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed</bp:DB>
+      <bp:TITLE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">H19 Noncoding RNA, an Independent Prognostic Factor, Regulates Essential Rb-E2F and CDK8-β-Catenin Signaling in Colorectal Cancer.</bp:TITLE>
+      <bp:SOURCE rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EBioMedicine</bp:SOURCE>
+      <bp:YEAR rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2016</bp:YEAR>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ohtsuka M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ling H</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ivan C</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pichler M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Matsushita D</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goblirsch M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stiegelbauer V</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Shigeyasu K</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zhang X</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chen M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vidhu F</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bartholomeusz GA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Toiyama Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kusunoki M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Doki Y</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mori M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Song S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gunther JR</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Krishnan S</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Slaby O</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Goel A</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ajani JA</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radovich M</bp:AUTHORS>
+      <bp:AUTHORS rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calin GA</bp:AUTHORS>
+    </bp:PublicationXref>
+  </Biopax>
+</Pathway>

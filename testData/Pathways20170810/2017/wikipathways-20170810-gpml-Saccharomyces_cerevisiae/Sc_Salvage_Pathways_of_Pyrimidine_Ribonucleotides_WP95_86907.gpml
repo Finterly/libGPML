@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Salvage Pathways of Pyrimidine Ribonucleotides" organism="Saccharomyces cerevisiae" width="890.0" height="405.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP remarks">Based on http://pathway.yeastgenome.org/biocyc/</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">Pyrimidine nucleotides are essential as components of nucleic acids, as substrates for amino acid synthesis and as energy sources, but defects in the de novo biosynthesis of pyrimidines are not lethal in S. cerevisiae cells  (CITS:10501935).  This is because salvage pathways are able to utilize preformed bases (either from exogenous sources or internal turnover sources) for the synthesis of pyrimidines (CITS:2189783). If the required substrates are available, salvage pathways are preferred over de novo synthesis pathways for pyrimidine biosynthesis (CITS:12111094).  The salvage pathways of pyrimidine ribonucleotides consist of 1) importing exogenous bases into the cell, and 2) the interconversion of various bases (CITS:2189783)(CITS:12111094). Three proteins are involved in the import of exogenous bases used by the salvage pathway for pyrimidine ribonucleotide biosynthesis. Uracil enters the cell via the Fur4p uracil permease (CITS:6290876)(CITS:3276521), cytosine enters the cell via the Fcy2p purine-cytosine transporter (CITS:6387700)(CITS:2191181), and uridine enters the cell via the Fui1p uridine permease (CITS:9485596).  As with many of the metabolic pathways of S. cerevisiae, the pathways for the salvage of pyrimidine ribonucleotides are under both transcriptional and post-transcriptional catabolite repression at a variety of points  (CITS:10074071)(CITS:11125145)(CITS:12111094)(CITS:12570998)(CITS:12791685)(CITS:1429716)(CITS:14657252).  This pathway is of biomedical interest because cytosine deaminase (Fcy1p) is not found in mammals (CITS:12637534) and is capable of catalyzing the deamination of the prodrug 5-fluorocytosine (5FC) to form the anticancer drug 5-fluorouracil (5FU) (CITS:15823054). Expression of Fcy1p in tumor cells increases their sensitivity to 5FC, and expression of Fur1p increases tumor cell sensitivity to 5FU (CITS:10919655). Tumor cells expressing a novel chimeric protein, produced from a gene containing the FCY1 and FUR1 coding sequences fused in frame, display significantly increased sensitivity to 5-FC suggesting that this novel suicide gene may constitute an original and potent candidate therapeutic gene for cancer gene therapy (CITS:10919655).  
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html</Comment>
+  <CitationRef citationID="irr" />
+  <CitationRef citationID="z2d" />
+  <DataNode elementID="a38" textLabel="URK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="323.3333333333333" centerY="273.3666666666667" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="URK1" />
+    <Xref dataSource="SGD" identifier="S000005295" />
+  </DataNode>
+  <DataNode elementID="a51" textLabel="uracil" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="154.33333333333334" centerY="239.36666666666667" width="47.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="66-22-8" />
+  </DataNode>
+  <DataNode elementID="a86" textLabel="CDP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="816.6666666666666" centerY="240.03333333333333" width="40.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="63-38-7" />
+  </DataNode>
+  <DataNode elementID="ae6" textLabel="pyrophosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="67.83333333333333" centerY="299.53333333333336" width="122.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="2466-09-3" />
+  </DataNode>
+  <DataNode elementID="afa" textLabel="cytidine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="513.3333333333334" centerY="66.7" width="65.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="65-46-3" />
+  </DataNode>
+  <DataNode elementID="b01" textLabel="ATP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="776.6666666666666" centerY="270.06666666666666" width="37.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="1927-31-7" />
+  </DataNode>
+  <DataNode elementID="b23" textLabel="ribose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="296.6666666666667" centerY="133.36666666666667" width="53.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="50-69-1" />
+  </DataNode>
+  <DataNode elementID="b5c" textLabel="URH1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="256.6666666666667" centerY="196.7" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="URH1" />
+    <Xref dataSource="SGD" identifier="S000002808" />
+  </DataNode>
+  <DataNode elementID="c2f" textLabel="ribose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="313.3333333333333" centerY="306.73333333333335" width="53.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="50-69-1" />
+  </DataNode>
+  <DataNode elementID="c41" textLabel="FUR1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="176.66666666666666" centerY="286.7" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="FUR1" />
+    <Xref dataSource="SGD" identifier="S000001170" />
+  </DataNode>
+  <DataNode elementID="c88" textLabel="ATP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="776.6666666666666" centerY="176.73333333333332" width="37.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="1927-31-7" />
+  </DataNode>
+  <DataNode elementID="ccc" textLabel="ADP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="776.6666666666666" centerY="210.06666666666666" width="39.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="58-64-0" />
+  </DataNode>
+  <DataNode elementID="cdc" textLabel="URK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="683.3333333333334" centerY="93.36666666666666" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="URK1" />
+    <Xref dataSource="SGD" identifier="S000005295" />
+  </DataNode>
+  <DataNode elementID="ce0" textLabel="ADP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="776.6666666666666" centerY="303.4" width="39.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="58-64-0" />
+  </DataNode>
+  <DataNode elementID="d44" textLabel="PRPP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="106.63333333333334" centerY="266.73333333333335" width="50.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="97-55-2" />
+  </DataNode>
+  <DataNode elementID="dc3" textLabel="GTP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="653.3333333333334" centerY="143.36666666666667" width="38.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="2564-35-4" />
+  </DataNode>
+  <DataNode elementID="dd4" textLabel="YNK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="840.0" centerY="286.7" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="YNK1" />
+    <Xref dataSource="SGD" identifier="S000001550" />
+  </DataNode>
+  <DataNode elementID="de3" textLabel="GDP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="693.3333333333334" centerY="143.36666666666667" width="40.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="146-91-8" />
+  </DataNode>
+  <DataNode elementID="e22" textLabel="cytosine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="153.33333333333334" centerY="133.36666666666667" width="70.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="71-30-7" />
+  </DataNode>
+  <DataNode elementID="e31" textLabel="ADP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="260.0" centerY="313.4" width="39.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="58-64-0" />
+  </DataNode>
+  <DataNode elementID="eaa" textLabel="uridine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="513.3333333333334" centerY="146.7" width="58.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="58-96-8" />
+  </DataNode>
+  <DataNode elementID="eca" textLabel="FCY1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="176.66666666666666" centerY="180.03333333333333" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="FCY1" />
+    <Xref dataSource="SGD" identifier="S000006266" />
+  </DataNode>
+  <DataNode elementID="f10" textLabel="CDD1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="536.6666666666666" centerY="106.7" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CDD1" />
+    <Xref dataSource="SGD" identifier="S000004235" />
+  </DataNode>
+  <DataNode elementID="f37" textLabel="ATP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="236.66666666666666" centerY="246.7" width="37.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="1927-31-7" />
+  </DataNode>
+  <DataNode elementID="f89" textLabel="URH1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="313.3333333333333" centerY="86.7" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="URH1" />
+    <Xref dataSource="SGD" identifier="S000002808" />
+  </DataNode>
+  <Interaction elementID="id2cf98bc2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="513.3333333333334" y="76.7" elementID="ca88a" />
+    <Point x="513.3333333333334" y="137.2" elementID="bf4b4" elementRef="eaa" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id43a0a5ef" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="136.66666666666666" y="206.7" elementID="e4bc5" />
+    <Point x="130.0" y="206.7" elementID="eee52" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id45f475b1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="480.66666666666674" y="66.7" elementID="b4e1a" elementRef="afa" relX="-1.0" relY="0.0" />
+    <Point x="188.5" y="133.36666666666667" elementID="e10ab" elementRef="e22" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id49cbe25d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="236.66666666666666" y="230.03333333333333" elementID="c367b" />
+    <Point x="236.66666666666666" y="236.7" elementID="cf681" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4a0404c6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="140.0" y="300.03333333333336" elementID="c3382" />
+    <Point x="130.0" y="300.03333333333336" elementID="ab75c" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4a8bdd7e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="484.16666666666674" y="146.7" elementID="d6d58" elementRef="eaa" relX="-1.0" relY="0.0" />
+    <Point x="178.00000000000006" y="239.36666666666667" elementID="dbc39" elementRef="a51" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id54862b63" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="153.33333333333334" y="142.86666666666667" elementID="b550c" elementRef="e22" relX="0.0" relY="1.0" />
+    <Point x="154.33333333333337" y="229.86666666666667" elementID="e3b25" elementRef="a51" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id594af637" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="296.6666666666667" y="116.7" elementID="d4c98" />
+    <Point x="296.6666666666667" y="123.36666666666666" elementID="eed50" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id59bd72b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="500.0" y="123.36666666666666" elementID="c4a15" />
+    <Point x="493.3333333333333" y="123.36666666666666" elementID="c802e" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8de131e8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="816.6666666666667" y="249.53333333333333" elementID="a7a72" elementRef="a86" relX="0.0" relY="1.0" />
+    <Point x="816.6666666666667" y="323.8666666666667" elementID="eced9" elementRef="b47" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8f692c8f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="260.0" y="296.7" elementID="cdbac" />
+    <Point x="260.0" y="303.3666666666667" elementID="c81ed" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbcc6a0ec" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="803.3333333333334" y="210.03333333333333" elementID="f02d6" />
+    <Point x="796.6666666666666" y="210.03333333333333" elementID="a3948" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc6fbae09" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="154.33333333333337" y="248.86666666666667" elementID="f85bf" elementRef="a51" relX="0.0" relY="1.0" />
+    <Point x="153.33333333333337" y="327.2" elementID="fe89e" elementRef="b88" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd32ee681" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="484.16666666666674" y="146.7" elementID="f8f29" elementRef="eaa" relX="-1.0" relY="0.0" />
+    <Point x="174.00000000000006" y="336.7" elementID="f8747" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ideb399fec" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="803.3333333333334" y="303.3666666666667" elementID="bbab0" />
+    <Point x="796.6666666666666" y="303.3666666666667" elementID="fc867" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf218f16e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="546.0" y="66.7" elementID="f73ad" elementRef="afa" relX="1.0" relY="0.0" />
+    <Point x="796.0" y="150.06666666666666" elementID="d1e89" elementRef="b4e" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf31bf7f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="690.0" y="126.7" elementID="cc3ff" />
+    <Point x="693.3333333333334" y="133.36666666666667" elementID="b7266" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfd4bbad6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="816.6666666666667" y="159.56666666666666" elementID="f10a6" elementRef="b4e" relX="0.0" relY="1.0" />
+    <Point x="816.6666666666667" y="230.53333333333333" elementID="c97a6" elementRef="a86" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="a7e" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="290.0" centerY="236.7" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="b3e" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="343.3333333333333" centerY="133.36666666666667" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="b47" textLabel="CTP" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="816.6666666666666" centerY="333.3666666666667" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="b4e" textLabel="CMP" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="816.6666666666666" centerY="150.06666666666666" width="41.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="b88" textLabel="UMP" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="153.33333333333334" centerY="336.7" width="41.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="d3e" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="473.3" centerY="90.06666666666666" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="f62" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="109.96666666666667" centerY="160.06666666666666" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="f86" textLabel="NH3" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="109.96666666666667" centerY="206.73333333333332" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="f9a" textLabel="NH3" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="473.3" centerY="123.4" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Shape elementID="a10" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="796.634" centerY="193.3634" width="33.99346666666666" height="40.0" zOrder="16384" rotation="4.712389" />
+  <Shape elementID="a1a" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="280.0" centerY="296.7" width="40.551746666666666" height="40.0" zOrder="16384" rotation="3.141593" />
+  <Shape elementID="a43" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="673.3333333333334" centerY="133.36666666666667" width="40.0" height="46.666666666666664" zOrder="16384" rotation="3.141593" />
+  <Shape elementID="aa9" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="320.0" centerY="123.36666666666666" width="46.666666666666664" height="40.0" zOrder="16384" rotation="3.141593" />
+  <Shape elementID="ac4" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="129.97586666666666" centerY="183.36666666666667" width="46.666666666666664" height="47.14045333333333" zOrder="16384" rotation="4.712389" />
+  <Shape elementID="b58" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="796.65" centerY="286.7" width="33.333333333333336" height="40.551746666666666" zOrder="16384" rotation="4.712389" />
+  <Shape elementID="c9d" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="130.02873333333335" centerY="283.3634" width="33.99346666666666" height="46.666666666666664" zOrder="16384" rotation="4.712389" />
+  <Shape elementID="d83" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="263.3333333333333" centerY="226.7" width="53.333333333333336" height="21.081853333333335" zOrder="16384" rotation="3.141593" />
+  <Shape elementID="fdb" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="493.31686666666667" centerY="106.7" width="33.333333333333336" height="40.551746666666666" zOrder="16384" rotation="4.712389" />
+  <InfoBox centerX="708.3333333333334" centerY="375.0" />
+  <Legend centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="New insights into the pyrimidine salvage pathway of Saccharomyces cerevisiae: requirement of six genes for cytidine metabolism." URL="" citationID="irr" year="1999" source="Curr Genet">
+      <Xref dataSource="PubMed" identifier="10501935" />
+      <Author name="Kurtz JE" />
+      <Author name="Exinger F" />
+      <Author name="Erbs P" />
+      <Author name="Jund R" />
+    </Citation>
+    <Citation title="The URH1 uridine ribohydrolase of Saccharomyces cerevisiae." URL="" citationID="z2d" year="2002" source="Curr Genet">
+      <Xref dataSource="PubMed" identifier="12111094" />
+      <Author name="Kurtz JE" />
+      <Author name="Exinger F" />
+      <Author name="Erbs P" />
+      <Author name="Jund R" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="pyrimidine salvage pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000863" />
+  </OntologyTerms>
+</Pathway>
+

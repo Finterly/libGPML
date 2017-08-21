@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="RIOK1 and RIOK2 in EGFR- and PI3K-mediated tumorigenesis" revision="20160814" organism="Drosophila melanogaster" width="827.0307898259705" height="566.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">This pathway is based on figure 7 from Read et al. When over-expressed the RIOK1 and RIOK2 proteins signal downstream of Akt to induce tumorigensis. RIOK2 also regulates signaling upstream of AKT through stimulation of TORC2 protein. In the absence of RIOK1 and RIOK2 the cell undergoes the L11 Ribosomal Stress Response due to reduction of AKT signaling which invokes p53 to stimulate the apoptosis cascade, chemosensitivity, and cell cycle arrest in the cell.</Comment>
+  <CitationRef citationID="d9b" />
+  <DataNode elementID="ab72b" textLabel="Pten" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="310.0" centerY="141.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="FBgn0026379" />
+  </DataNode>
+  <DataNode elementID="ae9ff" textLabel="RIOK1" groupRef="c682c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="167.0" centerY="306.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="FBgn0036187" />
+  </DataNode>
+  <DataNode elementID="be039" textLabel="Pi3K" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="241.0" centerY="107.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="FBgn0015279" />
+  </DataNode>
+  <DataNode elementID="d1b9d" textLabel="Akt1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="167.0" centerY="189.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>AKT Not Specified</Comment>
+    <Xref dataSource="Ensembl" identifier="FBgn0010379" />
+  </DataNode>
+  <DataNode elementID="d54d8" textLabel="RpL11" groupRef="c6742" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="359.0" centerY="333.66131191432396" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="FBgn0013325" />
+  </DataNode>
+  <DataNode elementID="da76f" textLabel="foxo" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="60.125" centerY="248.75" width="55.75" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="FBgn0038197" />
+  </DataNode>
+  <DataNode elementID="de52e" textLabel="RIOK2" groupRef="c682c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="167.0" centerY="326.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="FBgn0039306" />
+  </DataNode>
+  <DataNode elementID="e9ac6" textLabel="Egfr" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="95.0" centerY="108.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="FBgn0003731" />
+  </DataNode>
+  <DataNode elementID="ee91a" textLabel="Tumorigenesis" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="167.0" centerY="403.0" width="108.0" height="20.0" zOrder="32768">
+    <Comment>Identifier Not Found</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="fb13d" textLabel="TORC2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="270.0" centerY="239.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="Q3U182" />
+  </DataNode>
+  <DataNode elementID="c0083" textLabel="Cell Cycle Arrest" groupRef="fd5af" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="359.0" centerY="506.0" width="121.0" height="20.0" zOrder="32780">
+    <Xref dataSource="WikiPathways" identifier="WP31" />
+  </DataNode>
+  <DataNode elementID="c7312" textLabel="Chemosensetivity" groupRef="fd5af" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="359.0" centerY="526.0" width="119.0" height="20.0" zOrder="32781">
+    <Comment>Identifier Not Found</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="dc9d0" textLabel="Apoptosis" groupRef="fd5af" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="359.0" centerY="486.0" width="108.0" height="20.0" zOrder="32782">
+    <Comment></Comment>
+    <Xref dataSource="WikiPathways" identifier="WP31" />
+  </DataNode>
+  <DataNode elementID="c44b0" textLabel="p53" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="359.0" centerY="416.0" width="80.0" height="20.0" zOrder="32783">
+    <Xref dataSource="Ensembl" identifier="FBgn0039044" />
+  </DataNode>
+  <Interaction elementID="id152e6947" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="270.0" y="141.0" elementID="a30b7" elementRef="ab72b" relX="-1.0" relY="0.0" />
+    <Point x="219.4" y="141.8" elementID="ce9ed" elementRef="cc752" relX="0.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id4400bdd4" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="60.125" y="258.75" elementID="fa1a5" elementRef="da76f" relX="0.0" relY="1.0" />
+    <Point x="290.5" y="506.0" elementID="a2892" elementRef="fd5af" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id52dc738c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="167.0" y="199.0" elementID="d4c98" elementRef="d1b9d" relX="0.0" relY="1.0" />
+    <Point x="167.0" y="284.0" elementID="c94d9" elementRef="c682c" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9219860e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="167.0" y="348.0" elementID="d4a5b" elementRef="c682c" relX="0.0" relY="1.0" />
+    <Point x="167.0" y="393.0" elementID="fdcb8" elementRef="ee91a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida627931d" zOrder="12288" lineThickness="1.0" color="ff0033">
+    <Xref dataSource="" identifier="" />
+    <Point x="127.0" y="189.0" elementID="fa798" elementRef="d1b9d" relX="-1.0" relY="0.0" />
+    <Point x="60.125" y="238.75" elementID="d52ea" elementRef="da76f" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="idc19baba2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="241.0" y="117.0" elementID="f7977" elementRef="be039" relX="0.0" relY="1.0" />
+    <Point x="187.0" y="179.0" elementID="eabcd" elementRef="d1b9d" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="cc752" />
+  </Interaction>
+  <Interaction elementID="iddc457610" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0033">
+    <Xref dataSource="" identifier="" />
+    <Point x="219.0" y="316.0" elementID="fec49" elementRef="c682c" relX="1.0" relY="0.0" />
+    <Point x="270.0" y="249.0" elementID="a666f" elementRef="fb13d" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide387a056" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="270.0" y="229.0" elementID="b12b8" elementRef="fb13d" relX="0.0" relY="-1.0" />
+    <Point x="207.0" y="189.0" elementID="a9765" elementRef="d1b9d" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf93408d9" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="219.0" y="316.0" elementID="f8cd8" elementRef="c682c" relX="1.0" relY="0.0" />
+    <Point x="293.0" y="316.66131191432396" elementID="a67d8" elementRef="c6742" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfb6cd76e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="95.0" y="118.0" elementID="b7226" elementRef="e9ac6" relX="0.0" relY="1.0" />
+    <Point x="147.0" y="179.0" elementID="e7b7b" elementRef="d1b9d" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c918b" zOrder="32785" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="359.0" y="343.66131191432396" elementID="b20ae" elementRef="d54d8" relX="0.0" relY="1.0" />
+    <Point x="359.0" y="406.0" elementID="df0b2" elementRef="c44b0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="db0d3" zOrder="32786" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="359.0" y="426.0" elementID="a79fd" elementRef="c44b0" relX="0.0" relY="1.0" />
+    <Point x="359.0" y="468.0" elementID="ec7ca" elementRef="fd5af" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <GraphicalLine elementID="f165c" groupRef="c6b52" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Point x="427.55287817938415" y="91.2878179384204" elementID="d138a" />
+    <Point x="527.954484605087" y="91.2878179384204" elementID="e810a" />
+  </GraphicalLine>
+  <GraphicalLine elementID="fb7f2" groupRef="c6b52" zOrder="32787" lineThickness="1.0" color="ff0033">
+    <Point x="427.55287817938415" y="116.2878179384204" elementID="b3ed8" />
+    <Point x="527.954484605087" y="116.2878179384204" elementID="e667d" />
+  </GraphicalLine>
+  <Label elementID="d63ed" textLabel="Induced upon loss of RIOK1 or RIOK2" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="c6b52" centerX="669.9357429718875" centerY="92.62650602409644" width="254.19009370816593" height="20.0" zOrder="28672" />
+  <Label elementID="b0025" textLabel="L11 Ribosomal &#xA;Stress Response" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="c6742" centerX="358.5" centerY="307.830655957162" width="115.0" height="36.33868808567604" zOrder="32784" />
+  <Label elementID="db529" textLabel="Reduced upon loss of RIOK1 or RIOK2" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="c6b52" centerX="669.9357429718875" centerY="118.31325301204822" width="254.19009370816593" height="21.373493975903614" zOrder="32788" />
+  <Label elementID="d49c7" textLabel="Legend" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="c6b52" centerX="451.01539491298524" centerY="56.31325301204825" width="68.03078982597049" height="21.373493975903614" zOrder="32789" />
+  <Shape elementID="a7fa0" groupRef="c6b52" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="601.5" centerY="89.5" width="377.0" height="93.0" zOrder="16384" rotation="0.0" />
+  <Group elementID="c00ff" groupType="Group" />
+  <Group elementID="c6742" groupType="Group" />
+  <Group elementID="c682c" groupType="Complex" />
+  <Group elementID="cd9b5" groupType="Group" />
+  <Group elementID="ebc69" groupType="Complex" />
+  <Group elementID="fd5af" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="A kinome-wide RNAi screen in Drosophila Glia reveals that the RIO kinases mediate cell proliferation and survival through TORC2-Akt signaling in glioblastoma." URL="" citationID="d9b" year="2013" source="PLoS Genet">
+      <Xref dataSource="PubMed" identifier="23459592" />
+      <Author name="Read RD" />
+      <Author name="Fenton TR" />
+      <Author name="Gomez GG" />
+      <Author name="Wykosky J" />
+      <Author name="Vandenberg SR" />
+      <Author name="Babic I" />
+      <Author name="Iwanami A" />
+      <Author name="Yang H" />
+      <Author name="Cavenee WK" />
+      <Author name="Mischel PS" />
+      <Author name="Furnari FB" />
+      <Author name="Thomas JB" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="altered stress response pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001545" />
+    <OntologyTerm term="cancer pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000605" />
+  </OntologyTerms>
+</Pathway>
+

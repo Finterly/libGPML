@@ -1,0 +1,32 @@
+ERK2	Line	R15
+ERK1	Line	R15
+R15	Arrow	STAT3
+STAT3	Line	R29
+R29	Arrow	R13
+Pyruvate	Line	R13
+R13	Arrow	Lactate
+JAK1	Line	R27
+R27	Arrow	STAT3
+D-Glutamine	Line	R9
+R9	Arrow	ERK2
+R9	Arrow	ERK1
+EGFR	Line	R7
+R7	Arrow	JAK1
+STAT3	Line	R11
+R11	Arrow	Glucose
+Glucose	Line	R17
+R17	Arrow	EGFR
+D-Glutamine	Line	R5
+R5	Arrow	TCA Cycle
+STAT3	Line	R21
+R21	Arrow	TCA Cycle
+Glucose	Line	R23
+R23	Arrow	EGFR
+EGFR	Line	R25
+R25	Arrow	JAK1
+JAK1	Line	R1
+R1	Arrow	STAT3
+Glucose	Line	R3
+R3	Arrow	Pyruvate
+TCA Cycle	Line	R19
+R19	Arrow	STAT3

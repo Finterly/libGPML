@@ -1,0 +1,92 @@
+NO	Line	R27
+R27	Arrow	NO
+Reactive Oxygen  Species (ROS)	Line	R69
+SOD1	Line	R69
+R69	mim-inhibition	PPP3CA
+R69	mim-inhibition	PPP3CB
+R69	mim-inhibition	PPP3CC
+GPX1	Line	R67
+H2O2	Line	R67
+R67	Arrow	H2O
+Reactive Oxygen  Species (ROS)	Line	R71
+R71	Line	O2-
+ONOO-	Line	R37
+SOD1	Line	R37
+R37	Arrow	NEFM
+CYTC	Line	R45
+R45	Arrow	CASP9
+RAC1	Line	R53
+R53	Line	ALS2
+CASP9	Line	R15
+R15	Arrow	CASP3
+Reactive Oxygen  Species (ROS)	Line	R57
+R57	Line	ONOO-
+L-Glutamic acid	Line	R9
+EAAT2	Line	R9
+R9	Arrow	L-Glutamic acid
+L-Glutamic acid	Line	R19
+R19	mim-conversion	L-Glutamic acid
+SOD1	Line	R59
+O2-	Line	R59
+R59	Arrow	H2O2
+Cu	Line	R65
+CCS	Line	R65
+R65	Arrow	SOD1
+PRPH	Line	R55
+R55	Line	NEFH
+NO	Line	R29
+R29	Arrow	NO
+NO	Line	R7
+O2-	Line	R7
+R7	mim-conversion	ONOO-
+Reactive Oxygen  Species (ROS)	Line	R11
+R11	mim-inhibition	EAAT2
+SOD1	Line	R47
+R47	Arrow	Reactive Oxygen  Species (ROS)
+L-Glutamic acid	Line	R17
+GRIA1	Line	R17
+R17	mim-conversion	Ca2+
+TNFalpha	Line	R25
+TNFR	Line	R25
+R25	Arrow	DAXX
+Ca2+	Line	R35
+R35	Arrow	NOS1
+CASP1	Line	R43
+R43	Arrow	BID
+NO	Line	R1
+R1	mim-conversion	NO
+Ca2+	Line	R49
+R49	Arrow	Ca2+
+Ca2+	Line	R21
+R21	mim-conversion	Ca2+
+DAXX	Line	R31
+R31	Arrow	ASK1
+p38	Line	R33
+MKK3	Line	R33
+MKK6	Line	R33
+R33	Line	p38
+R33	Line	ASK1
+APAF1	Line	R13
+R13	Arrow	CASP9
+TNFalpha	Line	R23
+R23	Arrow	TNFalpha
+p38	Line	R39
+R39	Arrow	NEFL
+ALS2	Line	R51
+R51	Arrow	RAB5A
+OH	Line	R63
+R63	Arrow	NEFM
+Reactive Oxygen  Species (ROS)	Line	R73
+R73	Line	OH
+SOD1	Line	R61
+H2O2	Line	R61
+R61	Arrow	OH
+SOD1	Line	R41
+R41	TBar	Derlin-1
+NO	Line	R3
+R3	mim-conversion	NO
+BCL2	Line	R81
+R81	Arrow	CYTC
+NOS1	Line	R5
+L-Arginine	Line	R5
+R5	mim-conversion	NO

@@ -1,0 +1,30 @@
+Glutamate	Line	R25
+R25	Arrow	GDH
+GarA	Line	R23
+R23	Arrow	gltB
+Glutamine	Line	R21
+R21	Arrow	gltB
+Isocitrate	Line	R5
+R5	Arrow	Succinate 
+Succinyl-CoA
+	Line	R11
+R11	Arrow	Succinate 
+Isocitrate	Line	R1
+R1	Arrow	α-Ketoglutarate
+α-Ketoglutarate	Line	R7
+R7	Arrow	KDH
+Isocitrate	Line	R3
+R3	Arrow	Glyoxylate
+KDH	Line	R9
+R9	Arrow	Succinyl-CoA
+
+gltB	Line	R19
+R19	Arrow	Glutamate
+GarA	Line	R15
+R15	mim-inhibition	KDH
+GDH	Line	R27
+R27	Arrow	α-Ketoglutarate
+α-Ketoglutarate	Line	R17
+R17	Arrow	gltB
+Succinate 	Line	R13
+R13	Arrow	Isocitrate

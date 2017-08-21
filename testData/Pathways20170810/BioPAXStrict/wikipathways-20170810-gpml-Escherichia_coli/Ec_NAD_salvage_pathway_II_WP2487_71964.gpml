@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="f304e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nicotinamide ribotide</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:Catalysis rdf:about="id31">
+ <bp:controller rdf:resource="b9f59" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id31</bp:displayName>
+ <bp:controlled rdf:resource="id30" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id30">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id30</bp:displayName>
+ <bp:right rdf:resource="af6a6" />
+ <bp:right rdf:resource="be7b1" />
+ <bp:right rdf:resource="ad63d" />
+ <bp:right rdf:resource="da3dd" />
+ <bp:left rdf:resource="dc94e" />
+ <bp:left rdf:resource="a464f" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id33">
+ <bp:controller rdf:resource="d64fd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id33</bp:displayName>
+ <bp:controlled rdf:resource="id32" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id32">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id32</bp:displayName>
+ <bp:right rdf:resource="f304e" />
+ <bp:right rdf:resource="cdcbe" />
+ <bp:right rdf:resource="a2452" />
+ <bp:left rdf:resource="caa2b" />
+ <bp:left rdf:resource="ef3cd" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id35">
+ <bp:controller rdf:resource="ac7d6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id35</bp:displayName>
+ <bp:controlled rdf:resource="id34" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id34">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id34</bp:displayName>
+ <bp:right rdf:resource="b7279" />
+ <bp:right rdf:resource="a70f3" />
+ <bp:left rdf:resource="f304e" />
+ <bp:left rdf:resource="aa87c" />
+ <bp:left rdf:resource="b0909" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id36">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id36</bp:displayName>
+ <bp:right rdf:resource="ef3cd" />
+ <bp:right rdf:resource="d06a0" />
+ <bp:left rdf:resource="be7b1" />
+ <bp:left rdf:resource="aafaa" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00250</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pyrophosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="b9f59">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nudC</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id29">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id29</bp:displayName>
+ <bp:right rdf:resource="a464f" />
+ <bp:right rdf:resource="b861d" />
+ <bp:left rdf:resource="c36e4" />
+ <bp:left rdf:resource="f050a" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="b7279">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NAD</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="aa87c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Adenosine
+triphosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB59597</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00045</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Adenosinemonophosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00855</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="ef3cd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nicotinamide
+riboside</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nicotinamideriboside</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="a2452">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hydrogen Ion</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01341</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NAD</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EBESCG00000003522</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hydrogen Ion</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00902</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="ad63d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Adenosine
+monophosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="cdcbe">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ADP</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nadR</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00538</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="b861d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nicotinamide ribotide</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">EBESCG00000001171</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nudC</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="d06a0">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00229</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="b0909">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hydrogen Ion</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="caa2b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Adenosine
+triphosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="af6a6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hydrogen Ion</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="aafaa">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Water</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="ac7d6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nadR</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="dc94e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Water</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="f050a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NADP</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="be7b1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nicotinamide ribotide</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Escherichia coli</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Escherichia coli</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id29" />
+ <bp:pathwayComponent rdf:resource="id31" />
+ <bp:pathwayComponent rdf:resource="id30" />
+ <bp:pathwayComponent rdf:resource="id33" />
+ <bp:pathwayComponent rdf:resource="id32" />
+ <bp:pathwayComponent rdf:resource="id35" />
+ <bp:pathwayComponent rdf:resource="id34" />
+ <bp:pathwayComponent rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NAD salvage pathway II</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway is an NAD salvage pathway which proceeds via the intermediate nicotinamide riboside (N-ribosylnicotinamide, or NR). While the presence of this pathway has been suggested for several organisms including Escherichia coli [Kurnasov02], it is of particular importance to Haemophilus influenzae and other V-factor-dependent members of the Pasteurella family. These organisms lack the enzymes necessary for the de novo synthesis of NAD, as well as most of the enzymes for the more common NAD salvage pathway, and therefore require exogenous NAD supply in the form of one of the V-factor compounds, which include NADP, NAD, NMN, and NR. However, only the non-phosphorylated V factor, NR, can be transported across the inner membrane into the cytoplasm, where it can be converted to NAD and NADP [Kurnasov02]. Thus this pathway is critical for these organisms [MacInnes90].
+
+Since NAD+, which is obtained from extracellular sources, is highly polar, it has to be hydrolyzed before it can be transported across the cytoplasmic membrane for final uptake. A key enzyme in this pathway is a periplasmic protein that hydrolyzes NAD+ to nicotinamide mononucleotide (NMN), and hydrolyzes NMN to nicotinamide riboside (NR) [Kemmer01]. The nicotinamide riboside thus formed is transported across the inner membrane into the cytoplasm, where it is it is converted back to NMN, and eventually, to NAD+.
+
+The identity of the NR transporter has not been confirmed experimentally, but it is suggested that it is encoded by the pnuC gene, although earlier work with the PnuC protein of Salmonella enterica serovar Typhimurium suggested that it encodes the transport of NMN [Liu82, Kemmer01].
+
+NADP+ is recycled in the same manner, following dephosphorylation to NAD+. In H. influenzae, this dephosphorylation is performed by the outer membrane glycoprotein e (P4), encoded by the hel gene.
+
+While the pathway is predicted to be present in Enterobacteriaceae, it probably serves a minor role compared to de novo biosynthesis and the main NAD salvage cycle (NAD salvage pathway I). Some of the enzymatic activities associated with this pathway have been described in Enterobacteriaceae as early as 1951 [Rowen51], but it was only recently that the genes responsible for them were identified. Surprisingly, several activities were found to be functions of the multifunctional protein NadR, which was initially believed to have a role in regulation only [Raffaelli99, Kurnasov02]. (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">source: http://biocyc.org/ECOLI/NEW-IMAGE?type=PATHWAY&amp;object=NAD-BIOSYNTHESIS-II&amp;detail-level=3</bp:comment>
+</bp:Pathway>
+
+<bp:SmallMolecule rdf:about="a70f3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pyrophosphate</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00217</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="da3dd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hydrogen Ion</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NADP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB02111</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="d64fd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nadR</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="a464f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NAD</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Water</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01429</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Phosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="c36e4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Water</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Adenosinetriphosphate</bp:displayName>
+</bp:SmallMoleculeReference>
+</rdf:RDF>

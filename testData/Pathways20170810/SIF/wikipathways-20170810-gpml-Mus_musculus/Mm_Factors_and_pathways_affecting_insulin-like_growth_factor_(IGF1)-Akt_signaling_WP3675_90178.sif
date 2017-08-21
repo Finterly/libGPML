@@ -1,0 +1,72 @@
+PLD1	Line	R37
+R37	Arrow	MTOR
+R37	Arrow	mTORC2
+NFKB1	Line	R7
+R7	Arrow	MURF1
+
+PGC1
+	Line	R49
+R49	Arrow	R9
+FoxO 	Line	R9
+R9	Arrow	MURF1
+
+Myostatin	Line	R45
+R45	Arrow	ActRIIB
+IGF1rec
+	Line	R3
+R3	Arrow	IRS1
+TNFrec	Line	R5
+R5	Arrow	NFKB1
+SMAD3	Line	R41
+SMAD2	Line	R41
+R41	TBar	AKT1
+TNFa	Line	R35
+TWEAK	Line	R35
+R35	Arrow	TNFrec
+IGF1	Line	R27
+R27	Arrow	IGF1rec
+
+AMPK	Line	R47
+R47	mim-inhibition	MTOR
+R47	mim-inhibition	mTORC2
+AMPK	Line	R19
+R19	Arrow	FoxO 
+MTOR	Line	R21
+mTORC2	Line	R21
+R21	Arrow	S6K
+PDK1	Line	R23
+R23	Arrow	AKT1
+Igfbp3	Line	R29
+Igfbp4	Line	R29
+Igfbp7	Line	R29
+Igfbp2	Line	R29
+Igfbp1	Line	R29
+Igfbp5	Line	R29
+Igfbp6	Line	R29
+R29	TBar	IGF1
+JNK	Line	R31
+R31	mim-inhibition	IRS1
+AKT1	Line	R1
+R1	mim-inhibition	FoxO 
+MTOR	Line	R11
+mTORC2	Line	R11
+R11	mim-inhibition	SMAD3
+R11	mim-inhibition	SMAD2
+AKT1	Line	R39
+R39	Arrow	MTOR
+R39	Arrow	mTORC2
+ILK	Line	R25
+R25	Arrow	IGF1rec
+
+TNFrec	Line	R33
+R33	Arrow	JNK
+FoxO 	Line	R13
+R13	mim-inhibition	MTOR
+R13	mim-inhibition	mTORC2
+Integrin B1	Line	R15
+R15	Arrow	ILK
+TNFa	Line	R43
+R43	Arrow	TNFrec
+ActRIIB	Line	R17
+R17	Arrow	SMAD3
+R17	Arrow	SMAD2

@@ -1,0 +1,33 @@
+CDP-MEP	Line	R25
+R25	mim-conversion	MEPC
+DXS	Line	R29
+R29	mim-conversion	R1
+Glycolysis	Line	R13
+R13	Arrow	Phosphoenolpyruvic acid
+Glycerone-P	Line	R15
+R15	mim-conversion	D-Glyceraldehyde 3-phosphate
+Glycolysis	Line	R19
+R19	Arrow	Glycerone-P
+CDP-ME	Line	R7
+R7	mim-conversion	CDP-MEP
+Phosphoenolpyruvic acid	Line	R9
+R9	Arrow	Phosphoenolpyruvic acid
+fosmidomycin	Line	R21
+R21	mim-inhibition	IspC
+MMV008138	Line	R23
+R23	mim-inhibition	IspD
+IspD	Line	R34
+R34	mim-conversion	R5
+pyruvate	Line	R1
+D-Glyceraldehyde 3-phosphate	Line	R1
+R1	mim-conversion	DOXP
+Glycerone-P	Line	R17
+R17	Arrow	Glycerone-P
+DOXP	Line	R3
+R3	mim-conversion	MEP
+Phosphoenolpyruvic acid	Line	R11
+R11	Arrow	pyruvate
+IspC	Line	R32
+R32	mim-conversion	R3
+MEP	Line	R5
+R5	mim-conversion	CDP-ME

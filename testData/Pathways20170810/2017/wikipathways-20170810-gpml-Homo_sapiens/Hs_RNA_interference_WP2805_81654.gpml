@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="RNA interference" revision="20140513" organism="Homo sapiens" width="792.3554153522609" height="771.8611987381704">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">The process of RNA-interference in eukaryotic cells. Long precursor microRNA (miRNA), called pri-miRNA, is cleaved by RNase III endonuclease (Drosha) into pieces of approximately 70 nucleotides each (called pre-miRNA) in the nucleus. Following transportation into the cytoplasm by exportin 5 another RNase III endonuclease (Dicer) cleaves it into mature miRNA segments. Degradation of messenger RNA (mRNA) and translational repression occurs after miRNA binds to the RNA-induced silencing complex (RISC). Cytoplasmic long double-stranded RNA (dsRNA) is cleaved by Dicer into small interfering RNA (siRNA), which is incorporated into RISC, resulting in the cleavage and degradation of specific target mRNA. Synthetic double-stranded siRNA is not processed by Dicer and directly incorporated by the RISC.</Comment>
+  <CitationRef citationID="b26" />
+  <DataNode elementID="af552" textLabel="DICER1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="641.7998553145037" centerY="389.6611723828196" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="23405" />
+  </DataNode>
+  <DataNode elementID="b3ce0" textLabel="pre-miRNA" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="227.12933753943216" centerY="288.11777076761297" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c2133" textLabel="dsRNA" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="641.4300736067295" centerY="310.19978969505837" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="cd457" textLabel="XPO5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="324.6898539967357" centerY="330.8645361861658" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="57510" />
+  </DataNode>
+  <DataNode elementID="d0d0c" textLabel="Drosha" groupRef="f9d78" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="255.5205047318618" centerY="178.7592008412198" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="29102" />
+  </DataNode>
+  <DataNode elementID="d5932" textLabel="ERI1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="452.1345951629865" centerY="543.6382754994743" width="56.8243953732913" height="20.0" zOrder="32768">
+    <CitationRef citationID="b3c" />
+    <Xref dataSource="Ensembl" identifier="ENSG00000104626" />
+  </DataNode>
+  <DataNode elementID="e08b1" textLabel="miRNA" groupRef="eed1d" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="430.07360672975847" centerY="488.4437434279709" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e0fdb" textLabel="DGCR8" groupRef="f9d78" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="255.5205047318618" centerY="198.75920084121984" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000128191" />
+  </DataNode>
+  <DataNode elementID="e605a" textLabel="DICER1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="371.04275752270473" centerY="396.73384591801334" width="80.0" height="20.0" zOrder="32769">
+    <Xref dataSource="Entrez Gene" identifier="23405" />
+  </DataNode>
+  <DataNode elementID="ac2cf" textLabel="pri-miRNA" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="280.2418506834915" centerY="119.35856992639324" width="80.0" height="20.0" zOrder="32770">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e8da4" textLabel="siRNA" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="641.9663512092532" centerY="472.6708727655102" width="80.0" height="20.0" zOrder="32772">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ecb79" textLabel="exo-siRNA" groupRef="eed1d" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="340.17875920084117" centerY="488.4437434279709" width="80.0" height="20.0" zOrder="32780">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b3c7f" textLabel="exo-siRNA" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="505.80441640378535" centerY="96.76130389064161" width="80.0" height="20.0" zOrder="32782">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <Interaction elementID="id18234304" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="280.2418506834915" y="129.35856992639324" elementID="c79b1" elementRef="ac2cf" relX="0.0" relY="1.0" />
+    <Point x="253.68559411146185" y="184.01682439537328" elementID="e68a5" />
+    <Point x="227.12933753943219" y="278.11777076761297" elementID="a753d" elementRef="b3ce0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="ad031" />
+  </Interaction>
+  <Interaction elementID="id291b2b45" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="385.80414299709287" y="618.9568874868564" elementID="dba61" elementRef="be5e8" relX="0.0" relY="1.0" />
+    <Point x="385.4048370136695" y="706.6246056782334" elementID="ac16b" elementRef="bdc2f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id40c6c87b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="423.72239747634086" y="543.6382754994743" elementID="d8912" elementRef="d5932" relX="-1.0" relY="0.0" />
+    <Point x="385.5099796373717" y="544.7043565035631" elementID="b22af" elementRef="f0bdb" relX="0.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id44ff4068" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="371.04275752270473" y="406.73384591801334" elementID="a8ba6" elementRef="e605a" relX="0.0" relY="1.0" />
+    <Point x="374.30719081120014" y="390.9915758067665" elementID="ab204" elementRef="e30d4" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id82eab879" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="641.4300736067295" y="320.19978969505837" elementID="cfd5a" elementRef="c2133" relX="0.0" relY="1.0" />
+    <Point x="641.9663512092532" y="462.6708727655102" elementID="c8e35" elementRef="e8da4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4907303708425794" shapeType="None" elementID="e2c46" />
+  </Interaction>
+  <Interaction elementID="id8cf2fab6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="385.1261829652998" y="506.4437434279709" elementID="ec384" elementRef="eed1d" relX="0.0" relY="1.0" />
+    <Point x="385.80414299709287" y="574.0294426919036" elementID="f60a2" elementRef="be5e8" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.5661051597051401" shapeType="None" elementID="f0bdb" />
+  </Interaction>
+  <Interaction elementID="id9592e63c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="284.6898539967357" y="330.8645361861658" elementID="b6835" elementRef="cd457" relX="-1.0" relY="0.0" />
+    <Point x="329.6036705074051" y="323.51935431153936" elementID="bf54e" elementRef="db8b5" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida34bc386" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="227.12933753943219" y="298.11777076761297" elementID="c7b4e" elementRef="b3ce0" relX="0.0" relY="1.0" />
+    <Point x="385.1261829652998" y="470.4437434279709" elementID="ef13e" elementRef="eed1d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4273986623853193" shapeType="None" elementID="b5988" />
+    <Anchor position="0.7055370529221494" shapeType="None" elementID="e30d4" />
+    <Anchor position="0.4" shapeType="None" elementID="db8b5" />
+  </Interaction>
+  <Interaction elementID="ida9d2afa2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="642.3656571926772" y="622.6267087276547" elementID="f19b8" elementRef="c52fa" relX="0.0" relY="1.0" />
+    <Point x="642.2450052576241" y="700.8517350157726" elementID="c32be" elementRef="f4a98" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idadbb7246" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="641.9663512092532" y="482.6708727655102" elementID="a0d7d" elementRef="e8da4" relX="0.0" relY="1.0" />
+    <Point x="642.3656571926772" y="577.6992639327018" elementID="cb3d8" elementRef="c52fa" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc8e52fd8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="621.7998553145037" y="399.6611723828196" elementID="a50a0" elementRef="af552" relX="-0.5" relY="1.0" />
+    <Point x="641.6932413134905" y="390.1146771245651" elementID="d2923" elementRef="e2c46" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf9eadaf9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="203.52050473186182" y="188.7592008412198" elementID="e70e5" elementRef="f9d78" relX="-1.0" relY="0.0" />
+    <Point x="252.29292188002324" y="184.26767687635137" elementID="ba71b" elementRef="ad031" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <GraphicalLine elementID="idd60a261a" groupRef="c52fa" zOrder="12288" lineThickness="1.0">
+    <Point x="548.8958990536294" y="599.3690851735012" elementID="abad4" />
+    <Point x="735.0157728706641" y="599.3690851735012" elementID="a0016" />
+  </GraphicalLine>
+  <GraphicalLine elementID="fbcd0" groupRef="c52fa" zOrder="32773" lineThickness="1.0">
+    <Point x="548.6640168038595" y="608.3313052461222" elementID="bf5a9" />
+    <Point x="736.0672975814948" y="607.7812828601468" elementID="cf4c6" />
+  </GraphicalLine>
+  <GraphicalLine elementID="ece6b" groupRef="be5e8" zOrder="32775" lineThickness="1.0">
+    <Point x="292.8601472134603" y="598.8538380651943" elementID="c9865" />
+    <Point x="478.9800210304953" y="598.8538380651943" elementID="af5ba" />
+  </GraphicalLine>
+  <GraphicalLine elementID="ec568" groupRef="be5e8" zOrder="32776" lineThickness="1.0">
+    <Point x="292.6282649636904" y="607.8160581378153" elementID="d509a" />
+    <Point x="478.4437434279709" y="607.7812828601473" elementID="f7580" />
+  </GraphicalLine>
+  <Label elementID="a6cbc" textLabel="Host mRNA" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="514.1955835962151" centerY="604.626708727655" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="b1d00" textLabel="Nucleus" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="170.34700315457417" centerY="60.98843322818085" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="b5fc8" textLabel="Legend" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="600.420609884332" centerY="34.70031545741325" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="bdc2f" textLabel="Translational repression&#xA;or mRNA degradation" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="385.4048370136695" centerY="724.2429022082018" width="137.7917981072555" height="35.236593059936986" zOrder="28672" />
+  <Label elementID="fbc51" textLabel="RNA-induced silencing complex" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="648.2439537329126" centerY="63.09148264984228" width="209.29547844374352" height="20.0" zOrder="28672" />
+  <Label elementID="f4a98" textLabel="mRNA cleavage&#xA;and degradation" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="642.2450052576241" centerY="718.4700315457412" width="132.01892744479397" height="35.236593059936986" zOrder="32771" />
+  <Label elementID="f9cda" textLabel="RISC" shapeType="Oval" fillColor="ccccff" fontWeight="Bold" fontSize="14" vAlign="Middle" groupRef="be5e8" centerX="431.6614090431137" centerY="596.49316508938" width="80.0" height="28.9274447949527" zOrder="32777" />
+  <Label elementID="dd747" textLabel="RISC" shapeType="Oval" fillColor="ccccff" fontWeight="Bold" fontSize="14" vAlign="Middle" groupRef="c52fa" centerX="687.697160883282" centerY="600.1629863301781" width="80.0" height="28.9274447949527" zOrder="32778" />
+  <Label elementID="cc0ee" textLabel="Host mRNA" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="278.13880126183017" centerY="590.4416403785497" width="80.0" height="20.0" zOrder="32779" />
+  <Label elementID="ea30a" textLabel="RISC" shapeType="Oval" fillColor="ccccff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="504.21661409043253" centerY="63.37013669821229" width="80.0" height="28.9274447949527" zOrder="32781" />
+  <Label elementID="bf2c3" textLabel="Exogenous small interfering RNAs" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="652.1924290220821" centerY="94.12197686645638" width="220.32597266035745" height="20.0" zOrder="32783" />
+  <Shape elementID="a1477" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="604.9024710830704" centerY="71.77944269190326" width="308.5967402733967" height="94.08569926393272" zOrder="16384" rotation="0.0" />
+  <Shape elementID="e62c7" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="210.77812975023483" centerY="207.38695703180946" width="350.0" height="350.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="be5e8" groupType="Group" />
+  <Group elementID="c52fa" groupType="Group" />
+  <Group elementID="d1c1b" groupType="Group" />
+  <Group elementID="eed1d" groupType="Group" />
+  <Group elementID="f9d78" groupType="Complex" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Eri1: a conserved enzyme at the crossroads of multiple RNA-processing pathways." URL="" citationID="b3c" year="2014" source="Trends Genet">
+      <Xref dataSource="PubMed" identifier="24929628" />
+      <Author name="Thomas MF" />
+      <Author name="L'Etoile ND" />
+      <Author name="Ansel KM" />
+    </Citation>
+    <Citation title="Liposomal siRNA nanocarriers for cancer therapy." URL="" citationID="b26" year="2014" source="Adv Drug Deliv Rev">
+      <Xref dataSource="PubMed" identifier="24384374" />
+      <Author name="Ozpolat B" />
+      <Author name="Sood AK" />
+      <Author name="Lopez-Berestein G" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="RNA degradation pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001161" />
+  </OntologyTerms>
+</Pathway>
+

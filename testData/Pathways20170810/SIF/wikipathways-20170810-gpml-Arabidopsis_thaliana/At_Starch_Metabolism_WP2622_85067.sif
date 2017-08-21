@@ -1,0 +1,44 @@
+Calvin-Benson Cycle	Line	R15
+R15	Arrow	fructose 1,6-bisphosphate
+glucose 6-phosphate	Line	R1
+R1	Arrow	Sucrose Metabolism
+
+R1	Arrow	Glycolysis
+PGMP	Line	R17
+R17	mim-conversion	R3
+PHS1	Line	R30
+R30	Line	R5
+Pi	Line	R5
+starch	Line	R5
+glucose 1-phosphate	Line	R5
+R5	Line	starch
+R5	Line	glucose 1-phosphate
+H2O	Line	R7
+fructose 1,6-bisphosphate	Line	R7
+R7	mim-conversion	fructose 6-phosphate
+R7	mim-conversion	Pi
+fructose 6-phosphate	Line	R9
+R9	mim-conversion	glucose 6-phosphate
+glucose 1-phosphate	Line	R3
+R3	mim-conversion	glucose 6-phosphate
+PGI1	Line	R21
+R21	mim-conversion	R9
+SS3	Line	R35
+SS2	Line	R35
+SS1	Line	R35
+R35	mim-conversion	R13
+APL3	Line	R23
+ADG2	Line	R23
+APS1	Line	R23
+APL2	Line	R23
+R23	mim-conversion	R11
+ATP	Line	R11
+glucose 1-phosphate	Line	R11
+R11	mim-conversion	ADP-glucose
+R11	mim-conversion	PPi
+ADP-glucose	Line	R13
+starch	Line	R13
+R13	mim-conversion	starch
+R13	mim-conversion	ADP
+FBP	Line	R32
+R32	mim-conversion	R7

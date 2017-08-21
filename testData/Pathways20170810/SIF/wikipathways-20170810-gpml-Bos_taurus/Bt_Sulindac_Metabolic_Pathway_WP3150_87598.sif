@@ -1,0 +1,17 @@
+Sulindac-S	Line	R1
+R1	mim-conversion	Sulfindac sulfide
+Sulindac-R	Line	R5
+R5	mim-conversion	Sulfindac sulfide
+Sulfindac sulfide	Line	R3
+R3	mim-conversion	Sulindac-R
+Sulindac-R	Line	R7
+R7	mim-conversion	Sulindac sulfone
+Sulindac-S	Line	R9
+R9	mim-conversion	Sulindac sulfone
+CYP1A2	Line	R16
+R16	mim-conversion	R9
+MSRB2	Line	R13
+MSRB3	Line	R13
+R13	mim-conversion	R5
+MSRA	Line	R11
+R11	mim-conversion	R1

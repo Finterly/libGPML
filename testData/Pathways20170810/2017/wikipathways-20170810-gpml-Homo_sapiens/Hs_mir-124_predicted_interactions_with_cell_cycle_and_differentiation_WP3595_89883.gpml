@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="mir-124 predicted interactions with cell cycle and differentiation " revision="20151222" organism="Homo sapiens" width="666.695018226003" height="359.2831105710818">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Schematic of predicted interactions of miR-124 with cell cycle and cell differentiation machinery.
+
+A genomewide miRNA mimic toxicity screen indicates common and selective vulnerabilities of epithelial ovarian cancer cells. miR-124 is selectively toxic, mainly by inducing terminal cell differentiation via its target SIX4.</Comment>
+  <CitationRef citationID="b9a" />
+  <DataNode elementID="a31c9" textLabel="KLB1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="270.9599027946532" centerY="308.626974483597" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000118046" />
+  </DataNode>
+  <DataNode elementID="b55db" textLabel="hsa-miR-124a" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="280.6804374240579" centerY="70.47387606318351" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="miRBase mature sequence" identifier="MIMAT0000422" />
+  </DataNode>
+  <DataNode elementID="bae25" textLabel="PTBP" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="403.4021871202922" centerY="134.87241798298902" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000011304" />
+  </DataNode>
+  <DataNode elementID="bc31c" textLabel="SIX4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.7326852976915" centerY="202.91616038882105" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100625" />
+  </DataNode>
+  <DataNode elementID="ccbb3" textLabel="STRADB" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.7326852976915" centerY="308.6269744835973" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000082146" />
+  </DataNode>
+  <DataNode elementID="f3d26" textLabel="SCP1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="549.1616038882157" centerY="190.7654921020656" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000144579" />
+  </DataNode>
+  <DataNode elementID="fc27e" textLabel="AMPK" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="411.90765492102037" centerY="308.62697448359705" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000132356" />
+  </DataNode>
+  <Interaction elementID="id161fdcb7" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="280.6804374240579" y="80.47387606318351" elementID="a3f7d" elementRef="b55db" relX="0.0" relY="1.0" />
+    <Point x="139.7326852976915" y="192.91616038882105" elementID="f0bd7" elementRef="bc31c" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id1ba64a9a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="179.7326852976915" y="202.91616038882105" elementID="e0b44" elementRef="bc31c" relX="1.0" relY="0.0" />
+    <Point x="205.90522478736284" y="203.0558930741189" elementID="f9623" elementRef="f62cb" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2426cd12" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="451.90765492102037" y="308.62697448359705" elementID="fb1e0" elementRef="fc27e" relX="1.0" relY="0.0" />
+    <Point x="502.1020656136102" y="309.23450789793475" elementID="ddf51" elementRef="a6137" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id31b81667" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="443.4021871202922" y="134.87241798298902" elementID="eabbb" elementRef="bae25" relX="1.0" relY="0.0" />
+    <Point x="549.1616038882157" y="134.87900117454234" elementID="baa7c" elementRef="b722e" relX="0.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id3afb19d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="179.7326852976915" y="308.6269744835973" elementID="b78e7" elementRef="ccbb3" relX="1.0" relY="0.0" />
+    <Point x="230.9599027946532" y="308.626974483597" elementID="d5b2d" elementRef="a31c9" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4b2a4814" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="549.1616038882157" y="200.7654921020656" elementID="b352e" elementRef="f3d26" relX="0.0" relY="1.0" />
+    <Point x="549.1616038882157" y="230.58323207776414" elementID="c9300" elementRef="b7afc" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id5279fbc9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="310.9599027946532" y="308.626974483597" elementID="ec4f5" elementRef="a31c9" relX="1.0" relY="0.0" />
+    <Point x="371.90765492102037" y="308.62697448359705" elementID="a7003" elementRef="fc27e" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb879810a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="139.7326852976915" y="212.91616038882105" elementID="e8abb" elementRef="bc31c" relX="0.0" relY="1.0" />
+    <Point x="139.7326852976915" y="298.6269744835973" elementID="a8de8" elementRef="ccbb3" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="idba9bdd6a" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="320.6804374240579" y="70.47387606318351" elementID="fb39d" elementRef="b55db" relX="1.0" relY="0.0" />
+    <Point x="549.1616038882157" y="180.7654921020656" elementID="e5aaa" elementRef="f3d26" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+    <Anchor position="0.8645508337816026" shapeType="None" elementID="b722e" />
+  </Interaction>
+  <Interaction elementID="idd3d3bd2a" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="280.6804374240579" y="80.47387606318351" elementID="f31e1" elementRef="b55db" relX="0.0" relY="1.0" />
+    <Point x="403.4021871202922" y="124.87241798298902" elementID="c7afc" elementRef="bae25" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Label elementID="b7afc" textLabel="Neuronal differentiation" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="549.1616038882157" centerY="240.58323207776414" width="155.4313487241798" height="20.0" zOrder="28672" />
+  <Label elementID="a6137" textLabel="Cell polarity&#xA;and differentiation" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="569.3985419198066" centerY="309.23450789793475" width="134.59295261239276" height="40.09720534629411" zOrder="32769" />
+  <Label elementID="f62cb" textLabel="Cell cycle &#xA;progression" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="258.4811664641551" centerY="203.05589307411887" width="105.15188335358442" height="31.312272174969635" zOrder="32770" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="A genome-scale screen reveals context-dependent ovarian cancer sensitivity to miRNA overexpression." URL="" citationID="b9a" year="2015" source="Mol Syst Biol">
+      <Xref dataSource="PubMed" identifier="26655797" />
+      <Author name="Shields BB" />
+      <Author name="Pecot CV" />
+      <Author name="Gao H" />
+      <Author name="McMillan E" />
+      <Author name="Potts M" />
+      <Author name="Nagel C" />
+      <Author name="Purinton S" />
+      <Author name="Wang Y" />
+      <Author name="Ivan C" />
+      <Author name="Kim HS" />
+      <Author name="Borkowski RJ" />
+      <Author name="Khan S" />
+      <Author name="Rodriguez-Aguayo C" />
+      <Author name="Lopez-Berestein G" />
+      <Author name="Lea J" />
+      <Author name="Gazdar A" />
+      <Author name="Baggerly KA" />
+      <Author name="Sood AK" />
+      <Author name="White MA" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+  </OntologyTerms>
+</Pathway>
+

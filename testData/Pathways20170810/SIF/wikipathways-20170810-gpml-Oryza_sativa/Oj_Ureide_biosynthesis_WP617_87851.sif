@@ -1,0 +1,44 @@
+5-hydroxyisourate	Line	R11
+H2O	Line	R11
+R11	Arrow	5-hydroxy-2-oxo-4-ureido-2,5-dihydro-1H imidazole-5-carboxylate
+Urate oxidase	Line	R30
+R30	Arrow	R9
+Urate	Line	R9
+O2	Line	R9
+H2O	Line	R9
+R9	Arrow	5-hydroxyisourate
+R9	Arrow	H2O2
+IMP dehydrogenase	Line	R19
+IMP dehydrogenase	Line	R19
+IMP dehydrogenase	Line	R19
+IMP dehydrogenase	Line	R19
+IMP dehydrogenase	Line	R19
+IMP dehydrogenase	Line	R19
+IMP dehydrogenase	Line	R19
+R19	Arrow	R1
+Xanthosine	Line	R5
+Phosphate	Line	R5
+R5	Arrow	Xanthine
+R5	Arrow	Ribose 1-phosphate
+xanthosine-5-phosphate	Line	R3
+H2O	Line	R3
+R3	Arrow	Xanthosine
+R3	Arrow	Phosphate
+Allantoin	Line	R13
+H2O	Line	R13
+R13	Arrow	Allantoic acid
+NAD+	Line	R7
+Xanthine	Line	R7
+H2O	Line	R7
+R7	Arrow	Urate
+R7	Arrow	NADH
+Xanthine dehydrogenase	Line	R21
+R21	Arrow	R7
+NAD+	Line	R1
+Inosine-5'-phosphate	Line	R1
+H2O	Line	R1
+R1	Arrow	xanthosine-5-phosphate
+R1	Arrow	NADH
+5-hydroxy-2-oxo-4-ureido-2,5-dihydro-1H imidazole-5-carboxylate	Line	R15
+R15	Arrow	CO2
+R15	Arrow	Allantoin

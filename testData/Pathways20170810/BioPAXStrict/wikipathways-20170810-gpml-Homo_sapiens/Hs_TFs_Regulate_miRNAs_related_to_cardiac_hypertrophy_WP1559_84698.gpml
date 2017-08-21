@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="fc1c9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT3</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:RnaReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-133b</bp:displayName>
+</bp:RnaReference>
+
+<bp:Protein rdf:about="d96d5">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-29a</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5534</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id33">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id33</bp:displayName>
+ <bp:right rdf:resource="a0346" />
+ <bp:left rdf:resource="fc1c9" />
+ <bp:left rdf:resource="c2d59" />
+ <bp:left rdf:resource="f6fb9" />
+ <bp:left rdf:resource="d5e1b" />
+</bp:BiochemicalReaction>
+
+<bp:RelationshipXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000199080</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:RelationshipXref>
+
+<bp:BiochemicalReaction rdf:about="id35">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id35</bp:displayName>
+ <bp:right rdf:resource="d96d5" />
+ <bp:left rdf:resource="bdc35" />
+ <bp:left rdf:resource="e80ed" />
+</bp:BiochemicalReaction>
+
+<bp:Rna rdf:about="ddb72">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-1-1</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Rna>
+
+<bp:BiochemicalReaction rdf:about="id34">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id34</bp:displayName>
+ <bp:right rdf:resource="c3d2f" />
+ <bp:right rdf:resource="ddb72" />
+ <bp:left rdf:resource="ef514" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id37">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id37</bp:displayName>
+ <bp:right rdf:resource="d14a4" />
+ <bp:left rdf:resource="cef92" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id36">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id36</bp:displayName>
+ <bp:right rdf:resource="b885e" />
+ <bp:right rdf:resource="ae9b8" />
+ <bp:left rdf:resource="b2ee8" />
+ <bp:left rdf:resource="c7741" />
+</bp:BiochemicalReaction>
+
+<bp:RelationshipXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000207863</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:RelationshipXref>
+
+<bp:Protein rdf:about="bdc35">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NFkB</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:Protein>
+
+<bp:RnaReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-125b-2</bp:displayName>
+</bp:RnaReference>
+
+<bp:ProteinReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Calcineurin</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="d5e1b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AKT1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:Rna rdf:about="d14a4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-133b</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+</bp:Rna>
+
+<bp:Rna rdf:about="c3d2f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-1-2</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:Rna>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">7040</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000277934</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-29a</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4790</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NFkB</bp:displayName>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000207971</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:RelationshipXref>
+
+<bp:RnaReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-125b-1</bp:displayName>
+</bp:RnaReference>
+
+<bp:RnaReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-1-2</bp:displayName>
+</bp:RnaReference>
+
+<bp:RelationshipXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000199017</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:RelationshipXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TGFbeta</bp:displayName>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000207694</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:RelationshipXref>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RAS</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Rna rdf:about="a0346">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-21</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Rna>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">208</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MEF-2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="c7741">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AKT1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5923</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Rna rdf:about="b885e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-125b-1</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:Rna>
+
+<bp:RnaReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-1-1</bp:displayName>
+</bp:RnaReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">50804</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e80ed">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TGFbeta</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Protein>
+
+<bp:Protein rdf:about="f6fb9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AKT2</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:Protein rdf:about="ef514">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MEF-2</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:Protein>
+
+<bp:Rna rdf:about="ae9b8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-125b-2</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+</bp:Rna>
+
+<bp:Protein rdf:about="c2d59">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RAS</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b2ee8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NFkB</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id33" />
+ <bp:pathwayComponent rdf:resource="id35" />
+ <bp:pathwayComponent rdf:resource="id34" />
+ <bp:pathwayComponent rdf:resource="id37" />
+ <bp:pathwayComponent rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TFs Regulate miRNAs related to cardiac hypertrophy</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cellular Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transcription Factors that possibly regulate the expression of microRNAs related to cardiac hypertrophy.
+Interactions found by using TransMir. MicroRNAs are represented by a purple color and a rounded rectangle. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:RelationshipXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000199004</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:RelationshipXref>
+
+<bp:RnaReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsa-mir-21</bp:displayName>
+</bp:RnaReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6774</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STAT3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">207</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AKT1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AKT2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="cef92">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Calcineurin</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+</bp:Protein>
+</rdf:RDF>

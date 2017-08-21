@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Oxytocin signaling" organism="Bos taurus" width="914.0" height="265.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="Mikhail Monakhov" />
+  <Comment source="WikiPathways-description">This pathway shows a high-level overview of oxytocin signalling.</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP2889_r79753 WP2889(79753)]  with a 80.0% conversion rate.</Comment>
+  <DataNode elementID="a5aa1" textLabel="MAPK signalling pathway" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="273.0" centerY="183.25" width="164.0" height="33.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a6d1b" textLabel="Contraction (myometrial cell, &#xA;mammary gland myoepithelial cell)" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="755.0" centerY="183.25" width="200.0" height="70.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="af3f0" textLabel="PLCD1" fontSize="10" vAlign="Middle" type="Protein" centerX="377.0" centerY="118.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = S:P51178</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000037726" />
+  </DataNode>
+  <DataNode elementID="b22db" textLabel="OXTR" fontSize="10" vAlign="Middle" type="Protein" centerX="170.0" centerY="119.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = S:P30559</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000019772" />
+  </DataNode>
+  <DataNode elementID="c2500" textLabel="Oxytocin release &#xA;(OXT neurons)" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="309.5" centerY="61.5" width="125.0" height="33.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c290a" textLabel="Ca2+" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="451.0" centerY="61.5" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="29108" />
+  </DataNode>
+  <DataNode elementID="d3ba0" textLabel="PKC&#xA;isozyme family" fontSize="10" vAlign="Middle" type="Protein" centerX="602.0" centerY="117.80952380952382" width="80.0" height="32.95238095238091" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="d6368" textLabel="CD38" fontSize="10" vAlign="Middle" type="Protein" centerX="602.0" centerY="28.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = S:P28907</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000013569" />
+  </DataNode>
+  <DataNode elementID="e7ecf" textLabel="GNAQ" fontSize="10" vAlign="Middle" type="Protein" centerX="273.0" centerY="118.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = S:P50148</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009789" />
+  </DataNode>
+  <DataNode elementID="f0312" textLabel="Protein synthesis" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="784.0" centerY="118.0" width="126.0" height="28.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="f0701" textLabel="Oxytocin" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="58.0" centerY="118.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:7872" />
+  </DataNode>
+  <DataNode elementID="f2aeb" textLabel="IP3" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="485.75" centerY="183.25" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="439456" />
+  </DataNode>
+  <DataNode elementID="f5689" textLabel="DAG" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="485.75" centerY="118.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="49172" />
+  </DataNode>
+  <Interaction elementID="id2b611a0d" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="411.0" y="61.5" elementID="f8a67" elementRef="c290a" relX="-1.0" relY="0.0" />
+    <Point x="372.0" y="61.5" elementID="cc291" elementRef="c2500" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4194fa9a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="525.75" y="118.0" elementID="f24cd" elementRef="f5689" relX="1.0" relY="0.0" />
+    <Point x="562.0" y="117.80952380952382" elementID="a155e" elementRef="d3ba0" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6bbbc740" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="602.0" y="101.33333333333337" elementID="cb6be" elementRef="d3ba0" relX="0.0" relY="-1.0" />
+    <Point x="602.0" y="38.0" elementID="b2afa" elementRef="d6368" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id717f2b83" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="642.0" y="117.80952380952382" elementID="fe64f" elementRef="d3ba0" relX="1.0" relY="0.0" />
+    <Point x="721.0" y="118.0" elementID="d966c" elementRef="f0312" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7f658d84" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="98.0" y="118.0" elementID="e7a09" elementRef="f0701" relX="1.0" relY="0.0" />
+    <Point x="130.0" y="119.0" elementID="a03c0" elementRef="b22db" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idae3b4b15" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="313.0" y="118.0" elementID="d0d09" elementRef="e7ecf" relX="1.0" relY="0.0" />
+    <Point x="337.0" y="118.0" elementID="e5b6b" elementRef="af3f0" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb8e45ea3" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="525.75" y="183.25" elementID="d91dc" elementRef="f2aeb" relX="1.0" relY="0.0" />
+    <Point x="655.0" y="183.25" elementID="c8b1b" elementRef="a6d1b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idcabb6d93" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="622.0" y="18.0" elementID="ae277" elementRef="d6368" relX="0.5" relY="-1.0" />
+    <Point x="431.0" y="71.5" elementID="c4b70" elementRef="c290a" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd1d676ed" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="210.0" y="119.0" elementID="b9447" elementRef="b22db" relX="1.0" relY="0.0" />
+    <Point x="233.0" y="118.0" elementID="b0065" elementRef="e7ecf" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide2c25885" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="273.0" y="128.0" elementID="f5636" elementRef="e7ecf" relX="0.0" relY="1.0" />
+    <Point x="273.0" y="166.75" elementID="aee0e" elementRef="a5aa1" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf0246ca2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="417.0" y="118.0" elementID="cc3de" elementRef="af3f0" relX="1.0" relY="0.0" />
+    <Point x="445.75" y="118.0" elementID="cefee" elementRef="f5689" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf42827ad" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="397.0" y="128.0" elementID="c0644" elementRef="af3f0" relX="0.5" relY="1.0" />
+    <Point x="445.75" y="183.25" elementID="ae990" elementRef="f2aeb" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Shape elementID="f3b69" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="527.0" centerY="132.5" width="714.0" height="205.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="oxytocin signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000494" />
+  </OntologyTerms>
+</Pathway>
+

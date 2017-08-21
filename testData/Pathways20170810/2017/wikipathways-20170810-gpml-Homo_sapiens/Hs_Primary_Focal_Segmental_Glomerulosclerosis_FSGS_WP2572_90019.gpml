@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Primary Focal Segmental Glomerulosclerosis FSGS" revision="20130916" organism="Homo sapiens" width="3538.233481633219" height="1369.8083211465942">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Primary or idiopathic focal segmental glomerulosclerosis (FSGS) a cause of nephrotic syndrome in children and adolescents, as well as an important cause of end stage renal disease in adults. FSGS is mainly associated with foot process effacement, proliferation of mesangial, endothelial and epithelial cells in the early stages followed by collapse of glomerular capillaries leading to scarring. It may lead to dramatic manifestations such as proteinuria, hypoaluminemia, and hypertension. Also, there are many inheritable genetic abnormalities that can cause podocyte damage of FSGS caused by mutations in proteins that are important for podocyte function. The genes include CD2AP, MYO1E, WNT1, and LAMB2.
+On the far left, the diagram illustrates molecular interactions between a normal podocyte and matrix interactions. ACTN4 and SYNPO and DAG1 interacting with AGRN associate with the actin cytoskeleton; these actin associated proteins might play a role in maintaining podocyte and GBM architecture. DAG1 binds to UTRN, which in turn binds an actin filament, thus completing the link between the actin-based cytoskeleton and the extracellular matrix. Podocyte foot processes are anchored to the glomerular basement membrane (GBM) via ITGB1 and ITGA3 integrin complex and DAG1-UTRN complex. Transmembrane proteins such as LAMA5 and CD151 bind to ITGB1 and ITGA3, respectively. The intracellular integrins combine with cytoskeletal via intermediates which include TLN1, VCL, and PAX complex and the ILK, PARVA, and LIMS1 complex. (Guanghua Hu et. al 2013 - Biomedicine and Aging Pathology vol 3)
+Upon primary podocyte injury, there are multiple pathways involved in podocyte injury. "Sustaining NPHS1 and phosphorylation might contribute to both anti-apoptotic signaling and actin polymerization. The CD80 pathway may be targeted by TLR4 or blocking the binding of B7-1 to slit diaphragm structure proteins such as KIRREL2/3. PLAUR could be inhibited by interfering with binding of PLAUR and ITGAV/B3 integrin, inhibiting ITGB3 integrin activation, or inhibiting binding of ITGAV/B3 integrin to VTN. The notch pathway can be targeted by interfering with its upstream activation by blocking the TGF-β1 effect, inhibiting γ-secretase, which is required for proteolytic receptor activation, or interfering with target gene transcription." (Reiser J. et al 2010 - Kidney Int vol 77) Post podocyte development, increased activation of NOTCH1 and WNT/CTNNB1 activities contribute to glomerulosclerosis. Expression of JAG1 on the ligand-expressing cell induces proteolytic cleavage of the Notch receptor on the signal-receiving cell, releasing the NOTCH1. DKK1 inhibits WNT1 binding to LRP5/6. By inhibiting the destruction of CTNNB1, CTNNB1 is stablilized. "The CTSL pathway could be targeted by specifically inhibiting CTSL expression or activity, shifting the equilibrium of SYNPO toward the phosphorylated form by inhibiting calcineurin-mediated dephosphorylation or enhancing PKA or CAMK2B-mediated phosphorylation, protecting SYNPO and DNM1 by compounds that bind to the CTSL cleavage site, or delivering cleavage-resistant SYNPO and DNM1 mutants." (Reiser J. et al 2010 - Kidney Int vol 77)
+The destruction of podocyte's cytoskeleton architecture leads to lose of normal podocyte epitopes such as VIM, SYNPO, and WT1, and lose of cyclin-dependent kinase inhibitors CDKN1C and CDKN1B. Also, podocytes acquire proliferation of CDKN1A. This leads to podocytopenia which have been shown to cause primary FSGS and then followed by end-stage renal disease (ESRD). FSGS is also induced by microRNA-193a and its downregulation of WT1, destroying podocyte foot processes.
+There is insufficient evidence that segmental glomerular lesions can be caused by other drugs or toxins, apart from some used experimentally such as doxorubicin and puromycin aminonucleoside. 
+Treatments such as steroids, high-dose cyclosporine, ritxuximab can reduce proteinuria based on their immunosuppressive properties and through stabilization of the podocyte actin cytoskeleton. </Comment>
+  <CitationRef citationID="f04" />
+  <CitationRef citationID="f3c" />
+  <CitationRef citationID="c7e" />
+  <CitationRef citationID="f59" />
+  <CitationRef citationID="b0a" />
+  <CitationRef citationID="b9b" />
+  <CitationRef citationID="db3" />
+  <CitationRef citationID="ed0" />
+  <DataNode elementID="a26ff" textLabel="ITGAV" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1543.2767889956424" centerY="1146.8203654118752" width="45.0" height="23.640730823750346" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138448" />
+  </DataNode>
+  <DataNode elementID="abe13" textLabel="TLR4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1290.749511643611" centerY="974.2849939356272" width="35.499023287221924" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000136869" />
+  </DataNode>
+  <DataNode elementID="ad1d2" textLabel="CAMK2B" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1602.299049719116" centerY="884.290439439281" width="52.3809523809523" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000058404" />
+  </DataNode>
+  <DataNode elementID="ae3c2" textLabel="AKT1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1718.851398922732" centerY="837.2548677704975" width="40.907441016333806" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000142208" />
+  </DataNode>
+  <DataNode elementID="aefb1" textLabel="DNM1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1432.2379905205355" centerY="945.5157968677536" width="42.72232304900184" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000106976" />
+  </DataNode>
+  <DataNode elementID="b2d57" textLabel="KIRREL3" groupRef="b4cb3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1827.7083340360532" centerY="1176.1384988342438" width="59.82542563304901" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000149571" />
+  </DataNode>
+  <DataNode elementID="b37a8" textLabel="ITGB3" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1543.2767889956424" centerY="1168.6407308237503" width="45.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000259207" />
+  </DataNode>
+  <DataNode elementID="b959b" textLabel="VCL" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="365.0" centerY="1117.6913559990132" width="66.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000035403" />
+  </DataNode>
+  <DataNode elementID="ba4ed" textLabel="JAG1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1902.483230659626" centerY="996.6046660581754" width="42.722323049001915" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000101384" />
+  </DataNode>
+  <DataNode elementID="bf441" textLabel="KIRREL2" groupRef="b4cb3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1827.7083340360582" centerY="1196.1384988342434" width="59.82542563304897" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000126259" />
+  </DataNode>
+  <DataNode elementID="bf733" textLabel="NCK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1707.4640865937051" centerY="1099.7554158940275" width="42.36798893785999" height="18.877365828365747" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000158092" />
+  </DataNode>
+  <DataNode elementID="c989e" textLabel="CD151" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="650.4227114377583" centerY="1251.7113197013728" width="51.15457712448347" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000177697" />
+  </DataNode>
+  <DataNode elementID="cc8e4" textLabel="CTSL" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1488.412709529212" centerY="879.7228862751097" width="39.86172327370174" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000135047" />
+  </DataNode>
+  <DataNode elementID="d3bec" textLabel="PTPRO" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2408.856663338384" centerY="1003.8091932679254" width="63.68907563025277" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000151490" />
+  </DataNode>
+  <DataNode elementID="d6687" textLabel="LAMA5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="339.40077677751424" centerY="1299.5080529137151" width="42.722323049000714" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000130702" />
+  </DataNode>
+  <DataNode elementID="d6ede" textLabel="DKK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1986.0126004095023" centerY="964.9169423006257" width="42.85714285714266" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000107984" />
+  </DataNode>
+  <DataNode elementID="db538" textLabel="FYN" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1649.6135255067309" centerY="1135.8082485230668" width="35.87243971998953" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000010810" />
+  </DataNode>
+  <DataNode elementID="dd89c" textLabel="PLAUR" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1478.0386582164688" centerY="1168.7688578553928" width="44.23818166104979" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000011422" />
+  </DataNode>
+  <DataNode elementID="deea7" textLabel="FAK" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="311.8907949263344" centerY="1115.792989392843" width="32.66787658802266" height="21.796733212341763" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000169398" />
+  </DataNode>
+  <DataNode elementID="e0083" textLabel="IRF6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1305.9183058204387" centerY="868.3413124492795" width="43.06967281336665" height="25.169635299896072" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000117595" />
+  </DataNode>
+  <DataNode elementID="e4234" textLabel="VTN" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1537.1467733318393" centerY="1265.3526554912864" width="45.444646098003375" height="16.31682177394009" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000109072" />
+  </DataNode>
+  <DataNode elementID="e6470" textLabel="14-3-3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1677.4370553612857" centerY="870.3028943495095" width="47.2595281306718" height="17.85066113559847" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000134308" />
+  </DataNode>
+  <DataNode elementID="effa5" textLabel="SYNPO" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="320.71475136916564" centerY="1029.1523360353094" width="57.2413793103444" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000171992" />
+  </DataNode>
+  <DataNode elementID="f4d9d" textLabel="TGFB1" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1971.9314901327778" centerY="1209.1858185935498" width="43.62976406533573" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000105329" />
+  </DataNode>
+  <DataNode elementID="fa41a" textLabel="AGRN" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="449.19206534375587" centerY="1306.3047861260552" width="52.70417422867527" height="19.999999999999964" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000188157" />
+  </DataNode>
+  <DataNode elementID="fc4b6" textLabel="CD2AP" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1783.6756257817087" centerY="547.0936158959391" width="80.0" height="20.0" zOrder="32770">
+    <Xref dataSource="Ensembl" identifier="ENSG00000198087" />
+  </DataNode>
+  <DataNode elementID="bd638" textLabel="CsA" color="33ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1537.966233079473" centerY="970.5746843273957" width="80.0" height="20.0" zOrder="32772">
+    <Xref dataSource="PubChem-compound" identifier="5284373" />
+  </DataNode>
+  <DataNode elementID="f6b75" textLabel="KRT8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2605.356663338386" centerY="1044.8091932679258" width="80.0" height="20.0" zOrder="32774">
+    <Xref dataSource="Ensembl" identifier="ENSG00000170421" />
+  </DataNode>
+  <DataNode elementID="ab414" textLabel="NPHS2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="637.0" centerY="182.0" width="80.0" height="20.0" zOrder="32778">
+    <Xref dataSource="Ensembl" identifier="ENSG00000116218" />
+  </DataNode>
+  <DataNode elementID="f6521" textLabel="LAMB2" groupRef="dccd4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="633.8055555555553" centerY="569.6851851851851" width="80.0" height="20.0" zOrder="32780">
+    <Xref dataSource="Ensembl" identifier="ENSG00000172037" />
+  </DataNode>
+  <DataNode elementID="b7ee9" textLabel="NPHS1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="637.0" centerY="154.0" width="80.0" height="20.0" zOrder="32782">
+    <Xref dataSource="Ensembl" identifier="ENSG00000161270" />
+  </DataNode>
+  <DataNode elementID="d8fdc" textLabel="PLCG1" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1499.1463587572389" centerY="1100.6694985953202" width="54.52204496761988" height="20.0" zOrder="32784">
+    <Xref dataSource="Ensembl" identifier="ENSG00000124181" />
+  </DataNode>
+  <DataNode elementID="b514b" textLabel="CDKN1B" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2716.509915819092" centerY="1120.9381899603184" width="62.0" height="20.0" zOrder="32786">
+    <Xref dataSource="Ensembl" identifier="ENSG00000111276" />
+  </DataNode>
+  <DataNode elementID="d084a" textLabel="RITUXIMAB" color="33ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1188.504048205526" centerY="1083.4150204618484" width="80.0" height="20.0" zOrder="32788">
+    <Xref dataSource="CAS" identifier="174722-31-7" />
+  </DataNode>
+  <DataNode elementID="c8b23" textLabel="CR1" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2408.856663338384" centerY="1043.8091932679254" width="63.68907563025277" height="20.0" zOrder="32790">
+    <Xref dataSource="Ensembl" identifier="ENSG00000203710" />
+  </DataNode>
+  <DataNode elementID="fa5c3" textLabel="PAX2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2605.356663338386" centerY="1024.8091932679258" width="80.0" height="20.0" zOrder="32792">
+    <Xref dataSource="Ensembl" identifier="ENSG00000075891" />
+  </DataNode>
+  <DataNode elementID="e7d67" textLabel="PODXL" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2408.856663338384" centerY="983.8091932679254" width="63.68907563025277" height="20.0" zOrder="32794">
+    <Xref dataSource="Ensembl" identifier="ENSG00000128567" />
+  </DataNode>
+  <DataNode elementID="ec5dd" textLabel="LMX1B" groupRef="dccd4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="633.8055555555553" centerY="457.68518518518516" width="80.0" height="20.0" zOrder="32798">
+    <Xref dataSource="Ensembl" identifier="ENSG00000136944" />
+  </DataNode>
+  <DataNode elementID="eafc9" textLabel="MYO1E" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="635.0" centerY="364.0" width="80.0" height="20.0" zOrder="32802">
+    <Xref dataSource="Ensembl" identifier="ENSG00000157483" />
+  </DataNode>
+  <DataNode elementID="f5f6a" textLabel="SCARB2" groupRef="dccd4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="633.8055555555553" centerY="483.68518518518516" width="80.0" height="20.0" zOrder="32804">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138760" />
+  </DataNode>
+  <DataNode elementID="d79c9" textLabel="MT-TL1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="984.792494481236" centerY="598.1037527593819" width="129.03642384105953" height="20.000000000000007" zOrder="32808">
+    <Xref dataSource="Ensembl" identifier="ENSG00000209082" />
+  </DataNode>
+  <DataNode elementID="fc446" textLabel="NON-MUSCLE MYOSIN-1E" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="985.8962472406181" centerY="362.1037527593819" width="146.0" height="22.0" zOrder="32810">
+    <Xref dataSource="Ensembl" identifier="ENSG00000157483" />
+  </DataNode>
+  <DataNode elementID="f0f50" textLabel="FAT1" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1783.6756257817087" centerY="527.093615895939" width="80.0" height="20.0" zOrder="32812">
+    <Xref dataSource="Ensembl" identifier="ENSG00000083857" />
+  </DataNode>
+  <DataNode elementID="fd580" textLabel="LMX1B" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="984.7924944812361" centerY="457.93377483443714" width="129.03642384105956" height="20.000000000000007" zOrder="32814">
+    <Xref dataSource="Ensembl" identifier="ENSG00000136944" />
+  </DataNode>
+  <DataNode elementID="f09c4" textLabel="ITGB4" groupRef="dccd4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="633.8055555555552" centerY="541.6851851851851" width="80.0" height="20.0" zOrder="32818">
+    <Xref dataSource="Ensembl" identifier="ENSG00000132470" />
+  </DataNode>
+  <DataNode elementID="cf231" textLabel="MT-TL1" groupRef="dccd4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="633.8055555555552" centerY="600.6851851851851" width="80.0" height="20.0" zOrder="32822">
+    <Xref dataSource="Ensembl" identifier="ENSG00000209082" />
+  </DataNode>
+  <DataNode elementID="c5731" textLabel="COL4A5" groupRef="fb721" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="561.8476647886201" centerY="1312.52444602362" width="53.273193124789955" height="19.999999999999964" zOrder="32824">
+    <Xref dataSource="Ensembl" identifier="ENSG00000188153" />
+  </DataNode>
+  <DataNode elementID="b6e60" textLabel="CDKN1C" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2716.509915819092" centerY="1100.9381899603181" width="62.0" height="20.0" zOrder="32826">
+    <Xref dataSource="Ensembl" identifier="ENSG00000129757" />
+  </DataNode>
+  <DataNode elementID="c191d" textLabel="MME" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2408.856663338384" centerY="1023.8091932679254" width="63.68907563025277" height="20.0" zOrder="32828">
+    <Xref dataSource="Ensembl" identifier="ENSG00000196549" />
+  </DataNode>
+  <DataNode elementID="c22be" textLabel="MYCOPHENOLATE MOFETIL" color="33ff00" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1110.0516672531428" centerY="1121.4150204618475" width="175.0" height="26.0" zOrder="32830">
+    <Xref dataSource="PubChem-compound" identifier="5281078" />
+  </DataNode>
+  <DataNode elementID="b7153" textLabel="VIM" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2408.856663338384" centerY="943.8091932679254" width="63.68907563025277" height="20.0" zOrder="32832">
+    <Xref dataSource="Ensembl" identifier="ENSG00000026025" />
+  </DataNode>
+  <DataNode elementID="baa92" textLabel="CDKN1A" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2604.356663338386" centerY="1004.8091932679254" width="80.0" height="20.0" zOrder="32836">
+    <Xref dataSource="Ensembl" identifier="ENSG00000124762" />
+  </DataNode>
+  <DataNode elementID="c4671" textLabel="CD151" groupRef="dccd4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="633.8055555555553" centerY="511.6851851851852" width="80.0" height="20.0" zOrder="32838">
+    <Xref dataSource="Ensembl" identifier="ENSG00000177697" />
+  </DataNode>
+  <DataNode elementID="cab55" textLabel="PODXL" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1783.6756257817087" centerY="487.09361589593874" width="80.0" height="20.0" zOrder="32840">
+    <Xref dataSource="Ensembl" identifier="ENSG00000128567" />
+  </DataNode>
+  <DataNode elementID="b82a2" textLabel="NPHS1" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1783.6756257817087" centerY="507.0936158959389" width="80.0" height="20.0" zOrder="32844">
+    <Xref dataSource="Ensembl" identifier="ENSG00000161270" />
+  </DataNode>
+  <DataNode elementID="dd725" textLabel="PLCE1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="637.0" centerY="212.0" width="80.0" height="20.0" zOrder="32848">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138193" />
+  </DataNode>
+  <DataNode elementID="f0ea4" textLabel="CD2AP" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="637.0" centerY="241.0" width="80.0" height="20.0" zOrder="32852">
+    <Xref dataSource="Ensembl" identifier="ENSG00000198087" />
+  </DataNode>
+  <DataNode elementID="d6bfd" textLabel="ACTN4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="638.0" centerY="272.0" width="80.0" height="20.0" zOrder="32854">
+    <Xref dataSource="Ensembl" identifier="ENSG00000130402" />
+  </DataNode>
+  <DataNode elementID="a93c3" textLabel="NMMHC" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="984.792494481236" centerY="695.0" width="129.03642384105953" height="20.000000000000007" zOrder="32856">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100345" />
+  </DataNode>
+  <DataNode elementID="ffe32" textLabel="HHARP" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="984.792494481236" centerY="669.1037527593819" width="129.03642384105953" height="20.000000000000007" zOrder="32858">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138375" />
+  </DataNode>
+  <DataNode elementID="cef82" textLabel="WT1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="984.792494481236" centerY="638.1037527593818" width="129.03642384105953" height="20.000000000000007" zOrder="32860">
+    <Xref dataSource="Ensembl" identifier="ENSG00000184937" />
+  </DataNode>
+  <DataNode elementID="f112b" textLabel="FORMIN INF2&#xA;" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="985.8962472406181" centerY="328.1037527593819" width="125.0" height="20.0" zOrder="32862">
+    <Xref dataSource="Ensembl" identifier="ENSG00000203485" />
+  </DataNode>
+  <DataNode elementID="c9711" textLabel="TRPC6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="985.8962472406181" centerY="300.1037527593819" width="125.0" height="20.0" zOrder="32864">
+    <Xref dataSource="Ensembl" identifier="ENSG00000137672" />
+  </DataNode>
+  <DataNode elementID="daa11" textLabel="AACTININ4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="985.8962472406181" centerY="270.1037527593819" width="125.0" height="20.0" zOrder="32866">
+    <Xref dataSource="Ensembl" identifier="ENSG00000130402" />
+  </DataNode>
+  <DataNode elementID="a0ce4" textLabel="CD2AP" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="985.8962472406181" centerY="241.1037527593819" width="125.0" height="20.0" zOrder="32868">
+    <Xref dataSource="Ensembl" identifier="ENSG00000198087" />
+  </DataNode>
+  <DataNode elementID="be3ec" textLabel="PHOSPHOLIPASE CE1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="985.8962472406181" centerY="210.1037527593819" width="125.0" height="20.0" zOrder="32870">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138193" />
+  </DataNode>
+  <DataNode elementID="bcb45" textLabel="PODOCIN" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="984.8962472406181" centerY="183.1037527593819" width="125.0" height="20.0" zOrder="32872">
+    <Xref dataSource="Ensembl" identifier="ENSG00000116218" />
+  </DataNode>
+  <DataNode elementID="ce7a7" textLabel="NEPHRIN&#xA;" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="985.8962472406181" centerY="154.6037527593819" width="125.0" height="21.0" zOrder="32874">
+    <Xref dataSource="Ensembl" identifier="ENSG00000161270" />
+  </DataNode>
+  <DataNode elementID="e7a03" textLabel="MYH9" groupRef="dccd4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="633.8055555555554" centerY="694.6851851851851" width="80.0" height="20.0" zOrder="32876">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100345" />
+  </DataNode>
+  <DataNode elementID="e8937" textLabel="SMARCAL1" groupRef="dccd4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="633.8055555555554" centerY="664.6851851851851" width="80.0" height="20.0" zOrder="32878">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138375" />
+  </DataNode>
+  <DataNode elementID="b4364" textLabel="WT1" groupRef="dccd4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="633.8055555555553" centerY="635.6851851851851" width="80.0" height="20.0" zOrder="32880">
+    <Xref dataSource="Ensembl" identifier="ENSG00000184937" />
+  </DataNode>
+  <DataNode elementID="dba4f" textLabel="INF2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="637.0" centerY="332.0" width="80.0" height="20.0" zOrder="32882">
+    <Xref dataSource="Ensembl" identifier="ENSG00000203485" />
+  </DataNode>
+  <DataNode elementID="bf320" textLabel="TRPC6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="637.0" centerY="302.0" width="80.0" height="20.0" zOrder="32884">
+    <Xref dataSource="Ensembl" identifier="ENSG00000137672" />
+  </DataNode>
+  <DataNode elementID="ca985" textLabel="LAMB2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="984.792494481236" centerY="566.1037527593819" width="129.03642384105953" height="19.999999999999943" zOrder="32930">
+    <Xref dataSource="Ensembl" identifier="ENSG00000172037" />
+  </DataNode>
+  <DataNode elementID="b3274" textLabel="ITGB4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="984.792494481236" centerY="542.8300220750552" width="129.03642384105953" height="20.000000000000007" zOrder="32932">
+    <Xref dataSource="Ensembl" identifier="ENSG00000132470" />
+  </DataNode>
+  <DataNode elementID="c1da7" textLabel="CD151" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="984.792494481236" centerY="508.72626931567333" width="129.03642384105953" height="20.000000000000007" zOrder="32934">
+    <Xref dataSource="Ensembl" identifier="ENSG00000177697" />
+  </DataNode>
+  <DataNode elementID="ed694" textLabel="SCARB2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="984.792494481236" centerY="481.62251655629143" width="129.03642384105953" height="20.000000000000007" zOrder="32938">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138760" />
+  </DataNode>
+  <DataNode elementID="e1fec" textLabel="WT1" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1613.2146691704033" centerY="513.3083491691909" width="80.0" height="20.0" zOrder="32950">
+    <Xref dataSource="Ensembl" identifier="ENSG00000184937" />
+  </DataNode>
+  <DataNode elementID="d7392" textLabel="PCNA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2768.334086080122" centerY="943.8337100402196" width="80.0" height="20.0" zOrder="32952">
+    <Xref dataSource="Ensembl" identifier="ENSG00000132646" />
+  </DataNode>
+  <DataNode elementID="dcceb" textLabel="MKI67" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2768.3340860801222" centerY="963.8337100402193" width="80.00000000000001" height="19.99999999999996" zOrder="32954">
+    <Xref dataSource="Ensembl" identifier="ENSG00000148773" />
+  </DataNode>
+  <DataNode elementID="f5f03" textLabel="CADHERIN" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2605.356663338386" centerY="1064.809193267926" width="80.0" height="20.0" zOrder="32956">
+    <Xref dataSource="Ensembl" identifier="ENSG00000170558" />
+  </DataNode>
+  <DataNode elementID="eb6ca" textLabel="CLDN1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2605.356663338386" centerY="1084.8091932679258" width="80.0" height="20.0" zOrder="32958">
+    <Xref dataSource="Ensembl" identifier="ENSG00000163347" />
+  </DataNode>
+  <DataNode elementID="f75f7" textLabel="WT1" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2408.856663338384" centerY="1063.8091932679254" width="63.68907563025277" height="20.0" zOrder="33012">
+    <Xref dataSource="Ensembl" identifier="ENSG00000184937" />
+  </DataNode>
+  <DataNode elementID="c4b62" textLabel="SYNPO" color="cc0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="2408.856663338384" centerY="963.8091932679254" width="63.68907563025277" height="20.0" zOrder="33014">
+    <Xref dataSource="Ensembl" identifier="ENSG00000171992" />
+  </DataNode>
+  <DataNode elementID="f8391" textLabel="COL4A3" groupRef="fb721" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="561.84766478862" centerY="1272.52444602362" width="53.27319312478994" height="20.0" zOrder="33032">
+    <Xref dataSource="Ensembl" identifier="ENSG00000169031" />
+  </DataNode>
+  <DataNode elementID="d2fa8" textLabel="COL4A4" groupRef="fb721" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="561.84766478862" centerY="1292.52444602362" width="53.27319312478994" height="20.0" zOrder="33034">
+    <Xref dataSource="Ensembl" identifier="ENSG00000081052" />
+  </DataNode>
+  <DataNode elementID="d23c9" textLabel="ACTN4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="512.8218294090924" centerY="1014.9345501913878" width="45.37205081669673" height="20.0" zOrder="33041">
+    <Xref dataSource="Ensembl" identifier="ENSG00000130402" />
+  </DataNode>
+  <DataNode elementID="e2ff6" textLabel="LIMS1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="563.57500545265" centerY="1123.747617342026" width="46.35208711433668" height="20.0" zOrder="33070">
+    <Xref dataSource="Ensembl" identifier="ENSG00000169756" />
+  </DataNode>
+  <DataNode elementID="b15cc" textLabel="NPHS1" groupRef="b4cb3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1827.7083340360582" centerY="1156.1384988342431" width="59.82542563304897" height="20.0" zOrder="33071">
+    <Xref dataSource="Ensembl" identifier="ENSG00000161270" />
+  </DataNode>
+  <DataNode elementID="daf2f" textLabel="PODOCIN" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1753.325565343807" centerY="1078.9621778088926" width="63.35989467070976" height="20.0" zOrder="33073">
+    <Xref dataSource="Ensembl" identifier="ENSG00000116218" />
+  </DataNode>
+  <DataNode elementID="d2edd" textLabel="CD80" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1290.0215484725577" centerY="1087.3439911797136" width="43.44111238061716" height="25.358324145534823" zOrder="33083">
+    <Xref dataSource="Ensembl" identifier="ENSG00000121594" />
+  </DataNode>
+  <DataNode elementID="adc80" textLabel="NOTCH1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1818.4518809474748" centerY="998.6411929531081" width="54.59683691988505" height="20.0" zOrder="33117">
+    <Xref dataSource="Ensembl" identifier="ENSG00000148400" />
+  </DataNode>
+  <DataNode elementID="cec0f" textLabel="SYNPO" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1538.9891206173825" centerY="914.23358133005" width="63.29876415175704" height="16.501598824647047" zOrder="33130">
+    <Xref dataSource="Ensembl" identifier="ENSG00000171992" />
+  </DataNode>
+  <DataNode elementID="f437e" textLabel="CTNNB1" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1762.909480054929" centerY="935.9572480797167" width="57.0" height="20.0" zOrder="33150">
+    <Xref dataSource="Ensembl" identifier="ENSG00000168036" />
+  </DataNode>
+  <DataNode elementID="a2529" textLabel="NOTCH1" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1763.5401888174815" centerY="888.7056125467444" width="54.59683691988505" height="20.0" zOrder="33151">
+    <Xref dataSource="Ensembl" identifier="ENSG00000148400" />
+  </DataNode>
+  <DataNode elementID="b6499" textLabel="LRP6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1822.8044311440083" centerY="967.0020213156945" width="47.29773717645412" height="23.193311282618424" zOrder="33154">
+    <Xref dataSource="Ensembl" identifier="ENSG00000070018" />
+  </DataNode>
+  <DataNode elementID="dfef6" textLabel="LRP5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1822.8044311440083" centerY="945.4053656743853" width="47.29773717645412" height="20.0" zOrder="33155">
+    <Xref dataSource="Ensembl" identifier="ENSG00000162337" />
+  </DataNode>
+  <DataNode elementID="c774c" textLabel="TRPC6" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1760.820837927236" centerY="1026.4079382579932" width="52.779492833517104" height="22.15656008820406" zOrder="33166">
+    <Xref dataSource="Ensembl" identifier="ENSG00000137672" />
+  </DataNode>
+  <DataNode elementID="bc00c" textLabel="TLN1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="325.0" centerY="1148.3865128452387" width="112.0" height="19.226974309522575" zOrder="33203">
+    <Xref dataSource="Ensembl" identifier="ENSG00000137076" />
+  </DataNode>
+  <DataNode elementID="b721a" textLabel="ILK" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="404.447963710363" centerY="1149.5624993746944" width="44.53720508166952" height="19.999999999999964" zOrder="33204">
+    <Xref dataSource="Ensembl" identifier="ENSG00000166333" />
+  </DataNode>
+  <DataNode elementID="e04c8" textLabel="ITGB1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="364.4479637103629" centerY="1248.5624993746944" width="44.53720508166952" height="19.999999999999964" zOrder="33205">
+    <Xref dataSource="Ensembl" identifier="ENSG00000150093" />
+  </DataNode>
+  <DataNode elementID="b4849" textLabel="ITGA3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="410.4479637103631" centerY="1247.5624993746942" width="44.53720508166954" height="20.0" zOrder="33206">
+    <Xref dataSource="Ensembl" identifier="ENSG00000005884" />
+  </DataNode>
+  <DataNode elementID="d806b" textLabel="DAG1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="476.9199891147091" centerY="1170.3047861260552" width="56.16002177058181" height="19.999999999999964" zOrder="33211">
+    <Xref dataSource="Ensembl" identifier="ENSG00000173402" />
+  </DataNode>
+  <DataNode elementID="d04b5" textLabel="PARVA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="542.0740980116325" centerY="1143.6187607177067" width="42.722323049002114" height="20.0" zOrder="33215">
+    <Xref dataSource="Ensembl" identifier="ENSG00000197702" />
+  </DataNode>
+  <DataNode elementID="df45e" textLabel="ILK" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="580.8944246903994" centerY="1144.7657661623537" width="32.232304900181106" height="19.999999999999964" zOrder="33216">
+    <Xref dataSource="Ensembl" identifier="ENSG00000166333" />
+  </DataNode>
+  <DataNode elementID="fc4a8" textLabel="UTRN" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="452.9960580842268" centerY="1089.6550583583585" width="40.83484573502811" height="20.0" zOrder="33217">
+    <Xref dataSource="Ensembl" identifier="ENSG00000152818" />
+  </DataNode>
+  <DataNode elementID="e01f0" textLabel="WNT1" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1869.8044311440083" centerY="964.5986769570037" width="47.297737176454035" height="19.999999999999986" zOrder="33219">
+    <Xref dataSource="Ensembl" identifier="ENSG00000125084" />
+  </DataNode>
+  <Interaction elementID="id7a19d719" zOrder="-33" lineThickness="9.0" color="cccc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="417.0" y="1090.0" elementID="dcff1" />
+    <Point x="471.0" y="1122.0" elementID="e3ebb" />
+  </Interaction>
+  <Interaction elementID="idd84cc815" connectorType="Curved" zOrder="-29" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1708.6245386686485" y="827.2548677704975" elementID="fd599" elementRef="ae3c2" relX="-0.5" relY="-1.0" />
+    <Point x="1803.7436758550361" y="764.0573318632855" elementID="d1ba1" />
+    <Point x="1898.862813041424" y="760.4252638210735" elementID="b5eac" elementRef="c6ff3" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id1635d5c8" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1777.159480054929" y="925.9572480797167" elementID="dac6b" elementRef="f437e" relX="0.5" relY="-1.0" />
+    <Point x="1777.1893980474529" y="898.7056125467444" elementID="a996d" elementRef="a2529" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id19c85700" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1964.584028980931" y="964.9169423006257" elementID="a03f1" elementRef="d6ede" relX="-1.0" relY="0.0" />
+    <Point x="1893.4532997322353" y="964.5986769570037" elementID="debdd" elementRef="e01f0" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id2e278833" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1539.2133931852768" y="902.0081902661832" elementID="a2c08" elementRef="a0668" relX="0.0" relY="-1.0" />
+    <Point x="1540.2226072347325" y="829.8031186013541" elementID="e6bb9" elementRef="c4421" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id32fee6c2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1719.0" y="979.0" elementID="a39e4" elementRef="ac049" relX="0.5" relY="-1.0" />
+    <Point x="1718.851398922732" y="847.2548677704975" elementID="fedba" elementRef="ae3c2" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4276fa10" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1753.7343632252046" y="839.5550181088183" elementID="afd65" elementRef="ee69f" relX="0.0" relY="-1.0" />
+    <Point x="1898.862813041424" y="787.5681209639306" elementID="b293b" elementRef="c6ff3" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id445518aa" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="3152.5358324145554" y="966.2425297767713" elementID="f13d1" elementRef="d1789" relX="1.0" relY="0.0" />
+    <Point x="3261.09812568909" y="966.8468835854188" elementID="aef73" elementRef="d2a6c" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id536cf51e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1578.8313120176406" y="907.3869900771775" elementID="c8bc1" />
+    <Point x="1637.2657111356118" y="907.3869900771775" elementID="fcb3b" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6ce2fcfa" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1686.2800921247751" y="1099.7554158940275" elementID="e052e" elementRef="bf733" relX="-1.0" relY="0.0" />
+    <Point x="1572.0" y="1056.5" elementID="b916b" elementRef="cc73b" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id865022" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1707.4640865937051" y="1090.3167329798446" elementID="c2b1f" elementRef="bf733" relX="0.0" relY="-1.0" />
+    <Point x="1705.0" y="1002.0" elementID="bbb25" elementRef="ac049" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8dcf8bcf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1851.1576626240353" y="1062.9217199558984" elementID="d66d5" />
+    <Point x="1764.0573318632855" y="1060.7166482910695" elementID="ebb97" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9df5185f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1148.0" y="981.5" elementID="febdf" elementRef="c6a5c" relX="1.0" relY="0.0" />
+    <Point x="1266.8786505523353" y="979.0210006300975" elementID="d4b88" elementRef="eab16" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida506e6cf" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1749.8909795875102" y="898.7056125467444" elementID="c573c" elementRef="a2529" relX="-0.5" relY="1.0" />
+    <Point x="1748.659480054929" y="925.9572480797167" elementID="b7819" elementRef="f437e" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc663d672" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1633.9581036383681" y="917.3098125689085" elementID="a8c50" />
+    <Point x="1584.3439911797134" y="917.3098125689085" elementID="bf992" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="iddbe1455b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1667.5497453667258" y="1135.8082485230668" elementID="c1faa" elementRef="db538" relX="1.0" relY="0.0" />
+    <Point x="1736.4939360529218" y="1119.0738699007718" elementID="b0a6f" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide23927a2" zOrder="12288" lineThickness="3.0" color="cc0033">
+    <Xref dataSource="" identifier="" />
+    <Point x="377.0" y="1245.0" elementID="aa2de" elementRef="f6e63" relX="0.0" relY="1.0" />
+    <Point x="339.40077677751424" y="1289.5080529137151" elementID="bb4b4" elementRef="d6687" relX="0.0" relY="-1.0" />
+  </Interaction>
+  <Interaction elementID="ide6cf272f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1780.680593882685" y="1134.9348203514926" elementID="c0e53" elementRef="f042a" relX="0.0" relY="0.0" />
+    <Point x="1739.0674384417457" y="1108.0036226177335" elementID="a43fe" elementRef="b9a0e" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide7a6b2a7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2897.0" y="963.0" elementID="a422d" />
+    <Point x="3010.308710033073" y="966.2425297767713" elementID="a7139" elementRef="d1789" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf1ce1fa1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1653.2146691704033" y="513.3083491691909" elementID="a496d" elementRef="e1fec" relX="1.0" relY="0.0" />
+    <Point x="1716.5667034178614" y="512.446528488345" elementID="c70d1" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf5736671" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1768.9801543550154" y="1059.6141124586545" elementID="f88de" elementRef="a1b1e" relX="-1.0" relY="0.5" />
+    <Point x="1601.0" y="960.0" elementID="d769f" elementRef="cc39b" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf8f797f1" zOrder="12288" lineThickness="1.0" color="cc00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1465.9446812579483" y="1198.5424097063515" elementID="f558f" elementRef="b0b0f" relX="0.0" relY="-1.0" />
+    <Point x="1465.2701212789416" y="1183.0209481808158" elementID="d4cb3" />
+  </Interaction>
+  <Interaction elementID="idfff5c8f3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1425.5788313120177" y="886.438809261301" elementID="bd7db" />
+    <Point x="1455.3472987872105" y="872.1058434399117" elementID="b0f2e" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id9cc50d75" groupRef="dccd4" connectorType="Elbow" zOrder="12300" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="593.8055555555554" y="694.6851851851851" elementID="c2357" elementRef="e7a03" relX="-1.0" relY="0.0" />
+    <Point x="593.8055555555553" y="457.68518518518516" elementID="c74e6" elementRef="ec5dd" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id5a29e421" groupRef="dccd4" zOrder="12302" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="498.80555555555554" y="563.6851851851851" elementID="a30b4" elementRef="b5cf0" relX="1.0" relY="0.0" />
+    <Point x="577.8055555555552" y="563.6851851851851" elementID="aa5a2" />
+  </Interaction>
+  <Interaction elementID="id6bea2aa7" zOrder="12310" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1513.3059849937213" y="513.1573470662875" elementID="e75fc" />
+    <Point x="1573.2146691704033" y="513.3083491691909" elementID="ed765" elementRef="e1fec" relX="-1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id58af252" zOrder="12320" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2007.4411718380736" y="964.9169423006257" elementID="a7022" elementRef="d6ede" relX="1.0" relY="0.0" />
+    <Point x="2099.1961309670055" y="961.5" elementID="e814b" elementRef="d5200" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfcb1fad4" zOrder="12322" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1873.105843439911" y="514.7486218302097" elementID="cc494" elementRef="c7c6a" relX="1.0" relY="0.0" />
+    <Point x="1959.8234552917083" y="517.8095883568161" elementID="f25e8" elementRef="fc4b9" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide41f4467" zOrder="12328" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1537.966233079473" y="960.5746843273957" elementID="f5ea1" elementRef="bd638" relX="0.0" relY="-1.0" />
+    <Point x="1539.2133931852768" y="925.3415235995162" elementID="b75f1" elementRef="a0668" relX="0.0" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id87fc3147" zOrder="12332" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="750.0" y="982.5" elementID="eb8f9" elementRef="b9c64" relX="1.0" relY="0.0" />
+    <Point x="890.0" y="981.5" elementID="bafab" elementRef="c6a5c" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="cbfda" connectorType="Elbow" zOrder="32926" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="595.0" y="364.0" elementID="a9c69" elementRef="eafc9" relX="-1.0" relY="0.0" />
+    <Point x="597.0" y="154.0" elementID="ca9a8" elementRef="b7ee9" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="d4548" zOrder="32928" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="517.0" y="266.0" elementID="d28a6" elementRef="c59e7" relX="1.0" relY="0.0" />
+    <Point x="574.0" y="266.0" elementID="fcf7e" />
+  </Interaction>
+  <Interaction elementID="b5e71" zOrder="32964" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1197.5516672531428" y="1114.9150204618475" elementID="d5222" />
+    <Point x="1268.3009922822491" y="1087.3439911797136" elementID="e15a6" elementRef="d2edd" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ed3f3" zOrder="32974" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1228.504048205526" y="1083.4150204618484" elementID="cf0f5" elementRef="d084a" relX="1.0" relY="0.0" />
+    <Point x="1266.8786505523353" y="1083.5838337477126" elementID="f550b" elementRef="eab16" relX="1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="eb656" zOrder="32986" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1290.0" y="1052.0" elementID="ea870" elementRef="e26fd" relX="0.0" relY="1.0" />
+    <Point x="1290.0215484725577" y="1074.6648291069462" elementID="ca689" elementRef="d2edd" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id875672d4" zOrder="33079" lineThickness="7.0" color="990000">
+    <Xref dataSource="" identifier="" />
+    <Point x="1235.942668136716" y="1107.9360861383268" elementID="cbbf2" />
+    <Point x="1325.2480705622947" y="1110.141157803156" elementID="d21bf" />
+  </Interaction>
+  <Interaction elementID="ce2ce" zOrder="33080" lineThickness="7.0" color="990000">
+    <Xref dataSource="" identifier="" />
+    <Point x="1283.35170893054" y="1105.843439911797" elementID="f5bc6" />
+    <Point x="1378.1697905181918" y="1104.7409040793825" elementID="a0d17" />
+  </Interaction>
+  <Interaction elementID="fbf47" zOrder="33081" lineThickness="7.0" color="990000">
+    <Xref dataSource="" identifier="" />
+    <Point x="1264.6085997794928" y="1134.5093715545754" elementID="d397b" />
+    <Point x="1386.9900771775083" y="1135.61190738699" elementID="a88ab" />
+  </Interaction>
+  <Interaction elementID="id7e4b6fe7" zOrder="33082" lineThickness="7.0" color="990000">
+    <Xref dataSource="" identifier="" />
+    <Point x="1210.5843439911796" y="1142.2271223814773" elementID="ea2ec" />
+    <Point x="1321.9404630650495" y="1142.2271223814773" elementID="d3993" />
+  </Interaction>
+  <Interaction elementID="d3a7a" zOrder="33095" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1558.9856670341785" y="874.3109151047407" elementID="ee653" />
+    <Point x="1519.2943770672546" y="893.0540242557881" elementID="f2ca2" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idd2e6f5a7" connectorType="Curved" zOrder="33096" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1432.2379905205357" y="935.5157968677536" elementID="f22aa" elementRef="aefb1" relX="0.0" relY="-1.0" />
+    <Point x="1439.1263015730415" y="886.438809261301" elementID="a948e" />
+    <Point x="1446.014612625547" y="846.3581795990801" elementID="ed393" elementRef="be3a3" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="dcfca" zOrder="33107" lineThickness="1.0" color="cc00ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="1681.2476161033326" y="1197.3539140022056" elementID="c4c37" elementRef="e715d" relX="0.0" relY="-1.0" />
+    <Point x="1678.0595369349503" y="1174.2006615214993" elementID="cbcb8" />
+  </Interaction>
+  <Interaction elementID="a958d" zOrder="33110" lineThickness="7.0" color="990000">
+    <Xref dataSource="" identifier="" />
+    <Point x="1796.0308710033075" y="1127.894156560088" elementID="fd7f8" />
+    <Point x="1896.3616317530318" y="1125.6890848952592" elementID="bee09" />
+  </Interaction>
+  <Interaction elementID="id2fb861f0" connectorType="Curved" zOrder="33115" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1973.7407275737933" y="1156.2083267706184" elementID="c058d" elementRef="d4eac" relX="-0.5" relY="-1.0" />
+    <Point x="1923.8443921841272" y="996.6046660581754" elementID="cc161" elementRef="ba4ed" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c6e8f" zOrder="33119" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1749.8909795875102" y="878.7056125467444" elementID="e0ea7" elementRef="a2529" relX="-0.5" relY="-1.0" />
+    <Point x="1798.480600619521" y="855.4187011077859" elementID="e6f78" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="cc625" connectorType="Curved" zOrder="33120" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1851.8527852155162" y="1015.9415498098738" elementID="b130c" elementRef="f8670" relX="1.0" relY="0.0" />
+    <Point x="1871.8527852155162" y="941.2673570438565" elementID="e7915" />
+    <Point x="1832.6540846965222" y="866.593164277839" elementID="f2637" />
+    <Point x="1793.455384177528" y="866.8042211371866" elementID="d13fa" elementRef="a7e51" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f1e13" zOrder="33127" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1560.088202866593" y="885.3362734288862" elementID="dc6e2" />
+    <Point x="1518.19184123484" y="877.6185226019844" elementID="a938d" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="a274f" zOrder="33157" lineThickness="7.0" color="000099">
+    <Xref dataSource="" identifier="" />
+    <Point x="1824.2851892686524" y="1022.4759804693647" elementID="c418a" />
+    <Point x="1877.7179089990184" y="1022.6566044430899" elementID="f9734" />
+  </Interaction>
+  <Interaction elementID="b8c90" zOrder="33162" lineThickness="7.0" color="990000">
+    <Xref dataSource="" identifier="" />
+    <Point x="1753.2961085754407" y="1102.708056115271" elementID="deaae" />
+    <Point x="1848.1461647503554" y="1101.5750511891627" elementID="a80c0" />
+  </Interaction>
+  <Interaction elementID="d2f5d" zOrder="33163" lineThickness="7.0" color="990000">
+    <Xref dataSource="" identifier="" />
+    <Point x="1804.8963605836313" y="1095.5651989724136" elementID="b30c1" />
+    <Point x="1884.2337375964719" y="1097.0231532524806" elementID="e56c5" />
+  </Interaction>
+  <Interaction elementID="efc80" zOrder="33164" lineThickness="7.0" color="990000">
+    <Xref dataSource="" identifier="" />
+    <Point x="1731.121523793671" y="1135.9594508933644" elementID="a47a6" />
+    <Point x="1855.0191990162054" y="1133.3978745386846" elementID="cc00b" />
+    <Anchor position="0.4" shapeType="None" elementID="f042a" />
+  </Interaction>
+  <Interaction elementID="f9de4" zOrder="33170" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1421.1686879823594" y="873.2083792723263" elementID="ade8c" />
+    <Point x="1456.449834619625" y="885.3362734288864" elementID="d55a5" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="f9060" zOrder="33172" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1763.5401888174815" y="878.7056125467444" elementID="fff8a" elementRef="a2529" relX="0.0" relY="-1.0" />
+    <Point x="1786.1080485115765" y="843.4399117971334" elementID="e537f" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="ca543" zOrder="33195" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="3360.0" y="966.8468835854188" elementID="e4db4" elementRef="d2a6c" relX="1.0" relY="0.0" />
+    <Point x="3428.233481633219" y="965.8358103127366" elementID="ffd81" elementRef="f2d34" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f2300" zOrder="33196" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="2234.4015210662287" y="961.5" elementID="d2016" elementRef="d5200" relX="1.0" relY="0.0" />
+    <Point x="2377.0121255232575" y="963.8091932679254" elementID="bcaf3" elementRef="c4b62" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb7279591" connectorType="Curved" zOrder="33209" lineThickness="5.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="470.5" y="1249.0" elementID="b9210" elementRef="c75f0" relX="0.0" relY="1.0" />
+    <Point x="475.54415245809355" y="1306.3047861260552" elementID="a2781" elementRef="fa41a" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idfc474651" connectorType="Curved" zOrder="33218" lineThickness="5.0" color="003333">
+    <Xref dataSource="" identifier="" />
+    <Point x="575.0" y="1170.0" elementID="db02f" />
+    <Point x="592.0" y="1194.5" elementID="c10cb" />
+    <Point x="627.6056778594395" y="1219.0" elementID="c933a" />
+    <Point x="663.2113557188791" y="1241.7113197013728" elementID="bbf74" elementRef="c989e" relX="0.5" relY="-1.0" />
+  </Interaction>
+  <GraphicalLine elementID="d2035" zOrder="-25" lineThickness="5.0" color="66cc00">
+    <Point x="585.7691978301451" y="1080.6732071786867" elementID="da653" />
+    <Point x="536.0" y="1050.0" elementID="bd7a9" />
+  </GraphicalLine>
+  <GraphicalLine elementID="d5129" zOrder="-23" lineThickness="5.0" color="66cc00">
+    <Point x="542.0" y="1033.0" elementID="f3712" />
+    <Point x="481.3209219680762" y="994.4663106269629" elementID="d6bf5" />
+  </GraphicalLine>
+  <GraphicalLine elementID="ec5a3" zOrder="-21" lineThickness="5.0" color="66cc00">
+    <Point x="408.7256406613612" y="1000.8183977413005" elementID="a5769" />
+    <Point x="450.0" y="1031.0" elementID="b9b1d" />
+  </GraphicalLine>
+  <GraphicalLine elementID="c1a56" zOrder="-19" lineThickness="5.0" color="66cc00">
+    <Point x="451.3753684290562" y="929.13055745092" elementID="ed4a2" />
+    <Point x="498.562301278421" y="962.7058750552751" elementID="a6126" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id133f61aa" zOrder="12288" lineThickness="9.0" color="000099">
+    <Point x="469.3832991044604" y="897.0674636739468" elementID="b1994" elementRef="e5bae" relX="0.0" relY="1.0" />
+    <Point x="320.0577640733401" y="1104.8946227866722" elementID="d69b9" elementRef="deea7" relX="0.5" relY="-1.0" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id3632e821" zOrder="12288" lineThickness="9.0" color="66cc00">
+    <Point x="1412.2380505497097" y="914.1365465520998" elementID="e87e6" />
+    <Point x="1443.0910451050638" y="914.1365465520998" elementID="e6a5d" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id7eb1ce80" zOrder="12288" lineThickness="9.0" color="000099">
+    <Point x="510.35903449076216" y="938.2049676142594" elementID="c3f33" />
+    <Point x="377.0" y="1141.0" elementID="c4230" elementRef="f6e63" relX="0.0" relY="-1.0" />
+  </GraphicalLine>
+  <GraphicalLine elementID="iddc1d507d" zOrder="12288" lineThickness="5.0" color="0000ff">
+    <Point x="1330.760749724366" y="921.7199558985667" elementID="db144" />
+    <Point x="1367.1444321940462" y="941.5656008820285" elementID="e6ab9" />
+    <Anchor position="0.8440366972477031" shapeType="None" elementID="a1c23" />
+  </GraphicalLine>
+  <GraphicalLine elementID="c0700" zOrder="33054" lineThickness="9.0" color="000099">
+    <Point x="568.0" y="991.0" elementID="b7b00" />
+    <Point x="465.0" y="1149.0" elementID="eb29b" />
+  </GraphicalLine>
+  <GraphicalLine elementID="ed144" zOrder="33055" lineThickness="9.0" color="000099">
+    <Point x="607.4552232384935" y="1045.2830075416632" elementID="c1fa8" />
+    <Point x="552.754678773883" y="1153.6187607177067" elementID="fff50" />
+  </GraphicalLine>
+  <GraphicalLine elementID="e2610" zOrder="33078" lineThickness="5.0" color="0000ff">
+    <Point x="1308.710033076075" y="1013.2304299889746" elementID="ad94b" />
+    <Point x="1331.8632855567805" y="1019.845644983462" elementID="ae0bb" />
+    <Anchor position="0.9934244985665172" shapeType="None" elementID="afda6" />
+  </GraphicalLine>
+  <GraphicalLine elementID="e44c8" zOrder="33086" lineThickness="9.0" color="66cc00">
+    <Point x="1459.7574421168688" y="941.5656008820287" elementID="c123f" />
+    <Point x="1458.6549062844542" y="902.9768467475193" elementID="abca4" />
+  </GraphicalLine>
+  <GraphicalLine elementID="ea375" zOrder="33087" lineThickness="9.0" color="66cc00">
+    <Point x="1411.2458654906284" y="923.9250275633958" elementID="ad8db" />
+    <Point x="1410.1433296582138" y="889.7464167585446" elementID="a7ee4" />
+  </GraphicalLine>
+  <GraphicalLine elementID="d583d" zOrder="33088" lineThickness="9.0" color="66cc00">
+    <Point x="1424.910349286896" y="926.6137504732048" elementID="afae7" />
+    <Point x="1455.7633438422504" y="926.6137504732048" elementID="d4519" />
+  </GraphicalLine>
+  <Label elementID="a1b1e" textLabel="CALCIUM" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1811.4277839029776" centerY="1052.9988974641672" width="84.8952590959243" height="26.46085997794944" zOrder="28672" />
+  <Label elementID="a1cd6" textLabel="ACTIN" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="427.5" centerY="920.0" width="61.0" height="28.0" zOrder="28672" />
+  <Label elementID="ac049" textLabel="P13K" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="1705.0" centerY="990.5" width="56.0" height="23.0" zOrder="28672" />
+  <Label elementID="b2ec3" textLabel="TT: Therapeutic Target (decrease)" color="0000cc" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="165.49574726609964" centerY="769.0667034178612" width="194.99149453219928" height="17.518191841234753" zOrder="28672" />
+  <Label elementID="c6ff3" textLabel="APOPTOSIS" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1898.8628130414238" centerY="773.996692392502" width="102.85714285714236" height="27.142857142857075" zOrder="28672" />
+  <Label elementID="cb328" textLabel="AR:Autosomal Recessive" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="142.21506682867556" centerY="735.3547995139731" width="148.43013365735112" height="30.0" zOrder="28672" />
+  <Label elementID="cc39b" textLabel="CALCINEURIN" color="0000ff" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="1601.0" centerY="950.0" width="92.0" height="20.0" zOrder="28672" />
+  <Label elementID="cc73b" textLabel="ACTIN" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="1545.5" centerY="1056.5" width="53.0" height="25.0" zOrder="28672" />
+  <Label elementID="d0558" textLabel="PKA" color="cc0033" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="1602.5" centerY="865.0" width="43.0" height="20.0" zOrder="28672" />
+  <Label elementID="edbfa" textLabel="+" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1499.644818810513" centerY="1211.6970485751299" width="31.760435571687715" height="20.0" zOrder="28672" />
+  <Label elementID="efcf7" textLabel="AD: Autosomal Dominant" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="141.8915449032166" centerY="719.0019157062457" width="148.6670341786108" height="23.314222712238227" zOrder="28672" />
+  <Label elementID="f1394" textLabel="SLIT &#xA;DIAPHRAGM&#xA;DISRUPTION" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1409.933427836404" centerY="1055.0769675014433" width="100.95238095238119" height="66.19047619047646" zOrder="28672" />
+  <Label elementID="f4f70" textLabel="TT: Therapeutic Target (increase)" color="cc0000" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="162.5656136087485" centerY="752.4134509371554" width="189.13122721749698" height="24.352811466372714" zOrder="28672" />
+  <Label elementID="f817c" textLabel="Legend" fillColor="ffffff" fontWeight="Bold" fontSize="16" vAlign="Middle" centerX="92.0" centerY="696.0" width="80.0" height="34.0" zOrder="28672" />
+  <Label elementID="fd3e0" textLabel="F-ACTIN" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="439.0" centerY="846.0" width="80.0" height="28.0" zOrder="28672" />
+  <Label elementID="fe11a" textLabel="MICRORNA 193A" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1454.5" centerY="507.5" width="135.0" height="27.0" zOrder="28672" />
+  <Label elementID="a0535" textLabel="3P21" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.2450331125829" centerY="567.6887417218543" width="80.00000000000003" height="20.000000000000007" zOrder="28680" />
+  <Label elementID="d1789" textLabel="PODOCYTOPENIA" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="3081.4222712238147" centerY="966.2425297767713" width="142.22712238148296" height="44.123427800510626" zOrder="28682" />
+  <Label elementID="b1fd2" textLabel="Podocyte-Associated Genetic Glomerular Diseases" fillColor="ffffff" fontWeight="Bold" fontSize="16" vAlign="Middle" centerX="889.0" centerY="77.0" width="406.0" height="28.0" zOrder="28684" />
+  <Label elementID="cfb38" textLabel="PROTEIN" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="986.0" centerY="126.0" width="84.0" height="22.0" zOrder="28688" />
+  <Label elementID="a39d5" textLabel="17Q25" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.2450331125829" centerY="539.5187637969095" width="80.0" height="20.0" zOrder="28690" />
+  <Label elementID="d8a63" textLabel="GENE" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="636.5" centerY="127.0" width="75.0" height="20.0" zOrder="28696" />
+  <Label elementID="b8536" textLabel="AR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1173.0" centerY="359.0" width="80.0" height="20.0" zOrder="28698" />
+  <Label elementID="fc4b9" textLabel="STABILIZES &#xA;PODOCYTE&#xA;CYTOSKELETON" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="2029.1553880648175" centerY="517.8095883568161" width="138.6638655462184" height="64.46118192352252" zOrder="28700" />
+  <Label elementID="a9f7e" textLabel="MATERNAL" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1170.924944812362" centerY="601.2075055187638" width="80.0" height="20.0" zOrder="28702" />
+  <Label elementID="c2ae3" textLabel="10Q23" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.245033112583" centerY="208.68874172185429" width="69.5" height="28.0" zOrder="28704" />
+  <Label elementID="c6a5c" textLabel="PRIMARY &#xA;INJURY" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1019.0" centerY="981.5" width="258.0" height="45.0" zOrder="28706" />
+  <Label elementID="f2d34" textLabel="ESRD" fillColor="ffffff" fontWeight="Bold" fontSize="18" vAlign="Middle" centerX="3468.233481633219" centerY="965.8358103127366" width="80.0" height="42.59334058137142" zOrder="28708" />
+  <Label elementID="e81e8" textLabel="AR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1172.0" centerY="151.5" width="68.0" height="27.0" zOrder="28714" />
+  <Label elementID="febfe" textLabel="AR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1169.82119205298" centerY="562.0" width="61.0" height="28.0" zOrder="28716" />
+  <Label elementID="bbcd1" textLabel="NUCLEUS" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="2769.1345093715545" centerY="994.1502443969264" width="92.61300992282227" height="26.982862915077476" zOrder="28720" />
+  <Label elementID="bffd8" textLabel="11P15.5" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.2450331125829" centerY="510.6887417218543" width="80.00000000000003" height="20.000000000000007" zOrder="28722" />
+  <Label elementID="c59e7" textLabel="Nonsyndromic" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="464.0" centerY="266.0" width="106.0" height="20.0" zOrder="28724" />
+  <Label elementID="b5cf0" textLabel="Syndromic" fillColor="ffffff" fontSize="12" vAlign="Middle" groupRef="dccd4" centerX="458.80555555555554" centerY="563.6851851851851" width="80.0" height="20.0" zOrder="28728" />
+  <Label elementID="d2a6c" textLabel="PRIMARY &#xA;FSGS" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="3310.549062844545" centerY="966.8468835854188" width="98.90187431090999" height="49.693767170837646" zOrder="28732" />
+  <Label elementID="cc466" textLabel="AR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1170.9249448123621" centerY="529.0" width="80.0" height="20.0" zOrder="28734" />
+  <Label elementID="bf812" textLabel="15Q21-Q22" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.2450331125829" centerY="362.8962472406181" width="84.0" height="26.0" zOrder="28736" />
+  <Label elementID="ad0f2" textLabel="9Q33.3" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="807.3487858719648" centerY="458.0" width="80.00000000000003" height="20.000000000000007" zOrder="28738" />
+  <Label elementID="c883f" textLabel="TYPE" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="460.0" centerY="131.0" width="80.0" height="20.0" zOrder="28740" />
+  <Label elementID="e83ea" textLabel="4Q21.1" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.2450331125829" centerY="482.4812362030905" width="80.00000000000003" height="20.000000000000007" zOrder="28742" />
+  <Label elementID="b5517" textLabel="1Q25-Q31" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.245033112583" centerY="182.6037527593819" width="69.5" height="25.0" zOrder="32886" />
+  <Label elementID="d11df" textLabel="19Q13&#xA;" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="809.5562913907287" centerY="267.7924944812362" width="69.5" height="24.0" zOrder="32888" />
+  <Label elementID="e1e7e" textLabel="6P12.3" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.245033112583" centerY="240.8962472406181" width="69.5" height="28.0" zOrder="32890" />
+  <Label elementID="ac525" textLabel="11P13" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.2450331125829" centerY="636.6887417218543" width="80.00000000000003" height="24.000000000000032" zOrder="32892" />
+  <Label elementID="db120" textLabel="2Q35" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="802.9337748344371" centerY="668.2924944812363" width="80.00000000000003" height="26.99999999999999" zOrder="32894" />
+  <Label elementID="a7b40" textLabel="19Q13.1" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.245033112583" centerY="153.3962472406181" width="69.5" height="25.0" zOrder="32896" />
+  <Label elementID="cb20a" textLabel="22Q12.3" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.245033112583" centerY="699.5000000000001" width="80.00000000000003" height="26.99999999999999" zOrder="32898" />
+  <Label elementID="b96f4" textLabel="11Q21-22" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.245033112583" centerY="297.3962472406181" width="69.5" height="27.0" zOrder="32900" />
+  <Label elementID="b462f" textLabel="14Q" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="806.245033112583" centerY="328.1887417218543" width="69.5" height="25.0" zOrder="32902" />
+  <Label elementID="ca3f5" textLabel="CHROMOSOME" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="804.5" centerY="126.0" width="121.0" height="20.0" zOrder="32904" />
+  <Label elementID="f94e0" textLabel="TRANSMISSION" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1173.0" centerY="125.0" width="122.0" height="20.0" zOrder="32906" />
+  <Label elementID="c186c" textLabel="AR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1172.0" centerY="209.0" width="68.0" height="28.0" zOrder="32908" />
+  <Label elementID="edefb" textLabel="AR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1172.0" centerY="180.0" width="68.0" height="30.0" zOrder="32910" />
+  <Label elementID="c270e" textLabel="AD" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1172.0" centerY="265.5" width="68.0" height="31.0" zOrder="32912" />
+  <Label elementID="c5415" textLabel="AD/AR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1172.0" centerY="236.5" width="68.0" height="27.0" zOrder="32914" />
+  <Label elementID="f7aae" textLabel="AD" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1172.0" centerY="297.5" width="68.0" height="33.0" zOrder="32916" />
+  <Label elementID="c2de5" textLabel="AD" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1170.924944812362" centerY="635.7924944812362" width="68.0" height="26.0" zOrder="32918" />
+  <Label elementID="a39a1" textLabel="AD" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1172.0" centerY="328.0" width="68.0" height="28.0" zOrder="32920" />
+  <Label elementID="d6a64" textLabel="AR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1170.924944812362" centerY="665.5" width="68.0" height="29.0" zOrder="32922" />
+  <Label elementID="dcc6f" textLabel="COMPLEX" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1170.924944812362" centerY="694.1037527593819" width="68.0" height="26.0" zOrder="32924" />
+  <Label elementID="fd6bd" textLabel="AR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1170.924944812362" centerY="500.0" width="80.0" height="20.0" zOrder="32936" />
+  <Label elementID="a7483" textLabel="AR" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1170.9249448123621" centerY="470.0" width="80.0" height="20.0" zOrder="32940" />
+  <Label elementID="be2ea" textLabel="AD" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1170.9249448123621" centerY="447.1037527593819" width="68.0" height="28.0" zOrder="32942" />
+  <Label elementID="d5200" textLabel="DESTRUCTION OF&#xA;PODOCYTE&#xA;ARCHITECTURE" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="2166.798826016617" centerY="961.5" width="135.20539009922308" height="61.0" zOrder="32960" />
+  <Label elementID="a57ee" textLabel="NUCLEUS" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1459.6591403926548" centerY="538.5276792084011" width="80.0" height="20.0" zOrder="32996" />
+  <Label elementID="b3a1d" textLabel="PODOCYTE" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1670.3109151047443" centerY="578.6786108048525" width="112.39691289967595" height="32.77067254686108" zOrder="32998" />
+  <Label elementID="efab3" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1662.5667034178618" centerY="522.9506483960762" width="32.0" height="26.0" zOrder="33010" />
+  <Label elementID="e4985" textLabel="GLOMERULAR &#xA;BASEMENT &#xA;MEMBRANE" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="687.8729213574286" centerY="1303.5688253482747" width="131.30252100840056" height="72.47899159663882" zOrder="33046" />
+  <Label elementID="f9249" textLabel="NORMAL &#xA;PODOCYTE" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="634.9234126384897" centerY="874.9022915753371" width="91.51904101022589" height="44.14874407112916" zOrder="33047" />
+  <Label elementID="bafb9" textLabel="GLOMERULAR &#xA;BASEMENT &#xA;MEMBRANE" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1990.6427027260727" centerY="1297.437059719144" width="131.30252100840056" height="72.47899159663882" zOrder="33134" />
+  <Label elementID="f3a3a" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1831.614322465479" centerY="487.23636268178944" width="32.0" height="26.0" zOrder="33136" />
+  <Label elementID="a57f6" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1831.0428938940508" centerY="508.85541030083755" width="32.0" height="26.0" zOrder="33137" />
+  <Label elementID="ce4f0" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1831.614322465479" centerY="530.0935055389328" width="32.0" height="26.0" zOrder="33138" />
+  <Label elementID="c152e" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1832.090512941669" centerY="548.6649341103617" width="32.0" height="26.0" zOrder="33139" />
+  <Label elementID="cc72b" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1724.4257888381378" centerY="1026.7585971544072" width="32.0" height="26.0" zOrder="33140" />
+  <Label elementID="ede3b" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1575.716123274008" centerY="1145.688349871371" width="32.0" height="26.0" zOrder="33141" />
+  <Label elementID="e24fc" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1444.8353021473206" centerY="1168.1572426103849" width="32.0" height="26.0" zOrder="33142" />
+  <Label elementID="b7ec8" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1488.1560350711409" centerY="863.5995694860036" width="32.0" height="26.0" zOrder="33143" />
+  <Label elementID="a8831" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2000.7175933217848" centerY="1209.5343623667768" width="32.0" height="26.0" zOrder="33144" />
+  <Label elementID="d3f7c" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1922.0941880611133" centerY="877.5373024623292" width="32.0" height="26.0" zOrder="33145" />
+  <Label elementID="a889f" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1652.194308815038" centerY="950.898356696592" width="32.0" height="26.0" zOrder="33147" />
+  <Label elementID="de076" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1568.5083215204502" centerY="882.8503701370292" width="32.0" height="26.0" zOrder="33148" />
+  <Label elementID="d3cd0" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1580.5094240562828" centerY="864.5292697012653" width="32.0" height="26.0" zOrder="33149" />
+  <Label elementID="ccdc8" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1883.2237097705674" centerY="948.953063474562" width="32.0" height="26.0" zOrder="33158" />
+  <Label elementID="c4000" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1801.1727831154512" centerY="894.7294062057013" width="32.0" height="26.0" zOrder="33159" />
+  <Label elementID="fbe2a" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1726.5347823804275" centerY="935.0081902661838" width="32.0" height="26.0" zOrder="33160" />
+  <Label elementID="f51f5" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1319.082165170368" centerY="1090.2804116133773" width="32.0" height="26.0" zOrder="33167" />
+  <Label elementID="f568c" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1536.358901664306" centerY="1101.3829474457918" width="32.0" height="26.0" zOrder="33168" />
+  <Label elementID="f8d6c" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2754.5848165065418" centerY="1101.5053289231905" width="32.0" height="26.0" zOrder="33173" />
+  <Label elementID="ab2bd" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2755.7645298472257" centerY="1122.1205439176779" width="32.0" height="26.0" zOrder="33174" />
+  <Label elementID="c3f64" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2449.0247283036742" centerY="943.8449099595728" width="32.0" height="26.0" zOrder="33175" />
+  <Label elementID="c8d08" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2449.0247283036742" centerY="963.8449099595728" width="32.0" height="26.0" zOrder="33176" />
+  <Label elementID="d45c7" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2449.0247283036742" centerY="1005.8449099595728" width="32.0" height="26.0" zOrder="33179" />
+  <Label elementID="d91a8" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2449.0247283036742" centerY="983.8449099595728" width="32.0" height="26.0" zOrder="33180" />
+  <Label elementID="e2d2e" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2449.0247283036742" centerY="1023.8449099595728" width="32.0" height="26.0" zOrder="33181" />
+  <Label elementID="d428e" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2449.0247283036742" centerY="1063.8449099595728" width="32.0" height="26.0" zOrder="33182" />
+  <Label elementID="f653b" textLabel="TT" color="cc0033" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="2449.0247283036742" centerY="1043.8449099595728" width="32.0" height="26.0" zOrder="33183" />
+  <Label elementID="d025e" textLabel="GLOMERULAR &#xA;BASEMENT &#xA;MEMBRANE" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1815.4166828804266" centerY="666.8637410862859" width="131.30252100840056" height="72.47899159663882" zOrder="33186" />
+  <Label elementID="c3709" textLabel="NORMAL&#xA;EPITOPES" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="2413.658765159868" centerY="911.8700988680489" width="101.31753031973555" height="59.74019773609757" zOrder="33187" />
+  <Label elementID="aec40" textLabel="PAX" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="409.5" centerY="1128.5" width="41.0" height="23.0" zOrder="33188" />
+  <Label elementID="ed59b" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1573.716123274008" centerY="1167.688349871371" width="32.0" height="26.0" zOrder="33189" />
+  <Label elementID="e26fd" textLabel="ANTICLA4" color="37ff00" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="1290.0" centerY="1040.0" width="82.0" height="24.0" zOrder="33194" />
+  <Label elementID="d6693" textLabel="TT" color="0000ff" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1497.194308815038" centerY="911.898356696592" width="32.0" height="26.0" zOrder="33197" />
+  <Label elementID="a0f59" textLabel="Proteins involved in Podocyte cytoskeleton" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="762.8771750904411" centerY="1145.351335972502" width="317.6025236593068" height="43.64879074658302" zOrder="33208" />
+  <Label elementID="d259d" textLabel="Y-SECRETASE" color="0000ff" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="1866.5" centerY="877.0" width="103.0" height="28.0" zOrder="33220" />
+  <Shape elementID="c0905" shapeType="RoundedRectangle" lineStyle="Broken" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="461.6469505783386" centerY="1047.5084121976865" width="476.84069400630926" height="273.0168243953731" zOrder="-35" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Extracellular region" />
+  </Shape>
+  <Shape elementID="ce62c" shapeType="Oval" color="cc0000" fontSize="10" vAlign="Middle" centerX="1565.600882028666" centerY="980.7056229327452" width="507.16648291069396" height="435.50165380374847" zOrder="-31" rotation="0.0" />
+  <Shape elementID="c271a" shapeType="Arc" color="cc0033" fontSize="14" vAlign="Middle" centerX="2047.5932674422236" centerY="971.2868921434007" width="418.8289553061181" height="310.29987279800747" zOrder="-27" rotation="1.5606313979174786" />
+  <Shape elementID="b9c64" shapeType="Oval" color="cc0000" fontSize="10" vAlign="Middle" centerX="453.5" centerY="982.5" width="593.0" height="471.0" zOrder="-17" rotation="0.0" />
+  <Shape elementID="a3f82" shapeType="Oval" lineThickness="3.0" color="ffff00" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="489.4878911150801" centerY="854.2666736033709" width="14.519056261343138" height="13.611615245009034" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a87e5" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="158.14094775212638" centerY="730.0" width="204.28189550425276" height="106.0" zOrder="16384" rotation="0.0" />
+  <Shape elementID="b0b0f" shapeType="Oval" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1465.9446812579483" centerY="1208.7647327553527" width="41.04040992493765" height="20.4446460980023" zOrder="16384" rotation="0.0" />
+  <Shape elementID="b9a0e" textLabel="P" shapeType="Oval" lineThickness="3.0" fontSize="14" vAlign="Middle" centerX="1739.0674384417457" centerY="1099.551241665353" width="17.85714285714289" height="16.90476190476174" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c8a91" shapeType="Oval" color="0000ff" fillColor="0000ff" fontSize="10" vAlign="Middle" centerX="1302.2735460949887" centerY="906.0433366282218" width="50.78709560916457" height="21.9759343289477" zOrder="16384" rotation="0.5575805049519728" />
+  <Shape elementID="cbad2" shapeType="Arc" color="0000ff" fontSize="10" vAlign="Middle" centerX="1317.579358313745" centerY="916.2231645080144" width="22.8441103864812" height="25.308975345010445" zOrder="16384" rotation="5.34889719617264" />
+  <Shape elementID="d4eac" shapeType="RoundedRectangle" color="000099" fillColor="000099" fontSize="10" vAlign="Middle" centerX="1975.675921467741" centerY="1176.9621211066667" width="41.507588672096375" height="7.740775575792059" zOrder="16384" rotation="1.5707963267948966" />
+  <Shape elementID="d6aab" shapeType="RoundedRectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1534.2838069301683" centerY="1262.4035281146637" width="95.76225045372054" height="22.0507166482912" zOrder="16384" rotation="0.0" />
+  <Shape elementID="d9e7f" shapeType="Rectangle" color="66cc00" fillColor="66cc00" fontSize="10" vAlign="Middle" centerX="1457.2515721211935" centerY="832.5122321352944" width="24.07441016333929" height="13.18511796733219" zOrder="16384" rotation="5.948475966109504" />
+  <Shape elementID="db50a" shapeType="Oval" color="0000ff" fillColor="0000ff" fontSize="10" vAlign="Middle" centerX="1283.893617298007" centerY="1005.0409687203229" width="16.814882032667857" height="16.814882032667363" zOrder="16384" rotation="0.0" />
+  <Shape elementID="eab16" shapeType="Arc" color="cc0033" fontSize="10" vAlign="Middle" centerX="1134.9346280248333" centerY="979.0210006300975" width="415.94198800816906" height="260.1799897313374" zOrder="16384" rotation="4.721328933660919" />
+  <Shape elementID="f60fb" shapeType="RoundedRectangle" color="66cc00" fillColor="66cc00" fontSize="10" vAlign="Middle" centerX="1674.834967448939" centerY="912.179345828739" width="71.91666666666674" height="22.815141492097567" zOrder="16384" rotation="0.0" />
+  <Shape elementID="ff6e7" shapeType="RoundedRectangle" color="66cc00" fillColor="66cc00" fontSize="10" vAlign="Middle" centerX="1675.974562923294" centerY="869.7044153934993" width="70.23809523809484" height="19.04761904761895" zOrder="16384" rotation="0.0" />
+  <Shape elementID="e5710" shapeType="Oval" lineThickness="3.0" color="ff00ff" fontSize="10" vAlign="Middle" centerX="2767.446382219068" centerY="968.106680334035" width="133.33818891443076" height="120.96635267261308" zOrder="16390" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="c3bb8" shapeType="Oval" color="cc0000" fontSize="10" vAlign="Middle" centerX="2640.5" centerY="984.5644983461959" width="511.0" height="443.21940463064993" zOrder="16392" rotation="0.0" />
+  <Shape elementID="c7c6a" shapeType="Oval" color="cc0000" fontSize="10" vAlign="Middle" centerX="1617.8687982359422" centerY="514.7486218302097" width="510.47409040793764" height="185.49724366041937" zOrder="32992" rotation="0.0" />
+  <Shape elementID="a14f0" shapeType="Oval" lineThickness="3.0" color="ff00ff" fontSize="10" vAlign="Middle" centerX="1453.2917550702964" centerY="513.5705622932765" width="134.5835101405928" height="95.1411245865529" zOrder="32994" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="e64c3" shapeType="Oval" lineThickness="3.0" color="ffff00" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="464.5332631658969" centerY="861.9799222422096" width="15.4264972776773" height="16.333938294010807" zOrder="33048" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="e5bae" shapeType="Oval" lineThickness="3.0" color="ffff00" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="469.3832991044604" centerY="889.5055441377506" width="13.93447547904497" height="14.254679600979102" zOrder="33049" rotation="6.218635247038952">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b1b8b" shapeType="Oval" lineThickness="3.0" color="ffff00" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="495.41348095174106" centerY="938.658688122425" width="13.557168784029273" height="15.426497277677242" zOrder="33050" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c89ec" shapeType="Oval" lineThickness="3.0" color="ffff00" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="482.6820834925758" centerY="871.9708478320467" width="13.611615245009034" height="12.686025408347177" zOrder="33051" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="ec2ae" shapeType="Oval" lineThickness="3.0" color="663300" fillColor="663300" fontSize="10" vAlign="Middle" centerX="366.9168744220652" centerY="1031.1026403264946" width="13.93447547904497" height="14.254679600979102" zOrder="33052" rotation="6.218635247038952">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f0a6f" shapeType="Oval" lineThickness="3.0" color="663300" fillColor="663300" fontSize="10" vAlign="Middle" centerX="411.6954588140807" centerY="963.9520051177851" width="13.93447547904497" height="14.254679600979102" zOrder="33053" rotation="6.218635247038952">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="dbe07" shapeType="Oval" lineThickness="3.0" color="ffff00" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="549.3408856704353" centerY="996.234005726779" width="13.557168784029273" height="15.426497277677242" zOrder="33059" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b97da" shapeType="Oval" lineThickness="3.0" color="ffff00" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="595.2682903891296" centerY="1041.2358206088095" width="13.557168784029273" height="15.426497277677242" zOrder="33060" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c5e2b" shapeType="Oval" lineThickness="3.0" color="ffff00" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="501.75649365591545" centerY="887.4154939300503" width="13.611615245009034" height="12.686025408347177" zOrder="33062" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a8a03" shapeType="Oval" lineThickness="3.0" color="ffff00" fillColor="ffff00" fontSize="10" vAlign="Middle" centerX="508.12672959057977" centerY="868.3773814073652" width="13.611615245009034" height="12.686025408347177" zOrder="33063" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c9094" shapeType="Oval" lineThickness="3.0" color="663300" fillColor="663300" fontSize="10" vAlign="Middle" centerX="568.2925550028314" centerY="1014.1389379671486" width="13.93447547904497" height="14.254679600979102" zOrder="33064" rotation="6.218635247038952">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="e9e44" shapeType="Oval" lineThickness="3.0" color="663300" fillColor="663300" fontSize="10" vAlign="Middle" centerX="531.0693245128126" centerY="1077.3258708165117" width="13.93447547904497" height="14.254679600979102" zOrder="33065" rotation="6.218635247038952">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="ec356" shapeType="Oval" lineThickness="3.0" color="663300" fillColor="663300" fontSize="10" vAlign="Middle" centerX="509.7353862188009" centerY="1110.9011884208662" width="13.93447547904497" height="14.254679600979102" zOrder="33066" rotation="6.218635247038952">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a8042" shapeType="Oval" color="0000ff" fillColor="0000ff" fontSize="10" vAlign="Middle" centerX="1300.4375126311388" centerY="1009.9228224917308" width="16.531034082564474" height="19.84564498346205" zOrder="33077" rotation="0.0" />
+  <Shape elementID="be68c" shapeType="Rectangle" color="00cccc" fontSize="10" vAlign="Middle" centerX="1608.8265954396697" centerY="1276.296920303249" width="860.9229971480424" height="106.17059891107101" zOrder="33085" rotation="0.0" />
+  <Shape elementID="a06f7" shapeType="Rectangle" color="66cc00" fillColor="66cc00" fontSize="10" vAlign="Middle" centerX="1422.2282419732194" centerY="863.7047738534255" width="24.50090744101647" height="7.259528130671467" zOrder="33089" rotation="0.0" />
+  <Shape elementID="a2700" shapeType="Rectangle" color="66cc00" fillColor="66cc00" fontSize="10" vAlign="Middle" centerX="1429.8442898010346" centerY="844.2751503421146" width="19.482758620689765" height="8.702359346644243" zOrder="33091" rotation="5.869881071859111" />
+  <Shape elementID="be3a3" shapeType="Rectangle" color="66cc00" fillColor="66cc00" fontSize="10" vAlign="Middle" centerX="1446.014612625547" centerY="853.6177077297517" width="12.70417422867503" height="14.519056261343167" zOrder="33092" rotation="0.0" />
+  <Shape elementID="b88b8" shapeType="Rectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1547.5" centerY="1203.1529923542835" width="11.0" height="46.30598470856694" zOrder="33097" rotation="0.0" />
+  <Shape elementID="e06a5" shapeType="Oval" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1525.1602278707458" centerY="1225.1943694635575" width="22.757059931127458" height="15.925589836659121" zOrder="33098" rotation="0.0" />
+  <Shape elementID="ff33b" shapeType="Oval" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1556.2301214333586" centerY="1220.9572121192243" width="29.19097543948025" height="16.63049753242133" zOrder="33099" rotation="5.767053937739983" />
+  <Shape elementID="a46ab" shapeType="Rectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1529.768467475193" centerY="1202.4243782478304" width="12.12789415656016" height="43.21700346368743" zOrder="33100" rotation="0.0" />
+  <Shape elementID="cd57d" shapeType="RoundedRectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1641.3992197827206" centerY="1234.9787441934857" width="78.26419497018327" height="17.697260392361752" zOrder="33101" rotation="0.0" />
+  <Shape elementID="afd87" shapeType="Rectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1625.1378169790519" centerY="1195.9958068192589" width="13.230429988974265" height="32.564932271373436" zOrder="33102" rotation="0.0" />
+  <Shape elementID="a439e" shapeType="Oval" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1618.3976773021031" centerY="1215.1887764362896" width="26.321823075133352" height="15.925589836659121" zOrder="33103" rotation="0.06249114805170237" />
+  <Shape elementID="ad97b" shapeType="Rectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1645.8842926233588" centerY="1193.2734837702544" width="12.827019645835662" height="29.325357838193668" zOrder="33104" rotation="0.0" />
+  <Shape elementID="b5592" shapeType="Oval" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1652.5104334021264" centerY="1218.5710389109747" width="31.770409013750665" height="19.670659257009127" zOrder="33105" rotation="0.7275700623446956" />
+  <Shape elementID="e715d" shapeType="Oval" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="1681.2476161033326" centerY="1207.2767364939364" width="39.45223330920089" height="19.845644983461632" zOrder="33106" rotation="0.0" />
+  <Shape elementID="c9dad" shapeType="RoundedRectangle" color="000099" fillColor="000099" fontSize="10" vAlign="Middle" centerX="1961.1791883236217" centerY="1176.9489892611618" width="41.48132498108603" height="7.6190476190477785" zOrder="33113" rotation="1.5707963267948966" />
+  <Shape elementID="a7e51" shapeType="RoundedRectangle" color="000099" fillColor="000099" fontSize="10" vAlign="Middle" centerX="1786.1063903160864" centerY="878.7539876193819" width="27.04501415480917" height="11.956728309132355" zOrder="33118" rotation="5.758312988843803" />
+  <Shape elementID="ee69f" shapeType="RoundedRectangle" color="000099" fillColor="000099" fontSize="10" vAlign="Middle" centerX="1753.7343632252048" centerY="851.5470783948308" width="27.04501415480917" height="11.956728309132355" zOrder="33121" rotation="3.671339054742618" />
+  <Shape elementID="a0f9a" textLabel="+" shapeType="Oval" lineThickness="3.0" fontSize="14" vAlign="Middle" centerX="1833.5170893054035" centerY="826.2622722738472" width="19.84564498346218" height="18.56644090932558" zOrder="33123" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a7015" textLabel="P" shapeType="Oval" lineThickness="3.0" fontSize="14" vAlign="Middle" centerX="1675.8244080432582" centerY="891.6145587231557" width="17.85714285714289" height="16.90476190476174" zOrder="33124" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a0668" shapeType="RoundedRectangle" color="66cc00" fillColor="66cc00" fontSize="10" vAlign="Middle" centerX="1539.2133931852768" centerY="913.6748569328497" width="70.23809523809484" height="23.333333333333098" zOrder="33128" rotation="0.0" />
+  <Shape elementID="cd612" textLabel="-" shapeType="Oval" lineThickness="3.0" fontSize="14" vAlign="Middle" centerX="1763.56788470625" centerY="766.3250118128798" width="17.85714285714289" height="16.90476190476174" zOrder="33129" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c4421" shapeType="Rectangle" color="66cc00" fillColor="66cc00" fontSize="10" vAlign="Middle" centerX="1540.2226072347325" centerY="824.5650233632588" width="11.428571428571331" height="10.476190476190652" zOrder="33131" rotation="0.0" />
+  <Shape elementID="c3bd2" shapeType="Rectangle" color="66cc00" fillColor="66cc00" fontSize="10" vAlign="Middle" centerX="1558.2921194938842" centerY="826.7659949402066" width="10.476190476190311" height="14.577823870019618" zOrder="33132" rotation="0.0" />
+  <Shape elementID="ddd67" shapeType="Rectangle" color="66cc00" fillColor="66cc00" fontSize="10" vAlign="Middle" centerX="1522.0021525699585" centerY="826.3063425015027" width="14.235837664724386" height="16.44950969980823" zOrder="33133" rotation="0.0" />
+  <Shape elementID="f8670" shapeType="RoundedRectangle" color="000099" fillColor="000099" fontSize="10" vAlign="Middle" centerX="1828.5194518821827" centerY="1015.9415498098738" width="46.66666666666674" height="9.788281538160192" zOrder="33156" rotation="0.0" />
+  <Shape elementID="c510c" shapeType="Rectangle" color="00cccc" fontSize="10" vAlign="Middle" centerX="448.0" centerY="1275.6817053087616" width="584.0" height="106.17059891107101" zOrder="33169" rotation="0.0" />
+  <Shape elementID="fa8f3" shapeType="Rectangle" color="00cccc" fontSize="10" vAlign="Middle" centerX="1611.9845644983407" centerY="656.047409040792" width="509.37155457552245" height="77.10033076075342" zOrder="33185" rotation="0.0" />
+  <Shape elementID="f6e63" shapeType="Rectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="377.0" centerY="1193.0" width="12.0" height="104.0" zOrder="33198" rotation="0.0" />
+  <Shape elementID="ca73c" shapeType="Rectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="397.0" centerY="1193.5" width="12.0" height="101.0" zOrder="33199" rotation="0.0" />
+  <Shape elementID="e16bc" shapeType="Rectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="281.0" centerY="1201.4079382579935" width="12.0" height="91.18412348401307" zOrder="33200" rotation="0.0" />
+  <Shape elementID="b2f2c" shapeType="Rectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="301.0" centerY="1200.9079382579935" width="12.0" height="90.18412348401307" zOrder="33202" rotation="0.0" />
+  <Shape elementID="c75f0" shapeType="Rectangle" color="009999" fillColor="009999" fontSize="10" vAlign="Middle" centerX="470.5" centerY="1178.0" width="31.0" height="142.0" zOrder="33210" rotation="0.0" />
+  <Shape elementID="ff0a8" shapeType="Rectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="550.5" centerY="1194.0" width="11.0" height="96.0" zOrder="33212" rotation="0.0" />
+  <Shape elementID="bb8cc" shapeType="Rectangle" color="cc00ff" fillColor="cc00ff" fontSize="10" vAlign="Middle" centerX="570.0" centerY="1194.0" width="10.0" height="96.0" zOrder="33213" rotation="0.0" />
+  <Group elementID="b4cb3" groupType="Group" />
+  <Group elementID="dccd4" groupType="Group" />
+  <Group elementID="ec9d8" groupType="Group" />
+  <Group elementID="fb721" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Repair problems in podocytes: Wnt, Notch, and glomerulosclerosis." URL="" citationID="ed0" year="2012" source="Semin Nephrol">
+      <Xref dataSource="PubMed" identifier="22958489" />
+      <Author name="Kato H" />
+      <Author name="Susztak K" />
+    </Citation>
+    <Citation title="Therapeutic approach to focal and segmental glomerulosclerosis recurrence in kidney transplant recipients." URL="" citationID="c7e" year="2010" source="Transplant Rev (Orlando)">
+      <Xref dataSource="PubMed" identifier="20537521" />
+      <Author name="Canaud G" />
+      <Author name="Martinez F" />
+      <Author name="Noط·آ£ط¢آ«l LH" />
+      <Author name="Mamzer MF" />
+      <Author name="Niaudet P" />
+      <Author name="Legendre C" />
+    </Citation>
+    <Citation title="Problems with 'focal segmental glomerulosclerosis'." URL="" citationID="b0a" year="2011" source="Pediatr Nephrol">
+      <Xref dataSource="PubMed" identifier="21125407" />
+      <Author name="Howie AJ" />
+    </Citation>
+    <Citation title="Mechanism of podocyte detachment: Targeting transmembrane molecules between podocytes and glomerular basement membrane" URL="" citationID="db3" year="2013" source="Biomedicine &amp; Aging Pathology">
+      <Xref dataSource="PubMed" identifier="" />
+      <Author name="Hu, G" />
+      <Author name="Jiao,B" />
+    </Citation>
+    <Citation title="Focal segmental glomerulosclerosis is induced by microRNA-193a and its downregulation of WT1." URL="" citationID="f3c" year="2013" source="Nat Med">
+      <Xref dataSource="PubMed" identifier="23502960" />
+      <Author name="Gebeshuber CA" />
+      <Author name="Kornauth C" />
+      <Author name="Dong L" />
+      <Author name="Sierig R" />
+      <Author name="Seibler J" />
+      <Author name="Reiss M" />
+      <Author name="Tauber S" />
+      <Author name="Bilban M" />
+      <Author name="Wang S" />
+      <Author name="Kain R" />
+      <Author name="Bط·آ£ط¢آ¶hmig GA" />
+      <Author name="Moeller MJ" />
+      <Author name="Grط·آ£ط¢آ¶ne HJ" />
+      <Author name="Englert C" />
+      <Author name="Martinez J" />
+      <Author name="Kerjaschki D" />
+    </Citation>
+    <Citation title="Toward the development of podocyte-specific drugs." URL="" citationID="b9b" year="2010" source="Kidney Int">
+      <Xref dataSource="PubMed" identifier="20130528" />
+      <Author name="Reiser J" />
+      <Author name="Gupta V" />
+      <Author name="Kistler AD" />
+    </Citation>
+    <Citation title="Focal and segmental glomerulosclerosis: multiple pathways are involved." URL="" citationID="f04" year="2011" source="Semin Nephrol">
+      <Xref dataSource="PubMed" identifier="21839365" />
+      <Author name="Meyrier A" />
+    </Citation>
+    <Citation title="Genetic causes of focal segmental glomerulosclerosis: implications for clinical practice." URL="" citationID="f59" year="2012" source="Nephrol Dial Transplant">
+      <Xref dataSource="PubMed" identifier="22334613" />
+      <Author name="Rood IM" />
+      <Author name="Deegens JK" />
+      <Author name="Wetzels JF" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="renal failure pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000301" />
+    <OntologyTerm term="glomerular capillary endothelial cell" ontology="Cell Type" ontologyTermID="CL:1001005" />
+  </OntologyTerms>
+</Pathway>
+

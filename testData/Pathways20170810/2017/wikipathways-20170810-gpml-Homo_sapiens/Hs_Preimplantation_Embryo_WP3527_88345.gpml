@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Preimplantation Embryo" revision="20150930" organism="Homo sapiens" width="1296.3333333333323" height="623.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">The source of this pathway is RNA-Seq data from single-cell pre-implantation embryos (Supplemental Table 1): http://www.nature.com/nsmb/journal/v20/n9/full/nsmb.2660.html
+
+Analysis options for running the single-cell analysis workflow in AltAnalyze (ICGS):
+* For optimal filtering (not too restrictive), change the Fold change filter cutoff from 10 to 100 and the Minimum number of samples differing from 3 to 2.
+* Change the Select the column clustering method to hopach.
+* The final ICGS cell cluster groups (hopach) were further analyzed to identify genes with restricted expression in one of the identified sub-populations using the MarkerFinder algorithm in AltAnalyze (RPKM&gt;1). 
+* MarkerFinder identified genes for each sub-population (e.g., 8-cell pattern 1) were further filtered for DNA-binding and RNA-binding factors, that are reported in this pathway.</Comment>
+  <CitationRef citationID="b12" />
+  <CitationRef citationID="dcd" />
+  <DataNode elementID="a09bb" textLabel="H2AFY2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1101.0" centerY="281.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000099284" />
+  </DataNode>
+  <DataNode elementID="a09f7" textLabel="BARX2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="468.0" centerY="222.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000043039" />
+  </DataNode>
+  <DataNode elementID="a3c28" textLabel="TEAD4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="758.0" centerY="27.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000197905" />
+  </DataNode>
+  <DataNode elementID="a52dc" textLabel="DDIT3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="831.0" centerY="347.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000175197" />
+  </DataNode>
+  <DataNode elementID="a6f36" textLabel="IRX5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="692.0" centerY="239.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000176842" />
+  </DataNode>
+  <DataNode elementID="a7e86" textLabel="NR3C2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="468.0" centerY="242.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000151623" />
+  </DataNode>
+  <DataNode elementID="a91f4" textLabel="SIX3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="583.0" centerY="260.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138083" />
+  </DataNode>
+  <DataNode elementID="abd15" textLabel="E2F5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1036.0" centerY="477.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000133740" />
+  </DataNode>
+  <DataNode elementID="ac422" textLabel="KHSRP" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="329.0" centerY="468.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000088247" />
+  </DataNode>
+  <DataNode elementID="b0fbb" textLabel="DPPA3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="195.0" centerY="428.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000187569" />
+  </DataNode>
+  <DataNode elementID="b15b7" textLabel="ZFP36L2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="195.0" centerY="488.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000152518" />
+  </DataNode>
+  <DataNode elementID="b376a" textLabel="NLRP5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="195.0" centerY="448.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000171487" />
+  </DataNode>
+  <DataNode elementID="ba6fc" textLabel="CELF3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1101.0" centerY="261.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000159409" />
+  </DataNode>
+  <DataNode elementID="bc588" textLabel="NANOGNB" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="831.0" centerY="219.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000205857" />
+  </DataNode>
+  <DataNode elementID="c0dfb" textLabel="MIR290" groupRef="bb7d6" color="9900cc" fontSize="10" vAlign="Middle" type="Rna" centerX="464.0" centerY="563.0" width="80.0" height="20.0" zOrder="32768">
+    <CitationRef citationID="e10" />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c110b" textLabel="BATF3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="831.0" centerY="259.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000123685" />
+  </DataNode>
+  <DataNode elementID="c12a8" textLabel="FOXD1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="583.0" centerY="220.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000251493" />
+  </DataNode>
+  <DataNode elementID="c1e7d" textLabel="PADI6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="195.0" centerY="508.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000276747" />
+  </DataNode>
+  <DataNode elementID="c694b" textLabel="NKX2-1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="583.0" centerY="300.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000136352" />
+  </DataNode>
+  <DataNode elementID="ca3e4" textLabel="GATA3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1101.0" centerY="241.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000107485" />
+  </DataNode>
+  <DataNode elementID="cb6d0" textLabel="ELAVL1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="329.0" centerY="428.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000066044" />
+  </DataNode>
+  <DataNode elementID="cc020" textLabel="ZAR1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="195.0" centerY="468.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000182223" />
+  </DataNode>
+  <DataNode elementID="cd487" textLabel="ZSCAN4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="464.0" centerY="429.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000180532" />
+  </DataNode>
+  <DataNode elementID="d1cf4" textLabel="EGR1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1036.0" centerY="497.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000120738" />
+  </DataNode>
+  <DataNode elementID="d46d8" textLabel="ARGFX" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="831.0" centerY="279.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000186103" />
+  </DataNode>
+  <DataNode elementID="d7729" textLabel="HNRNPAB" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="692.0" centerY="259.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000197451" />
+  </DataNode>
+  <DataNode elementID="e9ad7" textLabel="ESRRA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1101.0" centerY="221.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000173153" />
+  </DataNode>
+  <DataNode elementID="ea8f8" textLabel="GATA2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1101.0" centerY="301.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000179348" />
+  </DataNode>
+  <DataNode elementID="ec367" textLabel="MYBL1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="831.0" centerY="327.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000185697" />
+  </DataNode>
+  <DataNode elementID="f0342" textLabel="IRF4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="583.0" centerY="280.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000137265" />
+  </DataNode>
+  <DataNode elementID="f1be7" textLabel="TPRX1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="693.0" centerY="320.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000178928" />
+  </DataNode>
+  <DataNode elementID="f580a" textLabel="DPRX" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="831.0" centerY="239.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000204595" />
+  </DataNode>
+  <DataNode elementID="f7930" textLabel="MOS" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="195.0" centerY="528.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000172680" />
+  </DataNode>
+  <DataNode elementID="f9b8b" textLabel="LEUTX" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="692.0" centerY="219.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000213921" />
+  </DataNode>
+  <DataNode elementID="fad79" textLabel="ZFP36" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="329.0" centerY="448.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000128016" />
+  </DataNode>
+  <DataNode elementID="ff128" textLabel="DLX2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="583.0" centerY="240.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000115844" />
+  </DataNode>
+  <DataNode elementID="ef014" textLabel="MXD1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="197.0" centerY="254.0" width="80.0" height="20.0" zOrder="32769">
+    <Xref dataSource="Ensembl" identifier="ENSG00000059728" />
+  </DataNode>
+  <DataNode elementID="aa767" textLabel="FOXQ1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="197.0" centerY="234.0" width="80.0" height="20.0" zOrder="32770">
+    <Xref dataSource="Ensembl" identifier="ENSG00000164379" />
+  </DataNode>
+  <DataNode elementID="f20ad" textLabel="TFAP2B" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="197.0" centerY="274.0" width="80.0" height="20.0" zOrder="32771">
+    <Xref dataSource="Ensembl" identifier="ENSG00000008196" />
+  </DataNode>
+  <DataNode elementID="a8f37" textLabel="HMGA1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1175.0" centerY="498.0" width="80.0" height="20.0" zOrder="32780">
+    <Xref dataSource="Ensembl" identifier="ENSG00000137309" />
+  </DataNode>
+  <DataNode elementID="b4f35" textLabel="PBX1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1175.0" centerY="478.0" width="80.0" height="20.0" zOrder="32781">
+    <Xref dataSource="Ensembl" identifier="ENSG00000185630" />
+  </DataNode>
+  <DataNode elementID="c5c65" textLabel="SOX11" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1175.0" centerY="538.0" width="80.0" height="20.0" zOrder="32783">
+    <Xref dataSource="Ensembl" identifier="ENSG00000176887" />
+  </DataNode>
+  <DataNode elementID="a8e32" textLabel="TCF7L1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1175.0" centerY="518.0" width="80.0" height="20.0" zOrder="32784">
+    <Xref dataSource="Ensembl" identifier="ENSG00000152284" />
+  </DataNode>
+  <DataNode elementID="d5cba" textLabel="FOSB" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1036.0" centerY="537.0" width="80.0" height="20.0" zOrder="32785">
+    <Xref dataSource="Ensembl" identifier="ENSG00000125740" />
+  </DataNode>
+  <DataNode elementID="afa6f" textLabel="MTA3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1036.0" centerY="517.0" width="80.0" height="20.0" zOrder="32786">
+    <Xref dataSource="Ensembl" identifier="ENSG00000057935" />
+  </DataNode>
+  <DataNode elementID="beff5" textLabel="SOX8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1036.0" centerY="557.0" width="80.0" height="20.0" zOrder="32787">
+    <Xref dataSource="Ensembl" identifier="ENSG00000005513" />
+  </DataNode>
+  <DataNode elementID="eb934" textLabel="SOX2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="755.0" centerY="500.0" width="80.0" height="20.0" zOrder="32791">
+    <Xref dataSource="Ensembl" identifier="ENSG00000181449" />
+  </DataNode>
+  <DataNode elementID="cfe68" textLabel="POU5F1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="755.0" centerY="480.0" width="80.0" height="20.0" zOrder="32792">
+    <Xref dataSource="Ensembl" identifier="ENSG00000204531" />
+  </DataNode>
+  <DataNode elementID="e0504" textLabel="NANOG" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="755.0" centerY="520.0" width="80.0" height="20.0" zOrder="32793">
+    <Xref dataSource="Ensembl" identifier="ENSG00000111704" />
+  </DataNode>
+  <DataNode elementID="a793d" textLabel="KLF4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="755.0" centerY="540.0" width="80.0" height="20.0" zOrder="32794">
+    <Xref dataSource="Ensembl" identifier="ENSG00000136826" />
+  </DataNode>
+  <DataNode elementID="bd31c" textLabel="DPPA3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="898.0" centerY="497.0" width="80.0" height="20.0" zOrder="32795">
+    <Xref dataSource="Ensembl" identifier="ENSG00000187569" />
+  </DataNode>
+  <DataNode elementID="b5f31" textLabel="DNMT3L" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="898.0" centerY="477.0" width="80.0" height="20.0" zOrder="32796">
+    <Xref dataSource="Ensembl" identifier="ENSG00000142182" />
+  </DataNode>
+  <DataNode elementID="cbdf6" textLabel="KLF4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="898.0" centerY="537.0" width="80.0" height="20.0" zOrder="32798">
+    <Xref dataSource="Ensembl" identifier="ENSG00000136826" />
+  </DataNode>
+  <DataNode elementID="fbb1e" textLabel="ZFP42" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="898.0" centerY="517.0" width="80.0" height="20.0" zOrder="32799">
+    <Xref dataSource="Ensembl" identifier="ENSG00000179059" />
+  </DataNode>
+  <DataNode elementID="b40bd" textLabel="TBX3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="898.0" centerY="557.0" width="80.0" height="20.0" zOrder="32800">
+    <Xref dataSource="Ensembl" identifier="ENSG00000135111" />
+  </DataNode>
+  <DataNode elementID="f9d36" textLabel="CDX2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="857.0" centerY="26.0" width="80.0" height="20.0" zOrder="32803">
+    <Xref dataSource="Ensembl" identifier="ENSG00000165556" />
+  </DataNode>
+  <DataNode elementID="cca6a" textLabel="SMARCA4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="464.0" centerY="449.0" width="80.0" height="20.0" zOrder="32807">
+    <Xref dataSource="Ensembl" identifier="ENSG00000127616" />
+  </DataNode>
+  <DataNode elementID="b1665" textLabel="CDH1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="464.0" centerY="469.0" width="80.0" height="20.0" zOrder="32808">
+    <Xref dataSource="Ensembl" identifier="ENSG00000039068" />
+  </DataNode>
+  <DataNode elementID="cb03e" textLabel="ATP1A1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="464.0" centerY="489.0" width="80.0" height="20.0" zOrder="32809">
+    <Xref dataSource="Ensembl" identifier="ENSG00000163399" />
+  </DataNode>
+  <DataNode elementID="b5428" textLabel="AQP3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="464.0" centerY="509.0" width="80.0" height="20.0" zOrder="32812">
+    <Xref dataSource="Ensembl" identifier="ENSG00000165272" />
+  </DataNode>
+  <DataNode elementID="f0fb3" textLabel="AQP9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="464.0" centerY="529.0" width="80.0" height="20.0" zOrder="32813">
+    <Xref dataSource="Ensembl" identifier="ENSG00000103569" />
+  </DataNode>
+  <DataNode elementID="f4a54" textLabel="MIR302A" color="9900cc" fontSize="10" vAlign="Middle" type="Rna" centerX="755.0" centerY="560.0" width="80.0" height="20.0" zOrder="32815">
+    <CitationRef citationID="b6b" />
+    <Xref dataSource="Ensembl" identifier="ENSG00000207927" />
+  </DataNode>
+  <DataNode elementID="c4124" textLabel="MIR295" groupRef="bb7d6" color="9900cc" fontSize="10" vAlign="Middle" type="Rna" centerX="464.0" centerY="583.0" width="80.0" height="20.0" zOrder="32816">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <Interaction elementID="id758c8bee" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="757.0" y="403.0" elementID="d3ea0" />
+    <Point x="757.0" y="442.0" elementID="a54fc" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9c8c1af8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1173.0" y="403.00000000000006" elementID="d4779" />
+    <Point x="758.0" y="403.0" elementID="a0d22" />
+  </Interaction>
+  <Interaction elementID="f5948" connectorType="Curved" zOrder="28865" lineStyle="Broken" lineThickness="0.5">
+    <Xref dataSource="" identifier="" />
+    <Point x="971.7083333333362" y="75.9166666666654" elementID="afb3e" elementRef="df427" relX="0.0" relY="-1.0" />
+    <Point x="959.4168289133814" y="129.0" elementID="a69f6" />
+    <Point x="947.1253244934267" y="344.83724317992346" elementID="ec1a2" elementRef="d4049" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e0132" zOrder="32788" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1037.0" y="403.0" elementID="fdbb2" />
+    <Point x="1037.0" y="442.0" elementID="d4641" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ecbb8" zOrder="32789" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="899.0" y="404.0" elementID="a0b6f" />
+    <Point x="899.0" y="442.0" elementID="e54e2" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="eab35" zOrder="32801" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1173.0" y="403.0" elementID="e6a19" />
+    <Point x="1173.0" y="442.0" elementID="be1bb" arrowHead="Arrow" />
+  </Interaction>
+  <GraphicalLine elementID="id3006abb4" zOrder="12288" lineThickness="2.0" color="0000ff">
+    <Point x="114.0" y="202.0" elementID="b322c" />
+    <Point x="82.0" y="202.0" elementID="ef328" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id3c203a85" zOrder="12288" lineThickness="1.0">
+    <Point x="394.0" y="191.0" elementID="c630d" />
+    <Point x="9.0" y="191.0" elementID="f187f" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id66939fdc" zOrder="12288" lineThickness="2.0" color="0000ff">
+    <Point x="82.0" y="202.0" elementID="ec913" />
+    <Point x="81.99999999999999" y="319.0" elementID="f8ada" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id77bb51b2" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <CitationRef citationID="c2a" />
+    <Point x="758.0" y="37.0" elementID="fdf34" elementRef="a3c28" relX="0.0" relY="1.0" />
+    <Point x="784.7499999999993" y="125.249999999999" elementID="f258b" elementRef="a8961" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="d357f" connectorType="Elbow" zOrder="32804" lineThickness="1.0">
+    <CitationRef citationID="c2a" />
+    <Point x="897.0" y="26.0" elementID="cf7d7" elementRef="f9d36" relX="1.0" relY="0.0" />
+    <Point x="910.0" y="62.6666666666667" elementID="ae9b5" />
+    <Point x="934.3333333333338" y="99.3333333333334" elementID="bcf2e" elementRef="a9d9d" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="d6082" zOrder="32805" lineThickness="2.0" color="0000ff">
+    <Point x="115.0" y="319.0" elementID="f9a54" />
+    <Point x="83.0" y="319.0" elementID="a35fa" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id90010c38" zOrder="32817" lineThickness="1.0">
+    <Point x="643.0" y="125.5" elementID="fb5a8" arrowHead="Arrow" />
+    <Point x="674.0" y="126.0" elementID="e4c8b" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="e2296" zOrder="32818" lineThickness="1.0">
+    <Point x="611.5" y="144.5" elementID="dd3f4" arrowHead="Arrow" />
+    <Point x="641.5" y="159.0" elementID="e5e47" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="d2f3b" zOrder="32819" lineThickness="1.0">
+    <Point x="805.5" y="120.5" elementID="b744f" arrowHead="Arrow" />
+    <Point x="834.5" y="135.5" elementID="abcbc" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="e6b82" zOrder="32820" lineThickness="1.0">
+    <Point x="861.0" y="101.5" elementID="ca864" arrowHead="Arrow" />
+    <Point x="878.0" y="130.5" elementID="d5772" arrowHead="Arrow" />
+  </GraphicalLine>
+  <Label elementID="a06bc" textLabel="DNA-binding" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="198.5" centerY="212.0" width="109.0" height="20.0" zOrder="28672" />
+  <Label elementID="cdeeb" textLabel="Oocyte" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="71.0" centerY="60.333333333333115" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="ffa1f" textLabel="single-cell&#xA;RNA-Seq&#xA;Defined" color="0000ff" fillColor="ffffff" fontName="Arial Black" fontSize="13" vAlign="Middle" align="Right" centerX="31.0" centerY="259.0" width="104.0" height="114.0" zOrder="28672">
+    <Comment>Preimplantation-SingleCel dataset GSE36552
+
+Source Deep Human Preimplantation single-cell data (Supplemental Table 1):  http://www.nature.com/nsmb/journal/v20/n9/full/nsmb.2660.html
+
+Analysis options for running the single-cell analysis workflow in AltAnalyze (ICGS):
+1. For optimal filtering (not too restrictive), change the Fold change filter cutoff from 10 to 100 and the Minimum number of samples differing from 3 to 2.
+2. Change the Select the column clustering method to hopach.
+3. The final ICGS cell cluster groups (hopach) were further analyzed to identify genes with restricted expression in one of the identified sub-populations using the MarkerFinder algorithm in AltAnalyze (RPKM&gt;1). 
+4. MarkerFinder identified genes for each sub-population (e.g., 8-cell pattern 1) were further filtered for DNA-binding and RNA-binding factors, that are reported in this pathway.</Comment>
+  </Label>
+  <Label elementID="c0557" textLabel="1-cell" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="203.0" centerY="60.333333333333115" width="80.0" height="20.0" zOrder="28677" />
+  <Label elementID="a2105" textLabel="2-cell" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="335.66666666666765" centerY="60.333333333333115" width="80.0" height="20.0" zOrder="28689" />
+  <Label elementID="c24e9" textLabel="4-cell" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="468.3333333333326" centerY="60.333333333333115" width="80.0" height="20.0" zOrder="28694" />
+  <Label elementID="f663a" textLabel="8-16-cell" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="640.3333333333304" centerY="60.333333333333115" width="80.0" height="20.0" zOrder="28701" />
+  <Label elementID="e2a74" textLabel="16-32-cell" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="840.3333333333338" centerY="60.333333333333115" width="80.0" height="20.0" zOrder="28721" />
+  <Label elementID="b76f0" textLabel="Early blastocyst" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="970.3333333333353" centerY="60.333333333333115" width="118.66666666666286" height="20.0" zOrder="28766" />
+  <Label elementID="ad958" textLabel="Late blastocyst" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1099.0000000000055" centerY="60.333333333333115" width="118.66666666666286" height="20.0" zOrder="28826" />
+  <Label elementID="f4d17" textLabel="TE" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1007.6666666666658" centerY="20.257685297565217" width="30.666666666665954" height="20.0" zOrder="28847" />
+  <Label elementID="eac0c" textLabel="ICM" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1070.999999999999" centerY="20.257685297565217" width="30.666666666665954" height="20.0" zOrder="28848" />
+  <Label elementID="a7590" textLabel="PE" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1132.3333333333323" centerY="20.257685297565217" width="30.666666666665954" height="20.0" zOrder="28849" />
+  <Label elementID="f941e" textLabel="EPI" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1190.9999999999989" centerY="20.257685297565217" width="30.666666666665954" height="20.0" zOrder="28851" />
+  <Label elementID="bb503" textLabel="ESC" fillColor="ffffff" fontSize="14" vAlign="Middle" centerX="1250.9999999999993" centerY="20.92435196423193" width="30.666666666665954" height="20.0" zOrder="28853" />
+  <Label elementID="db092" textLabel="DNA-binding" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="465.5" centerY="199.0" width="109.0" height="20.0" zOrder="32772" />
+  <Label elementID="b0fda" textLabel="8-cell pattern 1" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="583.5" centerY="199.0" width="109.0" height="20.0" zOrder="32773" />
+  <Label elementID="bcfe2" textLabel="8-cell pattern 2" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="693.5" centerY="198.0" width="109.0" height="20.0" zOrder="32774" />
+  <Label elementID="a0f59" textLabel="8-cell pattern 3" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="694.5" centerY="300.0" width="109.0" height="20.0" zOrder="32775" />
+  <Label elementID="c1ba9" textLabel="Morulae pattern 1" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="831.0" centerY="199.0" width="129.0" height="20.0" zOrder="32776" />
+  <Label elementID="bceb2" textLabel="Morulae pattern 2" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="831.0" centerY="306.0" width="129.0" height="20.0" zOrder="32777" />
+  <Label elementID="bc26b" textLabel="Late blastocyst" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="1100.5" centerY="202.0" width="129.0" height="20.0" zOrder="32778" />
+  <Label elementID="da0ec" textLabel="hESC Early Passage" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="1038.5" centerY="458.0" width="151.0" height="20.0" zOrder="32779" />
+  <Label elementID="a6ec9" textLabel="hESC Late Passage" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="1177.5" centerY="459.0" width="151.0" height="20.0" zOrder="32782" />
+  <Label elementID="acf33" textLabel="Core Pluripotency" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="756.5" centerY="458.0" width="151.0" height="20.0" zOrder="32790" />
+  <Label elementID="a5ac3" textLabel="Naive PSC" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="900.5" centerY="458.0" width="115.0" height="20.0" zOrder="32797">
+    <CitationRef citationID="c27" />
+  </Label>
+  <Label elementID="eddbb" textLabel="Maternal" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="194.5" centerY="408.0" width="109.0" height="20.0" zOrder="32806">
+    <CitationRef citationID="f9d" />
+  </Label>
+  <Label elementID="f5786" textLabel="Embryonic Genome&#xA;Activation" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="465.0" centerY="404.0" width="130.0" height="40.0" zOrder="32811">
+    <CitationRef citationID="f9d" />
+  </Label>
+  <Label elementID="ca4bb" textLabel="RNA Stabilization&#xA;by RBPs" fillColor="ffffff" fontSize="13" vAlign="Middle" centerX="330.0" centerY="405.0" width="130.0" height="40.0" zOrder="32814">
+    <CitationRef citationID="f9d" />
+  </Label>
+  <Shape elementID="c91a5" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="68.375" centerY="125.25" width="111.25" height="100.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="f2bbd" groupRef="d4049" shapeType="Rectangle" color="999999" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="998.1253244934267" centerY="370.41666666666686" width="188.00000000000003" height="23.83333333333327" zOrder="16384" rotation="0.0" />
+  <Shape elementID="a3c72" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="68.84891241487708" centerY="127.1349838874907" width="77.69782482975415" height="74.26996777498142" zOrder="16385" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="afadf" shapeType="Oval" lineThickness="3.0" color="666666" fillColor="999999" fontSize="10" vAlign="Middle" centerX="68.5" centerY="89.5" width="17.0" height="17.0" zOrder="16386" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="bea73" shapeType="Oval" lineThickness="3.0" color="666666" fillColor="6600ff" fontSize="10" vAlign="Middle" centerX="89.01223742693668" centerY="115.0730272710847" width="10.402486922977795" height="23.50141919061965" zOrder="16387" rotation="5.629630666819536">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c9ba1" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="200.375" centerY="125.25" width="111.25" height="100.0" zOrder="28673" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="ad61a" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="200.84891241487708" centerY="127.1349838874907" width="77.69782482975415" height="74.26996777498142" zOrder="28674" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="bbe36" shapeType="Oval" lineThickness="3.0" color="666666" fillColor="999999" fontSize="10" vAlign="Middle" centerX="212.5" centerY="89.5" width="17.0" height="17.0" zOrder="28675" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="fb93c" shapeType="Oval" lineThickness="3.0" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="190.5" centerY="89.5" width="17.0" height="17.0" zOrder="28678" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f643c" shapeType="Oval" lineThickness="3.0" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="189.83333333333334" centerY="121.0" width="19.666666666666632" height="18.00000000000002" zOrder="28679" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c8291" shapeType="Oval" lineThickness="3.0" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="200.0" centerY="136.5" width="24.0" height="23.0" zOrder="28680" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="baac7" shapeType="Oval" lineThickness="3.0" color="cccccc" fillColor="999999" fontSize="10" vAlign="Middle" centerX="190.0" centerY="121.0" width="14.0" height="14.0" zOrder="28681" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="e4863" shapeType="Oval" lineThickness="3.0" color="cccccc" fillColor="999999" fontSize="10" vAlign="Middle" centerX="199.76952521517467" centerY="136.33470028717062" width="20.87238376368266" height="20.002733907674777" zOrder="28682" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="aaab4" shapeType="Oval" lineThickness="3.0" color="999999" fillColor="666666" fontSize="10" vAlign="Middle" centerX="189.83333333333337" centerY="121.16666666666674" width="9.333333333333217" height="9.333333333333387" zOrder="28683" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="efb48" shapeType="Oval" lineThickness="3.0" color="999999" fillColor="666666" fontSize="10" vAlign="Middle" centerX="199.62927368349753" centerY="136.22367637968762" width="14.38808264831248" height="13.788578871081747" zOrder="28684" rotation="0.3925558746555673">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c30fe" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="333.041666666668" centerY="125.91666666666643" width="111.25" height="100.0" zOrder="28685" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="be8e1" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="311.0" centerY="126.46831722082425" width="39.99999999999996" height="74.26996777498142" zOrder="28686" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b8f2a" shapeType="Oval" lineThickness="3.0" color="666666" fillColor="999999" fontSize="10" vAlign="Middle" centerX="331.8333333333334" centerY="91.49999999999994" width="17.0" height="17.0" zOrder="28687" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b2877" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="352.99999999999955" centerY="127.13498388749105" width="39.99999999999996" height="74.26996777498142" zOrder="28690" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b64ea" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="465.7083333333329" centerY="126.5833333333328" width="111.25" height="100.0" zOrder="28691" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="bb7b8" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="443.16007776645307" centerY="114.62923851289784" width="43.67984446709032" height="46.59181035912843" zOrder="28692" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="eb3d1" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="487.6313269711055" centerY="114.76229738521755" width="43.92932060888191" height="46.85792810376739" zOrder="28695" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="e10ef" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="465.1600777664529" centerY="145.96257184623084" width="43.67984446709032" height="46.59181035912843" zOrder="28696" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="fdd2e" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="464.4934110997865" centerY="123.96257184623056" width="43.67984446709032" height="46.59181035912843" zOrder="28697" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="aa5e0" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="638.3749999999959" centerY="124.58333333333252" width="111.25" height="100.0" zOrder="28698" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="d6ca8" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="658.4233181312007" centerY="108.45082517611735" width="38.34533828869508" height="40.90165035223373" zOrder="28702" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b42f4" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="620.423318131201" centerY="109.11749184278409" width="38.34533828869508" height="40.90165035223373" zOrder="28705" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="bc110" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="613.7566514645345" centerY="129.11749184278403" width="38.34533828869508" height="40.90165035223373" zOrder="28706" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c4ddd" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="657.0899847978669" centerY="141.78415850945044" width="38.34533828869508" height="40.90165035223373" zOrder="28707" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="d40a7" shapeType="Oval" lineThickness="3.0" color="006666" fillColor="009933" fontSize="10" vAlign="Middle" centerX="617.2002571519834" centerY="145.875240645928" width="22.26615236269504" height="23.750481291857227" zOrder="28709" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f7f8e" shapeType="Oval" lineThickness="3.0" color="006666" fillColor="009933" fontSize="10" vAlign="Middle" centerX="637.2002571519832" centerY="156.54190731259456" width="22.26615236269504" height="23.750481291857227" zOrder="28710" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="e9232" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="645.033590485317" centerY="125.8752406459279" width="22.26615236269504" height="23.750481291857227" zOrder="28711" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="ed549" shapeType="Oval" lineThickness="3.0" color="006666" fillColor="009933" fontSize="10" vAlign="Middle" centerX="672.5335904853175" centerY="126.54190731259496" width="22.26615236269504" height="23.750481291857227" zOrder="28712" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a8961" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="840.3749999999993" centerY="125.249999999999" width="111.25" height="100.0" zOrder="28719" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="f593b" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="826.7496303690026" centerY="103.03611343274582" width="30.997962764297938" height="33.06440717231111" zOrder="28725" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="d13fc" shapeType="Oval" lineThickness="3.0" color="666666" fillColor="999999" fontSize="10" vAlign="Middle" centerX="637.1666666666655" centerY="90.16666666666646" width="17.0" height="17.0" zOrder="28736" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f8162" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="854.7496303690027" centerY="103.70278009941237" width="30.997962764297938" height="33.06440717231111" zOrder="28737" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c9b30" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="814.7496303690024" centerY="113.0361134327458" width="30.997962764297938" height="33.06440717231111" zOrder="28738" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="e6464" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="814.7496303690025" centerY="138.36944676607862" width="30.997962764297938" height="33.06440717231111" zOrder="28739" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b0fa7" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="828.7496303690026" centerY="153.03611343274542" width="30.997962764297938" height="33.06440717231111" zOrder="28740" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="e9e35" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="844.0829637023361" centerY="153.03611343274537" width="30.997962764297938" height="33.06440717231111" zOrder="28741" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="fe3b7" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="860.0829637023362" centerY="146.36944676607868" width="30.997962764297938" height="33.06440717231111" zOrder="28742" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a643e" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="872.0829637023361" centerY="133.03611343274486" width="30.997962764297938" height="33.06440717231111" zOrder="28743" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="cfc26" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="838.5335904853182" centerY="119.33333333333368" width="31.599485696030115" height="30.66666666666665" zOrder="28750" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f374a" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="853.2002571519846" centerY="124.66666666666791" width="31.599485696030115" height="30.66666666666665" zOrder="28751" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c38d4" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="837.2002571519846" centerY="142.00000000000108" width="31.599485696030115" height="30.66666666666665" zOrder="28753" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b5c7c" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="830.5335904853181" centerY="128.6666666666669" width="31.599485696030115" height="30.66666666666665" zOrder="28754" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="fb814" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="849.2002571519846" centerY="139.33333333333462" width="31.599485696030115" height="30.66666666666665" zOrder="28755" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b91c4" shapeType="Oval" lineThickness="3.0" color="666666" fillColor="999999" fontSize="10" vAlign="Middle" centerX="841.1666666666657" centerY="90.83333333333294" width="17.0" height="17.0" zOrder="28756" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f72a1" shapeType="Oval" lineThickness="3.0" color="006666" fillColor="009933" fontSize="10" vAlign="Middle" centerX="867.3333333333327" centerY="110.99999999999997" width="28.666666666665137" height="29.999999999999943" zOrder="28757" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b9302" shapeType="Oval" lineThickness="3.0" color="006666" fillColor="009933" fontSize="10" vAlign="Middle" centerX="873.9999999999995" centerY="125.66666666666657" width="28.666666666665137" height="29.999999999999943" zOrder="28758" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f0649" shapeType="Oval" lineThickness="3.0" color="006666" fillColor="009933" fontSize="10" vAlign="Middle" centerX="807.9999999999999" centerY="125.66666666666694" width="28.666666666665137" height="29.999999999999943" zOrder="28759" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="df427" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="971.7083333333362" centerY="125.9166666666654" width="111.25" height="100.0" zOrder="28765" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="f11a2" shapeType="Oval" lineThickness="3.0" color="009933" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="971.6666666666688" centerY="126.33333333333331" width="102.66666666666312" height="91.33333333333334" zOrder="28809" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f11f5" shapeType="Oval" lineThickness="3.0" color="009933" fillColor="009933" fontSize="10" vAlign="Middle" centerX="970.6666666666688" centerY="105.66666666666669" width="89.99999999999639" height="27.3333333333333" zOrder="28810" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a9d9d" shapeType="Oval" lineThickness="3.0" color="009933" fillColor="009933" fontSize="10" vAlign="Middle" centerX="971.0000000000007" centerY="99.3333333333334" width="73.33333333333368" height="33.33333333333319" zOrder="28811" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f11d3" shapeType="Oval" lineThickness="3.0" color="009933" fillColor="009933" fontSize="10" vAlign="Middle" centerX="929.7456443419273" centerY="113.58012740702901" width="16.749929449569947" height="13.766866101204545" zOrder="28812" rotation="5.485129591948063">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="d8e42" shapeType="Oval" lineThickness="3.0" color="009933" fillColor="009933" fontSize="10" vAlign="Middle" centerX="1011.7456443419273" centerY="112.24679407369572" width="16.749929449569947" height="13.766866101204545" zOrder="28813" rotation="4.207728179469349">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b1ee2" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="941.9501847681506" centerY="113.59101863090206" width="19.76600759502975" height="19.182037261801582" zOrder="28815" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="cc742" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="963.2835181014834" centerY="92.924351964234" width="19.76600759502975" height="19.182037261801582" zOrder="28816" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="e26dd" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="979.9501847681499" centerY="92.92435196423298" width="19.76600759502975" height="19.182037261801582" zOrder="28817" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="fd8ae" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="989.9501847681499" centerY="102.92435196423298" width="19.76600759502975" height="19.182037261801582" zOrder="28818" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a0aac" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="973.9501847681502" centerY="103.59101863089938" width="19.76600759502975" height="19.182037261801582" zOrder="28819" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="bd7ae" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="954.6168514348169" centerY="103.59101863089904" width="19.76600759502975" height="19.182037261801582" zOrder="28820" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="ef5ce" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="960.6168514348167" centerY="112.25768529756846" width="19.76600759502975" height="19.182037261801582" zOrder="28821" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="eb2b4" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="978.6168514348165" centerY="112.25768529756795" width="19.76600759502975" height="19.182037261801582" zOrder="28822" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f337a" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="995.9501847681495" centerY="112.92435196423423" width="19.76600759502975" height="19.182037261801582" zOrder="28823" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a631b" shapeType="Oval" lineThickness="3.0" color="666666" fillColor="999999" fontSize="10" vAlign="Middle" centerX="1015.1666666666692" centerY="116.16666666666592" width="17.0" height="17.0" zOrder="28824" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="cd4ec" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1100.3750000000061" centerY="125.9166666666651" width="111.25" height="100.0" zOrder="28825" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="ef9ff" shapeType="Oval" lineThickness="3.0" color="009933" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1100.3333333333385" centerY="125.66666666666634" width="102.66666666666312" height="91.33333333333334" zOrder="28827" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="af661" shapeType="Oval" lineThickness="3.0" color="0000ff" fillColor="6666ff" fontSize="10" vAlign="Middle" centerX="1093.95018476815" centerY="89.59101863090041" width="19.76600759502975" height="19.182037261801582" zOrder="28830" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a81fc" shapeType="Oval" lineThickness="3.0" color="0000ff" fillColor="6666ff" fontSize="10" vAlign="Middle" centerX="1108.6168514348167" centerY="89.59101863090001" width="19.76600759502975" height="19.182037261801582" zOrder="28831" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="cb01a" shapeType="Oval" lineThickness="3.0" color="0000ff" fillColor="6666ff" fontSize="10" vAlign="Middle" centerX="1079.2835181014832" centerY="96.25768529756692" width="19.76600759502975" height="19.182037261801582" zOrder="28832" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c9d95" shapeType="Oval" lineThickness="3.0" color="0000ff" fillColor="6666ff" fontSize="10" vAlign="Middle" centerX="1096.6168514348165" centerY="98.92435196423344" width="19.76600759502975" height="19.182037261801582" zOrder="28833" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f17ae" shapeType="Oval" lineThickness="3.0" color="0000ff" fillColor="6666ff" fontSize="10" vAlign="Middle" centerX="1122.6168514348165" centerY="97.5910186308995" width="19.76600759502975" height="19.182037261801582" zOrder="28835" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="a578a" shapeType="Oval" lineThickness="3.0" color="0000ff" fillColor="6666ff" fontSize="10" vAlign="Middle" centerX="1112.6168514348165" centerY="98.92435196423315" width="19.76600759502975" height="19.182037261801582" zOrder="28836" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="cf583" shapeType="Oval" lineThickness="3.0" color="cc0000" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="1067.95018476815" centerY="104.25768529756573" width="19.76600759502975" height="19.182037261801582" zOrder="28837" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="da727" shapeType="Oval" lineThickness="3.0" color="cc0000" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="1082.6168514348162" centerY="108.9243519642319" width="19.76600759502975" height="19.182037261801582" zOrder="28838" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="cc224" shapeType="Oval" lineThickness="3.0" color="cc0000" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="1098.616851434816" centerY="110.92435196423173" width="19.76600759502975" height="19.182037261801582" zOrder="28839" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c35ec" shapeType="Oval" lineThickness="3.0" color="cc0000" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="1111.950184768149" centerY="110.25768529756476" width="19.76600759502975" height="19.182037261801582" zOrder="28840" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="d3acd" shapeType="Oval" lineThickness="3.0" color="cc0000" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="1124.6168514348155" centerY="108.92435196423128" width="19.76600759502975" height="19.182037261801582" zOrder="28841" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="f4a82" shapeType="Oval" lineThickness="3.0" color="cc0000" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="1136.6168514348158" centerY="106.25768529756425" width="19.76600759502975" height="19.182037261801582" zOrder="28842" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="d3cd5" shapeType="Oval" lineThickness="3.0" color="cc0000" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="1105.283518101482" centerY="20.257685297565217" width="19.76600759502975" height="19.182037261801582" zOrder="28843" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="be87e" shapeType="Oval" lineThickness="3.0" color="0000ff" fillColor="6666ff" fontSize="10" vAlign="Middle" centerX="1162.6168514348149" centerY="20.257685297565217" width="19.76600759502975" height="19.182037261801582" zOrder="28844" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="dd5fd" shapeType="Oval" lineThickness="3.0" color="999900" fillColor="cccc00" fontSize="10" vAlign="Middle" centerX="1042.6168514348142" centerY="20.257685297565217" width="19.76600759502975" height="19.182037261801582" zOrder="28845" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b2394" shapeType="Oval" lineThickness="3.0" color="006666" fillColor="009933" fontSize="10" vAlign="Middle" centerX="986.0513805949654" centerY="20.25768529756519" width="20.56390547673062" height="19.333333333333442" zOrder="28846" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="de292" shapeType="Oval" lineThickness="3.0" color="cc9900" fillColor="ffcc66" fontSize="10" vAlign="Middle" centerX="1221.2835181014818" centerY="19.591018630898247" width="19.76600759502975" height="19.182037261801582" zOrder="28852" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="e96d2" groupRef="d4049" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="998.1253244934264" centerY="383.25195492329533" width="184.41601767981277" height="14.162756820076376" zOrder="28857" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="cd223" groupRef="d4049" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="998.1253244934267" centerY="359.9186215899616" width="184.41601767981277" height="14.162756820076376" zOrder="28858" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="da240" shapeType="Oval" lineThickness="3.0" color="cc9900" fillColor="ffcc66" fontSize="10" vAlign="Middle" centerX="1010.2835181014821" centerY="374.2576852975652" width="19.76600759502975" height="19.182037261801582" zOrder="28859" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="fbbf7" shapeType="Oval" lineThickness="3.0" color="cc9900" fillColor="ffcc66" fontSize="10" vAlign="Middle" centerX="1028.2835181014818" centerY="374.257685297565" width="19.76600759502975" height="19.182037261801582" zOrder="28860" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="ac1a9" shapeType="Oval" lineThickness="3.0" color="cc9900" fillColor="ffcc66" fontSize="10" vAlign="Middle" centerX="1045.6168514348149" centerY="373.59101863089825" width="19.76600759502975" height="19.182037261801582" zOrder="28861" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="fd5c2" shapeType="Oval" lineThickness="3.0" color="cc9900" fillColor="ffcc66" fontSize="10" vAlign="Middle" centerX="951.6168514348155" centerY="374.257685297565" width="19.76600759502975" height="19.182037261801582" zOrder="28862" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c86b2" shapeType="Oval" lineThickness="3.0" color="cc9900" fillColor="ffcc66" fontSize="10" vAlign="Middle" centerX="969.6168514348153" centerY="374.257685297565" width="19.76600759502975" height="19.182037261801582" zOrder="28863" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c56b2" shapeType="Oval" lineThickness="3.0" color="cc9900" fillColor="ffcc66" fontSize="10" vAlign="Middle" centerX="989.6168514348151" centerY="373.59101863089825" width="19.76600759502975" height="19.182037261801582" zOrder="28864" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b06e4" shapeType="Oval" lineThickness="3.0" color="666666" fillColor="999999" fontSize="10" vAlign="Middle" centerX="464.4999999999984" centerY="92.16666666666654" width="17.0" height="17.0" zOrder="32802" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Group elementID="bb7d6" groupType="Group" />
+  <Group elementID="d4049" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Genomic RNA profiling and the programme controlling preimplantation mammalian development." URL="" citationID="f9d" year="2008" source="Mol Hum Reprod">
+      <Xref dataSource="PubMed" identifier="19043080" />
+      <Author name="Bell CE" />
+      <Author name="Calder MD" />
+      <Author name="Watson AJ" />
+    </Citation>
+    <Citation title="Making a firm decision: multifaceted regulation of cell fate in the early mouse embryo." URL="" citationID="b12" year="2009" source="Nat Rev Genet">
+      <Xref dataSource="PubMed" identifier="19536196" />
+      <Author name="Zernicka-Goetz M" />
+      <Author name="Morris SA" />
+      <Author name="Bruce AW" />
+    </Citation>
+    <Citation title="Cdx2 gene expression and trophectoderm lineage specification in mouse embryos." URL="" citationID="c2a" year="2006" source="Science">
+      <Xref dataSource="PubMed" identifier="16484492" />
+      <Author name="Deb K" />
+      <Author name="Sivaguru M" />
+      <Author name="Yong HY" />
+      <Author name="Roberts RM" />
+    </Citation>
+    <Citation title="Single-cell RNA-Seq profiling of human preimplantation embryos and embryonic stem cells." URL="" citationID="dcd" year="2013" source="Nat Struct Mol Biol">
+      <Xref dataSource="PubMed" identifier="23934149" />
+      <Author name="Yan L" />
+      <Author name="Yang M" />
+      <Author name="Guo H" />
+      <Author name="Yang L" />
+      <Author name="Wu J" />
+      <Author name="Li R" />
+      <Author name="Liu P" />
+      <Author name="Lian Y" />
+      <Author name="Zheng X" />
+      <Author name="Yan J" />
+      <Author name="Huang J" />
+      <Author name="Li M" />
+      <Author name="Wu X" />
+      <Author name="Wen L" />
+      <Author name="Lao K" />
+      <Author name="Qiao J" />
+      <Author name="Tang F" />
+    </Citation>
+    <Citation title="Embryonic stem cell-specific MicroRNAs." URL="" citationID="e10" year="2003" source="Dev Cell">
+      <Xref dataSource="PubMed" identifier="12919684" />
+      <Author name="Houbaviy HB" />
+      <Author name="Murray MF" />
+      <Author name="Sharp PA" />
+    </Citation>
+    <Citation title="Systematic identification of culture conditions for induction and maintenance of naive human pluripotency." URL="" citationID="c27" year="2014" source="Cell Stem Cell">
+      <Xref dataSource="PubMed" identifier="25090446" />
+      <Author name="Theunissen TW" />
+      <Author name="Powell BE" />
+      <Author name="Wang H" />
+      <Author name="Mitalipova M" />
+      <Author name="Faddah DA" />
+      <Author name="Reddy J" />
+      <Author name="Fan ZP" />
+      <Author name="Maetzel D" />
+      <Author name="Ganz K" />
+      <Author name="Shi L" />
+      <Author name="Lungjangwa T" />
+      <Author name="Imsoonthornruksa S" />
+      <Author name="Stelzer Y" />
+      <Author name="Rangarajan S" />
+      <Author name="D'Alessio A" />
+      <Author name="Zhang J" />
+      <Author name="Gao Q" />
+      <Author name="Dawlaty MM" />
+      <Author name="Young RA" />
+      <Author name="Gray NS" />
+      <Author name="Jaenisch R" />
+    </Citation>
+    <Citation title="Regulation of somatic cell reprogramming through inducible mir-302 expression." URL="" citationID="b6b" year="2011" source="Nucleic Acids Res">
+      <Xref dataSource="PubMed" identifier="20870751" />
+      <Author name="Lin SL" />
+      <Author name="Chang DC" />
+      <Author name="Lin CH" />
+      <Author name="Ying SY" />
+      <Author name="Leu D" />
+      <Author name="Wu DT" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+  </OntologyTerms>
+</Pathway>
+

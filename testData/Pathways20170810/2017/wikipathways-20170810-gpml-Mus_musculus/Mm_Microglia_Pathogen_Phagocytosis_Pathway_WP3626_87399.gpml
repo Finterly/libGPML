@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Microglia Pathogen Phagocytosis Pathway" organism="Mus musculus" width="1112.0" height="665.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="Kristina Hanspers" />
+  <Comment source="WikiPathways-description">Pathogens are recognized by complement C1q or immunoglobulin (IgG) that bind to microglia complement receptors (e.g., ITGAM/ITGB2) or Fc-receptors (e.g., FCGR1) that signal via the immunoreceptor tyrosine-based activation motif (ITAM)-containing adaptor molecules TYROBP or FCER1G, respectively. Alternatively, pathogens are directly recognized by classical innate immune receptors (e.g., TREM2) that require the interaction with TYROBP for further signaling.
+
+This pathway was converted from the original human pathway to mouse.</Comment>
+  <CitationRef citationID="f4f" />
+  <DataNode elementID="a3593" textLabel="Oxygen" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="880.0" centerY="124.0" width="46.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01377" />
+  </DataNode>
+  <DataNode elementID="a6dc7" textLabel="Pik3" color="009999" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="576.0" centerY="407.0" width="36.0" height="20.0" zOrder="32768">
+    <Xref dataSource="undefined" identifier="undefined" />
+  </DataNode>
+  <DataNode elementID="a8fda" textLabel="IgG" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="328.0" centerY="118.0" width="44.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="aad71" textLabel="Hck" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="388.0" centerY="309.0" width="34.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000003283" />
+  </DataNode>
+  <DataNode elementID="adb3f" textLabel="C1qa" groupRef="b60aa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="328.0" centerY="40.0" width="44.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000036887" />
+  </DataNode>
+  <DataNode elementID="c8356" textLabel="Tyrobp" groupRef="bd25a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="513.0" centerY="233.0" width="56.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000030579" />
+  </DataNode>
+  <DataNode elementID="c8803" textLabel="Syk" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="509.0" centerY="315.0" width="44.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000021457" />
+  </DataNode>
+  <DataNode elementID="cfb94" textLabel="Pik3r1" groupRef="ef2c4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.0" centerY="204.0" width="57.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000041417" />
+  </DataNode>
+  <DataNode elementID="d1d6d" textLabel="Siglece" groupRef="ccf7a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="284.5" centerY="309.0" width="53.0" height="20.0" zOrder="32768">
+    <Comment>Siglece interacts with Ptpn6 according to BioGRID</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000030474" />
+  </DataNode>
+  <DataNode elementID="d330a" textLabel="Trem1" groupRef="dd9ca" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="475.0" centerY="173.0" width="54.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000042265" />
+  </DataNode>
+  <DataNode elementID="d7a56" textLabel="PIP2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="621.5" centerY="194.0" width="41.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="" />
+  </DataNode>
+  <DataNode elementID="d8a3d" textLabel="Fcer1g" groupRef="bd25a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="442.0" centerY="233.0" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000058715" />
+  </DataNode>
+  <DataNode elementID="f4098" textLabel="Fcgr1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="400.0" centerY="220.0" width="52.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000015947" />
+  </DataNode>
+  <DataNode elementID="ffaf8" textLabel="Itgam" groupRef="c8b89" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="542.5" centerY="193.0" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000030786" />
+  </DataNode>
+  <DataNode elementID="fa9da" textLabel="Trem2" groupRef="dd9ca" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="475.0" centerY="193.0" width="54.0" height="20.0" zOrder="32769">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000023992" />
+  </DataNode>
+  <DataNode elementID="bef2c" textLabel="Trem3" groupRef="dd9ca" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="475.0" centerY="213.0" width="54.0" height="20.0" zOrder="32770">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000041754" />
+  </DataNode>
+  <DataNode elementID="bbcb5" textLabel="Itgb2" groupRef="c8b89" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="542.5" centerY="213.0" width="53.0" height="20.0" zOrder="32771">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000000290" />
+  </DataNode>
+  <DataNode elementID="be6a8" textLabel="Lyn" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="371.0" centerY="268.0" width="34.0" height="20.0" zOrder="32772">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000042228" />
+  </DataNode>
+  <DataNode elementID="f7fe2" textLabel="Ptpn6" groupRef="ccf7a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="324.5" centerY="336.0" width="45.0" height="20.0" zOrder="32773">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000004266" />
+  </DataNode>
+  <DataNode elementID="ef07b" textLabel="Plcg2" groupRef="e6e67" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="693.5" centerY="235.0" width="45.0" height="22.0" zOrder="32775">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000034330" />
+  </DataNode>
+  <DataNode elementID="bf6f2" textLabel="Lat" groupRef="e6e67" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="707.5" centerY="214.0" width="45.0" height="20.0" zOrder="32776">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000030742" />
+  </DataNode>
+  <DataNode elementID="e1720" textLabel="Rac1" groupRef="a08b0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="753.5" centerY="342.0" width="45.0" height="22.0" zOrder="32777">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000001847" />
+  </DataNode>
+  <DataNode elementID="b10c6" textLabel="Rac2" groupRef="a08b0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="753.5" centerY="364.0" width="45.0" height="22.0" zOrder="32778">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000033220" />
+  </DataNode>
+  <DataNode elementID="fb211" textLabel="Rac3" groupRef="a08b0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="753.5" centerY="386.0" width="45.0" height="22.0" zOrder="32779">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000018012" />
+  </DataNode>
+  <DataNode elementID="d0362" textLabel="Vav1" groupRef="e6e67" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="753.5" centerY="224.0" width="45.0" height="20.0" zOrder="32780">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000034116" />
+  </DataNode>
+  <DataNode elementID="af215" textLabel="Vav2" groupRef="e6e67" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="753.5" centerY="244.0" width="45.0" height="20.0" zOrder="32781">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000009621" />
+  </DataNode>
+  <DataNode elementID="c016f" textLabel="Vav3" groupRef="e6e67" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="753.5" centerY="264.0" width="45.0" height="20.0" zOrder="32782">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000033721" />
+  </DataNode>
+  <DataNode elementID="e2518" textLabel="Nckap1l" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="655.5" centerY="452.0" width="49.0" height="22.0" zOrder="32783">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000022488" />
+  </DataNode>
+  <DataNode elementID="dd45f" textLabel="Arpc1b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="655.5" centerY="555.5" width="45.0" height="22.0" zOrder="32784">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000029622" />
+  </DataNode>
+  <DataNode elementID="c53ff" textLabel="Ncf4" groupRef="e4d51" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="728.5" centerY="538.0" width="45.0" height="22.0" zOrder="32785">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000071715" />
+  </DataNode>
+  <DataNode elementID="fc72f" textLabel="Ncf2" groupRef="e4d51" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="743.5" centerY="516.0" width="45.0" height="22.0" zOrder="32786">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000026480" />
+  </DataNode>
+  <DataNode elementID="a5899" textLabel="Ncf1" groupRef="e4d51" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="738.5" centerY="494.0" width="45.0" height="22.0" zOrder="32787">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000015950" />
+  </DataNode>
+  <DataNode elementID="b1743" textLabel="Cybb" groupRef="ca62c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="878.5" centerY="460.0" width="45.0" height="22.0" zOrder="32788">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000015340" />
+  </DataNode>
+  <DataNode elementID="b86eb" textLabel="Cyba" groupRef="ca62c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="921.5" centerY="482.0" width="45.0" height="22.0" zOrder="32789">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000006519" />
+  </DataNode>
+  <DataNode elementID="bd8a4" textLabel="Ncf1" groupRef="e256f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="873.5" centerY="350.0" width="45.0" height="22.0" zOrder="32790">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000015950" />
+  </DataNode>
+  <DataNode elementID="f5c7f" textLabel="Ncf4" groupRef="e256f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="919.5" centerY="343.0" width="45.0" height="22.0" zOrder="32791">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000071715" />
+  </DataNode>
+  <DataNode elementID="c8e62" textLabel="Ncf2" groupRef="e256f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="881.5" centerY="325.0" width="45.0" height="22.0" zOrder="32792">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000026480" />
+  </DataNode>
+  <DataNode elementID="c7ed8" textLabel="Rac1" groupRef="e256f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="838.5" centerY="282.0" width="45.0" height="22.0" zOrder="32794">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000001847" />
+  </DataNode>
+  <DataNode elementID="da134" textLabel="Rac2" groupRef="e256f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="838.5" centerY="304.0" width="45.0" height="22.0" zOrder="32795">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000033220" />
+  </DataNode>
+  <DataNode elementID="f3951" textLabel="Rac3" groupRef="e256f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="838.5" centerY="326.0" width="45.0" height="22.0" zOrder="32796">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000018012" />
+  </DataNode>
+  <DataNode elementID="bee15" textLabel="Cybb" groupRef="e256f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="854.5" centerY="256.0" width="45.0" height="22.0" zOrder="32797">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000015340" />
+  </DataNode>
+  <DataNode elementID="b99bf" textLabel="Cyba" groupRef="e256f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="900.5" centerY="272.0" width="45.0" height="22.0" zOrder="32798">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000006519" />
+  </DataNode>
+  <DataNode elementID="fe05b" textLabel="C1qb" groupRef="b60aa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="328.0" centerY="60.0" width="44.0" height="20.0" zOrder="32810">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000036905" />
+  </DataNode>
+  <DataNode elementID="cba5d" textLabel="C1qc" groupRef="b60aa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="328.0" centerY="80.0" width="44.0" height="20.0" zOrder="32811">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000036896" />
+  </DataNode>
+  <DataNode elementID="a4f18" textLabel="PIP3" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="699.5" centerY="194.0" width="41.0" height="20.0" zOrder="32812">
+    <Xref dataSource="HMDB" identifier="HMDB04249" />
+  </DataNode>
+  <DataNode elementID="f18be" textLabel="Pik3cg" groupRef="ef2c4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.0" centerY="224.0" width="57.0" height="20.0" zOrder="32813">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000020573" />
+  </DataNode>
+  <DataNode elementID="ccea2" textLabel="Pik3ca" groupRef="ef2c4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.0" centerY="244.0" width="57.0" height="20.0" zOrder="32814">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000027665" />
+  </DataNode>
+  <DataNode elementID="ac5ec" textLabel="Pik3cd" groupRef="ef2c4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.0" centerY="264.0" width="57.0" height="20.0" zOrder="32815">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000039936" />
+  </DataNode>
+  <DataNode elementID="e411c" textLabel="Pik3cb" groupRef="ef2c4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.0" centerY="284.0" width="57.0" height="20.0" zOrder="32816">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000032462" />
+  </DataNode>
+  <DataNode elementID="db275" textLabel="Pik3r2" groupRef="ef2c4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.0" centerY="304.0" width="57.0" height="20.0" zOrder="32817">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000031834" />
+  </DataNode>
+  <DataNode elementID="a87de" textLabel="Pik3c3" groupRef="ef2c4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.0" centerY="324.0" width="57.0" height="20.0" zOrder="32818">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000033628" />
+  </DataNode>
+  <DataNode elementID="ed399" textLabel="Pik3c2a" groupRef="ef2c4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.0" centerY="344.0" width="57.0" height="20.0" zOrder="32819">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000030660" />
+  </DataNode>
+  <DataNode elementID="b1b21" textLabel="Pik3r6" groupRef="ef2c4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.0" centerY="364.0" width="57.0" height="20.0" zOrder="32820">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000046207" />
+  </DataNode>
+  <DataNode elementID="ef1a5" textLabel="Pik3r3" groupRef="ef2c4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.0" centerY="384.0" width="57.0" height="20.0" zOrder="32821">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000028698" />
+  </DataNode>
+  <State elementID="a20af" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="d8a3d" relX="0.9" relY="0.9" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="d0b59" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="a6dc7" relX="-0.8888888888888888" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="eb2e5" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="c8356" relX="0.8571428571428571" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="f3a56" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="ef07b" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="a40dc" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="bd8a4" relX="-0.8222222222222222" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="d8d0f" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="bd8a4" relX="0.24444444444444444" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="f4a75" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="bd8a4" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="aa773" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="c8356" relX="-0.9285714285714286" relY="0.9" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="d02a0" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="d8a3d" relX="-0.8" relY="0.7" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="d4765" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="d1d6d" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <Interaction elementID="id1d9e35a2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="655.5" y="463.0" elementID="ab42c" elementRef="e2518" relX="0.0" relY="1.0" />
+    <Point x="655.5" y="544.5" elementID="e2710" elementRef="dd45f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id20b80b6b" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="531.0" y="315.0" elementID="d0de9" elementRef="c8803" relX="1.0" relY="0.0" />
+    <Point x="693.5" y="246.0" elementID="dc11a" elementRef="ef07b" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id36f09836" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="476.5" y="102.0" elementID="ab164" elementRef="d0c19" relX="0.0" relY="1.0" />
+    <Point x="475.0" y="155.0" elementID="b8dfc" elementRef="dd9ca" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6af15735" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="350.0" y="118.0" elementID="e3598" elementRef="a8fda" relX="1.0" relY="0.0" />
+    <Point x="407.0" y="91.5" elementID="f6853" elementRef="d0c19" relX="-1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id796f91e3" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="358.0" y="60.0" elementID="cce82" elementRef="b60aa" relX="1.0" relY="0.0" />
+    <Point x="407.0" y="81.0" elementID="faf76" elementRef="d0c19" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7cbece71" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="576.0" y="397.0" elementID="adca7" elementRef="a6dc7" relX="0.0" relY="-1.0" />
+    <Point x="656.8" y="194.0" elementID="e2634" elementRef="caec7" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+    <Anchor position="0.26165002948821564" shapeType="None" elementID="ced31" />
+  </Interaction>
+  <Interaction elementID="id8a1a51a1" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="594.0" y="407.0" elementID="e4b71" elementRef="a6dc7" relX="1.0" relY="0.0" />
+    <Point x="716.0" y="494.0" elementID="a9840" elementRef="a5899" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8cae9316" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="753.75" y="282.0" elementID="c4aa6" elementRef="e6e67" relX="0.5" relY="1.0" />
+    <Point x="753.5" y="323.0" elementID="dbc04" elementRef="a08b0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="e8a30" />
+  </Interaction>
+  <Interaction elementID="id94c26f07" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="671.0" y="235.0" elementID="c4293" elementRef="ef07b" relX="-1.0" relY="0.0" />
+    <Point x="621.5" y="204.0" elementID="a223a" elementRef="d7a56" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9f056740" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="879.0" y="237.0" elementID="e3cfb" elementRef="e256f" relX="0.0" relY="-1.0" />
+    <Point x="880.0" y="134.0" elementID="a4dc1" elementRef="a3593" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idaaeb77a4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="642.0" y="194.0" elementID="a58c5" elementRef="d7a56" relX="1.0" relY="0.0" />
+    <Point x="679.0" y="194.0" elementID="ce47e" elementRef="a4f18" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Anchor position="0.40540540540540543" shapeType="None" elementID="c48fc" />
+    <Anchor position="0.4" shapeType="None" elementID="caec7" />
+  </Interaction>
+  <Interaction elementID="idacd3bc6e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="633.0" y="555.5" elementID="ab313" elementRef="dd45f" relX="-1.0" relY="0.0" />
+    <Point x="583.0" y="555.5" elementID="bc44b" elementRef="b816f" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idafd0ccf9" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="736.0" y="475.0" elementID="f4021" elementRef="e4d51" relX="0.0" relY="-1.0" />
+    <Point x="879.0" y="369.0" elementID="f1bb3" elementRef="e256f" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idb9cce549" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="388.0" y="268.0" elementID="e6e5d" elementRef="be6a8" relX="1.0" relY="0.0" />
+    <Point x="440.25" y="251.0" elementID="cfdb6" elementRef="bd25a" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc05a1160" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="857.0" y="124.0" elementID="a13a3" elementRef="a3593" relX="-1.0" relY="0.0" />
+    <Point x="546.0" y="81.0" elementID="f5157" elementRef="d0c19" relX="1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idc1d58013" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="784.0" y="364.0" elementID="a888d" elementRef="a08b0" relX="1.0" relY="0.0" />
+    <Point x="808.0" y="336.0" elementID="ce4bf" elementRef="e256f" relX="-1.0" relY="0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idcd2541a5" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="753.5" y="405.0" elementID="cb4d8" elementRef="a08b0" relX="0.0" relY="1.0" />
+    <Point x="680.0" y="452.0" elementID="d8b9c" elementRef="e2518" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf0346ac1" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="520.0" y="325.0" elementID="bcc7b" elementRef="c8803" relX="0.5" relY="1.0" />
+    <Point x="558.0" y="407.0" elementID="bace5" elementRef="a6dc7" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfb396cc2" connectorType="Curved" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="347.0" y="336.0" elementID="d2700" elementRef="f7fe2" relX="1.0" relY="0.0" />
+    <Point x="509.0" y="325.0" elementID="ace54" elementRef="c8803" relX="0.0" relY="1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="e7fa7" connectorType="Curved" zOrder="32799" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="324.5" y="346.0" elementID="e3b4f" elementRef="f7fe2" relX="0.0" relY="1.0" />
+    <Point x="514.25" y="366.0" elementID="a37a8" />
+    <Point x="704.0" y="332.4" elementID="b7817" />
+    <Point x="753.65" y="298.4" elementID="c6f39" elementRef="e8a30" relX="0.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="c1e4f" connectorType="Curved" zOrder="32800" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="324.5" y="346.0" elementID="f366e" elementRef="f7fe2" relX="0.0" relY="1.0" />
+    <Point x="597.1413223826478" y="343.88504401389224" elementID="c6ea6" elementRef="ced31" relX="0.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="edbbe" zOrder="32801" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="354.0" y="268.0" elementID="a9d12" elementRef="be6a8" relX="-1.0" relY="0.0" />
+    <Point x="297.75" y="299.0" elementID="d0d0f" elementRef="d1d6d" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f167a" zOrder="32802" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="371.0" y="309.0" elementID="cc510" elementRef="aad71" relX="-1.0" relY="0.0" />
+    <Point x="311.0" y="309.0" elementID="d3dcf" elementRef="d1d6d" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b8758" connectorType="Elbow" zOrder="32803" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="405.0" y="309.0" elementID="d9ac6" elementRef="aad71" relX="1.0" relY="0.0" />
+    <Point x="476.5" y="251.0" elementID="aa1e5" elementRef="bd25a" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a7463" zOrder="32805" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="492.0" y="555.5" elementID="d7baf" elementRef="b816f" relX="-1.0" relY="0.0" />
+    <Point x="445.0" y="555.5" elementID="f88fa" elementRef="b63c6" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b2e95" connectorType="Curved" zOrder="32806" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="878.5" y="449.0" elementID="d95e8" elementRef="b1743" relX="0.0" relY="-1.0" />
+    <Point x="879.0" y="369.0" elementID="d0337" elementRef="e256f" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="f4f05" zOrder="32807" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="511.25" y="102.0" elementID="a73aa" elementRef="d0c19" relX="0.5" relY="1.0" />
+    <Point x="542.5" y="175.0" elementID="a66d3" elementRef="c8b89" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="af710" zOrder="32808" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="441.75" y="102.0" elementID="c5c74" elementRef="d0c19" relX="-0.5" relY="1.0" />
+    <Point x="400.0" y="210.0" elementID="a84b4" elementRef="f4098" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="b1956" textLabel="Pik3" color="009999" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ef2c4" centerX="141.0" centerY="182.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="b816f" textLabel="Actin  reorganization" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="537.5" centerY="555.5" width="91.0" height="29.0" zOrder="28672" />
+  <Label elementID="e8810" textLabel="Microglia" color="999999" fillColor="ffffff" fontWeight="Bold" fontSize="16" vAlign="Middle" centerX="666.0" centerY="621.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="fe718" textLabel="Oxidative burst" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="927.0" centerY="192.0" width="80.0" height="30.0" zOrder="28672" />
+  <Label elementID="b63c6" textLabel="Phagocytosis migration" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="401.0" centerY="555.5" width="88.0" height="37.0" zOrder="32804" />
+  <Shape elementID="a357b" textLabel="Vesicle" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="927.5" centerY="445.5" width="65.0" height="51.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="d0c19" textLabel="Pathogen" shapeType="Oval" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="476.5" centerY="81.0" width="139.0" height="42.0" zOrder="16384" rotation="0.0" />
+  <Shape elementID="ee897" shapeType="Rectangle" lineThickness="2.0" color="009999" fontSize="10" vAlign="Middle" centerX="138.0" centerY="290.0" width="86.0" height="242.0" zOrder="16384" rotation="0.0" />
+  <Shape elementID="fdfaf" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="658.0" centerY="407.5" width="848.0" height="455.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Group elementID="a08b0" groupType="Group" />
+  <Group elementID="b60aa" groupType="Group" />
+  <Group elementID="bd25a" groupType="Group" />
+  <Group elementID="c8b89" groupType="Group" />
+  <Group elementID="ca62c" groupType="Group" />
+  <Group elementID="ccf7a" groupType="Group" />
+  <Group elementID="dd9ca" groupType="Group" />
+  <Group elementID="e256f" groupType="Group" />
+  <Group elementID="e4d51" groupType="Group" />
+  <Group elementID="e6e67" groupType="Group" />
+  <Group elementID="ef2c4" groupType="Group" />
+  <Group elementID="fc2fa" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Integrated systems approach identifies genetic nodes and networks in late-onset Alzheimer's disease." URL="" citationID="f4f" year="2013" source="Cell">
+      <Xref dataSource="PubMed" identifier="23622250" />
+      <Author name="Zhang B" />
+      <Author name="Gaiteri C" />
+      <Author name="Bodea LG" />
+      <Author name="Wang Z" />
+      <Author name="McElwee J" />
+      <Author name="Podtelezhnikov AA" />
+      <Author name="Zhang C" />
+      <Author name="Xie T" />
+      <Author name="Tran L" />
+      <Author name="Dobrin R" />
+      <Author name="Fluder E" />
+      <Author name="Clurman B" />
+      <Author name="Melquist S" />
+      <Author name="Narayanan M" />
+      <Author name="Suver C" />
+      <Author name="Shah H" />
+      <Author name="Mahajan M" />
+      <Author name="Gillis T" />
+      <Author name="Mysore J" />
+      <Author name="MacDonald ME" />
+      <Author name="Lamb JR" />
+      <Author name="Bennett DA" />
+      <Author name="Molony C" />
+      <Author name="Stone DJ" />
+      <Author name="Gudnason V" />
+      <Author name="Myers AJ" />
+      <Author name="Schadt EE" />
+      <Author name="Neumann H" />
+      <Author name="Zhu J" />
+      <Author name="Emilsson V" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="microglial cell" ontology="Cell Type" ontologyTermID="CL:0000129" />
+    <OntologyTerm term="Alzheimer disease pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000015" />
+    <OntologyTerm term="innate immune response pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000234" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,32 @@
+NSY-1	Line	R3
+R3	Arrow	SEK-1
+PMK-1	Line	R19
+R19	mim-stimulation	STA-2
+DAG	Line	R7
+R7	Arrow	TPA-1(PKC delta)
+STA-2	Line	R17
+R17	Line	STA-2
+TIR-1B	Line	R23
+R23	mim-stimulation	NSY-1
+STA-2	Line	R27
+R27	mim-modification	STA-2
+SEK-1	Line	R29
+R29	Arrow	PMK-1
+DCAR-1	Line	R21
+R21	mim-stimulation	GPA-12(Galpha)
+DBL-1	Line	R1
+R1	Arrow	SMA-6
+GPA-12(Galpha)	Line	R11
+R11	Arrow	PLC-3
+HPLA	Line	R31
+R31	Arrow	DCAR-1
+PIP2	Line	R9
+R9	mim-conversion	DAG
+PIP2	Line	R33
+R33	mim-conversion	IP3
+SMA-6	Line	R15
+R15	mim-stimulation	SMA-3
+TPA-1(PKC delta)	Line	R25
+R25	mim-stimulation	TIR-1B
+PKC-3	Line	R5
+R5	Arrow	NSY-1

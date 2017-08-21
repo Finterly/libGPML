@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Vitamin A and Carotenoid Metabolism" organism="Homo sapiens" width="1717.6666564941406" height="769.0" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP notes"></Comment>
+  <Comment source="GenMAPP remarks"></Comment>
+  <Comment source="WikiPathways-description">This pathway is about carotenoid and vitamin A metabolism. The initial version was created by the NuGO focusteam on Carotenoid metabolism. It was used to test a text mining workflow which added some additional entities (see Waagmeester et al. 2009).</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <CitationRef citationID="f7b" />
+  <CitationRef citationID="e98" />
+  <CitationRef citationID="d20" />
+  <DataNode elementID="a0009" textLabel="Betacarotene" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="933.25" centerY="331.25" width="87.5" height="23.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00561" />
+  </DataNode>
+  <DataNode elementID="a0454" textLabel="Bcmo1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1098.4959159614334" centerY="379.1666666666663" width="52.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Beta-carotene 15,15'-monooxygenase" />
+    <Xref dataSource="Entrez Gene" identifier="53630" />
+  </DataNode>
+  <DataNode elementID="a29e9" textLabel="ARAT" groupRef="d48d9" fontSize="10" vAlign="Middle" type="Protein" centerX="495.6178463592971" centerY="388.98402565622484" width="75.15434877518175" height="22.861824206222423" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="8694" />
+  </DataNode>
+  <DataNode elementID="a2c14" textLabel="Rbp7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="601.4406719717061" centerY="693.6691086691086" width="80.0" height="16.666666666666668" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Retinol binding protein 7, cellular" />
+    <Xref dataSource="Entrez Gene" identifier="116362" />
+  </DataNode>
+  <DataNode elementID="a44fb" textLabel="Aldh1a1" groupRef="ea8ec" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1056.0406719717112" centerY="425.74358974358745" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Aldehyde dehydrogenase family 1, subfamily A1" />
+    <Xref dataSource="Entrez Gene" identifier="216" />
+  </DataNode>
+  <DataNode elementID="a4628" textLabel="RARa" groupRef="e3eb2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1392.6697612732162" centerY="435.1989389920417" width="74.06666666666666" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="RARa" />
+    <Xref dataSource="Entrez Gene" identifier="5914" />
+  </DataNode>
+  <DataNode elementID="a5ee0" textLabel="Aldh1a2" groupRef="ea8ec" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1056.0406719717112" centerY="445.74358974358745" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Aldehyde dehydrogenase family 1, subfamily A2" />
+    <Xref dataSource="Entrez Gene" identifier="8854" />
+  </DataNode>
+  <DataNode elementID="a631d" textLabel="Abcg8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1347.4252873563275" centerY="155.33333333333334" width="45.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Abcg8" />
+    <Xref dataSource="Entrez Gene" identifier="64241" />
+  </DataNode>
+  <DataNode elementID="a6725" textLabel="Retinol&#xA;Vitamin A" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="955.25" centerY="98.75" width="73.5" height="27.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00305" />
+  </DataNode>
+  <DataNode elementID="a6e8e" textLabel="Rdh12" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="784.6870026525197" centerY="565.3862942612941" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Retinol dehydrogenase 12" />
+    <Xref dataSource="Entrez Gene" identifier="145226" />
+  </DataNode>
+  <DataNode elementID="aa7cc" textLabel="Rdh5" groupRef="c3cd9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="362.558620689655" centerY="618.000000000001" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="5959" />
+  </DataNode>
+  <DataNode elementID="aa8f9" textLabel="Dhrs3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="781.3740053050404" centerY="418.87692307692356" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Dehydrogenase/reductase (SDR family) member 3" />
+    <Xref dataSource="Entrez Gene" identifier="9249" />
+  </DataNode>
+  <DataNode elementID="abd14" textLabel="Cyp26b1" groupRef="a6a71" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1294.4286135320654" centerY="555.8691086691089" width="74.06666666666666" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Cyp26b1" />
+    <Xref dataSource="Entrez Gene" identifier="56603" />
+  </DataNode>
+  <DataNode elementID="abd6c" textLabel="all-transe 4-oxo RA" groupRef="d3ed9" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1342.75" centerY="678.75" width="120.5" height="23.5" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ac273" textLabel="Npc1l1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1194.7586206896556" centerY="146.58045959472656" width="45.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Npc1l1" />
+    <Xref dataSource="Entrez Gene" identifier="29881" />
+  </DataNode>
+  <DataNode elementID="ad473" textLabel="Aldh1a3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1055.245800176834" centerY="607.7179487179487" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="220" />
+  </DataNode>
+  <DataNode elementID="aeaa5" textLabel="Aldh1a3" groupRef="ea8ec" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1056.0406719717112" centerY="465.7435897435855" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="220" />
+  </DataNode>
+  <DataNode elementID="af7a1" textLabel="Abcg5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1347.4252873563275" centerY="135.33333333333334" width="45.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Abcg5" />
+    <Xref dataSource="Entrez Gene" identifier="64240" />
+  </DataNode>
+  <DataNode elementID="b07e7" textLabel="11-cis-Retinol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="362.08333333333303" centerY="576.7500000000002" width="63.999999999999396" height="30.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB06216" />
+  </DataNode>
+  <DataNode elementID="b0eea" textLabel="Lpl" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="484.59195402298826" centerY="271.3333333333333" width="51.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Lpl" />
+    <Xref dataSource="Entrez Gene" identifier="4023" />
+  </DataNode>
+  <DataNode elementID="b100e" textLabel="all-trans Retinol&#xA;Vitamin A" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="620.9166666666677" centerY="445.75000000000034" width="73.5" height="30.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00305" />
+  </DataNode>
+  <DataNode elementID="b29bb" textLabel="4-oxo-Retinoic acid" groupRef="d3ed9" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1342.75" centerY="653.75" width="120.5" height="26.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB06285" />
+  </DataNode>
+  <DataNode elementID="b3750" textLabel="Cyp2e1" groupRef="a6a71" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1294.4286135320654" centerY="575.8691086691089" width="74.06666666666666" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Cyp2e1" />
+    <Xref dataSource="Entrez Gene" identifier="1571" />
+  </DataNode>
+  <DataNode elementID="b3b6b" textLabel="Beta-Cryptoxanthin" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="826.6666666666666" centerY="331.25" width="100.0" height="19.99999237060547" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="beta-cryptoxanthin" />
+    <Xref dataSource="HMDB" identifier="HMDB02268" />
+  </DataNode>
+  <DataNode elementID="b5d6e" textLabel="RPE65" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="293.8919540229879" centerY="524.6666666666657" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="6121" />
+  </DataNode>
+  <DataNode elementID="b60c6" textLabel="Bcdo2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1011.9124668435006" centerY="349.9166666666662" width="51.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Beta-carotene 9', 10'-dioxygenase 2" />
+    <Xref dataSource="Entrez Gene" identifier="83875" />
+  </DataNode>
+  <DataNode elementID="b67a1" textLabel="MAPK" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1284.6666666666667" centerY="334.8333333333333" width="100.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="MAPK" />
+    <Xref dataSource="Entrez Gene" identifier="5594" />
+  </DataNode>
+  <DataNode elementID="b8047" textLabel="Zeaxanthin" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="62.666666666666664" centerY="400.0" width="100.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="zeaxanthin" />
+    <CitationRef citationID="da5" />
+    <CitationRef citationID="d8f" />
+    <Xref dataSource="HMDB" identifier="HMDB02789" />
+  </DataNode>
+  <DataNode elementID="b8e2b" textLabel="Lutein" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1283.6666666666667" centerY="52.0" width="100.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="lutein" />
+    <CitationRef citationID="da5" />
+    <CitationRef citationID="d87" />
+    <CitationRef citationID="f30" />
+    <Xref dataSource="HMDB" identifier="HMDB03233" />
+  </DataNode>
+  <DataNode elementID="b92cb" textLabel="11-cis-Retinal" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="362.0833333333343" centerY="694.0833333333345" width="63.999999999999396" height="30.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB02152" />
+  </DataNode>
+  <DataNode elementID="ba983" textLabel="Betacarotene" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="933.25" centerY="267.25" width="87.5" height="23.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00561" />
+  </DataNode>
+  <DataNode elementID="bb02c" textLabel="Scarb1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="933.25" centerY="295.6666666666667" width="52.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SRB1" />
+    <Xref dataSource="Entrez Gene" identifier="949" />
+  </DataNode>
+  <DataNode elementID="bc1f4" textLabel="Lycopene" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1184.999999999999" centerY="379.1666666666667" width="100.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="lycopene" />
+    <Xref dataSource="HMDB" identifier="HMDB03000" />
+  </DataNode>
+  <DataNode elementID="bc239" textLabel="Retinyl ester" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="816.75" centerY="187.75" width="72.5" height="30.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB03598" />
+  </DataNode>
+  <DataNode elementID="bcaf2" textLabel="Sult2b1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1562.4005305039861" centerY="615.538461538461" width="79.99999999999997" height="20.000000000000043" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Sult2b1" />
+    <Xref dataSource="Entrez Gene" identifier="6820" />
+  </DataNode>
+  <DataNode elementID="be432" textLabel="all-trans Retinal" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="935.2499999999999" centerY="445.75000000000034" width="99.33333333333371" height="30.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01358" />
+  </DataNode>
+  <DataNode elementID="c1e29" textLabel="Lrat" groupRef="d48d9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="498.0406719717062" centerY="407.55311355311363" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Lecithin-retinol acyltransferase" />
+    <Xref dataSource="Ensembl" identifier="ENSG00000121207" />
+  </DataNode>
+  <DataNode elementID="c25bf" textLabel="All-trans-13,14-dihydroretinol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="603.1249999999991" centerY="586.7500000000009" width="135.08333333333297" height="30.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB11618" />
+  </DataNode>
+  <DataNode elementID="c3ba7" textLabel="RXRb" groupRef="e3eb2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1476.1697612732162" centerY="454.9748010610072" width="74.06666666666666" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="RXRb" />
+    <Xref dataSource="Entrez Gene" identifier="6257" />
+  </DataNode>
+  <DataNode elementID="c8b7e" textLabel="9-cis-Retinal" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="935.9166666666662" centerY="520.7500000000009" width="99.33333333333371" height="30.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB06218" />
+  </DataNode>
+  <DataNode elementID="c937f" textLabel="Rdh10" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="784.6870026525197" centerY="545.3862942612942" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Retinol dehydrogenase 10" />
+    <Xref dataSource="Entrez Gene" identifier="157506" />
+  </DataNode>
+  <DataNode elementID="ca165" textLabel="Retsat" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="561.4509283819625" centerY="505.3846153846154" width="46.153846153846416" height="19.89743589743614" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="All-trans-retinol 13,14-reductase " />
+    <CitationRef citationID="afc" />
+    <Xref dataSource="Entrez Gene" identifier="54884" />
+  </DataNode>
+  <DataNode elementID="ca197" textLabel="Rbp1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="601.4406719717061" centerY="643.6691086691088" width="80.0" height="16.666666666666668" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Retinol binding protein 1, cellular" />
+    <Xref dataSource="Entrez Gene" identifier="5947" />
+  </DataNode>
+  <DataNode elementID="ca572" textLabel="Rdh12" groupRef="c3cd9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="362.558620689655" centerY="638.000000000001" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="145226" />
+  </DataNode>
+  <DataNode elementID="ca8ba" textLabel="RXRa" groupRef="e3eb2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1476.1697612732162" centerY="436.9748010610072" width="74.06666666666666" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="RXRa" />
+    <Xref dataSource="Entrez Gene" identifier="6256" />
+  </DataNode>
+  <DataNode elementID="caa5e" textLabel="Adh4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="784.6870026525199" centerY="485.38629426129415" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Alcohol dehydrogenase 4 (class II), pi polypeptide" />
+    <Xref dataSource="Entrez Gene" identifier="127" />
+  </DataNode>
+  <DataNode elementID="cae4c" textLabel="Vitamin D3" color="0000ff" fillColor="Transparent" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1637.6666564941406" centerY="433.33333079020184" width="100.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Vitamin D3" />
+    <CitationRef citationID="cd1" />
+    <CitationRef citationID="e17" />
+    <CitationRef citationID="c13" />
+    <CitationRef citationID="fe3" />
+    <Xref dataSource="HMDB" identifier="HMDB00876" />
+  </DataNode>
+  <DataNode elementID="d104f" textLabel="Sult1a1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1562.4005305039861" centerY="595.538461538461" width="79.99999999999997" height="20.000000000000043" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Sult1a1" />
+    <Xref dataSource="Entrez Gene" identifier="6817" />
+  </DataNode>
+  <DataNode elementID="d1a73" textLabel="Cyp26a1" groupRef="a6a71" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1294.4286135320654" centerY="535.8357753357755" width="74.06666666666666" height="20.066666666666666" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Cytochrome P450 26A1 " />
+    <Xref dataSource="Entrez Gene" identifier="1592" />
+  </DataNode>
+  <DataNode elementID="d2c11" textLabel="all-trans Retinoic acid&#xA;Vitamin A acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1182.583333333334" centerY="445.7500000000004" width="99.33333333333319" height="29.166666666666135" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01852" />
+  </DataNode>
+  <DataNode elementID="d3f08" textLabel="Awat" groupRef="d48d9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="498.25" centerY="367.25" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="158835" />
+  </DataNode>
+  <DataNode elementID="d7d44" textLabel="Bcmo1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1186.0919540229884" centerY="218.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Bcmo1" />
+    <Xref dataSource="Entrez Gene" identifier="53630" />
+  </DataNode>
+  <DataNode elementID="d8d94" textLabel="Cd36" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1289.758620689659" centerY="146.58045959472656" width="41.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Cd36" />
+    <Xref dataSource="Entrez Gene" identifier="948" />
+  </DataNode>
+  <DataNode elementID="dcbc5" textLabel="Violaxanthin" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="64.66666666666667" centerY="470.0" width="100.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="violaxanthin" />
+    <Xref dataSource="HMDB" identifier="HMDB03101" />
+  </DataNode>
+  <DataNode elementID="dd52d" textLabel="RARg" groupRef="e3eb2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1392.6697612732162" centerY="475.1989389920417" width="74.06666666666666" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="RARg" />
+    <Xref dataSource="Entrez Gene" identifier="5916" />
+  </DataNode>
+  <DataNode elementID="dd561" textLabel="Aldh1a2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1055.245800176834" centerY="587.7179487179487" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Aldehyde dehydrogenase family 1, subfamily A2" />
+    <Xref dataSource="Entrez Gene" identifier="8854" />
+  </DataNode>
+  <DataNode elementID="ddf11" textLabel="13,14 dehydroretinal" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="935.3333333333331" centerY="586.7500000000009" width="99.33333333333373" height="30.5" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="df783" textLabel="Canthaxanthin" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="791.6666666666666" centerY="377.0" width="100.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="canthaxanthin" />
+    <Xref dataSource="HMDB" identifier="HMDB03154" />
+  </DataNode>
+  <DataNode elementID="df9cb" textLabel="Scarb1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1239.0919540229904" centerY="146.58045959472656" width="52.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SRB1" />
+    <Xref dataSource="Entrez Gene" identifier="949" />
+  </DataNode>
+  <DataNode elementID="e085b" textLabel="13,14 dehydro RA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1183.3333333333335" centerY="586.7500000000009" width="99.33333333333373" height="30.5" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e50bb" textLabel="9-cis-Retinoic acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1182.583333333334" centerY="520.7500000000009" width="99.33333333333319" height="30.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB02369" />
+  </DataNode>
+  <DataNode elementID="e58bb" textLabel="Astaxanthin" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="63.666666666666664" centerY="436.0" width="100.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="astaxanthin" />
+    <Xref dataSource="HMDB" identifier="HMDB02204" />
+  </DataNode>
+  <DataNode elementID="e5e97" textLabel="Lrat" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="892.758620689655" centerY="218.0" width="44.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Lrat" />
+    <Xref dataSource="Ensembl" identifier="ENSG00000121207" />
+  </DataNode>
+  <DataNode elementID="e5fb8" textLabel="Aldh1a1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1055.245800176834" centerY="567.7179487179487" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Aldehyde dehydrogenase family 1, subfamily A1" />
+    <Xref dataSource="Entrez Gene" identifier="216" />
+  </DataNode>
+  <DataNode elementID="e944a" textLabel="Rdh5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="784.6870026525198" centerY="505.38629426129415" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Retinol dehydrogenase 5" />
+    <Xref dataSource="Entrez Gene" identifier="5959" />
+  </DataNode>
+  <DataNode elementID="eae89" textLabel="Rdh8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="784.6870026525197" centerY="525.3862942612942" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Retinol dehydrogenase 8" />
+    <Xref dataSource="Entrez Gene" identifier="50700" />
+  </DataNode>
+  <DataNode elementID="edcfc" textLabel="Adh1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="784.6870026525199" centerY="465.38629426129415" width="80.62599469496006" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Alcohol dehydrogenase 1 (class I)" />
+    <Xref dataSource="Entrez Gene" identifier="124" />
+  </DataNode>
+  <DataNode elementID="ef3c3" textLabel="RXRg" groupRef="e3eb2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1476.1697612732162" centerY="474.9748010610072" width="74.06666666666666" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="RXRg" />
+    <Xref dataSource="Entrez Gene" identifier="6258" />
+  </DataNode>
+  <DataNode elementID="f2294" textLabel="9-cis-Retinol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="656.0000000000002" centerY="520.7500000000009" width="63.999999999999396" height="30.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB06217" />
+  </DataNode>
+  <DataNode elementID="f2b81" textLabel="Crabp2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1182.6124668435004" centerY="664.2564102564104" width="80.0" height="16.666666666666668" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Cellular retinoic acid binding protein II" />
+    <Xref dataSource="Entrez Gene" identifier="1382" />
+  </DataNode>
+  <DataNode elementID="f3fcd" textLabel="Crabp1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1182.6124668435004" centerY="647.5897435897438" width="80.0" height="16.666666666666668" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Cellular retinoic acid binding protein I" />
+    <Xref dataSource="Entrez Gene" identifier="1381" />
+  </DataNode>
+  <DataNode elementID="f5020" textLabel="Rlbp1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="227.44067197170637" centerY="643.3333333333343" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="6017" />
+  </DataNode>
+  <DataNode elementID="f5db8" textLabel="Alpha-Carotene" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="63.666666666666664" centerY="366.0" width="100.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="alpha-carotene" />
+    <CitationRef citationID="c78" />
+    <CitationRef citationID="e56" />
+    <CitationRef citationID="bbd" />
+    <CitationRef citationID="e92" />
+    <CitationRef citationID="e3d" />
+    <CitationRef citationID="e5f" />
+    <Xref dataSource="HMDB" identifier="HMDB03993" />
+  </DataNode>
+  <DataNode elementID="f698d" textLabel="Retinol&#xA;Vitamin A" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="956.25" centerY="187.75" width="73.5" height="27.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00305" />
+  </DataNode>
+  <DataNode elementID="f6cee" textLabel="beta 10' apocorotenal" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1123.75" centerY="331.75" width="120.5" height="26.5" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="f8808" textLabel="Betacarotene" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1256.25" centerY="187.75" width="87.5" height="27.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00561" />
+  </DataNode>
+  <DataNode elementID="f933c" textLabel="Rbp2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="601.4406719717061" centerY="660.3357753357755" width="80.0" height="16.666666666666668" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Retinol binding protein 2, cellular" />
+    <Xref dataSource="Entrez Gene" identifier="5948" />
+  </DataNode>
+  <DataNode elementID="f9a58" textLabel="Retinyl ester" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="362.08333333333303" centerY="445.75000000000085" width="72.5" height="30.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB03598" />
+  </DataNode>
+  <DataNode elementID="fa279" textLabel="Bcmo1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="888.5833333333342" centerY="377.0" width="52.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Beta-carotene 15,15'-monooxygenase" />
+    <Xref dataSource="Entrez Gene" identifier="53630" />
+  </DataNode>
+  <DataNode elementID="fa5bd" textLabel="Rbp4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="601.4406719717061" centerY="677.0024420024421" width="80.0" height="16.666666666666668" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Retinol binding protein 4, plasma" />
+    <Xref dataSource="Entrez Gene" identifier="5950" />
+  </DataNode>
+  <DataNode elementID="fa6ab" textLabel="Retinal&#xA;Vitamin A aldehyde" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1098.75" centerY="187.75" width="106.5" height="27.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01358" />
+  </DataNode>
+  <DataNode elementID="fc14f" textLabel="Betacarotene" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1268.5" centerY="89.75" width="249.0" height="24.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00561" />
+  </DataNode>
+  <DataNode elementID="fc7ce" textLabel="RARb" groupRef="e3eb2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1392.6697612732162" centerY="455.1989389920417" width="74.06666666666666" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="RARb" />
+    <Xref dataSource="Entrez Gene" identifier="5915" />
+  </DataNode>
+  <DataNode elementID="fe9c7" textLabel="Retinol dehydrogenases" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1024.5" centerY="218.0" width="117.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="195814" />
+  </DataNode>
+  <Interaction elementID="a01bf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="886.2499999999993" y="520.7500000000009" elementID="e6222" elementRef="c8b7e" relX="-1.0" relY="0.0" />
+    <Point x="688.0" y="520.7500000000009" elementID="eeadc" elementRef="f2294" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a05d3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1134.999999999999" y="379.1666666666667" elementID="b6844" elementRef="bc1f4" relX="-1.0" relY="0.0" />
+    <Point x="1124.4959159614334" y="379.1666666666663" elementID="b7597" elementRef="a0454" relX="1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="a152d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="933.25" y="279.0" elementID="b3e5d" elementRef="ba983" relX="0.0" relY="1.0" />
+    <Point x="933.25" y="319.5" elementID="dd46e" elementRef="a0009" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="f4392" />
+  </Interaction>
+  <Interaction elementID="a259a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1212.5" y="187.75" elementID="dfa2c" elementRef="f8808" relX="-1.0" relY="0.0" />
+    <Point x="1152.0" y="187.75" elementID="db6cb" elementRef="fa6ab" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.42857142857142855" shapeType="None" elementID="b15ba" />
+  </Interaction>
+  <Interaction elementID="a3ca7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="362.08333333333303" y="592.0000000000002" elementID="fcfd6" elementRef="b07e7" relX="0.0" relY="1.0" />
+    <Point x="362.0833333333343" y="678.8333333333345" elementID="dd004" elementRef="b92cb" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="d9380" />
+  </Interaction>
+  <Interaction elementID="a49f5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="688.0" y="513.1250000000009" elementID="e5a2c" elementRef="f2294" relX="1.0" relY="-0.5" />
+    <Point x="886.2499999999993" y="513.1250000000009" elementID="e2c30" elementRef="c8b7e" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b4096" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="985.583333333333" y="520.7500000000009" elementID="e98f9" elementRef="c8b7e" relX="1.0" relY="0.0" />
+    <Point x="1132.9166666666674" y="520.7500000000009" elementID="f5e94" elementRef="e50bb" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b6471" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1393.0" y="89.75" elementID="c65de" elementRef="fc14f" relX="1.0" relY="0.0" />
+    <Point x="1300.0" y="187.75" elementID="cd0ad" elementRef="f8808" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bdca5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1045.5" y="187.75" elementID="a4c9f" elementRef="fa6ab" relX="-1.0" relY="0.0" />
+    <Point x="993.0" y="187.75" elementID="c5243" elementRef="f698d" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="bbd2f" />
+  </Interaction>
+  <Interaction elementID="bef7f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="670.6666666666656" y="579.1250000000009" elementID="a6938" elementRef="c25bf" relX="1.0" relY="-0.5" />
+    <Point x="885.6666666666663" y="579.1250000000009" elementID="cd184" elementRef="ddf11" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bf935" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="362.08333333333303" y="279.76666666666665" elementID="a4175" elementRef="e283f" relX="0.0" relY="1.0" />
+    <Point x="362.08333333333303" y="430.50000000000085" elementID="bd8f1" elementRef="f9a58" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c1683" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1477.8114279398828" y="417.1989389920417" elementID="b8dbc" elementRef="e3eb2" relX="0.5" relY="-1.0" />
+    <Point x="1536.2236074270618" y="381.384615384615" elementID="bced2" elementRef="f46e4" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c232c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="985.0" y="586.7500000000009" elementID="b9a53" elementRef="ddf11" relX="1.0" relY="0.0" />
+    <Point x="1133.6666666666665" y="586.7500000000009" elementID="d10a6" elementRef="e085b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c35e9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="311.0" y="148.05747126436782" elementID="ffdda" />
+    <Point x="1587.3333333333333" y="144.66666666666666" elementID="ffb06" />
+  </Interaction>
+  <Interaction elementID="c3bb3" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1235.0" y="403.6666666666667" elementID="e8a1b" />
+    <Point x="1264.0" y="352.6666666666667" elementID="e531f" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c574e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="841.6666666666666" y="377.0" elementID="cc5a5" elementRef="df783" relX="1.0" relY="0.0" />
+    <Point x="862.5833333333342" y="377.0" elementID="dc35b" elementRef="fa279" relX="-1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="c7f17" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="664.5752873563217" y="228.36666666666667" elementID="e6d8e" elementRef="b5d83" relX="-0.5" relY="1.0" />
+    <Point x="622.608620689655" y="256.29999999999995" elementID="e56af" elementRef="fff04" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c8c65" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1093.625" y="345.0" elementID="c8e92" elementRef="f6cee" relX="-0.5" relY="1.0" />
+    <Point x="960.0833333333333" y="430.50000000000034" elementID="cab5d" elementRef="be432" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="cf07e" />
+  </Interaction>
+  <Interaction elementID="c91f7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="398.33333333333303" y="438.12500000000085" elementID="d89f4" elementRef="f9a58" relX="1.0" relY="-0.5" />
+    <Point x="584.1666666666677" y="438.12500000000034" elementID="d7506" elementRef="b100e" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+    <Anchor position="0.5399202399557906" shapeType="None" elementID="e5c5d" />
+  </Interaction>
+  <Interaction elementID="ccbcf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="919.5" y="187.75" elementID="f7169" elementRef="f698d" relX="-1.0" relY="0.0" />
+    <Point x="853.0" y="187.75" elementID="bb15e" elementRef="bc239" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="e2057" />
+  </Interaction>
+  <Interaction elementID="cecd6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1144.0" y="89.75" elementID="dda80" elementRef="fc14f" relX="-1.0" relY="0.0" />
+    <Point x="1234.375" y="174.0" elementID="bd9a1" elementRef="f8808" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="cfdc8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="552.0586206896551" y="272.83333333333326" elementID="b351f" elementRef="fff04" relX="-1.0" relY="0.0" />
+    <Point x="415.9499999999997" y="272.3333333333333" elementID="b0960" elementRef="e283f" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d368b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="885.583333333333" y="445.75000000000034" elementID="aac80" elementRef="be432" relX="-1.0" relY="0.0" />
+    <Point x="657.6666666666677" y="445.75000000000034" elementID="e13e0" elementRef="b100e" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d4ed3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="885.6666666666663" y="586.7500000000009" elementID="b6a48" elementRef="ddf11" relX="-1.0" relY="0.0" />
+    <Point x="670.6666666666656" y="586.7500000000009" elementID="cc499" elementRef="c25bf" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="da3a7" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1359.0" y="405.6666666666667" elementID="d396a" />
+    <Point x="1301.0" y="348.6666666666667" elementID="b9f92" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="de821" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="780.5" y="187.75" elementID="a0362" elementRef="bc239" relX="-1.0" relY="0.0" />
+    <Point x="735.1252873563217" y="203.56666666666666" elementID="fa169" elementRef="b5d83" relX="1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e1a3d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="362.08333333333303" y="461.00000000000085" elementID="a01be" elementRef="f9a58" relX="0.0" relY="1.0" />
+    <Point x="362.08333333333303" y="561.5000000000002" elementID="eead7" elementRef="b07e7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.6400233456454758" shapeType="None" elementID="c6a04" />
+  </Interaction>
+  <Interaction elementID="e2ac5" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="109.33333333333333" y="248.66666666666666" elementID="adc0d" />
+    <Point x="1593.3333333333333" y="243.33333333333334" elementID="bbe06" />
+  </Interaction>
+  <Interaction elementID="e4360" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1330.75" y="77.5" elementID="fc8b6" elementRef="fc14f" relX="0.5" relY="-1.0" />
+    <Point x="1278.125" y="174.0" elementID="bfaba" elementRef="f8808" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e571a" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1256.25" y="201.5" elementID="a8a5a" elementRef="f8808" relX="0.0" relY="1.0" />
+    <Point x="1256.7586206896578" y="264.0" elementID="bbbe8" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e9329" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1254.2403185350563" y="506.0615176962125" elementID="d0d33" elementRef="f1642" relX="1.0" relY="0.0" />
+    <Point x="1342.75" y="632.5" elementID="bf473" elementRef="d3ed9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="eaefe" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="584.1666666666677" y="445.75000000000034" elementID="b1927" elementRef="b100e" relX="-1.0" relY="0.0" />
+    <Point x="398.33333333333303" y="445.75000000000085" elementID="c287e" elementRef="f9a58" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f5a20" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="639.2916666666677" y="461.00000000000034" elementID="eec83" elementRef="b100e" relX="0.5" relY="1.0" />
+    <Point x="640.0000000000003" y="505.5000000000009" elementID="edb84" elementRef="f2294" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f5d42" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="955.25" y="112.5" elementID="d3a3c" elementRef="a6725" relX="0.0" relY="1.0" />
+    <Point x="956.25" y="174.0" elementID="e227c" elementRef="f698d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f927c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="977.0" y="331.25" elementID="afff6" elementRef="a0009" relX="1.0" relY="0.0" />
+    <Point x="1063.5" y="331.75" elementID="c2fba" elementRef="f6cee" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="acb3a" />
+  </Interaction>
+  <Interaction elementID="f998a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="109.66666666666667" y="296.9425287356322" elementID="b4729" />
+    <Point x="1590.827586206897" y="297.7701149425287" elementID="c796d" />
+  </Interaction>
+  <Interaction elementID="f9b7f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="657.6666666666677" y="438.12500000000034" elementID="b49a2" elementRef="b100e" relX="1.0" relY="-0.5" />
+    <Point x="885.583333333333" y="438.12500000000034" elementID="c71d0" elementRef="be432" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+    <Anchor position="0.5400291120815137" shapeType="None" elementID="e8c64" />
+  </Interaction>
+  <Interaction elementID="f9e96" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="933.25" y="343.0" elementID="d3908" elementRef="a0009" relX="0.0" relY="1.0" />
+    <Point x="935.2499999999999" y="430.50000000000034" elementID="a7bff" elementRef="be432" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.3692870201096889" shapeType="None" elementID="f8176" />
+  </Interaction>
+  <Interaction elementID="fa1ce" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1206.25" y="77.5" elementID="a6412" elementRef="fc14f" relX="-0.5" relY="-1.0" />
+    <Point x="1256.25" y="174.0" elementID="f83a4" elementRef="f8808" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fa6b6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="602.5416666666677" y="461.00000000000034" elementID="e4fe6" elementRef="b100e" relX="-0.5" relY="1.0" />
+    <Point x="603.1249999999991" y="571.5000000000009" elementID="e3e8f" elementRef="c25bf" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="aa2bd" />
+  </Interaction>
+  <Interaction elementID="ff915" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="984.9166666666667" y="445.75000000000034" elementID="db1b9" elementRef="be432" relX="1.0" relY="0.0" />
+    <Point x="1132.9166666666674" y="445.75000000000034" elementID="b3f90" elementRef="d2c11" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="f4ed5" />
+  </Interaction>
+  <Interaction elementID="id3d5c0c0e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="498.6685112584515" y="438.12500000000057" elementID="ffe8d" elementRef="e5c5d" relX="0.0" relY="0.0" />
+    <Point x="498.1453359858531" y="425.5531135531137" elementID="c6981" elementRef="d48d9" relX="0.0" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="id425e272c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="892.758620689655" y="208.0" elementID="f4dcf" elementRef="e5e97" relX="0.0" relY="-1.0" />
+    <Point x="892.9" y="187.75" elementID="a8b2c" elementRef="e2057" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id629aa9b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1044.116666666667" y="445.75000000000034" elementID="fec42" elementRef="f4ed5" relX="0.0" relY="0.0" />
+    <Point x="1104.0406719717112" y="445.7435897435865" elementID="b7370" elementRef="ea8ec" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id6dcdecc6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="781.3740053050404" y="428.87692307692356" elementID="b6f2c" elementRef="aa8f9" relX="0.0" relY="1.0" />
+    <Point x="780.7483017952453" y="438.12500000000034" elementID="eaaf7" elementRef="e8c64" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id815aa511" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1186.0919540229884" y="208.0" elementID="a7078" elementRef="d7d44" relX="0.0" relY="-1.0" />
+    <Point x="1186.5714285714287" y="187.75" elementID="d64db" elementRef="b15ba" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id8a53db5f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="602.7750000000002" y="505.20000000000056" elementID="b709f" elementRef="aa2bd" relX="0.0" relY="0.0" />
+    <Point x="584.5278514588857" y="505.3846153846154" elementID="eee3d" elementRef="ca165" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id9067f6e3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1011.9124668435006" y="339.9166666666662" elementID="f3052" elementRef="b60c6" relX="0.0" relY="-1.0" />
+    <Point x="1011.6" y="331.45" elementID="cf211" elementRef="acb3a" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="ida019a6f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="362.08333333333354" y="626.7333333333339" elementID="f423c" elementRef="d9380" relX="0.0" relY="0.0" />
+    <Point x="362.558620689655" y="656.000000000001" elementID="a630a" elementRef="c3cd9" relX="0.0" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="idbd512c36" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="914.5833333333342" y="377.0" elementID="e1aa2" elementRef="fa279" relX="1.0" relY="0.0" />
+    <Point x="933.9885740402193" y="375.3126142595979" elementID="f32c9" elementRef="f8176" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idbdb125c7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="333.8919540229879" y="524.6666666666657" elementID="d9b97" elementRef="b5d6e" relX="1.0" relY="0.0" />
+    <Point x="362.08333333333303" y="525.3223462373708" elementID="d8377" elementRef="c6a04" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idc14c753a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1040.2083333333333" y="379.20000000000016" elementID="b4d9c" elementRef="cf07e" relX="0.0" relY="0.0" />
+    <Point x="1072.4959159614334" y="379.1666666666663" elementID="e1abf" elementRef="a0454" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="iddc6f9d6e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="907.25" y="295.6666666666667" elementID="e27bd" elementRef="bb02c" relX="-1.0" relY="0.0" />
+    <Point x="933.25" y="295.2" elementID="a6e2d" elementRef="f4392" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idfcddae72" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1024.5" y="208.0" elementID="cd684" elementRef="fe9c7" relX="0.0" relY="-1.0" />
+    <Point x="1024.5" y="187.75" elementID="cebdc" elementRef="bbd2f" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="d76f8" zOrder="32769" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1477.8114279398828" y="493.1989389920417" elementID="e4fb9" elementRef="e3eb2" relX="0.5" relY="1.0" />
+    <Point x="1562.4005305039861" y="585.538461538461" elementID="a9d16" elementRef="d104f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b00bf" zOrder="32770" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1391.0280946065495" y="493.1989389920417" elementID="f30de" elementRef="e3eb2" relX="-0.5" relY="1.0" />
+    <Point x="1339.4619468653987" y="555.8357753357755" elementID="a786d" elementRef="a6a71" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b2026" zOrder="32771" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1254.2403185350563" y="506.0615176962125" elementID="e3cae" elementRef="f1642" relX="1.0" relY="0.0" />
+    <Point x="1347.6364279398829" y="455.1989389920417" elementID="ac839" elementRef="e3eb2" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="a59dc" textLabel="chylomicron" fillColor="ffffff" fontSize="8" vAlign="Middle" centerX="688.2126436781608" centerY="187.73333333333332" width="73.75862068965495" height="17.866666666666667" zOrder="28672" />
+  <Label elementID="a68ae" textLabel="ROL=retinol; RAL=retinaldehyde, RA = retinoic acid, RE = retinyl ester, RPE = retinal pigment epithelium " fillColor="ffffff" fontSize="8" vAlign="Middle" centerX="906.7770114942534" centerY="694.0574712643677" width="395.55402298850674" height="14.551724137931403" zOrder="28672" />
+  <Label elementID="acb0e" textLabel="Nuclear receptors" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1428.569761273216" centerY="413.48974358974294" width="105.2" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="accc9" textLabel="?" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="646.7124668435011" centerY="478.2846153846154" width="7.4" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="bad15" textLabel="Cytochrome P450 family" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1342.0730579765125" centerY="599.8675213675215" width="145.2" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="bbb8a" textLabel="Blood" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1570.804597701149" centerY="269.6758620689655" width="37.733333333333334" height="15.2" zOrder="28672" />
+  <Label elementID="bde33" textLabel="Diet" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1568.9316091954036" centerY="74.67586206896551" width="72.80344827585915" height="15.2" zOrder="28672" />
+  <Label elementID="be18b" textLabel="?" fillColor="ffffff" fontName="Helvetica" fontSize="14" vAlign="Middle" centerX="1344.0" centerY="376.6666666666667" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="bf9ac" textLabel="RE + dietary lipids" fillColor="ffffff" fontSize="8" vAlign="Middle" centerX="689.2252873563216" centerY="211.9" width="107.73333333333333" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="c316f" textLabel="Rhodopsin formation" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="382.5" centerY="717.0" width="109.0" height="20.0" zOrder="28672" />
+  <Label elementID="d0e57" textLabel="?" fillColor="ffffff" fontName="Helvetica" fontSize="14" vAlign="Middle" centerX="1258.0" centerY="384.6666666666667" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="d2abe" textLabel="" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1411.0" centerY="203.56666666666666" width="0.0" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="d35e1" textLabel="?" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1266.0586206896583" centerY="227.56666666666666" width="7.4" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="d4783" textLabel="RA-binding proteins" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1182.6124668435004" centerY="626.923076923077" width="116.93333333333334" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="d77ac" textLabel="ROL-binding proteins" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="601.4406719717061" centerY="624.5691086691089" width="125.86666666666666" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="dbb4c" textLabel="Liver/other organs" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1530.666666666667" centerY="316.6206896551725" width="126.66666666666623" height="20.75862068965513" zOrder="28672" />
+  <Label elementID="dbb77" textLabel="RE + dietary lipids" fillColor="ffffff" fontSize="8" vAlign="Middle" centerX="602.0919540229883" centerY="271.3333333333333" width="90.0" height="12.466666666666667" zOrder="28672" />
+  <Label elementID="e213d" textLabel="Enterocyte" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1552.9316091954038" centerY="197.3425287356322" width="72.80344827585915" height="15.2" zOrder="28672" />
+  <Label elementID="e283f" textLabel="RE + dietary lipids" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="362.08333333333303" centerY="272.3333333333333" width="107.73333333333333" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="e4244" textLabel="?" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="965.2252873563216" centerY="303.23333333333335" width="26.4" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="e57a1" textLabel="11-cis binding protein" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="227.44067197170637" centerY="618.5691086691098" width="125.86666666666666" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="f3218" textLabel="gap junction communication" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1478.5" centerY="651.0" width="139.0" height="20.0" zOrder="28672" />
+  <Label elementID="f46e4" textLabel="PPAR pathways" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1536.2236074270616" centerY="373.9512820512817" width="96.2" height="14.866666666666667" zOrder="28672" />
+  <Label elementID="fb570" textLabel="?" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1498.3159151193684" centerY="550.7974358974351" width="28.938461538460494" height="30.25128205128195" zOrder="28672" />
+  <Label elementID="ff769" textLabel="Retinal pigment epithelium specific" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="286.0" centerY="484.6666666666661" width="244.0" height="20.0" zOrder="28672" />
+  <Label elementID="ffe89" textLabel="Nucleus" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="1417.013085764813" centerY="381.4128205128197" width="65.97382847037458" height="14.866666666666667" zOrder="28672" />
+  <Shape elementID="af32a" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="1432.5" centerY="456.5" width="229.0" height="133.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="b5d83" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="688.0919540229883" centerY="211.83333333333334" width="94.06666666666666" height="33.06666666666667" zOrder="16384" rotation="0.0" />
+  <Shape elementID="cada1" shapeType="Brace" fontSize="10" vAlign="Middle" centerX="297.0482584519666" centerY="636.0617492316503" width="124.02181788783491" height="12.54125842854974" zOrder="16384" rotation="4.70139890219736" />
+  <Shape elementID="dfe9c" shapeType="Brace" fillColor="000000" fontSize="10" vAlign="Middle" centerX="602.7740053050395" centerY="610.4126984126984" width="113.33333333333333" height="8.666666666666666" zOrder="16384" rotation="3.141592653589793" />
+  <Shape elementID="dffed" shapeType="Brace" fillColor="000000" fontSize="10" vAlign="Middle" centerX="1178.6666666666667" centerY="611.3333333333334" width="80.0" height="8.0" zOrder="16384" rotation="3.141592653589793" />
+  <Shape elementID="e25f2" shapeType="Rectangle" lineStyle="Broken" fontSize="10" vAlign="Middle" centerX="304.8333333333333" centerY="616.4833333333338" width="276.33333333333337" height="245.0333333333324" zOrder="16384" rotation="0.0" />
+  <Shape elementID="f1642" shapeType="Brace" fontSize="10" vAlign="Middle" centerX="1247.4554289470038" centerY="506.06151769621243" width="169.93346044554954" height="13.066697348925565" zOrder="16384" rotation="1.5678355218147453" />
+  <Shape elementID="fff04" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="599.0919540229883" centerY="272.8333333333333" width="94.06666666666666" height="33.06666666666667" zOrder="16384" rotation="0.0" />
+  <Group elementID="a6a71" groupType="Group" />
+  <Group elementID="c3cd9" groupType="Group" />
+  <Group elementID="d3ed9" groupType="Group" />
+  <Group elementID="d48d9" groupType="Group" />
+  <Group elementID="e3eb2" groupType="Group" />
+  <Group elementID="ea8ec" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Separation and identification of carotenoids and their oxidation products in the extracts of human plasma." URL="" citationID="f30" year="1992" source="Anal Chem">
+      <Xref dataSource="PubMed" identifier="1416048" />
+      <Author name="Khachik F" />
+      <Author name="Beecher GR" />
+      <Author name="Goli MB" />
+      <Author name="Lusby WR" />
+      <Author name="Smith JC Jr" />
+    </Citation>
+    <Citation title="Plasma carotenoid response to chronic intake of selected foods and beta-carotene supplements in men." URL="" citationID="d87" year="1992" source="Am J Clin Nutr">
+      <Xref dataSource="PubMed" identifier="1595584" />
+      <Author name="Micozzi MS" />
+      <Author name="Brown ED" />
+      <Author name="Edwards BK" />
+      <Author name="Bieri JG" />
+      <Author name="Taylor PR" />
+      <Author name="Khachik F" />
+      <Author name="Beecher GR" />
+      <Author name="Smith JC Jr" />
+    </Citation>
+    <Citation title="Pathway enrichment based on text mining and its validation on carotenoid and vitamin A metabolism." URL="" citationID="d20" year="2009" source="OMICS">
+      <Xref dataSource="PubMed" identifier="19715393" />
+      <Author name="Waagmeester A" />
+      <Author name="Pezik P" />
+      <Author name="Coort S" />
+      <Author name="Tourniaire F" />
+      <Author name="Evelo C" />
+      <Author name="Rebholz-Schuhmann D" />
+    </Citation>
+    <Citation title="Vitamin A antagonizes calcium response to vitamin D in man." URL="" citationID="c13" year="2001" source="J Bone Miner Res">
+      <Xref dataSource="PubMed" identifier="11585356" />
+      <Author name="Johansson S" />
+      <Author name="Melhus H" />
+    </Citation>
+    <Citation title="Seasonal and sex-related variations in six serum carotenoids, retinol, and alpha-tocopherol." URL="" citationID="c78" year="1994" source="Am J Clin Nutr">
+      <Xref dataSource="PubMed" identifier="8017322" />
+      <Author name="Olmedilla B" />
+      <Author name="Granado F" />
+      <Author name="Blanco I" />
+      <Author name="Rojas-Hidalgo E" />
+    </Citation>
+    <Citation title="Acute phase response and plasma carotenoid concentrations in older women: findings from the nun study." URL="" citationID="bbd" year="1996" source="Nutrition">
+      <Xref dataSource="PubMed" identifier="8878137" />
+      <Author name="Boosalis MG" />
+      <Author name="Snowdon DA" />
+      <Author name="Tully CL" />
+      <Author name="Gross MD" />
+    </Citation>
+    <Citation title="Biological actions of carotenoids." URL="" citationID="e98" year="1989" source="FASEB J">
+      <Xref dataSource="PubMed" identifier="2656356" />
+      <Author name="Bendich A" />
+      <Author name="Olson JA" />
+    </Citation>
+    <Citation title="Preliminary identification of carotenoids in malignant and benign neoplasms of the breast and surrounding fatty tissue." URL="" citationID="e56" year="2003" source="Neoplasma">
+      <Xref dataSource="PubMed" identifier="12937841" />
+      <Author name="Czeczuga-Semeniuk E" />
+      <Author name="Wolczynski S" />
+      <Author name="Markiewicz W" />
+    </Citation>
+    <Citation title="Lycopene and 1,25-dihydroxyvitamin D3 cooperate in the inhibition of cell cycle progression and induction of differentiation in HL-60 leukemic cells." URL="" citationID="e17" year="1999" source="Nutr Cancer">
+      <Xref dataSource="PubMed" identifier="10227052" />
+      <Author name="Amir H" />
+      <Author name="Karas M" />
+      <Author name="Giat J" />
+      <Author name="Danilenko M" />
+      <Author name="Levy R" />
+      <Author name="Yermiahu T" />
+      <Author name="Levy J" />
+      <Author name="Sharoni Y" />
+    </Citation>
+    <Citation title="Gene expression regulation by retinoic acid." URL="" citationID="f7b" year="2002" source="J Lipid Res">
+      <Xref dataSource="PubMed" identifier="12401878" />
+      <Author name="Balmer JE" />
+      <Author name="Blomhoff R" />
+    </Citation>
+    <Citation title="Vitamin D analogs affect the uptake and metabolism of retinol by human epidermal keratinocytes in culture." URL="" citationID="cd1" year="1996" source="J Investig Dermatol Symp Proc">
+      <Xref dataSource="PubMed" identifier="9627692" />
+      <Author name="Torma H" />
+      <Author name="Rollman O" />
+      <Author name="Binderup L" />
+      <Author name="Michaelsson G" />
+    </Citation>
+    <Citation title="Antioxidant functions of vitamins. Vitamins E and C, beta-carotene, and other carotenoids." URL="" citationID="d8f" year="1992" source="Ann N Y Acad Sci">
+      <Xref dataSource="PubMed" identifier="1444060" />
+      <Author name="Sies H" />
+      <Author name="Stahl W" />
+      <Author name="Sundquist AR" />
+    </Citation>
+    <Citation title="Interrelationships among liposoluble vitamins in ruminants." URL="" citationID="fe3" year="1986" source="Am J Vet Res">
+      <Xref dataSource="PubMed" identifier="3019190" />
+      <Author name="Hidiroglou M" />
+      <Author name="Williams CJ" />
+    </Citation>
+    <Citation title="Relation of elevated serum alanine aminotransferase activity with iron and antioxidant levels in the United States." URL="" citationID="e3d" year="2003" source="Gastroenterology">
+      <Xref dataSource="PubMed" identifier="12806616" />
+      <Author name="Ruhl CE" />
+      <Author name="Everhart JE" />
+    </Citation>
+    <Citation title="Influence of using different sources of carotenoid data in epidemiologic studies." URL="" citationID="e5f" year="1996" source="J Am Diet Assoc">
+      <Xref dataSource="PubMed" identifier="8948389" />
+      <Author name="VandenLangenberg GM" />
+      <Author name="Brady WE" />
+      <Author name="Nebeling LC" />
+      <Author name="Block G" />
+      <Author name="Forman M" />
+      <Author name="Bowen PE" />
+      <Author name="Stacewicz-Sapuntzakis M" />
+      <Author name="Mares-Perlman JA" />
+    </Citation>
+    <Citation title="Carotenoids in the human macula and whole retina." URL="" citationID="da5" year="1988" source="Invest Ophthalmol Vis Sci">
+      <Xref dataSource="PubMed" identifier="3372162" />
+      <Author name="Handelman GJ" />
+      <Author name="Dratz EA" />
+      <Author name="Reay CC" />
+      <Author name="van Kuijk JG" />
+    </Citation>
+    <Citation title="Vitamin A deficiency and nocturnal vision in teenagers with cystic fibrosis." URL="" citationID="e92" year="1997" source="Eur J Pediatr">
+      <Xref dataSource="PubMed" identifier="9453379" />
+      <Author name="Huet F" />
+      <Author name="Semama D" />
+      <Author name="Maingueneau C" />
+      <Author name="Charavel A" />
+      <Author name="Nivelon JL" />
+    </Citation>
+    <Citation title="Identification and characterization of a novel mouse peroxisome proliferator-activated receptor alpha-regulated and starvation-induced gene, Ppsig." URL="" citationID="afc" year="2008" source="Int J Biochem Cell Biol">
+      <Xref dataSource="PubMed" identifier="18289917" />
+      <Author name="Sun Y" />
+      <Author name="Ng L" />
+      <Author name="Lam W" />
+      <Author name="Lo CK" />
+      <Author name="Chan PT" />
+      <Author name="Yuen YL" />
+      <Author name="Wong PF" />
+      <Author name="Tsang DS" />
+      <Author name="Cheung WT" />
+      <Author name="Lee SS" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="metabolic pathway of cofactors and vitamins" ontology="Pathway Ontology" ontologyTermID="PW:0000135" />
+    <OntologyTerm term="vitamin A and metabolites signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001116" />
+  </OntologyTerms>
+</Pathway>
+

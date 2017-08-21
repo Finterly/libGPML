@@ -1,0 +1,32 @@
+Fatty acid	Line	R17
+R17	Arrow	Fatty acid
+ACACA	Line	R21
+R21	Arrow	R7
+ADIPOQ	Line	R3
+R3	Arrow	ADIPOR1
+Acetyl-CoA	Line	R7
+R7	Arrow	Malonyl-CoA
+ADIPOR1	Line	R11
+R11	Arrow	PRKAA1
+R11	Arrow	PRKAG1
+R11	Arrow	PRKAB1
+LEPR	Line	R13
+R13	Arrow	PRKAA1
+R13	Arrow	PRKAG1
+R13	Arrow	PRKAB1
+Malonyl-CoA	Line	R19
+R19	TBar	CPT1A
+CPT1A	Line	R23
+R23	Arrow	R17
+LEP	Line	R1
+R1	Arrow	LEPR
+ADIPOQ	Line	R5
+R5	Arrow	ADIPOR2
+ADIPOR2	Line	R9
+R9	Arrow	PRKAA1
+R9	Arrow	PRKAG1
+R9	Arrow	PRKAB1
+PRKAA1	Line	R15
+PRKAG1	Line	R15
+PRKAB1	Line	R15
+R15	TBar	ACACA

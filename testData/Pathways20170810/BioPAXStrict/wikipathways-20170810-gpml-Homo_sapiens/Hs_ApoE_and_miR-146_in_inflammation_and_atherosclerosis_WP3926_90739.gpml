@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="b2151">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NFKB2</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000025225 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="c2fa9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NFKB2</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000025225 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id31">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id31</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id30">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id30</bp:displayName>
+ <bp:left rdf:resource="c2fa9" />
+ <bp:left rdf:resource="c87cb" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="e6c3d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lipopolysaccharide</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TLR4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id33">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id33</bp:displayName>
+ <bp:right rdf:resource="e6e69" />
+ <bp:left rdf:resource="bfc4d" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000130203</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id32">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id32</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RELA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="c87cb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RELA</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000024927 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id35">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id35</bp:displayName>
+ <bp:left rdf:resource="e6e69" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000136869</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id34">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id34</bp:displayName>
+ <bp:left rdf:resource="c2fa9" />
+ <bp:left rdf:resource="c87cb" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TLR2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000173039</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id28">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id28</bp:displayName>
+ <bp:right rdf:resource="fc1b1" />
+ <bp:right rdf:resource="ed792" />
+ <bp:left rdf:resource="ffe69" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id27">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id27</bp:displayName>
+ <bp:right rdf:resource="fa33a" />
+ <bp:left rdf:resource="e6c3d" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="cc3aa">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RELA</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000024927 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id29">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id29</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="bfc4d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">APOE</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000002985 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="ba110">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ox-LDL</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="ffe69">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TLR2</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000027995 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="fc1b1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TRAF4</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000017386 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000066336</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:60151</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ox-LDL</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="ed792">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IRAK1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000031392 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="fa33a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TLR4</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000039005 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id24">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id24</bp:displayName>
+ <bp:right rdf:resource="fc1b1" />
+ <bp:right rdf:resource="ed792" />
+ <bp:left rdf:resource="fa33a" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id23">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id23</bp:displayName>
+ <bp:right rdf:resource="cc3aa" />
+ <bp:left rdf:resource="fc1b1" />
+ <bp:left rdf:resource="ed792" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id26">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id26</bp:displayName>
+ <bp:right rdf:resource="ffe69" />
+ <bp:left rdf:resource="ba110" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id25">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id25</bp:displayName>
+ <bp:right rdf:resource="c2fa9" />
+ <bp:right rdf:resource="c87cb" />
+ <bp:left rdf:resource="b2151" />
+ <bp:left rdf:resource="cc3aa" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NFKB2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000137462</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SPI1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000077150</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id31" />
+ <bp:pathwayComponent rdf:resource="id30" />
+ <bp:pathwayComponent rdf:resource="id33" />
+ <bp:pathwayComponent rdf:resource="id32" />
+ <bp:pathwayComponent rdf:resource="id24" />
+ <bp:pathwayComponent rdf:resource="id35" />
+ <bp:pathwayComponent rdf:resource="id23" />
+ <bp:pathwayComponent rdf:resource="id34" />
+ <bp:pathwayComponent rdf:resource="id26" />
+ <bp:pathwayComponent rdf:resource="id25" />
+ <bp:pathwayComponent rdf:resource="id28" />
+ <bp:pathwayComponent rdf:resource="id27" />
+ <bp:pathwayComponent rdf:resource="id29" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ApoE and miR-146 in inflammation and atherosclerosis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Mus musculus pathway &quot;ApoE and miR-146 in inflammation and atherosclerosis&quot;, WP3592 revision 89801, with a 90.0% conversion rate. (HomologyMapper)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apolipoprotein E (ApoE) enhances purine-rich PU-box-binding protein 1 (PU.1)-dependent miR-146a transcription to suppress nuclear factor-&#954;B (NF-&#954;B)-driven monocyte and macrophage activation and thereby inflammation and atherosclerosis.
+
+Environmental ligands of toll-like receptors (TLRs), including lipopolysaccharide (LPS) and oxidized low-density lipoprotein (oxLDL), caused by hyperlipidemia provoke inflammatory signaling in monocytes and macrophages resulting in NF-&#954;B activation. Gene transcription from NF-&#954;B activity results in the production of inflammatory mediators, including proatherogenic cytokines. It also results in the production of primary miR-146a (pri-miR-146a) that is subsequently processed into mature miR-146a that silences the expression of key TLR-adaptor molecules interleukin-1 receptor-associated kinase 1 (IRAK1) and TNF receptor-associated factor 6 (TRAF6). The production of miR-146a thereby serves as a regulatory feedback loop to suppress NF-&#954;B activity and resolve inflammation. Findings from our study identified that cellular apoE expression contributes to amplify this regulatory feedback loop by increasing PU.1-dependent transcription of pri-miR-146a and thereby mature miR-146a production.
+ (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:16412</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lipopolysaccharide</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000184216</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IRAK1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000076604</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TRAF4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="e6e69">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SPI1</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homology Mapping from Mus musculus to Homo sapiens: Original ID = L:20375 (HomologyMapper)</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">APOE</bp:displayName>
+</bp:ProteinReference>
+</rdf:RDF>

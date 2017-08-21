@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Lipoic acid metabolism" organism="Mycobacterium tuberculosis" width="914.0" height="606.0" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Source: [http://www.genome.jp/kegg-bin/show_pathway?mtu00785 KEGG Pathways]</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Attribute key="ConversionDate" value="20100629" />
+  <Attribute key="KeggId" value="path:mtu00785" />
+  <DataNode elementID="a77f5" textLabel="lipoyl-AMP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="739.0" centerY="277.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="55451" />
+  </DataNode>
+  <DataNode elementID="c0807" textLabel="Fatty acid biosynthesis" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="114.25" centerY="125.0" width="171.5" height="64.5" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP1647" />
+  </DataNode>
+  <DataNode elementID="c4e16" textLabel="Lipoic Acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="739.0" centerY="125.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Chemspider" identifier="5886" />
+  </DataNode>
+  <DataNode elementID="c6305" textLabel="Protein N6-(octanoyl)lysine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="477.0" centerY="268.0" width="152.0" height="20.0" zOrder="32768">
+    <Xref dataSource="KEGG Compound" identifier="C16236" />
+  </DataNode>
+  <DataNode elementID="c7323" textLabel="Protein N6-(lipoyl)lysine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="475.5" centerY="491.0" width="141.0" height="20.0" zOrder="32768">
+    <Xref dataSource="KEGG Compound" identifier="C16237" />
+  </DataNode>
+  <DataNode elementID="cefb8" textLabel="lipB" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="195.0" centerY="364.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="KeggConverter">Original kegg element: gene;2;mtu:Rv2217</Comment>
+    <Xref dataSource="TubercuList" identifier="Rv2217" />
+  </DataNode>
+  <DataNode elementID="d987d" textLabel="ko:K03800" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="630.0" centerY="373.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Kegg ortholog" identifier="K03800" />
+  </DataNode>
+  <DataNode elementID="dba86" textLabel="lipA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="397.0" centerY="364.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="KeggConverter">Original kegg element: gene;7;mtu:Rv2218</Comment>
+    <Xref dataSource="TubercuList" identifier="Rv2218" />
+  </DataNode>
+  <DataNode elementID="e0be4" textLabel="lipA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="177.0" centerY="193.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="KeggConverter">Original kegg element: gene;1;mtu:Rv2218</Comment>
+    <Xref dataSource="TubercuList" identifier="Rv2218" />
+  </DataNode>
+  <DataNode elementID="e3560" textLabel="Lipoyl-[acp]" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="306.0" centerY="268.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="KEGG Compound" identifier="C16239" />
+  </DataNode>
+  <DataNode elementID="ef505" textLabel="lipB" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="591.0" centerY="190.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="KeggConverter">Original kegg element: gene;8;mtu:Rv2217</Comment>
+    <Xref dataSource="TubercuList" identifier="Rv2217" />
+  </DataNode>
+  <DataNode elementID="f0d17" textLabel="Octanoyl-[acp]" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="306.0" centerY="125.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="KEGG Compound" identifier="C05752" />
+  </DataNode>
+  <DataNode elementID="f39a3" textLabel="ko:K03800" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="844.0" centerY="219.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Kegg ortholog" identifier="K03800" />
+  </DataNode>
+  <DataNode elementID="fe163" textLabel="ko:K10105" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="844.0" centerY="344.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Kegg ortholog" identifier="K10105" />
+  </DataNode>
+  <Interaction elementID="a2987" zOrder="0" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">rn:R07770</Comment>
+    <Point x="739.0" y="135.0" elementID="f73e2" elementRef="c4e16" relX="0.0" relY="1.0" />
+    <Point x="739.0" y="267.0" elementID="cd092" elementRef="a77f5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="aa0f2" connectorType="Elbow" zOrder="0" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">rn:R07769</Comment>
+    <Point x="306.0" y="278.0" elementID="fa82b" elementRef="e3560" relX="0.0" relY="1.0" />
+    <Point x="405.0" y="491.0" elementID="adb06" elementRef="c7323" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.2719841972617668" shapeType="None" elementID="d81ef" />
+  </Interaction>
+  <Interaction elementID="e9ca2" zOrder="0" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">rn:R07767</Comment>
+    <Point x="477.0" y="278.0" elementID="d17c7" elementRef="c6305" relX="0.0" relY="1.0" />
+    <Point x="475.5" y="481.0" elementID="d83e9" elementRef="c7323" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f0f7c" connectorType="Elbow" zOrder="0" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">rn:R07771</Comment>
+    <Point x="739.0" y="287.0" elementID="dc6ff" elementRef="a77f5" relX="0.0" relY="1.0" />
+    <Point x="546.0" y="491.0" elementID="f9da5" elementRef="c7323" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.2148931577811353" shapeType="None" elementID="eea38" />
+    <Anchor position="0.0" shapeType="None" elementID="c2572" />
+  </Interaction>
+  <Interaction elementID="a434a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">rn:R07767</Comment>
+    <Point x="437.0" y="364.0" elementID="a791a" elementRef="dba86" relX="1.0" relY="0.0" />
+    <Point x="474.0" y="365.0" elementID="b6866" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="b6509" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">rn:R07769</Comment>
+    <Point x="235.0" y="364.0" elementID="f8e5b" elementRef="cefb8" relX="1.0" relY="0.0" />
+    <Point x="306.0" y="362.8590695456712" elementID="ba83e" elementRef="d81ef" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="bb811" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">rn:R07771</Comment>
+    <Point x="670.0" y="373.0" elementID="e51c9" elementRef="d987d" relX="1.0" relY="0.0" />
+    <Point x="739.0" y="372.3125836391107" elementID="bb599" elementRef="eea38" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="c5a22" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">rn:R07766</Comment>
+    <Point x="551.0" y="190.0" elementID="c5b4f" elementRef="ef505" relX="-1.0" relY="0.0" />
+    <Point x="477.0" y="192.0" elementID="c4f26" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="c5ad1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">rn:R07771</Comment>
+    <Point x="804.0" y="344.0" elementID="e5ab3" elementRef="fe163" relX="-1.0" relY="0.0" />
+    <Point x="744.0" y="343.0" elementID="a5f75" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="dd395" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment source="KeggConverter">rn:R07770</Comment>
+    <Point x="804.0" y="219.0" elementID="c51a2" elementRef="f39a3" relX="-1.0" relY="0.0" />
+    <Point x="744.0" y="220.0" elementID="dee99" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id11fa1c85" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="200.0" y="125.0" elementID="eab0b" elementRef="c0807" relX="1.0" relY="0.0" />
+    <Point x="266.0" y="125.0" elementID="eaebf" elementRef="f0d17" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id40439c75" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="475.5" y="501.0" elementID="da0f4" elementRef="c7323" relX="0.0" relY="1.0" />
+    <Point x="475.5" y="536.0" elementID="ea6a6" elementRef="c2f91" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4b1dd2d6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="306.0" y="135.0" elementID="b25a6" elementRef="f0d17" relX="0.0" relY="1.0" />
+    <Point x="306.0" y="258.0" elementID="ec767" elementRef="e3560" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id7f6714d9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="215.0" y="193.0" elementID="c3e4a" />
+    <Point x="307.0" y="193.0" elementID="aff02" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="ida83c9cd5" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="346.0" y="125.0" elementID="f1a7c" elementRef="f0d17" relX="1.0" relY="0.0" />
+    <Point x="477.0" y="258.0" elementID="de816" elementRef="c6305" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Label elementID="a0dd4" textLabel="Glycene cleavage system (H protein)" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="475.5" centerY="566.0" width="309.0" height="20.0" zOrder="28672" />
+  <Label elementID="c2f91" textLabel="Oxo-acid dehydrogenaase complexes (E2 subunit)" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="475.5" centerY="546.0" width="318.0" height="20.0" zOrder="28672" />
+  <Label elementID="c3cdb" textLabel="Biosynthesis" color="660066" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="328.75" centerY="88.0" width="116.5" height="30.0" zOrder="28672" />
+  <Label elementID="d3966" textLabel="Salvage&#xA;" color="660066" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="739.0" centerY="91.0" width="80.0" height="20.0" zOrder="28672" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="lipoic acid metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001063" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,32 @@
+Acetyl-CoA	Line	R7
+R7	Arrow	Malonyl-CoA
+Malonyl-CoA	Line	R19
+R19	TBar	Cpt1
+Adipor2	Line	R9
+R9	Arrow	Prkab1
+R9	Arrow	Prkag1
+R9	Arrow	Prkaa1
+Cpt1	Line	R23
+R23	Arrow	R17
+Fatty acid	Line	R17
+R17	Arrow	Fatty acid
+Adipor1	Line	R11
+R11	Arrow	Prkab1
+R11	Arrow	Prkag1
+R11	Arrow	Prkaa1
+Lepr	Line	R13
+R13	Arrow	Prkab1
+R13	Arrow	Prkag1
+R13	Arrow	Prkaa1
+Adiponectin	Line	R5
+R5	Arrow	Adipor2
+Adiponectin	Line	R3
+R3	Arrow	Adipor1
+Leptin	Line	R1
+R1	Arrow	Lepr
+Prkab1	Line	R15
+Prkag1	Line	R15
+Prkaa1	Line	R15
+R15	TBar	Acc1
+Acc1	Line	R21
+R21	Arrow	R7

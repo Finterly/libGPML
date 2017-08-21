@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Dual hijack model of Vif in HIV infection" revision="20150803" organism="Homo sapiens" width="626.0" height="333.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">By hijacking CBF-b, Vif is manipulating the ubquitination machinery and adversely effecting host transcriptional regulation.
+
+Vif: Viral infectivity factor, HIV protein.</Comment>
+  <CitationRef citationID="f0c" />
+  <DataNode elementID="b860e" textLabel="CUL5" groupRef="dccaf" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="494.5" centerY="206.0" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000166266" />
+  </DataNode>
+  <DataNode elementID="c539b" textLabel="RUNX1" groupRef="bbfd4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="165.5" centerY="284.0" width="63.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000159216" />
+  </DataNode>
+  <DataNode elementID="c6a19" textLabel="ELOC" groupRef="b2241" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="419.0" centerY="190.0" width="48.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000154582" />
+  </DataNode>
+  <DataNode elementID="cbd72" textLabel="A3G" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="491.5" centerY="143.0" width="43.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000239713" />
+  </DataNode>
+  <DataNode elementID="d0e61" textLabel="CBFB" groupRef="bbfd4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="142.0" centerY="264.0" width="54.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000067955" />
+  </DataNode>
+  <DataNode elementID="d881f" textLabel="UBB" groupRef="dccaf" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="578.5" centerY="206.0" width="35.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000170315" />
+  </DataNode>
+  <DataNode elementID="e1005" textLabel="ELOB" groupRef="b2241" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="408.0" centerY="209.0" width="46.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000103363" />
+  </DataNode>
+  <DataNode elementID="f1596" textLabel="Vif" shapeType="Oval" fillColor="ffcc66" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="227.5" centerY="233.0" width="37.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="f18ea" textLabel="RBX1" groupRef="dccaf" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="514.0" centerY="225.0" width="44.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100387" />
+  </DataNode>
+  <DataNode elementID="c940e" textLabel="CBFB" groupRef="d8a47" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="196.0" centerY="132.0" width="54.0" height="20.0" zOrder="32769">
+    <Xref dataSource="Ensembl" identifier="ENSG00000067955" />
+  </DataNode>
+  <DataNode elementID="bc249" textLabel="E2" groupRef="dccaf" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="535.5" centerY="206.0" width="31.0" height="20.0" zOrder="32770">
+    <Xref dataSource="Ensembl" identifier="ENSG00000067955" />
+  </DataNode>
+  <DataNode elementID="effb5" textLabel="Vif" groupRef="d8a47" shapeType="Oval" fillColor="ffcc66" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="211.5" centerY="151.0" width="39.0" height="20.0" zOrder="32772">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c2317" textLabel="CBFB" groupRef="b2241" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="420.0" centerY="149.0" width="54.0" height="20.0" zOrder="32774">
+    <Xref dataSource="Ensembl" identifier="ENSG00000067955" />
+  </DataNode>
+  <DataNode elementID="ab6fd" textLabel="Vif" groupRef="b2241" shapeType="Oval" fillColor="ffcc66" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="440.5" centerY="170.0" width="39.0" height="20.0" zOrder="32775">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <State elementID="d0d29" textLabel="Ub" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="cbd72" relX="0.9534883720930233" relY="-1.0" width="17.0" height="17.0">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <Interaction elementID="id66686432" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="200.0" y="114.0" elementID="a6bcd" elementRef="d8a47" relX="0.0" relY="-1.0" />
+    <Point x="311.25" y="67.0" elementID="fde16" />
+    <Point x="422.5" y="127.0" elementID="fd283" elementRef="b2241" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id92f8e9cb" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="209.0" y="233.0" elementID="c03a4" elementRef="f1596" relX="-1.0" relY="0.0" />
+    <Point x="169.0" y="216.42808219178082" elementID="d0c0d" />
+    <Point x="166.52397260273972" y="199.85616438356163" elementID="a3040" elementRef="d07e5" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id989addc4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="142.0" y="254.0" elementID="fa9f0" elementRef="d0e61" relX="0.0" relY="-1.0" />
+    <Point x="180.5" y="169.0" elementID="cffb8" elementRef="d8a47" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.636986301369863" shapeType="None" elementID="d07e5" />
+  </Interaction>
+  <GraphicalLine elementID="id508d92f5" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Point x="596.0" y="206.0" elementID="fa9e6" elementRef="d881f" relX="1.0" relY="0.0" />
+    <Point x="520.5" y="133.0" elementID="d51c2" elementRef="d0d29" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id88f4abde" zOrder="12288" lineThickness="1.0">
+    <Point x="55.0" y="294.0" elementID="c3d80" />
+    <Point x="275.0" y="293.0" elementID="bdd03" />
+  </GraphicalLine>
+  <GraphicalLine elementID="idc22287b4" zOrder="12288" lineThickness="1.0">
+    <Point x="551.0" y="206.0" elementID="ac0bb" elementRef="bc249" relX="1.0" relY="0.0" />
+    <Point x="561.0" y="206.0" elementID="bfc4f" elementRef="d881f" relX="-1.0" relY="0.0" />
+  </GraphicalLine>
+  <GraphicalLine elementID="idc9192a67" zOrder="12288" lineThickness="1.0">
+    <Point x="205.0" y="274.0" elementID="e30d2" elementRef="bbfd4" relX="1.0" relY="0.0" />
+    <Point x="260.0" y="273.0" elementID="adda4" elementRef="f6ee4" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="f8804" zOrder="32771" lineThickness="1.0">
+    <Point x="58.0" y="303.0" elementID="ec931" />
+    <Point x="275.0" y="302.0" elementID="c30f9" />
+  </GraphicalLine>
+  <Label elementID="f6ee4" textLabel="Gene expression" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="315.0" centerY="273.0" width="110.0" height="20.0" zOrder="28672" />
+  <Label elementID="fa588" textLabel="Ubiquitin ligation" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="519.5" centerY="262.0" width="111.0" height="24.0" zOrder="28672" />
+  <Group elementID="b2241" groupType="Complex" />
+  <Group elementID="bbfd4" groupType="Group" />
+  <Group elementID="d8a47" groupType="Group" />
+  <Group elementID="d9ffa" groupType="Group" />
+  <Group elementID="dccaf" groupType="Complex" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="From systems to structure: bridging networks and mechanism." URL="" citationID="f0c" year="2013" source="Mol Cell">
+      <Xref dataSource="PubMed" identifier="23352243" />
+      <Author name="Fraser JS" />
+      <Author name="Gross JD" />
+      <Author name="Krogan NJ" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+  </OntologyTerms>
+</Pathway>
+

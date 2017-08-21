@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Arginine degradation" organism="Saccharomyces cerevisiae" width="1122.7446666666667" height="534.3478260869565">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP notes"></Comment>
+  <Comment source="GenMAPP remarks">Based on http://pathway.yeastgenome.org/biocyc/</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <DataNode elementID="ae9" textLabel="CAR2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="695.2446666666667" centerY="106.75553333333333" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ornithine aminotransferase" />
+    <Xref dataSource="SGD" identifier="S000004430" />
+  </DataNode>
+  <DataNode elementID="b98" textLabel="PRO3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="744.578" centerY="323.08886666666666" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="pyrroline-5-carboxylate reductase" />
+    <Xref dataSource="SGD" identifier="S000000825" />
+  </DataNode>
+  <DataNode elementID="c08" textLabel="L-arginine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="206.5778" centerY="120.08886666666668" width="82.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="74-79-3" />
+  </DataNode>
+  <DataNode elementID="c14" textLabel="CAR1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="356.5778" centerY="103.75553333333333" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="arginase" />
+    <Xref dataSource="SGD" identifier="S000006032" />
+  </DataNode>
+  <DataNode elementID="c89" textLabel="L-glutamate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="770.578" centerY="166.75553333333335" width="95.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="56-86-0" />
+  </DataNode>
+  <DataNode elementID="c8c" textLabel="urea" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="419.91113333333334" centerY="173.4222" width="39.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="57-13-6" />
+  </DataNode>
+  <DataNode elementID="d32" textLabel="FADH2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="323.2444666666667" centerY="383.4222" width="59.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="1910-41-4" />
+  </DataNode>
+  <DataNode elementID="d82" textLabel="L-ornithine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="526.5778" centerY="120.08886666666668" width="88.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="70-26-8" />
+  </DataNode>
+  <DataNode elementID="e61" textLabel="PUT1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="403.2444666666667" centerY="322.7555333333333" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="proline oxidase, mitochondrial" />
+    <Xref dataSource="SGD" identifier="S000004132" />
+  </DataNode>
+  <DataNode elementID="e99" textLabel="FAD" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="478.5778" centerY="380.08886666666666" width="38.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="146-14-5" />
+  </DataNode>
+  <DataNode elementID="e9d" textLabel="NADH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="68.87590331262938" centerY="469.50915652173904" width="52.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="53-84-9" />
+  </DataNode>
+  <DataNode elementID="f0a" textLabel="NADPH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="829.9113333333333" centerY="383.4222" width="63.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="53-57-6" />
+  </DataNode>
+  <DataNode elementID="f4e" textLabel="L-proline" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="566.5777333333333" centerY="340.08886666666666" width="73.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="147-85-3" />
+  </DataNode>
+  <Interaction elementID="id18ca1407" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="247.74446666666665" y="120.08886666666666" elementID="fb164" elementRef="c08" relX="1.0" relY="0.0" />
+    <Point x="482.4111333333334" y="120.08886666666666" elementID="edef0" elementRef="d82" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id20d8e563" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="140.91113333333334" y="349.9222" elementID="c2886" elementRef="ce6" relX="0.0" relY="1.0" />
+    <Point x="140.3726708074534" y="504.3478260869565" elementID="d5c0b" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id3adccac6" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="620.5777333333333" y="157.25553333333335" elementID="afbcd" elementRef="d12" relX="0.0" relY="-1.0" />
+    <Point x="695.5778666666666" y="118.0" elementID="fbe77" />
+    <Point x="770.578" y="157.25553333333335" elementID="d4fe6" elementRef="c89" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5aa2fa82" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="862.2446666666667" y="340.08886666666666" elementID="c029b" elementRef="d0a" relX="-1.0" relY="0.0" />
+    <Point x="603.2444" y="340.08886666666666" elementID="e1f45" elementRef="f4e" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6a43eb2c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="529.9110666666666" y="340.08886666666666" elementID="c84df" elementRef="f4e" relX="-1.0" relY="0.0" />
+    <Point x="268.5778" y="340.4222" elementID="fe26a" elementRef="ce6" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6e00cc55" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="102.14919523809522" y="388.84663064182195" elementID="e92cd" elementRef="ff132" relX="1.0" relY="0.0" />
+    <Point x="144.09937888198758" y="429.1778935817805" elementID="cda13" />
+    <Point x="95.04256997929605" y="469.50915652173904" elementID="f5f92" elementRef="e9d" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6f223531" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="966.7957333333334" y="209.98886666666667" elementID="d6dce" elementRef="b267c" relX="0.0" relY="0.0" />
+    <Point x="1019.078" y="253.75553333333335" elementID="e6af4" elementRef="c37" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7099be66" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="966.578" y="129.58886666666666" elementID="cfe6b" elementRef="bdb" relX="0.0" relY="1.0" />
+    <Point x="967.1223333333334" y="330.58886666666666" elementID="b6188" elementRef="d0a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="b267c" />
+  </Interaction>
+  <Interaction elementID="id73314933" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="478.5778" y="370.58886666666666" elementID="c8ee1" elementRef="e99" relX="0.0" relY="-1.0" />
+    <Point x="400.91113333333334" y="339.0" elementID="e0583" />
+    <Point x="323.24446666666665" y="373.9222" elementID="de650" elementRef="d32" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb2e71f92" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="829.9113333333335" y="373.9222" elementID="b2fe7" elementRef="f0a" relX="0.0" relY="-1.0" />
+    <Point x="741.5778666666668" y="339.0" elementID="a2eb9" />
+    <Point x="653.2444" y="377.2555333333333" elementID="f323b" elementRef="c39" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="iddf8b322e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="570.7444666666667" y="120.08886666666666" elementID="f3c46" elementRef="d82" relX="1.0" relY="0.0" />
+    <Point x="840.4113333333332" y="120.08886666666666" elementID="f231d" elementRef="bdb" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf2d64f01" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="293.24446666666665" y="163.9222" elementID="c0359" elementRef="cb4" relX="0.0" relY="-1.0" />
+    <Point x="356.57779999999997" y="118.0" elementID="b84cf" />
+    <Point x="419.9111333333333" y="163.9222" elementID="aa057" elementRef="c8c" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="bdb" textLabel="N-acetylglutamate semialdehyde" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="966.578" centerY="120.08886666666668" width="252.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="bdc" textLabel="NAD" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ff132" centerX="68.48252857142853" centerY="378.84663064182195" width="40.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="c37" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="1038.2446666666667" centerY="253.75553333333335" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="c39" textLabel="NADP" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="653.2443999999999" centerY="386.7555333333333" width="51.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="cb4" textLabel="H₂O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="293.2444666666667" centerY="173.4222" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="ce6" textLabel="L-delta^1 pyrroline-5-carboxylate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="140.91113333333334" centerY="340.4222" width="255.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="d0a" textLabel="L-delta^1 pyrroline-5-carboxylate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="967.1223333333334" centerY="340.08886666666666" width="209.75533333333328" height="19.0" zOrder="28672" />
+  <Label elementID="d12" textLabel="2-oxoglutarate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="620.5777333333333" centerY="166.75553333333335" width="115.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="f2c" textLabel="2 H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="ff132" centerX="68.48252857142855" centerY="398.84663064182195" width="51.333333333333336" height="19.0" zOrder="28672" />
+  <Group elementID="ff132" />
+  <InfoBox centerX="9.955553333333334" centerY="9.955553333333334" />
+  <Legend centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="arginine degradation pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001261" />
+  </OntologyTerms>
+</Pathway>
+

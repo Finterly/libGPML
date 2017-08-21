@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Rna rdf:about="a72c8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mir219-2</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Rna>
+
+<bp:Rna rdf:about="b00b3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mir219-2</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Rna>
+
+<bp:BiochemicalReaction rdf:about="id31">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id31</bp:displayName>
+ <bp:right rdf:resource="c00c2" />
+ <bp:left rdf:resource="d2fcc" />
+ <bp:left rdf:resource="c988a" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id30">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id30</bp:displayName>
+ <bp:right rdf:resource="e453a" />
+ <bp:right rdf:resource="eb5f7" />
+ <bp:right rdf:resource="ffd0f" />
+ <bp:right rdf:resource="b961f" />
+ <bp:right rdf:resource="d98ab" />
+ <bp:left rdf:resource="a72c8" />
+ <bp:left rdf:resource="cae8d" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Zfp238</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id33">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id33</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000010450</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id32">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id32</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:RnaReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mir219-1</bp:displayName>
+</bp:RnaReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000004423</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Catalysis rdf:about="id34">
+ <bp:controller rdf:resource="c00c2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id34</bp:displayName>
+ <bp:controlled rdf:resource="id33" />
+</bp:Catalysis>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sox6</bp:displayName>
+</bp:ProteinReference>
+
+<bp:RelationshipXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">100314058</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:RelationshipXref>
+
+<bp:BiochemicalReaction rdf:about="id28">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id28</bp:displayName>
+ <bp:left rdf:resource="e9289" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id27">
+ <bp:controller rdf:resource="e453a" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id27</bp:displayName>
+ <bp:controlled rdf:resource="id22" />
+</bp:Catalysis>
+
+<bp:Protein rdf:about="e453a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pdgfra</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Rna rdf:about="cae8d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mir219-1</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:Rna>
+
+<bp:BiochemicalReaction rdf:about="id29">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id29</bp:displayName>
+ <bp:right rdf:resource="e9289" />
+ <bp:left rdf:resource="b00b3" />
+ <bp:left rdf:resource="a4777" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="e9289">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Neurod1</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="ffd0f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Zfp238</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:Protein rdf:about="c00c2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Elovl7</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:Rna rdf:about="d2fcc">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mir219-1</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:Rna>
+
+<bp:Rna rdf:about="c988a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mir219-2</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Rna>
+
+<bp:RelationshipXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">100314293</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:RelationshipXref>
+
+<bp:BiochemicalReaction rdf:about="id22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id22</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:Rna rdf:about="a4777">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mir219-1</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:Rna>
+
+<bp:Protein rdf:about="b961f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sox6</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id21">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id21</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id24">
+ <bp:controller rdf:resource="d98ab" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id24</bp:displayName>
+ <bp:controlled rdf:resource="id22" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id23">
+ <bp:controller rdf:resource="ffd0f" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id23</bp:displayName>
+ <bp:controlled rdf:resource="id22" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id26">
+ <bp:controller rdf:resource="eb5f7" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id26</bp:displayName>
+ <bp:controlled rdf:resource="id22" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id25">
+ <bp:controller rdf:resource="b961f" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id25</bp:displayName>
+ <bp:controlled rdf:resource="id22" />
+</bp:Catalysis>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hes5</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000020514</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:RnaReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mir219-2</bp:displayName>
+</bp:RnaReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000013850</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="eb5f7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hes5</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id31" />
+ <bp:pathwayComponent rdf:resource="id30" />
+ <bp:pathwayComponent rdf:resource="id22" />
+ <bp:pathwayComponent rdf:resource="id33" />
+ <bp:pathwayComponent rdf:resource="id21" />
+ <bp:pathwayComponent rdf:resource="id32" />
+ <bp:pathwayComponent rdf:resource="id24" />
+ <bp:pathwayComponent rdf:resource="id23" />
+ <bp:pathwayComponent rdf:resource="id34" />
+ <bp:pathwayComponent rdf:resource="id26" />
+ <bp:pathwayComponent rdf:resource="id25" />
+ <bp:pathwayComponent rdf:resource="id28" />
+ <bp:pathwayComponent rdf:resource="id27" />
+ <bp:pathwayComponent rdf:resource="id29" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mir219 in Oligodendrocyte Differentiation and Myelination</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Young and environmentally enriched exosomes deliver functional miR-219 that impacts oligodendrocyte differentiation and myelination. Schematic illustration of the involvement of miR-219 in oligodendrocyte differentiation. 
+Upon exposure to nutritive exosomes, neural stem cells preferentially enter the oligodendrocyte lineage due to the inhibition of the proneurogenic factor NeuroD1. miR-219 also suppresses expression of a number of other factors that inhibit OPC differentiation, such as PDGFR&#945;, a receptor for a mitogenic factor that promotes proliferation and prohibits differentiation. Finally, miR-219 decreases levels of ELOVL7, a regulator of lipid metabolism whose over-activity could lead to demyelination.  (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000005609</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Neurod1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000002244</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pdgfra</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000061851</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Foxj3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="d98ab">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Foxj3</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Elovl7</bp:displayName>
+</bp:ProteinReference>
+</rdf:RDF>

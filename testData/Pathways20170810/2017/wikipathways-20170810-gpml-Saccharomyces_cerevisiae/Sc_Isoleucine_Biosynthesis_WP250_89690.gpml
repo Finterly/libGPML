@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Isoleucine Biosynthesis" organism="Saccharomyces cerevisiae" width="823.0000000000001" height="549.5">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP remarks">Based on http://pathway.yeastgenome.org/biocyc/</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">Yeast cells contain 3 pathways for the synthesis of glutamate.  Two pathways are mediated by two isoforms of glutamate dehydrogenase, encoded by GDH1 and GDH3 (CITS: [2989290])(CITS: [9287019]).  The third pathway is driven by the combined activities of glutamine synthetase and glutamate synthase, encoded by GLN1 and GLT1, respectively (CITS: [2570348])(CITS: [8923741]).  Studies of GDH1 and GDH3 regulation indicate that the cell uses these isoforms under different growth conditions (CITS: [11562373]).  Expression of GDH3 is induced by ethanol and repressed by glucose, whereas GDH1 expression is high in either carbon source.  Gdh1p uses alpha-ketoglutarate at a higher rate than Gdh3p.  Thus, under fermentative growth conditions, Gdh1p drives glutamate biosynthesis, whereas in nonfermentable or limiting carbon sources, Gdh3p is the key isoform involved in balancing distribution of alpha-ketoglutarate to glutamate biosynthesis and energy metabolism. 
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html</Comment>
+  <CitationRef citationID="s88" />
+  <DataNode elementID="a54" textLabel="ILV3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="490.0" centerY="283.3333333333333" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ILV3" />
+    <Xref dataSource="SGD" identifier="S000003777" />
+  </DataNode>
+  <DataNode elementID="aff" textLabel="BAT1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="343.3333333333333" centerY="406.6666666666667" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="BAT1" />
+    <Xref dataSource="SGD" identifier="S000001251" />
+  </DataNode>
+  <DataNode elementID="c62" textLabel="L-glutamate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="236.66666666666666" centerY="366.6666666666667" width="95.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="56-86-0" />
+  </DataNode>
+  <DataNode elementID="c90" textLabel="NADPH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="726.6666666666666" centerY="186.66666666666666" width="63.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="53-57-6" />
+  </DataNode>
+  <DataNode elementID="cf3" textLabel="BAT2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="343.3333333333333" centerY="386.6666666666667" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="BAT2" />
+    <Xref dataSource="SGD" identifier="S000003909" />
+  </DataNode>
+  <DataNode elementID="d19" textLabel="L-threonine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="46.666666666666664" centerY="123.33333333333333" width="93.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-19-5" />
+  </DataNode>
+  <DataNode elementID="d5d" textLabel="ILV6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="496.6666666666667" centerY="110.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ILV6" />
+    <Xref dataSource="SGD" identifier="S000000515" />
+  </DataNode>
+  <DataNode elementID="dbf" textLabel="ILV1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="183.33333333333334" centerY="110.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ILV1" />
+    <Xref dataSource="SGD" identifier="S000000888" />
+  </DataNode>
+  <DataNode elementID="e82" textLabel="ILV5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="650.0" centerY="203.33333333333334" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ILV5" />
+    <Xref dataSource="SGD" identifier="S000004347" />
+  </DataNode>
+  <DataNode elementID="f78" textLabel="ILV2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="496.6666666666667" centerY="90.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ILV2" />
+    <Xref dataSource="SGD" identifier="S000004714" />
+  </DataNode>
+  <Interaction elementID="id2e00824f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="293.3333333333333" y="426.6666666666667" elementID="baa8e" />
+    <Point x="286.6666666666667" y="426.6666666666667" elementID="ec3cc" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id35f9f94e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="230.0" y="150.0" elementID="d3f8a" />
+    <Point x="230.0" y="160.0" elementID="ae996" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id47ff22bd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="693.3333333333334" y="233.33333333333334" elementID="f295c" />
+    <Point x="703.3333333333334" y="233.33333333333334" elementID="b9938" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4bb244ec" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="420.0" y="123.33333333333333" elementID="c913f" />
+    <Point x="580.0" y="123.33333333333333" elementID="d3f66" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id957647d0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="93.33333333333333" y="123.33333333333333" elementID="d48d0" />
+    <Point x="290.0" y="123.33333333333333" elementID="f8cad" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id979cb67b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="320.0" y="303.3333333333333" elementID="bb9d7" />
+    <Point x="320.0" y="500.0" elementID="e5299" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb6cad810" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="673.3333333333334" y="133.33333333333334" elementID="c4016" />
+    <Point x="673.3333333333334" y="286.6666666666667" elementID="c97c4" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb94d83b4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="533.3333333333334" y="296.6666666666667" elementID="bf63b" />
+    <Point x="503.3333333333333" y="320.0" elementID="dc549" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf7c173c3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="533.3333333333334" y="150.0" elementID="b993f" />
+    <Point x="533.3333333333334" y="156.66666666666666" elementID="c38d4" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfe70090b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="553.3333333333334" y="296.6666666666667" elementID="c6855" />
+    <Point x="413.3333333333333" y="296.6666666666667" elementID="da23e" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="a53" textLabel="NH3" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="233.33333333333334" centerY="176.66666666666666" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="a6a" textLabel="NADP" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="733.3333333333334" centerY="233.33333333333334" width="51.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="b19" textLabel="L-iso-leucine" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="320.0" centerY="510.0" width="103.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="b1c" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="140.0" centerY="173.33333333333334" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="b32" textLabel="pyruvate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="456.6666666666667" centerY="170.0" width="72.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="c6f" textLabel="2,3-dihydroxy-3-methylvalerate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="673.3333333333334" centerY="296.6666666666667" width="239.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="ca1" textLabel="2-oxoglutarate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="226.66666666666666" centerY="426.6666666666667" width="115.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="d00" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="233.33333333333334" centerY="196.66666666666666" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="d11" textLabel="H+" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="726.6666666666666" centerY="170.0" width="26.333333333333332" height="19.0" zOrder="28672" />
+  <Label elementID="d43" textLabel="CO2" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="533.3333333333334" centerY="170.0" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="dd5" textLabel="2-aceto-2-hydroxy-butyrate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="686.6666666666666" centerY="123.33333333333333" width="211.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="e57" textLabel="2-keto-3-methyl-valerate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="316.6666666666667" centerY="296.6666666666667" width="187.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="e6c" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="496.6666666666667" centerY="330.0" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="f7a" textLabel="2-oxobutanoate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="356.6666666666667" centerY="123.33333333333333" width="125.33333333333333" height="19.0" zOrder="28672" />
+  <Shape elementID="c39" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="496.6666666666667" centerY="160.0" width="74.59124" height="73.31348" zOrder="16384" rotation="3.141593" />
+  <Shape elementID="d12" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="286.6666666666667" centerY="396.6666666666667" width="60.36924" height="66.99917333333333" zOrder="16384" rotation="4.712389" />
+  <Shape elementID="e6b" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="183.33333333333334" centerY="160.0" width="95.45214666666668" height="73.63574666666666" zOrder="16384" rotation="3.141593" />
+  <Shape elementID="fec" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="703.3333333333334" centerY="203.33333333333334" width="60.0" height="60.0" zOrder="16384" rotation="1.570796" />
+  <InfoBox centerX="591.6666666666666" centerY="18.333333333333332" />
+  <Legend centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Regulation of isoleucine-valine biosynthesis in Saccharomyces cerevisiae." URL="" citationID="s88" year="1988" source="Curr Genet">
+      <Xref dataSource="PubMed" identifier="3289762" />
+      <Author name="Holmberg S" />
+      <Author name="Petersen JG" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="isoleucine biosynthetic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001268" />
+  </OntologyTerms>
+</Pathway>
+

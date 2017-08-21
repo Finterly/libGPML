@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Valine Biosynthesis" organism="Saccharomyces cerevisiae" width="796.0" height="373.48968868739286">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP remarks">Based on http://pathway.yeastgenome.org/biocyc/</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">Biosynthesis of the aromatic amino acids tyrosine, phenylalanine, and tryptophan proceeds via a common pathway to chorismate, at which point the pathway branches(CITS:[Jones][1943992]).  One branch proceeds to tyrosine and phenylalanine, and the other to tryptophan (CITS:[Jones]).  The series of reactions to chorismate, called the shikimate pathway, and the series of reactions from chorismate to tryptophan have been found to be common to all eukaryotes and prokaryotes studied thus far (as reported in (CITS:[1943992])).  In contrast, there appears to be two separate routes for tyrosine and phenylalanine biosynthesis from chorismate, only one of which has been found in S. cerevisiae (CITS:[1943992]).  S. cerevisiae, similar to E. coli, synthesize tyrosine and phenylalanine via the intermediate 4-hydroxyphenylpyruvate and phenylpyruvate, respectively, whereas some other organisms synthesize them via arogenate (CITS:[1943992]).  Aromatic amino acid biosynthesis in S. cerevisiae is controlled by a combination of feedback inhibition, activation of enzyme activity, and regulation of enzyme synthesis (CITS:[Jones][1943992]).  The carbon flow through the pathways is regulated primarily at the initial step and the branching points by the terminal end-products. The initial step of chorismate biosynthesis can be catalyzed by two isoenzymes Aro3p or Aro4p, whereby Aro3p is inhibited by phenylalanine, and Aro4p by tyrosine (CITS:[Jones][1943992]).  The first step in the phenylalanine-tyrosine branch is feedback inhibited by tyrosine and activated by tryptophan, and the first step in the tryptophan branch is feedback inhibited by tryptophan (CITS:[1943992]).  The transcriptional activator GCN4 regulates most of the genes encoding for the aromatic amino acid biosynthetic enzymes; however, no GCN4 regulation was found for TYR1 of the tyrosine branch, ARO7 of the tyrosine and phenylalanine branch or TRP1 of the tryptophan branch, (CITS:[1943992]). 
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html</Comment>
+  <CitationRef citationID="vtw" />
+  <DataNode elementID="a57" textLabel="NADPH" groupRef="f6020" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="414.5" centerY="133.33333333333334" width="65.0" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="53-57-6" />
+  </DataNode>
+  <DataNode elementID="a74" textLabel="ILV6" groupRef="f4f53" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="210.0" centerY="43.66666666666667" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ILV6" />
+    <Xref dataSource="SGD" identifier="S000000515" />
+  </DataNode>
+  <DataNode elementID="b113c" textLabel="2 pyruvate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="55.0" centerY="79.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15361" />
+  </DataNode>
+  <DataNode elementID="b1e8a" textLabel="2,3-dihydroxy-isovalerate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="628.5" centerY="79.0" width="129.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:49072" />
+  </DataNode>
+  <DataNode elementID="b396e" textLabel="NADP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="514.0" centerY="118.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00217" />
+  </DataNode>
+  <DataNode elementID="b5f43" textLabel="2-keto-isovalerate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="626.5" centerY="282.0" width="125.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:11851" />
+  </DataNode>
+  <DataNode elementID="c9f44" textLabel="CO2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="190.5" centerY="120.0" width="39.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:16526" />
+  </DataNode>
+  <DataNode elementID="cc2" textLabel="ILV2" groupRef="f4f53" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="210.0" centerY="23.666666666666664" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ILV2" />
+    <Xref dataSource="SGD" identifier="S000004714" />
+  </DataNode>
+  <DataNode elementID="d75c1" textLabel="2-aceto-lactate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="323.0" centerY="77.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="13999770" />
+  </DataNode>
+  <DataNode elementID="e36" textLabel="ILV3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="557.0" centerY="189.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ILV3" />
+    <Xref dataSource="SGD" identifier="S000003777" />
+  </DataNode>
+  <DataNode elementID="e3d" textLabel="BAT1" groupRef="e977b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="468.3333333333333" centerY="241.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="BAT1" />
+    <Xref dataSource="SGD" identifier="S000001251" />
+  </DataNode>
+  <DataNode elementID="e41" textLabel="L-glutamate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="523.3333333333334" centerY="323.3333333333333" width="95.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="56-86-0" />
+  </DataNode>
+  <DataNode elementID="e7b7a" textLabel="H2O" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="726.0" centerY="189.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15377" />
+  </DataNode>
+  <DataNode elementID="ed7" textLabel="BAT2" groupRef="e977b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="468.3333333333333" centerY="221.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="BAT2" />
+    <Xref dataSource="SGD" identifier="S000003909" />
+  </DataNode>
+  <DataNode elementID="f39c9" textLabel="H+" groupRef="f6020" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="414.5" centerY="113.0" width="65.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15378" />
+  </DataNode>
+  <DataNode elementID="f9e4e" textLabel="2-oxoglutarate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="396.0" centerY="324.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:16810" />
+  </DataNode>
+  <Interaction elementID="id22f59d2a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="468.3333333333333" y="259.0" elementID="f6ad8" elementRef="e977b" relX="0.0" relY="1.0" />
+    <Point x="469.1666666138286" y="281.2245337214589" elementID="a41c8" elementRef="ab3" relX="0.0" relY="-1.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id3bdea818" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="628.5" y="89.0" elementID="d5fc0" elementRef="b1e8a" relX="0.0" relY="1.0" />
+    <Point x="626.5" y="272.0" elementID="bbc49" elementRef="b5f43" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="a3714" />
+    <Anchor position="0.5569223419819066" shapeType="None" elementID="ce99f" />
+  </Interaction>
+  <Interaction elementID="id40fcdfb9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="210.0" y="61.66666666666667" elementID="b4dc9" elementRef="f4f53" relX="0.0" relY="1.0" />
+    <Point x="211.96548602466902" y="77.7556863188865" elementID="b48e4" elementRef="e5ecd" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id508ce097" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="363.0" y="77.0" elementID="d8c7a" elementRef="d75c1" relX="1.0" relY="0.0" />
+    <Point x="564.0" y="79.0" elementID="a91a2" elementRef="b1e8a" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5af6da3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="132.89206264174894" y="78.59689295061969" elementID="e4a24" elementRef="e5de5" relX="0.0" relY="0.0" />
+    <Point x="171.0" y="120.0" elementID="c3ea1" elementRef="c9f44" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida6493928" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="513.3333333333334" y="100.0" elementID="b2e29" />
+    <Point x="513.3333333333334" y="106.66666666666667" elementID="f1476" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb5df2fca" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="95.0" y="79.0" elementID="a354c" elementRef="b113c" relX="1.0" relY="0.0" />
+    <Point x="283.0" y="77.0" elementID="f971d" elementRef="d75c1" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.20155352469015386" shapeType="None" elementID="e5de5" />
+    <Anchor position="0.6221568405567501" shapeType="None" elementID="e5ecd" />
+  </Interaction>
+  <Interaction elementID="idbcdea463" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="417.3333333333333" y="307.6666666666667" elementID="d181a" />
+    <Point x="417.3333333333333" y="314.3333333333333" elementID="ff8ca" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc1662a74" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="627.3861553160361" y="190.91678858268892" elementID="dbe9d" elementRef="ce99f" relX="0.0" relY="0.0" />
+    <Point x="686.0" y="189.0" elementID="d5439" elementRef="e7b7a" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc25f80c2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="577.0" y="189.0" elementID="bb1f4" elementRef="e36" relX="1.0" relY="0.0" />
+    <Point x="627.3861553160361" y="190.91678858268892" elementID="a3c0e" elementRef="ce99f" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="ide3e21712" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="564.0" y="282.0" elementID="abab4" elementRef="b5f43" relX="-1.0" relY="0.0" />
+    <Point x="343.3333333333333" y="283.3333333333333" elementID="e1e16" arrowHead="Arrow" />
+  </Interaction>
+  <Shape elementID="ab3" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="469.1666666138287" centerY="313.30506868739286" width="108.33333343900864" height="60.36924" zOrder="16384" rotation="3.1769498105995826" />
+  <Shape elementID="f0b" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="470.0" centerY="106.66273333333334" width="86.66666666666667" height="53.74838666666667" zOrder="16384" rotation="3.141593" />
+  <Group elementID="e977b" groupType="Group" />
+  <Group elementID="f4f53" groupType="Group" />
+  <Group elementID="f6020" groupType="Group" />
+  <InfoBox centerX="1.6666666666666667" centerY="265.0" />
+  <Legend centerX="-34.0" centerY="107.0" />
+  <Citations>
+    <Citation title="Regulation of isoleucine-valine biosynthesis in Saccharomyces cerevisiae." URL="" citationID="vtw" year="1988" source="Curr Genet">
+      <Xref dataSource="PubMed" identifier="3289762" />
+      <Author name="Holmberg S" />
+      <Author name="Petersen JG" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="valine biosynthetic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001285" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Sulindac Metabolic Pathway" organism="Bos taurus" width="635.0" height="325.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="Egon Willighagen" />
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP2542_r70621 WP2542(70621)]  with a 85.0% conversion rate.</Comment>
+  <CitationRef citationID="b1d" />
+  <DataNode elementID="a1f9f" textLabel="Sulfindac sulfide" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="550.5" centerY="199.0" width="109.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Chemspider" identifier="4509492" />
+  </DataNode>
+  <DataNode elementID="adfbb" textLabel="CYP1B1" groupRef="bf268" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="236.0" centerY="79.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000138061</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010531" />
+  </DataNode>
+  <DataNode elementID="c2ce3" textLabel="MSRB2" groupRef="da567" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="547.5" centerY="90.0" width="53.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000148450</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000044112" />
+  </DataNode>
+  <DataNode elementID="c89b3" textLabel="Sulindac-S" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="390.0" centerY="285.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="11245227" />
+  </DataNode>
+  <DataNode elementID="e495e" textLabel="MSRA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="549.5" centerY="277.0" width="63.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000175806</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021632" />
+  </DataNode>
+  <DataNode elementID="ed228" textLabel="FMO" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="416.0" centerY="193.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="facbe" textLabel="Sulindac-R" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="390.0" centerY="96.0" width="80.0" height="20.0" zOrder="32769">
+    <Xref dataSource="PubChem-compound" identifier="16046677" />
+  </DataNode>
+  <DataNode elementID="b80d4" textLabel="Sulindac sulfone" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="222.0" centerY="199.0" width="94.0" height="20.0" zOrder="32770">
+    <Comment>The structure for the sulfone in the paper is inconsistent with the entries in ChemSpider and PubChem; I assume the paper made typographic errors.</Comment>
+    <Xref dataSource="Chemspider" identifier="4582441" />
+  </DataNode>
+  <DataNode elementID="aff0a" textLabel="MSRB3" groupRef="da567" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="547.5" centerY="110.0" width="53.0" height="20.0" zOrder="32771">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000174099</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000044017" />
+  </DataNode>
+  <DataNode elementID="e312f" textLabel="CYP1A2" groupRef="bf268" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="236.0" centerY="99.0" width="80.0" height="20.0" zOrder="32772">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000140505</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000000085" />
+  </DataNode>
+  <DataNode elementID="d8d1c" textLabel="CYP1A2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="238.0" centerY="271.0" width="80.0" height="20.0" zOrder="32774">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000140505</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000000085" />
+  </DataNode>
+  <Interaction elementID="id1bc04a73" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="518.0" y="277.0" elementID="d44ea" elementRef="e495e" relX="-1.0" relY="0.0" />
+    <Point x="466.09569306532586" y="242.30847026656505" elementID="f8557" elementRef="a601e" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id1d00538b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="523.25" y="189.0" elementID="d88ce" elementRef="a1f9f" relX="-0.5" relY="-1.0" />
+    <Point x="390.0" y="106.0" elementID="f17d2" elementRef="facbe" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="d387f" />
+  </Interaction>
+  <Interaction elementID="id31bb6c8a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="278.0" y="271.0" elementID="d1281" elementRef="d8d1c" relX="1.0" relY="0.0" />
+    <Point x="320.2" y="248.6" elementID="f04e0" elementRef="d90a8" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id4bb9df15" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="370.0" y="106.0" elementID="d1fc5" elementRef="facbe" relX="-0.5" relY="1.0" />
+    <Point x="245.5" y="189.0" elementID="f635a" elementRef="b80d4" relX="0.5" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="aed5b" />
+  </Interaction>
+  <Interaction elementID="id6412c6f1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="410.0" y="106.0" elementID="a488e" elementRef="facbe" relX="0.5" relY="1.0" />
+    <Point x="550.5" y="189.0" elementID="f9a1f" elementRef="a1f9f" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="d93cc" />
+  </Interaction>
+  <Interaction elementID="id6897b5e0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="513.0" y="114.0" elementID="c1c63" elementRef="da567" relX="-1.0" relY="0.5" />
+    <Point x="466.2" y="139.2" elementID="bb403" elementRef="d93cc" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id76eea139" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="370.0" y="275.0" elementID="a1441" elementRef="c89b3" relX="-0.5" relY="-1.0" />
+    <Point x="245.5" y="209.0" elementID="ee549" elementRef="b80d4" relX="0.5" relY="1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="d90a8" />
+  </Interaction>
+  <Interaction elementID="id88e36fe3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="410.0" y="275.0" elementID="d325c" elementRef="c89b3" relX="0.5" relY="-1.0" />
+    <Point x="523.25" y="209.0" elementID="c0e0f" elementRef="a1f9f" relX="-0.5" relY="1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.49532620808234745" shapeType="None" elementID="a601e" />
+  </Interaction>
+  <Interaction elementID="idd5b178a2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="436.0" y="183.0" elementID="d46c8" elementRef="ed228" relX="0.5" relY="-1.0" />
+    <Point x="469.95" y="155.8" elementID="f2858" elementRef="d387f" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idf9bbca95" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="284.0" y="99.0" elementID="f92d0" />
+    <Point x="320.2" y="139.2" elementID="af7b4" elementRef="aed5b" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Group elementID="bf268" groupType="Group" />
+  <Group elementID="da567" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Studies on the metabolism and biological activity of the epimers of sulindac." URL="" citationID="b1d" year="2011" source="Drug Metab Dispos">
+      <Xref dataSource="PubMed" identifier="21383205" />
+      <Author name="Brunell D" />
+      <Author name="Sagher D" />
+      <Author name="Kesaraju S" />
+      <Author name="Brot N" />
+      <Author name="Weissbach H" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="classic metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000002" />
+  </OntologyTerms>
+</Pathway>
+

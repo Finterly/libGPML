@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Trehalose Degradation, Low Osmolarity" organism="Saccharomyces cerevisiae" width="794.8666666666668" height="354.8333333333333">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP notes"></Comment>
+  <Comment source="GenMAPP remarks">Based on http://pathway.yeastgenome.org/biocyc/</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <DataNode elementID="a34" textLabel="glucose-6-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="86.66666666666667" centerY="123.36666666666666" width="167.33333333333334" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="59-56-3" />
+  </DataNode>
+  <DataNode elementID="a87" textLabel="ATH1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="570.0" centerY="100.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ATH1" />
+    <Xref dataSource="SGD" identifier="S000006230" />
+  </DataNode>
+  <DataNode elementID="b2a" textLabel="ATP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="43.333333333333336" centerY="230.03333333333333" width="37.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="1927-31-7" />
+  </DataNode>
+  <DataNode elementID="bd3" textLabel="ADP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="40.0" centerY="270.03333333333336" width="39.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="58-64-0" />
+  </DataNode>
+  <DataNode elementID="bf1" textLabel="phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="540.0" centerY="190.03333333333333" width="87.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="14265-44-2" />
+  </DataNode>
+  <DataNode elementID="e09" textLabel="GLK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="106.66666666666667" centerY="250.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="GLK1" />
+    <Xref dataSource="SGD" identifier="S000000545" />
+  </DataNode>
+  <DataNode elementID="e20" textLabel="NTH2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="570.0" centerY="140.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="NTH2" />
+    <Xref dataSource="SGD" identifier="S000000205" />
+  </DataNode>
+  <DataNode elementID="eb8" textLabel="TPS2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="660.0" centerY="173.33333333333334" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="TPS2" />
+    <Xref dataSource="SGD" identifier="S000002481" />
+  </DataNode>
+  <DataNode elementID="ebb" textLabel="NTH1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="570.0" centerY="120.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="NTH1" />
+    <Xref dataSource="SGD" identifier="S000002408" />
+  </DataNode>
+  <DataNode elementID="f36" textLabel="glucose-6-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="83.66666666666667" centerY="315.3333333333333" width="167.33333333333334" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="59-56-3" />
+  </DataNode>
+  <DataNode elementID="f88" textLabel="trehalose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="726.7" centerY="226.7" width="76.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="99-20-7" />
+  </DataNode>
+  <Interaction elementID="id28b6129a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="550.0" y="173.33333333333334" elementID="ecba6" />
+    <Point x="550.0" y="180.0" elementID="a9d93" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2c8d849e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="83.66666666666669" y="198.2" elementID="dc01e" elementRef="ffb" relX="0.0" relY="1.0" />
+    <Point x="83.66666666666667" y="305.8333333333333" elementID="c77e7" elementRef="f36" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id3c272cd1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="413.3333333333333" y="230.0" elementID="f82d1" />
+    <Point x="320.0" y="200.0" elementID="e2d7d" />
+  </Interaction>
+  <Interaction elementID="id75a49bc5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="410.3333333333333" y="98.53333333333333" elementID="ac3a9" elementRef="e88" relX="0.0" relY="1.0" />
+    <Point x="707.6166666666667" y="217.2" elementID="e36fa" elementRef="f88" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id79f7dcd4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="66.66666666666667" y="270.0" elementID="e9b3e" />
+    <Point x="60.0" y="270.0" elementID="ebab0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida8f874b4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="688.5333333333333" y="226.7" elementID="ca019" elementRef="f88" relX="-1.0" relY="0.0" />
+    <Point x="144.33333333333337" y="188.7" elementID="e509e" elementRef="ffb" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide38a04f9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="343.0" y="98.53333333333333" elementID="c0213" elementRef="e88" relX="-0.5" relY="1.0" />
+    <Point x="83.66666666666669" y="179.2" elementID="f344d" elementRef="ffb" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf2ed6426" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.0" y="136.66666666666666" elementID="c1827" />
+    <Point x="156.66666666666666" y="133.33333333333334" elementID="acca9" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="acc" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="489.96666666666664" centerY="156.7" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="ba4" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="436.6333333333333" centerY="230.03333333333333" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="bc3" textLabel="H2O" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="196.63333333333333" centerY="110.03333333333333" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="e88" textLabel="alpha,alpha-trehalose 6-phosphate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="410.33333333333326" centerY="89.03333333333333" width="269.3333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="ffb" textLabel="beta-D-glucose" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="83.66666666666667" centerY="188.7" width="121.33333333333333" height="19.0" zOrder="28672" />
+  <Shape elementID="b7d" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="520.0123333333333" centerY="163.31973333333332" width="65.67056" height="37.71236" zOrder="16384" rotation="3.682939" />
+  <Shape elementID="c7b" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="63.300799999999995" centerY="250.0092" width="40.551746666666666" height="40.0" zOrder="16384" rotation="4.712389" />
+  <Shape elementID="f68" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="180.01846666666668" centerY="123.3368" width="44.72136" height="48.07401333333333" zOrder="16384" rotation="5.695183" />
+  <InfoBox centerX="595.0" centerY="271.6666666666667" />
+  <Legend centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="trehalose degradation pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001300" />
+  </OntologyTerms>
+</Pathway>
+

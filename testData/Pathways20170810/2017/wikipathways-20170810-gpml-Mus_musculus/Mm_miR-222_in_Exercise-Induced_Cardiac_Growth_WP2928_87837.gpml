@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="miR-222 in Exercise-Induced Cardiac Growth" revision="20150527" organism="Mus musculus" width="573.333333333335" height="502.6666666666666">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">miR-222 is necessary for exercise-induced cardiac growth and protects against pathological cardiac remodeling.</Comment>
+  <CitationRef citationID="b53" />
+  <DataNode elementID="da55b" textLabel="Cdkn1b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="176.66666666666657" centerY="340.33333333333354" width="80.0" height="21.999999999999993" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000003031" />
+  </DataNode>
+  <DataNode elementID="eada6" textLabel="Hmbox1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="326.0" centerY="340.0000000000003" width="80.0" height="22.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000021972" />
+  </DataNode>
+  <DataNode elementID="ee50c" textLabel="Hipk2" groupRef="e55ef" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="483.33333333333326" centerY="361.3333333333336" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000061436" />
+  </DataNode>
+  <DataNode elementID="f0c6a" textLabel="Mir222" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="324.6666666666663" centerY="195.99999999999997" width="65.3333333333332" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000065471" />
+  </DataNode>
+  <DataNode elementID="f37b0" textLabel="Hipk1" groupRef="e55ef" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="483.33333333333326" centerY="341.3333333333336" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000008730" />
+  </DataNode>
+  <Interaction elementID="id3388e8cc" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="308.333333333333" y="205.99999999999997" elementID="bc910" elementRef="f0c6a" relX="-0.5" relY="1.0" />
+    <Point x="176.66666666666657" y="329.33333333333354" elementID="a2082" elementRef="da55b" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id456aac16" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="176.66666666666657" y="351.33333333333354" elementID="ca968" elementRef="da55b" relX="0.0" relY="1.0" />
+    <Point x="219.3333333333333" y="397.3333333333333" elementID="c23f2" />
+    <Point x="262.0" y="452.6666666666666" elementID="f1311" elementRef="a0d43" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id7ae14f91" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="340.9999999999996" y="205.99999999999997" elementID="eb421" elementRef="f0c6a" relX="0.5" relY="1.0" />
+    <Point x="483.33333333333326" y="323.3333333333336" elementID="d493d" elementRef="e55ef" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idbe43a34b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="324.6666666666662" y="82.00000000000003" elementID="a1b57" elementRef="aa48c" relX="0.0" relY="1.0" />
+    <Point x="324.6666666666663" y="185.99999999999997" elementID="d6522" elementRef="f0c6a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc62262fa" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="324.6666666666663" y="205.99999999999997" elementID="cfa68" elementRef="f0c6a" relX="0.0" relY="1.0" />
+    <Point x="326.0" y="329.0000000000003" elementID="f178c" elementRef="eada6" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="ac720" zOrder="32769" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="326.0" y="351.0000000000003" elementID="a2589" elementRef="eada6" relX="0.0" relY="1.0" />
+    <Point x="326.0" y="452.6666666666666" elementID="ca3a3" elementRef="a0d43" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="a82f4" connectorType="Elbow" zOrder="32770" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="483.33333333333326" y="379.3333333333336" elementID="e70d9" elementRef="e55ef" relX="0.0" relY="1.0" />
+    <Point x="390.0" y="452.6666666666666" elementID="ad4ce" elementRef="a0d43" relX="0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Label elementID="a0d43" textLabel="Growth, Proliferation and Cardiac Repair" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="326.0" centerY="462.6666666666666" width="256.0" height="20.0" zOrder="28672" />
+  <Label elementID="aa48c" textLabel="Exercise" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="324.6666666666662" centerY="72.00000000000003" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="e1831" textLabel="Cardiomyocyte" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="158.0" centerY="163.66666666666674" width="88.0" height="22.000000000000007" zOrder="28672" />
+  <Shape elementID="ef524" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="326.0000000000016" centerY="215.66666666666688" width="434.6666666666668" height="136.66666666666623" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="e55ef" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="miR-222 Is Necessary for Exercise-Induced Cardiac Growth and Protects against Pathological Cardiac Remodeling." URL="" citationID="b53" year="2015" source="Cell Metab">
+      <Xref dataSource="PubMed" identifier="25863248" />
+      <Author name="Liu X" />
+      <Author name="Xiao J" />
+      <Author name="Zhu H" />
+      <Author name="Wei X" />
+      <Author name="Platt C" />
+      <Author name="Damilano F" />
+      <Author name="Xiao C" />
+      <Author name="Bezzerides V" />
+      <Author name="Boström P" />
+      <Author name="Che L" />
+      <Author name="Zhang C" />
+      <Author name="Spiegelman BM" />
+      <Author name="Rosenzweig A" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,18 @@
+Fatty acid biosynthesis	Line	R9
+R9	Arrow	Octanoyl-[acp]
+Lipoic Acid	Line	R5
+R5	Arrow	lipoyl-AMP
+Protein N6-(octanoyl)lysine	Line	R3
+R3	Arrow	Protein N6-(lipoyl)lysine
+lipoyl-AMP	Line	R7
+R7	Arrow	Protein N6-(lipoyl)lysine
+Octanoyl-[acp]	Line	R11
+R11	mim-conversion	Lipoyl-[acp]
+Octanoyl-[acp]	Line	R13
+R13	mim-conversion	Protein N6-(octanoyl)lysine
+Lipoyl-[acp]	Line	R1
+R1	Arrow	Protein N6-(lipoyl)lysine
+lipB	Line	R15
+R15	Arrow	R1
+ko:K03800	Line	R17
+R17	Arrow	R7

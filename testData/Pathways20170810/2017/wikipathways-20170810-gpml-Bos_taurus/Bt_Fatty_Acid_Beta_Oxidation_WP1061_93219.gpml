@@ -1,0 +1,1151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Fatty Acid Beta Oxidation" organism="Bos taurus" width="1915.2466208333321" height="2086.8767307638986" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">Complete fatty acid beta-oxidation pathway for saturated and unsaturated fatty acids, developed and curated internally by BiGCaT Bioinformatics. 
+
+This pathway was previously split into three parts plus a meta file for statistics. If you still have these you can replace all four with this single pathway.</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP143_r79783 WP143(79783)]  with a 98.0% conversion rate.</Comment>
+  <DataNode elementID="d17" textLabel="Glutarate" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Metabolite" centerX="1744.6666666666667" centerY="1410.0" width="74.33333333333333" height="19.0" zOrder="28672">
+    <Xref dataSource="PubChem-compound" identifier="743" />
+  </DataNode>
+  <DataNode elementID="d9f99" textLabel="3-Oxododexanoyl-CoA" color="0000ff" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Metabolite" centerX="1298.3333333333333" centerY="1019.0" width="174.93333333333334" height="19.2" zOrder="28672">
+    <Xref dataSource="PubChem-compound" identifier="11966169" />
+  </DataNode>
+  <DataNode elementID="a03" textLabel="HADHA" groupRef="b34cb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="579.3333333333334" centerY="1135.6666666666667" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="a0c90" textLabel="Trans-Oct-2-enoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="607.5" centerY="1536.0" width="127.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:27537" />
+  </DataNode>
+  <DataNode elementID="a22ba" textLabel="Myristoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="701.0" centerY="1174.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15532" />
+  </DataNode>
+  <DataNode elementID="a27ae" textLabel="(S)-3-Hydroxytetradecanoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="952.159904359375" centerY="928.0" width="159.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:27466" />
+  </DataNode>
+  <DataNode elementID="a31" textLabel="Acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="922.0" centerY="1943.3333333333333" width="88.53333333333333" height="19.2" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="a4f" textLabel="Acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1408.0" centerY="1938.0" width="90.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="a5b" textLabel="ACADM" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="534.3333333333334" centerY="1428.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:34</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACADM | acyl-Coenzyme A dehydrogenase C-4 to C..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000024240" />
+  </DataNode>
+  <DataNode elementID="a72" textLabel="HADHB" groupRef="b9ec0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.6666666666667" centerY="214.66666666666666" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="a7c" textLabel="PNPLA2" groupRef="ababd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="668.6666666666666" centerY="394.0" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:57104</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PNPLA2 | patatin-like phospholipase domain cont..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000005144" />
+  </DataNode>
+  <DataNode elementID="a8c" textLabel="Glutaryl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1744.6666666666667" centerY="1538.0" width="102.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="103192-48-9" />
+  </DataNode>
+  <DataNode elementID="a92" textLabel="CPT2" groupRef="e6daa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="273.6080089168372" centerY="1028.293733980156" width="73.33333333333333" height="20.000000000000007" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1376</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CPT2 | carnitine palmitoyltransferase II" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000014649" />
+  </DataNode>
+  <DataNode elementID="a98" textLabel="Glyceraldehyde-3-Phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="113.6012466095454" centerY="1057.3992745312505" width="150.41920755712113" height="21.696786562499895" zOrder="32768">
+    <Xref dataSource="CAS" identifier="591-57-1" />
+  </DataNode>
+  <DataNode elementID="a9a26" textLabel="2-trans-dodecenoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1297.0" centerY="808.0" width="128.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15471" />
+  </DataNode>
+  <DataNode elementID="a9b" textLabel="ACADS" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1367.0" centerY="1455.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:35</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACADS | acyl-Coenzyme A dehydrogenase C-2 to C..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007484" />
+  </DataNode>
+  <DataNode elementID="aa3" textLabel="ACADM" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1535.309002708334" centerY="719.0570517708334" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:34</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACADM | acyl-Coenzyme A dehydrogenase C-4 to C..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000024240" />
+  </DataNode>
+  <DataNode elementID="aa9" textLabel="HADHB" groupRef="adc6a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="518.6666666666666" centerY="865.6666666666666" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="abc" textLabel="Glycerol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="113.60124660954541" centerY="766.6203050061974" width="150.4192075571211" height="19.199999999999932" zOrder="32768">
+    <Xref dataSource="CAS" identifier="56-81-5" />
+  </DataNode>
+  <DataNode elementID="ace05" textLabel="cis,cis-3,6-Dodecadienoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1377.0" centerY="283.0" width="168.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:28002" />
+  </DataNode>
+  <DataNode elementID="ad8" textLabel="ECI1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.6666666666667" centerY="340.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1632</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DCI | dodecenoyl-Coenzyme A delta isomerase (3..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009965" />
+  </DataNode>
+  <DataNode elementID="aef" textLabel="ECHS1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="952.1013215859031" centerY="1591.2026431718064" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1892</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ECHS1 | enoyl Coenzyme A hydratase short chain..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017710" />
+  </DataNode>
+  <DataNode elementID="af4" textLabel="GCDH" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1583.3333333333333" centerY="1488.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2639</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="GCDH | glutaryl-Coenzyme A dehydrogenase" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016211" />
+  </DataNode>
+  <DataNode elementID="b0d" textLabel="HADHB" groupRef="d256a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1298.3333333333333" centerY="1121.3333333333333" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="b172b" textLabel="Trans-Dec-2-enoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1643.0" centerY="801.0" width="124.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:10723" />
+  </DataNode>
+  <DataNode elementID="b2f" textLabel="HADHB" groupRef="c1ebc" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1348.0" centerY="1863.3333333333333" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="b31" textLabel="HADH" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1233.6666666666665" centerY="955.0" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3033</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHSC | L-3-hydroxyacyl-Coenzyme A dehydrogena..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000002049" />
+  </DataNode>
+  <DataNode elementID="b37" textLabel="HADHB" groupRef="aa946" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="606.3333333333334" centerY="1898.3333333333333" width="73.33333333333333" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="b4f" textLabel="HADHB" groupRef="a9c06" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="952.6666666666666" centerY="1150.6666666666667" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="b51" textLabel="HADHB" groupRef="d7c72" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="521.9166666666666" centerY="978.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="b6b37" textLabel="3-Oxo-octanoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="608.395286921875" centerY="1781.909904359375" width="105.25" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:28264" />
+  </DataNode>
+  <DataNode elementID="b73" textLabel="ACADVL" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="552.6666666666666" centerY="717.0" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:37</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACADVL | acyl-Coenzyme A dehydrogenase very lo..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000003072" />
+  </DataNode>
+  <DataNode elementID="b74" textLabel="Acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1220.0" centerY="527.3333333333334" width="90.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="b7f" textLabel="HADHB" groupRef="b34cb" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="579.3333333333334" centerY="1155.6666666666667" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="b80" textLabel="HADHB" groupRef="c6581" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="882.6666666666665" centerY="869.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="bb576" textLabel="3-Oxohexanoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1021.0" centerY="1782.0" width="106.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:27648" />
+  </DataNode>
+  <DataNode elementID="bd8" textLabel="GPD2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="35.43009129704531" centerY="912.8965865686973" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2820</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="GPD2 | glycerol-3-phosphate dehydrogenase 2 (mi..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009770" />
+  </DataNode>
+  <DataNode elementID="beea6" textLabel="2-trans-4-cis-decadienoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1779.5" centerY="329.0" width="167.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:29119" />
+  </DataNode>
+  <DataNode elementID="bf98b" textLabel="Butanoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1128.0" centerY="1943.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15517" />
+  </DataNode>
+  <DataNode elementID="bfe" textLabel="HADHA" groupRef="c1ebc" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1348.0" centerY="1843.3333333333333" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="c02" textLabel="HADH" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="534.3333333333334" centerY="1713.6666666666667" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3033</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHSC | L-3-hydroxyacyl-Coenzyme A dehydrogena..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000002049" />
+  </DataNode>
+  <DataNode elementID="c07" textLabel="HADHA" groupRef="c6581" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="882.6666666666665" centerY="849.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="c08" textLabel="Acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="859.6666666666666" centerY="1202.0" width="88.53333333333333" height="19.2" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="c41" textLabel="Acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="503.99323769270836" centerY="1943.3333333333333" width="88.53333333333333" height="19.2" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="c62de" textLabel="Decanoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1381.0" centerY="1192.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:28493" />
+  </DataNode>
+  <DataNode elementID="c6d" textLabel="Linoleoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1377.3333333333333" centerY="95.33333333333333" width="113.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="40757-80-0" />
+  </DataNode>
+  <DataNode elementID="c78e7" textLabel="3-Oxopalmitoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="579.840095640625" centerY="1050.659904359375" width="107.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15491" />
+  </DataNode>
+  <DataNode elementID="c86" textLabel="ACSL5" groupRef="bf69a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.54419483871214" centerY="874.5632532353646" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:51703</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACSL5 | acyl-CoA synthetase long-chain family m..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006707" />
+  </DataNode>
+  <DataNode elementID="c92" textLabel="DLD" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1809.6666666666667" centerY="1467.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1738</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DLD | dihydrolipoamide dehydrogenase (E3 compon..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000001908" />
+  </DataNode>
+  <DataNode elementID="ca4" textLabel="HADHA" groupRef="d00b7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.6666666666667" centerY="486.6666666666667" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="caf" textLabel="ACSS2" groupRef="bf69a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.54419483871214" centerY="794.5632532353645" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:55902</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACAS2 | acetyl-Coenzyme A synthetase 2 (ADP for..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000013303" />
+  </DataNode>
+  <DataNode elementID="cb0" textLabel="HADH" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1568.0" centerY="978.6666666666666" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3033</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHSC | L-3-hydroxyacyl-Coenzyme A dehydrogena..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000002049" />
+  </DataNode>
+  <DataNode elementID="cb3" textLabel="TPI1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="32.60124660954535" centerY="1005.9536383395302" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7167</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="TPI1 | triosephosphate isomerase 1" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000019782" />
+  </DataNode>
+  <DataNode elementID="cb7" textLabel="GK2" groupRef="eeec7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="38.301724812670315" centerY="823.9536383395308" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2712</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="GK2 | glycerol kinase 2" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000039245" />
+  </DataNode>
+  <DataNode elementID="ceb" textLabel="HADHB" groupRef="c3868" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1023.0" centerY="1900.3333333333333" width="73.33333333333333" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="cf6" textLabel="Dihydroxyacetone Phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="113.60124660954541" centerY="962.2869716728637" width="150.4192075571211" height="19.199999999999932" zOrder="32768">
+    <Xref dataSource="CAS" identifier="57-04-5" />
+  </DataNode>
+  <DataNode elementID="cfa" textLabel="ECHS1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1348.0" centerY="1587.3333333333333" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1892</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ECHS1 | enoyl Coenzyme A hydratase short chain..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017710" />
+  </DataNode>
+  <DataNode elementID="d14" textLabel="ACSL1" groupRef="bf69a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.54419483871214" centerY="814.5632532353646" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2180</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACSL1 | acyl-CoA synthetase long-chain family m..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000004344" />
+  </DataNode>
+  <DataNode elementID="d32" textLabel="DECR1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1850.6666666666665" centerY="431.3333333333333" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1666</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DECR1 | 24-dienoyl CoA reductase 1 mitochondr..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000019663" />
+  </DataNode>
+  <DataNode elementID="d35a9" textLabel="Trans-Hex-2-enoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1021.0" centerY="1539.0" width="116.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:28706" />
+  </DataNode>
+  <DataNode elementID="d4c" textLabel="LIPC" groupRef="ababd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="668.6666666666666" centerY="334.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3990</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="LIPC | lipase hepatic" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000005479" />
+  </DataNode>
+  <DataNode elementID="d5291" textLabel="(S)-3-Hydroxyhexadecanoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="578.0" centerY="925.0" width="162.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:27402" />
+  </DataNode>
+  <DataNode elementID="d55" textLabel="SLC25A20" groupRef="e6daa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="273.6080089168372" centerY="1048.2937339801556" width="73.33333333333333" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:788</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SLC25A20 | solute carrier family 25 (carnitine/..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000000191" />
+  </DataNode>
+  <DataNode elementID="d69" textLabel="ACADL" groupRef="b9ec0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.6666666666667" centerY="174.66666666666666" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:33</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACADL | acyl-Coenzyme A dehydrogenase long cha..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010579" />
+  </DataNode>
+  <DataNode elementID="d6a" textLabel="ACADL" groupRef="d00b7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.6666666666667" centerY="466.6666666666667" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:33</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACADL | acyl-Coenzyme A dehydrogenase long cha..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010579" />
+  </DataNode>
+  <DataNode elementID="d73" textLabel="MGC142781" groupRef="e6daa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="273.6080089168372" centerY="968.2937339801557" width="73.33333333333333" height="20.000000000000007" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1384</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CRAT | carnitine acetyltransferase" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000001932" />
+  </DataNode>
+  <DataNode elementID="d85b0" textLabel="(S)-3-Hydroxybutanoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1407.5" centerY="1657.0" width="131.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15453" />
+  </DataNode>
+  <DataNode elementID="d88" textLabel="HSL" groupRef="ababd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="668.6666666666666" centerY="354.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3991</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="LIPE | lipase hormone-sensitive" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000038321" />
+  </DataNode>
+  <DataNode elementID="d92" textLabel="ECHS1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="534.3333333333334" centerY="1589.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1892</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ECHS1 | enoyl Coenzyme A hydratase short chain..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017710" />
+  </DataNode>
+  <DataNode elementID="d93" textLabel="Lauroyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1082.6666666666667" centerY="1188.0" width="98.93333333333334" height="19.2" zOrder="32768">
+    <Xref dataSource="CAS" identifier="6244-92-4" />
+  </DataNode>
+  <DataNode elementID="d96" textLabel="ACSL6" groupRef="bf69a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.54419483871214" centerY="894.5632532353646" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:23305</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACSL6 | acyl-CoA synthetase long-chain family m..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000019708" />
+  </DataNode>
+  <DataNode elementID="d9c" textLabel="ECI1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1858.5799541666656" centerY="689.9597041666665" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1632</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DCI | dodecenoyl-Coenzyme A delta isomerase (3..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009965" />
+  </DataNode>
+  <DataNode elementID="daf8d" textLabel="Hexanoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="726.0" centerY="1944.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:27540" />
+  </DataNode>
+  <DataNode elementID="db7" textLabel="HADH" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="951.0" centerY="1713.6666666666667" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3033</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHSC | L-3-hydroxyacyl-Coenzyme A dehydrogena..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000002049" />
+  </DataNode>
+  <DataNode elementID="dbc47" textLabel="L-Glycerol-3-Phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="113.6012466095454" centerY="876.2869716728643" width="150.4192075571211" height="20.000000000000007" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15978" />
+  </DataNode>
+  <DataNode elementID="dc4" textLabel="HADHB" groupRef="d00b7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.6666666666667" centerY="506.6666666666667" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="dca" textLabel="CPT1A" groupRef="e6daa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="273.6080089168372" centerY="988.2937339801557" width="73.33333333333333" height="20.000000000000007" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1374</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CPT1A | carnitine palmitoyltransferase 1A (live..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021999" />
+  </DataNode>
+  <DataNode elementID="dd235" textLabel="TCA cycle" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="295.14305548326644" centerY="1300.0096679185947" width="67.05290102389085" height="44.86860068259419" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP78" />
+  </DataNode>
+  <DataNode elementID="def" textLabel="CPT1B" groupRef="e6daa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="273.6080089168372" centerY="1068.2937339801556" width="73.33333333333333" height="20.000000000000007" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1375</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CPT1B | carnitine palmitoyltransferase 1B (musc..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016048" />
+  </DataNode>
+  <DataNode elementID="df7" textLabel="HADHA" groupRef="b9ec0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.6666666666667" centerY="194.66666666666666" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="e19" textLabel="HADHA" groupRef="d7c72" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="521.6666666666666" centerY="998.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="e21" textLabel="HADHA" groupRef="aa946" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="606.3333333333334" centerY="1878.3333333333333" width="73.33333333333333" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="e29" textLabel="Acyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="372.6666666666667" centerY="891.3333333333334" width="74.13333333333334" height="19.2" zOrder="32768">
+    <Xref dataSource="CAS" identifier="9029-97-4" />
+  </DataNode>
+  <DataNode elementID="e2c" textLabel="HADH" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1348.0" centerY="1707.3333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3033</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHSC | L-3-hydroxyacyl-Coenzyme A dehydrogena..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000002049" />
+  </DataNode>
+  <DataNode elementID="e47" textLabel="ECHS1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1568.0" centerY="858.6666666666666" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1892</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ECHS1 | enoyl Coenzyme A hydratase short chain..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017710" />
+  </DataNode>
+  <DataNode elementID="e48" textLabel="HADHA" groupRef="ca83d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="882.6666666666665" centerY="972.6666666666666" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="e4d" textLabel="HADHB" groupRef="ac0a1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1644.6666666666667" centerY="1158.0" width="73.33333333333333" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="e54" textLabel="ACSL4" groupRef="bf69a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.54419483871214" centerY="854.5632532353645" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2182</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACSL4 | acyl-CoA synthetase long-chain family m..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000018986" />
+  </DataNode>
+  <DataNode elementID="e58d2" textLabel="(S)-3-Hydroxydecanoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1644.875" centerY="925.25" width="146.25" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:28325" />
+  </DataNode>
+  <DataNode elementID="e6e" textLabel="ACADS" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="972.0" centerY="1459.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:35</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACADS | acyl-Coenzyme A dehydrogenase C-2 to C..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007484" />
+  </DataNode>
+  <DataNode elementID="e81" textLabel="GK" groupRef="eeec7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="38.301724812670315" centerY="803.9536383395308" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="GenMAPP remarks"></Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2710</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="GK | glycerol kinase" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000008124" />
+  </DataNode>
+  <DataNode elementID="e9c" textLabel="LIPF" groupRef="ababd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="668.6666666666666" centerY="374.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="LIPF | lipase gastric" />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ea739" textLabel="(S)-3-Hydroxyoctanoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="607.68019128125" centerY="1663.0" width="134.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:28632" />
+  </DataNode>
+  <DataNode elementID="eab" textLabel="HADHA" groupRef="adc6a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="518.6666666666666" centerY="845.6666666666666" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="ebe" textLabel="Acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1540.6666666666667" centerY="1207.3333333333333" width="88.53333333333333" height="19.2" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="ec0c5" textLabel="Palmitoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="372.0" centerY="1060.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15525" />
+  </DataNode>
+  <DataNode elementID="ece" textLabel="ACADL" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1270.6666666666667" centerY="718.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:33</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACADL | acyl-Coenzyme A dehydrogenase long cha..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010579" />
+  </DataNode>
+  <DataNode elementID="ef3" textLabel="HADHB" groupRef="ca83d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="882.6666666666664" centerY="992.6666666666666" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3032</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHB | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010083" />
+  </DataNode>
+  <DataNode elementID="f06" textLabel="HADHA" groupRef="a9c06" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="952.6666666666666" centerY="1130.6666666666667" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="f07" textLabel="HADHA" groupRef="c3868" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1023.0" centerY="1880.3333333333333" width="73.33333333333333" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="f0d" textLabel="Acetoacetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1408.0" centerY="1778.0" width="132.33333333333334" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="1420-36-6" />
+  </DataNode>
+  <DataNode elementID="f16" textLabel="CHKB" groupRef="e6daa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="273.6080089168372" centerY="1008.2937339801557" width="73.33333333333333" height="20.000000000000007" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1120</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CHKB | choline kinase beta" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016050" />
+  </DataNode>
+  <DataNode elementID="f33" textLabel="Acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1238.0" centerY="197.33333333333334" width="90.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="f38" textLabel="ECHS1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1233.6666666666667" centerY="849.9576107899807" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1892</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ECHS1 | enoyl Coenzyme A hydratase short chain..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017710" />
+  </DataNode>
+  <DataNode elementID="f54" textLabel="Acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="466.0" centerY="1174.6666666666667" width="88.53333333333333" height="19.2" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="f74" textLabel="HADHA" groupRef="d256a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1298.3333333333333" centerY="1101.3333333333333" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="f7e" textLabel="ACAT1" groupRef="c1ebc" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1348.0" centerY="1823.3333333333333" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:38</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACAT1 | acetyl-Coenzyme A acetyltransferase 1 (..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000012885" />
+  </DataNode>
+  <DataNode elementID="f83" textLabel="ACSL3" groupRef="bf69a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.54419483871214" centerY="834.5632532353646" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2181</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACSL3 | acyl-CoA synthetase long-chain family m..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017258" />
+  </DataNode>
+  <DataNode elementID="f91b4" textLabel="3-trans-decenoyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1780.0" centerY="557.0" width="124.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:29126" />
+  </DataNode>
+  <DataNode elementID="fabf6" textLabel="Triacylglycerol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="245.74547004704542" centerY="669.2478744853644" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:17855" />
+  </DataNode>
+  <DataNode elementID="fb4" textLabel="HADHA" groupRef="ac0a1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1644.6666666666667" centerY="1138.0" width="73.33333333333333" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3030</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HADHA | hydroxyacyl-Coenzyme A dehydrogenase/3-..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015038" />
+  </DataNode>
+  <DataNode elementID="fc3" textLabel="ACADL" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="914.6666666666666" centerY="715.0" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:33</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACADL | acyl-Coenzyme A dehydrogenase long cha..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010579" />
+  </DataNode>
+  <DataNode elementID="fcb" textLabel="LPL" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="243.41213671371216" centerY="749.4010752145309" width="73.33333333333333" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4023</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="LPL | lipoprotein lipase" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000012855" />
+  </DataNode>
+  <DataNode elementID="fdf" textLabel="Acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1214.3333333333333" centerY="1178.6666666666667" width="88.53333333333333" height="19.2" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="ffb" textLabel="ACADM" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1647.144223437499" centerY="475.0089772916667" width="53.333333333333336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:34</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACADM | acyl-Coenzyme A dehydrogenase C-4 to C..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000024240" />
+  </DataNode>
+  <DataNode elementID="a14f9" textLabel="TCA cycle" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="114.19128093651975" centerY="1142.8831217251488" width="67.05290102389085" height="44.86860068259419" zOrder="32769">
+    <Xref dataSource="WikiPathways" identifier="WP78" />
+  </DataNode>
+  <DataNode elementID="f7598" textLabel="TCA cycle" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="849.788987385102" centerY="1293.3458047660772" width="67.05290102389085" height="44.86860068259419" zOrder="32770">
+    <Xref dataSource="WikiPathways" identifier="WP78" />
+  </DataNode>
+  <DataNode elementID="d0eb2" textLabel="TCA cycle" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="1206.8565475993341" centerY="1276.0362420888719" width="67.05290102389085" height="44.86860068259419" zOrder="32771">
+    <Xref dataSource="WikiPathways" identifier="WP78" />
+  </DataNode>
+  <DataNode elementID="c361a" textLabel="TCA cycle" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="1537.7109165313768" centerY="1273.5508051956674" width="67.05290102389085" height="44.86860068259419" zOrder="32772">
+    <Xref dataSource="WikiPathways" identifier="WP78" />
+  </DataNode>
+  <DataNode elementID="e339d" textLabel="TCA cycle" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="1412.4114062641743" centerY="2023.8059817572237" width="67.05290102389085" height="44.86860068259419" zOrder="32773">
+    <Xref dataSource="WikiPathways" identifier="WP78" />
+  </DataNode>
+  <DataNode elementID="dbff2" textLabel="TCA cycle" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="897.0955562030023" centerY="2034.4424304226018" width="67.05290102389085" height="44.86860068259419" zOrder="32774">
+    <Xref dataSource="WikiPathways" identifier="WP78" />
+  </DataNode>
+  <DataNode elementID="aaee7" textLabel="TCA cycle" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="490.38921440730365" centerY="2010.1518360208865" width="67.05290102389085" height="44.86860068259419" zOrder="32775">
+    <Xref dataSource="WikiPathways" identifier="WP78" />
+  </DataNode>
+  <Interaction elementID="a0019" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1421.0" y="1192.0" elementID="c45bf" elementRef="c62de" relX="1.0" relY="0.0" />
+    <Point x="1581.0" y="801.0" elementID="b67f3" elementRef="b172b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.9164223154139662" shapeType="None" elementID="f013b" />
+  </Interaction>
+  <Interaction elementID="a0271" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1408.0" y="1947.5" elementID="a7262" elementRef="a4f" relX="0.0" relY="1.0" />
+    <Point x="1412.4114062641743" y="2001.3716814159266" elementID="a8527" elementRef="e339d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a041a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="265.7454700470454" y="679.2478744853644" elementID="b11d9" elementRef="fabf6" relX="0.5" relY="1.0" />
+    <Point x="372.66666666666663" y="743.0878092708334" elementID="c5599" elementRef="e43" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="c1653" />
+  </Interaction>
+  <Interaction elementID="a0914" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1693.5" y="1538.0" elementID="d5660" elementRef="a8c" relX="-1.0" relY="0.0" />
+    <Point x="1460.1666666666665" y="1538.0" elementID="db49c" elementRef="f19" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.47296322999279017" shapeType="None" elementID="b37f8" />
+  </Interaction>
+  <Interaction elementID="a09fc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="113.60124660954541" y="971.8869716728636" elementID="c9edd" elementRef="cf6" relX="0.0" relY="1.0" />
+    <Point x="113.6012466095454" y="1046.5508812500007" elementID="b5255" elementRef="a98" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.43870402802101577" shapeType="None" elementID="c85b7" />
+  </Interaction>
+  <Interaction elementID="a0b23" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1254.6" y="1028.6" elementID="dace6" elementRef="d9f99" relX="-0.5" relY="1.0" />
+    <Point x="1214.3333333333333" y="1169.066666666667" elementID="ca823" elementRef="fdf" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.3111554004618815" shapeType="None" elementID="ea603" />
+  </Interaction>
+  <Interaction elementID="a265e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="552.6666666666666" y="727.0" elementID="d7953" elementRef="b73" relX="0.0" relY="1.0" />
+    <Point x="550.5073194978222" y="771.7333333333333" elementID="bd1bb" elementRef="f23f8" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="a387e" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1767.3333333333333" y="1217.6" elementID="d8ba2" elementRef="aa5" relX="0.0" relY="1.0" />
+    <Point x="607.5" y="1526.0" elementID="c2928" elementRef="a0c90" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.9329993646532864" shapeType="None" elementID="d852e" />
+  </Interaction>
+  <Interaction elementID="a4c47" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1022.0" y="1672.9333333333334" elementID="c8ce3" elementRef="a9d" relX="0.0" relY="1.0" />
+    <Point x="1021.0" y="1772.0" elementID="eba4e" elementRef="bb576" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="e0d6f" />
+  </Interaction>
+  <Interaction elementID="a5fd3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="300.21086150537883" y="844.5632532353645" elementID="e78f0" elementRef="bf69a" relX="1.0" relY="0.0" />
+    <Point x="372.66666666666663" y="814.9524266983902" elementID="e7b8b" elementRef="d1e9f" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="a6130" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1583.333333333333" y="1498.0" elementID="a6495" elementRef="af4" relX="0.0" relY="1.0" />
+    <Point x="1583.1419130016823" y="1538.0" elementID="ec14c" elementRef="b37f8" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="a633e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="567.6666666666667" y="1713.6666666666667" elementID="eb501" elementRef="c02" relX="1.0" relY="0.0" />
+    <Point x="607.9662295375" y="1712.56396174375" elementID="d9641" elementRef="e6714" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="a7585" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="225.7454700470454" y="679.2478744853644" elementID="cf88e" elementRef="fabf6" relX="-0.5" relY="1.0" />
+    <Point x="151.20604849882568" y="757.0203050061975" elementID="d1c00" elementRef="abc" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="f0cab" />
+  </Interaction>
+  <Interaction elementID="a7691" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1260.333333333333" y="849.9576107899807" elementID="bdcab" elementRef="f38" relX="1.0" relY="0.0" />
+    <Point x="1297.5333333333333" y="850.96" elementID="a1e5e" elementRef="ced7a" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="a9b50" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="113.60124660954541" y="886.2869716728643" elementID="bceb4" elementRef="dbc47" relX="0.0" relY="1.0" />
+    <Point x="113.60124660954541" y="952.6869716728638" elementID="d05f6" elementRef="cf6" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="f0eb0" />
+  </Interaction>
+  <Interaction elementID="ab781" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="914.6666666666667" y="725.0" elementID="ecb0f" elementRef="fc3" relX="0.0" relY="1.0" />
+    <Point x="912.4635926104928" y="771.0666666666666" elementID="a591a" elementRef="caad4" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="abbb7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="928.6666666666666" y="1112.6666666666667" elementID="e8de2" elementRef="a9c06" relX="-0.5" relY="-1.0" />
+    <Point x="893.7647499418022" y="1098.6418062042283" elementID="e213b" elementRef="d0124" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="acca2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1322.3333333333333" y="1083.3333333333333" elementID="b4365" elementRef="d256a" relX="0.5" relY="-1.0" />
+    <Point x="1352.9889524853656" y="1071.6345542274428" elementID="a2670" elementRef="d1393" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="acd75" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1367.0" y="1465.0" elementID="ad167" elementRef="a9b" relX="0.0" relY="1.0" />
+    <Point x="1366.9324364948143" y="1508.5" elementID="deb9c" elementRef="b5385" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="ae37b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="917.3333333333333" y="982.6666666666666" elementID="c73f1" elementRef="ca83d" relX="1.0" relY="0.0" />
+    <Point x="952.3864726925293" y="982.5897707231042" elementID="ff351" elementRef="bcd7d" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="ae7ae" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="59.267913276212006" y="1005.9536383395302" elementID="d0ab5" elementRef="cb3" relX="1.0" relY="0.0" />
+    <Point x="113.60124660954541" y="1004.6423295521505" elementID="aaf9d" elementRef="c85b7" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="af13e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1601.3333333333335" y="978.6666666666666" elementID="e22f1" elementRef="cb0" relX="1.0" relY="0.0" />
+    <Point x="1644.788745590829" y="977.2662477954145" elementID="cd70b" elementRef="ba6bd" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="b0967" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="582.082786921875" y="1791.909904359375" elementID="d0e7b" elementRef="b6b37" relX="-0.5" relY="1.0" />
+    <Point x="503.99323769270836" y="1933.7333333333336" elementID="e0582" elementRef="c41" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="d7c32" />
+  </Interaction>
+  <Interaction elementID="b0ba2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1047.5" y="1792.0" elementID="d1f9a" elementRef="bb576" relX="0.5" relY="1.0" />
+    <Point x="1128.0" y="1933.0" elementID="ed2ff" elementRef="bf98b" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="bd490" />
+  </Interaction>
+  <Interaction elementID="b10bb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1594.6666666666665" y="858.6666666666666" elementID="a1ce0" elementRef="e47" relX="1.0" relY="0.0" />
+    <Point x="1643.8444478908189" y="857.9513027295285" elementID="b6dde" elementRef="b9a1f" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="b13dc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1644.875" y="935.25" elementID="a65b7" elementRef="e58d2" relX="0.0" relY="1.0" />
+    <Point x="1644.6666666666665" y="1036.7333333333336" elementID="d6d17" elementRef="fb2" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.414021164021164" shapeType="None" elementID="ba6bd" />
+  </Interaction>
+  <Interaction elementID="b2f2b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="628.6666666666669" y="1860.3333333333333" elementID="a86d6" elementRef="aa946" relX="0.5" relY="-1.0" />
+    <Point x="666.0586628818352" y="1840.7054019529755" elementID="d383f" elementRef="b478a" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="b300c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="606.590095640625" y="1060.659904359375" elementID="fc18f" elementRef="c78e7" relX="0.5" relY="1.0" />
+    <Point x="701.0" y="1164.0" elementID="eca12" elementRef="a22ba" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.29363244582304876" shapeType="None" elementID="bd5c1" />
+  </Interaction>
+  <Interaction elementID="b55a4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="578.0" y="935.0" elementID="e1ec5" elementRef="d5291" relX="0.0" relY="1.0" />
+    <Point x="579.840095640625" y="1040.659904359375" elementID="cb1b0" elementRef="c78e7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4967741935483871" shapeType="None" elementID="e459c" />
+  </Interaction>
+  <Interaction elementID="b694d" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1168.0" y="1943.0" elementID="eefe8" elementRef="bf98b" relX="1.0" relY="0.0" />
+    <Point x="1408.0" y="1528.5" elementID="a903e" elementRef="f19" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.9120697429730948" shapeType="None" elementID="b5385" />
+  </Interaction>
+  <Interaction elementID="b696b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1408.0" y="340.0" elementID="a3060" elementRef="ad8" relX="-1.0" relY="0.0" />
+    <Point x="1377.1333333333332" y="339.4666666666667" elementID="ae626" elementRef="e4064" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="b6985" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1666.9999999999998" y="1120.0" elementID="ee41a" elementRef="ac0a1" relX="0.5" relY="-1.0" />
+    <Point x="1701.6177063397083" y="1092.4118529166974" elementID="bae11" elementRef="ee27a" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="b7c2c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="72.96839147933699" y="813.9536383395308" elementID="b1d06" elementRef="eeec7" relX="1.0" relY="0.0" />
+    <Point x="113.60124660954541" y="813.9973252295804" elementID="bc736" elementRef="ba874" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="b9933" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="952.6666666666666" y="810.2666666666667" elementID="bb697" elementRef="de2" relX="0.0" relY="1.0" />
+    <Point x="952.1599043593751" y="918.0" elementID="c617f" elementRef="a27ae" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.45347394540942926" shapeType="None" elementID="c9fbc" />
+  </Interaction>
+  <Interaction elementID="b9f85" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="412.0" y="1060.0" elementID="e753c" elementRef="ec0c5" relX="1.0" relY="0.0" />
+    <Point x="579.3333333333334" y="791.7333333333333" elementID="af9d1" elementRef="e5b" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.8973380701524157" shapeType="None" elementID="f23f8" />
+  </Interaction>
+  <Interaction elementID="b9fe6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1377.333333333333" y="428.1666666666667" elementID="f929f" elementRef="ef8" relX="0.0" relY="1.0" />
+    <Point x="1377.333333333333" y="575.8333333333334" elementID="a4b2e" elementRef="c15" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="c8444" />
+  </Interaction>
+  <Interaction elementID="ba0c8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="261.7454700470455" y="739.4010752145309" elementID="f987b" elementRef="fcb" relX="0.5" relY="-1.0" />
+    <Point x="308.5139486948939" y="704.783848399552" elementID="dc4e5" elementRef="c1653" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="be3c6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1535.309002708334" y="729.0570517708334" elementID="e16a3" elementRef="aa3" relX="0.0" relY="1.0" />
+    <Point x="1534.9486957930953" y="801.0" elementID="c0c89" elementRef="f013b" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="bebf8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="579.3333333333334" y="810.9333333333334" elementID="c700e" elementRef="e5b" relX="0.0" relY="1.0" />
+    <Point x="578.0" y="915.0" elementID="d336f" elementRef="d5291" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.42258064516129035" shapeType="None" elementID="bbc65" />
+  </Interaction>
+  <Interaction elementID="bedac" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1610.3333333333333" y="1055.9333333333334" elementID="f9e09" elementRef="fb2" relX="-0.5" relY="1.0" />
+    <Point x="1540.6666666666667" y="1197.7333333333336" elementID="fda24" elementRef="ebe" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.29358788697627985" shapeType="None" elementID="b9e78" />
+  </Interaction>
+  <Interaction elementID="bee2c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="607.68019128125" y="1673.0" elementID="ae396" elementRef="ea739" relX="0.0" relY="1.0" />
+    <Point x="608.395286921875" y="1771.909904359375" elementID="c2302" elementRef="b6b37" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="e6714" />
+  </Interaction>
+  <Interaction elementID="c06ae" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1780.0" y="567.0" elementID="ebb12" elementRef="f91b4" relX="0.0" relY="1.0" />
+    <Point x="1727.0" y="754.8293812499998" elementID="ce8e6" />
+    <Point x="1674.0" y="791.0" elementID="b44bb" elementRef="b172b" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.37298625533142465" shapeType="None" elementID="c7cac" />
+  </Interaction>
+  <Interaction elementID="c0e44" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1643.0" y="811.0" elementID="c71ed" elementRef="b172b" relX="0.0" relY="1.0" />
+    <Point x="1644.875" y="915.25" elementID="d4791" elementRef="e58d2" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.45037220843672454" shapeType="None" elementID="b9a1f" />
+  </Interaction>
+  <Interaction elementID="c0ea1" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="113.6012466095454" y="1068.2476678125008" elementID="d667a" elementRef="a98" relX="0.0" relY="1.0" />
+    <Point x="114.19128093651975" y="1120.4488213838517" elementID="bdca9" elementRef="a14f9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c14ff" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="553.090095640625" y="1060.659904359375" elementID="ce0f2" elementRef="c78e7" relX="-0.5" relY="1.0" />
+    <Point x="466.0" y="1165.066666666667" elementID="cc62d" elementRef="f54" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.3217762349149555" shapeType="None" elementID="a6ad8" />
+  </Interaction>
+  <Interaction elementID="c1a7f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1408.0" y="1787.5" elementID="c8c12" elementRef="f0d" relX="0.0" relY="1.0" />
+    <Point x="1408.0" y="1928.5" elementID="e3681" elementRef="a4f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="a8cbc" />
+  </Interaction>
+  <Interaction elementID="c2191" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1454.4999999999995" y="585.3333333333334" elementID="e8c87" elementRef="c15" relX="1.0" relY="0.0" />
+    <Point x="1544.3006906249998" y="457.1666666666667" elementID="a12cd" />
+    <Point x="1696.0" y="329.0" elementID="f4926" elementRef="beea6" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.40245855247740236" shapeType="None" elementID="fc298" />
+  </Interaction>
+  <Interaction elementID="c3062" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="952.1599043593751" y="938.0" elementID="e4e24" elementRef="a27ae" relX="0.0" relY="1.0" />
+    <Point x="952.6666666666667" y="1037.7333333333336" elementID="ada7a" elementRef="c3c" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4470899470899471" shapeType="None" elementID="bcd7d" />
+  </Interaction>
+  <Interaction elementID="c5cdf" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="741.0" y="1174.0" elementID="a576d" elementRef="a22ba" relX="1.0" relY="0.0" />
+    <Point x="952.6666666666666" y="791.0666666666666" elementID="e58dc" elementRef="de2" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.9051322501478509" shapeType="None" elementID="caad4" />
+  </Interaction>
+  <Interaction elementID="c7588" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1400.0" y="194.66666666666666" elementID="fa0b3" elementRef="b9ec0" relX="-1.0" relY="0.0" />
+    <Point x="1377.156462585034" y="194.06462585034015" elementID="f7510" elementRef="fb24b" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="c78e8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="555.3333333333334" y="1117.6666666666667" elementID="d4672" elementRef="b34cb" relX="-0.5" relY="-1.0" />
+    <Point x="525.0665725670013" y="1094.255519234276" elementID="fc6cf" elementRef="a6ad8" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="c8171" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="634.707786921875" y="1791.909904359375" elementID="a5800" elementRef="b6b37" relX="0.5" relY="1.0" />
+    <Point x="726.0" y="1934.0" elementID="fac99" elementRef="daf8d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.3434123777143079" shapeType="None" elementID="b478a" />
+  </Interaction>
+  <Interaction elementID="c982a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="917.3333333333333" y="859.0" elementID="b97ff" elementRef="c6581" relX="1.0" relY="0.0" />
+    <Point x="952.4368631637943" y="859.1209263854425" elementID="c0f0b" elementRef="c9fbc" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="c98ce" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="318.2746755835039" y="1018.2937339801556" elementID="d28bf" elementRef="e6daa" relX="1.0" relY="0.0" />
+    <Point x="372.14671714582704" y="1017.1940461930715" elementID="d623f" elementRef="fd3b3" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="ca205" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1400.0" y="486.66666666666674" elementID="e169f" elementRef="d00b7" relX="-1.0" relY="0.0" />
+    <Point x="1377.333333333333" y="487.23333333333335" elementID="bcd5d" elementRef="c8444" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="d01fb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1297.0" y="818.0" elementID="def32" elementRef="a9a26" relX="0.0" relY="1.0" />
+    <Point x="1298.333333333333" y="900.4" elementID="aba8b" elementRef="bff" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="ced7a" />
+  </Interaction>
+  <Interaction elementID="d262e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="225.07880338037882" y="739.4010752145309" elementID="fe3f9" elementRef="fcb" relX="-0.5" relY="-1.0" />
+    <Point x="195.9297014277575" y="710.3568466936977" elementID="b8a1b" elementRef="f0cab" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="d29b7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="603.3333333333334" y="1117.6666666666667" elementID="ddd0f" elementRef="b34cb" relX="0.5" relY="-1.0" />
+    <Point x="634.3119067675884" y="1091.0039093939195" elementID="b6215" elementRef="bd5c1" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="d2f0c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1620.4775567708325" y="475.0089772916667" elementID="e2fcf" elementRef="ffb" relX="-1.0" relY="0.0" />
+    <Point x="1544.3006906249998" y="474.77674124999993" elementID="aec92" elementRef="fc298" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="d3a00" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="556.5833333333333" y="988.0" elementID="eb1ba" elementRef="d7c72" relX="1.0" relY="0.0" />
+    <Point x="578.9141120279234" y="987.4891137785282" elementID="a4746" elementRef="e459c" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="d5434" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="372.6666666666667" y="900.9333333333334" elementID="d4951" elementRef="e29" relX="0.0" relY="1.0" />
+    <Point x="372.0" y="1050.0" elementID="ad7c2" elementRef="ec0c5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.7799242812594239" shapeType="None" elementID="fd3b3" />
+  </Interaction>
+  <Interaction elementID="d5659" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1408.0" y="1547.5" elementID="ae178" elementRef="f19" relX="0.0" relY="1.0" />
+    <Point x="1407.5" y="1647.0" elementID="f26bb" elementRef="d85b0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="a4693" />
+  </Interaction>
+  <Interaction elementID="d61e6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1270.6666666666665" y="728.0" elementID="dc9a4" elementRef="ece" relX="0.0" relY="1.0" />
+    <Point x="1269.710702332764" y="778.0" elementID="f7cde" elementRef="c6cc0" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="d6c72" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="972.0" y="1469.0" elementID="df76f" elementRef="e6e" relX="0.0" relY="1.0" />
+    <Point x="970.3606620891537" y="1509.0" elementID="b1786" elementRef="ac316" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="d94e6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1274.3333333333333" y="1083.3333333333333" elementID="fd119" elementRef="d256a" relX="-0.5" relY="-1.0" />
+    <Point x="1242.070809208068" y="1072.3069619182124" elementID="cb48b" elementRef="ea603" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="d950c" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="766.0" y="1944.0" elementID="d58a3" elementRef="daf8d" relX="1.0" relY="0.0" />
+    <Point x="1021.0" y="1529.0" elementID="cba13" elementRef="d35a9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.900507974773456" shapeType="None" elementID="ac316" />
+  </Interaction>
+  <Interaction elementID="d9e2a" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1214.3333333333333" y="1188.2666666666669" elementID="c263f" elementRef="fdf" relX="0.0" relY="1.0" />
+    <Point x="1206.8565475993341" y="1253.6019417475748" elementID="d9581" elementRef="d0eb2" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="dab47" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="113.60124660954541" y="776.2203050061973" elementID="f1ff4" elementRef="abc" relX="0.0" relY="1.0" />
+    <Point x="113.60124660954541" y="866.2869716728643" elementID="ba906" elementRef="dbc47" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.41943397731365195" shapeType="None" elementID="ba874" />
+  </Interaction>
+  <Interaction elementID="db955" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="466.0" y="1184.2666666666669" elementID="f6488" elementRef="f54" relX="0.0" relY="1.0" />
+    <Point x="295.14305548326644" y="1277.5753675772976" elementID="fc406" elementRef="dd235" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="dbf63" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="996.4000000000001" y="1056.9333333333334" elementID="c4670" elementRef="c3c" relX="0.5" relY="1.0" />
+    <Point x="1082.6666666666667" y="1178.4" elementID="f15ba" elementRef="d93" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.2446012510712593" shapeType="None" elementID="e6b0a" />
+  </Interaction>
+  <Interaction elementID="dc722" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1779.5" y="339.0" elementID="e4feb" elementRef="beea6" relX="0.0" relY="1.0" />
+    <Point x="1780.0" y="547.0" elementID="f90e2" elementRef="f91b4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.43070866141732284" shapeType="None" elementID="d278c" />
+  </Interaction>
+  <Interaction elementID="dc82a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1045.3333333333333" y="1862.3333333333333" elementID="ed3d1" elementRef="c3868" relX="0.5" relY="-1.0" />
+    <Point x="1079.7" y="1848.4" elementID="db02f" elementRef="bd490" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="dd73e" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="922.0" y="1952.9333333333334" elementID="db557" elementRef="a31" relX="0.0" relY="1.0" />
+    <Point x="897.0955562030023" y="2012.008130081305" elementID="f2aa4" elementRef="dbff2" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ddbbb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1348.9999999999998" y="104.83333333333333" elementID="c969b" elementRef="c6d" relX="-0.5" relY="1.0" />
+    <Point x="1260.5833333333333" y="187.83333333333334" elementID="f258e" elementRef="f33" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="de99d" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="503.99323769270836" y="1952.9333333333334" elementID="b94b9" elementRef="c41" relX="0.0" relY="1.0" />
+    <Point x="490.3892144073037" y="1987.7175356795894" elementID="bf723" elementRef="aaee7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="deded" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="994.5" y="1792.0" elementID="b51bd" elementRef="bb576" relX="-0.5" relY="1.0" />
+    <Point x="922.0" y="1933.7333333333336" elementID="ffc2a" elementRef="a31" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="aa817" />
+  </Interaction>
+  <Interaction elementID="df29d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1298.333333333333" y="919.6" elementID="adf47" elementRef="bff" relX="0.0" relY="1.0" />
+    <Point x="1298.3333333333333" y="1009.4000000000001" elementID="c0821" elementRef="d9f99" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="d3e70" />
+  </Interaction>
+  <Interaction elementID="e0740" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="976.6666666666666" y="1112.6666666666667" elementID="b8119" elementRef="a9c06" relX="0.5" relY="-1.0" />
+    <Point x="1017.5009345924141" y="1086.6442319634557" elementID="be6c6" elementRef="e6b0a" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e1025" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1744.6666666666665" y="1419.5" elementID="fa345" elementRef="d17" relX="0.0" relY="1.0" />
+    <Point x="1744.6666666666665" y="1528.5" elementID="a4329" elementRef="a8c" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.43577981651376146" shapeType="None" elementID="dbb04" />
+  </Interaction>
+  <Interaction elementID="e2953" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="908.9333333333334" y="1056.9333333333334" elementID="e7eaa" elementRef="c3c" relX="-0.5" relY="1.0" />
+    <Point x="859.6666666666666" y="1192.4" elementID="e18c5" elementRef="c08" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.30788734894853537" shapeType="None" elementID="d0124" />
+  </Interaction>
+  <Interaction elementID="e3e31" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1377.333333333333" y="104.83333333333333" elementID="c888e" elementRef="c6d" relX="0.0" relY="1.0" />
+    <Point x="1377.0" y="273.0" elementID="d87b6" elementRef="ace05" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.5306122448979592" shapeType="None" elementID="fb24b" />
+  </Interaction>
+  <Interaction elementID="e49b6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1374.6666666666665" y="1587.3333333333333" elementID="c6d1b" elementRef="cfa" relX="1.0" relY="0.0" />
+    <Point x="1407.8" y="1587.3" elementID="f7d46" elementRef="a4693" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="e570f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="607.5" y="1546.0" elementID="b4427" elementRef="a0c90" relX="0.0" relY="1.0" />
+    <Point x="607.68019128125" y="1653.0" elementID="c3d99" elementRef="ea739" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="fbe6c" />
+  </Interaction>
+  <Interaction elementID="e69b6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1267.0" y="955.0" elementID="fcf51" elementRef="b31" relX="1.0" relY="0.0" />
+    <Point x="1298.333333333333" y="955.5200000000001" elementID="f5d53" elementRef="d3e70" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="e7011" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1315.7499999999998" y="428.1666666666667" elementID="cee40" elementRef="ef8" relX="-0.5" relY="1.0" />
+    <Point x="1242.5833333333333" y="517.8333333333334" elementID="efd5f" elementRef="b74" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e7838" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1000.6666666666666" y="1862.3333333333333" elementID="ed452" elementRef="c3868" relX="-0.5" relY="-1.0" />
+    <Point x="965.5" y="1848.6933333333334" elementID="dce0e" elementRef="aa817" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e8acf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1622.3333333333333" y="1120.0" elementID="c0502" elementRef="ac0a1" relX="-0.5" relY="-1.0" />
+    <Point x="1589.8800438739859" y="1097.56409570657" elementID="fed69" elementRef="b9e78" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="e8e36" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1378.0" y="1707.3333333333333" elementID="d1746" elementRef="e2c" relX="1.0" relY="0.0" />
+    <Point x="1407.7" y="1707.6" elementID="f0322" elementRef="ab3a3" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="eab09" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="553.3333333333333" y="855.6666666666666" elementID="fef3b" elementRef="adc6a" relX="1.0" relY="0.0" />
+    <Point x="578.7698924731183" y="854.9098924731184" elementID="f9167" elementRef="bbc65" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="eb7c1" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="859.6666666666666" y="1211.6" elementID="d37b6" elementRef="c08" relX="0.0" relY="1.0" />
+    <Point x="849.788987385102" y="1270.91150442478" elementID="ce67a" elementRef="f7598" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ec56e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1021.0" y="1549.0" elementID="b61b9" elementRef="d35a9" relX="0.0" relY="1.0" />
+    <Point x="1022.0" y="1653.7333333333336" elementID="e8895" elementRef="a9d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="f59af" />
+  </Interaction>
+  <Interaction elementID="ec5c8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="978.7679882525699" y="1591.2026431718064" elementID="f0a4e" elementRef="aef" relX="1.0" relY="0.0" />
+    <Point x="1021.4" y="1590.8933333333334" elementID="aefa7" elementRef="f59af" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="ed5c7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1824.0" y="431.3333333333333" elementID="c4f43" elementRef="d32" relX="-1.0" relY="0.0" />
+    <Point x="1779.7153543307086" y="428.58740157480315" elementID="a7f8e" elementRef="d278c" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="ee26f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="984.3333333333333" y="1713.6666666666667" elementID="fcb33" elementRef="db7" relX="1.0" relY="0.0" />
+    <Point x="1021.6" y="1712.56" elementID="b1ccf" elementRef="e0d6f" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="eecbc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="584.0000000000001" y="1860.3333333333333" elementID="ba677" elementRef="aa946" relX="-0.5" relY="-1.0" />
+    <Point x="550.8469672302084" y="1848.6392759489586" elementID="fb5ba" elementRef="d7c32" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="f1d9d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1783.0" y="1467.0" elementID="df196" elementRef="c92" relX="-1.0" relY="0.0" />
+    <Point x="1744.6666666666665" y="1467.0" elementID="a7909" elementRef="dbb04" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="f32ff" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="62.09675796371198" y="912.8965865686973" elementID="ff9c5" elementRef="bd8" relX="1.0" relY="0.0" />
+    <Point x="113.60124660954541" y="912.8469716728641" elementID="b4d96" elementRef="f0eb0" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="f3bc2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1377.0" y="293.0" elementID="f69c1" elementRef="ace05" relX="0.0" relY="1.0" />
+    <Point x="1377.333333333333" y="409.1666666666667" elementID="c0f83" elementRef="ef8" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="e4064" />
+  </Interaction>
+  <Interaction elementID="f42d7" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1132.1333333333334" y="1188.0" elementID="e3a29" elementRef="d93" relX="1.0" relY="0.0" />
+    <Point x="1297.0" y="798.0" elementID="cbd83" elementRef="a9a26" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.9205043746488241" shapeType="None" elementID="c6cc0" />
+  </Interaction>
+  <Interaction elementID="f4f32" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="561.0" y="1428.0" elementID="aa598" elementRef="a5b" relX="1.0" relY="0.0" />
+    <Point x="607.5" y="1427.6274338294436" elementID="fe37f" elementRef="d852e" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="f5f38" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1342.0666666666666" y="1028.6" elementID="f1aad" elementRef="d9f99" relX="0.5" relY="1.0" />
+    <Point x="1381.0" y="1182.0" elementID="f2d7b" elementRef="c62de" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.2805381631515178" shapeType="None" elementID="d1393" />
+  </Interaction>
+  <Interaction elementID="f703f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="561.0" y="1589.0" elementID="a6ba4" elementRef="d92" relX="1.0" relY="0.0" />
+    <Point x="607.5720765125" y="1588.8" elementID="c4f6d" elementRef="fbe6c" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="f885d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1407.5" y="1667.0" elementID="afc74" elementRef="d85b0" relX="0.0" relY="1.0" />
+    <Point x="1408.0" y="1768.5" elementID="a57b5" elementRef="f0d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="ab3a3" />
+  </Interaction>
+  <Interaction elementID="f8eaf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1831.9132874999991" y="689.9597041666665" elementID="de196" elementRef="d9c" relX="-1.0" relY="0.0" />
+    <Point x="1780.0" y="690.0854642593702" elementID="f5b22" elementRef="c7cac" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Interaction elementID="faab3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="372.66666666666663" y="762.2878092708335" elementID="f74e4" elementRef="e43" relX="0.0" relY="1.0" />
+    <Point x="372.6666666666667" y="881.7333333333333" elementID="b3049" elementRef="e29" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4409090909090909" shapeType="None" elementID="d1e9f" />
+  </Interaction>
+  <Interaction elementID="fadc3" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1540.6666666666667" y="1216.9333333333334" elementID="db9d2" elementRef="ebe" relX="0.0" relY="1.0" />
+    <Point x="1537.7109165313768" y="1251.1165048543703" elementID="c2ef9" elementRef="c361a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fb065" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1678.9999999999998" y="1055.9333333333334" elementID="cdc9a" elementRef="fb2" relX="0.5" relY="1.0" />
+    <Point x="1767.3333333333333" y="1198.4" elementID="f7109" elementRef="aa5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.2560495057325503" shapeType="None" elementID="ee27a" />
+  </Interaction>
+  <Interaction elementID="fd3e7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1382.6666666666665" y="1843.3333333333333" elementID="e5da2" elementRef="c1ebc" relX="1.0" relY="0.0" />
+    <Point x="1408.0" y="1843.9" elementID="bfc4a" elementRef="a8cbc" relX="0.0" relY="0.0" arrowHead="mim-stimulation" />
+  </Interaction>
+  <Label elementID="a9d" textLabel="(S)-Hydrocyhexanoyl" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="1022.0" centerY="1663.3333333333333" width="163.73333333333332" height="19.2" zOrder="28672" />
+  <Label elementID="aa5" textLabel="Octaoyl-CoA" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="1767.3333333333333" centerY="1208.0" width="100.53333333333333" height="19.2" zOrder="28672" />
+  <Label elementID="ae2" textLabel="Saturated fatty acids" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="254.23200410954541" centerY="639.9228681311978" width="250.0" height="58.166666666666664" zOrder="28672" />
+  <Label elementID="bfc" textLabel="Unsaturated fatty acids" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="1373.0" centerY="51.083333333333336" width="250.0" height="58.166666666666664" zOrder="28672" />
+  <Label elementID="bff" textLabel="(S)-3-Hydroxydodexanonyl-CoA" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="1298.333333333333" centerY="910.0" width="243.73333333333332" height="19.2" zOrder="28672" />
+  <Label elementID="c15" textLabel="4-cis-dexeboyl-CoA" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="1377.3333333333333" centerY="585.3333333333334" width="154.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="c3c" textLabel="Dxotetradecanoyl-CoA" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="952.6666666666667" centerY="1047.3333333333333" width="174.93333333333334" height="19.2" zOrder="28672" />
+  <Label elementID="de2" textLabel="Trans-Tetradex-2-enoyl-CoA" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="952.6666666666666" centerY="800.6666666666666" width="219.73333333333332" height="19.2" zOrder="28672" />
+  <Label elementID="e43" textLabel="Fatty Acid" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="372.6666666666667" centerY="752.6878092708334" width="81.33333333333333" height="19.2" zOrder="28672" />
+  <Label elementID="e5b" textLabel="Trans-Hexadecanoyl-CoA" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="579.3333333333334" centerY="801.3333333333334" width="197.33333333333334" height="19.2" zOrder="28672" />
+  <Label elementID="ef8" textLabel="trans,cis-Lauro-2,6-dienoyl-CoA" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="1377.3333333333333" centerY="418.6666666666667" width="246.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="f19" textLabel="Cronoyl-CoA" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="1408.0" centerY="1538.0" width="104.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="fb2" textLabel="3-Oxocanoyl-CoA" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="1644.6666666666667" centerY="1046.3333333333333" width="137.33333333333334" height="19.2" zOrder="28672" />
+  <Label elementID="fd1" textLabel="Lipases" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" groupRef="ababd" centerX="668.6666666666666" centerY="310.6666666666667" width="59.733333333333334" height="16.8" zOrder="28672" />
+  <Group elementID="a9c06" />
+  <Group elementID="aa946" />
+  <Group elementID="ababd" />
+  <Group elementID="ac0a1" />
+  <Group elementID="adc6a" />
+  <Group elementID="b34cb" />
+  <Group elementID="b9ec0" />
+  <Group elementID="bf69a" />
+  <Group elementID="c1ebc" />
+  <Group elementID="c3868" />
+  <Group elementID="c6581" />
+  <Group elementID="ca83d" />
+  <Group elementID="d00b7" />
+  <Group elementID="d256a" />
+  <Group elementID="d7c72" />
+  <Group elementID="e6daa" />
+  <Group elementID="eeec7" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="fatty acid beta degradation pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000738" />
+    <OntologyTerm term="fatty acid metabolism" ontology="Disease" ontologyTermID="DOID:3146" />
+    <OntologyTerm term="fatty acid metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000058" />
+    <OntologyTerm term="fatty acid degradation pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000642" />
+  </OntologyTerms>
+</Pathway>
+

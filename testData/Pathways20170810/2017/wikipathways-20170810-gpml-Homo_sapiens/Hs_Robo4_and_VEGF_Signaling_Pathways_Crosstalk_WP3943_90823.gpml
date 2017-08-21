@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Robo4 and VEGF Signaling Pathways Crosstalk" revision="20160719" organism="Homo sapiens" width="558.0" height="457.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">This pathway is based on Figure 2 of "Robo4" (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2637482/). The gene Robo4 plays a role in regulating vascular stability in mice. Robo4 inhibits the gene Notch1, which regulates tip cell formation, in order to create more tip cells. Robo4 also inhibits cell migration, decreasing vessel complexity. The combination of Slit2 and Robo4 inhibits the activation of Src by VEGF-165 and VEGFR2. This inhibition reduces vascular leakage of Evans Blue from retinal blood vessels. More experimentation is necessary to determine whether Robo4 will inhibit other members of the Src family. </Comment>
+  <Comment source="HomologyMapper">This pathway was inferred from Mus musculus pathway "Robo4 and VEGF Signaling Pathways Crosstalk", WP3864 revision 89750, with a 100.0% conversion rate.</Comment>
+  <CitationRef citationID="bb0" />
+  <DataNode elementID="ad17e" textLabel="ROBO4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="156.49498997996008" centerY="143.3186372745491" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000032125</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSG00000154133" />
+  </DataNode>
+  <DataNode elementID="b955c" textLabel="SLIT2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="156.24298597194388" centerY="72.42735470941884" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000031558</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSG00000145147" />
+  </DataNode>
+  <DataNode elementID="bb178" textLabel="KDR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="332.25" centerY="143.25" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000062960</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSG00000128052" />
+  </DataNode>
+  <DataNode elementID="bbf12" textLabel="RAC1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="332.25" centerY="300.75" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000001847</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSG00000136238" />
+  </DataNode>
+  <DataNode elementID="c98ea" textLabel="VEGFA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="332.0" centerY="69.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000023951</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSG00000112715" />
+  </DataNode>
+  <DataNode elementID="e9a5f" textLabel="SRC" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="332.8276553106236" centerY="224.48697394789556" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyMapper">Homology Mapping from Mus musculus to Homo sapiens: Original ID = En:ENSMUSG00000027646</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSG00000197122" />
+  </DataNode>
+  <Interaction elementID="id14447c5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="332.8276553106236" y="234.48697394789556" elementID="baeb9" elementRef="e9a5f" relX="0.0" relY="1.0" />
+    <Point x="332.25" y="290.75" elementID="cdc8a" elementRef="bbf12" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8f6175b1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="332.25" y="153.25" elementID="f1fa6" elementRef="bb178" relX="0.0" relY="1.0" />
+    <Point x="332.8276553106236" y="214.48697394789556" elementID="c70ab" elementRef="e9a5f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="a2fea" />
+  </Interaction>
+  <Interaction elementID="id9cf5d153" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="332.25" y="310.75" elementID="a3d80" elementRef="bbf12" relX="0.0" relY="1.0" />
+    <Point x="439.0" y="364.0" elementID="f16a5" elementRef="ea02d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida7aa2972" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="332.25" y="310.75" elementID="e11ea" elementRef="bbf12" relX="0.0" relY="1.0" />
+    <Point x="250.0" y="362.0" elementID="f5a25" elementRef="e7330" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc600851e" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="156.49498997996008" y="153.3186372745491" elementID="de85f" elementRef="ad17e" relX="0.0" relY="1.0" />
+    <Point x="332.48106212424943" y="177.74478957915824" elementID="a85ea" elementRef="a2fea" relX="0.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="idc96ead42" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="156.24298597194388" y="82.42735470941884" elementID="b14ee" elementRef="b955c" relX="0.0" relY="1.0" />
+    <Point x="156.49498997996008" y="133.3186372745491" elementID="c89cc" elementRef="ad17e" relX="0.0" relY="-1.0" arrowHead="mim-binding" />
+  </Interaction>
+  <Interaction elementID="ideee2e4f0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="332.0" y="79.0" elementID="c4139" elementRef="c98ea" relX="0.0" relY="1.0" />
+    <Point x="332.25" y="133.25" elementID="fe09c" elementRef="bb178" relX="0.0" relY="-1.0" arrowHead="mim-binding" />
+  </Interaction>
+  <Label elementID="e7330" textLabel="Angiogenesis" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="250.0" centerY="372.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="ea02d" textLabel="Permeability" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="439.0" centerY="373.5" width="80.0" height="19.0" zOrder="28672" />
+  <Shape elementID="b417d" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="291.0" centerY="285.0" width="474.0" height="284.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Robo4: a guidance receptor that regulates angiogenesis." URL="" citationID="bb0" year="2008" source="Cell Adh Migr">
+      <Xref dataSource="PubMed" identifier="19270536" />
+      <Author name="Weitzman M" />
+      <Author name="Bayley EB" />
+      <Author name="Naik UP" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="Notch signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000204" />
+    <OntologyTerm term="Notch signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000204" />
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+  </OntologyTerms>
+</Pathway>
+

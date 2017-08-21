@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Thyroxine (Thyroid Hormone) Production" revision="20110313" organism="Bos taurus" width="1309.0" height="617.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="Andra Waagmeester" />
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">Thyroxine hormone is produced in the thyroid gland from tyrosine and iodine. Thyrotropin-releasing hormone (TRH) is produced by the hypothalamus. It stimulates the production of thyroid-stimulating hormone (TSH) in the anterior pituitary gland, which affects the thyroid-stimulating hormone receptor (TSHR). Iodine is captured by a hydrogen peroxide trap procuced by thyroid peroxidase and added to the 3' and 5' postitions of tyrosine. This can either be free tyrosine or a tyrosine residue in thyroglobuline. After the multiple iodination steps this produces T3 and T4. 
+The production of the thyroid hormones thyroxine (T4),tri-iodothyronine (T3) and reverse T3 (rT3) is dependent on the organification of iodine into thyroglobulin (Tg), the major protein product of the thyroid (2). This involves thyroid peroxidase catalyzed iodination of tyrosine residues in Tg to form mono- and di-iodotyrosines and their subsequent crosslinking to form the iodothyronines T3 and T4.
+
+Iodine 131 is an important radioactive fallout product. It was released in the atmosphere after nuclear tests and after nuclear incidents like at Tchernobyl and Fukushima. Since the iodine is concentrated in the thyroid glant as a substrate for the process described here non-radioactive iodine 127 is given as competitor to people exposed.</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP1981_r70955 WP1981(70955)]  with a 83.0% conversion rate.</Comment>
+  <CitationRef citationID="d2a" />
+  <DataNode elementID="fcff2" textLabel="Triiodothyronine (T3)" lineThickness="2.0" color="0000ff" fontName="Verdana" fontSize="12" vAlign="Middle" type="Metabolite" centerX="1025.0079161106228" centerY="357.8999233043232" width="163.5" height="33.5" zOrder="32793">
+    <Xref dataSource="Chemspider" identifier="5707" />
+  </DataNode>
+  <DataNode elementID="abd53" textLabel="CGA" lineThickness="2.0" fontName="Verdana" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="164.79372213277017" centerY="268.2329858982219" width="101.96007259528125" height="26.0" zOrder="32794">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1081</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016138" />
+  </DataNode>
+  <DataNode elementID="f3eaa" textLabel="127 Iodide" groupRef="a1f14" lineThickness="2.0" color="0000ff" fontName="Verdana" fontSize="12" vAlign="Middle" type="Metabolite" centerX="516.9765158224973" centerY="252.76519507166128" width="80.0" height="20.0" zOrder="32795">
+    <Xref dataSource="HMDB" identifier="HMDB12238" />
+  </DataNode>
+  <DataNode elementID="adcdb" textLabel="TRH" lineThickness="2.0" fontName="Verdana" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="166.01996370235938" centerY="117.85843920145209" width="101.96007259528125" height="26.0" zOrder="32796">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7200</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000005306" />
+  </DataNode>
+  <DataNode elementID="b0a8e" textLabel="TSHR" lineThickness="2.0" fontName="Verdana" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="335.77291288566244" centerY="268.09142468239554" width="101.96007259528122" height="26.0" zOrder="32797">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7253</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000017489" />
+  </DataNode>
+  <DataNode elementID="ecc11" textLabel="SLC5A5" lineThickness="2.0" fontName="Verdana" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="365.25" centerY="242.4762415695892" width="117.5" height="25.5" zOrder="32798">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6528</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015830" />
+  </DataNode>
+  <DataNode elementID="fb5f6" textLabel="131 Iodide" groupRef="a1f14" lineThickness="2.0" color="0000ff" fontName="Verdana" fontSize="12" vAlign="Middle" type="Metabolite" centerX="516.9765158224973" centerY="232.76519507166086" width="80.0" height="20.0" zOrder="32799">
+    <Xref dataSource="PubChem-compound" identifier="167195" />
+  </DataNode>
+  <DataNode elementID="d7d5b" textLabel="TG" lineThickness="2.0" fontName="Verdana" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="679.4295294542386" centerY="329.0190459407202" width="163.5" height="33.5" zOrder="32800">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7038</Comment>
+    <CitationRef citationID="f2a" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000007823" />
+  </DataNode>
+  <DataNode elementID="a85d9" textLabel="Thyroidperoxidase&#xA;" lineThickness="2.0" fontName="Verdana" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="824.8861746361736" centerY="277.29883339218145" width="163.5" height="33.5" zOrder="32801">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="bfddd" textLabel="L-Tyrosine" lineThickness="2.0" color="0000ff" fontName="Verdana" fontSize="12" vAlign="Middle" type="Metabolite" centerX="679.4295294542385" centerY="223.93298976867717" width="163.5" height="33.5" zOrder="32802">
+    <Xref dataSource="HMDB" identifier="HMDB00158" />
+  </DataNode>
+  <DataNode elementID="f95aa" textLabel="Thyroxine (T4)" lineThickness="2.0" color="0000ff" fontName="Verdana" fontSize="12" vAlign="Middle" type="Metabolite" centerX="1025.0079161106228" centerY="404.15592515592556" width="163.5" height="33.5" zOrder="32803">
+    <Xref dataSource="HMDB" identifier="HMDB00248" />
+  </DataNode>
+  <DataNode elementID="af9f2" textLabel="131 Iodide" groupRef="a06aa" lineThickness="2.0" color="0000ff" fontName="Verdana" fontSize="12" vAlign="Middle" type="Metabolite" centerX="335.0" centerY="113.0" width="80.0" height="20.0" zOrder="32806">
+    <Xref dataSource="PubChem-compound" identifier="167195" />
+  </DataNode>
+  <DataNode elementID="bed55" textLabel="127 Iodide" groupRef="a06aa" lineThickness="2.0" color="0000ff" fontName="Verdana" fontSize="12" vAlign="Middle" type="Metabolite" centerX="335.0" centerY="133.0" width="80.0" height="20.0" zOrder="32807">
+    <Xref dataSource="HMDB" identifier="HMDB12238" />
+  </DataNode>
+  <Interaction elementID="f6732" zOrder="32779" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="383.0" y="137.0" elementID="b6968" elementRef="a06aa" relX="1.0" relY="0.5" />
+    <Point x="492.9765158224973" y="214.76519507166086" elementID="b930d" elementRef="a1f14" relX="-0.5" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.488570715411992" shapeType="Circle" elementID="b3fac" />
+  </Interaction>
+  <Interaction elementID="a5bbe" zOrder="32780" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="679.4295294542385" y="240.68298976867717" elementID="dff4e" elementRef="bfddd" relX="0.0" relY="1.0" />
+    <Point x="679.4295294542386" y="312.2690459407202" elementID="aaa2c" elementRef="d7d5b" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.49945973841507196" shapeType="None" elementID="d2079" />
+  </Interaction>
+  <Interaction elementID="dca29" zOrder="32781" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="166.01996370235938" y="130.8584392014521" elementID="f81c2" elementRef="adcdb" relX="0.0" relY="1.0" />
+    <Point x="164.79372213277017" y="255.2329858982219" elementID="e2b22" elementRef="abd53" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e79b5" zOrder="32782" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="564.9765158224973" y="242.76519507166108" elementID="fb804" elementRef="a1f14" relX="1.0" relY="0.0" />
+    <Point x="679.4295294542385" y="276.43734265853243" elementID="b530b" elementRef="d2079" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="a07eb" zOrder="32783" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="679.4295294542386" y="345.7690459407202" elementID="a0610" elementRef="d7d5b" relX="0.0" relY="1.0" />
+    <Point x="679.4295294542385" y="388.6559251559257" elementID="eb4f0" elementRef="cf33e" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="b11fa" zOrder="32784" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="215.7737584304108" y="268.2329858982219" elementID="ca6e4" elementRef="abd53" relX="1.0" relY="0.0" />
+    <Point x="284.79287658802184" y="268.09142468239554" elementID="a0de9" elementRef="b0a8e" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bde6f" zOrder="32785" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="780.947378112857" y="404.1559251559257" elementID="fdadd" elementRef="d0ba9" relX="0.0" relY="0.0" />
+    <Point x="943.2579161106228" y="357.8999233043232" elementID="cb491" elementRef="fcff2" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="bbcf4" zOrder="32786" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="733.4295294542385" y="404.1559251559257" elementID="fd3b8" elementRef="cf33e" relX="1.0" relY="0.0" />
+    <Point x="943.2579161106228" y="404.15592515592556" elementID="bd69e" elementRef="f95aa" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Anchor position="0.22646053480091743" shapeType="None" elementID="d0ba9" />
+  </Interaction>
+  <Interaction elementID="cddf6" zOrder="32787" lineThickness="2.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="365.25" y="229.7262415695892" elementID="ba6cb" elementRef="ecc11" relX="0.0" relY="-1.0" />
+    <Point x="436.73130501391574" y="174.99379699031445" elementID="decce" elementRef="b3fac" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="e58fe" zOrder="32788" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="743.1361746361736" y="277.29883339218145" elementID="bb092" elementRef="a85d9" relX="-1.0" relY="0.0" />
+    <Point x="679.4295294542385" y="276.43734265853243" elementID="b25e4" elementRef="d2079" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Label elementID="e9f23" textLabel="Label" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="611.0" centerY="494.0" width="0.0" height="0.0" zOrder="28672" />
+  <Label elementID="c9cdc" textLabel="Iodination of &#xA;tyrosine" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="711.888207156499" centerY="296.14508504752473" width="80.0" height="33.03523035230343" zOrder="32789" />
+  <Label elementID="ee012" textLabel="Hypothalamus" fillColor="ffffff" fontName="Verdana" fontSize="12" vAlign="Middle" centerX="152.5" centerY="90.5" width="109.0" height="25.0" zOrder="32790" />
+  <Label elementID="cf33e" textLabel="mono- and&#xA;di-iodotyrosines" shapeType="Rectangle" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="679.4295294542385" centerY="404.1559251559257" width="108.0" height="31.0" zOrder="32791" />
+  <Label elementID="ff236" textLabel="Spontaneous&#xA;crosslinking" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="814.6361746361736" centerY="419.1559251559256" width="80.0" height="20.0" zOrder="32792" />
+  <Label elementID="b24e8" textLabel="Anterior pituitary" fillColor="ffffff" fontName="Verdana" fontSize="12" vAlign="Middle" centerX="136.63795217657872" centerY="291.34610668301644" width="109.0" height="25.0" zOrder="32804" />
+  <Label elementID="e31b7" textLabel="Thyroid" fillColor="ffffff" fontName="Verdana" fontSize="12" vAlign="Middle" centerX="1007.0" centerY="517.5" width="58.0" height="25.0" zOrder="32805" />
+  <Shape elementID="b3d51" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="151.75" centerY="112.25" width="228.5" height="85.5" zOrder="32774" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="e59e1" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="150.25" centerY="267.55993255671365" width="228.5" height="85.5" zOrder="32775" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="a7088" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="797.25" centerY="339.25" width="963.5" height="495.5" zOrder="32776" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="a06aa" groupType="Group" />
+  <Group elementID="a1f14" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Thyroid cancer after exposure to external radiation: a pooled analysis of seven studies." URL="" citationID="d2a" year="1995" source="Radiat Res">
+      <Xref dataSource="PubMed" identifier="7871153 " />
+      <Author name="Ron E" />
+      <Author name="Lubin JH" />
+      <Author name="Shore RE" />
+      <Author name="Mabuchi K" />
+      <Author name="Modan B" />
+      <Author name="Pottern LM" />
+      <Author name="Schneider AB" />
+      <Author name="Tucker MA" />
+      <Author name="Boice JD Jr" />
+    </Citation>
+    <Citation title="Control of thyroglobulin synthesis and secretion" URL="" citationID="f2a" year="1979" source="N. Engl. J. Med. 301:239">
+      <Xref dataSource="PubMed" identifier="221813" />
+      <Author name="Van Herle, A.J ." />
+      <Author name="G. Vassart" />
+      <Author name="J.E . Dumont" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="thyroid gland disease" ontology="Disease" ontologyTermID="DOID:50" />
+    <OntologyTerm term="thyroid hormone signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000501" />
+    <OntologyTerm term="thyroid gland disease" ontology="Disease" ontologyTermID="DOID:50" />
+    <OntologyTerm term="thyroid hormone signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000501" />
+  </OntologyTerms>
+</Pathway>
+

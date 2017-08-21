@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Threonine Biosynthesis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Based on http://pathway.yeastgenome.org/biocyc/ (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Proline is a non-essential amino acid belonging to the glutamate family of amino acids whose biosynthesis depends on the carbon skeleton of glutamic acid. Proline is synthesized from glutamate in the cytoplasm. The P5C reductase enzymatic reaction in this pathway is identical to the one in arginine degradation (CITS:[ 6997271]). Since these two pathways converge at this step, the requirement for proline in pro1 and pro2 mutant strains can be satisfied by arginine. However, these pro-strains cannot grow on rich media because the presence of optimal nitrogen sources causes the repression of genes necessary for arginine degradation (CITS:[2824433]), (CITS:[10640599]). Many of the genes involved in S. cerevisiae amino acid biosynthesis are coregulated by a process known as the general amino acid control system. In response to starvation for any single amino acid, the expression of many biosynthetic enzymes is upregulated (CITS:[3045517]). Mutational studies indicate that both PRO1 and PRO2 expression are regulated by general amino acid control, mediated by the transcriptional activator Gcn4p (CITS:[1350780]). However, expression profiling by microarray analysis shows that only PRO2 is activated by Gcn4p (CITS:[11390663]). In contrast, the expression of PRO3 appears to be constitutively expressed and under no form of regulation.  
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+</rdf:RDF>

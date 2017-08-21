@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="miR-148a/miR-31/FIH1/HIF1α-Notch signaling in glioblastoma " revision="20151214" organism="Homo sapiens" width="724.7004608294931" height="637.5966386554624">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">miR-148a and miR-31 target the factor inhibiting hypoxia (FIH1) to promote downstream HIF1α and Notch signaling</Comment>
+  <CitationRef citationID="cd0" />
+  <DataNode elementID="a1278" textLabel="HES1" groupRef="b7592" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="529.5126050420148" centerY="417.9747899159658" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000114315" />
+  </DataNode>
+  <DataNode elementID="a5c7d" textLabel="MIR31" groupRef="d315c" color="990099" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="264.9033613445378" centerY="101.79831932773106" width="56.806722689075514" height="19.999999999999986" zOrder="32768">
+    <Xref dataSource="miRBase Sequence" identifier="MI0000089" />
+  </DataNode>
+  <DataNode elementID="a9fc2" textLabel="VEGFA" groupRef="d8648" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="226.9915966386559" centerY="409.57142857142856" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000112715" />
+  </DataNode>
+  <DataNode elementID="aaa2c" textLabel="HIF1A" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="128.2521008403361" centerY="145.91596638655452" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100644" />
+  </DataNode>
+  <DataNode elementID="b4193" textLabel="HIF1AN" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="264.8067226890756" centerY="237.30252100840335" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000166135" />
+  </DataNode>
+  <DataNode elementID="be13d" textLabel="MIR148A" groupRef="d315c" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="264.9033613445378" centerY="121.79831932773106" width="56.806722689075514" height="20.0" zOrder="32768">
+    <Xref dataSource="miRBase Sequence" identifier="MI0000253" />
+  </DataNode>
+  <DataNode elementID="c3813" textLabel="HEY1" groupRef="b7592" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="529.5126050420148" centerY="437.9747899159658" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000164683" />
+  </DataNode>
+  <DataNode elementID="c1945" textLabel="HIF1A" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="128.2521008403361" centerY="237.30252100840335" width="80.0" height="20.0" zOrder="32769">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100644" />
+  </DataNode>
+  <DataNode elementID="b3047" textLabel="VEGFB" groupRef="d8648" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="226.9915966386559" centerY="429.57142857142856" width="80.0" height="20.0" zOrder="32770">
+    <Xref dataSource="Ensembl" identifier="ENSG00000173511" />
+  </DataNode>
+  <DataNode elementID="bd27c" textLabel="VEGFC" groupRef="d8648" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="226.9915966386559" centerY="449.57142857142856" width="80.0" height="20.0" zOrder="32771">
+    <Xref dataSource="Ensembl" identifier="ENSG00000150630" />
+  </DataNode>
+  <DataNode elementID="a9e99" textLabel="HIF1A" groupRef="f5d7d" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="415.0168067226905" centerY="249.8487394957985" width="80.0" height="20.0" zOrder="32772">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100644" />
+  </DataNode>
+  <Interaction elementID="id4c607dd0" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="128.2521008403361" y="247.30252100840335" elementID="f9a18" elementRef="c1945" relX="0.0" relY="1.0" />
+    <Point x="178.9915966386559" y="429.57142857142856" elementID="ef096" elementRef="d8648" relX="-1.0" relY="0.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="id4f6bb02a" zOrder="12288" lineThickness="1.0" color="ff0033">
+    <Xref dataSource="" identifier="" />
+    <Point x="224.80672268907563" y="237.30252100840335" elementID="cf529" elementRef="b4193" relX="-1.0" relY="0.0" />
+    <Point x="168.2521008403361" y="237.30252100840335" elementID="deb0d" elementRef="c1945" relX="1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id79b37461" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="128.2521008403361" y="155.91596638655452" elementID="f2c90" elementRef="aaa2c" relX="0.0" relY="1.0" />
+    <Point x="128.2521008403361" y="227.30252100840335" elementID="c7cbf" elementRef="c1945" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id79dc72a3" zOrder="12288" lineThickness="1.0" color="ff0033">
+    <Xref dataSource="" identifier="" />
+    <Point x="304.8067226890756" y="237.30252100840335" elementID="a83b8" elementRef="b4193" relX="1.0" relY="0.0" />
+    <Point x="367.0" y="237.42436974789925" elementID="a79b9" elementRef="f5d7d" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="ide662591b" zOrder="12288" lineThickness="1.0" color="ff0033">
+    <Xref dataSource="" identifier="" />
+    <Point x="264.9033613445378" y="139.79831932773106" elementID="bbe85" elementRef="d315c" relX="0.0" relY="1.0" />
+    <Point x="264.8067226890756" y="227.30252100840335" elementID="dc713" elementRef="b4193" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="idfe1efe9" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="226.9915966386559" y="467.57142857142856" elementID="d0bd3" elementRef="d8648" relX="0.0" relY="1.0" />
+    <Point x="227.47478991597006" y="499.80672268907574" elementID="eceb8" elementRef="ff0b7" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="b02a9" connectorType="Elbow" zOrder="32773" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="415.00840336134524" y="267.8487394957985" elementID="c2b16" elementRef="f5d7d" relX="0.0" relY="1.0" />
+    <Point x="481.5126050420148" y="427.9747899159658" elementID="d84fa" elementRef="b7592" relX="-1.0" relY="0.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="d134b" zOrder="32775" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="529.5126050420148" y="455.9747899159658" elementID="bc31a" elementRef="b7592" relX="0.0" relY="1.0" />
+    <Point x="529.5420168067247" y="491.25210084033597" elementID="d6a9b" elementRef="a6585" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="b2e4e" zOrder="32777" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="227.47478991597006" y="549.0" elementID="ab38e" elementRef="ff0b7" relX="0.0" relY="1.0" />
+    <Point x="227.53456221198155" y="567.1344537815128" elementID="ae959" elementRef="adc22" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="eaf03" zOrder="32779" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="529.5420168067247" y="540.0" elementID="ca969" elementRef="a6585" relX="0.0" relY="1.0" />
+    <Point x="528.8018433179724" y="566.6302521008402" elementID="fba7a" elementRef="e6a70" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Label elementID="d704d" textLabel="Notch Intracellular domain" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="502.0" centerY="225.0" width="132.0" height="20.0" zOrder="28672" />
+  <Label elementID="ff0b7" textLabel="- Abnormal angiogenesis&#xA;- Stem cell maintenance&#xA;- High levels of Ki67" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="227.47478991597006" centerY="524.4033613445379" width="164.99999999999977" height="49.19327731092426" zOrder="28672" />
+  <Label elementID="a6585" textLabel="- More normalized vessels&#xA;- Reduced stemness&#xA;- Low levels of Ki67" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="529.5420168067247" centerY="515.626050420168" width="164.99999999999977" height="48.74789915966403" zOrder="32774" />
+  <Label elementID="adc22" textLabel="Fast tumor growth and short lifespan" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="227.53456221198155" centerY="587.3655462184876" width="316.8202764976959" height="40.46218487394958" zOrder="32776" />
+  <Label elementID="e6a70" textLabel="Smaller tumor size and lifespan extended" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="528.8018433179724" centerY="586.861344537815" width="331.79723502304137" height="40.46218487394958" zOrder="32778" />
+  <Label elementID="de258" textLabel="NICD" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="f5d7d" centerX="415.0" centerY="225.0" width="80.0" height="20.0" zOrder="32780" />
+  <Group elementID="b7592" groupType="Group" />
+  <Group elementID="d315c" groupType="Group" />
+  <Group elementID="d8648" groupType="Group" />
+  <Group elementID="f5d7d" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="The Cancer Genome Atlas Analysis Predicts MicroRNA for Targeting Cancer Growth and Vascularization in Glioblastoma." URL="" citationID="cd0" year="2015" source="Mol Ther">
+      <Xref dataSource="PubMed" identifier="25903473" />
+      <Author name="Wong HK" />
+      <Author name="Fatimy RE" />
+      <Author name="Onodera C" />
+      <Author name="Wei Z" />
+      <Author name="Yi M" />
+      <Author name="Mohan A" />
+      <Author name="Gowrisankaran S" />
+      <Author name="Karmali P" />
+      <Author name="Marcusson E" />
+      <Author name="Wakimoto H" />
+      <Author name="Stephens R" />
+      <Author name="Uhlmann EJ" />
+      <Author name="Song JS" />
+      <Author name="Tannous B" />
+      <Author name="Krichevsky AM" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="glioma pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000711" />
+    <OntologyTerm term="disease pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000013" />
+    <OntologyTerm term="cancer" ontology="Disease" ontologyTermID="DOID:162" />
+  </OntologyTerms>
+</Pathway>
+

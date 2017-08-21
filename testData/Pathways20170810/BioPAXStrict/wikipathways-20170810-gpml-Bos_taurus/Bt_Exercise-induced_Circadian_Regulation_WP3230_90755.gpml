@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bos taurus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id3" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Exercise-induced Circadian Regulation</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Time- and exercise-dependent gene regulation in human skeletal muscle&amp;#xD;
+Alexander C Zambon, Erin L McDearmon, Nathan Salomonis, Karen M Vranizan, Kirsten L Johansen, Deborah Adey, Joseph S Takahashi, Morris Schambelan, Bruce R Conklin&amp;#xD;
+Genome Biology 4(10): R61&amp;#xD;
+http://genomebiology.com/2003/4/10/R61&amp;#xD;
+Published 25 September 2003 (GenMAPP notes)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP410_r69903 WP410(69903)]  with a 97.0% conversion rate. (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Human genes regulated in the diurnal comparison with orthologues that display circadian regulation in mouse heart and liver (Panda 2002, Storch 2002), and SCN (Panda 2002). The 608 significantly regulated (P &amp;lt; 0.05) hSkM genes identified in the diurnal comparison (0800 h and 2000 h) were subjected to an additional statistical filter of absolute fold change &amp;gt; 20% (n = 239) and linked to mouse circadianly regulated orthologues. This pathway represents the resultant 44 putative hSkM circadianly regulated genes; L, promoter for the light-responsive element; E, E-box (Clock/Bmal1 promoter). Orthologue information is denoted to the left of the gene boxes: mHrts and mLvrs, mouse orthologue was circadianly regulated as described  (Storch 2002) in mouse heart or liver, respectively; mLvrp and mSCNp, mouse orthologue was diurnally regulated as described (Panda 2002) in mouse liver or SCN, respectively. (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Physiological Process (WikiPathways-category)</bp:comment>
+</bp:Pathway>
+
+<bp:BiochemicalReaction rdf:about="id3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id3</bp:displayName>
+</bp:BiochemicalReaction>
+</rdf:RDF>

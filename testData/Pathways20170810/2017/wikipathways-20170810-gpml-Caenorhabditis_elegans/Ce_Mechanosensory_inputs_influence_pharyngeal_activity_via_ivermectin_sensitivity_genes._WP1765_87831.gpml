@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Mechanosensory inputs influence pharyngeal activity via ivermectin sensitivity genes." organism="Caenorhabditis elegans" width="620.0" height="442.0" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-category">Physiological Process</Comment>
+  <CitationRef citationID="f34" />
+  <DataNode elementID="b6002" textLabel="Harsh tail touch" fontSize="10" vAlign="Middle" centerX="117.25" centerY="244.25" width="85.5" height="51.5" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e23a5" textLabel="unc-7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="305.25" centerY="56.25" width="77.5" height="27.5" zOrder="32768">
+    <Xref dataSource="WormBase" identifier="R07D5.1" />
+  </DataNode>
+  <DataNode elementID="e631e" textLabel="Pumping" fontSize="10" vAlign="Middle" centerX="551.75" centerY="238.25" width="76.5" height="37.5" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="fc3ed" textLabel="avr-14" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="307.25" centerY="151.25" width="77.5" height="27.5" zOrder="32769">
+    <Xref dataSource="WormBase" identifier="B0207.12" />
+  </DataNode>
+  <DataNode elementID="f2d6c" textLabel="eat-4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="307.25" centerY="105.25" width="77.5" height="27.5" zOrder="32770">
+    <Xref dataSource="WormBase" identifier="ZK512.6" />
+  </DataNode>
+  <DataNode elementID="a2fae" textLabel="goa-1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="309.25" centerY="238.25" width="77.5" height="27.5" zOrder="32771">
+    <Xref dataSource="WormBase" identifier="C26C6.2" />
+  </DataNode>
+  <DataNode elementID="ffac8" textLabel="avr-15" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="307.25" centerY="195.25" width="77.5" height="27.5" zOrder="32772">
+    <Xref dataSource="WormBase" identifier="R11G10.1" />
+  </DataNode>
+  <DataNode elementID="c456d" textLabel="eat-18" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="309.25" centerY="278.25" width="77.5" height="27.5" zOrder="32773">
+    <Xref dataSource="WormBase" identifier="Y105E8A.7" />
+  </DataNode>
+  <DataNode elementID="ff997" textLabel="eat-2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="310.25" centerY="316.25" width="77.5" height="27.5" zOrder="32774">
+    <Xref dataSource="WormBase" identifier="Y48B6A.4" />
+  </DataNode>
+  <DataNode elementID="aa095" textLabel="egl-30" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="309.25" centerY="356.25" width="77.5" height="27.5" zOrder="32775">
+    <Xref dataSource="WormBase" identifier="M01D7.7" />
+  </DataNode>
+  <DataNode elementID="b6453" textLabel="unc-25" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="311.25" centerY="398.25" width="77.5" height="27.5" zOrder="32776">
+    <Xref dataSource="WormBase" identifier="Y37D8A.23" />
+  </DataNode>
+  <Interaction elementID="id19c32929" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="346.0" y="105.25" elementID="b4dc3" elementRef="f2d6c" relX="1.0" relY="0.0" />
+    <Point x="551.75" y="219.5" elementID="e6b66" elementRef="e631e" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id1c73076a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="348.0" y="238.25" elementID="a7d39" elementRef="a2fae" relX="1.0" relY="0.0" />
+    <Point x="513.5" y="238.25" elementID="ef88b" elementRef="e631e" relX="-1.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id318ab35d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="349.0" y="316.25" elementID="bb8c2" elementRef="ff997" relX="1.0" relY="0.0" />
+    <Point x="532.625" y="257.0" elementID="a72ee" elementRef="e631e" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id36d45f62" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="348.0" y="356.25" elementID="b03c3" elementRef="aa095" relX="1.0" relY="0.0" />
+    <Point x="551.75" y="257.0" elementID="be3ba" elementRef="e631e" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id44c4f5c0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.0" y="257.125" elementID="cd684" elementRef="b6002" relX="1.0" relY="0.5" />
+    <Point x="272.5" y="391.375" elementID="e8076" elementRef="b6453" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id49d56cf8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="350.0" y="398.25" elementID="d3eca" elementRef="b6453" relX="1.0" relY="0.0" />
+    <Point x="570.875" y="257.0" elementID="f84b0" elementRef="e631e" relX="0.5" relY="1.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id5ac5ef68" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.0" y="257.125" elementID="bcce3" elementRef="b6002" relX="1.0" relY="0.5" />
+    <Point x="271.5" y="316.25" elementID="e9535" elementRef="ff997" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id78244827" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.0" y="244.25" elementID="cc47f" elementRef="b6002" relX="1.0" relY="0.0" />
+    <Point x="270.5" y="238.25" elementID="af09b" elementRef="a2fae" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id93c91c14" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.0" y="244.25" elementID="d38cc" elementRef="b6002" relX="1.0" relY="0.0" />
+    <Point x="268.5" y="195.25" elementID="fd314" elementRef="ffac8" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9acbca6a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.0" y="231.375" elementID="caa01" elementRef="b6002" relX="1.0" relY="-0.5" />
+    <Point x="266.5" y="56.25" elementID="c34be" elementRef="e23a5" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida56bd102" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="346.0" y="151.25" elementID="d0116" elementRef="fc3ed" relX="1.0" relY="0.0" />
+    <Point x="532.625" y="219.5" elementID="c2864" elementRef="e631e" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="ida613fb94" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.0" y="244.25" elementID="b987c" elementRef="b6002" relX="1.0" relY="0.0" />
+    <Point x="268.5" y="151.25" elementID="ab981" elementRef="fc3ed" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc384baa2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="346.0" y="195.25" elementID="b5f2d" elementRef="ffac8" relX="1.0" relY="0.0" />
+    <Point x="513.5" y="228.875" elementID="e3d85" elementRef="e631e" relX="-1.0" relY="-0.5" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idd46a5716" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.0" y="231.375" elementID="ab724" elementRef="b6002" relX="1.0" relY="-0.5" />
+    <Point x="268.5" y="98.375" elementID="fa6c7" elementRef="f2d6c" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd6db33fe" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="348.0" y="278.25" elementID="b3147" elementRef="c456d" relX="1.0" relY="0.0" />
+    <Point x="513.5" y="247.625" elementID="de4b7" elementRef="e631e" relX="-1.0" relY="0.5" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="iddcb8bb82" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Comment>testing commenting</Comment>
+    <Comment>2nd comment</Comment>
+    <Comment>Type your comment here</Comment>
+    <Point x="344.0" y="56.25" elementID="d101e" elementRef="e23a5" relX="1.0" relY="0.0" />
+    <Point x="570.875" y="219.5" elementID="fecf0" elementRef="e631e" relX="0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idf96b9085" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.0" y="257.125" elementID="d6118" />
+    <Point x="270.5" y="356.25" elementID="c6698" elementRef="aa095" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfe6bbfa3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.0" y="244.25" elementID="a6d0b" elementRef="b6002" relX="1.0" relY="0.0" />
+    <Point x="270.5" y="278.25" elementID="f6c3a" elementRef="c456d" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Mechanosensory inputs influence Caenorhabditis elegans pharyngeal activity via ivermectin sensitivity genes." URL="" citationID="f34" year="2003" source="Genetics">
+      <Xref dataSource="PubMed" identifier="12750328 " />
+      <Author name="Keane J" />
+      <Author name="Avery L" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="mechanotransduction pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001502" />
+    <OntologyTerm term="signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000003" />
+  </OntologyTerms>
+</Pathway>
+

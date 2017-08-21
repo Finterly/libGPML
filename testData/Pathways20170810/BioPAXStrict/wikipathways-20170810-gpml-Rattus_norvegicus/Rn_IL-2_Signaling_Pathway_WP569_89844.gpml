@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-2 Signaling Pathway</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cellular Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://www.wikipathways.org/index.php?title=Pathway:WP49&amp;amp;oldid=20779 WP49(r20779)] with a 95% conversion rate. (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">IL-2 is a multifunctional cytokine with pleiotropic effects on several cells of the immune system. IL-2 was originally discovered as a T cell growth factor, but it was also found to have actions related to B cell proliferation, and cytolytic activity of natural killer cells. IL-2 also activates lymphokine activated killer cells. In contrast to its proliferative effects, IL-2 also has potent activity in a process known as activation-induced cell death. More recently, IL-2 was shown to promote tolerance through its effects on regulatory T cell development. IL-2 clinically has anti-cancer effects as well as utility in supporting T cell numbers in HIV/AIDS. There are three classes of IL-2 receptors, binding IL-2 with low, intermediate, or high-affinity. The low affinity receptor (IL-2R&#945; alone) is not functional; signaling by IL-2 involves either the high affinity hetero-trimeric receptor containing IL-2R&#945;, IL-2R&#946; and the common cytokine receptor gamma chain (originally named IL-2R&#947; and now generally denoted as &#947;c) or the intermediate affinity heterodimeric receptor composed of IL-2R&#946; and &#947;c. IL-2 stimulation induces the activation of the Janus family tyrosine kinases JAK1 and JAK3, which associate with IL-2R&#946; and &#947;c, respectively. These kinases in turn phosphorylate IL-2R&#946; and induce tyrosine phosphorylation of STATs (signal transducers and activators of transcription) and various other downstream targets. The downstream signaling pathways activated by IL-2 also involves mitogen-activated protein kinase and phosphoinositide 3-kinase signaling modules, leading to both mitogenic and anti-apoptotic signals.
+Please access this pathway at [http://www.netpath.org/netslim/IL_2_pathway.html NetSlim] database. NetPath is a collaborative project between PandeyLab at Johns Hopkins University (http://pandeylab.igm.jhmi.edu) and the Institute of Bioinformatics (http://www.ibioinformatics.org). If you use this pathway, you must cite the NetPath website until the pathway is published. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+</rdf:RDF>

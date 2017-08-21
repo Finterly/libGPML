@@ -1,0 +1,79 @@
+D-Glucose	Line	R11
+R11	Arrow	Gpr1p
+receptor
+Yak1p
+kinase	Line	R37
+R37	Arrow	R33
+Sch9p
+kinase	Line	R39
+R39	Arrow	R35
+Tpk1p
+kinase	Line	R17
+R17	mim-inhibition	Yak1p
+kinase
+amino acids	Line	R7
+R7	Arrow	TorC1
+complex
+Crf1p
+repressor	Line	R3
+R3	mim-inhibition	Ifh1p
+activator
+Maf1p
+regulator	Line	R21
+R21	Arrow	Maf1p
+regulator
+Rrn3p
+TF	Line	R31
+R31	Arrow	Rrn3p
+TF
+Tpk1p
+kinase	Line	R1
+R1	mim-modification	Maf1p
+regulator
+TorC1
+complex	Line	R19
+R19	mim-inhibition	Crf1p
+repressor
+Gpr1p
+receptor	Line	R25
+R25	Arrow	Cyr1p
+adenylate
+cyclase
+Sch9p
+kinase	Line	R15
+R15	mim-stimulation	Sch9p
+kinase
+TorC1
+complex	Line	R23
+R23	mim-inhibition	Sfp1p
+TF
+Crf1p
+repressor	Line	R33
+R33	Arrow	Crf1p
+repressor
+Cyr1p
+adenylate
+cyclase	Line	R9
+R9	Arrow	Tpk2p
+kinase
+Maf1p
+regulator	Line	R5
+R5	Arrow	Maf1p
+regulator
+Tpk1p
+kinase	Line	R41
+R41	Arrow	R31
+Sfp1p
+TF	Line	R35
+R35	Arrow	Sfp1p
+TF
+Sch9p
+kinase	Line	R43
+R43	Arrow	R5
+TorC1
+complex	Line	R13
+R13	mim-binding	Sch9p
+kinase
+Maf1p
+regulator	Line	R29
+R29	mim-inhibition	RNA Pol III

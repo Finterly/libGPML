@@ -1,0 +1,89 @@
+DAG	Line	R6
+R6	mim-stimulation	PKCa
+AT1a	Line	R10
+AT1b	Line	R10
+R10	mim-stimulation	G alfa-11
+R10	mim-stimulation	G alfa-Q
+PIP2	Line	R37
+R37	mim-conversion	DAG
+PKCa	Line	R45
+R45	mim-stimulation	NOX4
+PKCa	Line	R59
+R59	mim-stimulation	NOS3
+Ca2+	Line	R27
+R27	mim-stimulation	PKCa
+Superoxide	Line	R47
+R47	TBar	NOS3
+Superoxide	Line	R31
+R31	TBar	NO
+Dynamin 1
+	Line	R41
+Dynamin 2	Line	R41
+B-Arrestin 2	Line	R41
+AT1R AP	Line	R41
+R41	mim-inhibition	AT1a
+R41	mim-inhibition	AT1b
+G alfa-11	Line	R29
+G alfa-Q	Line	R29
+R29	mim-stimulation	PLC g1
+R29	mim-stimulation	PLC g2
+PLC g1	Line	R43
+PLC g2	Line	R43
+R43	mim-cleavage	PIP2
+PDE 2a	Line	R66
+R66	Arrow	R33
+NOX4	Line	R15
+R15	Arrow	Superoxide
+PIP3	Line	R17
+R17	mim-stimulation	PDK1
+PIP3	Line	R55
+R55	Arrow	PIP2
+PIP2	Line	R8
+R8	mim-conversion	IP3
+PIP2	Line	R23
+R23	Arrow	PIP3
+IP3	Line	R19
+R19	mim-stimulation	Itpr3
+R19	mim-stimulation	Itpr2
+R19	mim-stimulation	Itpr1
+NOS3	Line	R1
+R1	Arrow	NO
+PDK1	Line	R63
+R63	mim-stimulation	Akt2 / PKB
+R63	mim-stimulation	Akt1 / PKB
+R63	mim-stimulation	Akt3 / PKB
+Itpr3	Line	R53
+Itpr2	Line	R53
+Itpr1	Line	R53
+R53	mim-stimulation	Ca2+
+Itpr3	Line	R51
+Itpr2	Line	R51
+Itpr1	Line	R51
+R51	mim-stimulation	Ca2+
+cAMP	Line	R3
+R3	Arrow	PKA
+Superoxide	Line	R13
+R13	mim-stimulation	NOS3
+Calmodulin 2	Line	R25
+Calmodulin 3	Line	R25
+Calmodulin 1	Line	R25
+R25	mim-stimulation	NOS3
+PKCa	Line	R35
+R35	TBar	NOS3
+Ca2+	Line	R39
+R39	mim-stimulation	Calmodulin 2
+R39	mim-stimulation	Calmodulin 3
+R39	mim-stimulation	Calmodulin 1
+PTEN	Line	R68
+R68	Arrow	R55
+Akt1 / PKB	Line	R57
+R57	mim-stimulation	NOS3
+cAMP	Line	R33
+R33	Arrow	AMP
+Superoxide	Line	R49
+R49	mim-stimulation	PKCa
+NOS3	Line	R61
+R61	Arrow	Superoxide
+Superoxide	Line	R21
+R21	Arrow	PKCg
+R21	Arrow	PKCa

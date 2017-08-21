@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="VEGFR-3 signaling" organism="Rattus norvegicus" width="732.0" height="551.0" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Vascular endothelial growth factors are crucial for the vascular development and neovascularization in physiological and pathological processes in both embryo and adult. There are three isoforms of the VEGFR receptor found. This figure shows the VEGFR3 pathway as detected in lymphatic endothelial cells. Activation of the receptor results in proliferation, survival, enhanced permeability and migration of the cell.</Comment>
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <Comment source="WikiPathways-category">Physiological Process</Comment>
+  <CitationRef citationID="d87" />
+  <DataNode elementID="b4fb0" textLabel="Casp9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="88.75" centerY="355.75" width="38.5" height="10.5" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000012944" />
+  </DataNode>
+  <DataNode elementID="b78e8" textLabel="Mapk3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="667.25" centerY="260.25" width="51.5" height="11.5" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000053583" />
+  </DataNode>
+  <DataNode elementID="b8802" textLabel="Plcg1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.75" centerY="272.6753112033195" width="44.5" height="10.5" zOrder="32768">
+    <CitationRef citationID="a54" />
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000051490" />
+  </DataNode>
+  <DataNode elementID="cd926" textLabel="Akt1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="85.75" centerY="279.25" width="44.5" height="11.5" zOrder="32768">
+    <CitationRef citationID="a54" />
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000028629" />
+  </DataNode>
+  <DataNode elementID="eb758" textLabel="Mapk1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="585.75" centerY="261.75" width="52.5" height="12.5" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000001849" />
+  </DataNode>
+  <DataNode elementID="ed849" textLabel="Flt4" groupRef="d67f5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="307.75" centerY="187.0" width="52.5" height="14.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="114110" />
+  </DataNode>
+  <DataNode elementID="f3f9c" textLabel="Shc1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="429.75" centerY="219.25" width="54.5" height="11.5" zOrder="32768">
+    <CitationRef citationID="adf" />
+    <Xref dataSource="Entrez Gene" identifier="85385" />
+  </DataNode>
+  <DataNode elementID="f7d61" textLabel="Itpkc" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="534.25" centerY="200.0" width="51.5" height="12.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000013945" />
+  </DataNode>
+  <DataNode elementID="ff67a" textLabel="PI3K" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="207.0" centerY="234.5" width="56.0" height="11.0" zOrder="32768">
+    <CitationRef citationID="a54" />
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000009385" />
+  </DataNode>
+  <DataNode elementID="beb24" textLabel="Vegfc" groupRef="aae94" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.75" centerY="94.75" width="50.5" height="10.5" zOrder="32775">
+    <CitationRef citationID="f25" />
+    <Xref dataSource="Entrez Gene" identifier="114111" />
+  </DataNode>
+  <DataNode elementID="fe0bd" textLabel="Figf" groupRef="aae94" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.75" centerY="106.75" width="50.5" height="10.5" zOrder="32776">
+    <Xref dataSource="Entrez Gene" identifier="360457" />
+  </DataNode>
+  <DataNode elementID="c38c1" textLabel="Flt4" groupRef="d67f5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="360.75" centerY="187.0" width="52.5" height="14.0" zOrder="32779">
+    <Xref dataSource="Entrez Gene" identifier="114110" />
+  </DataNode>
+  <DataNode elementID="c63f0" textLabel="Grb2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="429.74999999999994" centerY="238.4629319955407" width="54.5" height="11.5" zOrder="32780">
+    <CitationRef citationID="add" />
+    <Xref dataSource="Entrez Gene" identifier="81504" />
+  </DataNode>
+  <DataNode elementID="c597b" textLabel="Bad_v1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="40.75" centerY="355.25" width="38.5" height="11.5" zOrder="32781">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000021147" />
+  </DataNode>
+  <DataNode elementID="d2032" textLabel="Nos3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="151.75" centerY="356.25" width="50.5" height="11.5" zOrder="32782">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000009348" />
+  </DataNode>
+  <Interaction elementID="id10ab6c0b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="547.125" y="206.0" elementID="c4006" elementRef="f7d61" relX="0.5" relY="1.0" />
+    <Point x="585.75" y="255.5" elementID="a530b" elementRef="eb758" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id21d28ea5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="85.75" y="285.0" elementID="fb6cd" elementRef="cd926" relX="0.0" relY="1.0" />
+    <Point x="79.125" y="350.5" elementID="f7049" elementRef="b4fb0" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id2b6115fa" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="96.875" y="285.0" elementID="e73f9" elementRef="cd926" relX="0.5" relY="1.0" />
+    <Point x="139.125" y="350.5" elementID="e22b8" elementRef="d2032" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id354880a6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="585.75" y="268.0" elementID="d0850" elementRef="eb758" relX="0.0" relY="1.0" />
+    <Point x="630.25" y="319.5" elementID="f0b6f" elementRef="bbb6e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id41427507" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="547.125" y="206.0" elementID="c62ca" elementRef="f7d61" relX="0.5" relY="1.0" />
+    <Point x="667.25" y="254.5" elementID="cd325" elementRef="b78e8" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id47303c5f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="402.49999999999994" y="238.4629319955407" elementID="be8a5" elementRef="c63f0" relX="-1.0" relY="0.0" />
+    <Point x="348.18872793308486" y="227.63150077604593" elementID="b6e7a" elementRef="c10f9" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id479b819e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="153.0" y="446.0" elementID="a6df1" elementRef="f1e36" relX="0.0" relY="1.0" />
+    <Point x="153.0" y="488.0" elementID="beb42" elementRef="dae20" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id64a24dc4" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="405.0" y="272.6753112033195" elementID="ae9a5" elementRef="b8802" relX="1.0" relY="0.0" />
+    <Point x="534.25" y="206.0" elementID="f2f83" elementRef="f7d61" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id797e68d5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="40.75" y="361.0" elementID="f1dbc" elementRef="c597b" relX="0.0" relY="1.0" />
+    <Point x="58.0" y="432.0" elementID="d4c03" elementRef="ce629" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9e0dcce2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="667.25" y="266.0" elementID="e82f2" elementRef="b78e8" relX="0.0" relY="1.0" />
+    <Point x="630.25" y="319.5" elementID="ecc6b" elementRef="bbb6e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida14dd847" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="320.875" y="194.0" elementID="faf48" elementRef="ed849" relX="0.5" relY="1.0" />
+    <Point x="235.0" y="234.5" elementID="a03b6" elementRef="ff67a" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb640037f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="402.5" y="219.25" elementID="e5187" elementRef="f3f9c" relX="-1.0" relY="0.0" />
+    <Point x="348.18872793308486" y="227.63150077604593" elementID="f54be" elementRef="c10f9" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbe932086" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="193.0" y="436.0" elementID="f8883" elementRef="f1e36" relX="1.0" relY="0.0" />
+    <Point x="246.0" y="485.0" elementID="ef96a" elementRef="f768b" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbeec4a08" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="74.625" y="285.0" elementID="b8c0c" elementRef="cd926" relX="-0.5" relY="1.0" />
+    <Point x="40.75" y="349.5" elementID="e7b3d" elementRef="c597b" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idca46e22b" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="347.625" y="194.0" elementID="f6820" elementRef="c38c1" relX="-0.5" relY="1.0" />
+    <Point x="348.5254691689008" y="247.72117962466487" elementID="c35db" />
+    <Point x="371.625" y="267.4253112033195" elementID="bdbb7" elementRef="b8802" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="c10f9" />
+  </Interaction>
+  <Interaction elementID="ide0ae173e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="79.125" y="361.0" elementID="c9db8" elementRef="b4fb0" relX="-0.5" relY="1.0" />
+    <Point x="58.0" y="432.0" elementID="eb1df" elementRef="ce629" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide2bc7e7c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="151.75" y="362.0" elementID="d39ac" elementRef="d2032" relX="0.0" relY="1.0" />
+    <Point x="153.0" y="426.0" elementID="f3596" elementRef="f1e36" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ideb6292de" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="334.75" y="120.0" elementID="fcf2f" elementRef="aae94" relX="0.0" relY="1.0" />
+    <Point x="334.25" y="168.0" elementID="c5f17" elementRef="d67f5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ideb67a63b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="179.0" y="234.5" elementID="c4fd2" elementRef="ff67a" relX="-1.0" relY="0.0" />
+    <Point x="85.75" y="273.5" elementID="eb7b0" elementRef="cd926" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <GraphicalLine elementID="e19ca" zOrder="12288" lineThickness="1.0">
+    <Point x="320.9119125036949" y="232.9293526455809" elementID="bc233" />
+    <Point x="320.9119125036949" y="268.51891812001185" elementID="a5bf4" />
+  </GraphicalLine>
+  <GraphicalLine elementID="ebdef" zOrder="12288" lineThickness="1.0">
+    <Point x="348.42314521803155" y="242.8061331653014" elementID="b6204" />
+    <Point x="348.42314521803155" y="268.5810810810811" elementID="f628e" />
+  </GraphicalLine>
+  <Label elementID="b0a39" textLabel="Plasma membrane" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="71.5" centerY="176.0" width="109.0" height="20.0" zOrder="28672" />
+  <Label elementID="ce629" textLabel="Survival" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="58.0" centerY="442.0" width="80.0" height="20.0" zOrder="28672">
+    <CitationRef citationID="a54" />
+  </Label>
+  <Label elementID="da07b" textLabel="Tyr1337&#xA;" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="280.0" centerY="226.0" width="54.0" height="18.0" zOrder="28672">
+    <CitationRef citationID="add" />
+  </Label>
+  <Label elementID="dae20" textLabel="Permeability" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="153.0" centerY="498.0" width="80.0" height="20.0" zOrder="28672">
+    <CitationRef citationID="a54" />
+  </Label>
+  <Label elementID="ec22e" textLabel="Proliferation" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="635.0" centerY="382.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="f1e36" textLabel="NO production" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="153.0" centerY="436.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="f63ad" textLabel="Gene transcription" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="629.0" centerY="347.0" width="110.0" height="20.0" zOrder="28672" />
+  <Label elementID="f768b" textLabel="Migration" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="246.0" centerY="495.0" width="80.0" height="20.0" zOrder="28672">
+    <CitationRef citationID="a54" />
+  </Label>
+  <Label elementID="fc1a0" textLabel="Nucleus" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="559.0" centerY="323.0" width="80.0" height="20.0" zOrder="28672" />
+  <Shape elementID="a0e7d" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="354.5" centerY="354.5" width="695.0" height="333.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="bbb6e" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="630.25" centerY="347.25" width="129.5" height="55.5" zOrder="16384" rotation="0.0" />
+  <Shape elementID="c9463" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="348.36788707543013" centerY="226.2370314284486" width="7.71945302161445" height="29.5" zOrder="32778" rotation="0.0" />
+  <Shape elementID="af098" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="320.81330192259196" centerY="226.23703142844863" width="7.71945302161445" height="29.5" zOrder="32783" rotation="0.0" />
+  <Group elementID="aae94" groupType="Group" />
+  <Group elementID="d67f5" groupType="Complex" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Signalling properties of FLT4, a proteolytically processed receptor tyrosine kinase related to two VEGF receptors." URL="" citationID="add" year="1994" source="Oncogene">
+      <Xref dataSource="PubMed" identifier="7970715" />
+      <Author name="Pajusola K" />
+      <Author name="Aprelikova O" />
+      <Author name="Pelicci G" />
+      <Author name="Weich H" />
+      <Author name="Claesson-Welsh L" />
+      <Author name="Alitalo K" />
+    </Citation>
+    <Citation title="Isolated lymphatic endothelial cells transduce growth, survival and migratory signals via the VEGF-C/D receptor VEGFR-3." URL="" citationID="a54" year="2001" source="EMBO J">
+      <Xref dataSource="PubMed" identifier="11532940" />
+      <Author name="MÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¤kinen T" />
+      <Author name="Veikkola T" />
+      <Author name="Mustjoki S" />
+      <Author name="Karpanen T" />
+      <Author name="Catimel B" />
+      <Author name="Nice EC" />
+      <Author name="Wise L" />
+      <Author name="Mercer A" />
+      <Author name="Kowalski H" />
+      <Author name="Kerjaschki D" />
+      <Author name="Stacker SA" />
+      <Author name="Achen MG" />
+      <Author name="Alitalo K" />
+    </Citation>
+    <Citation title="VEGF-receptor signal transduction." URL="" citationID="d87" year="2003" source="Trends Biochem Sci">
+      <Xref dataSource="PubMed" identifier="13678960" />
+      <Author name="Cross MJ" />
+      <Author name="Dixelius J" />
+      <Author name="Matsumoto T" />
+      <Author name="Claesson-Welsh L" />
+    </Citation>
+    <Citation title="Endothelial cell adhesion to the extracellular matrix induces c-Src-dependent VEGFR-3 phosphorylation without the activation of the receptor intrinsic kinase activity." URL="" citationID="adf" year="2010" source="Circ Res">
+      <Xref dataSource="PubMed" identifier="20431062" />
+      <Author name="Galvagni F" />
+      <Author name="Pennacchini S" />
+      <Author name="Salameh A" />
+      <Author name="Rocchigiani M" />
+      <Author name="Neri F" />
+      <Author name="Orlandini M" />
+      <Author name="Petraglia F" />
+      <Author name="Gotta S" />
+      <Author name="Sardone GL" />
+      <Author name="Matteucci G" />
+      <Author name="Terstappen GC" />
+      <Author name="Oliviero S" />
+    </Citation>
+    <Citation title="VEGF-C signaling pathways through VEGFR-2 and VEGFR-3 in vasculoangiogenesis and hematopoiesis." URL="" citationID="f25" year="2000" source="Blood">
+      <Xref dataSource="PubMed" identifier="11090062" />
+      <Author name="Hamada K" />
+      <Author name="Oike Y" />
+      <Author name="Takakura N" />
+      <Author name="Ito Y" />
+      <Author name="Jussila L" />
+      <Author name="Dumont DJ" />
+      <Author name="Alitalo K" />
+      <Author name="Suda T" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="vascular endothelial growth factor signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000243" />
+  </OntologyTerms>
+</Pathway>
+

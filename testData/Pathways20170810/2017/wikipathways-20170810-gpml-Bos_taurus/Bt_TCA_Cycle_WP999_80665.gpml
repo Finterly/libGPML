@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="TCA Cycle" organism="Bos taurus" width="975.0" height="813.0" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP notes"></Comment>
+  <Comment source="GenMAPP remarks"></Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">The [[wikipedia:citric_acid_cycle|citric acid cycle]], also known as the tricarboxylic acid cycle (TCA cycle) or the Krebs cycle, (or rarely, the Szent-Gyorgyi-Krebs cycle) is a series of enzyme-catalysed chemical reactions of central importance in all living cells that use oxygen as part of cellular respiration. In eukaryotes, the citric acid cycle occurs in the matrix of the mitochondrion. The components and reactions of the citric acid cycle were established by seminal work from both [[wikipedia:Albert_Szent-Gyorgyi|Albert Szent-Gyorgyi]] and [[wikipedia:Hans_Krebs|Hans Krebs]]. 
+Source: Wikipedia ([[wikipedia:citric_acid_cycle]])</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP78_r70014 WP78(70014)]  with a 100.0% conversion rate.</Comment>
+  <CitationRef citationID="e64" />
+  <DataNode elementID="bc5b7" textLabel="GTP" groupRef="cb499" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="389.3290453977994" centerY="610.2134666333995" width="30.18346714708315" height="14.371002132196168" zOrder="-16">
+    <Comment>The ChEBI ID with the correct charge is: 37565</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB01273" />
+  </DataNode>
+  <DataNode elementID="f85a0" textLabel="GDP" groupRef="f12ea" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="481.94862511806974" centerY="638.9830181052198" width="30.999999999998295" height="14.371002132196168" zOrder="-14">
+    <Comment>The ChEBI ID with the correct charge is: 58189</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB01201" />
+  </DataNode>
+  <DataNode elementID="ea9a4" textLabel="CO2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="831.4247669121181" centerY="549.43598672771" width="29.150466175763768" height="14.371002132196118" zOrder="-12">
+    <Xref dataSource="HMDB" identifier="HMDB01967" />
+  </DataNode>
+  <DataNode elementID="d7980" textLabel="water" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="670.9083538759667" centerY="285.8639509978815" width="41.841620626150984" height="14.371002132196168" zOrder="-10">
+    <Xref dataSource="HMDB" identifier="HMDB02111" />
+  </DataNode>
+  <DataNode elementID="bc872" textLabel="NADH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="347.585621018759" centerY="305.34625199109513" width="33.76817615288735" height="14.528735632183952" zOrder="-2">
+    <Comment>The ChEBI ID with the correct charge is: 57945</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB01487" />
+  </DataNode>
+  <DataNode elementID="a39f2" textLabel="oxaloacetate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="305.0" centerY="277.330227037402" width="82.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Oxaloacetate" />
+    <Xref dataSource="HMDB" identifier="HMDB00223" />
+  </DataNode>
+  <DataNode elementID="a61f3" textLabel="IDH3B" groupRef="f971b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="883.3602503491594" centerY="491.0420933133177" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3420</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="IDH3B | isocitrate dehydrogenase 3 (NAD+) beta" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000018813" />
+  </DataNode>
+  <DataNode elementID="a8ee4" textLabel="ubiquinone-10" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="338.2640486617785" centerY="549.9999999999999" width="70.96377988442777" height="14.528735632183952" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01072" />
+  </DataNode>
+  <DataNode elementID="ab312" textLabel="NADH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="646.6073143056649" centerY="701.7104709908119" width="32.98245614035079" height="14.371002132196168" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 57945</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB01487" />
+  </DataNode>
+  <DataNode elementID="ab88e" textLabel="cis-aconitate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="720.0" centerY="313.5565562577057" width="76.0" height="20.0" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 16383</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB00072" />
+  </DataNode>
+  <DataNode elementID="ac347" textLabel="water" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="298.3084438065743" centerY="430.6126134632575" width="39.383112386851394" height="14.528735632183952" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB02111" />
+  </DataNode>
+  <DataNode elementID="b09de" textLabel="Degradation of Fatty Acids" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="231.5" centerY="126.03709508881917" width="181.0" height="26.074190177638343" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP143" />
+  </DataNode>
+  <DataNode elementID="b5c93" textLabel="NADP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="702.1168897239986" centerY="435.10336819870713" width="41.85329821346784" height="14.371002132196168" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00217" />
+  </DataNode>
+  <DataNode elementID="b5f1a" textLabel="SDHA" groupRef="fa963" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="98.73658375472704" centerY="503.6891731190761" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6389</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SDHA | succinate dehydrogenase complex subunit..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000046019" />
+  </DataNode>
+  <DataNode elementID="b96da" textLabel="D-threo-Isocitrate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="759.2163009404388" centerY="406.0" width="88.0" height="20.0" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 15562</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Isocitrate" />
+    <Xref dataSource="HMDB" identifier="HMDB00193" />
+  </DataNode>
+  <DataNode elementID="bb44a" textLabel="Metabolism of amino acids" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="401.5" centerY="97.0" width="183.0" height="20.0" zOrder="32768">
+    <Comment>Not all metabolic pathways of amino acids are connected to the TCa cycle.</Comment>
+    <Xref dataSource="WikiPathways" identifier="WP1847" />
+  </DataNode>
+  <DataNode elementID="bcff7" textLabel="NAD" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="658.030608762559" centerY="606.3547700369627" width="31.261167954570624" height="14.371002132196168" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00902" />
+  </DataNode>
+  <DataNode elementID="bd36e" textLabel="SUCLG2" groupRef="ac16a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.2323578810314" centerY="721.5498202826236" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:8801</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SUCLG2 | succinate-CoA ligase GDP-forming bet..." />
+    <CitationRef citationID="d25" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009541" />
+  </DataNode>
+  <DataNode elementID="bdef5" textLabel="ACO2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="688.399953848169" centerY="203.40695516847745" width="47.200092303661904" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:50</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACO2 | aconitase 2 mitochondrial" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006429" />
+  </DataNode>
+  <DataNode elementID="c02ba" textLabel="water" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="307.96353978325425" centerY="251.42581502102803" width="35.01133786848084" height="14.528735632183952" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB02111" />
+  </DataNode>
+  <DataNode elementID="c5215" textLabel="ubiquinol-10" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="338.2640486617785" centerY="501.4022988505747" width="71.00945004929673" height="14.528735632183968" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB13111" />
+  </DataNode>
+  <DataNode elementID="c53f3" textLabel="(S)-malate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="251.0" centerY="379.67449355432757" width="70.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Malate" />
+    <Xref dataSource="HMDB" identifier="HMDB00156" />
+  </DataNode>
+  <DataNode elementID="c57b3" textLabel="SUCLG1" groupRef="ac16a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.2323578810314" centerY="701.5498202826236" width="60.0" height="20.0" zOrder="32768">
+    <Comment></Comment>
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:8802</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SUCLG1 | succinate-CoA ligase GDP-forming alp..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006075" />
+  </DataNode>
+  <DataNode elementID="c6452" textLabel="DLST" groupRef="f8b20" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="750.2375300176792" centerY="687.3371936960817" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1743</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DLST | dihydrolipoamide S-succinyltransferase (..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006463" />
+  </DataNode>
+  <DataNode elementID="c6beb" textLabel="succinate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="310.0" centerY="583.0" width="66.0" height="20.0" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 30031</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Succinate" />
+    <Xref dataSource="HMDB" identifier="HMDB00254" />
+  </DataNode>
+  <DataNode elementID="c7118" textLabel="ATP" groupRef="cb499" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="389.3290453977994" centerY="595.8424645012035" width="30.18346714708315" height="14.371002132196168" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 30616</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB00538" />
+  </DataNode>
+  <DataNode elementID="cea45" textLabel="IDH3G" groupRef="f971b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="883.3602503491594" centerY="511.04209331331776" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3421</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="IDH3G | isocitrate dehydrogenase 3 (NAD+) gamma..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000001059" />
+  </DataNode>
+  <DataNode elementID="d0245" textLabel="SDHC" groupRef="fa963" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="98.73658375472704" centerY="543.6891731190751" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6391</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SDHC | succinate dehydrogenase complex subunit..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000015853" />
+  </DataNode>
+  <DataNode elementID="d1c04" textLabel="ACO2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="831.8521688982058" centerY="368.951733482022" width="46.295662203588336" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:50</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006429" />
+  </DataNode>
+  <DataNode elementID="d568e" textLabel="CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="468.5601922360996" centerY="180.96077882626625" width="28.20861678004524" height="14.080761632632045" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 57287</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB01423" />
+  </DataNode>
+  <DataNode elementID="d65f9" textLabel="NAD" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="218.53136684669767" centerY="351.4245508680492" width="29.729400360062073" height="14.528735632183952" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00902" />
+  </DataNode>
+  <DataNode elementID="d9ef6" textLabel="acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="294.65741415106345" centerY="212.5" width="73.3148283021269" height="20.0" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 57288</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Acetyl-CoA" />
+    <Xref dataSource="HMDB" identifier="HMDB01206" />
+  </DataNode>
+  <DataNode elementID="da75d" textLabel="2-oxoglutarate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="734.5380710659902" centerY="578.5" width="84.9238578680197" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00208" />
+  </DataNode>
+  <DataNode elementID="dd5a4" textLabel="IDH2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="693.1319625105433" centerY="490.86403074684983" width="44.28852153902221" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3418</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000014093" />
+  </DataNode>
+  <DataNode elementID="ddb56" textLabel="SDHD" groupRef="fa963" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="98.73658375472704" centerY="563.6891731190751" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6392</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SDHD | succinate dehydrogenase complex subunit..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016266" />
+  </DataNode>
+  <DataNode elementID="e10ab" textLabel="Electron Transport Chain" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="198.3986810839845" centerY="659.0470033234898" width="174.79736216796903" height="20.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP111" />
+  </DataNode>
+  <DataNode elementID="e1568" textLabel="CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="304.3288392696882" centerY="632.1100381973472" width="29.613626921479067" height="14.371002132196168" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 57287</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB01423" />
+  </DataNode>
+  <DataNode elementID="e2231" textLabel="SDHB" groupRef="fa963" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="98.73658375472704" centerY="523.6891731190756" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6390</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SDHB | succinate dehydrogenase complex subunit..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000008314" />
+  </DataNode>
+  <DataNode elementID="e271d" textLabel="ADP" groupRef="f12ea" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="481.94862511806895" centerY="624.6120159730283" width="30.999999999998256" height="14.371002132196212" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 456216</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB01341" />
+  </DataNode>
+  <DataNode elementID="e5766" textLabel="NADPH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="713.8049552268242" centerY="544.4359867277101" width="42.60192395785589" height="14.371002132196168" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 57783</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB00221" />
+  </DataNode>
+  <DataNode elementID="e6311" textLabel="CS" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="384.3752503003662" centerY="180.6279919375157" width="33.62122103798799" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1431</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CS | citrate synthase" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000004371" />
+  </DataNode>
+  <DataNode elementID="e95eb" textLabel="citrate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="513.7900766811418" centerY="204.5" width="52.41984663771632" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Citrate" />
+    <Xref dataSource="HMDB" identifier="HMDB00094" />
+  </DataNode>
+  <DataNode elementID="ea5a6" textLabel="CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="691.5213582539209" centerY="606.3547700369627" width="28.547869903802166" height="14.371002132196168" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 57287</Comment>
+    <Comment>Type your comment here</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB01423" />
+  </DataNode>
+  <DataNode elementID="eb68a" textLabel="NAD" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="833.4382716049388" centerY="430.2222222222223" width="39.0" height="14.371002132196168" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00902" />
+  </DataNode>
+  <DataNode elementID="ee392" textLabel="IDH3A" groupRef="f971b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="883.3602503491594" centerY="471.0420933133178" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3419</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="IDH3A | isocitrate dehydrogenase 3 (NAD+) alpha..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006227" />
+  </DataNode>
+  <DataNode elementID="f1927" textLabel="DLD" groupRef="f8b20" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="750.2375300176794" centerY="707.0018753268641" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1738</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="DLD | dihydrolipoamide dehydrogenase (E3 compon..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000001908" />
+  </DataNode>
+  <DataNode elementID="f21aa" textLabel="Fatty Acid Synthesis" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="652.8447296720238" centerY="140.26901847386893" width="154.3105406559523" height="20.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP357" />
+  </DataNode>
+  <DataNode elementID="f30d1" textLabel="NADH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="794.0140561670411" centerY="549.4359867277101" width="36.5" height="14.371002132196168" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 57945</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB01487" />
+  </DataNode>
+  <DataNode elementID="f381d" textLabel="OGDH" groupRef="f8b20" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="750.2375300176792" centerY="667.3371936960817" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4967</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="OGDH | oxoglutarate (alpha-ketoglutarate) dehyd..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000006029" />
+  </DataNode>
+  <DataNode elementID="f8db5" textLabel="Glucose metabolism" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="178.5" centerY="157.625" width="151.0" height="19.25" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP534" />
+  </DataNode>
+  <DataNode elementID="fbddc" textLabel="FH" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="193.38794273148375" centerY="430.8753748575901" width="32.58208955223897" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:2271</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="FH | fumarate hydratase" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021688" />
+  </DataNode>
+  <DataNode elementID="fc117" textLabel="fumarate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="252.6016944447754" centerY="480.82601880877746" width="61.41432725977478" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Fumarate" />
+    <Xref dataSource="HMDB" identifier="HMDB00134" />
+  </DataNode>
+  <DataNode elementID="fd8f9" textLabel="MDH2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="204.14923501530217" centerY="315.5199004975128" width="48.298470030604335" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:4191</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="MDH2 | malate dehydrogenase 2 NAD (mitochondri..." />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000009462" />
+  </DataNode>
+  <DataNode elementID="ffbe6" textLabel="succinyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="543.0" centerY="675.5" width="80.0" height="20.0" zOrder="32768">
+    <Comment>The ChEBI ID with the correct charge is: 57292</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Succinyl-CoA" />
+    <Xref dataSource="HMDB" identifier="HMDB01022" />
+  </DataNode>
+  <DataNode elementID="f4381" textLabel="CO2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="673.6485388020528" centerY="544.4359867277101" width="29.297077604105652" height="14.371002132196168" zOrder="32769">
+    <Xref dataSource="HMDB" identifier="HMDB01967" />
+  </DataNode>
+  <DataNode elementID="f5407" textLabel="CO2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="612.5168389693629" centerY="701.7104709908119" width="27.03367793872576" height="14.371002132196168" zOrder="32771">
+    <Xref dataSource="HMDB" identifier="HMDB01967" />
+  </DataNode>
+  <DataNode elementID="ac299" textLabel="Pi" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="476.12743362120136" centerY="698.1131085691945" width="19.554656567120674" height="14.371002132196168" zOrder="32778">
+    <Xref dataSource="HMDB" identifier="HMDB01429" />
+  </DataNode>
+  <DataNode elementID="cae57" textLabel="water" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="801.9083538759667" centerY="337.8639509978815" width="41.841620626150984" height="14.371002132196168" zOrder="32783">
+    <Xref dataSource="HMDB" identifier="HMDB02111" />
+  </DataNode>
+  <Interaction elementID="ad4b7" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="276.75" y="139.07419017763834" elementID="f3922" elementRef="b09de" relX="0.5" relY="1.0" />
+    <Point x="294.65741415106345" y="202.5" elementID="d093a" elementRef="d9ef6" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b68ea" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="353.2323578810314" y="683.5498202826236" elementID="b87b4" elementRef="ac16a" relX="0.5" relY="-1.0" />
+    <Point x="384.9635816906114" y="651.3825593050451" elementID="d28e6" elementRef="fbf6d" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="badc0" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="293.5" y="593.0" elementID="f8546" elementRef="c6beb" relX="-0.5" relY="1.0" />
+    <Point x="198.3986810839845" y="649.0470033234898" elementID="a6c70" elementRef="e10ab" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="be808" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="712.2375300176792" y="668.2533641037772" elementID="dfcb9" elementRef="f8b20" relX="-1.0" relY="-0.5" />
+    <Point x="651.8997185109847" y="652.3767886452399" elementID="e519e" elementRef="fd2da" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="ccad3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="209.6789875076032" y="430.8753748575901" elementID="df551" elementRef="fbddc" relX="1.0" relY="0.0" />
+    <Point x="247.7067262235731" y="430.0849146057798" elementID="e7b1c" elementRef="f5588" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="ccfec" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="ead" />
+    <Point x="325.5" y="267.330227037402" elementID="bf7f3" elementRef="a39f2" relX="0.5" relY="-1.0" />
+    <Point x="400.0" y="221.33333333333334" elementID="ce97d" />
+    <Point x="487.5801533622837" y="204.5" elementID="a5a5b" elementRef="e95eb" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.7420065644625893" shapeType="None" elementID="a0254" />
+    <Anchor position="0.17796392930994884" shapeType="None" elementID="bf2fc" />
+    <Anchor position="0.4976684744042032" shapeType="None" elementID="f002c" />
+    <Anchor position="0.27211736459052843" shapeType="None" elementID="aeb18" />
+  </Interaction>
+  <Interaction elementID="d65d3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="136.73658375472704" y="533.6891731190756" elementID="f39c0" elementRef="fa963" relX="1.0" relY="0.0" />
+    <Point x="265.80532486598327" y="529.4971535762635" elementID="deebe" elementRef="c2cbb" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="db91a" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="540.0" y="204.5" elementID="a53af" elementRef="e95eb" relX="1.0" relY="0.0" />
+    <Point x="614.2670945080358" y="150.26901847386893" elementID="f1a82" elementRef="f21aa" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="dece7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="664.7999076963381" y="203.40695516847745" elementID="dd91e" elementRef="bdef5" relX="-1.0" relY="0.0" />
+    <Point x="632.268799459488" y="227.7049148203081" elementID="e3ae3" elementRef="c8b31" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="e6e22" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="384.3752503003662" y="190.6279919375157" elementID="ef7ea" elementRef="e6311" relX="0.0" relY="1.0" />
+    <Point x="400.39456440537157" y="221.25749612704743" elementID="a4399" elementRef="f002c" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="ed903" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="293.5" y="573.0" elementID="ae9b4" elementRef="c6beb" relX="-0.5" relY="-1.0" />
+    <Point x="276.72081218274116" y="552.2233502538072" elementID="adc52" />
+    <Point x="261.5260663507109" y="520.5876777251185" elementID="cfc8a" />
+    <Point x="252.6016944447754" y="490.82601880877746" elementID="e6fca" elementRef="fc117" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.5590212555056675" shapeType="None" elementID="c2cbb" />
+    <Anchor position="0.41955245221502097" shapeType="None" elementID="e7974" />
+    <Anchor position="0.7196648473340433" shapeType="None" elementID="f12c8" />
+  </Interaction>
+  <Interaction elementID="ef149" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="a4d" />
+    <CitationRef citationID="ed6" />
+    <Point x="251.0" y="369.67449355432757" elementID="e12ed" elementRef="c53f3" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point x="257.3333333333333" y="350.0" elementID="d3399" />
+    <Point x="268.6666666666667" y="328.6666666666667" elementID="d13ac" />
+    <Point x="281.3333333333333" y="306.0" elementID="f8ddd" />
+    <Point x="305.0" y="287.330227037402" elementID="e0d1a" elementRef="a39f2" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.594941665562294" shapeType="None" elementID="c3414" />
+    <Anchor position="0.25060905436521674" shapeType="None" elementID="c7f7e" />
+    <Anchor position="0.7082134183930358" shapeType="None" elementID="c9030" />
+  </Interaction>
+  <Interaction elementID="f4d6d" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="252.6016944447754" y="470.82601880877746" elementID="fd1ab" elementRef="fc117" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point x="247.33333333333331" y="434.6666666666667" elementID="ad0a2" />
+    <Point x="251.0" y="389.67449355432757" elementID="dc8fa" elementRef="c53f3" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.5036340831979929" shapeType="None" elementID="f5588" />
+    <Anchor position="0.6868867067250081" shapeType="None" elementID="b1c01" />
+  </Interaction>
+  <Interaction elementID="f7fd4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="845.3602503491594" y="491.04209331331776" elementID="e09aa" elementRef="f971b" relX="-1.0" relY="0.0" />
+    <Point x="783.6683548053647" y="491.7048087266382" elementID="f35e1" elementRef="a79f1" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="fe634" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="228.29847003060434" y="315.5199004975128" elementID="fffc9" elementRef="fd8f9" relX="1.0" relY="0.0" />
+    <Point x="276.0938255328499" y="315.37596132718085" elementID="f712f" elementRef="c3414" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id109b1520" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="762.4191679169054" y="450.33403959921674" elementID="e6ea1" elementRef="a6b4c" relX="0.0" relY="0.0" />
+    <Point x="723.0435388307326" y="435.10336819870713" elementID="b6de9" elementRef="b5c93" relX="1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id1135975e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="813.9382716049388" y="430.2222222222223" elementID="eda14" elementRef="eb68a" relX="-1.0" relY="0.0" />
+    <Point x="783.6557998512002" y="450.167372358914" elementID="aea46" elementRef="c0e75" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id17b35470" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="af4" />
+    <CitationRef citationID="be3" />
+    <Point x="781.2163009404388" y="416.0" elementID="b35c8" elementRef="b96da" relX="0.5" relY="1.0" />
+    <Point x="786.0" y="483.0" elementID="d34a7" />
+    <Point x="771.0" y="539.0" elementID="cfa3b" />
+    <Point x="755.7690355329951" y="568.5" elementID="ecee8" elementRef="da75d" relX="0.5" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.21632790581224345" shapeType="None" elementID="c0e75" />
+    <Anchor position="0.48111677958715665" shapeType="None" elementID="a79f1" />
+    <Anchor position="0.6631807180525423" shapeType="None" elementID="b2686" />
+  </Interaction>
+  <Interaction elementID="id1e6d1dd6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="776.2092944718627" y="519.5519673050461" elementID="c18d7" elementRef="b2686" relX="0.0" relY="0.0" />
+    <Point x="831.4247669121181" y="542.250485661612" elementID="dbed5" elementRef="ea9a4" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id2bf0d3a0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="442.80233537113173" y="213.1065153718833" elementID="edcaa" elementRef="a0254" relX="0.0" relY="0.0" />
+    <Point x="461.5080380410883" y="188.00115964258225" elementID="ed604" elementRef="d568e" relX="-0.5" relY="1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id3729ec34" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="331.3148283021269" y="212.5" elementID="b5b83" elementRef="d9ef6" relX="1.0" relY="0.0" />
+    <Point x="366.4223710351045" y="242.06442904250054" elementID="fe3bf" elementRef="aeb18" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id3944502d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="658.030608762559" y="613.5402711030608" elementID="f5b79" elementRef="bcff7" relX="0.0" relY="1.0" />
+    <Point x="680.9148737137511" y="639.8035547240412" elementID="c8207" elementRef="d4da0" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id449050c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="352.26310626867036" y="250.8064719470567" elementID="f5ecf" elementRef="bf2fc" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+    <Point x="325.46920871749467" y="251.42581502102803" elementID="bbeb3" elementRef="c02ba" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id5439474b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="691.5213582539209" y="613.5402711030608" elementID="d4c91" elementRef="ea5a6" relX="0.0" relY="1.0" />
+    <Point x="680.9148737137511" y="639.8035547240412" elementID="dedd9" elementRef="d4da0" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id56459e3d" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b56" />
+    <Point x="734.5380710659902" y="588.5" elementID="a5ac6" elementRef="da75d" relX="0.0" relY="1.0" />
+    <Point x="692.0" y="635.0" elementID="fa9a3" />
+    <Point x="632.0" y="661.0" elementID="fd303" />
+    <Point x="583.0" y="675.5" elementID="e4b15" elementRef="ffbe6" relX="1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Anchor position="0.5945249434820437" shapeType="None" elementID="fd2da" />
+    <Anchor position="0.41836952799086474" shapeType="None" elementID="d4da0" />
+    <Anchor position="0.702877279100133" shapeType="None" elementID="f132e" />
+  </Interaction>
+  <Interaction elementID="id68dda630" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="af4" />
+    <CitationRef citationID="f8c" />
+    <CitationRef citationID="b72" />
+    <CitationRef citationID="ea0" />
+    <Point x="734.5380710659902" y="568.5" elementID="ccb93" elementRef="da75d" relX="0.0" relY="-1.0" />
+    <Point x="754.0" y="530.0" elementID="da894" />
+    <Point x="765.0" y="478.0" elementID="a233a" />
+    <Point x="759.2163009404388" y="416.0" elementID="bbe6c" elementRef="b96da" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.3698461079516223" shapeType="None" elementID="fde72" />
+    <Anchor position="0.524814068178945" shapeType="None" elementID="cf002" />
+    <Anchor position="0.7825224915025808" shapeType="None" elementID="a6b4c" />
+  </Interaction>
+  <Interaction elementID="id7df46aa7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="259.50394386277554" y="345.91414488575583" elementID="f9837" elementRef="c7f7e" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+    <Point x="233.3960670267287" y="351.4245508680492" elementID="b35ae" elementRef="d65f9" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id8c25b382" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="673.6485388020528" y="537.250485661612" elementID="a143f" elementRef="f4381" relX="0.0" relY="-1.0" />
+    <Point x="757.2084955752213" y="514.8325663716814" elementID="d01ca" elementRef="fde72" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id90d187b4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="456.7520037549554" y="671.2720667333148" elementID="a8c34" elementRef="de9ec" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+    <Point x="476.12743362120136" y="705.2986096352927" elementID="f537c" elementRef="ac299" relX="0.0" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="id9f8f19fa" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="776.2092944718627" y="519.5519673050461" elementID="d8e89" elementRef="b2686" relX="0.0" relY="0.0" />
+    <Point x="794.0140561670411" y="542.250485661612" elementID="b81a4" elementRef="f30d1" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="ida41d6b5c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="348.29134063826723" y="629.535266763223" elementID="faaa8" elementRef="f36b1" relX="0.0" relY="0.0" />
+    <Point x="319.13565273042775" y="632.1100381973472" elementID="c1196" elementRef="e1568" relX="1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="ida4349d97" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="456.7520037549554" y="671.2720667333148" elementID="cd278" elementRef="de9ec" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+    <Point x="470.1986251180696" y="654.1685191713177" elementID="c6d6b" elementRef="f12ea" relX="-0.5" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="idaed0e1f7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="634.0526382734854" y="660.110523414823" elementID="df6e2" elementRef="f132e" relX="0.0" relY="0.0" />
+    <Point x="612.5168389693629" y="694.5249699247138" elementID="c4219" elementRef="f5407" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idbb034a14" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="348.29134063826723" y="629.535266763223" elementID="b38ea" elementRef="f36b1" relX="0.0" relY="0.0" />
+    <Point x="366.23731182425786" y="614.2134666333994" elementID="e1de0" elementRef="cb499" relX="-1.0" relY="0.5" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idc714ef2a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="673.4160566362506" y="248.06197889723273" elementID="c7c2c" elementRef="db42f" relX="0.0" relY="0.0" />
+    <Point x="670.9083538759667" y="278.6784499317834" elementID="fd6c1" elementRef="d7980" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idc940c637" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="248.9225652630688" y="415.1658490034898" elementID="a7ce0" elementRef="b1c01" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+    <Point x="278.6168876131486" y="430.6126134632575" elementID="a3dce" elementRef="ac347" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idcc3e07ab" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="808.7043377964117" y="368.951733482022" elementID="b02c7" elementRef="d1c04" relX="-1.0" relY="0.0" />
+    <Point x="750.4948225612656" y="364.74730297235266" elementID="ff3fb" elementRef="aa6b1" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idcebb8f2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="260.07974137292626" y="515.7643656618479" elementID="eaffd" elementRef="f12c8" relX="0.0" relY="0.0" />
+    <Point x="302.75932363713014" y="501.4022988505747" elementID="efe2f" elementRef="c5215" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idd2b546ff" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="634.0526382734854" y="660.110523414823" elementID="d3c08" elementRef="f132e" relX="0.0" relY="0.0" />
+    <Point x="646.6073143056649" y="694.5249699247138" elementID="fd87a" elementRef="ab312" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="iddc8ee953" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="715.2762232800544" y="490.86403074684983" elementID="f2caf" elementRef="dd5a4" relX="1.0" relY="0.0" />
+    <Point x="762.2938053097345" y="490.7929203539823" elementID="b9cf4" elementRef="cf002" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="iddcae2bba" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="281.87704518306305" y="305.5710854876819" elementID="c48e1" elementRef="c9030" relX="0.0" relY="0.0" />
+    <Point x="330.70153294231534" y="305.34625199109513" elementID="c7462" elementRef="bc872" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="ide16f3c42" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="713.8049552268242" y="537.250485661612" elementID="e807f" elementRef="e5766" relX="0.0" relY="-1.0" />
+    <Point x="757.2084955752213" y="514.8325663716814" elementID="d86df" elementRef="fde72" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="ide8f04d6b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="746.5593314484883" y="350.6447957992185" elementID="e5dbd" elementRef="d25ce" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+    <Point x="780.9875435628912" y="337.8639509978815" elementID="b61ee" elementRef="cae57" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idf7e247ae" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="302.78215871956456" y="549.9999999999999" elementID="b1322" elementRef="a8ee4" relX="-1.0" relY="0.0" />
+    <Point x="271.41329276012925" y="541.1730208669569" elementID="feb83" elementRef="e7974" relX="0.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="b0fb0" connectorType="Segmented" zOrder="32772" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="a20" />
+    <Point x="503.0" y="675.5" elementID="fb0fb" elementRef="ffbe6" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point x="445.50253807106606" y="670.2436548223351" elementID="ece50" />
+    <Point x="386.0" y="652.0" elementID="f2202" />
+    <Point x="339.0" y="624.0" elementID="d373f" />
+    <Point x="310.0" y="593.0" elementID="d57d3" elementRef="c6beb" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.5580942463745051" shapeType="None" elementID="fbf6d" />
+    <Anchor position="0.2138830087344485" shapeType="None" elementID="de9ec" />
+    <Anchor position="0.7546877095108043" shapeType="None" elementID="f36b1" />
+  </Interaction>
+  <Interaction elementID="cbc1e" connectorType="Segmented" zOrder="32779" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="c21" />
+    <CitationRef citationID="c9e" />
+    <Point x="720.0" y="303.5565562577057" elementID="dfdbe" elementRef="ab88e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point x="677.3333333333334" y="250.0" elementID="a0f2e" />
+    <Point x="614.0" y="218.66666666666666" elementID="f878e" />
+    <Point x="540.0" y="204.5" elementID="f478d" elementRef="e95eb" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.5536797869228365" shapeType="None" elementID="c8b31" />
+    <Anchor position="0.6868867067250081" shapeType="None" elementID="a88f0" />
+    <Anchor position="0.3396370934416366" shapeType="None" elementID="db42f" />
+    <Anchor position="0.5471679626255709" shapeType="None" elementID="b9411" />
+  </Interaction>
+  <Interaction elementID="f598e" zOrder="32780" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="c21" />
+    <CitationRef citationID="c9e" />
+    <Point x="759.2163009404388" y="396.0" elementID="e01b4" elementRef="b96da" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point x="739.0" y="323.5565562577057" elementID="c8d2d" elementRef="ab88e" relX="0.5" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.43140821878683305" shapeType="None" elementID="aa6b1" />
+    <Anchor position="0.6260774178837387" shapeType="None" elementID="d25ce" />
+  </Interaction>
+  <Interaction elementID="bddc9" zOrder="32781" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="216.25" y="167.25" elementID="faef1" elementRef="f8db5" relX="0.5" relY="1.0" />
+    <Point x="294.65741415106345" y="202.5" elementID="f0c20" elementRef="d9ef6" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a738c" zOrder="32782" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="355.75" y="107.0" elementID="f8e59" elementRef="bb44a" relX="-0.5" relY="1.0" />
+    <Point x="294.65741415106345" y="202.5" elementID="d7d13" elementRef="d9ef6" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="b5f5f" textLabel="Mitochondrion" color="999999" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="141.11666666666667" centerY="76.06666666666666" width="121.76666666666665" height="15.2" zOrder="28672" />
+  <Shape elementID="bd568" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="511.1190476190476" centerY="418.5" width="867.7619047619048" height="729.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="ac16a" />
+  <Group elementID="cb499" groupType="Group" />
+  <Group elementID="f12ea" groupType="Group" />
+  <Group elementID="f8b20">
+    <CitationRef citationID="e8a" />
+  </Group>
+  <Group elementID="f971b" />
+  <Group elementID="fa963" />
+  <InfoBox centerX="4.5" centerY="5.333333333333333" />
+  <Citations>
+    <Citation title="The Role of Citric Acid in Intermediate Metabolism in Animal Tissues." URL="" citationID="e64" year="1937" source="Enzymologia">
+      <Xref dataSource="PubMed" identifier="" />
+      <Author name="Krebs, H. A." />
+      <Author name="Johnson, W. A." />
+    </Citation>
+    <Citation title="The alpha-ketoglutarate dehydrogenase complex." URL="" citationID="b56" year="1999" source="Ann N Y Acad Sci">
+      <Xref dataSource="PubMed" identifier="10672230" />
+      <Author name="Sheu KF" />
+      <Author name="Blass JP" />
+    </Citation>
+    <Citation title="The conversion of citrate into cis-aconitate and isocitrate in the presence of aconitase." URL="" citationID="c21" year="1952" source="Biochem J">
+      <Xref dataSource="PubMed" identifier="13018271" />
+      <Author name="Krebs HA" />
+      <Author name="Holzach O" />
+    </Citation>
+    <Citation title="Expression of two succinyl-CoA synthetases with different nucleotide specificities in mammalian tissues." URL="" citationID="d25" year="2004" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="15234968" />
+      <Author name="Lambeth DO" />
+      <Author name="Tews KN" />
+      <Author name="Adkins S" />
+      <Author name="Frohlich D" />
+      <Author name="Milavetz BI" />
+    </Citation>
+    <Citation title="Citrate synthesis in intact rat-liver mitochondria is irreversible." URL="" citationID="ead" year="1982" source="Eur J Biochem">
+      <Xref dataSource="PubMed" identifier="7060582" />
+      <Author name="Greksák M" />
+      <Author name="Lopes-Cardozo M" />
+      <Author name="van den Bergh SG" />
+    </Citation>
+    <Citation title="Proton-translocating transhydrogenase and NAD- and NADP-linked isocitrate dehydrogenases operate in a substrate cycle which contributes to fine regulation of the tricarboxylic acid cycle activity in mitochondria." URL="" citationID="af4" year="1994" source="FEBS Lett">
+      <Xref dataSource="PubMed" identifier="8187868" />
+      <Author name="Sazanov LA" />
+      <Author name="Jackson JB" />
+    </Citation>
+    <Citation title="Urinary organic acids in man. I. Normal patterns." URL="" citationID="c9e" year="1976" source="Clin Chem">
+      <Xref dataSource="PubMed" identifier="949837" />
+      <Author name="Lawson AM" />
+      <Author name="Chalmers RA" />
+      <Author name="Watts RW" />
+    </Citation>
+    <Citation title="Identification of two missense mutations in a dihydrolipoamide dehydrogenase-deficient patient." URL="" citationID="e8a" year="1993" source="Proc Natl Acad Sci U S A">
+      <Xref dataSource="PubMed" identifier="8506365" />
+      <Author name="Liu TC" />
+      <Author name="Kim H" />
+      <Author name="Arizmendi C" />
+      <Author name="Kitano A" />
+      <Author name="Patel MS" />
+    </Citation>
+    <Citation title="Modeling of liver citric acid cycle and gluconeogenesis based on 13C mass isotopomer distribution analysis of intermediates." URL="" citationID="a4d" year="1995" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="7730305" />
+      <Author name="Fernandez CA" />
+      <Author name="Des Rosiers C" />
+    </Citation>
+    <Citation title="Physiological roles of nicotinamide nucleotide transhydrogenase." URL="" citationID="f8c" year="1988" source="Biochem J">
+      <Xref dataSource="PubMed" identifier="3052428" />
+      <Author name="Hoek JB" />
+      <Author name="Rydström J" />
+    </Citation>
+    <Citation title="Activity of purified NAD-specific isocitrate dehydrogenase at modulator and substrate concentrations approximating conditions in mitochondria." URL="" citationID="be3" year="1986" source="Metabolism">
+      <Xref dataSource="PubMed" identifier="3724458" />
+      <Author name="Gabriel JL" />
+      <Author name="Zervos PR" />
+      <Author name="Plaut GW" />
+    </Citation>
+    <Citation title="Reverse flux through cardiac NADP(+)-isocitrate dehydrogenase under normoxia and ischemia." URL="" citationID="ea0" year="2002" source="Am J Physiol Heart Circ Physiol">
+      <Xref dataSource="PubMed" identifier="12234803" />
+      <Author name="Comte B" />
+      <Author name="Vincent G" />
+      <Author name="Bouchard B" />
+      <Author name="Benderdour M" />
+      <Author name="Des Rosiers C" />
+    </Citation>
+    <Citation title="Isotopomer analysis of citric acid cycle and gluconeogenesis in rat liver. Reversibility of isocitrate dehydrogenase and involvement of ATP-citrate lyase in gluconeogenesis." URL="" citationID="ed6" year="1995" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="7730304" />
+      <Author name="Des Rosiers C" />
+      <Author name="Di Donato L" />
+      <Author name="Comte B" />
+      <Author name="Laplante A" />
+      <Author name="Marcoux C" />
+      <Author name="David F" />
+      <Author name="Fernandez CA" />
+      <Author name="Brunengraber H" />
+    </Citation>
+    <Citation title="Reversibility of the mitochondrial isocitrate dehydrogenase reaction in the perfused rat liver. Evidence from isotopomer analysis of citric acid cycle intermediates." URL="" citationID="b72" year="1994" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="7961626" />
+      <Author name="Des Rosiers C" />
+      <Author name="Fernandez CA" />
+      <Author name="David F" />
+      <Author name="Brunengraber H" />
+    </Citation>
+    <Citation title="Characterization of the ATP- and GTP-specific succinyl-CoA synthetases in pigeon. The enzymes incorporate the same alpha-subunit." URL="" citationID="a20" year="1998" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="9765290" />
+      <Author name="Johnson JD" />
+      <Author name="Muhonen WW" />
+      <Author name="Lambeth DO" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="citrate cycle pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000026" />
+    <OntologyTerm term="TCA cycle" ontology="Pathway Ontology" ontologyTermID="PW:0000026" />
+  </OntologyTerms>
+</Pathway>
+

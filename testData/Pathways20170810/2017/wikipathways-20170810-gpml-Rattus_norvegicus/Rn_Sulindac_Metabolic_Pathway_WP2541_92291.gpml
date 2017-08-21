@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Sulindac Metabolic Pathway" organism="Rattus norvegicus" width="635.0" height="317.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="Egon Willighagen" />
+  <CitationRef citationID="b1d" />
+  <DataNode elementID="a1f9f" textLabel="Sulfindac sulfide" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="550.5" centerY="199.0" width="109.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Chemspider" identifier="4509492" />
+  </DataNode>
+  <DataNode elementID="adfbb" textLabel="CYP1A1" groupRef="bf268" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="236.0" centerY="79.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000019500" />
+  </DataNode>
+  <DataNode elementID="c2ce3" textLabel="MsrB2" groupRef="da567" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="547.5" centerY="90.0" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000016873" />
+  </DataNode>
+  <DataNode elementID="c89b3" textLabel="Sulindac-S" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="394.0" centerY="272.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="11245227" />
+  </DataNode>
+  <DataNode elementID="e495e" textLabel="MsrA" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="549.5" centerY="277.0" width="63.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000012440" />
+  </DataNode>
+  <DataNode elementID="ed228" textLabel="FMO" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="416.0" centerY="193.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Wikipedia" identifier="Flavin-containing monooxygenase" />
+  </DataNode>
+  <DataNode elementID="facbe" textLabel="Sulindac-R" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="394.0" centerY="99.0" width="80.0" height="20.0" zOrder="32769">
+    <Xref dataSource="PubChem-compound" identifier="16046677" />
+  </DataNode>
+  <DataNode elementID="b80d4" textLabel="Sulindac sulfone" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="222.0" centerY="199.0" width="94.0" height="20.0" zOrder="32770">
+    <Comment>The structure for the sulfone in the paper is inconsistent with the entries in ChemSpider and PubChem; I assume the paper made typographic errors.</Comment>
+    <Xref dataSource="Chemspider" identifier="4582441" />
+  </DataNode>
+  <DataNode elementID="aff0a" textLabel="MsrB3" groupRef="da567" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="547.5" centerY="110.0" width="53.0" height="20.0" zOrder="32771">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000042668" />
+  </DataNode>
+  <DataNode elementID="e312f" textLabel="CYP1A2" groupRef="bf268" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="236.0" centerY="99.0" width="80.0" height="20.0" zOrder="32772">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000016173" />
+  </DataNode>
+  <Interaction elementID="id1bc04a73" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="518.0" y="277.0" elementID="d4641" elementRef="e495e" relX="-1.0" relY="0.0" />
+    <Point x="468.1143882329965" y="235.74771097163557" elementID="c5d64" elementRef="a601e" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id1d00538b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="523.25" y="189.0" elementID="bd741" elementRef="a1f9f" relX="-0.5" relY="-1.0" />
+    <Point x="394.0" y="109.0" elementID="cee17" elementRef="facbe" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="d387f" />
+  </Interaction>
+  <Interaction elementID="id4bb9df15" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="374.0" y="109.0" elementID="df003" elementRef="facbe" relX="-0.5" relY="1.0" />
+    <Point x="245.5" y="189.0" elementID="fcee2" elementRef="b80d4" relX="0.5" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="aed5b" />
+  </Interaction>
+  <Interaction elementID="id6412c6f1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="414.0" y="109.0" elementID="c83e1" elementRef="facbe" relX="0.5" relY="1.0" />
+    <Point x="550.5" y="189.0" elementID="d6502" elementRef="a1f9f" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="d93cc" />
+  </Interaction>
+  <Interaction elementID="id6897b5e0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="513.0" y="114.0" elementID="a9bfd" elementRef="da567" relX="-1.0" relY="0.5" />
+    <Point x="468.6" y="141.0" elementID="eb378" elementRef="d93cc" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id88e36fe3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="414.0" y="262.0" elementID="aa1cb" elementRef="c89b3" relX="0.5" relY="-1.0" />
+    <Point x="523.25" y="209.0" elementID="b4159" elementRef="a1f9f" relX="-0.5" relY="1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.49532620808234745" shapeType="None" elementID="a601e" />
+  </Interaction>
+  <Interaction elementID="idd5b178a2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="436.0" y="183.0" elementID="cc0b7" elementRef="ed228" relX="0.5" relY="-1.0" />
+    <Point x="471.55" y="157.0" elementID="eeab9" elementRef="d387f" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idf9bbca95" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="284.0" y="99.0" elementID="d81f8" />
+    <Point x="322.6" y="141.0" elementID="ca9a1" elementRef="aed5b" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Group elementID="bf268" groupType="Group" />
+  <Group elementID="da567" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Studies on the metabolism and biological activity of the epimers of sulindac." URL="" citationID="b1d" year="2011" source="Drug Metab Dispos">
+      <Xref dataSource="PubMed" identifier="21383205" />
+      <Author name="Brunell D" />
+      <Author name="Sagher D" />
+      <Author name="Kesaraju S" />
+      <Author name="Brot N" />
+      <Author name="Weissbach H" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="xenobiotic metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001229" />
+    <OntologyTerm term="classic metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000002" />
+  </OntologyTerms>
+</Pathway>
+

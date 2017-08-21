@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Amino acid conjugation" organism="Homo sapiens" width="368.0" height="398.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <DataNode elementID="b09fb" textLabel="Glycine" groupRef="db47d" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="271.0" centerY="279.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00123" />
+  </DataNode>
+  <DataNode elementID="b56c0" textLabel="carboxyl amino acid conjugate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="164.0" centerY="358.0" width="172.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b836b" textLabel="Phosphate" groupRef="c24a4" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="298.0" centerY="162.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01429" />
+  </DataNode>
+  <DataNode elementID="b8600" textLabel="Phosphate" groupRef="c24a4" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="298.0" centerY="142.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01429" />
+  </DataNode>
+  <DataNode elementID="bb44a" textLabel="ATP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="296.0" centerY="92.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00538" />
+  </DataNode>
+  <DataNode elementID="c34c7" textLabel="carboxylic acid AMP ester" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="164.74166666666667" centerY="187.98333333333332" width="139.48333333333332" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="cb1fb" textLabel="L-Glutamine" groupRef="db47d" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="271.0" centerY="319.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00641" />
+  </DataNode>
+  <DataNode elementID="e0361" textLabel="carboxylic acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="164.48333333333332" centerY="69.98333333333333" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ef007" textLabel="carboxyl CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="164.0" centerY="279.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="f36a5" textLabel="Taurine" groupRef="db47d" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="271.0" centerY="299.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00251" />
+  </DataNode>
+  <Interaction elementID="a9d87" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="256.0" y="92.0" elementID="a44ef" elementRef="bb44a" relX="-1.0" relY="0.0" />
+    <Point x="166.0" y="122.0" elementID="d051b" />
+    <Point x="250.0" y="152.0" elementID="d09cf" elementRef="c24a4" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bbbac" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="164.0" y="289.0" elementID="fbbf1" elementRef="ef007" relX="0.0" relY="1.0" />
+    <Point x="164.0" y="348.0" elementID="cbcaf" elementRef="b56c0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="cb47e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="164.74166666666667" y="197.98333333333332" elementID="e3d6d" elementRef="c34c7" relX="0.0" relY="1.0" />
+    <Point x="164.0" y="269.0" elementID="b7b88" elementRef="ef007" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d91ed" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="164.48333333333332" y="79.98333333333333" elementID="d5c10" elementRef="e0361" relX="0.0" relY="1.0" />
+    <Point x="164.74166666666667" y="177.98333333333332" elementID="cb30c" elementRef="c34c7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e4497" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="223.0" y="299.0" elementID="d1d09" elementRef="db47d" relX="-1.0" relY="0.0" />
+    <Point x="164.0" y="348.0" elementID="b4a89" elementRef="b56c0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Group elementID="c24a4" groupType="Group" />
+  <Group elementID="db47d" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="amino acid metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000011" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Catalytic cycle of mammalian FMOs" organism="Bos taurus" width="799.0" height="622.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Flavin-containing monooxygenases are a group of enzymes that catalyze the oxygenation of substrates, mostly soft nucleophiles via the cofactor flavin. In the catalytic cycle, FMO binds to NADPH and to FAD, causing the reduction of FAD to FADH2. Next, molecular oxygen binds to the complex and is reduced to a hydroperoxide form, called 4a-hydroperoxyflavin. This complex is stable in the absence of a substrate. When a substrate is present, the distal O-atom of the complex is transferred to the substrate yielding an oxygenated product and leaving the flavincomplex 4a-hydroxyflavin that breaks down releasing water. At the end of the cycle, NADP+ is released resulting in FAD as the flavin form to start a next cycle.  
+In contrast to cytochrome P450 enzymes, FMOs are generally not induced or inhibited by xenobiotic substances. The five human FMOs are tissue specific: FMO1 is present in the human fetal liver and the adult kidney, FMO2 is present in the lung and FMO3 is present in the adult liver.</Comment>
+  <Comment source="WikiPathways-category">Molecular Function</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP688_r79222 WP688(79222)]  with a 100.0% conversion rate.</Comment>
+  <CitationRef citationID="b1e" />
+  <CitationRef citationID="a03" />
+  <CitationRef citationID="c20" />
+  <CitationRef citationID="deb" />
+  <CitationRef citationID="b64" />
+  <CitationRef citationID="f5f" />
+  <CitationRef citationID="bab" />
+  <CitationRef citationID="d52" />
+  <DataNode elementID="a2816" textLabel="H2O" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="613.0" centerY="318.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB02111" />
+  </DataNode>
+  <DataNode elementID="ab5ef" textLabel="NADP+" groupRef="c61ae" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="533.0" centerY="275.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00217" />
+  </DataNode>
+  <DataNode elementID="adf1d" textLabel="Substrate-O" color="339900" fontSize="10" vAlign="Middle" type="Metabolite" centerX="535.0" centerY="185.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c3226" textLabel="FMO2" groupRef="f55ab" color="ff3333" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="387.01666666666654" centerY="296.51666666666665" width="82.03333333333336" height="24.033333333333303" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000094963</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000002974" />
+  </DataNode>
+  <DataNode elementID="cd240" textLabel="NADP+" groupRef="a4794" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="247.0" centerY="270.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00217" />
+  </DataNode>
+  <DataNode elementID="ce06a" textLabel="O2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="126.0" centerY="315.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01377" />
+  </DataNode>
+  <DataNode elementID="d053e" textLabel="FAD-OH" groupRef="c61ae" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="533.0" centerY="255.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="d2064" textLabel="NADP+" groupRef="ff029" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="247.0" centerY="382.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00217" />
+  </DataNode>
+  <DataNode elementID="d527b" textLabel="FMO3" groupRef="f55ab" color="ff3333" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="387.01666666666665" centerY="320.55" width="82.03333333333333" height="24.033333333333335" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000007933</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000020597" />
+  </DataNode>
+  <DataNode elementID="db893" textLabel="NADP+" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="611.9833333333333" centerY="437.48333333333335" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00217" />
+  </DataNode>
+  <DataNode elementID="dc92d" textLabel="NADP+" groupRef="aeefa" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="533.0" centerY="388.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00217" />
+  </DataNode>
+  <DataNode elementID="e61bc" textLabel="NADPH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="144.0" centerY="442.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00221" />
+  </DataNode>
+  <DataNode elementID="e9ba0" textLabel="FAD" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="384.0" centerY="463.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01248" />
+  </DataNode>
+  <DataNode elementID="ed359" textLabel="Substrate" color="339900" fontSize="10" vAlign="Middle" type="Metabolite" centerX="248.0" centerY="176.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="f0943" textLabel="FAD" groupRef="aeefa" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="533.0" centerY="368.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01248" />
+  </DataNode>
+  <DataNode elementID="f4048" textLabel="FADH2" groupRef="ff029" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="247.0" centerY="362.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="25244872" />
+  </DataNode>
+  <DataNode elementID="fa807" textLabel="FAD-OOH" groupRef="a4794" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="247.0" centerY="250.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="fb003" textLabel="FMO1" groupRef="f55ab" color="ff3333" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="387.01666666666665" centerY="273.48333333333335" width="82.03333333333336" height="24.033333333333303" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000010932</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021408" />
+  </DataNode>
+  <DataNode elementID="fd4b8" textLabel="H+" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="145.0" centerY="489.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15378" />
+  </DataNode>
+  <DataNode elementID="ff415" textLabel="FMO5" groupRef="f55ab" color="ff3333" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="387.01666666666665" centerY="368.61666666666645" width="82.03333333333336" height="24.033333333333303" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000131781</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010841" />
+  </DataNode>
+  <DataNode elementID="ffa70" textLabel="FMO4" groupRef="f55ab" color="ff3333" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="387.01666666666665" centerY="344.5833333333332" width="82.0333333333333" height="24.033333333333303" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000076258</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016685" />
+  </DataNode>
+  <Interaction elementID="aa08d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="387.01666666666665" y="249.4666666666667" elementID="fef8b" elementRef="f55ab" relX="0.0" relY="-1.0" />
+    <Point x="386.82775518694285" y="219.0101488192324" elementID="b372d" elementRef="a9c45" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="adb30" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="533.0" y="410.0" elementID="ab327" elementRef="aeefa" relX="0.0" relY="1.0" />
+    <Point x="571.9833333333333" y="437.48333333333335" elementID="a994e" elementRef="db893" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b441b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="387.01666666666665" y="392.6333333333331" elementID="c388c" elementRef="f55ab" relX="0.0" relY="1.0" />
+    <Point x="493.1761943399822" y="452.0315629973454" elementID="c5d2c" elementRef="f6d9a" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c568d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="387.01666666666665" y="392.6333333333331" elementID="b9103" elementRef="f55ab" relX="0.0" relY="1.0" />
+    <Point x="276.2080250877811" y="447.87958198560466" elementID="cae8e" elementRef="bf029" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c9995" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="333.9999999999999" y="321.0499999999999" elementID="fe8c4" elementRef="f55ab" relX="-1.0" relY="0.0" />
+    <Point x="247.0" y="320.8" elementID="cca3e" elementRef="cf3f5" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c9af4" zOrder="12288" lineThickness="1.0" color="ff3333">
+    <Xref dataSource="" identifier="" />
+    <Point x="247.0" y="340.0" elementID="d1719" elementRef="ff029" relX="0.0" relY="-1.0" />
+    <Point x="247.0" y="292.0" elementID="d096d" elementRef="a4794" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="cf3f5" />
+  </Interaction>
+  <Interaction elementID="cf266" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff3333">
+    <Xref dataSource="" identifier="" />
+    <Point x="344.0" y="463.0" elementID="b4ebc" elementRef="e9ba0" relX="-1.0" relY="0.0" />
+    <Point x="247.0" y="404.0" elementID="d41b9" elementRef="ff029" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.5616639958138471" shapeType="None" elementID="bf029" />
+  </Interaction>
+  <Interaction elementID="cfb95" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="185.0" y="489.0" elementID="dd98c" elementRef="fd4b8" relX="1.0" relY="0.0" />
+    <Point x="247.0" y="404.0" elementID="af595" elementRef="ff029" relX="0.0" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="d3a6f" zOrder="12288" lineThickness="1.0" color="ff3333">
+    <Xref dataSource="" identifier="" />
+    <Point x="533.0" y="297.0" elementID="b3206" elementRef="c61ae" relX="0.0" relY="1.0" />
+    <Point x="533.0" y="346.0" elementID="ba149" elementRef="aeefa" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.47368421052631576" shapeType="None" elementID="a92c2" />
+  </Interaction>
+  <Interaction elementID="dcfea" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="533.0" y="297.0" elementID="bfa2a" elementRef="c61ae" relX="0.0" relY="1.0" />
+    <Point x="573.0" y="318.0" elementID="dcd25" elementRef="a2816" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="dec02" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff3333">
+    <Xref dataSource="" identifier="" />
+    <Point x="533.0" y="410.0" elementID="dbddd" elementRef="aeefa" relX="0.0" relY="1.0" />
+    <Point x="424.0" y="463.0" elementID="a99df" elementRef="e9ba0" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4685925428283506" shapeType="None" elementID="f6d9a" />
+  </Interaction>
+  <Interaction elementID="e2048" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="166.0" y="315.0" elementID="e8970" elementRef="ce06a" relX="1.0" relY="0.0" />
+    <Point x="247.0" y="292.0" elementID="a794f" elementRef="a4794" relX="0.0" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="e6555" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="248.0" y="186.0" elementID="c7b35" elementRef="ed359" relX="0.0" relY="1.0" />
+    <Point x="391.5" y="218.0" elementID="b77be" />
+    <Point x="535.0" y="195.0" elementID="c2524" elementRef="adf1d" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ea758" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="440.0333333333334" y="321.0499999999999" elementID="c8074" elementRef="f55ab" relX="1.0" relY="0.0" />
+    <Point x="533.0" y="320.2105263157895" elementID="b74d5" elementRef="a92c2" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ef2a1" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff3333">
+    <Xref dataSource="" identifier="" />
+    <Point x="247.0" y="228.0" elementID="b98f0" elementRef="a4794" relX="0.0" relY="-1.0" />
+    <Point x="390.0" y="219.0" elementID="e0389" />
+    <Point x="533.0" y="233.0" elementID="a48ed" elementRef="c61ae" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4870267507241439" shapeType="None" elementID="a9c45" />
+  </Interaction>
+  <Interaction elementID="f3c9f" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="247.0" y="404.0" elementID="a4b3e" elementRef="ff029" relX="0.0" relY="1.0" />
+    <Point x="184.0" y="442.0" elementID="d8b32" elementRef="e61bc" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Label elementID="c6786" textLabel="Endoplasmic reticulum" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="88.5" centerY="66.0" width="131.0" height="20.0" zOrder="28672" />
+  <Shape elementID="a78d2" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="394.98333333333335" centerY="325.5" width="748.0333333333333" height="533.0" zOrder="16384" rotation="0.0" />
+  <Group elementID="a4794" groupType="Complex" />
+  <Group elementID="aeefa" groupType="Complex" />
+  <Group elementID="c61ae" groupType="Complex" />
+  <Group elementID="f55ab" groupType="Complex" />
+  <Group elementID="ff029" groupType="Complex" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Some distinctions between flavin-containing and cytochrome P450 monooxygenases." URL="" citationID="d52" year="2005" source="Biochem Biophys Res Commun">
+      <Xref dataSource="PubMed" identifier="16112078" />
+      <Author name="Cashman JR" />
+    </Citation>
+    <Citation title="Mammalian flavin-containing monooxygenases: structure/function, genetic polymorphisms and role in drug metabolism." URL="" citationID="c20" year="2005" source="Pharmacol Ther">
+      <Xref dataSource="PubMed" identifier="15922018" />
+      <Author name="Krueger SK" />
+      <Author name="Williams DE" />
+    </Citation>
+    <Citation title="Flavin-containing monooxygenases: enzymes adapted for multisubstrate specificity." URL="" citationID="deb" year="1990" source="Trends Pharmacol Sci">
+      <Xref dataSource="PubMed" identifier="2203193" />
+      <Author name="Ziegler DM" />
+    </Citation>
+    <Citation title="Flavin-containing monooxygenases: mutations, disease and drug response." URL="" citationID="b64" year="2008" source="Trends Pharmacol Sci">
+      <Xref dataSource="PubMed" identifier="18423897" />
+      <Author name="Phillips IR" />
+      <Author name="Shephard EA" />
+    </Citation>
+    <Citation title="Human flavin-containing monooxygenases." URL="" citationID="bab" year="2006" source="Annu Rev Pharmacol Toxicol">
+      <Xref dataSource="PubMed" identifier="16402899" />
+      <Author name="Cashman JR" />
+      <Author name="Zhang J" />
+    </Citation>
+    <Citation title="The mammalian flavin-containing monooxygenases: molecular characterization and regulation of expression." URL="" citationID="a03" year="1994" source="Toxicol Appl Pharmacol">
+      <Xref dataSource="PubMed" identifier="8128486" />
+      <Author name="Hines RN" />
+      <Author name="Cashman JR" />
+      <Author name="Philpot RM" />
+      <Author name="Williams DE" />
+      <Author name="Ziegler DM" />
+    </Citation>
+    <Citation title="Potential roles of flavin-containing monooxygenases in sulfoxidation reactions of l-methionine, N-acetyl-l-methionine and peptides containing l-methionine." URL="" citationID="f5f" year="2005" source="Biochim Biophys Acta">
+      <Xref dataSource="PubMed" identifier="15680226" />
+      <Author name="Elfarra AA" />
+      <Author name="Krause RJ" />
+    </Citation>
+    <Citation title="Multisubstrate flavin-containing monooxygenases: applications of mechanism to specificity." URL="" citationID="b1e" year="1995" source="Chem Biol Interact">
+      <Xref dataSource="PubMed" identifier="7720105" />
+      <Author name="Poulsen LL" />
+      <Author name="Ziegler DM" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="cellular detoxification pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000124" />
+  </OntologyTerms>
+</Pathway>
+

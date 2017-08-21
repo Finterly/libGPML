@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="mir34a and TGIF2 in osteoclastogenesis" revision="20141014" organism="Homo sapiens" width="569.3711882229226" height="465.3312302839117">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">A model for how miR-34a suppresses osteoclastogenesis.</Comment>
+  <CitationRef citationID="aa1" />
+  <DataNode elementID="a2566" textLabel="TGIF2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="191.3491646220352" centerY="201.2327958873702" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="60436" />
+  </DataNode>
+  <DataNode elementID="c7277" textLabel="Osteoblast" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="134.0" centerY="319.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP322" />
+  </DataNode>
+  <DataNode elementID="dd318" textLabel="Osteoclast" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="318.0" centerY="319.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP12" />
+  </DataNode>
+  <DataNode elementID="f7d37" textLabel="MIR34A" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="191.96490536277608" centerY="141.93170931183562" width="71.25" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="407040" />
+  </DataNode>
+  <Interaction elementID="id13b2c329" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="278.0" y="319.0" elementID="c2108" elementRef="dd318" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point x="174.0" y="319.0" elementID="d440a" elementRef="c7277" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id74ea9c51" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="318.93252699873256" y="117.43483981650564" elementID="a6406" elementRef="a9ec0" relX="0.0" relY="1.0" />
+    <Point x="318.0" y="309.0" elementID="b93a7" elementRef="dd318" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4418163671853904" shapeType="None" elementID="ed971" />
+  </Interaction>
+  <Interaction elementID="id95e42bf7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="231.3491646220352" y="201.2327958873702" elementID="f52dc" elementRef="a2566" relX="1.0" relY="0.0" />
+    <Point x="318.52052130785023" y="202.0714629680645" elementID="ced40" elementRef="ed971" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide96e7eaa" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="191.96490536277608" y="151.93170931183562" elementID="bcfda" elementRef="f7d37" relX="0.0" relY="1.0" />
+    <Point x="191.3491646220352" y="191.2327958873702" elementID="efdcb" elementRef="a2566" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="c3ee3" zOrder="36889" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="459.37118822292257" y="319.8485804416406" elementID="d6138" elementRef="d06db" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point x="358.0" y="319.0" elementID="d8497" elementRef="dd318" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="d06db" textLabel="Tumor cell" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="499.37118822292257" centerY="319.8485804416406" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="da6c7" textLabel="Bone resorption" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="321.74553101997907" centerY="406.94006309148267" width="98.88538380651951" height="20.0" zOrder="28672" />
+  <Label elementID="e1493" textLabel="Osteoclast progenitor" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="425.65472017759066" centerY="98.09381937142194" width="135.02073840401965" height="20.0" zOrder="28672" />
+  <Label elementID="ebd69" textLabel="Osteoporosis" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="224.1293375394322" centerY="304.71503680336457" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="fcf71" textLabel="Bone metastasis" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="410.1146161934806" centerY="303.02418506834863" width="116.7613038906416" height="20.51524710830729" zOrder="28672" />
+  <Shape elementID="f7783" shapeType="Rectangle" fillColor="ffcc99" fontSize="10" vAlign="Middle" centerX="317.3104626708728" centerY="405.11277602523666" width="433.72818086225027" height="60.436908517350055" zOrder="-2" rotation="0.0" />
+  <Shape elementID="a9ec0" shapeType="Oval" lineThickness="6.0" color="ff6600" fontSize="10" vAlign="Middle" centerX="318.93252699873256" centerY="96.3270705683766" width="69.26837214210948" height="42.21553849625809" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="d7f07" groupRef="b2888" shapeType="RoundedRectangle" lineThickness="3.0" color="0099ff" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="137.381358879104" centerY="373.6337333984778" width="37.32843805263366" height="18.665994662360422" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="aa1f5" groupRef="d3a63" shapeType="Triangle" color="ff9900" fillColor="ff9900" fontSize="10" vAlign="Middle" centerX="300.8551726927118" centerY="362.93775782577103" width="15.850005525526978" height="4.772559569116378" zOrder="36856" rotation="1.714950713908051" />
+  <Shape elementID="f6749" groupRef="d3a63" shapeType="RoundedRectangle" color="ff9900" fillColor="ff9900" fontSize="10" vAlign="Middle" centerX="318.4385060260457" centerY="349.8544244924377" width="44.500000000000114" height="28.499999999999957" zOrder="36857" rotation="0.0" />
+  <Shape elementID="fb50f" groupRef="d3a63" shapeType="Triangle" color="ff9900" fillColor="ff9900" fontSize="10" vAlign="Middle" centerX="308.8551726927118" centerY="365.93775782577103" width="15.850005525526978" height="4.772559569116378" zOrder="36858" rotation="1.714950713908051" />
+  <Shape elementID="d2a5b" groupRef="d3a63" shapeType="Triangle" color="ff9900" fillColor="ff9900" fontSize="10" vAlign="Middle" centerX="314.8551726927118" centerY="366.9377578257708" width="15.850005525526978" height="4.772559569116378" zOrder="36859" rotation="1.714950713908051" />
+  <Shape elementID="bfabe" groupRef="d3a63" shapeType="Triangle" color="ff9900" fillColor="ff9900" fontSize="10" vAlign="Middle" centerX="322.8551726927118" centerY="366.9377578257708" width="15.850005525526978" height="4.772559569116378" zOrder="36860" rotation="1.714950713908051" />
+  <Shape elementID="a51d6" groupRef="d3a63" shapeType="Triangle" color="ff9900" fillColor="ff9900" fontSize="10" vAlign="Middle" centerX="331.8551726927118" centerY="364.93775782577103" width="15.850005525526978" height="4.772559569116378" zOrder="36861" rotation="1.714950713908051" />
+  <Shape elementID="d22b7" groupRef="d3a63" shapeType="Oval" color="cccccc" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="329.92954244061116" centerY="347.1388782739501" width="8.033333333333333" height="8.033333333333333" zOrder="36862" rotation="0.0" />
+  <Shape elementID="e25d0" shapeType="Oval" color="cccccc" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="323.18716599476454" centerY="344.1388782739501" width="8.033333333333333" height="8.033333333333333" zOrder="36863" rotation="3.998819790169428" />
+  <Shape elementID="bdec2" shapeType="Oval" color="cccccc" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="316.90831445414835" centerY="341.7799847165273" width="4.591036414566107" height="5.315546218487613" zOrder="36864" rotation="0.0" />
+  <Shape elementID="a216c" groupRef="d3a63" shapeType="Oval" color="cccccc" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="317.92954244061116" centerY="351.1388782739501" width="8.033333333333333" height="8.033333333333333" zOrder="36865" rotation="0.0" />
+  <Shape elementID="d7002" groupRef="b2888" shapeType="Oval" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="139.72760847365132" centerY="374.7283203336678" width="15.470989817965187" height="5.977145399196775" zOrder="36867" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="bb372" groupRef="b14bb" shapeType="RoundedRectangle" lineThickness="3.0" color="0099ff" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="176.8240507823645" centerY="374.1700110010015" width="37.32843805263366" height="18.665994662360422" zOrder="36869" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="c9566" groupRef="b14bb" shapeType="Oval" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="182.32487450940354" centerY="374.2130732253608" width="15.470989817965187" height="5.977145399196775" zOrder="36870" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="dfde8" groupRef="a4ced" shapeType="RoundedRectangle" lineThickness="3.0" color="0099ff" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="216.26674268562323" centerY="373.65476389269435" width="37.32843805263366" height="18.665994662360422" zOrder="36872" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="ed67c" groupRef="a4ced" shapeType="Oval" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="218.6129922801701" centerY="374.7493508278843" width="15.470989817965187" height="5.977145399196775" zOrder="36873" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="b57b8" groupRef="f2fc6" shapeType="RoundedRectangle" lineThickness="3.0" color="0099ff" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="255.1941874805771" centerY="373.6757943869109" width="37.32843805263366" height="18.665994662360422" zOrder="36875" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="d9431" groupRef="f2fc6" shapeType="Oval" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="257.54043707512426" centerY="374.77038132210095" width="15.470989817965187" height="5.977145399196775" zOrder="36876" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="e4c65" groupRef="a4393" shapeType="RoundedRectangle" lineThickness="3.0" color="0099ff" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="411.35612228604464" centerY="373.1605472786035" width="37.32843805263366" height="18.665994662360422" zOrder="36878" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="df30f" groupRef="a4393" shapeType="Oval" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="413.70237188059156" centerY="374.25513421379344" width="15.470989817965187" height="5.977145399196775" zOrder="36879" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="af107" groupRef="ff0f1" shapeType="RoundedRectangle" lineThickness="3.0" color="0099ff" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="491.80827791170236" centerY="372.6453001702969" width="37.32843805263366" height="18.665994662360422" zOrder="36881" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="bdd33" groupRef="ff0f1" shapeType="Oval" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="494.15452750624934" centerY="373.73988710548684" width="15.470989817965187" height="5.977145399196775" zOrder="36882" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="d0945" groupRef="d160a" shapeType="RoundedRectangle" lineThickness="3.0" color="0099ff" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="371.4192137686956" centerY="373.18157777282005" width="37.32843805263366" height="18.665994662360422" zOrder="36884" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="d815e" groupRef="d160a" shapeType="Oval" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="373.76546336324236" centerY="374.27616470801" width="15.470989817965187" height="5.977145399196775" zOrder="36885" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="a7021" groupRef="b70cd" shapeType="RoundedRectangle" lineThickness="3.0" color="0099ff" fillColor="99ccff" fontSize="10" vAlign="Middle" centerX="451.33509179182863" centerY="373.1815777728207" width="37.32843805263366" height="18.665994662360422" zOrder="36887" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="bd610" groupRef="b70cd" shapeType="Oval" color="666666" fillColor="cccccc" fontSize="10" vAlign="Middle" centerX="453.68134138637555" centerY="374.27616470801064" width="15.470989817965187" height="5.977145399196775" zOrder="36888" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="d341b" groupRef="d6f1f" shapeType="Oval" lineThickness="3.0" color="cc0000" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="462.5473560812333" centerY="378.930477385726" width="32.539507115145284" height="21.87777916682549" zOrder="36892" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="a30c7" groupRef="d6f1f" shapeType="Oval" color="666666" fillColor="ffcccc" fontSize="10" vAlign="Middle" centerX="463.4700336298403" centerY="379.2165419655447" width="19.66351626073173" height="9.831611796493746" zOrder="36893" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="adda5" groupRef="db323" shapeType="Oval" lineThickness="3.0" color="cc0000" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="493.57785029784634" centerY="377.3637055665882" width="32.539507115145284" height="21.87777916682549" zOrder="36895" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="b14ba" groupRef="db323" shapeType="Oval" color="666666" fillColor="ffcccc" fontSize="10" vAlign="Middle" centerX="493.4490031356239" centerY="376.598245435576" width="19.66351626073173" height="9.831611796493746" zOrder="36896" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="ec989" groupRef="b9dfe" shapeType="Oval" lineThickness="3.0" color="cc0000" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="482.54735608123326" centerY="362.12711250665154" width="32.539507115145284" height="21.87777916682549" zOrder="36898" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="c1214" groupRef="b9dfe" shapeType="Oval" color="666666" fillColor="ffcccc" fontSize="10" vAlign="Middle" centerX="483.47003362984043" centerY="362.4131770864702" width="19.66351626073173" height="9.831611796493746" zOrder="36899" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Shape elementID="b089f" groupRef="ffa9f" shapeType="Oval" lineThickness="3.0" color="cc0000" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="455.7439912021598" centerY="363.7149148200064" width="32.539507115145284" height="21.87777916682549" zOrder="36901" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="daaad" groupRef="ffa9f" shapeType="Oval" color="666666" fillColor="ffcccc" fontSize="10" vAlign="Middle" centerX="457.22397684750615" centerY="364.0009793998246" width="18.548900067251445" height="9.831611796493746" zOrder="36902" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+  </Shape>
+  <Group elementID="a4393" groupType="Group" />
+  <Group elementID="a4ced" groupType="Group" />
+  <Group elementID="a5fc0" groupType="Group" />
+  <Group elementID="acfca" groupType="Group" />
+  <Group elementID="b14bb" groupType="Group" />
+  <Group elementID="b2888" groupType="Group" />
+  <Group elementID="b70cd" groupType="Group" />
+  <Group elementID="b7f68" groupType="Group" />
+  <Group elementID="b9dfe" groupType="Group" />
+  <Group elementID="c639e" groupType="Group" />
+  <Group elementID="d14ad" groupType="Group" />
+  <Group elementID="d14cb" groupType="Group" />
+  <Group elementID="d160a" groupType="Group" />
+  <Group elementID="d3a63" groupType="Group" />
+  <Group elementID="d6943" groupType="Group" />
+  <Group elementID="d6f1f" groupType="Group" />
+  <Group elementID="d78cc" groupType="Group" />
+  <Group elementID="db323" groupType="Group" />
+  <Group elementID="e0aa0" groupType="Group" />
+  <Group elementID="f2fc6" groupType="Group" />
+  <Group elementID="f5843" groupType="Group" />
+  <Group elementID="fa84f" groupType="Group" />
+  <Group elementID="ff0f1" groupType="Group" />
+  <Group elementID="ffa9f" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="miR-34a blocks osteoporosis and bone metastasis by inhibiting osteoclastogenesis and Tgif2." URL="" citationID="aa1" year="2014" source="Nature">
+      <Xref dataSource="PubMed" identifier="25043055" />
+      <Author name="Krzeszinski JY" />
+      <Author name="Wei W" />
+      <Author name="Huynh H" />
+      <Author name="Jin Z" />
+      <Author name="Wang X" />
+      <Author name="Chang TC" />
+      <Author name="Xie XJ" />
+      <Author name="He L" />
+      <Author name="Mangala LS" />
+      <Author name="Lopez-Berestein G" />
+      <Author name="Sood AK" />
+      <Author name="Mendell JT" />
+      <Author name="Wan Y" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+    <OntologyTerm term="cancer" ontology="Disease" ontologyTermID="DOID:162" />
+    <OntologyTerm term="bone disease" ontology="Disease" ontologyTermID="DOID:0080001" />
+    <OntologyTerm term="skeletogenic cell" ontology="Cell Type" ontologyTermID="CL:0007001" />
+  </OntologyTerms>
+</Pathway>
+

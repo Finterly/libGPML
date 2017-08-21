@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="b10">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SSTR2</bp:displayName>
+ <bp:entityReference rdf:resource="id63" />
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="id101">
+ <bp:xref rdf:resource="id102" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Prostaglandin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="b11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DRD4</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id100">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">58-82-2</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id71">
+ <bp:xref rdf:resource="id72" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGER1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="c34">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AGTR1</bp:displayName>
+ <bp:entityReference rdf:resource="id47" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id70">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6755</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id73">
+ <bp:xref rdf:resource="id74" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGER2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id72">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5731</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id75">
+ <bp:xref rdf:resource="id76" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGDR</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id107">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id107</bp:displayName>
+ <bp:right rdf:resource="f6a" />
+ <bp:left rdf:resource="b91" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id74">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5732</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id106">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01389</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id77">
+ <bp:xref rdf:resource="id78" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGER3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id109">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id109</bp:displayName>
+ <bp:right rdf:resource="a55" />
+ <bp:right rdf:resource="bb2" />
+ <bp:right rdf:resource="e22" />
+ <bp:right rdf:resource="c89" />
+ <bp:right rdf:resource="a47" />
+ <bp:right rdf:resource="ca7" />
+ <bp:right rdf:resource="d16" />
+ <bp:right rdf:resource="f1f" />
+ <bp:right rdf:resource="f90" />
+ <bp:right rdf:resource="b83" />
+ <bp:right rdf:resource="f0f" />
+ <bp:right rdf:resource="d08" />
+ <bp:left rdf:resource="dcc" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id76">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5729</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id108">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id108</bp:displayName>
+ <bp:right rdf:resource="c34" />
+ <bp:right rdf:resource="ebe" />
+ <bp:left rdf:resource="ed65c" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id79">
+ <bp:xref rdf:resource="id80" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGER4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMoleculeReference rdf:about="id103">
+ <bp:xref rdf:resource="id104" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Angiotensin II</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:Protein rdf:about="f17">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HRH2</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id78">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5733</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id102">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">745-65-3</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id105">
+ <bp:xref rdf:resource="id106" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Melatonin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id104">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01035</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="d4e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGIR</bp:displayName>
+ <bp:entityReference rdf:resource="id83" />
+</bp:Protein>
+
+<bp:Protein rdf:about="f0f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR7</bp:displayName>
+ <bp:entityReference rdf:resource="id45" />
+</bp:Protein>
+
+<bp:Protein rdf:about="c40">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGER2</bp:displayName>
+ <bp:entityReference rdf:resource="id73" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id60">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4987</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id62">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6751</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id61">
+ <bp:xref rdf:resource="id62" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SSTR1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id64">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6752</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id63">
+ <bp:xref rdf:resource="id64" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SSTR2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id66">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6753</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id65">
+ <bp:xref rdf:resource="id66" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SSTR3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id68">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6754</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id67">
+ <bp:xref rdf:resource="id68" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SSTR4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id69">
+ <bp:xref rdf:resource="id70" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SSTR5</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="b1f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dopamine</bp:displayName>
+ <bp:entityReference rdf:resource="id93" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="a91">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SSTR5</bp:displayName>
+ <bp:entityReference rdf:resource="id69" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="ed65c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Angiotensin II</bp:displayName>
+ <bp:entityReference rdf:resource="id103" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="f1f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR2C</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b34">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OPRL1</bp:displayName>
+ <bp:entityReference rdf:resource="id59" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id91">
+ <bp:xref rdf:resource="id92" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MTNR1B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="c55">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Prostaglandin</bp:displayName>
+ <bp:entityReference rdf:resource="id101" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id90">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4543</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id93">
+ <bp:xref rdf:resource="id94" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dopamine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id92">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4544</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id95">
+ <bp:xref rdf:resource="id96" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Histamine</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id94">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">62-31-7</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="a19">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DRD2</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:SmallMoleculeReference rdf:about="id97">
+ <bp:xref rdf:resource="id98" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Serotonin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id96">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">51-45-6</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DRD2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMoleculeReference rdf:about="id99">
+ <bp:xref rdf:resource="id100" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bradykinin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1816</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id98">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">50-67-9</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CAS</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DRD3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1813</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DRD4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1814</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e8c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGDR</bp:displayName>
+ <bp:entityReference rdf:resource="id75" />
+</bp:Protein>
+
+<bp:Protein rdf:about="f2d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DRD1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b43">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OPRK1</bp:displayName>
+ <bp:entityReference rdf:resource="id55" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id80">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5734</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="c68">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Opioid</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="e22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR2A</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id82">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5737</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id81">
+ <bp:xref rdf:resource="id82" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGFR</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="c67">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GPR50</bp:displayName>
+ <bp:entityReference rdf:resource="id87" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id84">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5739</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="c69">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Somatostatin</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id83">
+ <bp:xref rdf:resource="id84" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGIR</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id86">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6915</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="ebe">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AGTR2</bp:displayName>
+ <bp:entityReference rdf:resource="id49" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id85">
+ <bp:xref rdf:resource="id86" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TBXA2R</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id88">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">9248</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id87">
+ <bp:xref rdf:resource="id88" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GPR50</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="d08">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1E</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id89">
+ <bp:xref rdf:resource="id90" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MTNR1A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="b3a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MTNR1A</bp:displayName>
+ <bp:entityReference rdf:resource="id89" />
+</bp:Protein>
+
+<bp:Protein rdf:about="db2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HRH3</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id110" />
+ <bp:pathwayComponent rdf:resource="id112" />
+ <bp:pathwayComponent rdf:resource="id111" />
+ <bp:pathwayComponent rdf:resource="id107" />
+ <bp:pathwayComponent rdf:resource="id109" />
+ <bp:pathwayComponent rdf:resource="id108" />
+ <bp:pathwayComponent rdf:resource="id114" />
+ <bp:pathwayComponent rdf:resource="id113" />
+ <bp:pathwayComponent rdf:resource="id115" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">GPCRs, Class A Rhodopsin-like</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was created using the GPCRDB (Horn et al., 1998), http://www.gpcr.org/7tm/ (originally at http://www.cmbi.kun.nl/7tm/). The groupings are based on the GPCR phylogenetic tree available from the GPCRDB and the training sets used by Karchin et al. (Bioinformatics, 2002, pg. 147-159). The labels indicate children and grandchildren of the various classes of GPCRs as described by these references. (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Molecular Function (WikiPathways-category)</bp:comment>
+</bp:Pathway>
+
+<bp:Protein rdf:about="ed5">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HRH1</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:60598</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Opioid</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:64628</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Somatostatin</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1812</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DRD1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="beb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SSTR1</bp:displayName>
+ <bp:entityReference rdf:resource="id61" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DRD5</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="a30">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OPRM1</bp:displayName>
+ <bp:entityReference rdf:resource="id57" />
+</bp:Protein>
+
+<bp:Protein rdf:about="d16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1A</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3351</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="dae">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OPRD1</bp:displayName>
+ <bp:entityReference rdf:resource="id53" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR2B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3350</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id35">
+ <bp:xref rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR2C</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3357</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id37">
+ <bp:xref rdf:resource="id38" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR2A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="b4a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGER1</bp:displayName>
+ <bp:entityReference rdf:resource="id71" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id36">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3358</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3352</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1D</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1B</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="b4f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGER4</bp:displayName>
+ <bp:entityReference rdf:resource="id79" />
+</bp:Protein>
+
+<bp:Protein rdf:about="ca7">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR6</bp:displayName>
+ <bp:entityReference rdf:resource="id43" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b62">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGFR</bp:displayName>
+ <bp:entityReference rdf:resource="id81" />
+</bp:Protein>
+
+<bp:Protein rdf:about="adf">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SSTR4</bp:displayName>
+ <bp:entityReference rdf:resource="id67" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a47">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR2B</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+</bp:Protein>
+
+<bp:Protein rdf:about="c89">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR5A</bp:displayName>
+ <bp:entityReference rdf:resource="id41" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3274</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">11255</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HRH3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3354</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1E</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3355</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1F</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HRH1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1815</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HRH2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3269</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="a52">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">MTNR1B</bp:displayName>
+ <bp:entityReference rdf:resource="id91" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a55">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1F</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:Protein>
+
+<bp:Protein rdf:about="cab">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PTGER3</bp:displayName>
+ <bp:entityReference rdf:resource="id77" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="dcc">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Serotonin</bp:displayName>
+ <bp:entityReference rdf:resource="id97" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id51">
+ <bp:xref rdf:resource="id52" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BDKRB2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id50">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">186</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id53">
+ <bp:xref rdf:resource="id54" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OPRD1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id52">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">624</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id55">
+ <bp:xref rdf:resource="id56" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OPRK1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id54">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4985</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id57">
+ <bp:xref rdf:resource="id58" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OPRM1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id56">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4986</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id59">
+ <bp:xref rdf:resource="id60" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">OPRL1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id58">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4988</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="f6a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BDKRB2</bp:displayName>
+ <bp:entityReference rdf:resource="id51" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id49">
+ <bp:xref rdf:resource="id50" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AGTR2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="b83">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR4</bp:displayName>
+ <bp:entityReference rdf:resource="id39" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="d4677">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Melatonin</bp:displayName>
+ <bp:entityReference rdf:resource="id105" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id110">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id110</bp:displayName>
+ <bp:right rdf:resource="e8c" />
+ <bp:right rdf:resource="d4e" />
+ <bp:right rdf:resource="cab" />
+ <bp:right rdf:resource="b4f" />
+ <bp:right rdf:resource="e69" />
+ <bp:right rdf:resource="b4a" />
+ <bp:right rdf:resource="c40" />
+ <bp:right rdf:resource="b62" />
+ <bp:left rdf:resource="c55" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="f82">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SSTR3</bp:displayName>
+ <bp:entityReference rdf:resource="id65" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id112">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id112</bp:displayName>
+ <bp:right rdf:resource="d3b" />
+ <bp:right rdf:resource="e5b" />
+ <bp:right rdf:resource="b11" />
+ <bp:right rdf:resource="a19" />
+ <bp:right rdf:resource="f2d" />
+ <bp:left rdf:resource="b1f" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id111">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id111</bp:displayName>
+ <bp:right rdf:resource="b3a" />
+ <bp:right rdf:resource="c67" />
+ <bp:right rdf:resource="a52" />
+ <bp:left rdf:resource="d4677" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id40">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3360</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id42">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3361</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id41">
+ <bp:xref rdf:resource="id42" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR5A</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="e69">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TBXA2R</bp:displayName>
+ <bp:entityReference rdf:resource="id85" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id44">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3362</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id43">
+ <bp:xref rdf:resource="id44" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR6</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id46">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3363</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id114">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id114</bp:displayName>
+ <bp:right rdf:resource="b43" />
+ <bp:right rdf:resource="b34" />
+ <bp:right rdf:resource="dae" />
+ <bp:right rdf:resource="a30" />
+ <bp:left rdf:resource="c68" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id45">
+ <bp:xref rdf:resource="id46" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR7</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id113">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id113</bp:displayName>
+ <bp:right rdf:resource="db2" />
+ <bp:right rdf:resource="ed5" />
+ <bp:right rdf:resource="f17" />
+ <bp:left rdf:resource="fb4" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id48">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">185</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id47">
+ <bp:xref rdf:resource="id48" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">AGTR1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id115">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id115</bp:displayName>
+ <bp:right rdf:resource="b10" />
+ <bp:right rdf:resource="f82" />
+ <bp:right rdf:resource="adf" />
+ <bp:right rdf:resource="a91" />
+ <bp:right rdf:resource="beb" />
+ <bp:left rdf:resource="c69" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id39">
+ <bp:xref rdf:resource="id40" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id38">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3356</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="d3b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DRD3</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:Protein>
+
+<bp:Protein rdf:about="e5b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">DRD5</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:Protein rdf:about="bb2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1B</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="fb4">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Histamine</bp:displayName>
+ <bp:entityReference rdf:resource="id95" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="b91">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bradykinin</bp:displayName>
+ <bp:entityReference rdf:resource="id99" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="f90">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HTR1D</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+</bp:Protein>
+</rdf:RDF>

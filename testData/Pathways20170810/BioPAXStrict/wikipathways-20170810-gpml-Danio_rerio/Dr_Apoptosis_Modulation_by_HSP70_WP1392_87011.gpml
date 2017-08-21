@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="a77">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">casp2</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:Protein rdf:about="d54">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">apaf1</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:Protein>
+
+<bp:Protein rdf:about="f99">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pdcd8</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apoptosis Inducing Factor (GenMAPP remarks)</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id31">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id31</bp:displayName>
+ <bp:right rdf:resource="f99" />
+ <bp:left rdf:resource="c08" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id30">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id30</bp:displayName>
+ <bp:left rdf:resource="a77" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id33">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id33</bp:displayName>
+ <bp:right rdf:resource="d93" />
+ <bp:left rdf:resource="a9d" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id32">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id32</bp:displayName>
+ <bp:left rdf:resource="f99" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id35">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id35</bp:displayName>
+ <bp:right rdf:resource="c5c" />
+ <bp:right rdf:resource="a77" />
+ <bp:right rdf:resource="b86" />
+ <bp:right rdf:resource="ee2" />
+ <bp:left rdf:resource="d54" />
+ <bp:left rdf:resource="a69" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id34">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id34</bp:displayName>
+ <bp:right rdf:resource="d93" />
+ <bp:left rdf:resource="c08" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id37">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id37</bp:displayName>
+ <bp:left rdf:resource="c5c" />
+ <bp:left rdf:resource="a77" />
+ <bp:left rdf:resource="b86" />
+ <bp:left rdf:resource="ee2" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id36">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id36</bp:displayName>
+ <bp:left rdf:resource="e7e" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id28">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id28</bp:displayName>
+ <bp:left rdf:resource="d93" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id27">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id27</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="ee2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">casp7</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id29">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id29</bp:displayName>
+ <bp:right rdf:resource="a9d" />
+ <bp:left rdf:resource="b63" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="b63">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">fas</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">492763</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">569698</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="c08">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsp70.3</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mapk10</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSDARG00000021924</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsp70.3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id26">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id26</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id25">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id25</bp:displayName>
+ <bp:right rdf:resource="f99" />
+</bp:BiochemicalReaction>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">apaf1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">373125</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">casp9</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="e7e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsp70.3</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">58131</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">casp7</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">552927</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">fas</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">553634</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">pdcd8</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">768248</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="cfb">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">hsp70.3</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b86">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">casp3a</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a69">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">casp9</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id40">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id40</bp:displayName>
+ <bp:right rdf:resource="b63" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="a9d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">map3k1</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="c5c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">casp6</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:Catalysis rdf:about="id39">
+ <bp:controller rdf:resource="d54" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id39</bp:displayName>
+ <bp:controlled rdf:resource="id37" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id38">
+ <bp:controller rdf:resource="a69" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id38</bp:displayName>
+ <bp:controlled rdf:resource="id37" />
+</bp:Catalysis>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Danio rerio</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Danio rerio</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id40" />
+ <bp:pathwayComponent rdf:resource="id31" />
+ <bp:pathwayComponent rdf:resource="id30" />
+ <bp:pathwayComponent rdf:resource="id33" />
+ <bp:pathwayComponent rdf:resource="id32" />
+ <bp:pathwayComponent rdf:resource="id35" />
+ <bp:pathwayComponent rdf:resource="id34" />
+ <bp:pathwayComponent rdf:resource="id26" />
+ <bp:pathwayComponent rdf:resource="id37" />
+ <bp:pathwayComponent rdf:resource="id25" />
+ <bp:pathwayComponent rdf:resource="id36" />
+ <bp:pathwayComponent rdf:resource="id28" />
+ <bp:pathwayComponent rdf:resource="id39" />
+ <bp:pathwayComponent rdf:resource="id27" />
+ <bp:pathwayComponent rdf:resource="id38" />
+ <bp:pathwayComponent rdf:resource="id29" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Apoptosis Modulation by HSP70</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cellular Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Right click for info. Adapted from rat by GenMAPP (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://www.wikipathways.org/index.php?title=Pathway:WP384&amp;amp;amp;amp;oldid=29910 WP384(r29910)] with a 65% conversion rate. (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">References of HSP70 and inhibition of apoptosis:&amp;amp;amp;amp;#xD;
+1. Garrido C, Schmitt E, Cande C, Vahsen N, Parcellier A, Kroemer G. HSP27 and HSP70: potentially oncogenic apoptosis inhibitors. Cell Cycle. 2003 Nov-Dec;2(6):579-84. PMID: 14512773 [PubMed - in process]&amp;amp;amp;amp;#xD;
+2.  Mosser DD, Caron AW, Bourget L, Meriin AB, Sherman MY, Morimoto RI, Massie B. The chaperone function of hsp70 is required for protection against stress-induced apoptosis. Mol Cell Biol. 2000 Oct;20(19):7146-59.  PMID: 10982831 [PubMed - indexed for MEDLINE]&amp;amp;amp;amp;#xD;
+3. Saleh A, Srinivasula SM, Balkir L, Robbins PD, Alnemri ES. Negative regulation of the Apaf-1 apoptosome by Hsp70. Nat Cell Biol. 2000 Aug;2(8):476-83. PMID: 10934467 [PubMed - indexed for MEDLINE]&amp;amp;amp;amp;#xD;
+4. Schett G, Steiner CW, Groger M, Winkler S, Graninger W, Smolen J, Xu Q, Steiner G. Activation of Fas inhibits heat-induced activation of HSF1 and up-regulation of hsp70. FASEB J. 1999 May;13(8):833-42.  PMID: 10224227 [PubMed - indexed for MEDLINE]&amp;amp;amp;amp;#xD;
+5. Gabai VL, Meriin AB, Yaglom JA, Volloch VZ, Sherman MY. Role of Hsp70 in regulation of stress-kinase JNK: implications in apoptosis and aging. FEBS Lett. 1998 Oct 30;438(1-2):1-4. Review. PMID: 9821948 [PubMed - indexed for MEDLINE]&amp;amp;amp;amp;#xD;
+6. Jaattela M, Wissing D, Kokholm K, Kallunki T, Egeblad M. Hsp70 exerts its anti-apoptotic function downstream of caspase-3-like proteases.&amp;amp;amp;amp;#xD;
+EMBO J. 1998 Nov 2;17(21):6124-34. PMID: 9799222 [PubMed - indexed for MEDLINE]&amp;amp;amp;amp;#xD;
+7. Orsini F, Migliaccio E, Moroni M, Contursi C, Raker VA, Piccini D, Martin-Padura I, Pelliccia G, Trinei M, Bono M, Puri C, Tacchetti C, Ferrini M, Mannucci R, Nicoletti I, Lanfrancone L, Giorgio M, Pelicci P. The life span determinant p66Shc localizes to mitochondria where it associates with mtHsp70 and regulates trans-membrane potential. J Biol Chem. 2004 Apr 12 [Epub ahead of print] &amp;amp;amp;amp;#xD;
+PMID: 15078873 [PubMed - as supplied by publisher]&amp;amp;amp;amp;#xD;
+8. Gurbuxani S, Schmitt E, Cande C, Parcellier A, Hammann A, Daugas E, Kouranti I, Spahr C, Pance A, Kroemer G, Garrido C. Heat shock protein 70 binding inhibits the nuclear import of apoptosis-inducing factor. Oncogene. 2003 Oct 2;22(43):6669-78. &amp;amp;amp;amp;#xD;
+PMID: 14555980 [PubMed - indexed for MEDLINE]&amp;amp;amp;amp;#xD;
+ (GenMAPP notes)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSDARG00000088180</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">map3k1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSDARG00000017905</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">casp3a</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">373118</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">casp2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">casp6</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="d93">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mapk10</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:Protein>
+</rdf:RDF>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Wnt myofibroblastic activation of Hepatic Stellate Cells" organism="Rattus norvegicus" width="617.0" height="430.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">This pathway is modeled after figure 5 from Kweon et al. The WNT signaling pathway activates Beta-catenin which inhibits serine and cysteine proteases. This inhibition  of these proteins increases MeCP2 stability and induces epigenetic repression of Ppar-y leading to hepatic stellate cell myofibroblastic activation causing liver fibrosis which can lead to liver cirrhosis.</Comment>
+  <CitationRef citationID="c8a" />
+  <DataNode elementID="a71d9" textLabel="Leupeptin" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="547.0" centerY="187.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="72429" />
+  </DataNode>
+  <DataNode elementID="b2e79" textLabel="Ser/Cys Peptidases" fontSize="10" vAlign="Middle" type="Protein" centerX="401.5" centerY="187.0" width="93.0" height="20.0" zOrder="32768">
+    <Comment>General Term</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b4227" textLabel="Ppar-y" fontSize="10" vAlign="Middle" type="Protein" centerX="401.0" centerY="315.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000008839" />
+  </DataNode>
+  <DataNode elementID="b5ba0" textLabel="Wnt-3a" fontSize="10" vAlign="Middle" type="Protein" centerX="401.0" centerY="63.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSRNOT00000064505" />
+  </DataNode>
+  <DataNode elementID="bf3a9" textLabel="FJ9" color="0033ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="541.0" centerY="89.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>Small molecule inhibitor, see article for more information. Identifier not found</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e478e" textLabel="DPI" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="234.0" centerY="124.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="3101" />
+  </DataNode>
+  <DataNode elementID="ebb25" textLabel="MeCP2" fontSize="10" vAlign="Middle" type="Protein" centerX="401.0" centerY="255.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSRNOG00000056659" />
+  </DataNode>
+  <DataNode elementID="f5ccf" textLabel="Beta-Catenin" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="401.0" centerY="124.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="84353" />
+  </DataNode>
+  <Interaction elementID="id25d152a2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="501.0" y="89.0" elementID="cdf9d" elementRef="bf3a9" relX="-1.0" relY="0.0" />
+    <Point x="401.0" y="89.4" elementID="c90bc" elementRef="bc557" relX="0.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id5eb85429" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="401.0" y="325.0" elementID="c62c9" elementRef="b4227" relX="0.0" relY="1.0" />
+    <Point x="400.5" y="380.0" elementID="f3c82" elementRef="f27f1" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id70608c4c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="274.0" y="124.0" elementID="a0ec4" elementRef="e478e" relX="1.0" relY="0.0" />
+    <Point x="361.0" y="124.0" elementID="d73b2" elementRef="f5ccf" relX="-1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="id71b14d33" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="401.0" y="73.0" elementID="c32aa" elementRef="b5ba0" relX="0.0" relY="1.0" />
+    <Point x="401.0" y="114.0" elementID="a07f9" elementRef="f5ccf" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="bc557" />
+  </Interaction>
+  <Interaction elementID="id95661fd7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="401.0" y="134.0" elementID="b6781" elementRef="f5ccf" relX="0.0" relY="1.0" />
+    <Point x="401.5" y="177.0" elementID="c332f" elementRef="b2e79" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="idb571d4b6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="401.5" y="197.0" elementID="eeb84" elementRef="b2e79" relX="0.0" relY="1.0" />
+    <Point x="401.0" y="245.0" elementID="d810e" elementRef="ebb25" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="idb829c7c2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="401.0" y="265.0" elementID="d79af" elementRef="ebb25" relX="0.0" relY="1.0" />
+    <Point x="401.0" y="305.0" elementID="a13a5" elementRef="b4227" relX="0.0" relY="-1.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Interaction elementID="idd5379ef" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="507.0" y="187.0" elementID="f0180" elementRef="a71d9" relX="-1.0" relY="0.0" />
+    <Point x="448.0" y="187.0" elementID="b3ae1" elementRef="b2e79" relX="1.0" relY="0.0" arrowHead="mim-inhibition" />
+  </Interaction>
+  <Label elementID="a21ec" textLabel="Epigenetic Repression" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="480.5" centerY="284.0" width="145.0" height="20.0" zOrder="28672" />
+  <Label elementID="f27f1" textLabel="HSC myofibroblastic activation" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="400.5" centerY="390.0" width="193.0" height="20.0" zOrder="28672" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Wnt Pathway Stabilizes MeCP2 Protein to Repress PPAR-γ in Activation of Hepatic Stellate Cells." URL="" citationID="c8a" year="2016" source="PLoS One">
+      <Xref dataSource="PubMed" identifier="27214381" />
+      <Author name="Kweon SM" />
+      <Author name="Chi F" />
+      <Author name="Higashiyama R" />
+      <Author name="Lai K" />
+      <Author name="Tsukamoto H" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000003" />
+    <OntologyTerm term="hepatic stellate cell" ontology="Cell Type" ontologyTermID="CL:0000632" />
+    <OntologyTerm term="liver cirrhosis" ontology="Disease" ontologyTermID="DOID:5082" />
+  </OntologyTerms>
+</Pathway>
+

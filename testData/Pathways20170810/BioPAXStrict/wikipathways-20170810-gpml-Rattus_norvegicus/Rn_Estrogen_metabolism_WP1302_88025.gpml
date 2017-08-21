@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:SmallMolecule rdf:about="c711c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Methoxyestrone 3-glucuronide</bp:displayName>
+ <bp:entityReference rdf:resource="id39" />
+</bp:SmallMolecule>
+
+<bp:Complex rdf:about="id71">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id71</bp:displayName>
+ <bp:component rdf:resource="f6f14" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id70">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id70</bp:displayName>
+ <bp:component rdf:resource="c13d1" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id72">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id72</bp:displayName>
+ <bp:component rdf:resource="b58ec" />
+</bp:Complex>
+
+<bp:SmallMolecule rdf:about="e8b90">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrone-17-glucuronide</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="d1985">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ugt1a3</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="b8a91">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oxygen</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="acfb8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Arse</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:Protein>
+
+<bp:Catalysis rdf:about="id60">
+ <bp:controller rdf:resource="d2893" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id60</bp:displayName>
+ <bp:controlled rdf:resource="id59" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id62">
+ <bp:controller rdf:resource="e3dfa" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id62</bp:displayName>
+ <bp:controlled rdf:resource="id61" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id61">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id61</bp:displayName>
+ <bp:right rdf:resource="c711c" />
+ <bp:left rdf:resource="fbd2c" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="a1522">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cyp1a2</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:Complex rdf:about="id64">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id64</bp:displayName>
+ <bp:component rdf:resource="acfb8" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id63">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id63</bp:displayName>
+ <bp:component rdf:resource="a1522" />
+ <bp:component rdf:resource="bab8d" />
+</bp:Complex>
+
+<bp:SmallMolecule rdf:about="a1c3d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrone</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:SmallMolecule>
+
+<bp:Complex rdf:about="id66">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id66</bp:displayName>
+ <bp:component rdf:resource="a71a8" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id65">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id65</bp:displayName>
+ <bp:component rdf:resource="ec856" />
+ <bp:component rdf:resource="d5254" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id68">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id68</bp:displayName>
+ <bp:component rdf:resource="ce733" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id67">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id67</bp:displayName>
+ <bp:component rdf:resource="a0acf" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id69">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id69</bp:displayName>
+ <bp:component rdf:resource="e3a57" />
+</bp:Complex>
+
+<bp:Protein rdf:about="e3a57">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ugt1a3</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a71a8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ugt1a3</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b5b9e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nqo1</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="ccb38">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Superoxide</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="f152e">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4-Methoxyestradiol</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">16a-Hydroxyestrone</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000016173</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="c6219">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrone-2,3-quinone</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">4-Methoxyestradiol</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Methoxyestradiol</bp:name>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00335</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Comt</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="b67d1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oxygen</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00405</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="c6de6">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Comt</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a08d8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Comt</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="fbd2c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Methoxyestrone</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="f1c4c">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nqo1</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="bbc30">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oxygen</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="e3dfa">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ugt1a3</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:Protein>
+
+<bp:Protein rdf:about="c13d1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ugt1a3</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a0acf">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ugt1a3</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:Protein>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rattus norvegicus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id60" />
+ <bp:pathwayComponent rdf:resource="id51" />
+ <bp:pathwayComponent rdf:resource="id62" />
+ <bp:pathwayComponent rdf:resource="id50" />
+ <bp:pathwayComponent rdf:resource="id61" />
+ <bp:pathwayComponent rdf:resource="id42" />
+ <bp:pathwayComponent rdf:resource="id53" />
+ <bp:pathwayComponent rdf:resource="id41" />
+ <bp:pathwayComponent rdf:resource="id52" />
+ <bp:pathwayComponent rdf:resource="id44" />
+ <bp:pathwayComponent rdf:resource="id55" />
+ <bp:pathwayComponent rdf:resource="id43" />
+ <bp:pathwayComponent rdf:resource="id54" />
+ <bp:pathwayComponent rdf:resource="id46" />
+ <bp:pathwayComponent rdf:resource="id57" />
+ <bp:pathwayComponent rdf:resource="id45" />
+ <bp:pathwayComponent rdf:resource="id56" />
+ <bp:pathwayComponent rdf:resource="id48" />
+ <bp:pathwayComponent rdf:resource="id59" />
+ <bp:pathwayComponent rdf:resource="id47" />
+ <bp:pathwayComponent rdf:resource="id58" />
+ <bp:pathwayComponent rdf:resource="id49" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrogen metabolism</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://www.wikipathways.org/index.php?title=Pathway:WP697&amp;amp;oldid=30275 WP697(r30275)] with a 75% conversion rate. (HomologyConvert)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00145</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrone</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00338</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Hydroxyestradiol</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000019500</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cyp1a1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cyp1a2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:SmallMolecule rdf:about="dcf13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Methoxyestradiol</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oxygen</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000012772</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Superoxide</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="bcfb5">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oxygen</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01377</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id35">
+ <bp:xref rdf:resource="id36" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrone-17-glucuronide</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrone-3-glucuronide</bp:name>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB02168</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id37">
+ <bp:xref rdf:resource="id38" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ugt1a3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id36">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB04483</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">148381</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubChem-compound</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrone-2,3-quinone</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:ProteinReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nqo1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="ce733">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ugt1a3</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="e16e9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Superoxide</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="c6cde">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">16a-Hydroxyestrone</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="b58ec">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ugt1a3</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:Protein>
+
+<bp:Protein rdf:about="d1c07">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Comt</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000001957</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000028350</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Arse</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00343</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Hydroxyestrone</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00010</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Methoxyestrone</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMoleculeReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrone sulfate</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000001889</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ste</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB01425</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="d5d62">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Superoxide</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="b4ce2">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrone sulfate</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="a66b3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Comt</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:Protein rdf:about="ec856">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cyp1a1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id51">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id51</bp:displayName>
+ <bp:right rdf:resource="a02aa" />
+ <bp:left rdf:resource="c6219" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id50">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id50</bp:displayName>
+ <bp:left rdf:resource="c6219" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id53">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id53</bp:displayName>
+ <bp:right rdf:resource="ccb38" />
+ <bp:left rdf:resource="bcfb5" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id52">
+ <bp:controller rdf:resource="b5b9e" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id52</bp:displayName>
+ <bp:controlled rdf:resource="id51" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id55">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id55</bp:displayName>
+ <bp:right rdf:resource="d5d62" />
+ <bp:left rdf:resource="b8a91" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id54">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id54</bp:displayName>
+ <bp:right rdf:resource="fac11" />
+ <bp:left rdf:resource="bbc30" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="f1ddd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Estrone-3-glucuronide</bp:displayName>
+ <bp:entityReference rdf:resource="id35" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id57">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id57</bp:displayName>
+ <bp:right rdf:resource="f1ddd" />
+ <bp:left rdf:resource="a1c3d" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id56">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id56</bp:displayName>
+ <bp:right rdf:resource="e16e9" />
+ <bp:left rdf:resource="b67d1" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="f6f14">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ugt1a3</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id59">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id59</bp:displayName>
+ <bp:right rdf:resource="e8b90" />
+ <bp:left rdf:resource="a1c3d" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id58">
+ <bp:controller rdf:resource="d2893" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id58</bp:displayName>
+ <bp:controlled rdf:resource="id57" />
+</bp:Catalysis>
+
+<bp:Catalysis rdf:about="id49">
+ <bp:controller rdf:resource="d1c07" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id49</bp:displayName>
+ <bp:controlled rdf:resource="id48" />
+</bp:Catalysis>
+
+<bp:Protein rdf:about="d2893">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ugt1a3</bp:displayName>
+ <bp:entityReference rdf:resource="id37" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="b1f8b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Hydroxyestradiol</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:SmallMolecule rdf:about="fac11">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Superoxide</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id40">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB04482</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id42">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id42</bp:displayName>
+ <bp:right rdf:resource="dcf13" />
+ <bp:left rdf:resource="b1f8b" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id41">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id41</bp:displayName>
+ <bp:right rdf:resource="c6cde" />
+ <bp:left rdf:resource="a1c3d" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id44">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id44</bp:displayName>
+ <bp:right rdf:resource="b4ce2" />
+ <bp:left rdf:resource="a1c3d" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id43">
+ <bp:controller rdf:resource="a08d8" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id43</bp:displayName>
+ <bp:controlled rdf:resource="id42" />
+</bp:Catalysis>
+
+<bp:BiochemicalReaction rdf:about="id46">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id46</bp:displayName>
+ <bp:right rdf:resource="a1c3d" />
+ <bp:left rdf:resource="b4ce2" />
+</bp:BiochemicalReaction>
+
+<bp:Catalysis rdf:about="id45">
+ <bp:controller rdf:resource="a52bd" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Catalysis id45</bp:displayName>
+ <bp:controlled rdf:resource="id44" />
+</bp:Catalysis>
+
+<bp:SmallMolecule rdf:about="a02aa">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Hydroxyestrone</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:SmallMolecule>
+
+<bp:BiochemicalReaction rdf:about="id48">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id48</bp:displayName>
+ <bp:right rdf:resource="fbd2c" />
+ <bp:left rdf:resource="a02aa" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="a52bd">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ste</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id47">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id47</bp:displayName>
+ <bp:right rdf:resource="a02aa" />
+ <bp:left rdf:resource="a1c3d" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMoleculeReference rdf:about="id39">
+ <bp:xref rdf:resource="id40" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2-Methoxyestrone 3-glucuronide</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id38">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSRNOG00000018740</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="d5254">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cyp1a2</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:Protein rdf:about="bab8d">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cyp1a1</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+</rdf:RDF>

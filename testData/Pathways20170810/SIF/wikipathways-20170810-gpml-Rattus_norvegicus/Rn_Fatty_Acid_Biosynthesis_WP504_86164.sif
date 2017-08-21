@@ -1,0 +1,35 @@
+TCA Cycle	Line	R7
+R7	Arrow	Citric acid
+Oxalacetic acid	Line	R3
+R3	Arrow	TCA Cycle
+Crotonoyl-CoA	Line	R21
+R21	mim-conversion	Butyryl-CoA
+Fasn	Line	R48
+R48	mim-conversion	R21
+Butyryl-CoA	Line	R23
+R23	mim-conversion	Malonyl-CoA
+beta-hydroxybutyryl	Line	R19
+R19	mim-conversion	Crotonoyl-CoA
+Acacb	Line	R58
+Acaca	Line	R58
+R58	mim-conversion	R13
+Palmityl-CoA	Line	R27
+R27	mim-conversion	Palmitic acid
+Fasn	Line	R50
+R50	mim-conversion	R27
+Pyruvic acid	Line	R1
+R1	mim-conversion	Oxalacetic acid
+Butyryl-CoA	Line	R25
+R25	mim-conversion	Palmityl-CoA
+Acly	Line	R56
+R56	mim-conversion	R9
+Fasn	Line	R46
+R46	mim-conversion	R19
+Acetyl-CoA	Line	R13
+R13	mim-conversion	Malonyl-CoA
+Pc	Line	R54
+R54	mim-conversion	R1
+Pyruvic acid	Line	R5
+R5	Arrow	TCA Cycle
+Citric acid	Line	R9
+R9	mim-conversion	Acetyl-CoA

@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Prostaglandin Synthesis and Regulation" organism="Homo sapiens" width="874.0" height="580.0" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">A prostaglandin is any member of a group of lipid compounds that are derived enzymatically from fatty acids and have important functions in the animal body. Every prostaglandin contains 20 carbon atoms, including a 5-carbon ring. They are mediators and have a variety of strong physiological effects, such as regulating the contraction and relaxation of smooth muscle tissue.[1] Prostaglandins are not hormones, but autocrine or paracrine, which are locally acting messenger molecules. They differ from hormones in that they are not produced at a discrete site but in many places throughout the human body. Also, their target cells are present in the immediate vicinity of the site of their secretion (of which there are many).
+The prostaglandins, together with the thromboxanes and prostacyclins, form the prostanoid class of fatty acid derivatives, a subclass of eicosanoids.
+Source: Wikipedia ([[wikipedia:Prostaglandin]])</Comment>
+  <Comment source="GenMAPP notes">Adapted from Gross, G et al. 2000, Society for Gynecologic Investigation; 7:88-95</Comment>
+  <Comment source="GenMAPP remarks"></Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <CitationRef citationID="ca2" />
+  <DataNode elementID="fbe76" textLabel="Cortisone" color="0000ff" fontWeight="Bold" fontSize="10" vAlign="Middle" type="Metabolite" centerX="791.0" centerY="487.66666666666674" width="65.33333333333333" height="16.0" zOrder="28672">
+    <Xref dataSource="ChEBI" identifier="CHEBI:16962" />
+  </DataNode>
+  <DataNode elementID="a3b" textLabel="EDNRA" groupRef="b29c7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="685.6666666666666" centerY="106.33333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="EDNRA | endothelin receptor type A" />
+    <Xref dataSource="Entrez Gene" identifier="1909" />
+  </DataNode>
+  <DataNode elementID="a46" textLabel="PTGS2" groupRef="fd8db" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="536.6666666666666" centerY="305.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PTGS2 | prostaglandin-endoperoxide synthase 2 (..." />
+    <Xref dataSource="Entrez Gene" identifier="5743" />
+  </DataNode>
+  <DataNode elementID="a4b" textLabel="Prostaglandin H2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="537.6666666666666" centerY="358.3333333333333" width="113.33333333333333" height="16.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="745-65-3" />
+  </DataNode>
+  <DataNode elementID="a6d" textLabel="EDNRB" groupRef="b29c7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="685.6666666666666" centerY="126.33333333333331" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="EDNRB | endothelin receptor type B" />
+    <Xref dataSource="Entrez Gene" identifier="1910" />
+  </DataNode>
+  <DataNode elementID="a6d94" textLabel="Calcium" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="660.5" centerY="396.0" width="49.0" height="14.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00464" />
+  </DataNode>
+  <DataNode elementID="aa116" textLabel="Cell Membrane&#xA;Phospholipids" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="537.5" centerY="110.5" width="101.0" height="29.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:16247" />
+  </DataNode>
+  <DataNode elementID="abc" textLabel="PTGIS" groupRef="c1f76" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="380.6666666666667" centerY="398.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PTGIS | prostaglandin I2 (prostacyclin) synthas..." />
+    <Xref dataSource="Entrez Gene" identifier="5740" />
+  </DataNode>
+  <DataNode elementID="ac1" textLabel="S100A10" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="296.3333333333333" centerY="135.66666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="GenMAPP remarks">PMID: 12962548 relationship with Annexin 2</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="S100A10 | S100 calcium binding protein A10 (ann..." />
+    <Xref dataSource="Entrez Gene" identifier="6281" />
+  </DataNode>
+  <DataNode elementID="ad5" textLabel="PRL" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="108.33333333333333" centerY="294.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PRL | prolactin" />
+    <Xref dataSource="Entrez Gene" identifier="5617" />
+  </DataNode>
+  <DataNode elementID="b04" textLabel="HPGD" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="530.3333333333334" centerY="471.3333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HPGD | hydroxyprostaglandin dehydrogenase 15-(N..." />
+    <Xref dataSource="Entrez Gene" identifier="3248" />
+  </DataNode>
+  <DataNode elementID="b13" textLabel="S100A6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="361.3333333333333" centerY="294.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="S100A6 | S100 calcium binding protein A6 (calcy..." />
+    <Xref dataSource="Entrez Gene" identifier="6277" />
+  </DataNode>
+  <DataNode elementID="b5a38" textLabel="Gq signaling&#xA;pathway" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="281.0" centerY="404.5" width="88.0" height="27.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP35" />
+  </DataNode>
+  <DataNode elementID="b5f" textLabel="ANXA3" groupRef="dd3aa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="262.3333333333333" centerY="221.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ANXA3 | annexin A3" />
+    <Xref dataSource="Entrez Gene" identifier="306" />
+  </DataNode>
+  <DataNode elementID="b60" textLabel="TBXAS1" groupRef="c1f76" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="380.6666666666667" centerY="358.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="TBXAS1 | thromboxane A synthase 1 (platelet cy..." />
+    <Xref dataSource="Entrez Gene" identifier="6916" />
+  </DataNode>
+  <DataNode elementID="bdf" textLabel="ANXA8" groupRef="dd3aa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="296.3333333333333" centerY="242.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ANXA8 | annexin A8" />
+    <Xref dataSource="Entrez Gene" identifier="244" />
+  </DataNode>
+  <DataNode elementID="bea99" textLabel="PGI2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="448.0" centerY="403.5" width="36.0" height="15.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01335" />
+  </DataNode>
+  <DataNode elementID="c0a" textLabel="PTGIR" groupRef="af7c6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="172.33329264322916" centerY="464.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PTGIR | prostaglandin I2 (prostacyclin) recepto..." />
+    <Xref dataSource="Entrez Gene" identifier="5739" />
+  </DataNode>
+  <DataNode elementID="c13" textLabel="ANXA5" groupRef="dd3aa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="329.6666666666667" centerY="201.33333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ANXA5 | annexin A5" />
+    <Xref dataSource="Entrez Gene" identifier="308" />
+  </DataNode>
+  <DataNode elementID="c1c" textLabel="Progesterone" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="408.3333333333333" centerY="471.6666666666667" width="90.33333333333333" height="16.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="57-83-0" />
+  </DataNode>
+  <DataNode elementID="c51f8" textLabel="PGE2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="553.0" centerY="404.0" width="42.0" height="14.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB03175" />
+  </DataNode>
+  <DataNode elementID="c5db4" textLabel="TXA2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="497.5" centerY="403.75" width="41.0" height="15.5" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01452" />
+  </DataNode>
+  <DataNode elementID="c60" textLabel="HSD11B1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="750.6666666666666" centerY="437.8333333333333" width="66.66666666666667" height="20.333333333333332" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HSD11B1 | hydroxysteroid (11-beta) dehydrogenas..." />
+    <Xref dataSource="Entrez Gene" identifier="3290" />
+  </DataNode>
+  <DataNode elementID="c69" textLabel="PLA2G4A" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="594.6666666666666" centerY="174.66666666666666" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PLA2G4A | phospholipase A2 group IVA (cytosoli..." />
+    <Xref dataSource="Entrez Gene" identifier="5321" />
+  </DataNode>
+  <DataNode elementID="c73" textLabel="PTGS1" groupRef="fd8db" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="536.6666666666666" centerY="285.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PTGS1 | prostaglandin-endoperoxide synthase 1 (..." />
+    <Xref dataSource="Entrez Gene" identifier="5742" />
+  </DataNode>
+  <DataNode elementID="c7d" textLabel="PTGDS" groupRef="c1f76" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="380.6666666666667" centerY="378.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PTGDS | prostaglandin D2 synthase 21kDa (brain)..." />
+    <Xref dataSource="Entrez Gene" identifier="5730" />
+  </DataNode>
+  <DataNode elementID="c7d8a" textLabel="Calcium" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="433.5" centerY="177.0" width="49.0" height="14.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00464" />
+  </DataNode>
+  <DataNode elementID="ca9" textLabel="ANXA1" groupRef="dd3aa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="262.3333333333333" centerY="181.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ANXA1 | annexin A1" />
+    <Xref dataSource="Entrez Gene" identifier="301" />
+  </DataNode>
+  <DataNode elementID="d3e" textLabel="Cortisol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="700.6666666666666" centerY="471.6666666666667" width="53.333333333333336" height="16.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="50-23-7" />
+  </DataNode>
+  <DataNode elementID="d51" textLabel="PTGDR" groupRef="af7c6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="172.33333333333334" centerY="344.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PTGDR | prostaglandin D2 receptor (DP)" />
+    <Xref dataSource="Entrez Gene" identifier="5729" />
+  </DataNode>
+  <DataNode elementID="d7d" textLabel="CYP11A1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="293.6666666666667" centerY="471.3333333333333" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP11A1 | cytochrome P450 family 11 subfamily..." />
+    <Xref dataSource="Entrez Gene" identifier="1583" />
+  </DataNode>
+  <DataNode elementID="d93" textLabel="ANXA4" groupRef="dd3aa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="329.6666666666667" centerY="181.33333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ANXA4 | annexin A4" />
+    <Xref dataSource="Entrez Gene" identifier="307" />
+  </DataNode>
+  <DataNode elementID="da6" textLabel="PTGER1" groupRef="af7c6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="172.33333333333334" centerY="364.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PTGER1 | prostaglandin E receptor 1 (subtype EP..." />
+    <Xref dataSource="Entrez Gene" identifier="5731" />
+  </DataNode>
+  <DataNode elementID="dc7" textLabel="HSD11B2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="750.6666666666666" centerY="534.0" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HSD11B2 | hydroxysteroid (11-beta) dehydrogenas..." />
+    <Xref dataSource="Entrez Gene" identifier="3291" />
+  </DataNode>
+  <DataNode elementID="deb" textLabel="Arachidonic Acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="536.6666666666666" centerY="257.3333333333333" width="113.33333333333333" height="16.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="506-32-1" />
+  </DataNode>
+  <DataNode elementID="df6" textLabel="PTGER4" groupRef="af7c6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="172.33329264322916" centerY="424.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PTGER4 | prostaglandin E receptor 4 (subtype EP..." />
+    <Xref dataSource="Entrez Gene" identifier="5734" />
+  </DataNode>
+  <DataNode elementID="df8" textLabel="PTGFR" groupRef="af7c6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="172.33329264322916" centerY="444.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PTGFR | prostaglandin F receptor (FP)" />
+    <Xref dataSource="Entrez Gene" identifier="5737" />
+  </DataNode>
+  <DataNode elementID="e09f2" textLabel="PGF2a" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="54.0" centerY="404.5" width="40.0" height="14.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01139" />
+  </DataNode>
+  <DataNode elementID="e35" textLabel="Cortisol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="781.3333333333334" centerY="384.0" width="53.333333333333336" height="16.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="50-23-7" />
+  </DataNode>
+  <DataNode elementID="e5e" textLabel="ANXA6" groupRef="dd3aa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="329.6666666666667" centerY="221.33333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ANXA6 | annexin A6" />
+    <Xref dataSource="Entrez Gene" identifier="309" />
+  </DataNode>
+  <DataNode elementID="e8a" textLabel="SCGB1A1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="388.3333333333333" centerY="83.33333333333333" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Comment source="GenMAPP remarks">PMID: 7615804, PMID: 3292559</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SCGB1A1 | secretoglobin family 1A member 1 (u..." />
+    <Xref dataSource="Entrez Gene" identifier="7356" />
+  </DataNode>
+  <DataNode elementID="ec4" textLabel="PTGER2" groupRef="af7c6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="172.33333333333334" centerY="384.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PTGER2 | prostaglandin E receptor 2 (subtype EP..." />
+    <Xref dataSource="Entrez Gene" identifier="5732" />
+  </DataNode>
+  <DataNode elementID="ee932" textLabel="PGF2a" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="608.0" centerY="404.5" width="40.0" height="14.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01139" />
+  </DataNode>
+  <DataNode elementID="f1f" textLabel="PTGER3" groupRef="af7c6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="172.33333333333334" centerY="404.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PTGER3 | prostaglandin E receptor 3 (subtype EP..." />
+    <Xref dataSource="Entrez Gene" identifier="5733" />
+  </DataNode>
+  <DataNode elementID="f37" textLabel="ANXA2" groupRef="dd3aa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="262.3333333333333" centerY="201.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ANXA2 | annexin A2" />
+    <Xref dataSource="Entrez Gene" identifier="302" />
+  </DataNode>
+  <DataNode elementID="f94" textLabel="EDN1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="685.6666666666666" centerY="52.333333333333336" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="GenMAPP remarks">PMID: 1474344</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="EDN1 | endothelin 1" />
+    <Xref dataSource="Entrez Gene" identifier="1906" />
+  </DataNode>
+  <Interaction elementID="id1015d8f7" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="781.3333333333335" y="376.0" elementID="a86a3" elementRef="e35" relX="0.0" relY="-1.0" />
+    <Point x="537.3922409816404" y="327.00715010609827" elementID="f6f2d" elementRef="fe8a2" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id13f69d21" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="608.0" y="411.5" elementID="b7bfe" elementRef="ee932" relX="0.0" relY="1.0" />
+    <Point x="717.3333333333333" y="437.83333333333326" elementID="d3307" elementRef="c60" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.5851833955633648" shapeType="None" elementID="f4293" />
+  </Interaction>
+  <Interaction elementID="id25fa030f" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="537.6666666666666" y="366.3333333333333" elementID="e9671" elementRef="a4b" relX="0.0" relY="1.0" />
+    <Point x="497.5" y="396.0" elementID="d1b41" elementRef="c5db4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="a0b27" />
+  </Interaction>
+  <Interaction elementID="id2c277a73" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="537.6666666666666" y="366.3333333333333" elementID="a9997" elementRef="a4b" relX="0.0" relY="1.0" />
+    <Point x="553.0" y="397.0" elementID="a31ef" elementRef="c51f8" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="c621a" />
+  </Interaction>
+  <Interaction elementID="id30b53ba7" zOrder="12288" lineThickness="1.0" color="9933ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="433.5" y="184.0" elementID="c1b28" elementRef="c7d8a" relX="0.0" relY="1.0" />
+    <Point x="436.6966886003395" y="203.99310023879644" elementID="ba6ac" elementRef="e78ab" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id3883b8fa" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="418.6666666666667" y="378.6666666666667" elementID="ab201" elementRef="c1f76" relX="1.0" relY="0.0" />
+    <Point x="582.8" y="378.8" elementID="e6a5f" elementRef="e587b" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4066e32f" zOrder="12288" lineThickness="1.0" color="ff0099">
+    <Xref dataSource="" identifier="" />
+    <Point x="767.3333333333331" y="427.66666666666663" elementID="eea85" elementRef="c60" relX="0.5" relY="-1.0" />
+    <Point x="768.0000000000001" y="392.0" elementID="ed723" elementRef="e35" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4c7e63a7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="783.9999999999998" y="437.83333333333326" elementID="b733a" elementRef="c60" relX="1.0" relY="0.0" />
+    <Point x="759.5143559097409" y="460.4085606305142" elementID="b15f1" elementRef="c5cb1" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4d5a4c1e" zOrder="12288" lineThickness="1.0" color="0f0f0f">
+    <Xref dataSource="" identifier="" />
+    <Point x="331.3333333333333" y="294.6666666666667" elementID="f330d" elementRef="b13" relX="-1.0" relY="0.0" />
+    <Point x="296.33333333333337" y="294.33333333333326" elementID="e2178" elementRef="a8f" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4dd5d740" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0099">
+    <Xref dataSource="" identifier="" />
+    <Point x="553.0" y="411.0" elementID="ca5e5" elementRef="c51f8" relX="0.0" relY="1.0" />
+    <Point x="717.3333333333333" y="437.83333333333326" elementID="cb47e" elementRef="c60" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id4e6a95c1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="530.3333333333334" y="481.3333333333333" elementID="f3972" elementRef="b04" relX="0.0" relY="1.0" />
+    <Point x="534.3270986005228" y="474.1049684446175" elementID="b6293" elementRef="afe59" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5b87f25f" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="74.0" y="404.5" elementID="c096c" elementRef="e09f2" relX="1.0" relY="0.0" />
+    <Point x="134.33329264322916" y="404.0" elementID="b9e55" elementRef="af7c6" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5d81dbbc" zOrder="12288" lineThickness="1.0" color="0f0f0f">
+    <Xref dataSource="" identifier="" />
+    <Point x="235.0" y="294.33333333333326" elementID="d3619" elementRef="a8f" relX="-1.0" relY="0.0" />
+    <Point x="138.33333333333331" y="294.6666666666667" elementID="bb827" elementRef="ad5" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6cc5ff49" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="536.6666666666666" y="267.0" elementID="fe182" elementRef="fd8db" relX="0.0" relY="-1.0" />
+    <Point x="536.9451056370514" y="289.00064581603465" elementID="fd740" elementRef="f8e36" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6d4bfca1" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="0f0f0f">
+    <Xref dataSource="" identifier="" />
+    <Point x="296.0" y="260.0" elementID="c3e68" elementRef="dd3aa" relX="0.0" relY="1.0" />
+    <Point x="265.6666666666667" y="279.66666666666663" elementID="c7879" elementRef="a8f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6d4cfac3" zOrder="12288" lineThickness="1.0" color="0f0f0f">
+    <Xref dataSource="" identifier="" />
+    <Point x="296.3333333333333" y="145.66666666666666" elementID="c7471" elementRef="ac1" relX="0.0" relY="1.0" />
+    <Point x="296.0" y="163.0" elementID="d48ad" elementRef="dd3aa" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id775897b4" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="418.6666666666667" y="378.6666666666667" elementID="b880d" elementRef="c1f76" relX="1.0" relY="0.0" />
+    <Point x="543.8" y="378.59999999999997" elementID="e930c" elementRef="c621a" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7b96ed00" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0066">
+    <Xref dataSource="" identifier="" />
+    <Point x="700.6666666666667" y="479.6666666666667" elementID="f8481" elementRef="d3e" relX="0.0" relY="1.0" />
+    <Point x="745.8333333333334" y="508.0" elementID="fcdde" />
+    <Point x="791.0" y="495.66666666666674" elementID="b86f2" elementRef="fbe76" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.5244640605296341" shapeType="None" elementID="cedec" />
+  </Interaction>
+  <Interaction elementID="id8281f969" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="8000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="457.0" y="411.0" elementID="ad659" elementRef="bea99" relX="0.5" relY="1.0" />
+    <Point x="530.6666666666666" y="511.0" elementID="ea95e" elementRef="c57" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.7503763297585007" shapeType="None" elementID="c4685" />
+  </Interaction>
+  <Interaction elementID="id846a221" zOrder="12288" lineThickness="1.0" color="9933ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="433.5" y="184.0" elementID="d4269" elementRef="c7d8a" relX="0.0" relY="1.0" />
+    <Point x="435.3882222513705" y="208.49724009551858" elementID="f8f50" elementRef="c67bb" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id847221fb" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="8000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="367.6666666666667" y="211.5" elementID="aa1bb" elementRef="dd3aa" relX="1.0" relY="0.0" />
+    <Point x="536.9705556284263" y="203.99310023879644" elementID="b8e3e" elementRef="f23cf" relX="0.0" relY="0.0" arrowHead="TBar" />
+    <Anchor position="0.4" shapeType="None" elementID="c67bb" />
+  </Interaction>
+  <Interaction elementID="id84f4d9a7" zOrder="12288" lineThickness="1.0" color="ff0099">
+    <Xref dataSource="" identifier="" />
+    <Point x="561.3333333333333" y="174.66666666666666" elementID="ec05f" elementRef="c69" relX="-1.0" relY="0.0" />
+    <Point x="537.1666666666666" y="174.73333333333332" elementID="c54a8" elementRef="f5c24" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id946774d8" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="685.6666666666666" y="144.33333333333331" elementID="bfb03" elementRef="b29c7" relX="0.0" relY="1.0" />
+    <Point x="627.9999999999998" y="174.66666666666666" elementID="e7b11" elementRef="c69" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida90184c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="530.3333333333334" y="481.3333333333333" elementID="e0315" elementRef="b04" relX="0.0" relY="1.0" />
+    <Point x="531.3970947611375" y="471.27315833512597" elementID="d2c81" elementRef="a7df9" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb1319c02" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="8000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="388.33333333333337" y="93.33333333333333" elementID="c789e" elementRef="e8a" relX="0.0" relY="1.0" />
+    <Point x="536.9705556284263" y="203.99310023879644" elementID="f5b0d" elementRef="f23cf" relX="0.0" relY="0.0" arrowHead="TBar" />
+    <Anchor position="0.6132856484865356" shapeType="None" elementID="e78ab" />
+  </Interaction>
+  <Interaction elementID="idb14ac016" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="566.0" y="366.3333333333333" elementID="d1035" elementRef="a4b" relX="0.5" relY="1.0" />
+    <Point x="608.0" y="397.5" elementID="a34e6" elementRef="ee932" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="e587b" />
+  </Interaction>
+  <Interaction elementID="idb181a10a" zOrder="12288" lineThickness="1.0" color="8000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="453.4999999999999" y="471.6666666666667" elementID="e8e0a" elementRef="c1c" relX="1.0" relY="0.0" />
+    <Point x="500.33333333333337" y="471.3333333333333" elementID="bb038" elementRef="b04" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb2ebfb72" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="418.6666666666667" y="378.6666666666667" elementID="ae9d4" elementRef="c1f76" relX="1.0" relY="0.0" />
+    <Point x="521.6" y="378.2" elementID="d66e7" elementRef="a0b27" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb54b23b1" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="210.33333333333334" y="404.0" elementID="b93c1" elementRef="af7c6" relX="1.0" relY="0.0" />
+    <Point x="237.0" y="404.5" elementID="d95e7" elementRef="b5a38" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb70a6d9d" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="685.6666666666666" y="62.333333333333336" elementID="d5184" elementRef="f94" relX="0.0" relY="1.0" />
+    <Point x="685.6666666666666" y="88.33333333333331" elementID="f3434" elementRef="b29c7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb78a82b5" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="537.5" y="125.0" elementID="f842d" elementRef="aa116" relX="0.0" relY="1.0" />
+    <Point x="536.6666666666666" y="249.33333333333331" elementID="c7161" elementRef="deb" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.6353332458884433" shapeType="None" elementID="f23cf" />
+    <Anchor position="0.4" shapeType="None" elementID="f5c24" />
+  </Interaction>
+  <Interaction elementID="idb8e12bf" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="9900ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="507.75" y="411.5" elementID="a2546" elementRef="c5db4" relX="0.5" relY="1.0" />
+    <Point x="530.6666666666666" y="511.0" elementID="e6b14" elementRef="c57" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.6708580320144197" shapeType="None" elementID="e8eb8" />
+  </Interaction>
+  <Interaction elementID="idbbb0d43b" zOrder="12288" lineThickness="1.0" color="0f0f0f">
+    <Xref dataSource="" identifier="" />
+    <Point x="331.83333333333337" y="260.0" elementID="b2e8b" elementRef="dd3aa" relX="0.5" relY="1.0" />
+    <Point x="361.3333333333333" y="284.6666666666667" elementID="a05af" elementRef="b13" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbc657de9" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="9900ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="542.5" y="411.0" elementID="f5312" elementRef="c51f8" relX="-0.5" relY="1.0" />
+    <Point x="530.6666666666666" y="511.0" elementID="e4198" elementRef="c57" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.6138296794058752" shapeType="None" elementID="a7df9" />
+  </Interaction>
+  <Interaction elementID="idc670c3ba" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="536.6666666666666" y="265.3333333333333" elementID="b9111" elementRef="deb" relX="0.0" relY="1.0" />
+    <Point x="537.6666666666666" y="350.3333333333333" elementID="adb75" elementRef="a4b" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.2784389703847217" shapeType="None" elementID="f8e36" />
+    <Anchor position="0.7255743149737056" shapeType="None" elementID="fe8a2" />
+  </Interaction>
+  <Interaction elementID="idc76c4b4e" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0066">
+    <Xref dataSource="" identifier="" />
+    <Point x="791.0" y="479.66666666666674" elementID="d1779" elementRef="fbe76" relX="0.0" relY="-1.0" />
+    <Point x="700.6666666666667" y="463.6666666666667" elementID="cfe5b" elementRef="d3e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="c5cb1" />
+  </Interaction>
+  <Interaction elementID="idc8238d7e" zOrder="12288" lineThickness="1.0" color="cc0099">
+    <Xref dataSource="" identifier="" />
+    <Point x="660.5" y="403.0" elementID="fa7e1" elementRef="a6d94" relX="0.0" relY="1.0" />
+    <Point x="661.0565473314298" y="437.83333333333326" elementID="c40d4" elementRef="f4293" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idcae4baf9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="530.3333333333334" y="481.3333333333333" elementID="d0e18" elementRef="b04" relX="0.0" relY="1.0" />
+    <Point x="529.5204548017155" y="475.62990575619585" elementID="bd27e" elementRef="e8eb8" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idce25ba1a" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="560.3333333333334" y="471.3333333333333" elementID="d93e7" elementRef="b04" relX="1.0" relY="0.0" arrowHead="TBar" />
+    <Point x="674.0" y="471.6666666666667" elementID="a0e74" elementRef="d3e" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idd031cdc4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="743.5245301392681" y="507.92637778250617" elementID="d4b04" elementRef="cedec" relX="0.0" relY="0.0" />
+    <Point x="750.6666666666665" y="524.0" elementID="c0771" elementRef="dc7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd3cf9be5" zOrder="12288" lineThickness="1.0" color="8000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="327.0000000000001" y="471.3333333333333" elementID="de53a" elementRef="d7d" relX="1.0" relY="0.0" />
+    <Point x="363.16666666666663" y="471.6666666666667" elementID="c1531" elementRef="c1c" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide865355b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="530.3333333333334" y="481.3333333333333" elementID="c5c35" elementRef="b04" relX="0.0" relY="1.0" />
+    <Point x="527.0764696660725" y="475.8596592634862" elementID="a94cd" elementRef="c4685" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfa1dcdea" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="509.3333333333333" y="366.3333333333333" elementID="bd4e9" elementRef="a4b" relX="-0.5" relY="1.0" />
+    <Point x="448.0" y="396.0" elementID="b8582" elementRef="bea99" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="ef963" />
+  </Interaction>
+  <Interaction elementID="idfb82ba7f" zOrder="12288" lineThickness="1.0" color="ff0080">
+    <Xref dataSource="" identifier="" />
+    <Point x="418.6666666666667" y="378.6666666666667" elementID="a4c2b" elementRef="c1f76" relX="1.0" relY="0.0" />
+    <Point x="484.8" y="378.2" elementID="d892c" elementRef="ef963" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idffde5770" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="9900ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="598.0" y="411.5" elementID="e115b" elementRef="ee932" relX="-0.5" relY="1.0" />
+    <Point x="530.6666666666666" y="511.0" elementID="a4bac" elementRef="c57" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.7280461871541974" shapeType="None" elementID="afe59" />
+  </Interaction>
+  <Label elementID="a8f" textLabel="prolactin&#xA;release" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="265.6666666666667" centerY="294.3333333333333" width="61.333333333333336" height="29.333333333333332" zOrder="28672" />
+  <Label elementID="c57" textLabel="Inactive Metabolites" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="530.6666666666666" centerY="519.0" width="132.33333333333334" height="16.0" zOrder="28672" />
+  <Label elementID="eac" textLabel="PG Synthases" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="380.6666666666667" centerY="338.6666666666667" width="92.33333333333333" height="16.0" zOrder="28672" />
+  <Label elementID="fbb" textLabel="Cytoplasm" fillColor="ffffff" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="435.00000000000006" centerY="124.66666666666666" width="71.33333333333333" height="16.0" zOrder="28672" />
+  <Shape elementID="d0eb7" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="502.0" centerY="328.5" width="684.0" height="443.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="af7c6" />
+  <Group elementID="b29c7" />
+  <Group elementID="c1f76" />
+  <Group elementID="dd3aa" />
+  <Group elementID="fd8db" />
+  <InfoBox centerX="4.0" centerY="5.1" />
+  <Legend centerX="761.6666666666666" centerY="378.3333333333333" />
+  <Citations>
+    <Citation title="Gene knockout mice in the study of parturition." URL="" citationID="ca2" year="2000" source="J Soc Gynecol Investig">
+      <Xref dataSource="PubMed" identifier="10785607" />
+      <Author name="Gross G" />
+      <Author name="Imamura T" />
+      <Author name="Muglia LJ" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="classic metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000002" />
+    <OntologyTerm term="classic metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000002" />
+    <OntologyTerm term="prostaglandin metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000156" />
+  </OntologyTerms>
+</Pathway>
+

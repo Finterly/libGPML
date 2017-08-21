@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id3" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Preimplantation Embryo</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The source of this pathway is RNA-Seq data from single-cell pre-implantation embryos (Supplemental Table 1): http://www.nature.com/nsmb/journal/v20/n9/full/nsmb.2660.html
+
+Analysis options for running the single-cell analysis workflow in AltAnalyze (ICGS):
+* For optimal filtering (not too restrictive), change the Fold change filter cutoff from 10 to 100 and the Minimum number of samples differing from 3 to 2.
+* Change the Select the column clustering method to hopach.
+* The final ICGS cell cluster groups (hopach) were further analyzed to identify genes with restricted expression in one of the identified sub-populations using the MarkerFinder algorithm in AltAnalyze (RPKM&gt;1). 
+* MarkerFinder identified genes for each sub-population (e.g., 8-cell pattern 1) were further filtered for DNA-binding and RNA-binding factors, that are reported in this pathway. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:BiochemicalReaction rdf:about="id3">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id3</bp:displayName>
+</bp:BiochemicalReaction>
+</rdf:RDF>

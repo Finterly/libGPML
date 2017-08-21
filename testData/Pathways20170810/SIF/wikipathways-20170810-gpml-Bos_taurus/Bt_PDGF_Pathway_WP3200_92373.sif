@@ -1,0 +1,85 @@
+STAT3	Line	R6
+R6	mim-stimulation	STAT3
+R6	mim-stimulation	STAT1
+STAT1	Line	R2
+R2	mim-stimulation	STAT1
+STAT1	Line	R8
+R8	mim-stimulation	STAT3
+R8	mim-stimulation	STAT1
+Cyclic AMP
+(cAMP)	Line	R85
+R85	mim-stimulation	R53
+MAP2K1	Line	R53
+R53	mim-stimulation	MAPK3
+R53	mim-stimulation	MAPK1
+VAV1	Line	R65
+R65	mim-stimulation	CDC42
+SRC	Line	R81
+R81	mim-stimulation	VAV2
+Arachidonic acid	Line	R35
+R35	mim-conversion	COII
+STAT3	Line	R10
+STAT1	Line	R10
+R10	mim-stimulation	STAT3
+R10	mim-stimulation	STAT1
+HRAS	Line	R12
+R12	Line	SHC1
+R12	Line	GRB2
+R12	Line	SOS1
+RHOA	Line	R77
+R77	Arrow	Actin,
+Stress Fibers
+and Adhesion
+RAF1	Line	R16
+R16	mim-stimulation	MAP2K1
+HRAS	Line	R14
+R14	mim-stimulation	RAF1
+PIP2[4',5']	Line	R39
+R39	mim-conversion	DAG
+Phospholipid
+(containing arachidonic acid)	Line	R43
+R43	mim-conversion	Arachidonic acid
+PIP2[4',5']	Line	R45
+R45	mim-conversion	IP3
+COII	Line	R47
+R47	mim-stimulation	Prostaglandin I2
+(PGI2)
+MAP2K4	Line	R22
+R22	mim-stimulation	MAPK8
+RASA1	Line	R31
+R31	mim-stimulation	HRAS
+CDC42	Line	R73
+R73	mim-stimulation	WASL
+PIK3R1	Line	R26
+R26	mim-stimulation	VAV1
+PLCG1	Line	R49
+R49	mim-stimulation	PIP2[4',5']
+VAV2	Line	R57
+R57	mim-stimulation	RAC1
+Prostaglandin I2
+(PGI2)	Line	R37
+R37	mim-stimulation	Cyclic AMP
+(cAMP)
+MAPK8	Line	R24
+R24	mim-stimulation	JUN
+RAC1	Line	R70
+R70	mim-stimulation	ARFIP2
+MAP2K1	Line	R18
+R18	mim-stimulation	MAP3K1
+SRC	Line	R55
+R55	mim-stimulation	TIAM1
+TIAM1	Line	R62
+R62	mim-stimulation	RAC1
+STAT3	Line	R4
+R4	mim-stimulation	STAT3
+PIK3R1	Line	R75
+R75	mim-stimulation	RHOA
+MAP3K1	Line	R20
+R20	mim-stimulation	MAP2K4
+MAPK3	Line	R51
+MAPK1	Line	R51
+R51	mim-stimulation	ELK1
+RAC1	Line	R60
+R60	mim-stimulation	PAK1
+PIK3R1	Line	R68
+R68	mim-stimulation	RAC1

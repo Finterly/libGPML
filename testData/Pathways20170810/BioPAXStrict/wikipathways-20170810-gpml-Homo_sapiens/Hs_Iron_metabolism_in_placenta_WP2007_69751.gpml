@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="a7a06">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TF</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin</bp:comment>
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="eec">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1988</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rymer JC</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Plomteux G</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dezier JF</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Damour O</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Guillemin G</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Vernet M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Paris M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Revenant MC</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Le Treut A</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pressac M</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">3218790</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ann Biol Clin (Paris)</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">[The coefficient of saturation of iron in transferrin].</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="fa96f">
+ <bp:xref rdf:resource="eec" />
+ <bp:xref rdf:resource="cba" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TF</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin</bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id11">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000106327</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id10">
+ <bp:xref rdf:resource="id11" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TFR2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:BiochemicalReaction rdf:about="id13">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id13</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id12">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id12</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="caf17">
+ <bp:xref rdf:resource="a86" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TFR2</bp:displayName>
+ <bp:entityReference rdf:resource="id10" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin receptor</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id15</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id14">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id14</bp:displayName>
+ <bp:right rdf:resource="edaf1" />
+ <bp:left rdf:resource="e2b19" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="c8101">
+ <bp:xref rdf:resource="b3c" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TFR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin receptor</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="edaf1">
+ <bp:xref rdf:resource="b93" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STEAP3</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:Protein rdf:about="fa9e9">
+ <bp:xref rdf:resource="b93" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STEAP3</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:Protein rdf:about="e2b19">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TFR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin receptor</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="d7e7f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TF</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="b44de">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TF</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin</bp:comment>
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="a86">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2009</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Meyers KR</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Chen J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Enns CA</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Wang J</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">19682329</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Traffic</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin-directed internalization and cycling of transferrin receptor 2.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="df067">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TFR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin receptor</bp:comment>
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="cba">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2003</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Zoller H</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Vogel W</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Koch RO</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">McKie AT</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Weiss G</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Theurl I</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">12949720</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gastroenterology</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Duodenal cytochrome b and hephaestin expression in patients with iron deficiency and hemochromatosis.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="e7d50">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TF</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin</bp:comment>
+</bp:Protein>
+
+<bp:Rna rdf:about="e0f0a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TfR1 RNA</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Rna>
+
+<bp:Protein rdf:about="b563f">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STEAP3</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:Protein rdf:about="b6e88">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TFR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin receptor</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id17">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id17</bp:displayName>
+ <bp:right rdf:resource="cf26e" />
+ <bp:left rdf:resource="bcd76" />
+</bp:BiochemicalReaction>
+
+<bp:PublicationXref rdf:about="bd2">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">1990</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cazzola M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bergamaschi P</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Carlevati S</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bergamaschi G</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">2227617</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Haematologica</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin receptor expression in the human placenta.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="bcd76">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TF</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin</bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id16</bp:displayName>
+ <bp:right rdf:resource="cf26e" />
+ <bp:left rdf:resource="e0f0a" />
+</bp:BiochemicalReaction>
+
+<bp:PublicationXref rdf:about="b3c">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2011</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Chasteen ND</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mason AB</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Byrne SL</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Steere AN</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">21699959</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kinetics of iron release from transferrin bound to the transferrin receptor at endosomal pH.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:BiochemicalReaction rdf:about="id18">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id18</bp:displayName>
+ <bp:right rdf:resource="caf17" />
+ <bp:left rdf:resource="a7a06" />
+</bp:BiochemicalReaction>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Protein rdf:about="b329b">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">foetal TF</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin</bp:comment>
+</bp:Protein>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id17" />
+ <bp:pathwayComponent rdf:resource="id16" />
+ <bp:pathwayComponent rdf:resource="id18" />
+ <bp:pathwayComponent rdf:resource="id13" />
+ <bp:pathwayComponent rdf:resource="id12" />
+ <bp:pathwayComponent rdf:resource="id15" />
+ <bp:pathwayComponent rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Iron metabolism in placenta</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">During pregnancy, iron is transported from mother to fetus across the placenta. Iron is essential for many biological processes, including the transfer of oxygen in blood, but it can also be toxic. Elaborate and elegant mechanisms have evolved to make sure that the potential for oxidative damage is minimized. This description of Iron pathway through the placenta, and its regulation is purposed to understand the effect of Iron deficiency or Iron overload of the mother on the fetus. (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000091513</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TF</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">foetal TF</bp:name>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000072274</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e7bad">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TF</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TFR1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ENSG00000115107</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ensembl</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="cf26e">
+ <bp:xref rdf:resource="bd2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TFR1</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Transferrin receptor</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">STEAP3</bp:displayName>
+</bp:ProteinReference>
+
+<bp:PublicationXref rdf:about="b93">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2005</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Barker JE</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ohgami RS</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Fujiwara Y</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Chen J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Greer EL</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Antiochos B</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Fleming MD</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Campagna DR</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">McDonald A</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sharp JJ</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">16227996</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nat Genet</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Identification of a ferrireductase required for efficient transferrin-dependent iron uptake in erythroid cells.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:RnaReference rdf:about="id9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">TfR1 RNA</bp:displayName>
+</bp:RnaReference>
+</rdf:RDF>

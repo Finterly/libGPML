@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Heterchronic control of molting" revision="20121105" organism="Caenorhabditis elegans" width="662.0" height="417.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="kyook" />
+  <Comment source="WikiPathways-description">Under good conditions, C. elegans enters and exits four larval stages before becoming a fertile adult.  Each developmental stage is punctuated with a molt that entails the shedding of the larval cuticle and the generation of a completely new one. It has been shown that each cuticle is unique in its composition. Molting is a carefully timed process that needs to be coordinated with development, new cuticle synthesis, and cuticle shedding. Mutations in a set of genes called heterochronic genes regulates the timing development and the molts and result in precocious or retarded development of parts of the animals that aren't synchronized with the the animals' life stage. </Comment>
+  <Comment source="WikiPathways-category">Physiological Process</Comment>
+  <DataNode elementID="c28d0" textLabel="lin-4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="64.0" centerY="240.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WormBase" identifier="WBGene00002993" />
+  </DataNode>
+  <DataNode elementID="e2113" textLabel="LIN-28" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="206.0" centerY="270.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WormBase" identifier="WBGene00003014" />
+  </DataNode>
+  <DataNode elementID="eb6ac" textLabel="LIN-29" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="353.0" centerY="238.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WormBase" identifier="WBGene00003015" />
+  </DataNode>
+  <DataNode elementID="eeea7" textLabel="LIN-14" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="205.0" centerY="214.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WormBase" identifier="WBGene00003003" />
+  </DataNode>
+  <Interaction elementID="id2c6fef1f" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b35" />
+    <Point x="393.0" y="238.0" elementID="b969a" elementRef="eb6ac" relX="1.0" relY="0.0" />
+    <Point x="443.0" y="185.0" elementID="e00de" />
+  </Interaction>
+  <Interaction elementID="id398ee693" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b35" />
+    <Point x="246.0" y="270.0" elementID="f8977" elementRef="e2113" relX="1.0" relY="0.0" />
+    <Point x="313.0" y="238.0" elementID="dbfc2" elementRef="eb6ac" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id5420c26d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b35" />
+    <Point x="104.0" y="240.0" elementID="b8d50" elementRef="c28d0" relX="1.0" relY="0.0" />
+    <Point x="166.0" y="270.0" elementID="cce81" elementRef="e2113" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id897aeafe" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b35" />
+    <Point x="245.0" y="214.0" elementID="afea8" elementRef="eeea7" relX="1.0" relY="0.0" />
+    <Point x="313.0" y="238.0" elementID="a8be6" elementRef="eb6ac" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idc69133de" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b35" />
+    <Point x="393.0" y="238.0" elementID="fa5e5" elementRef="eb6ac" relX="1.0" relY="0.0" />
+    <Point x="442.0" y="293.0" elementID="d9c56" />
+  </Interaction>
+  <Interaction elementID="idfe684098" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b35" />
+    <Point x="104.0" y="240.0" elementID="edfd7" elementRef="c28d0" relX="1.0" relY="0.0" />
+    <Point x="165.0" y="214.0" elementID="af529" elementRef="eeea7" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Label elementID="a364f" textLabel="Larval molt" shapeType="Brace" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="447.0" centerY="149.0" width="0.0" height="0.0" zOrder="28672" />
+  <Shape elementID="b5134" shapeType="Brace" fontSize="10" vAlign="Middle" centerX="460.75" centerY="169.75" width="132.5" height="46.5" zOrder="16384" rotation="4.11076714726208" />
+  <Shape elementID="cb4f4" textLabel="Larval molt" shapeType="Hexagon" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="492.0" centerY="137.0" width="88.0" height="44.0" zOrder="16384" rotation="0.0" />
+  <Shape elementID="f31b4" textLabel="Adult molt" shapeType="Hexagon" fontSize="10" vAlign="Middle" centerX="512.5" centerY="313.5" width="91.0" height="45.0" zOrder="16384" rotation="0.0" />
+  <Shape elementID="ad788" textLabel="Cell division" shapeType="Hexagon" fontSize="10" vAlign="Middle" centerX="558.0" centerY="168.0" width="88.0" height="44.0" zOrder="32769" rotation="0.0" />
+  <Shape elementID="e20bf" textLabel="Larval cuticle&#xA;genes" shapeType="Hexagon" fontWeight="Bold" fontSize="10" vAlign="Middle" centerX="573.0" centerY="117.0" width="88.0" height="44.0" zOrder="32770" rotation="0.0" />
+  <Shape elementID="c737b" shapeType="Brace" fontSize="10" vAlign="Middle" centerX="465.25" centerY="309.25" width="132.5" height="46.5" zOrder="32771" rotation="5.438764867568858" />
+  <Shape elementID="d74de" textLabel="Cell fusion" shapeType="Hexagon" fontSize="10" vAlign="Middle" centerX="503.5" centerY="364.5" width="91.0" height="45.0" zOrder="32772" rotation="0.0" />
+  <Shape elementID="ab314" textLabel="Adult cuticle &#xA;genes" shapeType="Hexagon" fontSize="10" vAlign="Middle" centerX="586.5" centerY="345.5" width="91.0" height="45.0" zOrder="32773" rotation="0.0" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="A hierarchy of regulatory genes controls a larva-to-adult developmental switch in C. elegans." URL="" citationID="b35" year="1989" source="Cell">
+      <Xref dataSource="PubMed" identifier="2702689" />
+      <Author name="Ambros V" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+  </OntologyTerms>
+</Pathway>
+

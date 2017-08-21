@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Chloroplast electron transport chain" revision="20141014" organism="Populus trichocarpa" width="1203.3193277310922" height="400.2970297029703">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">This plant pathway represents the photosynthetic electron transport chain (chloroplast). Ligh is absorbed by photosystem II and electrons are released and transported through the chain and finally used by ferredoxin NADP+ reductase to reduce NADP+ into NADPH. The electron transport generates a proteom gradient that powers an ATPase to generate ATP. Both NADPH and ATP produced by this process are mostly used by the Calvin cycle (WP2860).</Comment>
+  <CitationRef citationID="c6a" />
+  <DataNode elementID="aabb2" textLabel="ATPase beta" fontSize="10" vAlign="Middle" type="Protein" centerX="985.7444583181338" centerY="131.81996363594348" width="126.49363057324959" height="20.000000000000355" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="Q8MCB3" />
+  </DataNode>
+  <DataNode elementID="ae5eb" textLabel="O2-evolving Enhancer 2" groupRef="d3f03" fontSize="10" vAlign="Middle" type="Protein" centerX="284.6652979911728" centerY="129.88249355215657" width="121.83020948180797" height="20.00000000000036" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="A9PHM0" />
+  </DataNode>
+  <DataNode elementID="bcb1a" textLabel="PSI reaction center subunit II" groupRef="a3b31" fontSize="10" vAlign="Middle" type="Protein" centerX="467.51733520894743" centerY="112.91085524710115" width="156.12572487879092" height="20.000000000000366" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="A9PJR8" />
+  </DataNode>
+  <DataNode elementID="c4d49" textLabel="ferredoxin NADP + reductase" fontSize="10" vAlign="Middle" type="Protein" centerX="838.1562532932492" centerY="149.7414402041677" width="147.2085274265607" height="20.000000000000355" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="P00455" />
+  </DataNode>
+  <DataNode elementID="c80fc" textLabel="light harvesting complex I protein Lhca3" groupRef="a3b31" fontSize="10" vAlign="Middle" type="Protein" centerX="656.0533032622378" centerY="112.91085524710113" width="185.42321552380105" height="20.000000000000355" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="A9PK62" />
+  </DataNode>
+  <DataNode elementID="d482c" textLabel="O2-evolving Enhancer 1" groupRef="d3f03" fontSize="10" vAlign="Middle" type="Protein" centerX="147.14462406775192" centerY="129.88249355215643" width="121.83020948180796" height="20.00000000000036" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="B3VY32" />
+  </DataNode>
+  <DataNode elementID="dc94c" textLabel="O2-evolving Enhancer" groupRef="d3f03" fontSize="10" vAlign="Middle" type="Protein" centerX="227.68707445042503" centerY="98.99207266404814" width="197.0" height="20.00000000000036" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="A9PFR3" />
+  </DataNode>
+  <DataNode elementID="ea554" textLabel="light-harvesting complex II protein Lhcb1" groupRef="d3f03" fontSize="10" vAlign="Middle" type="Protein" centerX="229.57500427333935" centerY="164.03344203873365" width="196.99999999999994" height="20.000000000000355" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="A9PJK6" />
+  </DataNode>
+  <DataNode elementID="ecdfe" textLabel="PSI reaction center subunit III" groupRef="a3b31" fontSize="10" vAlign="Middle" type="Protein" centerX="467.5173352089473" centerY="148.8993573559062" width="156.12572487879092" height="20.000000000000348" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="POPTR_0002s25510" />
+  </DataNode>
+  <DataNode elementID="f4a52" textLabel="light-harvesting complex I protein Lhca1" groupRef="a3b31" fontSize="10" vAlign="Middle" type="Protein" centerX="656.4978055389965" centerY="148.89935735590618" width="184.53421097028706" height="20.000000000000355" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="A9PJ58" />
+  </DataNode>
+  <DataNode elementID="b4616" textLabel="ADP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="940.2971309783433" centerY="205.33869706492294" width="80.0" height="20.0" zOrder="32769">
+    <Xref dataSource="ChEBI" identifier="CHEBI:16761" />
+  </DataNode>
+  <DataNode elementID="a53b5" textLabel="ATP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1032.5934994098716" centerY="205.33869706492297" width="82.80814419420074" height="22.695525258755424" zOrder="32770">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15422" />
+  </DataNode>
+  <DataNode elementID="b5549" textLabel="NADP+" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="793.1501878460489" centerY="245.1624856111782" width="80.0" height="20.0" zOrder="32771">
+    <Xref dataSource="ChEBI" identifier="CHEBI:18009" />
+  </DataNode>
+  <DataNode elementID="c5242" textLabel="NADPH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="883.546663616974" centerY="245.16248561117823" width="80.0" height="20.0" zOrder="32772">
+    <Xref dataSource="ChEBI" identifier="CHEBI:16474" />
+  </DataNode>
+  <Interaction elementID="id3f092f23" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="940.2971309783433" y="195.33869706492294" elementID="e705d" elementRef="b4616" relX="0.0" relY="-1.0" />
+    <Point x="986.4453151941075" y="140.0359066427289" elementID="ed8cf" />
+    <Point x="1032.5934994098716" y="193.99093443554526" elementID="f7c9d" elementRef="a53b5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idced8efc" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="793.1501878460489" y="235.1624856111782" elementID="cd2d3" elementRef="b5549" relX="0.0" relY="-1.0" />
+    <Point x="838.3484257315115" y="160.79295154185024" elementID="a7df5" />
+    <Point x="883.546663616974" y="235.16248561117823" elementID="aa861" elementRef="c5242" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="c3482" textLabel="Lumen" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1062.9183400267739" centerY="108.43373493975903" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="eb9ca" textLabel="stroma" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="1062.9183400267739" centerY="155.28781793842035" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="cc160" textLabel="CHOLOROPLAST" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="153.9678302301221" centerY="278.09481972088076" width="152.62798634812273" height="20.0" zOrder="32835" />
+  <Shape elementID="eed6a" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="609.7489816393343" centerY="250.42813783173642" width="1127.140692183516" height="239.73778374246774" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="a3b31" groupType="Complex" />
+  <Group elementID="d3f03" groupType="Complex" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Differential impact of chronic ozone exposure on expanding and fully expanded poplar leaves." URL="" citationID="c6a" year="2010" source="Tree Physiol">
+      <Xref dataSource="PubMed" identifier="21030406" />
+      <Author name="Bohler S" />
+      <Author name="Sergeant K" />
+      <Author name="Lefèvre I" />
+      <Author name="Jolivet Y" />
+      <Author name="Hoffmann L" />
+      <Author name="Renaut J" />
+      <Author name="Dizengremel P" />
+      <Author name="Hausman JF" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="classic metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000002" />
+    <OntologyTerm term="electron transport chain pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000034" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Phenylalanine Biosynthesis" organism="Saccharomyces cerevisiae" width="766.0" height="393.5">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">Biosynthesis of the aromatic amino acids phenylalanine, tyrosine, and tryptophan proceeds via a common pathway to chorismate, at which point the pathway branches (CITS:[Jones][1943992]).  One branch proceeds to phenylalanine and tyrosine, and the other to tryptophan (CITS:[Jones]). The phenylalanine and tyrosine branch has one reaction in common, rearrangement of chorismate to prephenate, at which point, the pathway branches again to either phenylalanine or tyrosine (CITS:[1943992])). S. cerevisiae, similar to E. coli, synthesize phenylalanine and tyrosine via the intermediate 4-hydroxyphenylpyruvate and phenylpyruvate, respectively, while some other organisms synthesize them via arogenate (CITS:[1943992]).  Aromatic amino acid biosynthesis in S. cerevisiae is controlled by a combination of feedback inhibition, activation of enzyme activity, and regulation of enzyme synthesis (CITS:[Jones][1943992]).  The carbon flow through the pathways is regulated primarily at the initial step and the branching points by the terminal end-products. The initial step of chorismate biosynthesis can be catalyzed by two isoenzymes Aro3p or Aro4p, whereby Aro3p is inhibited by phenylalanine, and Aro4p by tyrosine (CITS:[Jones][1943992]).  The first step in the phenylalanine-tyrosine branch is feedback inhibited by tyrosine and activated by tryptophan (CITS:[1943992]).  The transcriptional activator GCN4 regulates most of the genes encoding for the aromatic amino acid biosynthetic enzymes; however, no GCN4 regulation was found for ARO7 of the phenylalanine and tyrosine and branch, TYR1 of the tyrosine branch, or TRP1 of the tryptophan branch (CITS:[1943992]). 
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html
+Based on http://pathway.yeastgenome.org/biocyc/</Comment>
+  <CitationRef citationID="cb5" />
+  <CitationRef citationID="e64" />
+  <CitationRef citationID="orh" />
+  <CitationRef citationID="etv" />
+  <DataNode elementID="a13" textLabel="PHA2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="394.3333333333333" centerY="82.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PHA2" />
+    <Xref dataSource="SGD" identifier="S000005260" />
+  </DataNode>
+  <DataNode elementID="a8a" textLabel="L-glutamate" color="0000ff" fontSize="12" vAlign="Middle" type="Metabolite" centerX="678.3333333333334" centerY="181.66666666666669" width="71.33333333333326" height="25.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="56-86-0" />
+  </DataNode>
+  <DataNode elementID="b0a" textLabel="ARO9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="458.3333333333333" centerY="238.33333333333337" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ARO9" />
+    <Xref dataSource="SGD" identifier="S000001179" />
+  </DataNode>
+  <DataNode elementID="c20" textLabel="prephenate" color="0000ff" fontSize="12" vAlign="Middle" type="Metabolite" centerX="257.25" centerY="118.33333333333333" width="77.5" height="25.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="126-49-8" />
+  </DataNode>
+  <DataNode elementID="c6a3a" textLabel="L-alanine" color="0000ff" fontSize="12" vAlign="Middle" type="Metabolite" centerX="448.0" centerY="180.0" width="62.0" height="25.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:16977" />
+  </DataNode>
+  <DataNode elementID="cd7ce" textLabel="Phenylpyruvate" color="0000ff" fontSize="12" vAlign="Middle" type="Metabolite" centerX="547.0" centerY="118.0" width="90.0" height="25.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:8105" />
+  </DataNode>
+  <DataNode elementID="d38" textLabel="ARO8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="646.3333333333333" centerY="236.33333333333337" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ARO8" />
+    <Xref dataSource="SGD" identifier="S000003170" />
+  </DataNode>
+  <DataNode elementID="d4c" textLabel="chorismate" color="0000ff" fontSize="12" vAlign="Middle" type="Metabolite" centerX="92.66666666666666" centerY="118.33333333333333" width="90.33333333333333" height="25.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="17333" />
+  </DataNode>
+  <DataNode elementID="dabdb" textLabel="L-phenylalanine" color="0000ff" fontSize="12" vAlign="Middle" type="Metabolite" centerX="554.0" centerY="351.0" width="90.0" height="25.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:17295" />
+  </DataNode>
+  <DataNode elementID="db144" textLabel="carbon dioxide" groupRef="e30cc" color="0000ff" fontSize="12" vAlign="Middle" type="Metabolite" centerX="333.0" centerY="202.0" width="90.0" height="25.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:16526" />
+  </DataNode>
+  <DataNode elementID="e6a" textLabel="ARO7" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="170.0" centerY="81.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ARO7" />
+    <Xref dataSource="SGD" identifier="S000006264" />
+  </DataNode>
+  <DataNode elementID="f0706" textLabel="water" groupRef="e30cc" color="0000ff" fontSize="12" vAlign="Middle" type="Metabolite" centerX="333.0" centerY="175.0" width="90.0" height="25.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15377" />
+  </DataNode>
+  <DataNode elementID="f4857" textLabel="2-oxoglutarate" color="0000ff" fontSize="12" vAlign="Middle" type="Metabolite" centerX="691.0" centerY="297.0" width="90.0" height="25.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:16810" />
+  </DataNode>
+  <DataNode elementID="fbd1c" textLabel="pyruvate" color="0000ff" fontSize="12" vAlign="Middle" type="Metabolite" centerX="446.0" centerY="287.0" width="72.0" height="25.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15361" />
+  </DataNode>
+  <Interaction elementID="a31c5" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="547.0" y="130.5" elementID="b9e37" elementRef="cd7ce" relX="0.0" relY="1.0" />
+    <Point x="504.0" y="187.0" elementID="e7e8f" />
+    <Point x="504.0" y="282.0" elementID="b00b4" />
+    <Point x="554.0" y="338.5" elementID="fa71c" elementRef="dabdb" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.5020299032599581" shapeType="None" elementID="ade96" />
+  </Interaction>
+  <Interaction elementID="abf39" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="170.0" y="91.0" elementID="f4852" elementRef="e6a" relX="0.0" relY="1.0" />
+    <Point x="170.1" y="118.33333333333331" elementID="e807e" elementRef="a86ea" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="b9ea3" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="642.6666666666667" y="181.66666666666669" elementID="d641d" elementRef="a8a" relX="-1.0" relY="0.0" />
+    <Point x="592.0" y="208.83333333333334" elementID="fa261" />
+    <Point x="591.0" y="235.23936754447814" elementID="dc2f0" elementRef="ce4a9" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="bf02f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="394.3333333333333" y="92.0" elementID="d5366" elementRef="a13" relX="0.0" relY="1.0" />
+    <Point x="394.4552292205173" y="118.17402066469171" elementID="d81d1" elementRef="e77c2" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="c77bc" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="504.0" y="237.2127379908238" elementID="ec893" elementRef="ade96" relX="0.0" relY="0.0" />
+    <Point x="505.0" y="262.5" elementID="b760c" />
+    <Point x="482.0" y="287.0" elementID="c0769" elementRef="fbd1c" relX="1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="d9fb9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="626.3333333333333" y="236.33333333333337" elementID="a1099" elementRef="d38" relX="-1.0" relY="0.0" />
+    <Point x="591.0" y="235.23936754447814" elementID="e3927" elementRef="ce4a9" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="daeb3" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="591.0" y="235.23936754447814" elementID="c119b" elementRef="ce4a9" relX="0.0" relY="0.0" />
+    <Point x="591.0" y="263.5" elementID="ab158" />
+    <Point x="646.0" y="297.0" elementID="b96ce" elementRef="f4857" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e01aa" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="478.3333333333333" y="238.33333333333337" elementID="cdffe" elementRef="b0a" relX="1.0" relY="0.0" />
+    <Point x="504.0" y="237.2127379908238" elementID="fd0e1" elementRef="ade96" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="e7a77" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="479.0" y="180.0" elementID="e8fcd" elementRef="c6a3a" relX="1.0" relY="0.0" />
+    <Point x="505.0" y="209.0" elementID="f4b6e" />
+    <Point x="504.0" y="237.2127379908238" elementID="d8c70" elementRef="ade96" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="id8c2b7bee" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="137.83333333333331" y="118.33333333333331" elementID="da857" elementRef="d4c" relX="1.0" relY="0.0" />
+    <Point x="218.5" y="118.33333333333331" elementID="b172a" elementRef="c20" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="a86ea" />
+  </Interaction>
+  <Interaction elementID="idc43d255b" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="547.0" y="130.5" elementID="f3e6e" elementRef="cd7ce" relX="0.0" relY="1.0" />
+    <Point x="591.0" y="186.0" elementID="d617a" />
+    <Point x="591.0" y="285.0" elementID="d7d77" />
+    <Point x="554.0" y="338.5" elementID="e22c0" elementRef="dabdb" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.5111893521400933" shapeType="None" elementID="ce4a9" />
+  </Interaction>
+  <Interaction elementID="ide2666eea" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="296.0" y="118.33333333333331" elementID="e2643" elementRef="c20" relX="1.0" relY="0.0" />
+    <Point x="502.0" y="118.0" elementID="c55a1" elementRef="cd7ce" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4779380059248413" shapeType="None" elementID="e77c2" />
+  </Interaction>
+  <Interaction elementID="idf6184b9c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="296.0" y="118.33333333333331" elementID="dcd41" elementRef="c20" relX="1.0" relY="0.0" />
+    <Point x="333.0" y="154.5" elementID="b1d10" elementRef="e30cc" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Group elementID="e30cc" groupType="Group" />
+  <InfoBox centerX="8.333333333333334" centerY="211.66666666666666" />
+  <Citations>
+    <Citation title="Phenylalanine- and tyrosine-auxotrophic mutants of Saccharomyces cerevisiae impaired in transamination." URL="" citationID="e64" year="1998" source="Mol Gen Genet">
+      <Xref dataSource="PubMed" identifier="9491082" />
+      <Author name="Urrestarazu A" />
+      <Author name="Vissers S" />
+      <Author name="Iraqui I" />
+      <Author name="Grenson M" />
+    </Citation>
+    <Citation title="Characterisation of Saccharomyces cerevisiae ARO8 and ARO9 genes encoding aromatic aminotransferases I and II reveals a new aminotransferase subfamily." URL="" citationID="orh" year="1998" source="Mol Gen Genet">
+      <Xref dataSource="PubMed" identifier="9491083" />
+      <Author name="Iraqui I" />
+      <Author name="Vissers S" />
+      <Author name="Cartiaux M" />
+      <Author name="Urrestarazu A" />
+    </Citation>
+    <Citation title="Aromatic amino acid biosynthesis in the yeast Saccharomyces cerevisiae: a model system for the regulation of a eukaryotic biosynthetic pathway." URL="" citationID="etv" year="1991" source="Microbiol Rev">
+      <Xref dataSource="PubMed" identifier="1943992" />
+      <Author name="Braus GH" />
+    </Citation>
+    <Citation title="Tyrosine and tryptophan act through the same binding site at the dimer interface of yeast chorismate mutase." URL="" citationID="cb5" year="1998" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="9642265" />
+      <Author name="Schnappauf G" />
+      <Author name="Krappmann S" />
+      <Author name="Braus GH" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="phenylalanine biosynthetic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001287" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,29 @@
+Glucose 1-phosphate	Line	R12
+R12	Arrow	Uridine diphosphate glucose
+UGDH	Line	R24
+R24	Arrow	R14
+Glucose 6-phosphate	Line	R8
+R8	Arrow	Glucose 1-phosphate
+Adenosine triphosphate	Line	R16
+R16	Arrow	Adenosine 3',5'-diphosphate
+D-Glucose	Line	R2
+R2	Arrow	Glucose 6-phosphate
+Uridine diphosphate glucose	Line	R14
+R14	Arrow	Uridine diphosphate glucuronic acid
+Uridine triphosphate	Line	R4
+R4	Arrow	Phosphate
+Uridine diphosphate glucuronic acid	Line	R6
+R6	Arrow	Uridine 5'-diphosphate
+PGM2	Line	R20
+PGM3	Line	R20
+PGM5	Line	R20
+PGM1	Line	R20
+R20	Arrow	R8
+UGP2	Line	R18
+R18	Arrow	R12
+Water	Line	R10
+NAD	Line	R10
+R10	Arrow	2H+
+R10	Arrow	NADH
+HK1	Line	R22
+R22	Arrow	R16

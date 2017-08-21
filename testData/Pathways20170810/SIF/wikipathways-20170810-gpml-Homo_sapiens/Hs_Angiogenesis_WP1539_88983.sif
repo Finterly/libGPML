@@ -1,0 +1,77 @@
+PDGFRA	Line	R21
+R21	Line	PDGFB
+TIMP3	Line	R11
+R11	mim-inhibition	MMP9
+TIE2	Line	R3
+R3	Line	Ang 1
+Ang 1	Line	R17
+MMP9	Line	R17
+VEGFA	Line	R17
+PDGFB	Line	R17
+FGF2	Line	R17
+R17	Arrow	FGF2
+FGFR2	Line	R19
+R19	Line	FGF2
+TIMP2	Line	R9
+R9	mim-inhibition	MMP9
+FLT1	Line	R13
+VEGFR2	Line	R13
+TIE2	Line	R13
+FGFR2	Line	R13
+R13	Arrow	SRC
+R13	Arrow	SMAD1
+R13	Arrow	PI3K
+R13	Arrow	p38 MAPK
+R13	Arrow	FAK
+R13	Arrow	PLCG1
+SRC	Line	R41
+SMAD1	Line	R41
+PI3K	Line	R41
+p38 MAPK	Line	R41
+FAK	Line	R41
+PLCG1	Line	R41
+R41	mim-cleavage	R7
+Ang 1	Line	R39
+MMP9	Line	R39
+VEGFA	Line	R39
+PDGFB	Line	R39
+FGF2	Line	R39
+R39	Arrow	MMP9
+Ang 1	Line	R37
+MMP9	Line	R37
+VEGFA	Line	R37
+PDGFB	Line	R37
+FGF2	Line	R37
+R37	Arrow	VEGFA
+Ang 1	Line	R33
+MMP9	Line	R33
+VEGFA	Line	R33
+PDGFB	Line	R33
+FGF2	Line	R33
+R33	Arrow	PDGFB
+SRC	Line	R27
+R27	Arrow	NOS
+PLCG1	Line	R29
+R29	Arrow	MAPK1
+AKT1	Line	R31
+R31	Arrow	NOS
+FLT1	Line	R1
+R1	Line	VEGFA
+Ang 1	Line	R35
+MMP9	Line	R35
+VEGFA	Line	R35
+PDGFB	Line	R35
+FGF2	Line	R35
+R35	Arrow	Ang 1
+TIE2	Line	R7
+R7	mim-cleavage	TIE2
+PI3K	Line	R25
+R25	Arrow	AKT1
+VEGFR2	Line	R5
+R5	Line	VEGFA
+HIF1A	Line	R15
+R15	Arrow	CBP
+R15	Arrow	ARNT
+R15	Arrow	HIF1A
+TIE2	Line	R23
+R23	mim-inhibition	Ang 1

@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Glycolysis and Gluconeogenesis" organism="Saccharomyces cerevisiae" width="1402.316655072566" height="1473.3640526527395">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP notes">
+Based on Glycolysis and Gluconeogenesis Pathways at SGD and on Kruckeberg, AL and Dickinson, JR (2004) Carbon Metabolism in The Metabolism and Molecular Physiology of Saccharomyces cerevisiae, Dickinson, JR and Schweizer, M, eds, CRC Press.
+  </Comment>
+  <Comment source="GenMAPP remarks">
+Right click here for references
+  </Comment>
+  <Comment source="WikiPathways-category">
+Metabolic Process
+  </Comment>
+  <Comment source="WikiPathways-description">Gluconeogenesis is the generation of glucose from non-sugar carbon substrates such as pyruvate, lactate, glycerol, and glucogenic amino acids (primarily alanine and glutamine). The process is essentially the reversal of the glycolysis pathway. The pathway is particularly important in animals, as the production of glucose from other metabolites is necessary for use as a fuel source by the brain, testes, erythrocytes and kidney medulla, all of which can use only glucose as the energy source. Gluconeogenesis in animals is perfomed mostly in the liver. The pathway is carried by cytoplasmic enzymes to the level of glucose-6-phosphate. Since free glucose tends to freely diffuse out of the cell, actual glucose formation is carried out in the lumen of the endoplasmic reticulum by gluocose-6-phosphatase . Glucose is then shuttled into the cytosol by glucose transporters. The main souces of carbon for gluconeogenesis in animals is lactate, formed in skeletal muscle cells during anaerobic glycolysis and carried to the liver in the blood stream. The conversion of glucose into lactate by glycolysis and back to glucose by gluconeogenesis is referred to as the Cori Cycle. 
+
+Pathway summary from [http://biocyc.org/ MetaCyc]</Comment>
+  <CitationRef citationID="a1a" />
+  <CitationRef citationID="f07" />
+  <CitationRef citationID="ae9" />
+  <CitationRef citationID="bf1" />
+  <DataNode elementID="a1d" textLabel="ADH5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="725.3333333333334" centerY="923.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ADH5 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YBR145W" />
+  </DataNode>
+  <DataNode elementID="a23" textLabel="TDH1" groupRef="cab16" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.00001525878906" centerY="491.66668701171875" width="106.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="TDH1" />
+    <Xref dataSource="Ensembl" identifier="YOR176W" />
+  </DataNode>
+  <DataNode elementID="a3f3d" textLabel="TCA Cycle" shapeType="None" color="14961e" fontWeight="Bold" fontSize="16" vAlign="Middle" type="Pathway" centerX="806.1351052048711" centerY="1374.4128697990825" width="130.07672836576634" height="29.235484891630776" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a43" textLabel="MDH3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="209.33333333333334" centerY="1050.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="MDH3 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YDL078C" />
+  </DataNode>
+  <DataNode elementID="a49" textLabel="GPM1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.00001525878906" centerY="710.3333129882812" width="106.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="GPM1 | Tetrameric phosphoglycerate mutase med..." />
+    <Xref dataSource="Ensembl" identifier="YKL152C" />
+  </DataNode>
+  <DataNode elementID="a4b" textLabel="Dihydroxyacetone phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="543.5833333333334" centerY="448.6666666666667" width="154.83333333333334" height="19.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01473" />
+  </DataNode>
+  <DataNode elementID="a56" textLabel="Acetaldehyde" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="608.0" centerY="906.0" width="109.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="75-07-0" />
+  </DataNode>
+  <DataNode elementID="a6615" textLabel="Pyruvate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="415.0" centerY="975.3333333333334" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00243" />
+  </DataNode>
+  <DataNode elementID="a74" textLabel="PDC6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="499.3333333333333" centerY="956.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PDC6 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YGR087C" />
+  </DataNode>
+  <DataNode elementID="a87" textLabel="HXK2" groupRef="d597e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.0000254313151" centerY="117.33333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HXK2 | Hexokinase isoenzyme 2 that catalyzes ph..." />
+    <Xref dataSource="Ensembl" identifier="YGL253W" />
+  </DataNode>
+  <DataNode elementID="b11" textLabel="PDB1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="808.0" centerY="1220.6666666666667" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PDB1 | E1 beta subunit of the pyruvate dehydro..." />
+    <Xref dataSource="Ensembl" identifier="YBR221C" />
+  </DataNode>
+  <DataNode elementID="b1cce" textLabel="Fructose-1,6-bisphosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="334.00001525878906" centerY="357.0" width="167.08331298828125" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01058" />
+  </DataNode>
+  <DataNode elementID="b30" textLabel="ENO2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.00001525878906" centerY="813.0" width="106.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ENO2 | Enolase II catalyzes the first common ..." />
+    <Xref dataSource="Ensembl" identifier="YHR174W" />
+  </DataNode>
+  <DataNode elementID="b3a" textLabel="Glucose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="334.0" centerY="52.0" width="68.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="50-99-7" />
+  </DataNode>
+  <DataNode elementID="b56" textLabel="ADH3 (mt)" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1022.6666666666666" centerY="1025.3333333333333" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ADH3 (mt)" />
+    <Xref dataSource="Ensembl" identifier="YMR083W" />
+  </DataNode>
+  <DataNode elementID="b63" textLabel="PGI1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.00001525878906" centerY="215.33333333333334" width="106.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PGI1 | Glycolytic enzyme phosphoglucose isomer..." />
+    <Xref dataSource="Ensembl" identifier="YBR196C" />
+  </DataNode>
+  <DataNode elementID="b70" textLabel="Ethanol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="814.6666666666666" centerY="906.0" width="64.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="64-17-5" />
+  </DataNode>
+  <DataNode elementID="b71" textLabel="Malate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="211.00000508626303" centerY="1101.0" width="80.0" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="617-48-1" />
+  </DataNode>
+  <DataNode elementID="b7e" textLabel="Acetate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="608.0" centerY="973.3333333333334" width="62.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="64-19-7" />
+  </DataNode>
+  <DataNode elementID="b85" textLabel="PDC1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="499.3333333333333" centerY="916.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PDC1 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YLR044C" />
+  </DataNode>
+  <DataNode elementID="b98" textLabel="Acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="808.0" centerY="1169.3333333333333" width="90.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="ba2" textLabel="LAT1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="808.0" centerY="1240.6666666666667" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="LAT1 | Dihydrolipoamide acetyltransferase comp..." />
+    <Xref dataSource="Ensembl" identifier="YNL071W" />
+  </DataNode>
+  <DataNode elementID="bac" textLabel="Fructose-6-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="334.0000228881836" centerY="252.0" width="167.08331298828125" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="643-13-0" />
+  </DataNode>
+  <DataNode elementID="bdc" textLabel="ADH1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="725.3333333333334" centerY="883.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ADH1 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YOL086C" />
+  </DataNode>
+  <DataNode elementID="c12" textLabel="FBA1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.00001525878906" centerY="401.3333435058594" width="106.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="FBA1" />
+    <Xref dataSource="Ensembl" identifier="YKL060C" />
+  </DataNode>
+  <DataNode elementID="c142c" textLabel="Pyruvate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="668.0" centerY="1168.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00243" />
+  </DataNode>
+  <DataNode elementID="c46" textLabel="PYK2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="366.0" centerY="940.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PYK2 | Pyruvate kinase one of two isoforms th..." />
+    <Xref dataSource="Ensembl" identifier="YOR347C" />
+  </DataNode>
+  <DataNode elementID="c4a" textLabel="ACS2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="608.0" centerY="1003.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACS2 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YLR153C" />
+  </DataNode>
+  <DataNode elementID="c68" textLabel="PGK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.00001525878906" centerY="617.3333129882812" width="106.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PGK1 | 3-phosphoglycerate kinase catalyzes tr..." />
+    <Xref dataSource="Ensembl" identifier="YCR012W" />
+  </DataNode>
+  <DataNode elementID="c6d" textLabel="ACS1 (mt)" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="920.0" centerY="1168.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ACS1 (mt)" />
+    <Xref dataSource="Ensembl" identifier="YAL054C" />
+  </DataNode>
+  <DataNode elementID="c71" textLabel="Ethanol" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1022.6666666666666" centerY="980.6666666666666" width="64.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="64-17-5" />
+  </DataNode>
+  <DataNode elementID="c73" textLabel="TPI1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.0000228881836" centerY="448.6667175292969" width="167.08331298828125" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="TPI1 | induced under stress conditions; triosep..." />
+    <Xref dataSource="Ensembl" identifier="YDR050C" />
+  </DataNode>
+  <DataNode elementID="c83" textLabel="PDC5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="499.3333333333333" centerY="936.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PDC5 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YLR134W" />
+  </DataNode>
+  <DataNode elementID="c8d" textLabel="Acetaldehyde" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1022.6666666666666" centerY="1089.3333333333333" width="109.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="75-07-0" />
+  </DataNode>
+  <DataNode elementID="c96" textLabel="GLK1" groupRef="d597e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.0000254313151" centerY="137.33333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="SGD" identifier="GLK1" />
+  </DataNode>
+  <DataNode elementID="cbc" textLabel="Glucose 6-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="334.0000228881836" centerY="182.0" width="167.08331298828125" height="19.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01401" />
+  </DataNode>
+  <DataNode elementID="cc8" textLabel="ADH4 (mt)" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1022.6666666666666" centerY="1045.3333333333333" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ADH4 (mt)" />
+    <Xref dataSource="Ensembl" identifier="YGL256W" />
+  </DataNode>
+  <DataNode elementID="ce1" textLabel="PYC1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="321.3333333333333" centerY="977.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PYC1 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YGL062W" />
+  </DataNode>
+  <DataNode elementID="cea" textLabel="Acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="608.0" centerY="1041.3333333333333" width="90.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="cee01" textLabel="Oxaloacetate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="211.0" centerY="975.3333333333334" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00223" />
+  </DataNode>
+  <DataNode elementID="d10" textLabel="ALD6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="608.0" centerY="938.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ALD6 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YPL061W" />
+  </DataNode>
+  <DataNode elementID="d4a" textLabel="TDH2" groupRef="cab16" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.00001525878906" centerY="511.66668701171875" width="106.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="TDH2" />
+    <Xref dataSource="Ensembl" identifier="YJR009C" />
+  </DataNode>
+  <DataNode elementID="da3" textLabel="PFK2" groupRef="df2a4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="292.6666666666667" centerY="312.3333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PFK2 | Beta subunit of heterooctameric phospho..." />
+    <Xref dataSource="Ensembl" identifier="YMR205C" />
+  </DataNode>
+  <DataNode elementID="dd6" textLabel="Glyceraldehyde-3-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="130.5" centerY="448.66668701171875" width="147.0" height="19.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01112" />
+  </DataNode>
+  <DataNode elementID="dda4b" textLabel="1,3-Bisphosphoglycerate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="334.00001525878906" centerY="573.0" width="167.08331298828125" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01270" />
+  </DataNode>
+  <DataNode elementID="ddd" textLabel="MDH1 (mt)" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="553.3333333333334" centerY="1284.3333333333333" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="MDH1 (mt)" />
+    <Xref dataSource="Ensembl" identifier="YKL085W" />
+  </DataNode>
+  <DataNode elementID="dfa" textLabel="TDH3" groupRef="cab16" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.00001525878906" centerY="531.6666870117188" width="106.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="TDH3 | Glyceraldehyde-3-phosphate dehydrogenas..." />
+    <Xref dataSource="Ensembl" identifier="YGR192C" />
+  </DataNode>
+  <DataNode elementID="dfc" textLabel="PYC2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="321.3333333333333" centerY="997.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PYC2 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YBR218C" />
+  </DataNode>
+  <DataNode elementID="e3e" textLabel="PDX1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="808.0" centerY="1280.6666666666667" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PDX1" />
+    <Xref dataSource="Ensembl" identifier="YGR193C" />
+  </DataNode>
+  <DataNode elementID="e46" textLabel="Acetate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1022.6666666666666" centerY="1170.0" width="62.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="64-19-7" />
+  </DataNode>
+  <DataNode elementID="e6a" textLabel="ENO1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.00001525878906" centerY="793.0" width="106.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ENO1 | Enolase I catalyzes the first common s..." />
+    <Xref dataSource="Ensembl" identifier="YGR254W" />
+  </DataNode>
+  <DataNode elementID="e75" textLabel="Malate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="459.3333333333333" centerY="1286.0" width="54.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="617-48-1" />
+  </DataNode>
+  <DataNode elementID="ec9" textLabel="LPD1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="808.0" centerY="1260.6666666666667" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="LPD1 | Dihydrolipoamide dehydrogenase the lip..." />
+    <Xref dataSource="Ensembl" identifier="YFL018C" />
+  </DataNode>
+  <DataNode elementID="ed56c" textLabel="3-Phosphoglycerate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="334.00001525878906" centerY="667.4833374023438" width="167.08331298828125" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00807" />
+  </DataNode>
+  <DataNode elementID="ee4" textLabel="PDA1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="808.0" centerY="1200.6666666666667" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PDA1 | E1 alpha subunit of the pyruvate dehydr..." />
+    <Xref dataSource="Ensembl" identifier="YER178W" />
+  </DataNode>
+  <DataNode elementID="ee5" textLabel="ALD4 (mt)" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1022.6666666666666" centerY="1124.6666666666667" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ALD4 (mt)" />
+    <Xref dataSource="Ensembl" identifier="YOR374W" />
+  </DataNode>
+  <DataNode elementID="efd" textLabel="ADH2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="725.3333333333334" centerY="903.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ADH2 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YMR303C" />
+  </DataNode>
+  <DataNode elementID="eff" textLabel="MDH2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="209.33333333333334" centerY="1030.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="MDH2 (cyto)" />
+    <Xref dataSource="Ensembl" identifier="YOL126C" />
+  </DataNode>
+  <DataNode elementID="f00" textLabel="HXK1" groupRef="d597e" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="334.0000254313151" centerY="97.33333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HXK1 | Hexokinase isoenzyme 1 a cytosolic pro..." />
+    <Xref dataSource="Ensembl" identifier="YFR053C" />
+  </DataNode>
+  <DataNode elementID="f1f75" textLabel="2-Phosphoglycerate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="334.00001525878906" centerY="751.0" width="167.08331298828125" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00362" />
+  </DataNode>
+  <DataNode elementID="f4b" textLabel="PCK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="260.0" centerY="928.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Phosphoenolpyruvate Carboxykinase" />
+    <Xref dataSource="SGD" identifier="PCK1" />
+  </DataNode>
+  <DataNode elementID="f6900" textLabel="OAC1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="503.03766707168774" centerY="1174.9696233292843" width="80.0" height="20.0" zOrder="32768">
+    <CitationRef citationID="c3b" />
+    <Xref dataSource="Entrez Gene" identifier="853739" />
+  </DataNode>
+  <DataNode elementID="f74" textLabel="CDC19" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="366.0" centerY="920.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CDC19 | Pyruvate kinase functions as a homote..." />
+    <Xref dataSource="Ensembl" identifier="YAL038W" />
+  </DataNode>
+  <DataNode elementID="f83" textLabel="PFK1" groupRef="df2a4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="292.6666666666667" centerY="292.3333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PFK1 | Alpha subunit of heterooctameric phosph..." />
+    <Xref dataSource="Ensembl" identifier="YGR240C" />
+  </DataNode>
+  <DataNode elementID="f88" textLabel="MAE1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="608.0" centerY="1201.3333333333333" width="73.33333333333333" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="MAE1 (mt)" />
+    <Xref dataSource="Ensembl" identifier="YKL029C" />
+  </DataNode>
+  <DataNode elementID="fc1bd" textLabel="Oxaloacetate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="659.0" centerY="1287.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00223" />
+  </DataNode>
+  <DataNode elementID="fdc" textLabel="Phosphoenolpyruvate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="334.0000228881836" centerY="860.0" width="167.08331298828125" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="138-08-9" />
+  </DataNode>
+  <DataNode elementID="fdf" textLabel="FBP1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="374.3333333333333" centerY="309.3333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="FBP1 | Fructose-16-bisphosphatase key regula..." />
+    <Xref dataSource="Ensembl" identifier="YLR377C" />
+  </DataNode>
+  <Interaction elementID="a4ab7" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="211.0" y="965.3333333333334" elementID="b2a15" elementRef="cee01" relX="0.0" relY="-1.0" />
+    <Point x="375.7708511352539" y="869.5" elementID="fa3f4" elementRef="fdc" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a9955" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="699.0" y="1287.0" elementID="d8ee1" elementRef="fc1bd" relX="1.0" relY="0.0" />
+    <Point x="806.1351052048713" y="1359.7951273532672" elementID="c23af" elementRef="a3f3d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="aed58" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="292.2291946411133" y="261.5" elementID="c792d" elementRef="bac" relX="-0.5" relY="1.0" />
+    <Point x="292.22918701171875" y="347.0" elementID="f8454" elementRef="b1cce" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b0412" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="846.8333333333335" y="906.0" elementID="aaddc" elementRef="b70" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point x="990.5" y="980.6666666666666" elementID="dbbf5" elementRef="c71" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b1171" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="639.1666666666667" y="973.3333333333334" elementID="b1791" elementRef="b7e" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point x="991.5" y="1170.0" elementID="fff34" elementRef="e46" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b24a3" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="375.7708511352539" y="850.5" elementID="eb1b0" elementRef="fdc" relX="0.5" relY="-1.0" />
+    <Point x="375.7708435058594" y="761.0" elementID="f2711" elementRef="f1f75" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b5688" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="466.16666666666674" y="448.6666666666667" elementID="fcc15" elementRef="a4b" relX="-1.0" relY="0.0" />
+    <Point x="204.0" y="448.66668701171875" elementID="a0865" elementRef="dd6" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b62c2" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="292.22918701171875" y="583.0" elementID="b8a2f" elementRef="dda4b" relX="-0.5" relY="1.0" />
+    <Point x="292.22918701171875" y="657.4833374023438" elementID="b816e" elementRef="ed56c" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b7319" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="472.9166666666666" y="1276.5" elementID="ea97e" elementRef="e75" relX="0.5" relY="-1.0" />
+    <Point x="648.0" y="1178.0" elementID="a7090" elementRef="c142c" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b8cc8" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="292.2291946411133" y="869.5" elementID="cc12d" elementRef="fdc" relX="-0.5" relY="1.0" />
+    <Point x="415.0" y="965.3333333333334" elementID="c0e4e" elementRef="a6615" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ba973" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="486.4999999999999" y="1286.0" elementID="d695a" elementRef="e75" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point x="619.0" y="1287.0" elementID="ee032" elementRef="fc1bd" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bb35a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="608.0" y="915.5" elementID="d227e" elementRef="a56" relX="0.0" relY="1.0" />
+    <Point x="608.0" y="963.8333333333334" elementID="a1f0a" elementRef="b7e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bb959" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="204.0" y="448.66668701171875" elementID="c744d" elementRef="dd6" relX="1.0" relY="0.0" />
+    <Point x="466.16666666666674" y="448.6666666666667" elementID="efa66" elementRef="a4b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bc0a2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="608.0" y="982.8333333333334" elementID="cd767" elementRef="b7e" relX="0.0" relY="1.0" />
+    <Point x="608.0" y="1031.8333333333333" elementID="c2e04" elementRef="cea" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bd23b" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="334.0" y="61.5" elementID="b1100" elementRef="b3a" relX="0.0" relY="1.0" />
+    <Point x="334.0000228881836" y="172.5" elementID="f71a4" elementRef="cbc" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bfc87" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="635.3333333333334" y="915.5" elementID="c8b9e" elementRef="a56" relX="0.5" relY="1.0" arrowHead="Arrow" />
+    <Point x="968.0" y="1089.3333333333333" elementID="d19bc" elementRef="c8d" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c1420" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="991.5" y="1170.0" elementID="fda34" elementRef="e46" relX="-1.0" relY="0.0" />
+    <Point x="853.1666666666667" y="1169.3333333333333" elementID="d08a5" elementRef="b98" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="cc1ce" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="808.0" y="1178.8333333333333" elementID="da4d9" elementRef="b98" relX="0.0" relY="1.0" />
+    <Point x="806.1351052048713" y="1359.7951273532672" elementID="b2ec5" elementRef="a3f3d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="cc967" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="375.7708435058594" y="657.4833374023438" elementID="b0d77" elementRef="ed56c" relX="0.5" relY="-1.0" />
+    <Point x="375.7708435058594" y="583.0" elementID="a9745" elementRef="dda4b" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ceda4" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="375.7708511352539" y="438.6667175292969" elementID="d4084" elementRef="c73" relX="0.5" relY="-1.0" />
+    <Point x="375.7708435058594" y="367.0" elementID="d7e64" elementRef="b1cce" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d024d" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="435.0" y="985.3333333333334" elementID="ea2c4" elementRef="a6615" relX="0.5" relY="1.0" arrowHead="Arrow" />
+    <Point x="648.0" y="1158.0" elementID="e1511" elementRef="c142c" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d1cd1" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="292.2291946411133" y="191.5" elementID="d2e2c" elementRef="cbc" relX="-0.5" relY="1.0" />
+    <Point x="292.2291946411133" y="242.5" elementID="a0a76" elementRef="bac" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d4aec" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="375.7708435058594" y="741.0" elementID="a8b65" elementRef="f1f75" relX="0.5" relY="-1.0" />
+    <Point x="375.7708435058594" y="677.4833374023438" elementID="d21bc" elementRef="ed56c" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d6034" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="292.22918701171875" y="761.0" elementID="e4ea7" elementRef="f1f75" relX="-0.5" relY="1.0" />
+    <Point x="292.2291946411133" y="850.5" elementID="ada83" elementRef="fdc" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d7b29" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="231.00000508626303" y="1110.5" elementID="b9129" elementRef="b71" relX="0.5" relY="1.0" arrowHead="Arrow" />
+    <Point x="445.74999999999994" y="1276.5" elementID="ebb9d" elementRef="e75" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d989e" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="292.22918701171875" y="367.0" elementID="d360f" elementRef="b1cce" relX="-0.5" relY="1.0" />
+    <Point x="292.2291946411133" y="438.6667175292969" elementID="b0679" elementRef="c73" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d996b" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="375.7708435058594" y="347.0" elementID="e53ac" elementRef="b1cce" relX="0.5" relY="-1.0" />
+    <Point x="375.7708511352539" y="261.5" elementID="bb2da" elementRef="bac" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="de084" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="375.7708435058594" y="563.0" elementID="f83b8" elementRef="dda4b" relX="0.5" relY="-1.0" />
+    <Point x="375.7708511352539" y="458.6667175292969" elementID="f59c7" elementRef="c73" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e1236" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="292.22918701171875" y="677.4833374023438" elementID="a5215" elementRef="ed56c" relX="-0.5" relY="1.0" />
+    <Point x="292.22918701171875" y="741.0" elementID="b892f" elementRef="f1f75" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e2ec5" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="231.0" y="985.3333333333334" elementID="d6933" elementRef="cee01" relX="0.5" relY="1.0" arrowHead="Arrow" />
+    <Point x="639.0" y="1277.0" elementID="ed155" elementRef="fc1bd" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.6535619074448151" shapeType="None" elementID="f9b79" />
+  </Interaction>
+  <Interaction elementID="e67d7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="211.0" y="985.3333333333334" elementID="ad0b2" elementRef="cee01" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Point x="211.00000508626303" y="1091.5" elementID="fe46f" elementRef="b71" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e834f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="708.0" y="1168.0" elementID="e5b42" elementRef="c142c" relX="1.0" relY="0.0" />
+    <Point x="762.8333333333333" y="1169.3333333333333" elementID="edd9d" elementRef="b98" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e8c1f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1022.6666666666666" y="1079.8333333333333" elementID="d333e" elementRef="c8d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point x="1022.6666666666666" y="990.1666666666666" elementID="cf8a7" elementRef="c71" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e991d" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="630.5833333333334" y="1050.8333333333333" elementID="e8ee2" elementRef="cea" relX="0.5" relY="1.0" arrowHead="Arrow" />
+    <Point x="762.8333333333333" y="1169.3333333333333" elementID="dbe28" elementRef="b98" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ead9a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1022.6666666666666" y="1098.8333333333333" elementID="fa5dc" elementRef="c8d" relX="0.0" relY="1.0" />
+    <Point x="1022.6666666666666" y="1160.5" elementID="ca525" elementRef="e46" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ec8bb" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="806.1351052048713" y="1389.0306122448978" elementID="ded4f" elementRef="a3f3d" relX="0.0" relY="1.0" />
+    <Point x="472.9166666666666" y="1295.5" elementID="b4054" elementRef="e75" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ecaa9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="782.5" y="906.0" elementID="a682a" elementRef="b70" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point x="662.6666666666667" y="906.0" elementID="d670e" elementRef="a56" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ed4a1" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="375.7708511352539" y="242.5" elementID="b9282" elementRef="bac" relX="0.5" relY="-1.0" />
+    <Point x="375.7708511352539" y="191.5" elementID="e60ad" elementRef="cbc" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f2254" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="292.2291946411133" y="458.6667175292969" elementID="bf184" elementRef="c73" relX="-0.5" relY="1.0" />
+    <Point x="292.22918701171875" y="563.0" elementID="a49c7" elementRef="dda4b" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f5438" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="455.0" y="975.3333333333334" elementID="a9f40" elementRef="a6615" relX="1.0" relY="0.0" />
+    <Point x="553.3333333333333" y="906.0" elementID="cbab6" elementRef="a56" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fd681" zOrder="12288" lineThickness="1.0" color="0f0f0f">
+    <Xref dataSource="" identifier="" />
+    <Point x="375.0" y="975.3333333333334" elementID="e1f6f" elementRef="a6615" relX="-1.0" relY="0.0" />
+    <Point x="251.0" y="975.3333333333334" elementID="ad199" elementRef="cee01" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8b95cc1c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="503.0376670716878" y="1184.9696233292843" elementID="b38fc" elementRef="f6900" relX="0.0" relY="1.0" />
+    <Point x="497.6532582374846" y="1175.9555563380711" elementID="e5677" elementRef="f9b79" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <GraphicalLine elementID="id239eb213" zOrder="12288" lineThickness="1.0" color="0000ff">
+    <Point x="547.5778546712799" y="64.87889273356402" elementID="ad497" />
+    <Point x="547.5778546712804" y="88.23529411764704" elementID="eaa69" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id6370fb5c" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Point x="547.0252492377263" y="96.34382815444174" elementID="f6836" arrowHead="Arrow" />
+    <Point x="546.9306930693069" y="117.22772277227723" elementID="e819a" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id746408a" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Point x="528.3168316831685" y="136.63366336633686" elementID="bc8d8" arrowHead="Arrow" />
+    <Point x="567.1287128712872" y="136.63366336633686" elementID="b4ee9" arrowHead="Arrow" />
+  </GraphicalLine>
+  <Label elementID="de7" textLabel="Glycolysis" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="595.6585928489043" centerY="76.53171856978086" width="84.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="e3f" textLabel="Mitochondrion" color="999999" fillColor="ffffff" fontWeight="Bold" fontSize="23" vAlign="Middle" centerX="1218.0" centerY="1030.5833333333333" width="190.0" height="49.5" zOrder="28672" />
+  <Label elementID="f76" textLabel="Transport" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="605.8333333333334" centerY="136.66666666666666" width="74.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="fcd" textLabel="Gluconeogenesis" color="ff0000" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="608.8333333333334" centerY="110.33333333333333" width="105.66666666666667" height="19.0" zOrder="28672" />
+  <Shape elementID="cdf94" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="838.9237919275453" centerY="1222.0563134640256" width="1066.7857262900416" height="442.61547837742796" zOrder="16384" rotation="5.840536674393405">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="de045" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="601.4833333333333" centerY="104.5" width="159.03333333333333" height="97.0" zOrder="16384" rotation="0.0" />
+  <Group elementID="cab16" groupType="Group" />
+  <Group elementID="d597e" groupType="Group" />
+  <Group elementID="df2a4" groupType="Group" />
+  <InfoBox centerX="681.6666666666666" centerY="155.0" />
+  <Legend centerX="685.0" centerY="258.3333333333333" />
+  <Citations>
+    <Citation title="Current concepts of gluconeogenesis." URL="" citationID="a1a" year="1967" source="Am J Clin Nutr">
+      <Xref dataSource="PubMed" identifier="5335797" />
+      <Author name="Eisenstein AB" />
+    </Citation>
+    <Citation title="Identification of the yeast mitochondrial transporter for oxaloacetate and sulfate." URL="" citationID="c3b" year="1999" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="10428783" />
+      <Author name="Palmieri L" />
+      <Author name="Vozza A" />
+      <Author name="Agrimi G" />
+      <Author name="De Marco V" />
+      <Author name="Runswick MJ" />
+      <Author name="Palmieri F" />
+      <Author name="Walker JE" />
+    </Citation>
+    <Citation title="Gluconeogenesis: pathways and hormonal regulation." URL="" citationID="ae9" year="1966" source="Harvey Lect">
+      <Xref dataSource="PubMed" identifier="5338068" />
+      <Author name="Lardy HA" />
+    </Citation>
+    <Citation title="Cori cycle activity in man." URL="" citationID="bf1" year="1969" source="J Clin Invest">
+      <Xref dataSource="PubMed" identifier="5355347" />
+      <Author name="Waterhouse C" />
+      <Author name="Keilson J" />
+    </Citation>
+    <Citation title="Recycling of glucose and determination of the Cori Cycle and gluconeogenesis." URL="" citationID="f07" year="1999" source="Am J Physiol">
+      <Xref dataSource="PubMed" identifier="10484349" />
+      <Author name="Katz J" />
+      <Author name="Tayek JA" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="glycolysis pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000640" />
+    <OntologyTerm term="glycolysis/gluconeogenesis pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000025" />
+    <OntologyTerm term="gluconeogenesis pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000641" />
+  </OntologyTerms>
+</Pathway>
+

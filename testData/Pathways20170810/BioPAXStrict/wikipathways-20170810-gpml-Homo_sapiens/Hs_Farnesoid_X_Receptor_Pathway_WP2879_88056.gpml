@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:Protein rdf:about="a6074">
+ <bp:xref rdf:resource="fa4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR1H4</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nuclear receptor subfamily 1, group H, member 4</bp:comment>
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR0B2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="fe9c0">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RXRA</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">retinoid X receptor, alpha </bp:comment>
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1581</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:PublicationXref rdf:about="b6a">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2005</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Meyer UA</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Handschin C</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15581595</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Arch Biochem Biophys</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Regulatory network of lipid-sensing nuclear receptors: roles for CAR, PXR, LXR, and FXR.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CYP8B1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">8431</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id15">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id15</bp:displayName>
+ <bp:left rdf:resource="f8ef6" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="e5711">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FXR ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">T3</bp:comment>
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">1582</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="c282c">
+ <bp:xref rdf:resource="fa4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR1H4</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nuclear receptor subfamily 1, group H, member 4 </bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="cd425">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CYP8B1</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cytochrome P450, family 8, subfamily B, polypeptide 1 </bp:comment>
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="fa4">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2010</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Oldenburg B</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gadaleta RM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Siersema PD</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Klomp LW</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">van Mil SW</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">van Erpecum KJ</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">20399894</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Biochim Biophys Acta</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bile acids and their nuclear receptor FXR: Relevance for hepatobiliary and gastrointestinal disease.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="b32ae">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RXRA</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">retinoid X receptor, alpha </bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="e5b44">
+ <bp:xref rdf:resource="fa4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR1H4</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nuclear receptor subfamily 1, group H, member 4</bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="f8ef6">
+ <bp:xref rdf:resource="fa4" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR1H4</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nuclear receptor subfamily 1, group H, member 4 </bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="af061">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RXRA</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">retinoid X receptor, alpha </bp:comment>
+</bp:Protein>
+
+<bp:Protein rdf:about="b1b19">
+ <bp:xref rdf:resource="cd6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CYP7A1</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">cytochrome P450, family 7, subfamily A, polypeptide 1 </bp:comment>
+</bp:Protein>
+
+<bp:Complex rdf:about="id20">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id20</bp:displayName>
+ <bp:component rdf:resource="c282c" />
+ <bp:component rdf:resource="bee75" />
+</bp:Complex>
+
+<bp:Protein rdf:about="dac23">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR0B2</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nuclear receptor subfamily 0, group B, member 2</bp:comment>
+</bp:Protein>
+
+<bp:Complex rdf:about="id22">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id22</bp:displayName>
+ <bp:component rdf:resource="af061" />
+ <bp:component rdf:resource="a6074" />
+ <bp:component rdf:resource="cb913" />
+</bp:Complex>
+
+<bp:Complex rdf:about="id21">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Complex id21</bp:displayName>
+ <bp:component rdf:resource="e5b44" />
+ <bp:component rdf:resource="fe9c0" />
+ <bp:component rdf:resource="d4189" />
+</bp:Complex>
+
+<bp:BiochemicalReaction rdf:about="id17">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id17</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id16</bp:displayName>
+ <bp:right rdf:resource="f8ef6" />
+ <bp:left rdf:resource="e5711" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id19">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id19</bp:displayName>
+ <bp:right rdf:resource="cd425" />
+ <bp:right rdf:resource="b1b19" />
+ <bp:left rdf:resource="dac23" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="d1437">
+ <bp:xref rdf:resource="b6a" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR0B2</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">nuclear receptor subfamily 0, group B, member 2 </bp:comment>
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id18">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id18</bp:displayName>
+ <bp:left rdf:resource="b32ae" />
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="bee75">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:PublicationXref rdf:about="cd6">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2005</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Meyer UA</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Handschin C</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15581595</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Arch Biochem Biophys</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Regulatory network of lipid-sensing nuclear receptors: roles for CAR, PXR, LXR, and FXR.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Homo sapiens</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id17" />
+ <bp:pathwayComponent rdf:resource="id16" />
+ <bp:pathwayComponent rdf:resource="id19" />
+ <bp:pathwayComponent rdf:resource="id18" />
+ <bp:pathwayComponent rdf:resource="id15" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Farnesoid X Receptor  Pathway</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">The farnesoid X receptor (FXR, a.k.a. NR1H4) is a nuclear receptor that responds to levels of bile acids present in the body and regulates many processes related to bile acids synthesis and transport.  (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">9971</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">NR1H4</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CHEBI:48705</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">ChEBI</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:name rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">FXR ligand</bp:name>
+</bp:SmallMoleculeReference>
+
+<bp:SmallMolecule rdf:about="d4189">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">6256</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMolecule rdf:about="cb913">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ligand</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:SmallMolecule>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">RXRA</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">CYP7A1</bp:displayName>
+</bp:ProteinReference>
+</rdf:RDF>

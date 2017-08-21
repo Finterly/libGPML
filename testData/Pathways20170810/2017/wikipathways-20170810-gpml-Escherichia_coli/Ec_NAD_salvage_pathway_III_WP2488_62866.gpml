@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="NAD salvage pathway III" revision="20130409" organism="Escherichia coli" width="584.5185185185188" height="541.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">In addition to de novo synthesis of NAD (NAD biosynthesis II (from tryptophan)) and regeneration from nicotinamide degradation products and extracellular nicotinate (NAD salvage pathway I), yeast posseses an additional route for synthesizing NAD, called the nicotinamide riboside salvage pathway [Bieganowsk04]. In this pathway 1-(β-D ribofuranosyl)nicotinamide is converted to β-nicotinamide D-ribonucleotide and subsequently to NAD+, in reactions catalyzed by the enzymes nicotinamide riboside kinase and nicotinamide mononucleotide adenylyltransferase [Bieganowsk04].
+
+Bacteria that lack the enzymes for de novo NAD biosynthesis are able to convert extracellular NAD to less polar degradation products, which are then imported into the cell and processed back to NAD via 1-(β-D ribofuranosyl)nicotinamide (see NAD salvage pathway II) [Bieganowsk04]. However, the genes that those bacteria utilize to convert the extracellular NAD into 1-(β-D ribofuranosyl)nicotinamide have not been identified in fungi or animals, which may have only the later part of the pathway, as described here [Bieganowsk04].</Comment>
+  <Comment>source: http://biocyc.org/ECOLI/NEW-IMAGE?type=PATHWAY&amp;object=PWY3O-4106&amp;detail-level=3</Comment>
+  <CitationRef citationID="f33" />
+  <CitationRef citationID="ef9" />
+  <CitationRef citationID="dd6" />
+  <CitationRef citationID="bab" />
+  <CitationRef citationID="e04" />
+  <CitationRef citationID="a5f" />
+  <CitationRef citationID="bf7" />
+  <CitationRef citationID="aee" />
+  <CitationRef citationID="eea" />
+  <DataNode elementID="ccb07" textLabel="nadR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="362.0" centerY="244.0" width="80.0" height="20.0" zOrder="32833">
+    <Xref dataSource="Ensembl" identifier="EBESCG00000001171" />
+  </DataNode>
+  <DataNode elementID="a2e41" textLabel="Adenosine&#xA;triphosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="507.5" centerY="210.0" width="85.0" height="26.0" zOrder="32834">
+    <Xref dataSource="HMDB" identifier="HMDB00538" />
+  </DataNode>
+  <DataNode elementID="b3e50" textLabel="Nicotinamide&#xA;riboside" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="429.0324074074074" centerY="134.78240740740736" width="105.93518518518522" height="24.435185185185276" zOrder="32835">
+    <Xref dataSource="HMDB" identifier="HMDB00855" />
+  </DataNode>
+  <DataNode elementID="a007c" textLabel="Nicotinamide ribotide" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="429.5" centerY="351.0" width="135.0" height="20.0" zOrder="32836">
+    <Xref dataSource="HMDB" identifier="HMDB00229" />
+  </DataNode>
+  <DataNode elementID="e9898" textLabel="Hydrogen Ion" groupRef="f486a" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="507.7759912613827" centerY="293.09069378088066" width="85.0" height="20.0" zOrder="32837">
+    <Xref dataSource="HMDB" identifier="HMDB59597" />
+  </DataNode>
+  <DataNode elementID="c1244" textLabel="ADP" groupRef="f486a" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="507.7759912613827" centerY="274.6990740740743" width="85.0" height="20.0" zOrder="32838">
+    <Xref dataSource="HMDB" identifier="HMDB01341" />
+  </DataNode>
+  <DataNode elementID="fa996" textLabel="Hydrogen Ion" groupRef="c7b85" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="509.6666666666665" centerY="413.09069378088066" width="87.0" height="20.0" zOrder="32839">
+    <Xref dataSource="HMDB" identifier="HMDB59597" />
+  </DataNode>
+  <DataNode elementID="fe249" textLabel="Adenosine&#xA;triphosphate" groupRef="c7b85" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="509.6666666666665" centerY="389.8240740740739" width="87.0" height="28.0" zOrder="32840">
+    <Xref dataSource="HMDB" identifier="HMDB00538" />
+  </DataNode>
+  <DataNode elementID="fe8a9" textLabel="Pyrophosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="511.0185185185188" centerY="448.27819263496224" width="87.0" height="20.0" zOrder="32841">
+    <Xref dataSource="HMDB" identifier="HMDB00250" />
+  </DataNode>
+  <DataNode elementID="b8533" textLabel="nadR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="362.0" centerY="412.0" width="80.0" height="20.0" zOrder="32842">
+    <Xref dataSource="Ensembl" identifier="EBESCG00000001171" />
+  </DataNode>
+  <DataNode elementID="c2159" textLabel="NAD" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="429.5648148148148" centerY="500.7824074074074" width="43.0" height="20.43518518518522" zOrder="32843">
+    <Xref dataSource="HMDB" identifier="HMDB00902" />
+  </DataNode>
+  <Interaction elementID="id775698e8" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="429.5259259259259" y="412.8259259259259" elementID="bc555" elementRef="ab321" relX="0.0" relY="0.0" />
+    <Point x="429.0" y="406.14165492670156" elementID="d0b2d" />
+    <Point x="458.1666666666665" y="399.4573839274773" elementID="f728b" elementRef="c7b85" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="c91bd" connectorType="Curved" zOrder="32826" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="429.26860660494776" y="244.9969423141681" elementID="ac741" elementRef="ddbc1" relX="0.0" relY="0.0" />
+    <Point x="430.0" y="264.4459131208228" elementID="e1693" />
+    <Point x="457.2759912613827" y="283.8948839274775" elementID="ecc1c" elementRef="f486a" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fa4f7" zOrder="32827" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="429.5" y="361.0" elementID="f7591" elementRef="a007c" relX="0.0" relY="1.0" />
+    <Point x="429.5648148148148" y="490.5648148148148" elementID="fbf1a" elementRef="c2159" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="ab321" />
+  </Interaction>
+  <Interaction elementID="cd63a" connectorType="Curved" zOrder="32828" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="429.5259259259259" y="412.8259259259259" elementID="ac8ee" elementRef="ab321" relX="0.0" relY="0.0" />
+    <Point x="430.0" y="430.55205928044404" elementID="d867a" />
+    <Point x="467.5185185185188" y="448.27819263496224" elementID="ff6d2" elementRef="fe8a9" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="eb74f" connectorType="Curved" zOrder="32829" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="465.0" y="210.0" elementID="d7cb8" elementRef="a2e41" relX="-1.0" relY="0.0" />
+    <Point x="430.0" y="227.49847115708405" elementID="b80ac" />
+    <Point x="429.26860660494776" y="244.9969423141681" elementID="ee982" elementRef="ddbc1" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="caff5" zOrder="32830" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="402.0" y="412.0" elementID="c0b51" elementRef="b8533" relX="1.0" relY="0.0" />
+    <Point x="429.5259259259259" y="412.8259259259259" elementID="eeeb3" elementRef="ab321" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="cab23" zOrder="32831" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="429.0324074074074" y="147.0" elementID="fe833" elementRef="b3e50" relX="0.0" relY="1.0" />
+    <Point x="429.5" y="341.0" elementID="eb42e" elementRef="a007c" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Anchor position="0.5051388779080831" shapeType="None" elementID="ddbc1" />
+  </Interaction>
+  <Interaction elementID="e32bb" zOrder="32832" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="402.0" y="244.0" elementID="deb04" elementRef="ccb07" relX="1.0" relY="0.0" />
+    <Point x="429.26860660494776" y="244.9969423141681" elementID="eb3e3" elementRef="ddbc1" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Group elementID="c7b85" groupType="Group" />
+  <Group elementID="f486a" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="The Escherichia coli NadR regulator is endowed with nicotinamide mononucleotide adenylyltransferase activity." URL="" citationID="aee" year="1999" source="J Bacteriol">
+      <Xref dataSource="PubMed" identifier="10464228" />
+      <Author name="Raffaelli N" />
+      <Author name="Lorenzi T" />
+      <Author name="Mariani PL" />
+      <Author name="Emanuelli M" />
+      <Author name="Amici A" />
+      <Author name="Ruggieri S" />
+      <Author name="Magni G" />
+    </Citation>
+    <Citation title="Recognition of a gene involved in the regulation of nicotinamide adenine dinucleotide biosynthesis." URL="" citationID="eea" year="1973" source="J Bacteriol">
+      <Xref dataSource="PubMed" identifier="4349027" />
+      <Author name="Tritz GJ" />
+      <Author name="Chandler JL" />
+    </Citation>
+    <Citation title="[The study of deafness in patients with facioscapulohumeral dystrophy]." URL="" citationID="bab" year="1994" source="Acta Otorrinolaringol Esp">
+      <Xref dataSource="PubMed" identifier="8086213" />
+      <Author name="Sánchez-Alcón MD" />
+      <Author name="Pérez Garrigues H" />
+      <Author name="Vílchez J" />
+      <Author name="Casanova B" />
+      <Author name="Morera C" />
+    </Citation>
+    <Citation title="The genetic basis of parallel and divergent phenotypic responses in evolving populations of Escherichia coli." URL="" citationID="bf7" year="2008" source="Proc Biol Sci">
+      <Xref dataSource="PubMed" identifier="18029306" />
+      <Author name="Ostrowski EA" />
+      <Author name="Woods RJ" />
+      <Author name="Lenski RE" />
+    </Citation>
+    <Citation title="Ribosylnicotinamide kinase domain of NadR protein: identification and implications in NAD biosynthesis." URL="" citationID="a5f" year="2002" source="J Bacteriol">
+      <Xref dataSource="PubMed" identifier="12446641" />
+      <Author name="Kurnasov OV" />
+      <Author name="Polanuyer BM" />
+      <Author name="Ananta S" />
+      <Author name="Sloutsky R" />
+      <Author name="Tam A" />
+      <Author name="Gerdes SY" />
+      <Author name="Osterman AL" />
+    </Citation>
+    <Citation title="Calorie restriction extends yeast life span by lowering the level of NADH." URL="" citationID="dd6" year="2004" source="Genes Dev">
+      <Xref dataSource="PubMed" identifier="14724176" />
+      <Author name="Lin SJ" />
+      <Author name="Ford E" />
+      <Author name="Haigis M" />
+      <Author name="Liszt G" />
+      <Author name="Guarente L" />
+    </Citation>
+    <Citation title="Discoveries of nicotinamide riboside as a nutrient and conserved NRK genes establish a Preiss-Handler independent route to NAD+ in fungi and humans." URL="" citationID="f33" year="2004" source="Cell">
+      <Xref dataSource="PubMed" identifier="15137942" />
+      <Author name="Bieganowski P" />
+      <Author name="Brenner C" />
+    </Citation>
+    <Citation title="Evolution of the NadR regulon in Enterobacteriaceae." URL="" citationID="e04" year="2005" source="J Bioinform Comput Biol">
+      <Xref dataSource="PubMed" identifier="16078372" />
+      <Author name="Gerasimova AV" />
+      <Author name="Gelfand MS" />
+    </Citation>
+    <Citation title="Nicotinamide adenine dinucleotide, a metabolic regulator of transcription, longevity and disease." URL="" citationID="ef9" year="2003" source="Curr Opin Cell Biol">
+      <Xref dataSource="PubMed" identifier="12648681" />
+      <Author name="Lin SJ" />
+      <Author name="Guarente L" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="purine salvage pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000868" />
+    <OntologyTerm term="pyridine nucleotide biosynthetic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000220" />
+    <OntologyTerm term="NAD biosynthetic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000219" />
+  </OntologyTerms>
+</Pathway>
+

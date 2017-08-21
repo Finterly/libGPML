@@ -1,0 +1,35 @@
+fructose 6-phosphate	Line	R15
+R15	mim-conversion	sucrose 6-phosphate
+glucose 6-phosphate	Line	R1
+R1	mim-conversion	fructose 6-phosphate
+sucrose	Line	R7
+R7	mim-conversion	fructose
+glucose 6-phosphate	Line	R10
+R10	mim-conversion	glucose 1-phosphate
+invertase 2	Line	R27
+invertase 1	Line	R27
+R27	mim-conversion	R7
+glucose-6-phosphate isomerase	Line	R17
+R17	mim-conversion	R1
+ATP	Line	R5
+fructose	Line	R5
+R5	mim-conversion	fructose 6-phosphate
+R5	mim-conversion	ADP
+phosphoglucomutase 2	Line	R23
+phosphoglucomutase 1	Line	R23
+R23	mim-conversion	R10
+hexokinase 2	Line	R31
+R31	mim-conversion	R5
+UDP-glucose pyrophosphorylase 1	Line	R33
+UDP-glucose pyrophosphorylase 2	Line	R33
+R33	mim-conversion	R12
+glucose 1-phosphate	Line	R12
+UTP	Line	R12
+R12	mim-conversion	PPi
+R12	mim-conversion	UDP-glucose
+ATP	Line	R3
+glucose	Line	R3
+R3	mim-conversion	glucose 6-phosphate
+R3	mim-conversion	ADP
+hexokinase 2	Line	R29
+R29	mim-conversion	R3

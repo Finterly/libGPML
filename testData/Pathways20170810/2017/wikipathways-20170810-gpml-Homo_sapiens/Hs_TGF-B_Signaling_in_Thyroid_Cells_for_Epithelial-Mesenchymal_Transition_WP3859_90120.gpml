@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="TGF-B Signaling in Thyroid Cells for Epithelial-Mesenchymal Transition" revision="20160720" organism="Homo sapiens" width="837.0" height="699.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">This pathway is based on the Figure 7 of "Cadherin 6 Is a New RUNX2 Target in TGF-β Signalling Pathway" (see bibliography). TGF-B is a target gene in thyroid cells in the causation of cancer. When TGF-B is activated, the pathway can take 2 directions, through a SMAD pathway or a Non-Smad pathway. Through the SMAD pathway, SMAD separates into SMAD2/3, SMAD4, and involves phosphates into the nuclear signalling. Through the Non-SMAD pathway, the activation of MAPK and Pi3k  causes the activation of ERK, AKT and phosphates, and then into the nuclear signalling. Within the nuclear signalling, EMT-TF has two responses, early and late. With the early response, EMT-TF signals to Id1 and RUNX2, and with the late response, EMT-TF signals to Snai1 and Snai2. Depending on the response also dictates the type of marker that will follow. If early, N-CAD,FN1,VIM,TNC, and CDH6 all cause the activation of the Mesenchymal markers. If late, E-CAD, and CDH16 cause the inhibition of the Epithelial Markers.  
+</Comment>
+  <CitationRef citationID="b96" />
+  <DataNode elementID="aa28a" textLabel="RUNX2" groupRef="d6f99" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="402.0" centerY="413.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000124813" />
+  </DataNode>
+  <DataNode elementID="bb463" textLabel="PI3K" groupRef="c5473" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="460.0" centerY="200.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="P91634" />
+  </DataNode>
+  <DataNode elementID="bc048" textLabel="CDH16" groupRef="e8c07" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="604.0" centerY="524.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000166589" />
+  </DataNode>
+  <DataNode elementID="bca32" textLabel="N-CAD" groupRef="a70ab" fontSize="10" vAlign="Middle" type="Protein" centerX="308.0" centerY="504.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="A0A024RC42" />
+  </DataNode>
+  <DataNode elementID="bf323" textLabel="E-CAD" groupRef="e8c07" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="604.0" centerY="504.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="P12830" />
+  </DataNode>
+  <DataNode elementID="c0bc3" textLabel="TNC" groupRef="a70ab" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="387.0" centerY="524.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000041982" />
+  </DataNode>
+  <DataNode elementID="cd72c" textLabel="ERK" groupRef="c2bb2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="460.0" centerY="257.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>ERK Not Specified</Comment>
+    <Xref dataSource="Uniprot-TrEMBL" identifier="P27361" />
+  </DataNode>
+  <DataNode elementID="ceff3" textLabel="SMAD3" groupRef="ba481" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="263.0" centerY="190.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000166949" />
+  </DataNode>
+  <DataNode elementID="cffb6" textLabel="SMAD4" groupRef="ba481" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="263.0" centerY="210.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000141646" />
+  </DataNode>
+  <DataNode elementID="d3f43" textLabel="ID1" groupRef="d6f99" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="319.0" centerY="380.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000125968" />
+  </DataNode>
+  <DataNode elementID="e213a" textLabel="MAPK" groupRef="c5473" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="540.0" centerY="200.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>MAPK Not Specified</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSG00000100030" />
+  </DataNode>
+  <DataNode elementID="e588e" textLabel="FN1" groupRef="a70ab" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="308.0" centerY="544.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000115414" />
+  </DataNode>
+  <DataNode elementID="e61cb" textLabel="SNAI1" groupRef="d6f99" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="549.0" centerY="384.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000124216" />
+  </DataNode>
+  <DataNode elementID="e7aaa" textLabel="CDH6" groupRef="a70ab" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="387.0" centerY="504.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000113361" />
+  </DataNode>
+  <DataNode elementID="e80c5" textLabel="VIM" groupRef="a70ab" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="308.0" centerY="524.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000026025" />
+  </DataNode>
+  <DataNode elementID="eb8a1" textLabel="SMAD2" groupRef="ba481" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="263.0" centerY="170.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000175387" />
+  </DataNode>
+  <DataNode elementID="ed2da" textLabel="TGF-B" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="370.75" centerY="86.25" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Uniprot-TrEMBL" identifier="P01137" />
+  </DataNode>
+  <DataNode elementID="eebfe" textLabel="SNAI2" groupRef="d6f99" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="495.0" centerY="414.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000019549" />
+  </DataNode>
+  <DataNode elementID="fe4d6" textLabel="AKT" groupRef="c2bb2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="540.0" centerY="257.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment>AKT Not Specified</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSG00000142208" />
+  </DataNode>
+  <State elementID="a1d08" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="eb8a1" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Comment>Phosphate</Comment>
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="aa0e6" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="ceff3" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Comment>Phosphate</Comment>
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="aacc0" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="ed2da" relX="-1.0" relY="1.0" width="15.0" height="15.0">
+    <Comment>Phosphate</Comment>
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="afa87" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="ed2da" relX="1.0" relY="-1.0" width="15.0" height="15.0">
+    <Comment>Phosphate</Comment>
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="b913a" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="cd72c" relX="1.0" relY="0.9" width="15.0" height="15.0">
+    <Comment>Phosphate</Comment>
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="d1547" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="ed2da" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Comment>Phosphate</Comment>
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="fbd86" textLabel="P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="fe4d6" relX="1.0" relY="1.0" width="15.0" height="15.0">
+    <Comment>Phosphate</Comment>
+    <Xref dataSource="" identifier="" />
+  </State>
+  <Interaction elementID="b2cd7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="515.5" y="432.0" elementID="efb99" elementRef="d6f99" relX="0.5" relY="1.0" />
+    <Point x="580.0" y="486.0" elementID="c5fa2" elementRef="e8c07" relX="-0.5" relY="-1.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="d3ea6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="352.5" y="432.0" elementID="efbf8" elementRef="d6f99" relX="-0.5" relY="1.0" />
+    <Point x="347.5" y="486.0" elementID="d777b" elementRef="a70ab" relX="0.0" relY="-1.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="id681829e0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="500.0" y="275.0" elementID="e6b88" elementRef="c2bb2" relX="0.0" relY="1.0" />
+    <Point x="439.0" y="341.0" elementID="d7a51" elementRef="ec4cd" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7259e8c5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="263.0" y="232.0" elementID="ff7bc" elementRef="ba481" relX="0.0" relY="1.0" />
+    <Point x="397.0" y="341.0" elementID="f0096" elementRef="ec4cd" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7deca69d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="460.0" y="210.0" elementID="d5740" elementRef="bb463" relX="0.0" relY="1.0" />
+    <Point x="460.0" y="247.0" elementID="d3a17" elementRef="cd72c" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idaa96bebe" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="390.75" y="96.25" elementID="e0787" elementRef="ed2da" relX="0.5" relY="1.0" />
+    <Point x="500.0" y="182.0" elementID="d3f70" elementRef="c5473" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb710c8eb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="350.75" y="96.25" elementID="f0f4c" elementRef="ed2da" relX="-0.5" relY="1.0" />
+    <Point x="263.0" y="148.0" elementID="a05de" elementRef="ba481" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idced16063" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="540.0" y="210.0" elementID="dad23" elementRef="e213a" relX="0.0" relY="1.0" />
+    <Point x="540.0" y="247.0" elementID="a6b47" elementRef="fe4d6" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="a4c35" textLabel="SMAD Pathway" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="205.0" centerY="119.0" width="94.0" height="20.0" zOrder="28672" />
+  <Label elementID="a5eeb" textLabel="Late Response TF" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="677.0" centerY="392.0" width="120.0" height="20.0" zOrder="28672" />
+  <Label elementID="df932" textLabel="Epithelial Markers" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="614.0" centerY="577.0" width="136.0" height="24.0" zOrder="28672" />
+  <Label elementID="ec4cd" textLabel="EMT Transcription Factors" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="439.0" centerY="351.0" width="168.0" height="20.0" zOrder="28672">
+    <Comment>Epithelial-Mesenchymal Transition Transcription Factors</Comment>
+  </Label>
+  <Label elementID="f0dde" textLabel="Mesenchymal Markers" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="348.5" centerY="587.0" width="167.0" height="20.0" zOrder="28672" />
+  <Label elementID="e53af" textLabel="Non-SMAD Pathway" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="520.0" centerY="121.0" width="132.0" height="20.0" zOrder="32770" />
+  <Label elementID="dc5f9" textLabel="Early Response TF" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="204.0" centerY="400.0" width="160.0" height="20.0" zOrder="32773" />
+  <Shape elementID="be760" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="471.0" centerY="376.5" width="672.0" height="585.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="fd9d4" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="460.0" centerY="470.0" width="632.0" height="348.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Nucleus" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="a70ab" groupType="Group" />
+  <Group elementID="ba481" groupType="Complex" />
+  <Group elementID="c2bb2" groupType="Group" />
+  <Group elementID="c5473" groupType="Group" />
+  <Group elementID="d6f99" groupType="Group" />
+  <Group elementID="e8c07" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Cadherin 6 is a new RUNX2 target in TGF-β signalling pathway." URL="" citationID="b96" year="2013" source="PLoS One">
+      <Xref dataSource="PubMed" identifier="24069422" />
+      <Author name="Sancisi V" />
+      <Author name="Gandolfi G" />
+      <Author name="Ragazzi M" />
+      <Author name="Nicoli D" />
+      <Author name="Tamagnini I" />
+      <Author name="Piana S" />
+      <Author name="Ciarrocchi A" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000003" />
+    <OntologyTerm term="thyroid cancer" ontology="Disease" ontologyTermID="DOID:1781" />
+  </OntologyTerms>
+</Pathway>
+

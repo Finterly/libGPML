@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Pyruvate Dehydrogenase Pathway" organism="Saccharomyces cerevisiae" width="816.2" height="342.8333333333333">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP notes"></Comment>
+  <Comment source="GenMAPP remarks">Based on http://pathway.yeastgenome.org/biocyc/</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <DataNode elementID="b02" textLabel="Coenzyme A" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="466.7" centerY="170.0" width="102.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="64885-97-8" />
+  </DataNode>
+  <DataNode elementID="b10" textLabel="PDA1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="163.36666666666667" centerY="106.66666666666667" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="pyruvate dehydrogenase E1 component alpha subunit" />
+    <Xref dataSource="SGD" identifier="S000000980" />
+  </DataNode>
+  <DataNode elementID="c03" textLabel="NADH" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="760.0333333333333" centerY="230.0" width="52.333333333333336" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="53-84-9" />
+  </DataNode>
+  <DataNode elementID="c86" textLabel="lipoamide" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="126.7" centerY="173.33333333333334" width="79.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="940-69-2" />
+  </DataNode>
+  <DataNode elementID="cb6" textLabel="lipoamide" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="710.0333333333333" centerY="303.3333333333333" width="79.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="940-69-2" />
+  </DataNode>
+  <DataNode elementID="cf2" textLabel="PDB1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="163.36666666666667" centerY="130.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="pyruvate dehydrogenase E1 component beta subunit" />
+    <Xref dataSource="SGD" identifier="S000000425" />
+  </DataNode>
+  <DataNode elementID="df8" textLabel="acetyl-CoA" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="573.3666666666667" centerY="170.0" width="88.33333333333333" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="72-89-9" />
+  </DataNode>
+  <DataNode elementID="e19" textLabel="LPD1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="680.0333333333333" centerY="223.33333333333334" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="dihydrolipoyl dehydrogenase" />
+    <Xref dataSource="SGD" identifier="S000001876" />
+  </DataNode>
+  <DataNode elementID="e80" textLabel="LAT1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="526.7" centerY="120.0" width="40.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="dihydrolipoamide acetyltransferase" />
+    <Xref dataSource="SGD" identifier="S000005015" />
+  </DataNode>
+  <DataNode elementID="fbe" textLabel="dihydrolipoamide" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="670.0333333333333" centerY="143.33333333333334" width="138.33333333333334" height="19.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="3884-47-7" />
+  </DataNode>
+  <Interaction elementID="id59729e35" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="710.0333333333333" y="153.33333333333334" elementID="abca2" />
+    <Point x="710.0333333333333" y="283.3333333333333" elementID="b8740" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id82f21c92" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="533.3666666666667" y="153.33333333333334" elementID="e25d9" />
+    <Point x="540.0333333333333" y="160.0" elementID="ee584" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id90efd0e7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="103.36666666666666" y="143.33333333333334" elementID="e587f" />
+    <Point x="246.7" y="143.33333333333334" elementID="ab3cf" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida768ecf2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="460.03333333333336" y="143.33333333333334" elementID="d72b6" />
+    <Point x="596.7" y="143.33333333333334" elementID="edb77" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idae2640fd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="180.03333333333333" y="153.33333333333334" elementID="bcbc2" />
+    <Point x="183.36666666666667" y="156.66666666666666" elementID="de243" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf5254a0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="720.0333333333333" y="230.0" elementID="da468" />
+    <Point x="726.7" y="230.0" elementID="ad3c6" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="ae1" textLabel="H+" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="760.0333333333333" centerY="246.66666666666666" width="26.333333333333332" height="19.0" zOrder="28672" />
+  <Label elementID="cbc" textLabel="pyruvate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="66.7" centerY="143.33333333333334" width="72.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="da6" textLabel="CO2" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="200.03333333333333" centerY="166.66666666666666" width="38.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="dc1" textLabel="NAD" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="750.0333333333333" centerY="200.0" width="40.333333333333336" height="19.0" zOrder="28672" />
+  <Label elementID="ecb" textLabel="S-acetyldihydrolipoamide" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="356.7" centerY="143.33333333333334" width="199.33333333333334" height="19.0" zOrder="28672" />
+  <Shape elementID="acc" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="166.7" centerY="156.66666666666666" width="26.666666666666668" height="26.666666666666668" zOrder="16384" rotation="3.141593" />
+  <Shape elementID="b21" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="723.3666666666667" centerY="216.66666666666666" width="26.666666666666668" height="26.666666666666668" zOrder="16384" rotation="1.428899" />
+  <Shape elementID="be7" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="523.3666666666667" centerY="156.66666666666666" width="26.666666666666668" height="26.666666666666668" zOrder="16384" rotation="3.141593" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Legend centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="pyruvate metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000043" />
+  </OntologyTerms>
+</Pathway>
+

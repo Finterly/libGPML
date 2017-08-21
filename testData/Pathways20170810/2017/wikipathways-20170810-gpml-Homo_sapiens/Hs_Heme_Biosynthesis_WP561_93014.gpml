@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Heme Biosynthesis" organism="Homo sapiens" width="825.0546218487395" height="815.8151260504202" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="GenMAPP notes"></Comment>
+  <Comment source="GenMAPP remarks"></Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="WikiPathways-description">The enzymatic process that produces heme is properly called porphyrin synthesis, as all the intermediates are tetrapyrroles that are chemically classified are porphyrins. The process is highly conserved across biology. In humans, this pathway serves almost exclusively to form heme. In other species, it also produces similar substances such as cobalamin (vitamin B12).
+
+The pathway is initiated by the synthesis of D-Aminolevulinic acid (dALA or Î´ALA) from the amino acid glycine and succinyl-CoA from the citric acid cycle (Krebs cycle). The rate-limiting enzyme responsible for this reaction, ALA synthase, is strictly regulated by intracellular iron levels and heme concentration. A low-iron level, e.g., in iron deficiency, leads to decreased porphyrin synthesis, which prevents accumulation of the toxic intermediates. This mechanism is of therapeutic importance: infusion of heme arginate or hematin can abort attacks of porphyria in patients with an inborn error of metabolism of this process, by reducing transcription of ALA synthase.
+
+The organs mainly involved in heme synthesis are the liver and the bone marrow, although every cell requires heme to function properly. Heme is seen as an intermediate molecule in catabolism of haemoglobin in the process of bilirubin metabolism.
+
+Source: Wikipedia http://en.wikipedia.org/wiki/Heme</Comment>
+  <CitationRef citationID="c4d" />
+  <DataNode elementID="dd8" textLabel="delta-aminolevulinate" fontWeight="Bold" fontSize="11" vAlign="Middle" type="Metabolite" centerX="329.2212885154062" centerY="163.14845938375353" width="157.33333333333334" height="16.0" zOrder="28672">
+    <Xref dataSource="Chemspider" identifier="10447539" />
+  </DataNode>
+  <DataNode elementID="e69" textLabel="delta-aminolevulinate" fontWeight="Bold" fontSize="11" vAlign="Middle" type="Metabolite" centerX="124.88795518207283" centerY="171.14845938375353" width="157.33333333333334" height="16.0" zOrder="28672">
+    <Xref dataSource="Chemspider" identifier="10447539" />
+  </DataNode>
+  <DataNode elementID="a6e" textLabel="ALAS2" groupRef="d6a95" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="266.77591036414594" centerY="110.60224089635832" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ALAS2 | aminolevulinate delta- synthase 2 (si..." />
+    <Xref dataSource="Entrez Gene" identifier="212" />
+  </DataNode>
+  <DataNode elementID="a9b4a" textLabel="O2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="215.05462184873954" centerY="599.8151260504202" width="37.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01377" />
+  </DataNode>
+  <DataNode elementID="ad4" textLabel="porphobilinogen" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="329.2212885154062" centerY="261.1484593837535" width="122.33333333333333" height="16.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="487-90-1" />
+  </DataNode>
+  <DataNode elementID="ae090" textLabel="NH3" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="469.5546218487395" centerY="342.8151260504202" width="48.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00051" />
+  </DataNode>
+  <DataNode elementID="b7f31" textLabel="H+" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="458.0" centerY="751.0" width="28.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="1038" />
+  </DataNode>
+  <DataNode elementID="b813b" textLabel="H2O2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="466.5546218487395" centerY="659.8151260504202" width="44.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB03125" />
+  </DataNode>
+  <DataNode elementID="c0252" textLabel="O2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="200.05462184873954" centerY="514.8151260504203" width="37.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01377" />
+  </DataNode>
+  <DataNode elementID="c3a" textLabel="FECH" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="264.2212885154063" centerY="719.1484593837537" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="FECH | ferrochelatase (protoporphyria)" />
+    <Xref dataSource="Entrez Gene" identifier="2235" />
+  </DataNode>
+  <DataNode elementID="c8776" textLabel="CoA" groupRef="b51ed" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="465.609243697479" centerY="170.63025210084035" width="39.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01423" />
+  </DataNode>
+  <DataNode elementID="ca1" textLabel="PPOX" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.2212885154063" centerY="633.4817927170869" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="PPOX | protoporphyrinogen oxidase" />
+    <Xref dataSource="Entrez Gene" identifier="5498" />
+  </DataNode>
+  <DataNode elementID="cae" textLabel="uroporphyrinogen III" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="329.2212885154062" centerY="425.4817927170868" width="149.33333333333334" height="16.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="1976-85-8" />
+  </DataNode>
+  <DataNode elementID="cd108" textLabel="CO2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="470.5546218487395" centerY="485.8151260504202" width="40.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01967" />
+  </DataNode>
+  <DataNode elementID="d6e60" textLabel="succinyl-CoA" groupRef="d103a" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="299.3697478991601" centerY="36.764705882352935" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01022" />
+  </DataNode>
+  <DataNode elementID="d76" textLabel="CPOX" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="267.2212885154063" centerY="543.4817927170869" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CPOX | coproporphyrinogen oxidase" />
+    <Xref dataSource="Entrez Gene" identifier="1371" />
+  </DataNode>
+  <DataNode elementID="d77b3" textLabel="Glycine" groupRef="d103a" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="369.3487394957988" centerY="36.764705882352935" width="59.9579831932774" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00123" />
+  </DataNode>
+  <DataNode elementID="d789f" textLabel="H2O" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="476.0546218487395" centerY="250.8151260504202" width="53.0" height="20.0" zOrder="32768">
+    <Comment>Type your comment here</Comment>
+    <Xref dataSource="HMDB" identifier="HMDB02111" />
+  </DataNode>
+  <DataNode elementID="d81" textLabel="HMBS" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="263.2212885154063" centerY="309.4817927170868" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="HMBS | hydroxymethylbilane synthase" />
+    <Xref dataSource="Entrez Gene" identifier="3145" />
+  </DataNode>
+  <DataNode elementID="d92" textLabel="coproporphyrinogen III" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="328.2212885154062" centerY="502.8151260504202" width="166.33333333333334" height="16.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="2624-63-7" />
+  </DataNode>
+  <DataNode elementID="da9f5" textLabel="Porphobilinogen" groupRef="aab29" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="158.60924369747914" centerY="294.6302521008404" width="101.0" height="22.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00245" />
+  </DataNode>
+  <DataNode elementID="db0" textLabel="hydroxymethylbilane" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="329.2212885154062" centerY="360.14845938375345" width="149.33333333333334" height="16.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="16645" />
+  </DataNode>
+  <DataNode elementID="dc8bb" textLabel="CO2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="465.5546218487395" centerY="581.8151260504202" width="40.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01967" />
+  </DataNode>
+  <DataNode elementID="dd6" textLabel="ALAS1" groupRef="d6a95" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="266.77591036414594" centerY="90.93557422969168" width="60.0" height="20.666666666666668" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ALAS1 | aminolevulinate delta- synthase 1" />
+    <Xref dataSource="Entrez Gene" identifier="211" />
+  </DataNode>
+  <DataNode elementID="de3" textLabel="ALAD" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.2212885154063" centerY="214.14845938375353" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ALAD | aminolevulinate delta- dehydratase" />
+    <Xref dataSource="Entrez Gene" identifier="210" />
+  </DataNode>
+  <DataNode elementID="dfd99" textLabel="H2O" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="475.0546218487395" centerY="412.8151260504202" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB02111" />
+  </DataNode>
+  <DataNode elementID="e16" textLabel="UROS" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="260.2212885154063" centerY="388.14845938375345" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="UROS | uroporphyrinogen III synthase (congenita..." />
+    <Xref dataSource="Entrez Gene" identifier="7390" />
+  </DataNode>
+  <DataNode elementID="ee779" textLabel="Fe2+" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="186.66666666666663" centerY="691.4285714285714" width="34.28571428571419" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="27284" />
+  </DataNode>
+  <DataNode elementID="efc67" textLabel="H2O" groupRef="aab29" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="157.60924369747914" centerY="320.6302521008403" width="45.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB02111" />
+  </DataNode>
+  <DataNode elementID="f4c" textLabel="protoheme" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="329.2212885154062" centerY="777.8151260504202" width="82.33333333333333" height="16.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="14875-96-8" />
+  </DataNode>
+  <DataNode elementID="f73dc" textLabel="CO2" groupRef="b51ed" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="465.609243697479" centerY="197.63025210084038" width="40.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01967" />
+  </DataNode>
+  <DataNode elementID="fb1" textLabel="protoporphyrin IX" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="328.2212885154062" centerY="677.8151260504202" width="128.33333333333334" height="16.0" zOrder="32768">
+    <Xref dataSource="CAS" identifier="553-12-8" />
+  </DataNode>
+  <DataNode elementID="fe4" textLabel="UROD" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="263.2212885154063" centerY="458.4817927170868" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="UROD | uroporphyrinogen decarboxylase" />
+    <Xref dataSource="Entrez Gene" identifier="7389" />
+  </DataNode>
+  <Interaction elementID="a0113" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="203.80952380952374" y="691.4285714285714" elementID="f1104" elementRef="ee779" relX="1.0" relY="0.0" />
+    <Point x="328.4602265685035" y="705.8859225105972" elementID="f453d" elementRef="ac767" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="a2adf" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="329.2212885154062" y="227.69709326353492" elementID="c9c20" elementRef="f2969" relX="0.0" relY="0.0" />
+    <Point x="328.5546218487395" y="238.76706157872985" elementID="b9e8a" />
+    <Point x="449.5546218487395" y="250.8151260504202" elementID="bec3c" elementRef="d789f" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a383f" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="328.2212885154062" y="649.2595704948646" elementID="d8040" elementRef="def10" relX="0.0" relY="0.0" />
+    <Point x="328.5546218487395" y="654.5373482726425" elementID="cee94" />
+    <Point x="444.5546218487395" y="659.8151260504202" elementID="d9b39" elementRef="b813b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a6b7b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="328.2212885154062" y="685.8151260504202" elementID="abf07" elementRef="fb1" relX="0.0" relY="1.0" />
+    <Point x="329.2212885154062" y="769.8151260504202" elementID="c32ce" elementRef="f4c" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.23893805309734514" shapeType="None" elementID="ac767" />
+    <Anchor position="0.6504424778761062" shapeType="None" elementID="e2404" />
+    <Anchor position="0.4" shapeType="None" elementID="e561f" />
+  </Interaction>
+  <Interaction elementID="a7a61" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="329.3487394957988" y="54.764705882352935" elementID="d8c84" elementRef="d103a" relX="0.0" relY="1.0" />
+    <Point x="329.2212885154062" y="155.14845938375353" elementID="eb3fc" elementRef="dd8" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.44958496224878525" shapeType="None" elementID="d232f" />
+    <Anchor position="0.5681818181818182" shapeType="None" elementID="f790b" />
+  </Interaction>
+  <Interaction elementID="a86f8" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="328.87173099328226" y="740.4522941920131" elementID="a355a" elementRef="e2404" relX="0.0" relY="0.0" />
+    <Point x="384.76190476190476" y="745.7261470960066" elementID="dd9d1" />
+    <Point x="444.0" y="751.0" elementID="eb8eb" elementRef="b7f31" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ab3e9" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="328.2212885154062" y="560.2340449693392" elementID="bb416" elementRef="b86b9" relX="0.0" relY="0.0" />
+    <Point x="328.5546218487395" y="571.0245855098797" elementID="df37b" />
+    <Point x="445.5546218487395" y="581.8151260504202" elementID="adacf" elementRef="dc8bb" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ada86" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="329.27632416603024" y="111.8009294626942" elementID="fa4e6" elementRef="f790b" relX="0.0" relY="0.0" />
+    <Point x="329.5546218487395" y="146.76069518716582" elementID="c71f9" />
+    <Point x="437.609243697479" y="184.13025210084038" elementID="b297f" elementRef="b51ed" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b0495" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="329.2212885154062" y="433.4817927170868" elementID="c72ae" elementRef="cae" relX="0.0" relY="1.0" />
+    <Point x="328.2212885154062" y="494.8151260504202" elementID="e18bf" elementRef="d92" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.6294675663036944" shapeType="None" elementID="cf333" />
+    <Anchor position="0.4" shapeType="None" elementID="f4405" />
+  </Interaction>
+  <Interaction elementID="bacc2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="329.2212885154062" y="269.1484593837535" elementID="e638a" elementRef="ad4" relX="0.0" relY="1.0" />
+    <Point x="329.2212885154062" y="352.14845938375345" elementID="eabc4" elementRef="db0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.3453815261044177" shapeType="None" elementID="cedb2" />
+    <Anchor position="0.6853087990603894" shapeType="None" elementID="e2782" />
+    <Anchor position="0.4865811882157188" shapeType="None" elementID="a0d08" />
+  </Interaction>
+  <Interaction elementID="bcfc0" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="329.2212885154062" y="326.0290897057658" elementID="c8d09" elementRef="e2782" relX="0.0" relY="0.0" />
+    <Point x="329.5546218487395" y="333.34231460226255" elementID="de421" />
+    <Point x="445.5546218487395" y="342.8151260504202" elementID="a71a3" elementRef="ae090" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c00a3" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="217.10924369747914" y="307.1302521008404" elementID="f45a2" elementRef="aab29" relX="1.0" relY="0.0" />
+    <Point x="329.5546218487395" y="302.4726890756302" elementID="b2030" />
+    <Point x="329.2212885154062" y="297.81512605042013" elementID="f3d0f" elementRef="cedb2" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="cc7d5" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="328.5918209491025" y="472.08913678371346" elementID="f0ffa" elementRef="cf333" relX="0.0" relY="0.0" />
+    <Point x="328.5546218487395" y="477.376501164966" elementID="d04cb" />
+    <Point x="450.5546218487395" y="485.8151260504202" elementID="c5312" elementRef="cd108" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d3bbc" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="233.55462184873954" y="599.8151260504202" elementID="cfcd8" elementRef="a9b4a" relX="1.0" relY="0.0" />
+    <Point x="329.5546218487395" y="607.5790149393091" elementID="b78b6" />
+    <Point x="328.2212885154062" y="615.342903828198" elementID="b713f" elementRef="ff867" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="d64e8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="329.2212885154062" y="171.14845938375353" elementID="fec21" elementRef="dd8" relX="0.0" relY="1.0" />
+    <Point x="329.2212885154062" y="253.1484593837535" elementID="c3af8" elementRef="ad4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.27303117968498875" shapeType="None" elementID="dde29" />
+    <Anchor position="0.5229829636772745" shapeType="None" elementID="cbee4" />
+    <Anchor position="0.6896174863387976" shapeType="None" elementID="f2969" />
+  </Interaction>
+  <Interaction elementID="d73d0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="290.2212885154063" y="388.14845938375345" elementID="fd2da" elementRef="e16" relX="1.0" relY="0.0" />
+    <Point x="329.2212885154062" y="387.8817927170868" elementID="f16ca" elementRef="a3fb8" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="dc8e0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="304.77591036414594" y="100.60224089635834" elementID="e575d" elementRef="d6a95" relX="1.0" relY="0.0" />
+    <Point x="329.2914394515904" y="99.89573191067149" elementID="f59df" elementRef="d232f" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ddd8c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="297.2212885154063" y="543.4817927170869" elementID="d6e0f" elementRef="d76" relX="1.0" relY="0.0" />
+    <Point x="328.2212885154062" y="543.4502611855553" elementID="c45af" elementRef="dce16" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="def97" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="203.5546218487395" y="171.14845938375353" elementID="fb7e6" elementRef="e69" relX="1.0" relY="0.0" />
+    <Point x="329.5546218487395" y="181.19730368521567" elementID="e7d93" />
+    <Point x="329.2212885154062" y="193.5370161179226" elementID="b1926" elementRef="dde29" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="e2071" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="328.2212885154062" y="595.8151260504202" elementID="e84cb" elementRef="b55" relX="0.0" relY="1.0" />
+    <Point x="328.2212885154062" y="669.8151260504202" elementID="e186f" elementRef="fb1" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.2638888888888889" shapeType="None" elementID="ff867" />
+    <Anchor position="0.7222222222222222" shapeType="None" elementID="def10" />
+    <Anchor position="0.5001607200257155" shapeType="None" elementID="d2208" />
+  </Interaction>
+  <Interaction elementID="e2bdd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="295.2212885154063" y="214.14845938375353" elementID="d94ed" elementRef="de3" relX="1.0" relY="0.0" />
+    <Point x="329.2212885154062" y="214.03306240529002" elementID="b40e2" elementRef="cbee4" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e30ff" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="294.2212885154063" y="719.1484593837537" elementID="a1707" elementRef="c3a" relX="1.0" relY="0.0" />
+    <Point x="328.62128851540615" y="719.4151260504202" elementID="a0f7a" elementRef="e561f" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e4a2e" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="218.55462184873954" y="514.8151260504203" elementID="f5df5" elementRef="c0252" relX="1.0" relY="0.0" />
+    <Point x="328.5546218487395" y="523.5380990233932" elementID="eb448" />
+    <Point x="328.2212885154062" y="532.2610719963661" elementID="aee9c" elementRef="a7930" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="e81fa" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="328.2212885154062" y="510.8151260504202" elementID="bf454" elementRef="d92" relX="0.0" relY="1.0" />
+    <Point x="328.2212885154062" y="579.8151260504202" elementID="d84b7" elementRef="b55" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.3108108108108108" shapeType="None" elementID="a7930" />
+    <Anchor position="0.7162162162162162" shapeType="None" elementID="b86b9" />
+    <Anchor position="0.47297297297297297" shapeType="None" elementID="dce16" />
+  </Interaction>
+  <Interaction elementID="eb348" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="329.2212885154062" y="368.14845938375345" elementID="f640a" elementRef="db0" relX="0.0" relY="1.0" />
+    <Point x="329.2212885154062" y="417.4817927170868" elementID="fed2c" elementRef="cae" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.5724137931034483" shapeType="None" elementID="bbc6e" />
+    <Anchor position="0.4" shapeType="None" elementID="a3fb8" />
+  </Interaction>
+  <Interaction elementID="ee591" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="293.2212885154063" y="309.4817927170868" elementID="d2b3c" elementRef="d81" relX="1.0" relY="0.0" />
+    <Point x="329.2212885154062" y="309.53469800565813" elementID="f2ea0" elementRef="a0d08" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="eead2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="295.2212885154063" y="633.4817927170869" elementID="e829c" elementRef="ca1" relX="1.0" relY="0.0" />
+    <Point x="328.2212885154062" y="632.8270193323232" elementID="e30c6" elementRef="d2208" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f55f1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="293.2212885154063" y="458.4817927170868" elementID="a2762" elementRef="fe4" relX="1.0" relY="0.0" />
+    <Point x="328.8212885154062" y="458.0151260504202" elementID="c63d0" elementRef="f4405" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fa447" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="329.2212885154062" y="396.3875398435236" elementID="b10b8" elementRef="bbc6e" relX="0.0" relY="0.0" />
+    <Point x="329.5546218487395" y="404.60133294697187" elementID="ea614" />
+    <Point x="448.5546218487395" y="412.8151260504202" elementID="e9d6c" elementRef="dfd99" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="a73" textLabel="Black - reactants" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="711.5546218487394" centerY="87.81512605042016" width="132.33333333333334" height="19.0" zOrder="28672" />
+  <Label elementID="b55" textLabel="protoporphyrinogen IX" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" centerX="328.2212885154062" centerY="587.8151260504202" width="164.33333333333334" height="16.0" zOrder="28672" />
+  <Label elementID="dbf" textLabel="rate limiting step" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" centerX="141.55462184873957" centerY="121.1484593837535" width="123.33333333333333" height="16.0" zOrder="28672" />
+  <Label elementID="fd6" textLabel="Red - side products" color="ff0000" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="717.8879551820728" centerY="108.81512605042016" width="154.33333333333334" height="19.0" zOrder="28672" />
+  <Group elementID="aab29" />
+  <Group elementID="b51ed" />
+  <Group elementID="d103a" groupType="Group" />
+  <Group elementID="d6a95" />
+  <InfoBox centerX="638.9" centerY="98.16666666666667" />
+  <Legend centerX="651.1212885154061" centerY="213.18179271708686" />
+  <Citations>
+    <Citation title="Heme biosynthesis pathway regulation in a model of hepatocarcinogenesis pre-initiation." URL="" citationID="c4d" year="1992" source="Comp Biochem Physiol B">
+      <Xref dataSource="PubMed" identifier="1451437" />
+      <Author name="Polo CF" />
+      <Author name="Vazquez ES" />
+      <Author name="Caballero F" />
+      <Author name="Gerez E" />
+      <Author name="Battle AM" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="hematopoietic cell" ontology="Cell Type" ontologyTermID="CL:0000988" />
+    <OntologyTerm term="heme biosynthetic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000218" />
+    <OntologyTerm term="bone marrow cell" ontology="Cell Type" ontologyTermID="CL:0002092" />
+  </OntologyTerms>
+</Pathway>
+

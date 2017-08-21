@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Histone modifications" organism="Mus musculus" width="765.0" height="211.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-category">Cellular Process</Comment>
+  <DataNode elementID="a80" textLabel="HDAC1" groupRef="d0f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="509.0" centerY="96.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="433759" />
+  </DataNode>
+  <DataNode elementID="aee" textLabel="HAT1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="511.0" centerY="159.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="107435" />
+  </DataNode>
+  <DataNode elementID="b0b" textLabel="HDAC2" groupRef="d0f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="509.0" centerY="116.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="15182" />
+  </DataNode>
+  <DataNode elementID="c6f" textLabel="EHMT1" groupRef="d34" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="266.0" centerY="147.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="77683" />
+  </DataNode>
+  <DataNode elementID="ef1" textLabel="EHMT2" groupRef="d34" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="266.0" centerY="169.0" width="80.0" height="24.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="110147" />
+  </DataNode>
+  <Interaction elementID="abffc" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="218.0" y="159.0" elementID="b90f7" elementRef="d34" relX="-1.0" relY="0.0" />
+    <Point x="173.0" y="159.0" elementID="d9a2f" elementRef="b65" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b7715" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="461.0" y="106.0" elementID="f07ac" elementRef="d0f" relX="-1.0" relY="0.0" />
+    <Point x="400.25" y="148.5" elementID="beddc" elementRef="dbb" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bcbf2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="412.0" y="159.0" elementID="ed045" elementRef="dbb" relX="1.0" relY="0.0" />
+    <Point x="470.0" y="159.0" elementID="b3cf7" elementRef="aee" relX="-1.025" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c3a9a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="365.0" y="159.0" elementID="bf864" elementRef="dbb" relX="-1.0" relY="0.0" />
+    <Point x="314.0" y="159.0" elementID="df0c0" elementRef="d34" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="cebc6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="638.25" y="149.0" elementID="ab0cc" elementRef="de8" relX="-0.5" relY="-1.0" />
+    <Point x="557.0" y="106.0" elementID="a39db" elementRef="d0f" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e8fae" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="551.0" y="159.0" elementID="eecc5" elementRef="aee" relX="1.0" relY="0.0" />
+    <Point x="606.0" y="159.0" elementID="ceb03" elementRef="de8" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="b65" textLabel="Methylated histone" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" centerX="103.0" centerY="159.0" width="140.0" height="17.0" zOrder="28672" />
+  <Label elementID="dbb" textLabel="Histone" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" centerX="388.5" centerY="159.0" width="47.0" height="21.0" zOrder="28672" />
+  <Label elementID="de8" textLabel="Acetylated histone" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" centerX="670.5" centerY="159.0" width="129.0" height="20.0" zOrder="28672" />
+  <Group elementID="d0f" />
+  <Group elementID="d34" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <OntologyTerms>
+    <OntologyTerm term="histone modification pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001338" />
+  </OntologyTerms>
+</Pathway>
+

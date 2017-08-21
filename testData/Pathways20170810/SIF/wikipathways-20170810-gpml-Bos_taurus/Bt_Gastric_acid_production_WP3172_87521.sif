@@ -1,0 +1,45 @@
+Parietal Cell production
+	Line	R1
+R1	Arrow	GIF
+Gastric Gastrin Release	Line	R3
+R3	Arrow	GAST
+GAST	Line	R5
+R5	mim-stimulation	Parietal Cell production
+
+Gastric Histamine release	Line	R29
+R29	Arrow	Histamine
+
+GRP	Line	R23
+R23	mim-stimulation	Gastric Histamine release
+Acetylcholine	Line	R37
+R37	Arrow	R3
+CCK	Line	R15
+VIP	Line	R15
+R15	TBar	Parietal Cell production
+
+GRP	Line	R35
+R35	Arrow	R3
+Acetylcholine	Line	R21
+R21	mim-stimulation	Gastric Histamine release
+Mucus and bicarbonate secretion	Line	R11
+R11	Arrow	Bicarbonate ions
+R11	Arrow	MUC6
+Histamine
+	Line	R27
+R27	mim-stimulation	Parietal Cell production
+
+hydrochloric acid	Line	R33
+R33	Arrow	R11
+Parietal Cell production
+	Line	R13
+R13	Arrow	Sodium Chloride
+R13	Arrow	potassium chloride
+R13	Arrow	hydrochloric acid
+GRP	Line	R17
+R17	mim-stimulation	Parietal Cell production
+
+GAST	Line	R25
+R25	mim-stimulation	Gastric Histamine release
+Acetylcholine	Line	R19
+R19	mim-stimulation	Parietal Cell production
+

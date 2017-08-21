@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Imatinib and Chronic Myeloid Leukemia" organism="Homo sapiens" width="851.2095736307595" height="855.1837659687451">
+  <Xref dataSource="" identifier="" />
+  <Author name="Alexander Pico" />
+  <Comment source="WikiPathways-description">Hematopoietic Stem Cells found in bone marrow can differentiate into Monocytes and Erythrocytes, or in the case of Chronic Myeloid Leukemia (CML), they can continue to proliferate, undifferentiated, in blood. CML is caused by the Philadelphia translocation (Ph), which puts ABL behind BCR. The BRC-ABL fusion is a constitutively on tyrosine kinase that indirectly counteracts erythroid differentiation, thus promoting the continued proliferation underlying CML. Imatinib is a tyrosine kinase inhibitor that binds ABL and in turn promotes healthy erythroid differentiation by counteracting BRC-ABL activity. Imatinib resistance can be conferred by the over-expression of ABC drug transporters and competitive binding kinases.
+
+
+The pathway diagram above aligns molecules with the cell fates they promote, to help keep track of inhibition-of-inhibition-of-inhibition sequences, for example. The known mechanisms of imatinib resistance are at the bottom, under CML cell fate and are shown interacting with imatinib, which is under the erythrocyte cell fate. </Comment>
+  <CitationRef citationID="ada" />
+  <DataNode elementID="a1c1f" textLabel="Erythroid Differentiation" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="689.1358601288298" centerY="268.8765730300713" width="180.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP2849" />
+  </DataNode>
+  <DataNode elementID="b42d9" textLabel="BCR" groupRef="d984c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="183.11373669522473" centerY="584.1837659687457" width="48.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000186716" />
+  </DataNode>
+  <DataNode elementID="dc010" textLabel="PVT1" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="300.74305865300767" centerY="584.7552586879711" width="54.06122130069042" height="20.0" zOrder="32768">
+    <CitationRef citationID="fa6" />
+    <Xref dataSource="Ensembl" identifier="ENSG00000249859" />
+  </DataNode>
+  <DataNode elementID="e21da" textLabel="Imatinib" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="686.5404906028923" centerY="659.1837659687453" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB14757" />
+  </DataNode>
+  <DataNode elementID="f33e5" textLabel="ABL1" groupRef="d984c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="232.61373669522476" centerY="584.1837659687457" width="51.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000097007" />
+  </DataNode>
+  <DataNode elementID="f643d" textLabel="MYC" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="301.4076298249951" centerY="530.9089568084405" width="53.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000136997" />
+  </DataNode>
+  <DataNode elementID="fdac3" textLabel="Proliferation" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="237.76640845094963" centerY="271.118110830996" width="107.0" height="20.0" zOrder="37200">
+    <Xref dataSource="WikiPathways" identifier="WP2849" />
+  </DataNode>
+  <DataNode elementID="a5039" textLabel="ABCB1" groupRef="aca5f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="273.41526341278325" centerY="697.1837659687453" width="60.0" height="20.0" zOrder="37201">
+    <Xref dataSource="Ensembl" identifier="ENSG00000085563" />
+  </DataNode>
+  <DataNode elementID="c84cf" textLabel="ABCG2" groupRef="aca5f" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="273.41526341278325" centerY="717.1837659687453" width="60.0" height="20.0" zOrder="37202">
+    <Xref dataSource="Ensembl" identifier="ENSG00000118777" />
+  </DataNode>
+  <DataNode elementID="dc849" textLabel="KIT" groupRef="e62a8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="272.41526341278325" centerY="755.1837659687453" width="53.0" height="20.0" zOrder="37203">
+    <CitationRef citationID="fa8" />
+    <Xref dataSource="Ensembl" identifier="ENSG00000157404" />
+  </DataNode>
+  <DataNode elementID="c52b4" textLabel="PDGFRA" groupRef="e62a8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="272.41526341278325" centerY="775.1837659687452" width="53.0" height="20.0" zOrder="37204">
+    <Xref dataSource="Ensembl" identifier="ENSG00000134853" />
+  </DataNode>
+  <DataNode elementID="c3992" textLabel="PDGFRB" groupRef="e62a8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="272.41526341278325" centerY="795.1837659687452" width="53.0" height="20.0" zOrder="37205">
+    <Xref dataSource="Ensembl" identifier="ENSG00000113721" />
+  </DataNode>
+  <DataNode elementID="efd2a" textLabel="CDKN1B" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="665.3197561529228" centerY="420.0683371469835" width="53.0" height="20.0" zOrder="37206">
+    <Xref dataSource="Ensembl" identifier="ENSG00000111276" />
+  </DataNode>
+  <DataNode elementID="e860f" textLabel="G1/S Cell Cycle Transition" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="237.76640845094974" centerY="315.118110830996" width="192.0" height="20.0" zOrder="37207">
+    <Xref dataSource="WikiPathways" identifier="WP45" />
+  </DataNode>
+  <DataNode elementID="f4edb" textLabel="SKP2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="208.61373669522442" centerY="448.9785252257618" width="53.0" height="20.0" zOrder="37208">
+    <CitationRef citationID="afc" />
+    <Xref dataSource="Ensembl" identifier="ENSG00000145604" />
+  </DataNode>
+  <DataNode elementID="a64a2" textLabel="CSF1R" groupRef="e62a8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="272.4152634127835" centerY="815.1837659687451" width="53.0" height="20.0" zOrder="37209">
+    <Xref dataSource="Ensembl" identifier="ENSG00000182578" />
+  </DataNode>
+  <DataNode elementID="c34a7" textLabel="GADD45A" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="724.1490928224065" centerY="381.9251542590542" width="54.06122130069043" height="19.99999999999998" zOrder="37211">
+    <Xref dataSource="Ensembl" identifier="ENSG00000116717" />
+  </DataNode>
+  <DataNode elementID="a2e00" textLabel="FOXO3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="723.6206295475487" centerY="567.665571884967" width="54.06122130069043" height="19.99999999999998" zOrder="37223">
+    <Xref dataSource="Ensembl" identifier="ENSG00000118689" />
+  </DataNode>
+  <DataNode elementID="c6538" textLabel="NOP2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="300.8813140355216" centerY="630.3826410189685" width="53.0" height="20.0" zOrder="37224">
+    <Xref dataSource="Ensembl" identifier="ENSG00000111641" />
+  </DataNode>
+  <DataNode elementID="a3089" textLabel="SPRED2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="747.2377352949486" centerY="315.3223112984245" width="53.0" height="20.0" zOrder="37273">
+    <Xref dataSource="Ensembl" identifier="ENSG00000198369" />
+  </DataNode>
+  <DataNode elementID="dff01" textLabel="LYL1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="688.9249780933037" centerY="315.4457680885484" width="53.0" height="20.0" zOrder="37274">
+    <Xref dataSource="Ensembl" identifier="ENSG00000104903" />
+  </DataNode>
+  <DataNode elementID="b6e30" textLabel="PIM1" groupRef="d098c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="288.2337513621551" centerY="475.6833640762141" width="54.06122130069043" height="20.000000000000036" zOrder="37277">
+    <Xref dataSource="Ensembl" identifier="ENSG00000137193" />
+  </DataNode>
+  <DataNode elementID="ca7a6" textLabel="PIM2" groupRef="d098c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="342.294972662846" centerY="475.6833640762141" width="54.06122130069043" height="20.000000000000036" zOrder="37278">
+    <Xref dataSource="Ensembl" identifier="ENSG00000102096" />
+  </DataNode>
+  <DataNode elementID="f06b0" textLabel="Monocyte Differentiation" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="504.85014584311375" centerY="270.3051444586426" width="180.0" height="20.0" zOrder="37285">
+    <Xref dataSource="WikiPathways" identifier="WP2849" />
+  </DataNode>
+  <DataNode elementID="dec9a" textLabel="CSF1R" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="460.47361026868333" centerY="359.4694802544593" width="53.0" height="20.0" zOrder="37286">
+    <Xref dataSource="Ensembl" identifier="ENSG00000182578" />
+  </DataNode>
+  <DataNode elementID="db476" textLabel="GAB2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="460.47361026868344" centerY="315.11837134747884" width="54.06122130069043" height="20.000000000000036" zOrder="37287">
+    <Xref dataSource="Ensembl" identifier="ENSG00000033327" />
+  </DataNode>
+  <DataNode elementID="fde32" textLabel="FLT1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="518.5688483639216" centerY="338.927895157003" width="54.06122130069043" height="20.00000000000006" zOrder="37288">
+    <Xref dataSource="Ensembl" identifier="ENSG00000102755" />
+  </DataNode>
+  <Interaction elementID="id13abe999" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="733.9877352949486" y="305.3223112984245" elementID="b7ceb" elementRef="a3089" relX="-0.5" relY="-1.0" />
+    <Point x="734.1358601288298" y="278.8765730300713" elementID="ee1c3" elementRef="a1c1f" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id191040f1" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="646.5404906028923" y="659.1837659687453" elementID="bf24d" elementRef="e21da" relX="-1.0" relY="0.0" />
+    <Point x="232.61373669522476" y="594.1837659687457" elementID="dc0ae" elementRef="f33e5" relX="0.0" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id1c5752cb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="314.2583639781803" y="574.7552586879711" elementID="b5b89" elementRef="dc010" relX="0.5" relY="-1.0" />
+    <Point x="314.6576298249951" y="540.9089568084405" elementID="da2f2" elementRef="f643d" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2683643d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="208.61373669522476" y="566.1837659687457" elementID="af3c6" elementRef="d984c" relX="0.0" relY="-1.0" />
+    <Point x="208.61373669522442" y="458.9785252257618" elementID="a1ec9" elementRef="f4edb" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id3a80c3ab" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="460.47361026868333" y="349.4694802544593" elementID="d8ea0" elementRef="dec9a" relX="0.0" relY="-1.0" />
+    <Point x="460.4736102686834" y="325.11837134747884" elementID="b3f30" elementRef="db476" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id3d2329da" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="300.74305865300767" y="594.7552586879711" elementID="d6f24" elementRef="dc010" relX="0.0" relY="1.0" />
+    <Point x="300.8813140355216" y="620.3826410189685" elementID="dfbf9" elementRef="c6538" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5efab259" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="315.26436201250056" y="493.68336407621416" elementID="d35f9" elementRef="d098c" relX="0.0" relY="1.0" />
+    <Point x="314.6576298249951" y="520.9089568084405" elementID="cbf83" elementRef="f643d" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id67e2989c" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="697.1184821720612" y="381.9251542590542" elementID="de600" elementRef="c34a7" relX="-1.0" relY="0.0" />
+    <Point x="285.7664084509497" y="325.118110830996" elementID="df29b" elementRef="e860f" relX="0.5" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id866e79b0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="237.7664084509497" y="305.118110830996" elementID="af8fa" elementRef="e860f" relX="0.0" relY="-1.0" />
+    <Point x="237.7664084509496" y="281.118110830996" elementID="a14f1" elementRef="fdac3" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8dda123f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="505.05354303874896" y="328.9278951570029" elementID="e04e0" elementRef="fde32" relX="-0.5" relY="-1.0" />
+    <Point x="504.85014584311375" y="280.3051444586426" elementID="eb780" elementRef="f06b0" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id9d1c3af" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="723.6206295475487" y="557.665571884967" elementID="db2c2" elementRef="a2e00" relX="0.0" relY="-1.0" />
+    <Point x="724.1490928224065" y="391.9251542590542" elementID="e9ec5" elementRef="c34a7" relX="0.0" relY="1.0" arrowHead="mim-transcription-translation" />
+    <Anchor position="0.15574135199918449" shapeType="None" elementID="d761d" />
+  </Interaction>
+  <Interaction elementID="ida596b9be" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="306.9152634127835" y="785.1837659687452" elementID="ee8c5" elementRef="e62a8" relX="1.0" relY="0.0" arrowHead="TBar" />
+    <Point x="706.5404906028923" y="669.1837659687453" elementID="de578" elementRef="e21da" relX="0.5" relY="1.0" />
+  </Interaction>
+  <Interaction elementID="idbb626f82" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="235.11373669522442" y="448.9785252257618" elementID="ab498" elementRef="f4edb" relX="1.0" relY="0.0" />
+    <Point x="665.3197561529228" y="430.0683371469835" elementID="bc904" elementRef="efd2a" relX="0.0" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idbdd8caed" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="f4b" />
+    <Point x="301.4076298249951" y="540.9089568084405" elementID="bbc5e" elementRef="f643d" relX="0.0" relY="1.0" />
+    <Point x="300.74305865300767" y="574.7552586879711" elementID="c5716" elementRef="dc010" relX="0.0" relY="-1.0" arrowHead="mim-transcription-translation" />
+  </Interaction>
+  <Interaction elementID="idcd1cba" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="311.41526341278325" y="707.1837659687453" elementID="ef67d" elementRef="aca5f" relX="1.0" relY="0.0" />
+    <Point x="666.5404906028923" y="669.1837659687453" elementID="c8dae" elementRef="e21da" relX="-0.5" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idceca0a31" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="460.4736102686834" y="305.11837134747884" elementID="dab76" elementRef="db476" relX="0.0" relY="-1.0" />
+    <Point x="459.85014584311375" y="280.3051444586426" elementID="eb2d0" elementRef="f06b0" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd0010e46" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="cc2" />
+    <Point x="327.9076298249951" y="530.9089568084405" elementID="fe42d" elementRef="f643d" relX="1.0" relY="0.0" />
+    <Point x="723.7029331324569" y="531.8529351629978" elementID="c73bc" elementRef="d761d" relX="0.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idde44c0a4" groupRef="d984c" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="207.11373669522473" y="584.1837659687457" elementID="a6605" elementRef="b42d9" relX="1.0" relY="0.0" />
+    <Point x="207.11373669522476" y="584.1837659687457" elementID="dec7d" elementRef="f33e5" relX="-1.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="idfb0f0cfb" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="c55" />
+    <Point x="274.9076298249951" y="530.9089568084405" elementID="e58a1" elementRef="f643d" relX="-1.0" relY="0.0" />
+    <Point x="221.86373669522442" y="458.9785252257618" elementID="d8024" elementRef="f4edb" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfd15878b" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="638.8197561529228" y="420.0683371469835" elementID="fd7ed" elementRef="efd2a" relX="-1.0" relY="0.0" />
+    <Point x="237.7664084509497" y="325.118110830996" elementID="d296b" elementRef="e860f" relX="0.0" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="e72dd" zOrder="37275" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="688.9249780933037" y="305.4457680885484" elementID="ae731" elementRef="dff01" relX="0.0" relY="-1.0" />
+    <Point x="689.1358601288298" y="278.8765730300713" elementID="de31e" elementRef="a1c1f" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bb2d8" connectorType="Elbow" zOrder="37276" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="662.4249780933037" y="315.4457680885484" elementID="cc644" elementRef="dff01" relX="-1.0" relY="0.0" />
+    <Point x="549.8501458431138" y="280.3051444586426" elementID="a717b" elementRef="f06b0" relX="0.5" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <GraphicalLine elementID="id6b04de76" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Point x="425.7681165630694" y="224.06165419083663" elementID="d4632" elementRef="bff20" relX="1.0" relY="0.0" />
+    <Point x="691.6005001672639" y="111.94648046126801" elementID="ab140" elementRef="fe23c" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="id74551600" zOrder="12288" lineStyle="Broken" lineThickness="3.0" color="999999">
+    <Point x="44.79272424042303" y="176.1181108309962" elementID="d4d8a" />
+    <Point x="772.2664084509456" y="176.1181108309962" elementID="be781" />
+  </GraphicalLine>
+  <GraphicalLine elementID="bd7c5" connectorType="Elbow" zOrder="37199" lineThickness="1.0">
+    <Point x="391.10144989640264" y="224.06165419083663" elementID="e751d" elementRef="bff20" relX="-1.0" relY="0.0" />
+    <Point x="186.02628558712576" y="99.92022048665359" elementID="d0bef" elementRef="c371f" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="b4a87" connectorType="Elbow" zOrder="37284" lineThickness="1.0">
+    <Point x="425.7681165630694" y="224.06165419083663" elementID="aa647" elementRef="bff20" relX="1.0" relY="0.0" />
+    <Point x="507.27229691341665" y="117.48439366711466" elementID="fb751" elementRef="ec183" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </GraphicalLine>
+  <Label elementID="ea51d" textLabel="Bone Marrow" color="666666" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="87.81904002989761" centerY="198.11811083099607" width="119.0" height="20.0" zOrder="28672" />
+  <Label elementID="f9071" textLabel="Competitive&#xA;Binding" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="196.37167160884465" centerY="786.3392500989197" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="dd52a" textLabel="Blood" color="666666" fillColor="ffffff" fontWeight="Bold" fontSize="14" vAlign="Middle" centerX="63.31904002989751" centerY="157.11811083099613" width="82.0" height="20.0" zOrder="32769" />
+  <Label elementID="abaed" textLabel="Hematopoietic Stem Cell (HSC)" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="407.9613117570244" centerY="200.26512012771707" width="213.499681258475" height="26.858000751447747" zOrder="37154" />
+  <Label elementID="e14e4" textLabel="Differntiated&#xA;Erythrocyte" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="758.8291853451399" centerY="88.40754117257157" width="124.76077657123915" height="23.820335636722177" zOrder="37157" />
+  <Label elementID="f252e" textLabel="Proliferating &#xA;CML Cell" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="255.5048709392922" centerY="85.55423503122145" width="113.52307502332417" height="23.820335636722177" zOrder="37198" />
+  <Label elementID="ac17f" textLabel="Transport" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="196.37167160884465" centerY="706.8655658883933" width="80.0" height="20.0" zOrder="37227" />
+  <Label elementID="b1a7b" textLabel="Monocyte" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="449.880248943077" centerY="90.97714396748711" width="83.15122611477268" height="23.820335636722177" zOrder="37283" />
+  <Shape elementID="bff20" shapeType="Oval" lineThickness="3.0" color="cc99ff" fillColor="330099" fontSize="10" vAlign="Middle" centerX="408.434783229736" centerY="224.0616541908366" width="34.66666666666666" height="29.000000000000018" zOrder="37155" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="b557e" groupRef="fe23c" shapeType="Oval" lineThickness="6.0" color="ff6666" fillColor="cc0033" fontSize="10" vAlign="Middle" centerX="691.6005001672639" centerY="88.98430691344768" width="35.771445026590975" height="29.92434709564066" zOrder="37158" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="d391f" groupRef="fe23c" shapeType="Oval" color="ff6666" fillColor="ff6666" fontSize="10" vAlign="Middle" centerX="691.9653510900657" centerY="88.95405497146191" width="12.132619061793426" height="9.074410163339294" zOrder="37159" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="c371f" shapeType="Oval" lineThickness="3.0" color="cc99ff" fillColor="cc0066" fontSize="10" vAlign="Middle" centerX="186.02628558712576" centerY="85.42022048665359" width="34.66666666666666" height="29.000000000000018" zOrder="37197" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Vesicle" />
+  </Shape>
+  <Shape elementID="fcaa4" groupRef="ec183" shapeType="Oval" color="cc99ff" fillColor="cc99ff" fontSize="10" vAlign="Middle" centerX="507.27229691341665" centerY="87.44827965525513" width="45.39746147766822" height="44.07222802371906" zOrder="37280" rotation="0.0" />
+  <Shape elementID="bca37" groupRef="ec183" shapeType="Oval" color="6600cc" fillColor="6600cc" fontSize="10" vAlign="Middle" centerX="518.443265176061" centerY="84.77790160804743" width="17.485243084558622" height="14.216525445520963" zOrder="37281" rotation="5.759586531581287" />
+  <Shape elementID="d8685" groupRef="ec183" shapeType="Oval" color="6600cc" fillColor="6600cc" fontSize="10" vAlign="Middle" centerX="505.4021141016667" centerY="89.79184304822358" width="31.608138869296507" height="14.556603587573797" zOrder="37282" rotation="6.186449657116413" />
+  <Group elementID="aca5f" groupType="Group">
+    <CitationRef citationID="a7c" />
+  </Group>
+  <Group elementID="afafb" groupType="Group" />
+  <Group elementID="b4023" groupType="Group" />
+  <Group elementID="d098c" groupType="Group" />
+  <Group elementID="d984c" groupType="Group" />
+  <Group elementID="e62a8" groupType="Group">
+    <CitationRef citationID="b35" />
+  </Group>
+  <Group elementID="ec183" groupType="Group" />
+  <Group elementID="f052e" groupType="Group" />
+  <Group elementID="fe23c" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="MYC antagonizes the differentiation induced by imatinib in chronic myeloid leukemia cells through downregulation of p27(KIP1.)." URL="" citationID="c55" year="2013" source="Oncogene">
+      <Xref dataSource="PubMed" identifier="22710719" />
+      <Author name="Gómez-Casares MT" />
+      <Author name="García-Alegria E" />
+      <Author name="López-Jorge CE" />
+      <Author name="Ferrándiz N" />
+      <Author name="Blanco R" />
+      <Author name="Alvarez S" />
+      <Author name="Vaqué JP" />
+      <Author name="Bretones G" />
+      <Author name="Caraballo JM" />
+      <Author name="Sánchez-Bailón P" />
+      <Author name="Delgado MD" />
+      <Author name="Martín-Perez J" />
+      <Author name="Cigudosa JC" />
+      <Author name="León J" />
+    </Citation>
+    <Citation title="Myc and PI3K/AKT signaling cooperatively repress FOXO3a-dependent PUMA and GADD45a gene expression." URL="" citationID="cc2" year="2011" source="Nucleic Acids Res">
+      <Xref dataSource="PubMed" identifier="21835778" />
+      <Author name="Amente S" />
+      <Author name="Zhang J" />
+      <Author name="Lavadera ML" />
+      <Author name="Lania L" />
+      <Author name="Avvedimento EV" />
+      <Author name="Majello B" />
+    </Citation>
+    <Citation title="A comprehensive review of imatinib mesylate (Gleevec) for dermatological diseases." URL="" citationID="b35" year="2006" source="J Drugs Dermatol">
+      <Xref dataSource="PubMed" identifier="16485879" />
+      <Author name="Scheinfeld N" />
+    </Citation>
+    <Citation title="The PVT-1 oncogene is a Myc protein target that is overexpressed in transformed cells." URL="" citationID="f4b" year="2007" source="J Cell Physiol">
+      <Xref dataSource="PubMed" identifier="17503467" />
+      <Author name="Carramusa L" />
+      <Author name="Contino F" />
+      <Author name="Ferro A" />
+      <Author name="Minafra L" />
+      <Author name="Perconti G" />
+      <Author name="Giallongo A" />
+      <Author name="Feo S" />
+    </Citation>
+    <Citation title="PVT1: a rising star among oncogenic long noncoding RNAs." URL="" citationID="fa6" year="2015" source="Biomed Res Int">
+      <Xref dataSource="PubMed" identifier="25883951" />
+      <Author name="Colombo T" />
+      <Author name="Farina L" />
+      <Author name="Macino G" />
+      <Author name="Paci P" />
+    </Citation>
+    <Citation title="Drug transporters and imatinib treatment: implications for clinical practice." URL="" citationID="a7c" year="2011" source="Clin Cancer Res">
+      <Xref dataSource="PubMed" identifier="21163869" />
+      <Author name="Eechoute K" />
+      <Author name="Sparreboom A" />
+      <Author name="Burger H" />
+      <Author name="Franke RM" />
+      <Author name="Schiavon G" />
+      <Author name="Verweij J" />
+      <Author name="Loos WJ" />
+      <Author name="Wiemer EA" />
+      <Author name="Mathijssen RH" />
+    </Citation>
+    <Citation title="BCR-ABL induces the expression of Skp2 through the PI3K pathway to promote p27Kip1 degradation and proliferation of chronic myelogenous leukemia cells." URL="" citationID="afc" year="2005" source="Cancer Res">
+      <Xref dataSource="PubMed" identifier="15833859" />
+      <Author name="Andreu EJ" />
+      <Author name="Lledó E" />
+      <Author name="Poch E" />
+      <Author name="Ivorra C" />
+      <Author name="Albero MP" />
+      <Author name="Martínez-Climent JA" />
+      <Author name="Montiel-Duarte C" />
+      <Author name="Rifón J" />
+      <Author name="Pérez-Calvo J" />
+      <Author name="Arbona C" />
+      <Author name="Prósper F" />
+      <Author name="Pérez-Roger I" />
+    </Citation>
+    <Citation title="Strategies to overcome resistance to targeted protein kinase inhibitors." URL="" citationID="ada" year="2004" source="Nat Rev Drug Discov">
+      <Xref dataSource="PubMed" identifier="15573099" />
+      <Author name="Daub H" />
+      <Author name="Specht K" />
+      <Author name="Ullrich A" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="chronic myeloid leukemia" ontology="Disease" ontologyTermID="DOID:8552" />
+    <OntologyTerm term="chronic myeloid leukemia pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000710" />
+    <OntologyTerm term="disease pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000013" />
+    <OntologyTerm term="erythrocyte" ontology="Cell Type" ontologyTermID="CL:0000232" />
+    <OntologyTerm term="hematopoietic stem cell" ontology="Cell Type" ontologyTermID="CL:0000037" />
+    <OntologyTerm term="myeloid leukocyte" ontology="Cell Type" ontologyTermID="CL:0000766" />
+  </OntologyTerms>
+</Pathway>
+

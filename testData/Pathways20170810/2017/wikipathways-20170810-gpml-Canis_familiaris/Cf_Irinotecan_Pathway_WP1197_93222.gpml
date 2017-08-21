@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Irinotecan Pathway" organism="Canis familiaris" width="923.3725999999999" height="854.6666666666666">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-category">Physiological Process</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://www.wikipathways.org/index.php?title=Pathway:WP229&amp;amp;amp;amp;oldid=26589 WP229(r26589)] with a 51% conversion rate.</Comment>
+  <Comment source="WikiPathways-description">This pathway shows the biotransformation of the chemotherapy prodrug irinotecan to form the active metabolite SN-38, an inhibitor of DNA topoisomerase I. SN-38 is primarily metabolized to the inactive SN-38 glucuronide by UGT1A1, the isoform catalyzing bilirubin glucuronidation. Irinotecan is used in the treatment of metastatic colorectal cancer, small cell lung cancer and several other solid tumors. There is large interpatient variability in response to irinotecan, as well as severe side effects such as diarrhea and neutropenia, which might be explained in part by genetic variation in the metabolic enzymes and transporters depicted here. Well-known variants to effect this pathway are the promoter polymorphic repeat in UGT1A1 (UGT1A1*28) and the 1236C&amp;amp;gt;T polymorphism in ABCB1. While UGT1A1*28 genotype has been associated with toxicity, further evidence is needed to describe the roles of ABCB1 variants in toxicity.
+
+Source: [http://www.pharmgkb.org/search/pathway/irinotecan/liver.jsp PharmGkb]
+</Comment>
+  <CitationRef citationID="abf" />
+  <CitationRef citationID="cc3" />
+  <DataNode elementID="a3f" textLabel="NPC1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="370.0" centerY="266.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="4864" />
+  </DataNode>
+  <DataNode elementID="a56" textLabel="UGT1A10" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="453.0" centerY="752.0" width="66.66666666666667" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="54575" />
+  </DataNode>
+  <DataNode elementID="a9552" textLabel="SN-38G" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="580.3333333333334" centerY="726.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:8990" />
+  </DataNode>
+  <DataNode elementID="aa3" textLabel="ABCC2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="579.0" centerY="575.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC2" />
+    <Xref dataSource="Entrez Gene" identifier="403632" />
+  </DataNode>
+  <DataNode elementID="b4030" textLabel="Irinotecan" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="134.66666666666666" centerY="695.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Irotecan" />
+    <Xref dataSource="PubChem-compound" identifier="60838" />
+  </DataNode>
+  <DataNode elementID="b6c" textLabel="CES2" groupRef="afef5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="283.0" centerY="490.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES2" />
+    <Xref dataSource="Entrez Gene" identifier="489769" />
+  </DataNode>
+  <DataNode elementID="b74" textLabel="UGT1A6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="505.8333333333333" centerY="436.3333333333333" width="62.333333333333336" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="UGT1A6" />
+    <Xref dataSource="Entrez Gene" identifier="403629" />
+  </DataNode>
+  <DataNode elementID="b81" textLabel="CES1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="386.6666666666667" centerY="320.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES1" />
+    <Xref dataSource="Entrez Gene" identifier="403643" />
+  </DataNode>
+  <DataNode elementID="b8748" textLabel="SN-38" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="356.6666666666667" centerY="726.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:8988" />
+  </DataNode>
+  <DataNode elementID="b9a" textLabel="CYP3A4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="233.33333333333334" centerY="273.3333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="1576" />
+  </DataNode>
+  <DataNode elementID="bcf" textLabel="BCHE" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="330.0" centerY="116.66666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="BCHE" />
+    <Xref dataSource="Entrez Gene" identifier="488143" />
+  </DataNode>
+  <DataNode elementID="be5" textLabel="ABCC1" groupRef="a97ed" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="383.3333333333333" centerY="570.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC1" />
+    <Xref dataSource="Entrez Gene" identifier="403453" />
+  </DataNode>
+  <DataNode elementID="bef" textLabel="CES2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="190.0" centerY="116.66666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES2" />
+    <Xref dataSource="Entrez Gene" identifier="489769" />
+  </DataNode>
+  <DataNode elementID="c65" textLabel="CES1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="260.0" centerY="116.66666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES1" />
+    <Xref dataSource="Entrez Gene" identifier="403643" />
+  </DataNode>
+  <DataNode elementID="c7f" textLabel="ABCC2" groupRef="ca8b0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="133.33333333333334" centerY="613.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC2" />
+    <Xref dataSource="Entrez Gene" identifier="403632" />
+  </DataNode>
+  <DataNode elementID="c8f" textLabel="ABCC1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="520.3333333333334" centerY="182.33333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC1" />
+    <Xref dataSource="Entrez Gene" identifier="403453" />
+  </DataNode>
+  <DataNode elementID="c92" textLabel="UGT1A9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="551.3333333333334" centerY="488.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="54600" />
+  </DataNode>
+  <DataNode elementID="ca0db" textLabel="SN-38G" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="580.0" centerY="523.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:8990" />
+  </DataNode>
+  <DataNode elementID="ca239" textLabel="M4" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="170.0" centerY="236.66666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Comment>molecular weight, 558</Comment>
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="cc6" textLabel="CYP3A4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="156.66666666666666" centerY="296.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="1576" />
+  </DataNode>
+  <DataNode elementID="cde" textLabel="UGT1A6" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="423.6666666666667" centerY="706.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="UGT1A6" />
+    <Xref dataSource="Entrez Gene" identifier="403629" />
+  </DataNode>
+  <DataNode elementID="cf6" textLabel="CES1" groupRef="afef5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="283.0" centerY="470.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES1" />
+    <Xref dataSource="Entrez Gene" identifier="403643" />
+  </DataNode>
+  <DataNode elementID="cf7" textLabel="UGT1A1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="493.6666666666667" centerY="706.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="54658" />
+  </DataNode>
+  <DataNode elementID="d03" textLabel="ABCC2" groupRef="a97ed" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="383.3333333333333" centerY="590.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC2" />
+    <Xref dataSource="Entrez Gene" identifier="403632" />
+  </DataNode>
+  <DataNode elementID="d16a2" textLabel="APC" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="270.0" centerY="226.66666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:80551" />
+  </DataNode>
+  <DataNode elementID="d1d" textLabel="UGT1A1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="524.0" centerY="463.0" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="54658" />
+  </DataNode>
+  <DataNode elementID="d30" textLabel="ABCC1" groupRef="ca8b0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="133.33333333333334" centerY="593.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC1" />
+    <Xref dataSource="Entrez Gene" identifier="403453" />
+  </DataNode>
+  <DataNode elementID="e19" textLabel="CYP3A5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="286.6666666666667" centerY="316.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="1577" />
+  </DataNode>
+  <DataNode elementID="e65b9" textLabel="SN-38" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="443.3333333333333" centerY="413.3333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:8988" />
+  </DataNode>
+  <DataNode elementID="e81" textLabel="CES2" groupRef="ebd3a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="246.0" centerY="719.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES2" />
+    <Xref dataSource="Entrez Gene" identifier="489769" />
+  </DataNode>
+  <DataNode elementID="ec2" textLabel="ABCG2" groupRef="a97ed" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="383.3333333333333" centerY="610.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCG2" />
+    <Xref dataSource="Entrez Gene" identifier="478472" />
+  </DataNode>
+  <DataNode elementID="ef2" textLabel="Irinotecan" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="106.66666666666667" centerY="139.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Irotecan" />
+    <Xref dataSource="PubChem-compound" identifier="60838" />
+  </DataNode>
+  <DataNode elementID="ef5" textLabel="CYP3A5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="143.33333333333334" centerY="343.3333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="1577" />
+  </DataNode>
+  <DataNode elementID="f50" textLabel="CES1" groupRef="ebd3a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="246.0" centerY="699.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES1" />
+    <Xref dataSource="Entrez Gene" identifier="403643" />
+  </DataNode>
+  <DataNode elementID="f808d" textLabel="Irinotecan" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="129.66666666666666" centerY="410.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Irotecan" />
+    <Xref dataSource="PubChem-compound" identifier="60838" />
+  </DataNode>
+  <DataNode elementID="fb1" textLabel="CES2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="403.3333333333333" centerY="363.3333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES2" />
+    <Xref dataSource="Entrez Gene" identifier="489769" />
+  </DataNode>
+  <DataNode elementID="fe8" textLabel="CYP3A4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="223.33333333333334" centerY="356.6666666666667" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="1576" />
+  </DataNode>
+  <DataNode elementID="ff5ad" textLabel="SN-38" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="430.0" centerY="130.0" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:8988" />
+  </DataNode>
+  <Interaction elementID="a4b6a" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="473.3333333333333" y="413.3333333333333" elementID="c7c15" elementRef="e65b9" relX="1.0" relY="0.0" />
+    <Point x="580.0" y="513.3333333333334" elementID="e8e9c" elementRef="ca0db" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.7374220374220374" shapeType="None" elementID="e9b7b" />
+    <Anchor position="0.24750519750519745" shapeType="None" elementID="bd267" />
+    <Anchor position="0.5135135135135135" shapeType="None" elementID="ce2fe" />
+  </Interaction>
+  <Interaction elementID="aa47f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="283.0" y="508.0" elementID="a5416" elementRef="afef5" relX="0.0" relY="1.0" />
+    <Point x="288.74367491994127" y="479.9943891368777" elementID="a1421" elementRef="fc826" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="aab36" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="505.33333333333337" y="192.33333333333334" elementID="c4b9e" elementRef="c8f" relX="-0.5" relY="1.0" />
+    <Point x="515.723081337974" y="183.96033332815404" elementID="e7219" elementRef="e34b2" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ab70c" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="174.66666666666666" y="695.0" elementID="c398c" elementRef="b4030" relX="1.0" relY="0.0" />
+    <Point x="326.6666666666667" y="726.6666666666666" elementID="e1dd0" elementRef="b8748" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="c708e" />
+  </Interaction>
+  <Interaction elementID="ae1ef" zOrder="12288" lineThickness="1.0" color="0099ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="423.6666666666667" y="716.6666666666666" elementID="c09d1" elementRef="cde" relX="0.0" relY="1.0" />
+    <Point x="452.1333333333334" y="726.6666666666666" elementID="d6566" elementRef="d346c" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="b3559" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="551.3333333333334" y="498.6666666666667" elementID="b7b0f" elementRef="c92" relX="0.0" relY="1.0" />
+    <Point x="551.991683991684" y="487.0755370755371" elementID="b0339" elementRef="e9b7b" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b70f8" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="580.3333333333334" y="736.6666666666666" elementID="bfedc" elementRef="a9552" relX="0.0" relY="1.0" />
+    <Point x="476.0" y="788.0" elementID="f3125" />
+    <Point x="371.6666666666667" y="736.6666666666666" elementID="adcb1" elementRef="b8748" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bae47" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="386.6666666666667" y="726.6666666666666" elementID="b2eff" elementRef="b8748" relX="1.0" relY="0.0" />
+    <Point x="550.3333333333334" y="726.6666666666666" elementID="c859b" elementRef="a9552" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="d346c" />
+  </Interaction>
+  <Interaction elementID="bc597" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="246.0" y="681.3333333333334" elementID="e7ca5" elementRef="ebd3a" relX="0.0" relY="-1.0" />
+    <Point x="235.46666666666667" y="707.6666666666666" elementID="e1691" elementRef="c708e" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bedcf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="494.0" y="463.0" elementID="b7b83" elementRef="d1d" relX="-1.0" relY="0.0" />
+    <Point x="528.1081081081081" y="464.68468468468467" elementID="d92d2" elementRef="ce2fe" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c069c" zOrder="12288" lineThickness="1.0" color="ff8080">
+    <Xref dataSource="" identifier="" />
+    <Point x="341.6666666666667" y="736.6666666666666" elementID="f6d3c" elementRef="b8748" relX="-0.5" relY="1.0" />
+    <Point x="404.0" y="816.6666666666666" elementID="e20b8" elementRef="d64" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c15f5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="95.33333333333334" y="603.6666666666666" elementID="e4940" elementRef="ca8b0" relX="-1.0" relY="0.0" />
+    <Point x="133.1753262158956" y="605.9589561091341" elementID="ece58" elementRef="b89e3" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c577c" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="149.66666666666666" y="420.0" elementID="fc5eb" elementRef="f808d" relX="0.5" relY="1.0" />
+    <Point x="289.0" y="480.0" elementID="f8248" />
+    <Point x="428.3333333333333" y="423.3333333333333" elementID="b45ca" elementRef="e65b9" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.5023319160624667" shapeType="None" elementID="fc826" />
+  </Interaction>
+  <Interaction elementID="c675e" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="580.0" y="533.3333333333334" elementID="d12d2" elementRef="ca0db" relX="0.0" relY="1.0" />
+    <Point x="580.3333333333334" y="716.6666666666666" elementID="e6493" elementRef="a9552" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.24" shapeType="None" elementID="e5e80" />
+  </Interaction>
+  <Interaction elementID="c6983" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="169.66666666666666" y="410.0" elementID="ff1be" elementRef="f808d" relX="1.0" relY="0.0" />
+    <Point x="355.0" y="276.6666666666667" elementID="d7f5e" elementRef="a3f" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c9016" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="86.66666666666669" y="149.0" elementID="f482b" elementRef="ef2" relX="-0.5" relY="1.0" />
+    <Point x="109.66666666666666" y="400.0" elementID="e9a34" elementRef="f808d" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c9e9f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="505.8333333333333" y="446.3333333333333" elementID="eee08" elementRef="b74" relX="0.0" relY="1.0" />
+    <Point x="499.73388773388774" y="438.08385308385306" elementID="af9a6" elementRef="bd267" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c9eee" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="430.0" y="140.0" elementID="cbfe9" elementRef="ff5ad" relX="0.0" relY="1.0" />
+    <Point x="443.3333333333333" y="403.3333333333333" elementID="c76fc" elementRef="e65b9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ca5e1" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="385.0" y="276.6666666666667" elementID="e7a60" elementRef="a3f" relX="0.5" relY="1.0" />
+    <Point x="428.3333333333333" y="403.3333333333333" elementID="c4385" elementRef="e65b9" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d0a0c" zOrder="12288" lineThickness="1.0" color="0099ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="493.66666666666674" y="716.6666666666666" elementID="d7dd7" elementRef="cf7" relX="0.0" relY="1.0" />
+    <Point x="452.1333333333334" y="726.6666666666666" elementID="d132d" elementRef="d346c" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="d3742" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="443.3333333333333" y="423.3333333333333" elementID="caddb" elementRef="e65b9" relX="0.0" relY="1.0" />
+    <Point x="407.5" y="548.0" elementID="d1193" />
+    <Point x="371.6666666666667" y="716.6666666666666" elementID="c4652" elementRef="b8748" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.6476648895658796" shapeType="None" elementID="d686a" />
+  </Interaction>
+  <Interaction elementID="dc65d" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="129.66666666666666" y="400.0" elementID="db74f" elementRef="f808d" relX="0.0" relY="-1.0" />
+    <Point x="170.0" y="246.66666666666666" elementID="f2e77" elementRef="ca239" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="dcfad" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="129.66666666666666" y="420.0" elementID="e951c" elementRef="f808d" relX="0.0" relY="1.0" />
+    <Point x="134.66666666666666" y="685.0" elementID="ac35a" elementRef="b4030" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.7017319098457889" shapeType="None" elementID="b89e3" />
+  </Interaction>
+  <Interaction elementID="e1c8f" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="146.66666666666669" y="139.0" elementID="e5211" elementRef="ef2" relX="1.0" relY="0.0" />
+    <Point x="400.0" y="130.0" elementID="e4a0d" elementRef="ff5ad" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e84b7" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="579.0" y="585.6666666666666" elementID="b3145" elementRef="aa3" relX="0.0" relY="1.0" />
+    <Point x="580.08" y="577.3333333333334" elementID="ec372" elementRef="e5e80" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f5ce1" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="473.3333333333333" y="413.3333333333333" elementID="df775" elementRef="e65b9" relX="1.0" relY="0.0" />
+    <Point x="589.0" y="298.66666666666663" elementID="d9012" />
+    <Point x="517.0" y="184.0" elementID="b01f7" />
+    <Point x="445.0" y="140.0" elementID="b6a94" elementRef="ff5ad" relX="0.5" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.7844546624977009" shapeType="None" elementID="e34b2" />
+  </Interaction>
+  <Interaction elementID="f759e" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="149.66666666666666" y="400.0" elementID="fbcfe" elementRef="f808d" relX="0.5" relY="-1.0" />
+    <Point x="270.0" y="236.66666666666666" elementID="ad30b" elementRef="d16a2" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fb91f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="421.3333333333333" y="590.3333333333334" elementID="d64e5" elementRef="a97ed" relX="1.0" relY="0.0" />
+    <Point x="379.6900039876578" y="605.7725469533751" elementID="fb4d0" elementRef="d686a" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fc82e" zOrder="12288" lineThickness="1.0" color="ff8080">
+    <Xref dataSource="" identifier="" />
+    <Point x="460.0" y="130.0" elementID="a4ad5" elementRef="ff5ad" relX="1.0" relY="0.0" />
+    <Point x="569.0" y="107.16666666666666" elementID="db54e" elementRef="fad" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fc86b" zOrder="12288" lineThickness="1.0" color="0099ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="453.0" y="742.0" elementID="eff6d" elementRef="a56" relX="0.0" relY="-1.0" />
+    <Point x="452.1333333333334" y="726.6666666666666" elementID="e7b60" elementRef="d346c" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Label elementID="d2c" textLabel="Model human liver cell showing blood, bile and intestinal compartments, indicating tissue&#xA;involvment of genes in the irinotecan pathway." fillColor="ffffff" fontStyle="Italic" fontSize="10" vAlign="Middle" centerX="443.0" centerY="49.5" width="438.0" height="35.0" zOrder="28672" />
+  <Label elementID="d64" textLabel="Diarrhea" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" centerX="436.6666666666667" centerY="816.6666666666666" width="65.33333333333333" height="16.0" zOrder="28672" />
+  <Label elementID="f0f" textLabel="Intestine" color="00ff00" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="653.3333333333334" centerY="643.3333333333334" width="70.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="fad" textLabel="Neutropenia" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" centerX="604.9166666666666" centerY="107.16666666666667" width="71.83333333333333" height="16.333333333333332" zOrder="28672" />
+  <Label elementID="ffe" textLabel="Liver Cell" color="00ff00" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="693.3333333333334" centerY="386.6666666666667" width="76.33333333333333" height="19.0" zOrder="28672" />
+  <Shape elementID="a26" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="730.0" centerY="700.0" width="220.4052" height="33.943239999999996" zOrder="16384" rotation="4.693398" />
+  <Shape elementID="a6d" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="70.0" centerY="400.0" width="400.05533333333335" height="44.72645333333333" zOrder="16384" rotation="1.570796" />
+  <Shape elementID="a6f" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="80.0" centerY="720.0" width="167.1992" height="53.333333333333336" zOrder="16384" rotation="1.570796" />
+  <Shape elementID="a76" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="396.6666666666667" centerY="573.3333333333334" width="646.6666666666666" height="46.666666666666664" zOrder="16384" rotation="6.211076" />
+  <Shape elementID="ac9" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="23.333333333333332" centerY="400.0" width="400.05533333333335" height="44.72645333333333" zOrder="16384" rotation="4.729054" />
+  <Shape elementID="ad2" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="390.0" centerY="203.33333333333334" width="646.6666666666666" height="46.666666666666664" zOrder="16384" rotation="3.141593" />
+  <Shape elementID="ae3" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="390.0" centerY="206.66666666666666" width="640.0346666666667" height="46.666666666666664" zOrder="16384" rotation="3.141593" />
+  <Shape elementID="b7a" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="403.3333333333333" centerY="613.3333333333334" width="646.6666666666666" height="46.666666666666664" zOrder="16384" rotation="6.211076" />
+  <Shape elementID="b94" shapeType="Arc" fontSize="10" vAlign="Middle" centerX="405.3333333333333" centerY="616.6666666666666" width="653.4697333333334" height="46.666666666666664" zOrder="16384" rotation="6.211809" />
+  <Shape elementID="c46" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="716.6666666666666" centerY="380.0" width="353.41186666666664" height="44.72645333333333" zOrder="16384" rotation="4.693398" />
+  <Shape elementID="c79" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="73.33333333333333" centerY="400.0" width="393.38986666666665" height="44.72645333333333" zOrder="16384" rotation="1.570796" />
+  <Shape elementID="d05" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="396.6666666666667" centerY="576.6666666666666" width="653.4697333333334" height="46.666666666666664" zOrder="16384" rotation="6.211809" />
+  <Shape elementID="e8f" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="713.3333333333334" centerY="380.0" width="346.73080000000004" height="44.72645333333333" zOrder="16384" rotation="4.693398" />
+  <Shape elementID="f67" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="726.6666666666666" centerY="700.0" width="213.33333333333334" height="33.943239999999996" zOrder="16384" rotation="4.693398" />
+  <Shape elementID="fd2" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="83.33333333333333" centerY="720.0" width="160.1388" height="53.333333333333336" zOrder="16384" rotation="1.570796" />
+  <Shape elementID="fd8" shapeType="Arc" fillColor="000000" fontSize="10" vAlign="Middle" centerX="20.0" centerY="400.0" width="393.38986666666665" height="44.72645333333333" zOrder="16384" rotation="4.729054" />
+  <Group elementID="a97ed" />
+  <Group elementID="afef5" />
+  <Group elementID="ca8b0" />
+  <Group elementID="ebd3a" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Legend centerX="765.0" centerY="108.33333333333333" />
+  <Citations>
+    <Citation title="UGT pharmacogenomics: implications for cancer risk and cancer therapeutics." URL="" citationID="cc3" year="2003" source="Pharmacogenetics">
+      <Xref dataSource="PubMed" identifier="12893990" />
+      <Author name="Desai AA" />
+      <Author name="Innocenti F" />
+      <Author name="Ratain MJ" />
+    </Citation>
+    <Citation title="Irinotecan pathway genotype analysis to predict pharmacokinetics." URL="" citationID="abf" year="2003" source="Clin Cancer Res">
+      <Xref dataSource="PubMed" identifier="12960109" />
+      <Author name="Mathijssen RH" />
+      <Author name="Marsh S" />
+      <Author name="Karlsson MO" />
+      <Author name="Xie R" />
+      <Author name="Baker SD" />
+      <Author name="Verweij J" />
+      <Author name="Sparreboom A" />
+      <Author name="McLeod HL" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="irinotecan drug pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001224" />
+  </OntologyTerms>
+</Pathway>
+

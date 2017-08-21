@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Lidocaine metabolism" organism="Homo sapiens" width="811.0" height="397.0">
+  <Xref dataSource="" identifier="" />
+  <Author name="Egon Willighagen" />
+  <Comment source="WikiPathways-description">Lidocaine is primarily metabolized by CYP1A2 but minor involvement of CYP3A4 is observed too.</Comment>
+  <Comment>Based on KEGG pathway http://www.genome.jp/kegg-bin/show_pathway?hsa00982.</Comment>
+  <DataNode elementID="c59ff" textLabel="2,6-xylidine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="548.0" centerY="212.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:28738" />
+  </DataNode>
+  <DataNode elementID="ca0ff" textLabel="3-hydroxymonoethyl&#xA;glycinexylidide" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="376.5" centerY="354.0" width="109.0" height="26.0" zOrder="32768">
+    <Xref dataSource="KEGG Compound" identifier="C16572" />
+  </DataNode>
+  <DataNode elementID="ca7df" textLabel="glycinexylidide" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="548.0" centerY="306.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:357241" />
+  </DataNode>
+  <DataNode elementID="cd113" textLabel="Lidocaine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="179.0" centerY="212.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB14426" />
+  </DataNode>
+  <DataNode elementID="d02c6" textLabel="2-amino-3-methylbenzoate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="711.0" centerY="106.0" width="140.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="4161142" />
+  </DataNode>
+  <DataNode elementID="d668d" textLabel="monoethyl&#xA;glycinexylidide" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="376.0" centerY="212.0" width="80.0" height="27.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="24415" />
+  </DataNode>
+  <DataNode elementID="e11d4" textLabel="CYP3A4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.0" centerY="245.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000160868" />
+  </DataNode>
+  <DataNode elementID="e3332" textLabel="CYP1A2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.0" centerY="157.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000140505" />
+  </DataNode>
+  <DataNode elementID="e517f" textLabel="3-hydroxylidocaine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="178.0" centerY="353.0" width="103.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="161824" />
+  </DataNode>
+  <DataNode elementID="eadb2" textLabel="4-hydroxy-&#xA;2,6-dimethylaniline" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="729.5" centerY="212.5" width="89.0" height="25.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:55545" />
+  </DataNode>
+  <DataNode elementID="e20e7" textLabel="CYP1A2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="100.0" centerY="282.0" width="80.0" height="20.0" zOrder="32769">
+    <Xref dataSource="Ensembl" identifier="ENSG00000140505" />
+  </DataNode>
+  <DataNode elementID="cb81f" textLabel="CYP3A4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="265.0" centerY="282.0" width="80.0" height="20.0" zOrder="32770">
+    <Xref dataSource="Ensembl" identifier="ENSG00000160868" />
+  </DataNode>
+  <Interaction elementID="id28a7c7d9" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="568.0" y="202.0" elementID="e457f" elementRef="c59ff" relX="0.5" relY="-1.0" />
+    <Point x="568.0" y="105.0" elementID="e946e" />
+    <Point x="641.0" y="106.0" elementID="b6a22" elementRef="d02c6" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id4e93dbbe" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="140.0" y="282.0" elementID="f1526" elementRef="e20e7" relX="1.0" relY="0.0" />
+    <Point x="178.49597049583392" y="282.9875700040978" elementID="c6685" elementRef="a0a95" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id5c24ba9b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="225.0" y="282.0" elementID="f13a6" elementRef="cb81f" relX="-1.0" relY="0.0" />
+    <Point x="178.49597049583392" y="282.9875700040978" elementID="b8118" elementRef="a0a95" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id6747c81e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="396.0" y="225.5" elementID="f449e" elementRef="d668d" relX="0.5" relY="1.0" />
+    <Point x="508.0" y="306.0" elementID="e64a0" elementRef="ca7df" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id76aaf04a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="265.0" y="235.0" elementID="fdfdf" elementRef="e11d4" relX="0.0" relY="-1.0" />
+    <Point x="265.8" y="212.0" elementID="c1a6c" elementRef="e352f" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id94583f32" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="179.0" y="202.0" elementID="cd35e" elementRef="cd113" relX="0.0" relY="-1.0" />
+    <Point x="179.0" y="105.0" elementID="c5d44" />
+    <Point x="527.0" y="105.0" elementID="a3570" />
+    <Point x="528.0" y="202.0" elementID="b9789" elementRef="c59ff" relX="-0.5" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id99c68ff9" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="376.0" y="225.5" elementID="fafa4" elementRef="d668d" relX="0.0" relY="1.0" />
+    <Point x="376.5" y="341.0" elementID="d1e13" elementRef="ca0ff" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="id9c9a3c27" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="548.0" y="296.0" elementID="ca8c1" elementRef="ca7df" relX="0.0" relY="-1.0" />
+    <Point x="548.0" y="222.0" elementID="c32d0" elementRef="c59ff" relX="0.0" relY="1.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="ida635fa68" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="416.0" y="212.0" elementID="f0970" elementRef="d668d" relX="1.0" relY="0.0" />
+    <Point x="508.0" y="212.0" elementID="a8232" elementRef="c59ff" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idb4e6360e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="dff" />
+    <CitationRef citationID="f6a" />
+    <CitationRef citationID="f45" />
+    <Point x="219.0" y="212.0" elementID="d67f5" elementRef="cd113" relX="1.0" relY="0.0" />
+    <Point x="336.0" y="212.0" elementID="bc045" elementRef="d668d" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Anchor position="0.4" shapeType="None" elementID="e352f" />
+  </Interaction>
+  <Interaction elementID="idb8588c6a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="229.5" y="353.0" elementID="bb1e3" elementRef="e517f" relX="1.0" relY="0.0" />
+    <Point x="322.0" y="354.0" elementID="c243e" elementRef="ca0ff" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <Interaction elementID="idb9262808" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="f6a" />
+    <CitationRef citationID="f45" />
+    <Point x="179.0" y="222.0" elementID="fb9b6" elementRef="cd113" relX="0.0" relY="1.0" />
+    <Point x="178.0" y="343.0" elementID="b99f7" elementRef="e517f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.5040295041660975" shapeType="None" elementID="a0a95" />
+  </Interaction>
+  <Interaction elementID="idc372dfec" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="265.0" y="167.0" elementID="e36d8" elementRef="e3332" relX="0.0" relY="1.0" />
+    <Point x="265.8" y="212.0" elementID="f23fd" elementRef="e352f" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idf6b56c5b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="588.0" y="212.0" elementID="af15b" elementRef="c59ff" relX="1.0" relY="0.0" />
+    <Point x="685.0" y="212.5" elementID="cf323" elementRef="eadb2" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+  </Interaction>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Fluvoxamine is a more potent inhibitor of lidocaine metabolism than ketoconazole and erythromycin in vitro." URL="" citationID="f6a" year="1999" source="Pharmacol Toxicol">
+      <Xref dataSource="PubMed" identifier="10608481" />
+      <Author name="Wang JS" />
+      <Author name="Backman JT" />
+      <Author name="Wen X" />
+      <Author name="Taavitsainen P" />
+      <Author name="Neuvonen PJ" />
+      <Author name="Kivistö KT" />
+    </Citation>
+    <Citation title="Cytochrome P450 1A2 is a major determinant of lidocaine metabolism in vivo: effects of liver function." URL="" citationID="dff" year="2004" source="Clin Pharmacol Ther">
+      <Xref dataSource="PubMed" identifier="14749694" />
+      <Author name="Orlando R" />
+      <Author name="Piccoli P" />
+      <Author name="De Martin S" />
+      <Author name="Padrini R" />
+      <Author name="Floreani M" />
+      <Author name="Palatini P" />
+    </Citation>
+    <Citation title="Effect of fluvoxamine and erythromycin on the pharmacokinetics of oral lidocaine." URL="" citationID="f45" year="2006" source="Basic Clin Pharmacol Toxicol">
+      <Xref dataSource="PubMed" identifier="16918719" />
+      <Author name="Isohanni MH" />
+      <Author name="Neuvonen PJ" />
+      <Author name="Olkkola KT" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="phase I biotransformation pathway via cytochrome P450" ontology="Pathway Ontology" ontologyTermID="PW:0000375" />
+    <OntologyTerm term="xenobiotic metabolic pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001229" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Glucuronidation" organism="Mus musculus" width="1511.0" height="462.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Metabolism of xenobiotic compounds consists of phase I and a phase II biotransformation reactions, being compound modification and conjugation reactions respectively. In phase I biotransformation, the compound is modificated via oxidation, reduction, hydrolysis, or other minor reactions, to reveal a reactive group to which a conjugation molecule can react to. In phase II, a small conjugation molecule reacts with the phase I modified molecule, producing a much more water-soluble molecule that can be excreted more easily.
+Glucuronidation is a phase II biotransformation reaction in which glucuronide acts as a conjugation molecule and binds to a substrate via the catalysis of glucuronosyltransferases. First, in a series of reactions the cosubstrate uridine diphosphate glucuronic acid (UDPGA) is formed. The glucuronosyltransferases (UGTs) then catalyze the transfer of glucuronic acid from UDPGA to a substrate resulting in a glucuronidated substrate and leaving uridine 5'-diphosphate. UGTs are a very broad and divers group of enzymes and count as the most significant  group of conjugation enzymes in xenobiotic metabolism, qualitatively because glucuronic acid can be coupled to a large diversity of functional groups and quantitatively because of the large and divers number of substrates that are formed.</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://www.wikipathways.org/index.php?title=Pathway:WP698&amp;amp;oldid=30281 WP698(r30281)] with a 51% conversion rate.</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <CitationRef citationID="a14" />
+  <DataNode elementID="a1606" textLabel="Adenosine 3',5'-diphosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="255.5" centerY="359.0" width="147.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00061" />
+  </DataNode>
+  <DataNode elementID="a2da4" textLabel="2H+" groupRef="b7eb7" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="918.0" centerY="377.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="ChEBI" identifier="CHEBI:15378" />
+  </DataNode>
+  <DataNode elementID="a3bc0" textLabel="Ugp2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="609.0" centerY="247.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Ugp2" />
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000001891" />
+  </DataNode>
+  <DataNode elementID="a447b" textLabel="Glucose 6-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="273.5" centerY="313.0" width="109.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01401" />
+  </DataNode>
+  <DataNode elementID="ab7f3" textLabel="UGT" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1095.0" centerY="165.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b01d8" textLabel="Substrate" color="339900" fontSize="10" vAlign="Middle" type="Metabolite" centerX="995.0" centerY="232.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="b0426" textLabel="Pgm3" groupRef="bb315" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="321.0" centerY="251.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Pgm3" />
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000056131" />
+  </DataNode>
+  <DataNode elementID="b2ab0" textLabel="PGM5" groupRef="bb315" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="401.0" centerY="251.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Pgm5" />
+    <Xref dataSource="Entrez Gene" identifier="226041" />
+  </DataNode>
+  <DataNode elementID="b2d4e" textLabel="Pgm1" groupRef="bb315" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="401.0" centerY="231.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Pgm1" />
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000029171" />
+  </DataNode>
+  <DataNode elementID="b59d0" textLabel="Uridine 5'-diphosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1180.0" centerY="314.0" width="110.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00295" />
+  </DataNode>
+  <DataNode elementID="bd8c5" textLabel="substrate-glucuronide" color="339900" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1247.5" centerY="232.0" width="123.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c9360" textLabel="NAD" groupRef="d3a66" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="817.0" centerY="357.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00902" />
+  </DataNode>
+  <DataNode elementID="ce760" textLabel="Water" groupRef="d3a66" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="817.0" centerY="377.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB02111" />
+  </DataNode>
+  <DataNode elementID="d080f" textLabel="Adenosine triphosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="89.5" centerY="359.0" width="125.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00538" />
+  </DataNode>
+  <DataNode elementID="d3ce9" textLabel="NADH" groupRef="b7eb7" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="918.0" centerY="357.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01487" />
+  </DataNode>
+  <DataNode elementID="d8b8b" textLabel="Hk1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="170.0" centerY="253.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Hk1" />
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000037012" />
+  </DataNode>
+  <DataNode elementID="de94b" textLabel="Uridine diphosphate glucose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="750.5" centerY="313.0" width="155.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00286" />
+  </DataNode>
+  <DataNode elementID="ded2e" textLabel="Phosphate" groupRef="b5420" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="679.0" centerY="384.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01429" />
+  </DataNode>
+  <DataNode elementID="df17e" textLabel="Ugdh" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="866.0" centerY="250.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Ugdh" />
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000029201" />
+  </DataNode>
+  <DataNode elementID="e163e" textLabel="Glucose 1-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="459.5" centerY="313.0" width="117.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01586" />
+  </DataNode>
+  <DataNode elementID="e3ca0" textLabel="Uridine diphosphate glucuronic acid" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1008.0" centerY="313.0" width="188.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00935" />
+  </DataNode>
+  <DataNode elementID="e6301" textLabel="Phosphate" groupRef="b5420" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="679.0" centerY="404.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB01429" />
+  </DataNode>
+  <DataNode elementID="e6ea3" textLabel="Uridine triphosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="536.5" centerY="384.0" width="115.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00285" />
+  </DataNode>
+  <DataNode elementID="ea706" textLabel="D-Glucose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="89.0" centerY="313.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00122" />
+  </DataNode>
+  <DataNode elementID="fcaec" textLabel="Pgm2" groupRef="bb315" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="321.0" centerY="231.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Pgm2" />
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000025791" />
+  </DataNode>
+  <DataNode elementID="d5e95" textLabel="UGT2B17" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.0" centerY="157.0" width="80.0" height="20.0" zOrder="32771">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="ef639" textLabel="Ugt1a5" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.0" centerY="57.0" width="80.0" height="20.0" zOrder="32772">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Ugt1a5" />
+    <Xref dataSource="Entrez Gene" identifier="394433" />
+  </DataNode>
+  <DataNode elementID="ec7ad" textLabel="Ugt1a8" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1274.0" centerY="97.0" width="80.0" height="20.0" zOrder="32773">
+    <Xref dataSource="MGI" identifier="MGI:3576090" />
+  </DataNode>
+  <DataNode elementID="d9490" textLabel="Ugt2a3" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.0" centerY="117.0" width="80.0" height="20.0" zOrder="32774">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Ugt2a3" />
+    <Xref dataSource="Entrez Gene" identifier="72094" />
+  </DataNode>
+  <DataNode elementID="f7048" textLabel="UGT1A6" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1354.0" centerY="77.0" width="80.0" height="20.0" zOrder="32775">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="a64db" textLabel="UGT2B15" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1354.0" centerY="157.0" width="80.0" height="20.0" zOrder="32776">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="c17ed" textLabel="Ugt2b1" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1274.0" centerY="137.0" width="80.0" height="20.0" zOrder="32777">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Ugt2b1" />
+    <Xref dataSource="Entrez Gene" identifier="71773" />
+  </DataNode>
+  <DataNode elementID="ce709" textLabel="Ugt2b34" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.0" centerY="137.0" width="80.0" height="20.0" zOrder="32778">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Ugt2b34" />
+    <Xref dataSource="Entrez Gene" identifier="100727" />
+  </DataNode>
+  <DataNode elementID="c6e77" textLabel="Ugt1a10" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.0" centerY="97.0" width="80.0" height="20.0" zOrder="32779">
+    <Xref dataSource="Entrez Gene" identifier="394430" />
+  </DataNode>
+  <DataNode elementID="d8b16" textLabel="Ugt1a5" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1274.0" centerY="77.0" width="80.0" height="20.0" zOrder="32780">
+    <Xref dataSource="Entrez Gene" identifier="394433" />
+  </DataNode>
+  <DataNode elementID="b8b3c" textLabel="Ugt2a1" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1274.0" centerY="117.0" width="80.0" height="20.0" zOrder="32781">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Ugt2a1" />
+    <Xref dataSource="Entrez Gene" identifier="94215" />
+  </DataNode>
+  <DataNode elementID="c16b8" textLabel="Ugt1a1" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1274.0" centerY="57.0" width="80.0" height="20.0" zOrder="32782">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Ugt1a1" />
+    <Xref dataSource="Entrez Gene" identifier="394436" />
+  </DataNode>
+  <DataNode elementID="ba9f5" textLabel="Ugt1a9" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1354.0" centerY="97.0" width="80.0" height="20.0" zOrder="32783">
+    <Xref dataSource="Entrez Gene" identifier="434493" />
+  </DataNode>
+  <DataNode elementID="fc5ba" textLabel="UGT2B28" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1274.0" centerY="177.0" width="80.0" height="20.0" zOrder="32784">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="acf7d" textLabel="Ugt2a2" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1354.0" centerY="117.0" width="80.0" height="20.0" zOrder="32785">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Ugt2a2" />
+    <Xref dataSource="Entrez Gene" identifier="552899" />
+  </DataNode>
+  <DataNode elementID="b97e1" textLabel="UGT2B7" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1354.0" centerY="137.0" width="80.0" height="20.0" zOrder="32786">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e0f0c" textLabel="UGT2B11" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1274.0" centerY="157.0" width="80.0" height="20.0" zOrder="32787">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e5009" textLabel="Ugt1a2" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1354.0" centerY="57.0" width="80.0" height="20.0" zOrder="32788">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Ugt1a2" />
+    <Xref dataSource="Entrez Gene" identifier="22236" />
+  </DataNode>
+  <DataNode elementID="f4d99" textLabel="UGT1A7" groupRef="bdf04" color="ff0033" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="1434.0" centerY="77.0" width="80.0" height="20.0" zOrder="32789">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <Interaction elementID="a2286" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="817.0" y="335.0" elementID="b242c" elementRef="d3a66" relX="0.0" relY="-1.0" />
+    <Point x="867.5" y="314.0" elementID="bc92f" />
+    <Point x="918.0" y="335.0" elementID="adf12" elementRef="b7eb7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b6462" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="866.0" y="260.0" elementID="fb071" elementRef="df17e" relX="0.0" relY="1.0" />
+    <Point x="866.0" y="313.0" elementID="f2875" elementRef="dd5ef" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b809f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1035.0" y="232.0" elementID="a249d" elementRef="b01d8" relX="1.0" relY="0.0" />
+    <Point x="1186.0" y="232.0" elementID="dba48" elementRef="bd8c5" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="fff52" />
+  </Interaction>
+  <Interaction elementID="c2722" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1095.0" y="175.0" elementID="fc5a2" elementRef="ab7f3" relX="0.0" relY="1.0" />
+    <Point x="1095.4" y="232.0" elementID="bb837" elementRef="fff52" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c878d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="361.0" y="273.0" elementID="ac617" elementRef="bb315" relX="0.0" relY="1.0" />
+    <Point x="361.0" y="313.0" elementID="c3177" elementRef="dcece" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="cb1e6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="b59" />
+    <Point x="828.0" y="313.0" elementID="d1c58" elementRef="de94b" relX="1.0" relY="0.0" />
+    <Point x="914.0" y="313.0" elementID="fbcc5" elementRef="e3ca0" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4418604651162791" shapeType="None" elementID="dd5ef" />
+  </Interaction>
+  <Interaction elementID="d0041" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="1008.0" y="303.0" elementID="e9c80" elementRef="e3ca0" relX="0.0" relY="-1.0" />
+    <Point x="1094.0" y="231.0" elementID="e2600" />
+    <Point x="1180.0" y="304.0" elementID="de138" elementRef="b59d0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d2dc1" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="536.5" y="374.0" elementID="e0dbc" elementRef="e6ea3" relX="0.0" relY="-1.0" />
+    <Point x="607.75" y="314.0" elementID="ed2f8" />
+    <Point x="679.0" y="366.0" elementID="e9aaf" elementRef="b5420" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e4100" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="328.0" y="313.0" elementID="ff1ad" elementRef="a447b" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point x="401.0" y="313.0" elementID="b233d" elementRef="e163e" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4520547945205479" shapeType="None" elementID="dcece" />
+  </Interaction>
+  <Interaction elementID="e80c3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="518.0" y="313.0" elementID="d6d83" elementRef="e163e" relX="1.0" relY="0.0" />
+    <Point x="673.0" y="313.0" elementID="e3716" elementRef="de94b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.5870967741935483" shapeType="None" elementID="e3f2c" />
+  </Interaction>
+  <Interaction elementID="e8383" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="609.0" y="257.0" elementID="bfb90" elementRef="a3bc0" relX="0.0" relY="1.0" />
+    <Point x="609.0" y="313.0" elementID="cd45c" elementRef="e3f2c" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fdb12" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="170.0" y="263.0" elementID="c00ca" elementRef="d8b8b" relX="0.0" relY="1.0" />
+    <Point x="170.09503920819733" y="313.0128859730404" elementID="e0048" elementRef="bdc58" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="fdfa1" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="120.75" y="349.0" elementID="bc2d5" elementRef="d080f" relX="0.5" relY="-1.0" />
+    <Point x="169.75" y="313.0" elementID="f29ad" />
+    <Point x="218.75" y="349.0" elementID="f1ed5" elementRef="a1606" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.5025510204081632" shapeType="None" elementID="bdc58" />
+  </Interaction>
+  <Interaction elementID="fe12b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="129.0" y="313.0" elementID="b21c6" elementRef="ea706" relX="1.0" relY="0.0" />
+    <Point x="219.0" y="313.0" elementID="af2ea" elementRef="a447b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="e6b8c" textLabel="Uridine diphosphate glucuronic acid synthesis (co-substrate)" color="999999" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="172.0" centerY="153.0" width="312.0" height="20.0" zOrder="28672" />
+  <Shape elementID="b0e6c" shapeType="Rectangle" color="999999" fontSize="10" vAlign="Middle" centerX="478.48333333333335" centerY="286.48333333333335" width="911.0333333333333" height="291.03333333333336" zOrder="16384" rotation="0.0" />
+  <Shape elementID="bf9f9" groupRef="bdf04" shapeType="Rectangle" color="ff0000" fontSize="10" vAlign="Middle" centerX="1353.9833333333333" centerY="116.98333333333333" width="254.03333333333333" height="154.03333333333333" zOrder="32770" rotation="0.0" />
+  <Group elementID="b5420" groupType="Group" />
+  <Group elementID="b7eb7" groupType="Complex" />
+  <Group elementID="bb315" groupType="Complex" />
+  <Group elementID="bdf04" groupType="Complex" />
+  <Group elementID="d3a66" groupType="Complex" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="The biochemistry of drug metabolism--an introduction: part 4. reactions of conjugation and their enzymes." URL="" citationID="a14" year="2008" source="Chem Biodivers">
+      <Xref dataSource="PubMed" identifier="19035562" />
+      <Author name="Testa B" />
+      <Author name="Kramer SD" />
+    </Citation>
+    <Citation title="Androgen-stimulated UDP-glucose dehydrogenase expression limits prostate androgen availability without impacting hyaluronan levels." URL="" citationID="b59" year="2009" source="Cancer Res">
+      <Xref dataSource="PubMed" identifier="19244115" />
+      <Author name="Wei Q" />
+      <Author name="Galbenus R" />
+      <Author name="Raza A" />
+      <Author name="Cerny RL" />
+      <Author name="Simpson MA" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="glucuronidation conjugation pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000859" />
+  </OntologyTerms>
+</Pathway>
+

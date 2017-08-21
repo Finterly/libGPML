@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:PublicationXref rdf:about="acb">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2004</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lemonde S</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Albert PR</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rogaeva A</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">14756806</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">J Neurochem</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cell type-dependent recruitment of trichostatin A-sensitive repression of the human 5-HT1A receptor gene.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="f33a1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nr3c1</bp:displayName>
+ <bp:entityReference rdf:resource="id29" />
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="dee">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2007</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Zill P</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Walther DJ</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kirchheiner J</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lautenschlager M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Grohmann M</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Stahlberg S</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Heinz A</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Scheuch K</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Priller J</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">17568567</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Biol Psychiatry</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Characterization of a functional promoter polymorphism of the human tryptophan hydroxylase 2 gene in serotonergic raphe neurons.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:SmallMoleculeReference rdf:about="id31">
+ <bp:xref rdf:resource="id32" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5-HTP</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id30">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">14815</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id33">
+ <bp:xref rdf:resource="id34" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Avp</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id32">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00472</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id35">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id35</bp:displayName>
+ <bp:right rdf:resource="ec481" />
+ <bp:left rdf:resource="eeedf" />
+ <bp:left rdf:resource="d6750" />
+ <bp:left rdf:resource="b0a53" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="b0a53">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tph1</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id34">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">11998</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:BiochemicalReaction rdf:about="id37">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id37</bp:displayName>
+ <bp:right rdf:resource="c9a16" />
+ <bp:left rdf:resource="ffeb1" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id36">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id36</bp:displayName>
+ <bp:right rdf:resource="fcb04" />
+ <bp:left rdf:resource="e8b6a" />
+ <bp:left rdf:resource="ec481" />
+</bp:BiochemicalReaction>
+
+<bp:UnificationXref rdf:about="id28">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00929</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:SmallMoleculeReference rdf:about="id27">
+ <bp:xref rdf:resource="id28" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Tryptophan</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:PublicationXref rdf:about="e6a">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2004</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Miyata A</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Sugawara H</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Shimizu T</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Iwata S</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Kangawa K</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15056938</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nippon Yakurigaku Zasshi</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">[The regulatory mechanism for neuron specific expression of PACAP gene]</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="f4587">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hes5</bp:displayName>
+ <bp:entityReference rdf:resource="id15" />
+</bp:Protein>
+
+<bp:ProteinReference rdf:about="id29">
+ <bp:xref rdf:resource="id30" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nr3c1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="c29c8">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ddc</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="ca6">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2007</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Meng F</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Turner DL</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pontrello CG</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Patel PD</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bochar DA</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mueller HM</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">17613521</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">J Biol Chem</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Regulation of tryptophan hydroxylase-2 gene expression by a bipartite RE-1 silencer of transcription/neuron restrictive silencing factor (REST/NRSF) binding motif.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:SmallMolecule rdf:about="d6750">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">L-Tryptophan</bp:displayName>
+ <bp:entityReference rdf:resource="id27" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="a8b76">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hes1</bp:displayName>
+ <bp:entityReference rdf:resource="id23" />
+</bp:Protein>
+
+<bp:Protein rdf:about="abec8">
+ <bp:xref rdf:resource="ca6" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rest</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="ad8a3">
+ <bp:xref rdf:resource="acb" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cc2d1a</bp:displayName>
+ <bp:entityReference rdf:resource="id25" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="a3949">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5-HT</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="fa8d0">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rest</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:Protein rdf:about="f105a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Htr1a</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id20">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">216343</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:UnificationXref rdf:about="id22">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">13195</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id21">
+ <bp:xref rdf:resource="id22" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ddc</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id24">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15205</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id23">
+ <bp:xref rdf:resource="id24" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hes1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id26">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">212139</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id25">
+ <bp:xref rdf:resource="id26" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cc2d1a</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id17">
+ <bp:xref rdf:resource="id18" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Maoa</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id16">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15208</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id19">
+ <bp:xref rdf:resource="id20" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tph2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id18">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">17161</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e40c5">
+ <bp:xref rdf:resource="cc5" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pou3f2</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="eeedf">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tph2</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="ffeb1">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5-HT</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:Protein rdf:about="e6a47">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Maoa</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:Protein>
+
+<bp:Protein rdf:about="e13f9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tph2</bp:displayName>
+ <bp:entityReference rdf:resource="id19" />
+</bp:Protein>
+
+<bp:Protein rdf:about="a477b">
+ <bp:xref rdf:resource="d43" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Maoa</bp:displayName>
+ <bp:entityReference rdf:resource="id17" />
+</bp:Protein>
+
+<bp:SmallMolecule rdf:about="fcb04">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5-HT</bp:displayName>
+ <bp:entityReference rdf:resource="id11" />
+</bp:SmallMolecule>
+
+<bp:SmallMoleculeReference rdf:about="id11">
+ <bp:xref rdf:resource="id12" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5-HT</bp:displayName>
+</bp:SmallMoleculeReference>
+
+<bp:UnificationXref rdf:about="id10">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">21990</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id13">
+ <bp:xref rdf:resource="id14" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Deaf1</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="b893c">
+ <bp:xref rdf:resource="e6a" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rest</bp:displayName>
+ <bp:entityReference rdf:resource="id3" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id12">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB00259</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">HMDB</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id15">
+ <bp:xref rdf:resource="id16" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Hes5</bp:displayName>
+</bp:ProteinReference>
+
+<bp:Protein rdf:about="d71b9">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Deaf1</bp:displayName>
+ <bp:entityReference rdf:resource="id13" />
+</bp:Protein>
+
+<bp:UnificationXref rdf:about="id14">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">54006</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:Protein rdf:about="e8b6a">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Ddc</bp:displayName>
+ <bp:entityReference rdf:resource="id21" />
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="cc5">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2004</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Egloff S</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Dugast-Darzacq C</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Weber MJ</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">14741405</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Brain Res Mol Brain Res</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cooperative dimerization of the POU domain protein Brn-2 on a new motif activates the neuronal promoter of the human aromatic L-amino acid decarboxylase gene.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="e5780">
+ <bp:xref rdf:resource="dee" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pou3f2</bp:displayName>
+ <bp:entityReference rdf:resource="id5" />
+</bp:Protein>
+
+<bp:Protein rdf:about="c9a16">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Avp</bp:displayName>
+ <bp:entityReference rdf:resource="id33" />
+</bp:Protein>
+
+<bp:PublicationXref rdf:about="d43">
+ <bp:year rdf:datatype = "http://www.w3.org/2001/XMLSchema#int">2009</bp:year>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Filonzi L</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Bevilacqua G</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Lavezzi AM</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Parmigiani S</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Matturri L</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rindi G</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Nonnis Marzano F</bp:author>
+ <bp:author rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Magnani C</bp:author>
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">18810510</bp:id>
+ <bp:source rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Neurogenetics</bp:source>
+ <bp:title rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Association of dopamine transporter and monoamine oxidase molecular polymorphisms with sudden infant death syndrome and stillbirth: new insights into the serotonin hypothesis.</bp:title>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">PubMed</bp:db>
+</bp:PublicationXref>
+
+<bp:Protein rdf:about="acc10">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Htr1a</bp:displayName>
+ <bp:entityReference rdf:resource="id7" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id40">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id40</bp:displayName>
+ <bp:right rdf:resource="e6a47" />
+ <bp:left rdf:resource="f33a1" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id41">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id41</bp:displayName>
+ <bp:right rdf:resource="acc10" />
+ <bp:left rdf:resource="ad8a3" />
+ <bp:left rdf:resource="f4587" />
+ <bp:left rdf:resource="fa8d0" />
+ <bp:left rdf:resource="a8b76" />
+ <bp:left rdf:resource="d71b9" />
+</bp:BiochemicalReaction>
+
+<bp:Protein rdf:about="a3687">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tph1</bp:displayName>
+ <bp:entityReference rdf:resource="id9" />
+</bp:Protein>
+
+<bp:BiochemicalReaction rdf:about="id39">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id39</bp:displayName>
+ <bp:right rdf:resource="e13f9" />
+ <bp:left rdf:resource="e5780" />
+</bp:BiochemicalReaction>
+
+<bp:BiochemicalReaction rdf:about="id38">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">BiochemicalReaction id38</bp:displayName>
+</bp:BiochemicalReaction>
+
+<bp:SmallMolecule rdf:about="ec481">
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">5-HTP</bp:displayName>
+ <bp:entityReference rdf:resource="id31" />
+</bp:SmallMolecule>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mus musculus</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Mus musculus</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:pathwayComponent rdf:resource="id39" />
+ <bp:pathwayComponent rdf:resource="id38" />
+ <bp:pathwayComponent rdf:resource="id40" />
+ <bp:pathwayComponent rdf:resource="id41" />
+ <bp:pathwayComponent rdf:resource="id35" />
+ <bp:pathwayComponent rdf:resource="id37" />
+ <bp:pathwayComponent rdf:resource="id36" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">SIDS Susceptibility Pathways</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">In this model, we provide an integrated view of Sudden Infant Death Syndrome (SIDS) at the level of implicated tissues, signaling networks and genetics. The purpose of this model is to serve as an overview of research in this field and recommend new candidates for more focused or genome wide analyses. SIDS is the sudden and unexpected death of an infant (less than 1 year of age), almost always during deep sleep, where no cause of death can be found by autopsy. Factors that mediate SIDS are likely to be both biological and behavioral, such as sleeping position, environment and stress during a critical phase of infant development (http://www.nichd.nih.gov/health/topics/Sudden_Infant_Death_Syndrome.cfm). While no clear diagnostic markers currently exist, several polymorphisms have been identified which are significantly over-represented in distinct SIDS ethnic population. The large majority of these polymorphisms exist in genes associated with neuronal signaling, cardiac contraction and inflammatory response. These and other lines of evidence suggest that SIDS has a strong autonomic nervous system component (PMID:12350301). One of the neuronal nuclei most strongly implicated in SIDS has been the raphe nucleus of the brain stem. In this nuclei there are ultrastructural, cellular and molecular changes associated with SIDS relative to controls (PMID:19342987). This region of the brain is responsible for the large majority of serotonin that is produced in the human body and is functionally important in the regulation of normal cardiopulmonary activity, sleep and thermoregulation (see associated references).
+
+Genes associated with serotonin synthesis and receptivity have some of the strongest genetic association with SIDS. Principle among these genes is the serotonin transporter SLC6A4 and the serotonin receptor HTR1A. SLC6A4 exhibits decreased expression in the raphe nucleus of the medulla oblongata and polymorphisms specifically associated with SIDS (PMID:19342987). In 75% of infants with SIDS, there is decreased HTR1A expression relative to controls along with an increase in the number of raphe serotonin neurons (PMID:19342987). Over-expression of the mouse orthologue of the HTR1A gene in the juvenile mouse medulla produces an analogous phenotype to SIDS with death due to bradycardia and hypothermia (PMID:18599790). These genes as well as those involved in serotonin synthesis are predicted to be transcriptionally regulated by a common factor, FEV (human orthologue of PET-1). PET-1 knock-out results in up to a 90% loss of serotonin neurons (PMID:12546819), while polymorphisms in FEV are over-represented in African American infants with SIDS. In addition to FEV, other transcription factors implicated in the regulation of these genes (Putative transcriptional regulators (TRs)) and FEV are also listed (see associated references). In addition to serotonin, vasopressin signaling and its regulation by serotonin appear to be important in a common pathway of cardiopulmonary regulation (PMID:2058745). A protein that associates with vasopressin signaling, named pituitary adenylate cyclase-activating polypeptide (ADCYAP1), results in a SIDS like phenotype, characterized by a high increase in spontaneous neonatal death, exacerbated by hypothermia and hypoxia (PMID:14608012), when disrupted in mice. Protein for this gene is widely distributed throughout the central nervous system (CNS), including autonomic control centers (PMID:12389210). ADCYAP1 and HTR1A are both predicted to be transcriptionally regulated by REST promoter binding. Regulation of G-protein coupled signaling pathways is illustrated for these genes, however, it is not clear whether ADCYAP1 acts directly upon raphe serotonin neurons. 
+
+Another potentially important class of receptors in SIDS is nicotine. Receptors for nicotine are expressed in serotonin neurons of the raphe throughout development (PMID:18986852).  Application of nicotine or cigarette smoke is sufficient to inhibit electrical activity of raphe serotonin neurons (PMID:17515803) and chronic nicotine infusion in rats decreases expression of SLC6A4 (PMID:18778441). Furthermore, nicotine exposure reduces both HTR1A and HTR2A immunoreactivity in several nuclei of the brainstem (PMID:17451658).
+
+In addition to CNS abnormalities, several studies have identified a critical link between cardiac arrhythmia (long QT syndrome) and SIDS (PMID:18928334). A number of genetic association studies identified functionally modifying mutations in critical cardiac channels in as many as 10% of all SIDS cases (PMID:18928334). These mutations have been predicted to predispose infants for long QT syndrome and sudden death. The highest proportion of SIDS associated mutations (both inherited and sporadic) is found in the sodium channel gene SCN5A. Examination of putative transcriptional regulators for these genes, highlights a diverse set of factors as well as a relatively common one (SP1).
+
+Finally, several miscellaneous mutations have been identified in genes associated with inflammatory response and thermoregulation. Infection is considered a significant risk factor for SIDS (PMID:19114412). For inflammatory associated genes, such as TNF alpha, interleukin 10 and complement component 4, many of these mutations are only significant in the presence of infection and SIDS. In addition to these mutations, cerebrospinal fluid levels of IL6 are increased in SIDS cases as well as IL6R levels in the arcuate nucleus of the brain, another major site of serotonin synthesis (PMID:19396608). Genes such as ILR6 and ADCYAP1 are also associated with autoimmune disorders, thus SIDS may also be associated with autoinflammation of autonomic centers in the brain. Regulation of thermogenesis by brown adipose tissue has been proposed be an important component of SIDS, given that SIDS incidence is highest in the winter time and that animal models of SIDS demonstrate variation in body temperature. Interestingly, activation of raphe HTR1A decreases both shivering and peripheral vasoconstriction in piglets (18094064). Although a putative significant polymorphism was identified in the thermoregulator gene HSP60, this only occurred in one SIDS case. It is important to note that in the large majority of all these studies, sleeping position and smoking were among the most significant risk factors for SIDS. 
+
+In loving memory of Milo Salomonis (http://www.milosalomonis.org). 
+ (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This pathway was inferred from Homo sapiens pathway [http://www.wikipathways.org/index.php?title=Pathway:WP706&amp;amp;amp;amp;oldid=30282 WP706(r30282)] with a 93% conversion rate. (HomologyConvert)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Physiological Process (WikiPathways-category)</bp:comment>
+</bp:Pathway>
+
+<bp:UnificationXref rdf:about="id4">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">19712</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id3">
+ <bp:xref rdf:resource="id4" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Rest</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id6">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">18992</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id5">
+ <bp:xref rdf:resource="id6" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Pou3f2</bp:displayName>
+</bp:ProteinReference>
+
+<bp:UnificationXref rdf:about="id8">
+ <bp:id rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">15550</bp:id>
+ <bp:db rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Entrez Gene</bp:db>
+</bp:UnificationXref>
+
+<bp:ProteinReference rdf:about="id7">
+ <bp:xref rdf:resource="id8" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Htr1a</bp:displayName>
+</bp:ProteinReference>
+
+<bp:ProteinReference rdf:about="id9">
+ <bp:xref rdf:resource="id10" />
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Tph1</bp:displayName>
+</bp:ProteinReference>
+</rdf:RDF>

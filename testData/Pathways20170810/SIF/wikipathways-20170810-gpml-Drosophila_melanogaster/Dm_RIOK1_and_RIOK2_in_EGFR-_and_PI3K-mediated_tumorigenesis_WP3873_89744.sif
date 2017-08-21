@@ -1,0 +1,25 @@
+Akt1	Line	R9
+R9	Arrow	RIOK2
+R9	Arrow	RIOK1
+RIOK2	Line	R16
+RIOK1	Line	R16
+R16	Arrow	RpL11
+Pten	Line	R22
+R22	Arrow	R3
+RpL11	Line	R18
+R18	Arrow	p53
+TORC2	Line	R7
+R7	Arrow	Akt1
+Akt1	Line	R5
+R5	mim-inhibition	foxo
+p53	Line	R20
+R20	Arrow	Cell Cycle Arrest
+Egfr	Line	R1
+R1	Arrow	Akt1
+Pi3K	Line	R3
+R3	Arrow	Akt1
+RIOK2	Line	R11
+RIOK1	Line	R11
+R11	Arrow	TORC2
+foxo	Line	R14
+R14	mim-inhibition	Cell Cycle Arrest

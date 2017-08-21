@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="TCA Cycle Nutrient Utilization and Invasiveness of Ovarian Cancer" revision="20141029" organism="Bos taurus" width="912.0" height="613.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Schematic showing the shift in nutrient utilization in TCA cycle with increasing degree of invasiveness. Low-invasive ovarian cancer (OVCA) cells are glucose dependent for their TCA cycle pool. With increasing invasiveness in cancer cells, dominant nutrient which feeds the TCA cycle shifts from glucose to Gln. In high-invasive OVCA cells, Gln dominates the TCA cycle. In low-invasive OVCA cells, glucose activates Jak1, which activates STAT3 by tyrosine phosphorylation, thereby regulating glycolysis in cancer cells. In highinvasive OVCA cells, besides glucose's role in activating STAT3 tyrosine phosphorylation, glutamine activates JAK1 through TCA cycle to further activate STAT3 by tyrosine phosphorylation and thus regulate glycolysis. Further, Gln activates Erk1/2, which subsequently activates STAT3 by serine phosphorylation selectively in high-invasive OVCA cells. The serine phosphorylation of STAT3 enhances oxidative phosphorylation in mitochondria by interaction with mitochondrial complexes I and II, thereby increasing TCA cycle activity in high-invasive OVCA cells.</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP2868_r78079 WP2868(78079)]  with a 100.0% conversion rate.</Comment>
+  <CitationRef citationID="cca" />
+  <DataNode elementID="a2a4a" textLabel="STAT3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="102.0" centerY="408.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6774</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021523" />
+  </DataNode>
+  <DataNode elementID="c34c9" textLabel="Lactate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="219.0" centerY="460.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00190" />
+  </DataNode>
+  <DataNode elementID="c3e6f" textLabel="MAPK3" groupRef="ade37" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="639.0" centerY="296.25" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5595</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000016156" />
+  </DataNode>
+  <DataNode elementID="cc42b" textLabel="JAK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="102.0" centerY="343.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3716</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000003147" />
+  </DataNode>
+  <DataNode elementID="cf7ed" textLabel="D-Glutamine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="639.0" centerY="202.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB03423" />
+  </DataNode>
+  <DataNode elementID="d3a8b" textLabel="MAPK1" groupRef="ade37" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="639.0" centerY="276.25" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5594</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000010312" />
+  </DataNode>
+  <DataNode elementID="d632b" textLabel="Pyruvate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="219.0" centerY="546.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00243" />
+  </DataNode>
+  <DataNode elementID="e0064" textLabel="Glucose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="102.0" centerY="205.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00122" />
+  </DataNode>
+  <DataNode elementID="ed313" textLabel="EGFR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="102.0" centerY="266.0" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1956</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011628" />
+  </DataNode>
+  <DataNode elementID="f133c" textLabel="TCA Cycle" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="640.0" centerY="513.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="WikiPathways" identifier="WP78" />
+  </DataNode>
+  <DataNode elementID="c1502" textLabel="Glucose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="101.0" centerY="546.0" width="80.0" height="20.0" zOrder="32770">
+    <Xref dataSource="HMDB" identifier="HMDB00122" />
+  </DataNode>
+  <DataNode elementID="dd827" textLabel="STAT3" color="00cc00" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="639.0" centerY="368.0" width="80.0" height="20.0" zOrder="32774">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6774</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021523" />
+  </DataNode>
+  <DataNode elementID="fd7c3" textLabel="Glucose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="459.0" centerY="202.0" width="80.0" height="20.0" zOrder="32781">
+    <Xref dataSource="HMDB" identifier="HMDB00122" />
+  </DataNode>
+  <DataNode elementID="cda95" textLabel="EGFR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="459.0" centerY="287.0" width="80.0" height="20.0" zOrder="32782">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1956</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000011628" />
+  </DataNode>
+  <DataNode elementID="b0e72" textLabel="JAK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="459.0" centerY="351.0" width="80.0" height="20.0" zOrder="32783">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:3716</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000003147" />
+  </DataNode>
+  <DataNode elementID="a3dd3" textLabel="STAT3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="459.0" centerY="404.0" width="80.0" height="20.0" zOrder="32784">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:6774</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000021523" />
+  </DataNode>
+  <State elementID="d439a" textLabel="Tyr-P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="a2a4a" relX="1.0" relY="-1.0" width="35.5" height="12.5">
+    <Comment>P</Comment>
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="bcf9c" textLabel="Ser-P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="dd827" relX="0.825" relY="-0.9" width="33.5" height="14.5">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <State elementID="c6512" textLabel="Tyr-P" shapeType="Oval" fontSize="12" vAlign="Middle" elementRef="a3dd3" relX="0.84375" relY="-1.0" width="29.5" height="14.5">
+    <Xref dataSource="" identifier="" />
+  </State>
+  <Interaction elementID="id20dcdc6a" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="102.0" y="353.0" elementID="f1e3b" elementRef="cc42b" relX="0.0" relY="1.0" />
+    <Point x="102.0" y="398.0" elementID="d16a0" elementRef="a2a4a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5e1188a0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="141.0" y="546.0" elementID="dac18" elementRef="c1502" relX="1.0" relY="0.0" />
+    <Point x="179.0" y="546.0" elementID="ad9a1" elementRef="d632b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id882e8822" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="679.0" y="202.0" elementID="e27b3" elementRef="cf7ed" relX="1.0" relY="0.0" />
+    <Point x="765.0" y="357.5" elementID="b5b59" />
+    <Point x="680.0" y="513.0" elementID="c2282" elementRef="f133c" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id96ef6249" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="102.0" y="276.0" elementID="b7567" elementRef="ed313" relX="0.0" relY="1.0" />
+    <Point x="102.0" y="333.0" elementID="f3d72" elementRef="cc42b" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida1fffb24" zOrder="12288" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="639.0" y="212.0" elementID="b0a1e" elementRef="cf7ed" relX="0.0" relY="1.0" />
+    <Point x="639.0" y="258.25" elementID="d5ebf" elementRef="ade37" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idcc5e48b2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="240.0" y="162.0" elementID="e15aa" elementRef="d04eb" relX="1.0" relY="0.0" />
+    <Point x="458.0" y="162.0" elementID="ca0bc" elementRef="ce657" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f830a" zOrder="32771" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="102.0" y="418.0" elementID="c86b5" elementRef="a2a4a" relX="0.0" relY="1.0" />
+    <Point x="101.0" y="536.0" elementID="d011e" elementRef="c1502" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="da63f" connectorType="Elbow" zOrder="32772" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="102.0" y="418.0" elementID="c1ac4" elementRef="a2a4a" relX="0.0" relY="1.0" />
+    <Point x="219.0" y="509.6" elementID="d5f56" elementRef="d476a" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b15f8" zOrder="32773" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="219.0" y="536.0" elementID="ace8e" elementRef="d632b" relX="0.0" relY="-1.0" />
+    <Point x="219.0" y="470.0" elementID="a4d65" elementRef="c34c9" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="d476a" />
+  </Interaction>
+  <Interaction elementID="ed5aa" zOrder="32776" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="639.0" y="314.25" elementID="e031c" elementRef="ade37" relX="0.0" relY="1.0" />
+    <Point x="639.0" y="358.0" elementID="d85eb" elementRef="dd827" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="bd041" zOrder="32777" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="102.0" y="215.0" elementID="d6603" elementRef="e0064" relX="0.0" relY="1.0" />
+    <Point x="102.0" y="256.0" elementID="cd829" elementRef="ed313" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="a83a5" connectorType="Elbow" zOrder="32779" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="600.0" y="513.0" elementID="a6219" elementRef="f133c" relX="-1.0" relY="0.0" />
+    <Point x="524.0" y="458.5" elementID="ad19d" />
+    <Point x="499.0" y="404.0" elementID="c67d2" elementRef="a3dd3" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b2bf0" zOrder="32780" lineThickness="1.0" color="00cc00">
+    <Xref dataSource="" identifier="" />
+    <Point x="639.0" y="378.0" elementID="e887c" elementRef="dd827" relX="0.0" relY="1.0" />
+    <Point x="640.0" y="503.0" elementID="ce0ae" elementRef="f133c" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="eee04" zOrder="32786" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="459.0" y="212.0" elementID="f8d50" elementRef="fd7c3" relX="0.0" relY="1.0" />
+    <Point x="459.0" y="277.0" elementID="f4030" elementRef="cda95" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f64fd" zOrder="32787" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="459.0" y="297.0" elementID="c0501" elementRef="cda95" relX="0.0" relY="1.0" />
+    <Point x="459.0" y="341.0" elementID="a292c" elementRef="b0e72" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c4cb0" zOrder="32788" lineThickness="1.0" color="ff0000">
+    <Xref dataSource="" identifier="" />
+    <Point x="459.0" y="361.0" elementID="e63bc" elementRef="b0e72" relX="0.0" relY="1.0" />
+    <Point x="459.0" y="394.0" elementID="ca88f" elementRef="a3dd3" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <GraphicalLine elementID="id15287e87" zOrder="12288" lineThickness="1.0" color="ff0000">
+    <Point x="622.0" y="57.0" elementID="b350e" />
+    <Point x="688.0" y="57.0" elementID="db1b5" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="a6fd8" zOrder="32794" lineThickness="1.0" color="00cc66">
+    <Point x="623.0" y="78.0" elementID="c26fd" />
+    <Point x="689.0" y="78.0" elementID="f8051" arrowHead="Arrow" />
+  </GraphicalLine>
+  <GraphicalLine elementID="db540" zOrder="32795" lineThickness="1.0">
+    <Point x="624.0" y="101.0" elementID="ceceb" />
+    <Point x="690.0" y="101.0" elementID="b1b11" arrowHead="Arrow" />
+  </GraphicalLine>
+  <Label elementID="a7ac8" textLabel="Tyrosine phosphorylation pathway" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="789.5" centerY="57.0" width="179.0" height="20.0" zOrder="28672" />
+  <Label elementID="ab466" textLabel="Complex I&#xA;NADH-Ubiquinone" shapeType="Rectangle" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="590.5" centerY="442.0" width="93.0" height="32.0" zOrder="28672" />
+  <Label elementID="c9ca7" textLabel="Complex II&#xA;Succinate-Ubiquinone" shapeType="Rectangle" fillColor="ffffff" fontSize="10" vAlign="Middle" centerX="694.5" centerY="442.0" width="105.0" height="32.0" zOrder="28672" />
+  <Label elementID="d04eb" textLabel="Low-invasive Ovarian Cancer" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="144.5" centerY="162.0" width="191.0" height="20.0" zOrder="28672" />
+  <Label elementID="e72fa" textLabel="Cancer stage" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="344.0" centerY="147.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="fc5a8" textLabel="Legend" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="642.0" centerY="27.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="ce657" textLabel="High-invasive Ovarian Cancer" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="553.5" centerY="162.0" width="191.0" height="20.0" zOrder="32789" />
+  <Label elementID="ee7e2" textLabel="Serine phosphorylation pathway" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="784.5" centerY="79.0" width="179.0" height="20.0" zOrder="32792" />
+  <Label elementID="bb4cd" textLabel="Metabolix flux" fillColor="ffffff" fontSize="12" vAlign="Middle" centerX="736.0" centerY="102.0" width="84.0" height="20.0" zOrder="32793" />
+  <Shape elementID="c350e" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="162.5" centerY="414.0" width="257.0" height="338.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="cb2f9" shapeType="Rectangle" fontSize="10" vAlign="Middle" centerX="743.0" centerY="66.5" width="278.0" height="107.0" zOrder="16384" rotation="0.0" />
+  <Shape elementID="f3a30" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="645.5" centerY="477.0" width="219.0" height="128.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="ebd9f" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="587.0" centerY="412.0" width="386.0" height="336.0" zOrder="32778" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Group elementID="ade37" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Metabolic shifts toward glutamine regulate tumor growth, invasion and bioenergetics in ovarian cancer." URL="" citationID="cca" year="2014" source="Mol Syst Biol">
+      <Xref dataSource="PubMed" identifier="24799285" />
+      <Author name="Yang L" />
+      <Author name="Moss T" />
+      <Author name="Mangala LS" />
+      <Author name="Marini J" />
+      <Author name="Zhao H" />
+      <Author name="Wahlig S" />
+      <Author name="Armaiz-Pena G" />
+      <Author name="Jiang D" />
+      <Author name="Achreja A" />
+      <Author name="Win J" />
+      <Author name="Roopaimoole R" />
+      <Author name="Rodriguez-Aguayo C" />
+      <Author name="Mercado-Uribe I" />
+      <Author name="Lopez-Berestein G" />
+      <Author name="Liu J" />
+      <Author name="Tsukamoto T" />
+      <Author name="Sood AK" />
+      <Author name="Ram PT" />
+      <Author name="Nagrath D" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="altered citric acid cycle pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001119" />
+    <OntologyTerm term="reproductive system disease" ontology="Disease" ontologyTermID="DOID:15" />
+    <OntologyTerm term="cancer" ontology="Disease" ontologyTermID="DOID:162" />
+    <OntologyTerm term="altered citric acid cycle pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001119" />
+  </OntologyTerms>
+</Pathway>
+

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Gene regulatory network modelling somitogenesis " revision="20140930" organism="Mus musculus" width="798.0" height="644.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">Reaction scheme of the proposed gene regulatory network (GRN).
+
+The scheme details the full GRN for one cell and part of a neighboring cell for those reactions that involve ligand-receptor interactions like in Delta-Notch signaling or input from the Fgf8 or Wnt3a signal transduction pathways. Color-coded circular areas for each gene symbolize mRNA and protein. For fast changing gene products the transport of mRNA or protein between cytoplasm and nucleus or between cytoplasm and membrane is explicitly simulated, which is indicated by dividing each half-area of the circle again. Regulatory interactions are shown as activating or repressing arrows. Broken lines indicate that the interaction is simulated only in an even more course-grained manner than the other gene regulatory reactions. NICD, which originates through cleavage reactions following DLL1 ligand binding to the NOTCH1 receptor, was assigned a separate symbol to clarify that only the intracellular domain of the Notch receptor acts in the nucleus as a transcription (co)-factor. The (weak) modulating action of LFNG on D/N signaling is shown as dashed lines - (red for the case of inhibiting action, green for the case of a positive effect on the D/N reaction rate.) Arrows pointing to the symbol for the empty set designate decay reactions of a species. We suppressed them for all species' decays except for those decay rates that we assume as controlled by signal transduction pathways. This applies also to the removal of DLL1 and NOTCH1 from the membrane after their binding, resulting in NOTCH1 cleavage and NICD split-off.</Comment>
+  <CitationRef citationID="e6c" />
+  <DataNode elementID="a24b5" textLabel="Notch1" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="124.01652558657732" centerY="484.6480733811975" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000026923" />
+  </DataNode>
+  <DataNode elementID="bb2e5" textLabel="Ripply2" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="603.4287277629008" centerY="231.79696448650756" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000047897" />
+  </DataNode>
+  <DataNode elementID="bef68" textLabel="Wnt3a" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="465.52565900908536" centerY="484.48381932948166" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000009900" />
+  </DataNode>
+  <DataNode elementID="c11f9" textLabel="Hes7" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="462.21805151184174" centerY="241.37582640794705" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000023781" />
+  </DataNode>
+  <DataNode elementID="ca8ee" textLabel="Tbx6" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="463.3205873442563" centerY="158.49686445933088" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000030699" />
+  </DataNode>
+  <DataNode elementID="cbb2f" textLabel="Fgf8" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="377.9558146750486" centerY="131.185540444688" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000025219" />
+  </DataNode>
+  <DataNode elementID="cf313" textLabel="Notch1" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="341.34059968056124" centerY="376.1754935409" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000026923" />
+  </DataNode>
+  <DataNode elementID="d39d8" textLabel="Mesp2" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="603.4287277629008" centerY="293.7717544024741" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000030543" />
+  </DataNode>
+  <DataNode elementID="d6e0b" textLabel="NICD" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="341.3405996805612" centerY="304.8324362693889" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="d8973" textLabel="Dll1" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="341.3405996805612" centerY="445.27603776831137" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000014773" />
+  </DataNode>
+  <DataNode elementID="e7a60" textLabel="Lfng" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="462.2180515118418" centerY="356.6489101250304" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000029570" />
+  </DataNode>
+  <DataNode elementID="ea522" textLabel="Epha4" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="603.4287277629008" centerY="353.64570398230603" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000026235" />
+  </DataNode>
+  <DataNode elementID="eae0c" textLabel="Hes1" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="341.3405996805612" centerY="221.10514219258405" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000022528" />
+  </DataNode>
+  <DataNode elementID="f4710" textLabel="Dll1" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="124.91059876160254" centerY="352.95388168838264" width="80.0" height="20.0" zOrder="32769">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000014773" />
+  </DataNode>
+  <DataNode elementID="c5d2f" textLabel="Wnt3a" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="124.91059876160254" centerY="271.67969522157205" width="80.0" height="20.0" zOrder="32770">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000009900" />
+  </DataNode>
+  <DataNode elementID="bd6ad" textLabel="Fgf8" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="124.91059876160254" centerY="198.06476929980622" width="80.0" height="20.0" zOrder="32771">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000025219" />
+  </DataNode>
+  <DataNode elementID="eb1fd" textLabel="Fgf8" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="122.9558146750486" centerY="131.185540444688" width="80.0" height="20.0" zOrder="32772">
+    <Xref dataSource="Ensembl" identifier="ENSMUSG00000025219" />
+  </DataNode>
+  <Interaction elementID="a5d5a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="337.9558146750486" y="131.185540444688" elementID="dffea" elementRef="cbb2f" relX="-1.0" relY="0.0" />
+    <Point x="162.9558146750486" y="131.185540444688" elementID="a9e84" elementRef="eb1fd" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id139ec6a6" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="417.9558146750486" y="131.185540444688" elementID="a37c1" elementRef="cbb2f" relX="1.0" relY="0.0" />
+    <Point x="397.9558146750486" y="121.185540444688" elementID="fe94b" elementRef="cbb2f" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id16cc8e0" connectorType="Curved" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="009933">
+    <Xref dataSource="" identifier="" />
+    <Point x="442.2180515118418" y="346.6489101250304" elementID="b3c4a" elementRef="e7a60" relX="-0.5" relY="-1.0" />
+    <Point x="393.10461561259126" y="340.68357221609705" elementID="aa57e" />
+    <Point x="343.9911797133407" y="341.7861080485116" elementID="c0940" />
+    <Point x="303.4544578581157" y="342.88864388092617" elementID="cc96a" />
+    <Point x="262.9177360028907" y="376.1754935409" elementID="e5eaf" elementRef="edad1" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id1cd12f50" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="164.91059876160256" y="352.95388168838264" elementID="d6d93" elementRef="f4710" relX="1.0" relY="0.0" />
+    <Point x="301.34059968056124" y="376.1754935409" elementID="aa878" elementRef="cf313" relX="-1.0" relY="0.0" />
+    <Anchor position="0.7593330689827187" shapeType="None" elementID="edad1" />
+  </Interaction>
+  <Interaction elementID="id2a4d9be6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="341.3405996805612" y="294.8324362693889" elementID="dda5f" elementRef="d6e0b" relX="0.0" relY="-1.0" />
+    <Point x="341.3405996805612" y="231.10514219258405" elementID="e2ac2" elementRef="eae0c" relX="0.0" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2d1ddc5c" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="502.21805151184174" y="241.37582640794705" elementID="e5667" elementRef="c11f9" relX="1.0" relY="0.0" />
+    <Point x="522.6152149944874" y="343.3259320881292" elementID="f66ff" />
+    <Point x="381.3405996805612" y="445.27603776831137" elementID="dce44" elementRef="d8973" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id2e4fdeec" connectorType="Curved" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0033">
+    <Xref dataSource="" identifier="" />
+    <Point x="442.2180515118418" y="346.6489101250304" elementID="bb626" elementRef="e7a60" relX="-0.5" relY="-1.0" />
+    <Point x="397.392972634604" y="329.6582138919515" elementID="a062d" />
+    <Point x="352.5678937573663" y="331.8632855567806" elementID="fa135" />
+    <Point x="307.7428148801285" y="334.06835722160974" elementID="ebf46" />
+    <Point x="262.9177360028907" y="376.1754935409" elementID="f69b6" elementRef="edad1" relX="0.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id2e7833e1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="462.21805151184174" y="251.37582640794705" elementID="f41fc" elementRef="c11f9" relX="0.0" relY="1.0" />
+    <Point x="462.2180515118418" y="346.6489101250304" elementID="a8c30" elementRef="e7a60" relX="0.0" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id3777b293" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="381.3405996805612" y="304.8324362693889" elementID="fe9f4" elementRef="d6e0b" relX="1.0" relY="0.0" />
+    <Point x="422.2180515118418" y="356.6489101250304" elementID="d1b04" elementRef="e7a60" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id50feb987" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="301.3405996805612" y="221.10514219258405" elementID="db514" elementRef="eae0c" relX="-1.0" relY="0.0" />
+    <Point x="272.51857633902546" y="246.86731583482356" elementID="c1c99" elementRef="a3478" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.3423233155840134" shapeType="None" elementID="e7d9f" />
+  </Interaction>
+  <Interaction elementID="id63e5ba7d" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="502.21805151184174" y="241.37582640794705" elementID="b9341" elementRef="c11f9" relX="1.0" relY="0.0" />
+    <Point x="515.6152149944874" y="256.37582640794705" elementID="cf945" />
+    <Point x="498.91663325316455" y="271.37582640794705" elementID="d65c9" />
+    <Point x="482.21805151184174" y="251.37582640794705" elementID="aa1b5" elementRef="c11f9" relX="0.5" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id6c4a9b88" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="84.91059876160256" y="271.67969522157205" elementID="c7e39" elementRef="c5d2f" relX="-1.0" relY="0.0" />
+    <Point x="41.2790805407058" y="338.927594381236" elementID="b8267" />
+    <Point x="181.3098401106335" y="406.1754935409" elementID="ee85b" />
+    <Point x="321.34059968056124" y="386.1754935409" elementID="c865a" elementRef="cf313" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id78f7c09e" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="321.3405996805612" y="294.8324362693889" elementID="e7b1b" elementRef="d6e0b" relX="-0.5" relY="-1.0" />
+    <Point x="280.01857633902546" y="261.86731583482356" elementID="f295c" elementRef="a3478" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="ec48c" />
+  </Interaction>
+  <Interaction elementID="id7d9535d0" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="381.3405996805612" y="304.8324362693889" elementID="cadc1" elementRef="d6e0b" relX="1.0" relY="0.0" />
+    <Point x="563.4287277629008" y="293.7717544024741" elementID="b276d" elementRef="d39d8" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id7dffd7cf" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="164.91059876160256" y="198.06476929980622" elementID="d4b1e" elementRef="bd6ad" relX="1.0" relY="0.0" />
+    <Point x="259.76647549868903" y="213.9944520951264" elementID="a5fca" />
+    <Point x="291.47414908844684" y="229.92413489044657" elementID="acf0f" elementRef="e7d9f" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8d07267b" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="503.3205873442563" y="158.49686445933088" elementID="ca2fd" elementRef="ca8ee" relX="1.0" relY="0.0" />
+    <Point x="583.4287277629008" y="221.79696448650756" elementID="dc1f2" elementRef="bb2e5" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id8d2a2109" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="164.91059876160256" y="271.67969522157205" elementID="f6a30" elementRef="c5d2f" relX="1.0" relY="0.0" />
+    <Point x="218.61521499448736" y="276.6630416585674" elementID="bf271" />
+    <Point x="304.8117903439469" y="281.64638809556277" elementID="b1a5e" elementRef="ec48c" relX="0.0" relY="0.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id9602c9d1" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="262.9177360028907" y="376.1754935409" elementID="bc828" elementRef="edad1" relX="0.0" relY="0.0" />
+    <Point x="272.1291678417259" y="304.61521499448736" elementID="e36ea" />
+    <Point x="281.3405996805612" y="304.7238256319381" elementID="cfdf3" />
+    <Point x="301.3405996805612" y="304.8324362693889" elementID="a13fc" elementRef="d6e0b" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id96bcac66" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="381.3405996805612" y="221.10514219258405" elementID="b4433" elementRef="eae0c" relX="1.0" relY="0.0" />
+    <Point x="361.3405996805612" y="211.10514219258405" elementID="de693" elementRef="eae0c" relX="0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id9b749d6d" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="505.52565900908536" y="484.48381932948166" elementID="d097a" elementRef="bef68" relX="1.0" relY="0.0" />
+    <Point x="485.52565900908536" y="494.48381932948166" elementID="e5d82" elementRef="bef68" relX="0.5" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="id9c98b82e" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="84.91059876160256" y="271.67969522157205" elementID="dd132" elementRef="c5d2f" relX="-1.0" relY="0.0" />
+    <Point x="41.2790805407058" y="215.08827984045146" elementID="ae2a7" />
+    <Point x="423.3205873442563" y="158.49686445933088" elementID="bc00e" elementRef="ca8ee" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida2964802" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="583.4287277629008" y="241.79696448650756" elementID="bd2e5" elementRef="bb2e5" relX="-0.5" relY="1.0" />
+    <Point x="583.4287277629008" y="283.7717544024741" elementID="bd656" elementRef="d39d8" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idafe51d16" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="503.3205873442563" y="158.49686445933088" elementID="c301f" elementRef="ca8ee" relX="1.0" relY="0.0" />
+    <Point x="381.3405996805612" y="445.27603776831137" elementID="c4820" elementRef="d8973" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idbfd493dd" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="361.3405996805612" y="294.8324362693889" elementID="adc51" elementRef="d6e0b" relX="0.5" relY="-1.0" />
+    <Point x="422.21805151184174" y="241.37582640794705" elementID="bdd27" elementRef="c11f9" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc151bef8" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="84.91059876160256" y="198.06476929980622" elementID="bf489" elementRef="bd6ad" relX="-1.0" relY="0.0" />
+    <Point x="104.91059876160256" y="208.06476929980622" elementID="f724e" elementRef="bd6ad" relX="-0.5" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idc4fa6cb7" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="84.91059876160256" y="271.67969522157205" elementID="b6bfe" elementRef="c5d2f" relX="-1.0" relY="0.0" />
+    <Point x="104.91059876160256" y="281.67969522157205" elementID="f1e6d" elementRef="c5d2f" relX="-0.5" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="idcc767638" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="623.4287277629008" y="283.7717544024741" elementID="eeac1" elementRef="d39d8" relX="0.5" relY="-1.0" />
+    <Point x="623.4287277629008" y="241.79696448650756" elementID="cc289" elementRef="bb2e5" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd8cb5782" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="603.4287277629008" y="303.7717544024741" elementID="d4bb7" elementRef="d39d8" relX="0.0" relY="1.0" />
+    <Point x="603.4287277629008" y="343.64570398230603" elementID="a0d40" elementRef="ea522" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="iddc90ec24" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="164.91059876160256" y="198.06476929980622" elementID="ccc32" elementRef="bd6ad" relX="1.0" relY="0.0" />
+    <Point x="583.4287277629008" y="303.7717544024741" elementID="c279c" elementRef="d39d8" relX="-0.5" relY="1.0" arrowHead="TBar" />
+  </Interaction>
+  <Interaction elementID="ideab33fe" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="503.3205873442563" y="158.49686445933088" elementID="c49e7" elementRef="ca8ee" relX="1.0" relY="0.0" />
+    <Point x="688.3379040701176" y="226.13430943090248" elementID="c7047" />
+    <Point x="643.4287277629008" y="293.7717544024741" elementID="d3789" elementRef="d39d8" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf9ba1782" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="425.52565900908536" y="484.48381932948166" elementID="ca432" elementRef="bef68" relX="-1.0" relY="0.0" />
+    <Point x="236.65723180121003" y="484.5659463553396" elementID="a26b6" />
+    <Point x="164.0165255865773" y="484.6480733811975" elementID="c8379" elementRef="a24b5" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idfc8bc572" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="84.91059876160256" y="271.67969522157205" elementID="baa56" elementRef="c5d2f" relX="-1.0" relY="0.0" />
+    <Point x="41.2790805407058" y="358.47786649494174" elementID="b5cd8" />
+    <Point x="301.3405996805612" y="445.27603776831137" elementID="df5f3" elementRef="d8973" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Shape elementID="a3478" shapeType="mim-degradation" fontSize="10" vAlign="Middle" centerX="265.01857633902546" centerY="261.86731583482356" width="30.0" height="30.0" zOrder="16384" rotation="0.0" />
+  <Shape elementID="c6812" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="119.0" centerY="325.5" width="242.0" height="525.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <Shape elementID="e8761" shapeType="Oval" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="504.5" centerY="325.5" width="527.0" height="577.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+  </Shape>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="From dynamic expression patterns to boundary formation in the presomitic mesoderm." URL="" citationID="e6c" year="2012" source="PLoS Comput Biol">
+      <Xref dataSource="PubMed" identifier="22761566" />
+      <Author name="Tiedemann HB" />
+      <Author name="Schneltzer E" />
+      <Author name="Zeiser S" />
+      <Author name="Hoesel B" />
+      <Author name="Beckers J" />
+      <Author name="Przemeck GK" />
+      <Author name="de Angelis MH" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+  </OntologyTerms>
+</Pathway>
+

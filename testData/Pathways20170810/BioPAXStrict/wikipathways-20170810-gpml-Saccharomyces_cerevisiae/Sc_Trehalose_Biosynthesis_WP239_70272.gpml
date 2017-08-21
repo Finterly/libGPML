@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Saccharomyces cerevisiae</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Trehalose Biosynthesis</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Metabolic Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Based on http://pathway.yeastgenome.org/biocyc/ (GenMAPP remarks)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">In Saccharomyces cerevisiae, trehalose is a major reserve carbohydrate that has been shown to stabilize proteins during heat shock and to suppress the aggregation of denatured proteins (CITS:9660948). Trehalose has also been shown to be important for surviving osmotic, ethanol, and oxidative stresses (CITS:11483159).  Trehalose biosynthesis also influences glycolysis because trehalose-6-phosphate inhibits hexokinases, which restricts the influx of sugars into glycolysis during a switch to fermentative metabolism (CITS:8809751). Trehalose biosynthesis is a two step process in which glucose 6-phosphate plus UDP-glucose is converted to alpha,alpha-trehalose 6-phosphate by trehalose-6-phosphate synthase (TPS), and then alpha,alpha-trehalose 6-phosphate and water are converted to trehalose and phosphate by trehalose-6-phosphate phosphatase (TPP) (CITS:11152943). In S. cerevisiae, both of these steps occur in a single alpha,alpha-trehalose-phosphate synthase complex which is composed of four protein subunits, Tps1p (CITS:1425702), Tps2p (CITS:8444170), Tsl1p (CITS:8404905), and Tps3p (CITS:9837904). Tps1p contains the TPS catalytic activity, Tps2p contains the TPP activity, and Tps3p and Tsl1p are regulatory proteins with partially overlapping functions (CITS:9837904). Deletion of TPS1 results in loss of both TPS activity and trehalose biosynthesis while deletion of TPS2 results in loss of TPP activity. Deletion of either TSL1 or TPS3 result in mild effects, but deletion of both TSL1 and TSL3 results in significant reductions in TPS and TPP activities as well as reduced trehalose biosynthesis (CITS:9837904). 
+SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html (WikiPathways-description)</bp:comment>
+</bp:Pathway>
+</rdf:RDF>

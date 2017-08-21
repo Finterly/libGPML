@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:owl="http://www.w3.org/2002/07/owl#"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+ xmlns:bp="http://www.biopax.org/release/biopax-level3.owl#">
+<owl:Ontology rdf:about="">
+ <owl:imports rdf:resource="http://www.biopax.org/release/biopax-level3.owl#" />
+</owl:Ontology>
+
+<bp:BioSource rdf:about="id2">
+ <bp:standardName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Danio rerio</bp:standardName>
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Danio rerio</bp:displayName>
+</bp:BioSource>
+
+<bp:Pathway rdf:about="id1">
+ <bp:organism rdf:resource="id2" />
+ <bp:displayName rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">mRNA processing</bp:displayName>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">This process describes the conversion of precursor messenger RNA into mature messenger RNA (mRNA). The pre-mRNA molecule undergoes three main modifications. These modifications are 5&apos; capping, 3&apos; polyadenylation, and RNA splicing, which occur in the cell nucleus before the RNA is translated.
+
+5&apos; Capping: Capping of the pre-mRNA involves the addition of 7-methylguanosine (m7G) to the 5&apos; end. The cap protects the 5&apos; end of the primary RNA transcript from attack by ribonucleases that have specificity to the 3&apos;5&apos; phosphodiester bonds.
+
+3&apos; Processing: The pre-mRNA processing at the 3&apos; end of the RNA molecule involves cleavage of its 3&apos; end and then the addition of about 200 adenine residues to form a poly(A) tail. As the poly(A) tails is synthesised, it binds multiple copies of poly(A) binding protein, which protects the 3&apos;end from ribonuclease digestion.
+
+Splicing: RNA splicing is the process by which introns, regions of RNA that do not code for protein, are removed from the pre-mRNA and the remaining exons connected to re-form a single continuous molecule.
+
+Description adapted from Wikipedia: http://en.wikipedia.org/wiki/Post-transcriptional_modification (WikiPathways-description)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Cellular Process (WikiPathways-category)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Gene lists from obtained from InterPro 9-23-2003: Mm_RNA-binding region RNP-1  (RNA recognition motif) (GenMAPP notes)</bp:comment>
+ <bp:comment rdf:datatype = "http://www.w3.org/2001/XMLSchema#string">Adapted from http://www.reactome.org. (GenMAPP remarks)</bp:comment>
+</bp:Pathway>
+</rdf:RDF>

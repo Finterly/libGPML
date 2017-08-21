@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Codeine and Morphine Metabolism" organism="Bos taurus" width="826.0" height="763.0779054916985" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">The principal pathways for metabolism of codeine occur in the liver, although some metabolism occurs in the intestine and brain. Approximately 50-70% of codeine is converted to codeine-6-glucuronide by UGT2B7. Codeine-6-glucuronide has a similar affinity to codeine for the mu opioid receptor, coded for by the OPRM1 gene. Approximately 10-15% of codeine is N-demethylated to norcodeine by CYP3A4. Norcodeine also has a similar affinity to codeine for the mu opioid receptor. Between 0-15% of codeine is O-demethylated to morphine, the most active metabolite, which has 200 fold greater affinity for the mu opioid receptor compared to codeine. This metabolic reaction is performed by CYP2D6.
+
+Approximately 60% of morphine is glucuronidated to morphine-3-glucuronide (M3G) while 5-10% is glucuronidated to morphine-6-glucuronide (M6G). These reactions are principally catalyzed by UGT2B7 in the liver. UGT1A1 may have a minor role in the formation of M3G , and UGT1A1 and UGT1A8 are capable of catalyzing the formation of M6G in vitro and so contribute to this pathway, although UGT1A8 is minimally expressed in liver and so is not depicted here. M6G has a higher affinity for OPRM1 than morphine and M3G and so the ratio of morphine to M6G is considered an important indicator of analgesic effect.
+
+Transporters are also depicted in this pathway, as they influence clearance of codeine, morphine and their metabolites. Some of the evidence for the involvement of these transporters was derived from experiments done in mice and may or may not be translatable to human pharmacokinetics. The transporters present at the blood-brain barrier, not depicted in this pathway, as well as metabolic enzymes and transporters in the brain and GI tract, likely also play an important role in the pharmacokinetics of codeine and morphine.
+
+Sources: [http://www.pharmgkb.org/do/serve?objId=PA146123006&amp;objCls=Pathway PharmGKB:Codeine and Morphine metabolism], [http://en.wikipedia.org/wiki/Codeine Codeine at Wikipedia], [http://en.wikipedia.org/wiki/Morphine Morphine at Wikipedia].</Comment>
+  <Comment source="WikiPathways-category">Metabolic Process</Comment>
+  <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP1604_r74317 WP1604(74317)]  with a 83.0% conversion rate.</Comment>
+  <CitationRef citationID="b66" />
+  <CitationRef citationID="a66" />
+  <CitationRef citationID="cd3" />
+  <CitationRef citationID="e96" />
+  <CitationRef citationID="df0" />
+  <DataNode elementID="a05b6" textLabel="Codeine" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="333.32285752906193" centerY="155.74074074074065" width="60.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB04995" />
+  </DataNode>
+  <DataNode elementID="a15cc" textLabel="CYP3A4" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="244.66180048661818" centerY="183.9489051094891" width="62.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1576</Comment>
+    <CitationRef citationID="a16" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000047379" />
+  </DataNode>
+  <DataNode elementID="a5cfa" textLabel="MGC127055" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="436.39753987564205" centerY="121.21654501216545" width="59.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:1565</Comment>
+    <CitationRef citationID="bfc" />
+    <CitationRef citationID="a16" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000026501" />
+  </DataNode>
+  <DataNode elementID="a83fd" textLabel="Normorphine" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="486.0600255427841" centerY="248.0715197956576" width="74.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB41959" />
+  </DataNode>
+  <DataNode elementID="a9a36" textLabel="UGT2B7" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="388.0" centerY="296.0" width="58.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7364</Comment>
+    <CitationRef citationID="b36" />
+    <CitationRef citationID="abc" />
+    <CitationRef citationID="bbd" />
+    <CitationRef citationID="c58" />
+    <CitationRef citationID="f03" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000040337" />
+  </DataNode>
+  <DataNode elementID="ae2b0" textLabel="UGT2B7" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="481.0114942528735" centerY="319.228607918263" width="60.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7364</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000040337" />
+  </DataNode>
+  <DataNode elementID="b05ff" textLabel="Morphine-3-glucuronide" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="549.9086845466151" centerY="429.1685823754789" width="125.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB41936" />
+  </DataNode>
+  <DataNode elementID="b1b59" textLabel="Codeine-6-glucuronide" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="333.32285752906193" centerY="428.0" width="126.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="5489029" />
+  </DataNode>
+  <DataNode elementID="b59b1" textLabel="Morphine" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="546.5" centerY="155.74074074074065" width="57.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB14440" />
+  </DataNode>
+  <DataNode elementID="c7695" textLabel="SLCO1B1" groupRef="dbbd0" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="439.8920817369104" centerY="555.62196679438" width="63.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:10599</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000022329" />
+  </DataNode>
+  <DataNode elementID="c78b0" textLabel="UGT2B7" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="693.531289910601" centerY="180.14303959131553" width="58.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:7364</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000040337" />
+  </DataNode>
+  <DataNode elementID="ca599" textLabel="UGT1A1" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="693.531289910601" centerY="209.6973180076631" width="58.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:54658</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000026181" />
+  </DataNode>
+  <DataNode elementID="caaed" textLabel="Morphine-3-glucuronide" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="550.3288633461048" centerY="631.5887611749672" width="125.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB41936" />
+  </DataNode>
+  <DataNode elementID="cd587" textLabel="Morphine-6-glucuronide" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="690.348659003831" centerY="631.5887611749672" width="122.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="5360621" />
+  </DataNode>
+  <DataNode elementID="cf2f5" textLabel="ABCC2" groupRef="dbbd0" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="439.8920817369104" centerY="495.62196679438" width="63.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="dad0a" textLabel="Morphine-6-glucuronide" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="659.805874840357" centerY="307.9629629629628" width="122.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="5360621" />
+  </DataNode>
+  <DataNode elementID="ddbf0" textLabel="ABCB1" groupRef="dbbd0" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="439.8920817369104" centerY="535.6219667943799" width="63.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:5243</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000005997" />
+  </DataNode>
+  <DataNode elementID="e46d4" textLabel="Norcodeine" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="224.0" centerY="322.0" width="60.0" height="20.0" zOrder="32768">
+    <CitationRef citationID="b2a" />
+    <Xref dataSource="PubChem-compound" identifier="5359402" />
+  </DataNode>
+  <DataNode elementID="e9b6a" textLabel="Codeine-6-glucuronide" shapeType="RoundedRectangle" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="332.4035759897818" centerY="631.5887611749672" width="126.0" height="20.0" zOrder="32768">
+    <Xref dataSource="PubChem-compound" identifier="5489029" />
+  </DataNode>
+  <DataNode elementID="f3c5f" textLabel="UGT1A1" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="481.0114942528735" centerY="354.39719029374186" width="58.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:54658</Comment>
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000026181" />
+  </DataNode>
+  <DataNode elementID="f8ef0" textLabel="MGC127055" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="436.39753987564205" centerY="190.21654501216545" width="80.0" height="20.0" zOrder="32768">
+    <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000205702</Comment>
+    <CitationRef citationID="b66" />
+    <Xref dataSource="Ensembl" identifier="ENSBTAG00000026501" />
+  </DataNode>
+  <DataNode elementID="fb1c5" textLabel="ABCC3" groupRef="dbbd0" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="439.8920817369104" centerY="515.6219667943799" width="63.0" height="20.0" zOrder="32768">
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <Interaction elementID="id157a3ce3" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="333.32285752906193" y="165.74074074074065" elementID="fea78" elementRef="a05b6" relX="0.0" relY="1.0" />
+    <Point x="278.66142876453097" y="221.4111922141119" elementID="e3b98" />
+    <Point x="224.0" y="312.0" elementID="cb9c7" elementRef="e46d4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="c6ae6" />
+  </Interaction>
+  <Interaction elementID="id2647e419" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="436.39753987564205" y="180.21654501216545" elementID="cb427" elementRef="f8ef0" relX="0.0" relY="-1.0" />
+    <Point x="436.554955955568" y="155.74074074074065" elementID="a57a4" elementRef="e9ce0" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id3295267" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="511.0114942528735" y="319.228607918263" elementID="c5a5d" elementRef="ae2b0" relX="1.0" relY="0.0" />
+    <Point x="548.5652138165967" y="319.28462926925886" elementID="e1ddd" elementRef="a091d" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id35379b93" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="363.32285752906193" y="155.74074074074065" elementID="be21a" elementRef="a05b6" relX="1.0" relY="0.0" />
+    <Point x="518.0" y="155.74074074074065" elementID="e58a8" elementRef="b59b1" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.47345132743362833" shapeType="None" elementID="e9ce0" />
+  </Interaction>
+  <Interaction elementID="id4145d9f4" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="664.531289910601" y="180.14303959131553" elementID="e36a0" elementRef="c78b0" relX="-1.0" relY="0.0" />
+    <Point x="617.5377332508626" y="226.13836994948173" elementID="c96c3" elementRef="c2166" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id4e7cb6a3" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="549.9086845466151" y="439.1685823754789" elementID="dc622" elementRef="b05ff" relX="0.0" relY="1.0" />
+    <Point x="550.3288633461048" y="621.5887611749672" elementID="a87f5" elementRef="caaed" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.4700102779159177" shapeType="None" elementID="d4c3f" />
+  </Interaction>
+  <Interaction elementID="id642d9ee1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="479.3920817369104" y="501.62196679438" elementID="c0d87" elementRef="dbbd0" relX="1.0" relY="-0.5" />
+    <Point x="659.8317958088774" y="501.91595206860404" elementID="a02c8" elementRef="de3a5" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id67727403" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="dac" />
+    <CitationRef citationID="a2f" />
+    <CitationRef citationID="a8d" />
+    <Point x="436.39753987564205" y="131.21654501216545" elementID="d9a2b" elementRef="a5cfa" relX="0.0" relY="1.0" />
+    <Point x="436.554955955568" y="155.74074074074065" elementID="b8f4d" elementRef="e9ce0" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id6a688998" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="333.32285752906193" y="165.74074074074065" elementID="fbbfc" elementRef="a05b6" relX="0.0" relY="1.0" />
+    <Point x="333.32285752906193" y="418.0" elementID="ce9e4" elementRef="b1b59" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.517763814669094" shapeType="None" elementID="fc5ea" />
+  </Interaction>
+  <Interaction elementID="id7b019058" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="479.3920817369104" y="525.62196679438" elementID="f4441" elementRef="dbbd0" relX="1.0" relY="0.0" />
+    <Point x="550.1061729009376" y="524.9079413104978" elementID="ec8a8" elementRef="d4c3f" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id892fc659" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="333.32285752906193" y="438.0" elementID="a966e" elementRef="b1b59" relX="0.0" relY="1.0" />
+    <Point x="332.4035759897818" y="621.5887611749672" elementID="a9df6" elementRef="e9b6a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.34132005479699534" shapeType="None" elementID="c7538" />
+  </Interaction>
+  <Interaction elementID="id917ac615" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="659.805874840357" y="317.9629629629628" elementID="f604e" elementRef="dad0a" relX="0.0" relY="1.0" />
+    <Point x="659.848659003831" y="621.5887611749672" elementID="de407" elementRef="cd587" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.6058542791452703" shapeType="None" elementID="de3a5" />
+  </Interaction>
+  <Interaction elementID="id96151173" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="400.3920817369104" y="501.62196679438" elementID="cd500" elementRef="dbbd0" relX="-1.0" relY="-0.5" />
+    <Point x="333.009088303701" y="500.6625260243523" elementID="e3538" elementRef="c7538" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id9e976b05" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="690.348659003831" y="641.5887611749672" elementID="f5ced" elementRef="cd587" relX="0.0" relY="1.0" />
+    <Point x="590.2365900383139" y="704.240102171136" elementID="a33bb" elementRef="a7025" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida20009c6" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="260.1618004866182" y="193.9489051094891" elementID="a8ed0" elementRef="a15cc" relX="0.5" relY="1.0" />
+    <Point x="284.3433351840822" y="221.11703453530978" elementID="fe7ca" elementRef="c6ae6" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idaa161f3f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="546.5" y="165.74074074074065" elementID="ae57f" elementRef="b59b1" relX="0.0" relY="1.0" />
+    <Point x="549.9086845466151" y="419.1685823754789" elementID="b67ac" elementRef="b05ff" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.746764833889453" shapeType="None" elementID="a03e2" />
+    <Anchor position="0.6058682721601627" shapeType="None" elementID="a091d" />
+  </Interaction>
+  <Interaction elementID="idad0b415a" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="d49" />
+    <CitationRef citationID="e96" />
+    <Point x="546.5" y="165.74074074074065" elementID="afe8d" elementRef="b59b1" relX="0.0" relY="1.0" />
+    <Point x="587.9029374201784" y="199.2337164750958" elementID="ba1bc" />
+    <Point x="629.305874840357" y="297.9629629629628" elementID="e2ff7" elementRef="dad0a" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.5825826841994843" shapeType="None" elementID="c2166" />
+  </Interaction>
+  <Interaction elementID="idc7d7facd" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="550.3288633461048" y="641.5887611749672" elementID="aee20" elementRef="caaed" relX="0.0" relY="1.0" />
+    <Point x="549.5664112388247" y="704.240102171136" elementID="b73c7" elementRef="a7025" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idc8d059f6" connectorType="Curved" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="546.5" y="165.74074074074065" elementID="d8523" elementRef="b59b1" relX="0.0" relY="1.0" />
+    <Point x="516.2800127713921" y="199.2337164750958" elementID="e3c32" />
+    <Point x="486.06002554278416" y="238.0715197956576" elementID="f7b97" elementRef="a83fd" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide74120" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="664.531289910601" y="209.6973180076631" elementID="d48b8" elementRef="ca599" relX="-1.0" relY="0.0" />
+    <Point x="617.5377332508626" y="226.13836994948173" elementID="bc551" elementRef="c2166" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="ide74ddb3f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="332.4035759897818" y="641.5887611749672" elementID="b03e8" elementRef="e9b6a" relX="0.0" relY="1.0" />
+    <Point x="508.89623243933545" y="704.240102171136" elementID="d968c" elementRef="a7025" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide9ecbfc1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="deb" />
+    <Point x="510.0114942528735" y="354.39719029374186" elementID="c0f0b" elementRef="f3c5f" relX="1.0" relY="0.0" />
+    <Point x="549.0454857492346" y="354.99174080206853" elementID="f24af" elementRef="a03e2" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idedd99414" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="f90" />
+    <Point x="359.0" y="296.0" elementID="f64ba" elementRef="a9a36" relX="-1.0" relY="0.0" />
+    <Point x="333.32285752906193" y="296.3514571004148" elementID="f8e05" elementRef="fc5ea" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Label elementID="a7025" textLabel="Elimination via bile" color="990099" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="549.5664112388247" centerY="718.6590038314173" width="162.68071519795694" height="28.837803320562564" zOrder="28672" />
+  <Label elementID="aa6c4" textLabel="Liver cell" color="666666" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="733.4942528735634" centerY="121.38569604086847" width="80.0" height="20.0" zOrder="28672" />
+  <Shape elementID="c1586" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="464.0" centerY="322.0" width="664.0" height="466.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="dbbd0" groupType="Group">
+    <CitationRef citationID="f1a" />
+    <CitationRef citationID="dbd" />
+    <CitationRef citationID="b6b" />
+    <CitationRef citationID="b74" />
+    <CitationRef citationID="f58" />
+  </Group>
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="Morphine glucuronide-to-morphine plasma ratios are unaffected by the UGT2B7 H268Y and UGT1A1*28 polymorphisms in cancer patients on chronic morphine therapy." URL="" citationID="deb" year="2002" source="Eur J Clin Pharmacol">
+      <Xref dataSource="PubMed" identifier="12185559" />
+      <Author name="Holthe M" />
+      <Author name="Klepstad P" />
+      <Author name="Zahlsen K" />
+      <Author name="Borchgrevink PC" />
+      <Author name="Hagen L" />
+      <Author name="Dale O" />
+      <Author name="Kaasa S" />
+      <Author name="Krokan HE" />
+      <Author name="Skorpen F" />
+    </Citation>
+    <Citation title="Characteristic immunohistochemical and ultrastructural glomerular lesions in Nude mice." URL="" citationID="c77" year="1975" source="Lab Invest">
+      <Xref dataSource="PubMed" identifier="1091780" />
+      <Author name="Pelletier M" />
+      <Author name="Hinglais N" />
+      <Author name="Bach JF" />
+    </Citation>
+    <Citation title="Contribution of UDP-glucuronosyltransferase 1A1 and 1A8 to morphine-6-glucuronidation and its kinetic properties." URL="" citationID="e96" year="2008" source="Drug Metab Dispos">
+      <Xref dataSource="PubMed" identifier="18187562" />
+      <Author name="Ohno S" />
+      <Author name="Kawana K" />
+      <Author name="Nakajin S" />
+    </Citation>
+    <Citation title="Evaluation of 3'-azido-3'-deoxythymidine, morphine, and codeine as probe substrates for UDP-glucuronosyltransferase 2B7 (UGT2B7) in human liver microsomes: specificity and influence of the UGT2B7*2 polymorphism." URL="" citationID="b36" year="2003" source="Drug Metab Dispos">
+      <Xref dataSource="PubMed" identifier="12920168" />
+      <Author name="Court MH" />
+      <Author name="Krishnaswamy S" />
+      <Author name="Hao Q" />
+      <Author name="Duan SX" />
+      <Author name="Patten CJ" />
+      <Author name="Von Moltke LL" />
+      <Author name="Greenblatt DJ" />
+    </Citation>
+    <Citation title="UGT2B7 promoter variant -840G&gt;A contributes to the variability in hepatic clearance of morphine in patients with sickle cell disease." URL="" citationID="c58" year="2008" source="Am J Hematol">
+      <Xref dataSource="PubMed" identifier="17724700" />
+      <Author name="Darbari DS" />
+      <Author name="van Schaik RH" />
+      <Author name="Capparelli EV" />
+      <Author name="Rana S" />
+      <Author name="McCarter R" />
+      <Author name="van den Anker J" />
+    </Citation>
+    <Citation title="Disposition and metabolism of codeine after single and chronic doses in one poor and seven extensive metabolisers." URL="" citationID="dac" year="1991" source="Br J Clin Pharmacol">
+      <Xref dataSource="PubMed" identifier="2049245" />
+      <Author name="Chen ZR" />
+      <Author name="Somogyi AA" />
+      <Author name="Reynolds G" />
+      <Author name="Bochner F" />
+    </Citation>
+    <Citation title="Codeine intoxication associated with ultrarapid CYP2D6 metabolism." URL="" citationID="a16" year="2004" source="N Engl J Med">
+      <Xref dataSource="PubMed" identifier="15625333" />
+      <Author name="Gasche Y" />
+      <Author name="Daali Y" />
+      <Author name="Fathi M" />
+      <Author name="Chiappe A" />
+      <Author name="Cottini S" />
+      <Author name="Dayer P" />
+      <Author name="Desmeules J" />
+    </Citation>
+    <Citation title="Genetic predictors of the clinical response to opioid analgesics: clinical utility and future perspectives." URL="" citationID="f58" year="2004" source="Clin Pharmacokinet">
+      <Xref dataSource="PubMed" identifier="15530129" />
+      <Author name="LÃ¶tsch J" />
+      <Author name="Skarke C" />
+      <Author name="Liefhold J" />
+      <Author name="Geisslinger G" />
+    </Citation>
+    <Citation title="Pharmacogenetic insights into codeine analgesia: implications to pediatric codeine use." URL="" citationID="a8d" year="2008" source="Pharmacogenomics">
+      <Xref dataSource="PubMed" identifier="18781855" />
+      <Author name="Madadi P" />
+      <Author name="Koren G" />
+    </Citation>
+    <Citation title="Evidence for an active transport of morphine-6-beta-d-glucuronide but not P-glycoprotein-mediated at the blood-brain barrier." URL="" citationID="b6b" year="2003" source="J Neurochem">
+      <Xref dataSource="PubMed" identifier="12950465" />
+      <Author name="Bourasset F" />
+      <Author name="Cisternino S" />
+      <Author name="Temsamani J" />
+      <Author name="Scherrmann JM" />
+    </Citation>
+    <Citation title="Microsomal codeine N-demethylation: cosegregation with cytochrome P4503A4 activity." URL="" citationID="b2a" year="1996" source="Drug Metab Dispos">
+      <Xref dataSource="PubMed" identifier="8818573" />
+      <Author name="Caraco Y" />
+      <Author name="Tateishi T" />
+      <Author name="Guengerich FP" />
+      <Author name="Wood AJ" />
+    </Citation>
+    <Citation title="Pharmacokinetics of codeine and its metabolites in Caucasian healthy volunteers: comparisons between extensive and poor hydroxylators of debrisoquine." URL="" citationID="a2f" year="1991" source="Br J Clin Pharmacol">
+      <Xref dataSource="PubMed" identifier="1867957" />
+      <Author name="Yue QY" />
+      <Author name="HasselstrÃ¶m J" />
+      <Author name="Svensson JO" />
+      <Author name="SÃ¤we J" />
+    </Citation>
+    <Citation title="Impact of environmental and genetic factors on codeine analgesia." URL="" citationID="bfc" year="1991" source="Eur J Clin Pharmacol">
+      <Xref dataSource="PubMed" identifier="1782973" />
+      <Author name="Desmeules J" />
+      <Author name="Gascon MP" />
+      <Author name="Dayer P" />
+      <Author name="Magistris M" />
+    </Citation>
+    <Citation title="Pharmacogenetics of morphine poisoning in a breastfed neonate of a codeine-prescribed mother." URL="" citationID="a66" year="2006" source="Lancet">
+      <Xref dataSource="PubMed" identifier="16920476" />
+      <Author name="Koren G" />
+      <Author name="Cairns J" />
+      <Author name="Chitayat D" />
+      <Author name="Gaedigk A" />
+      <Author name="Leeder SJ" />
+    </Citation>
+    <Citation title="Genetic polymorphism of UDP-glucuronosyltransferase 2B7 (UGT2B7) at amino acid 268: ethnic diversity of alleles and potential clinical significance." URL="" citationID="abc" year="2000" source="Pharmacogenetics">
+      <Xref dataSource="PubMed" identifier="11186130" />
+      <Author name="Bhasker CR" />
+      <Author name="McKinnon W" />
+      <Author name="Stone A" />
+      <Author name="Lo AC" />
+      <Author name="Kubota T" />
+      <Author name="Ishizaki T" />
+      <Author name="Miners JO" />
+    </Citation>
+    <Citation title="A frameshift mutation and alternate splicing in human brain generate a functional form of the pseudogene cytochrome P4502D7 that demethylates codeine to morphine." URL="" citationID="b66" year="2004" source="J Biol Chem">
+      <Xref dataSource="PubMed" identifier="15051713" />
+      <Author name="Pai HV" />
+      <Author name="Kommaddi RP" />
+      <Author name="Chinta SJ" />
+      <Author name="Mori T" />
+      <Author name="Boyd MR" />
+      <Author name="Ravindranath V" />
+    </Citation>
+    <Citation title="A pharmacogenetic study of uridine diphosphate-glucuronosyltransferase 2B7 in patients receiving morphine." URL="" citationID="bbd" year="2003" source="Clin Pharmacol Ther">
+      <Xref dataSource="PubMed" identifier="12811366" />
+      <Author name="Sawyer MB" />
+      <Author name="Innocenti F" />
+      <Author name="Das S" />
+      <Author name="Cheng C" />
+      <Author name="RamÃ­rez J" />
+      <Author name="Pantle-Fisher FH" />
+      <Author name="Wright C" />
+      <Author name="Badner J" />
+      <Author name="Pei D" />
+      <Author name="Boyett JM" />
+      <Author name="Cook E Jr" />
+      <Author name="Ratain MJ" />
+    </Citation>
+    <Citation title="Mice lacking multidrug resistance protein 3 show altered morphine pharmacokinetics and morphine-6-glucuronide antinociception." URL="" citationID="dbd" year="2005" source="Proc Natl Acad Sci U S A">
+      <Xref dataSource="PubMed" identifier="15886284" />
+      <Author name="Zelcer N" />
+      <Author name="van de Wetering K" />
+      <Author name="Hillebrand M" />
+      <Author name="Sarton E" />
+      <Author name="Kuil A" />
+      <Author name="Wielinga PR" />
+      <Author name="Tephly T" />
+      <Author name="Dahan A" />
+      <Author name="Beijnen JH" />
+      <Author name="Borst P" />
+    </Citation>
+    <Citation title="Pharmacokinetics of morphine and its glucuronides after intravenous infusion of morphine and morphine-6-glucuronide in healthy volunteers." URL="" citationID="d49" year="1996" source="Clin Pharmacol Ther">
+      <Xref dataSource="PubMed" identifier="8841154" />
+      <Author name="Lötsch J" />
+      <Author name="Stockmann A" />
+      <Author name="Kobal G" />
+      <Author name="Brune K" />
+      <Author name="Waibel R" />
+      <Author name="Schmidt N" />
+      <Author name="Geisslinger G" />
+    </Citation>
+    <Citation title="Single nucleotide polymorphism discovery and functional assessment of variation in the UDP-glucuronosyltransferase 2B7 gene." URL="" citationID="f03" year="2008" source="Pharmacogenet Genomics">
+      <Xref dataSource="PubMed" identifier="18622261" />
+      <Author name="Innocenti F" />
+      <Author name="Liu W" />
+      <Author name="Fackenthal D" />
+      <Author name="RamÃ­rez J" />
+      <Author name="Chen P" />
+      <Author name="Ye X" />
+      <Author name="Wu X" />
+      <Author name="Zhang W" />
+      <Author name="Mirkov S" />
+      <Author name="Das S" />
+      <Author name="Cook E Jr" />
+      <Author name="Ratain MJ" />
+    </Citation>
+    <Citation title="The disposition of morphine and its 3- and 6-glucuronide metabolites in humans and animals, and the importance of the metabolites to the pharmacological effects of morphine." URL="" citationID="df0" year="1996" source="Drug Metab Rev">
+      <Xref dataSource="PubMed" identifier="8875123" />
+      <Author name="Milne RW" />
+      <Author name="Nation RL" />
+      <Author name="Somogyi AA" />
+    </Citation>
+    <Citation title="Pharmacogenetics of neonatal opioid toxicity following maternal use of codeine during breastfeeding: a case-control study." URL="" citationID="cd3" year="2009" source="Clin Pharmacol Ther">
+      <Xref dataSource="PubMed" identifier="18719619" />
+      <Author name="Madadi P" />
+      <Author name="Ross CJ" />
+      <Author name="Hayden MR" />
+      <Author name="Carleton BC" />
+      <Author name="Gaedigk A" />
+      <Author name="Leeder JS" />
+      <Author name="Koren G" />
+    </Citation>
+    <Citation title="Pharmacokinetic modelling of morphine, morphine-3-glucuronide and morphine-6-glucuronide in plasma and cerebrospinal fluid of neurosurgical patients after short-term infusion of morphine." URL="" citationID="f1a" year="2002" source="Br J Clin Pharmacol">
+      <Xref dataSource="PubMed" identifier="12492606" />
+      <Author name="Meineke I" />
+      <Author name="Freudenthaler S" />
+      <Author name="Hofmann U" />
+      <Author name="Schaeffeler E" />
+      <Author name="Mikus G" />
+      <Author name="Schwab M" />
+      <Author name="Prange HW" />
+      <Author name="Gleiter CH" />
+      <Author name="BrockmÃ¶ller J" />
+    </Citation>
+    <Citation title="Human UGT2B7 catalyzes morphine glucuronidation." URL="" citationID="f90" year="1997" source="Drug Metab Dispos">
+      <Xref dataSource="PubMed" identifier="9010622" />
+      <Author name="Coffman BL" />
+      <Author name="Rios GR" />
+      <Author name="King CD" />
+      <Author name="Tephly TR" />
+    </Citation>
+    <Citation title="The role of P-glycoprotein in blood-brain barrier transport of morphine: transcortical microdialysis studies in mdr1a (-/-) and mdr1a (+/+) mice." URL="" citationID="b74" year="1999" source="Br J Pharmacol">
+      <Xref dataSource="PubMed" identifier="10516633" />
+      <Author name="Xie R" />
+      <Author name="Hammarlund-Udenaes M" />
+      <Author name="de Boer AG" />
+      <Author name="de Lange EC" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="codeine and morphine drug pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001244" />
+    <OntologyTerm term="drug pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000754" />
+    <OntologyTerm term="xenobiotics biodegradation pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000107" />
+  </OntologyTerms>
+</Pathway>
+

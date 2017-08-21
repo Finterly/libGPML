@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="Irinotecan Pathway" organism="Homo sapiens" width="769.0504201680671" height="905.6666666666666" license="CC BY 2.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-category">Physiological Process</Comment>
+  <Comment source="WikiPathways-description">This pathway shows the biotransformation of the chemotherapy prodrug irinotecan to form the active metabolite SN-38, an inhibitor of DNA topoisomerase I. SN-38 is primarily metabolized to the inactive SN-38 glucuronide by UGT1A1, the isoform catalyzing bilirubin glucuronidation. Irinotecan is used in the treatment of metastatic colorectal cancer, small cell lung cancer and several other solid tumors. There is large interpatient variability in response to irinotecan, as well as severe side effects such as diarrhea and neutropenia, which might be explained in part by genetic variation in the metabolic enzymes and transporters depicted here. Well-known variants to effect this pathway are the promoter polymorphic repeat in UGT1A1 (UGT1A1*28) and the 1236C&amp;amp;gt;T polymorphism in ABCB1. While UGT1A1*28 genotype has been associated with toxicity, further evidence is needed to describe the roles of ABCB1 variants in toxicity.
+
+Source: [http://www.pharmgkb.org/search/pathway/irinotecan/liver.jsp PharmGkb]</Comment>
+  <DataNode elementID="a1e" textLabel="SN-38G" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="580.3767507002802" centerY="726.6666666666666" width="47.3081232492997" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SN-38G" />
+    <Xref dataSource="ChEBI" identifier="CHEBI:8990" />
+  </DataNode>
+  <DataNode elementID="a56" textLabel="UGT1A10" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="433.5980392156863" centerY="726.487394957983" width="55.072829131652455" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="UGT1A10 | UDP glycosyltransferase 1 family pol..." />
+    <Xref dataSource="Entrez Gene" identifier="54575" />
+  </DataNode>
+  <DataNode elementID="aa3" textLabel="ABCC2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="581.1008403361344" centerY="599.717086834733" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC2 | ATP-binding cassette sub-family C (CFT..." />
+    <Xref dataSource="Entrez Gene" identifier="1244" />
+  </DataNode>
+  <DataNode elementID="b4030" textLabel="Irinotecan" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="118.66666666666666" centerY="725.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Irotecan" />
+    <Xref dataSource="ChEBI" identifier="CHEBI:80630" />
+  </DataNode>
+  <DataNode elementID="b6274" textLabel="NPC1" fontSize="12" vAlign="Middle" type="GeneProduct" centerX="388.0" centerY="274.25" width="52.0" height="20.5" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="4864" />
+  </DataNode>
+  <DataNode elementID="b6c" textLabel="CES2" groupRef="afef5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="281.0" centerY="489.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES2 | carboxylesterase 2 (intestine liver)" />
+    <Xref dataSource="Entrez Gene" identifier="8824" />
+  </DataNode>
+  <DataNode elementID="b81" textLabel="CES1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="395.6666666666667" centerY="317.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES1 | carboxylesterase 1 (monocyte/macrophage ..." />
+    <Xref dataSource="Entrez Gene" identifier="1066" />
+  </DataNode>
+  <DataNode elementID="b9a" textLabel="CYP3A4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="234.08123249299723" centerY="303.9887955182071" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP3A4 | cytochrome P450 family 3 subfamily A..." />
+    <Xref dataSource="Entrez Gene" identifier="1576" />
+  </DataNode>
+  <DataNode elementID="bcf" textLabel="BCHE" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="364.4327731092438" centerY="135.66666666666674" width="46.34453781512589" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="BCHE | butyrylcholinesterase" />
+    <Xref dataSource="Entrez Gene" identifier="590" />
+  </DataNode>
+  <DataNode elementID="be5" textLabel="ABCC1" groupRef="a97ed" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.4341736694678" centerY="576.4341736694673" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC1 | ATP-binding cassette sub-family C (CFT..." />
+    <Xref dataSource="Entrez Gene" identifier="4363" />
+  </DataNode>
+  <DataNode elementID="bef" textLabel="CES2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="201.64705882352933" centerY="135.66666666666674" width="48.38655462184872" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES2 | carboxylesterase 2 (intestine liver)" />
+    <Xref dataSource="Entrez Gene" identifier="8824" />
+  </DataNode>
+  <DataNode elementID="bfe" textLabel="SN-38" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="445.10084033613447" centerY="135.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SN-38" />
+    <Xref dataSource="ChEBI" identifier="CHEBI:8988" />
+  </DataNode>
+  <DataNode elementID="c2f" textLabel="SN-38G" color="0033ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="580.0" centerY="537.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SN-38" />
+    <Xref dataSource="ChEBI" identifier="CHEBI:8990" />
+  </DataNode>
+  <DataNode elementID="c3f" textLabel="SN-38" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="356.6666666666667" centerY="726.6666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SN-38" />
+    <Xref dataSource="ChEBI" identifier="CHEBI:8988" />
+  </DataNode>
+  <DataNode elementID="c65" textLabel="CES1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="273.3109243697478" centerY="135.66666666666674" width="52.11764705882351" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES1 | carboxylesterase 1 (monocyte/macrophage ..." />
+    <Xref dataSource="Entrez Gene" identifier="1066" />
+  </DataNode>
+  <DataNode elementID="c7f" textLabel="ABCC2" groupRef="ca8b0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="118.43417366946755" centerY="608.6162464985996" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC2 | ATP-binding cassette sub-family C (CFT..." />
+    <Xref dataSource="Entrez Gene" identifier="1244" />
+  </DataNode>
+  <DataNode elementID="c8f" textLabel="ABCC1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="508.7002801120443" centerY="193.3837535014005" width="49.82633053221316" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC1 | ATP-binding cassette sub-family C (CFT..." />
+    <Xref dataSource="Entrez Gene" identifier="4363" />
+  </DataNode>
+  <DataNode elementID="c92" textLabel="UGT1A9" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="561.3837535014006" centerY="505.0196078431373" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="UGT1A9 | UDP glycosyltransferase 1 family poly..." />
+    <Xref dataSource="Entrez Gene" identifier="54600" />
+  </DataNode>
+  <DataNode elementID="cc6" textLabel="CYP3A4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="160.33333333333223" centerY="299.42296918767477" width="49.33333333333334" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP3A4 | cytochrome P450 family 3 subfamily A..." />
+    <Xref dataSource="Entrez Gene" identifier="1576" />
+  </DataNode>
+  <DataNode elementID="cd3" textLabel="APC" color="0000ff" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="284.0" centerY="232.66666666666666" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="APC" />
+    <Xref dataSource="Entrez Gene" identifier="324" />
+  </DataNode>
+  <DataNode elementID="cf6" textLabel="CES1" groupRef="afef5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="281.0" centerY="469.0" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES1 | carboxylesterase 1 (monocyte/macrophage ..." />
+    <Xref dataSource="Entrez Gene" identifier="1066" />
+  </DataNode>
+  <DataNode elementID="cf7" textLabel="UGT1A1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="503.7408963585433" centerY="726.487394957983" width="49.240896358543296" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="UGT1A1 | UDP glycosyltransferase 1 family poly..." />
+    <Xref dataSource="Entrez Gene" identifier="54658" />
+  </DataNode>
+  <DataNode elementID="d03" textLabel="ABCC2" groupRef="a97ed" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.4341736694678" centerY="596.4341736694673" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC2 | ATP-binding cassette sub-family C (CFT..." />
+    <Xref dataSource="Entrez Gene" identifier="1244" />
+  </DataNode>
+  <DataNode elementID="d1d" textLabel="UGT1A1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="524.747899159664" centerY="468.9495798319328" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="UGT1A1 | UDP glycosyltransferase 1 family poly..." />
+    <Xref dataSource="Entrez Gene" identifier="54658" />
+  </DataNode>
+  <DataNode elementID="d30" textLabel="ABCC1" groupRef="ca8b0" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="118.43417366946755" centerY="588.6162464985996" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCC1 | ATP-binding cassette sub-family C (CFT..." />
+    <Xref dataSource="Entrez Gene" identifier="4363" />
+  </DataNode>
+  <DataNode elementID="ded" textLabel="M4" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="181.05042016806723" centerY="229.7170868347339" width="60.0" height="20.0" zOrder="32768">
+    <Comment>molecular weight, 558</Comment>
+    <Attribute key="org.pathvisio.model.BackpageHead" value="M4" />
+    <Xref dataSource="" identifier="" />
+  </DataNode>
+  <DataNode elementID="e19" textLabel="CYP3A5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="287.3641456582632" centerY="341.32212885154064" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP3A5 | cytochrome P450 family 3 subfamily A..." />
+    <Xref dataSource="Entrez Gene" identifier="1577" />
+  </DataNode>
+  <DataNode elementID="e7a" textLabel="SN-38" color="0033ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="444.3333333333333" centerY="414.3333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="SN-38" />
+    <Xref dataSource="ChEBI" identifier="CHEBI:8988" />
+  </DataNode>
+  <DataNode elementID="e81" textLabel="CES2" groupRef="ebd3a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="246.0" centerY="732.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES2 | carboxylesterase 2 (intestine liver)" />
+    <Xref dataSource="Entrez Gene" identifier="8824" />
+  </DataNode>
+  <DataNode elementID="ec2" textLabel="ABCG2" groupRef="a97ed" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.4341736694678" centerY="616.4341736694673" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="ABCG2 | ATP-binding cassette sub-family G (WHI..." />
+    <Xref dataSource="Entrez Gene" identifier="9429" />
+  </DataNode>
+  <DataNode elementID="ef2" textLabel="Irinotecan" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="116.66666666666667" centerY="135.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Irotecan" />
+    <Xref dataSource="ChEBI" identifier="CHEBI:80630" />
+  </DataNode>
+  <DataNode elementID="ef5" textLabel="CYP3A5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="145.61624649859945" centerY="331.5350140056022" width="50.66666666666663" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP3A5 | cytochrome P450 family 3 subfamily A..." />
+    <Xref dataSource="Entrez Gene" identifier="1577" />
+  </DataNode>
+  <DataNode elementID="f50" textLabel="CES1" groupRef="ebd3a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="246.0" centerY="712.3333333333334" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES1 | carboxylesterase 1 (monocyte/macrophage ..." />
+    <Xref dataSource="Entrez Gene" identifier="1066" />
+  </DataNode>
+  <DataNode elementID="f6030" textLabel="SLCO1B1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="437.4579831932767" centerY="191.17647058823508" width="53.655462184873755" height="20.0" zOrder="32768">
+    <Xref dataSource="Entrez Gene" identifier="10599" />
+  </DataNode>
+  <DataNode elementID="f808d" textLabel="Irinotecan" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="117.66666666666666" centerY="410.0" width="80.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="Irotecan" />
+    <Xref dataSource="ChEBI" identifier="CHEBI:80630" />
+  </DataNode>
+  <DataNode elementID="fb1" textLabel="CES2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="404.3333333333333" centerY="359.3333333333333" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CES2 | carboxylesterase 2 (intestine liver)" />
+    <Xref dataSource="Entrez Gene" identifier="8824" />
+  </DataNode>
+  <DataNode elementID="fe8" textLabel="CYP3A4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="224.28291316526614" centerY="373.76750700280127" width="60.0" height="20.0" zOrder="32768">
+    <Attribute key="org.pathvisio.model.BackpageHead" value="CYP3A4 | cytochrome P450 family 3 subfamily A..." />
+    <Xref dataSource="Entrez Gene" identifier="1576" />
+  </DataNode>
+  <Interaction elementID="a4c48" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="fd7" />
+    <CitationRef citationID="d54" />
+    <CitationRef citationID="cc6" />
+    <CitationRef citationID="d4c" />
+    <Point x="474.3333333333333" y="414.3333333333333" elementID="c06f5" elementRef="e7a" relX="1.0" relY="0.0" />
+    <Point x="580.0" y="527.3333333333334" elementID="e47cb" elementRef="c2f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.7374220374220374" shapeType="None" elementID="e9b7b" />
+    <Anchor position="0.5135135135135135" shapeType="None" elementID="ce2fe" />
+  </Interaction>
+  <Interaction elementID="a5b4c" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="cb7" />
+    <Point x="156.66666666666669" y="135.0" elementID="becfa" elementRef="ef2" relX="1.0" relY="0.0" />
+    <Point x="415.10084033613447" y="135.0" elementID="a0c00" elementRef="bfe" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.16776750330250992" shapeType="None" elementID="a16ee" />
+    <Anchor position="0.7384412153236459" shapeType="None" elementID="d72b0" />
+    <Anchor position="0.4610303830911493" shapeType="None" elementID="af065" />
+  </Interaction>
+  <Interaction elementID="a87c6" zOrder="12288" lineThickness="1.0" color="ff8080">
+    <Xref dataSource="" identifier="" />
+    <Point x="341.6666666666667" y="736.6666666666666" elementID="a3f07" elementRef="c3f" relX="-0.5" relY="1.0" />
+    <Point x="341.66666666666663" y="859.6666666666666" elementID="d2f68" elementRef="d64" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="aac68" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="580.3767507002801" y="736.6666666666666" elementID="e9172" elementRef="a1e" relX="0.0" relY="1.0" />
+    <Point x="476.02170868347343" y="788.0" elementID="d8bc1" />
+    <Point x="371.6666666666667" y="736.6666666666666" elementID="b711d" elementRef="c3f" relX="0.5" relY="1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ab64b" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="246.0" y="694.3333333333334" elementID="d89c5" elementRef="ebd3a" relX="0.0" relY="-1.0" />
+    <Point x="225.86666666666667" y="725.6666666666666" elementID="dae1b" elementRef="c708e" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="b2ae0" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="bc2" />
+    <Point x="386.6666666666667" y="726.6666666666666" elementID="b0682" elementRef="c3f" relX="1.0" relY="0.0" />
+    <Point x="556.7226890756303" y="726.6666666666666" elementID="a452b" elementRef="a1e" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.6924643584521379" shapeType="None" elementID="d346c" />
+    <Anchor position="0.4" shapeType="None" elementID="dd9b6" />
+  </Interaction>
+  <Interaction elementID="b414d" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="401.0" y="284.5" elementID="cf9d7" elementRef="b6274" relX="0.5" relY="1.0" />
+    <Point x="429.3333333333333" y="404.3333333333333" elementID="cf541" elementRef="e7a" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.25269683818970845" shapeType="None" elementID="dc896" />
+    <Anchor position="0.5952882827030379" shapeType="None" elementID="e06a9" />
+  </Interaction>
+  <Interaction elementID="b587f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="281.0" y="451.0" elementID="ea804" elementRef="afef5" relX="0.0" relY="-1.0" />
+    <Point x="282.9950295959674" y="479.9894390564305" elementID="ab33c" elementRef="fc826" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="b6a36" zOrder="12288" lineThickness="1.0" color="0099ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="433.5980392156863" y="716.487394957983" elementID="bc4a0" elementRef="a56" relX="0.0" relY="-1.0" />
+    <Point x="454.68907563025215" y="726.6666666666666" elementID="e403f" elementRef="dd9b6" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="b709c" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="ae6" />
+    <Point x="158.66666666666666" y="725.0" elementID="ec543" elementRef="b4030" relX="1.0" relY="0.0" />
+    <Point x="326.6666666666667" y="726.6666666666666" elementID="c1686" elementRef="c3f" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Anchor position="0.4" shapeType="None" elementID="c708e" />
+  </Interaction>
+  <Interaction elementID="c1e2c" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="aa1" />
+    <CitationRef citationID="a33" />
+    <Point x="137.66666666666666" y="400.0" elementID="e7a63" elementRef="f808d" relX="0.5" relY="-1.0" />
+    <Point x="284.0" y="242.66666666666666" elementID="f71b3" elementRef="cd3" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.6599166893885606" shapeType="None" elementID="dda8b" />
+  </Interaction>
+  <Interaction elementID="c3c0d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="581.1008403361344" y="609.717086834733" elementID="af8e1" elementRef="aa3" relX="0.0" relY="1.0" />
+    <Point x="580.1213940886025" y="601.8947864500475" elementID="c7587" elementRef="e5e80" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="c4e2c" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="aa1" />
+    <CitationRef citationID="a33" />
+    <Point x="157.66666666666666" y="410.0" elementID="e429a" elementRef="f808d" relX="1.0" relY="0.0" />
+    <Point x="375.0" y="284.5" elementID="b896a" elementRef="b6274" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.29848913747825784" shapeType="None" elementID="d1429" />
+    <Anchor position="0.65848709116333" shapeType="None" elementID="d0080" />
+  </Interaction>
+  <Interaction elementID="c6a90" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="531.3837535014006" y="505.01960784313724" elementID="ac48e" elementRef="c92" relX="-1.0" relY="0.0" />
+    <Point x="552.2542619542619" y="497.6620235620236" elementID="b5bd4" elementRef="e9b7b" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="caf06" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="494.74789915966403" y="468.9495798319328" elementID="a0c67" elementRef="d1d" relX="-1.0" relY="0.0" />
+    <Point x="528.5945945945946" y="472.36036036036035" elementID="ccbff" elementRef="ce2fe" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="cd671" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="ecb" />
+    <Point x="474.3333333333333" y="414.3333333333333" elementID="f79b2" elementRef="e7a" relX="1.0" relY="0.0" />
+    <Point x="589.0" y="306.66666666666663" elementID="e0891" />
+    <Point x="524.5504201680673" y="199.0" elementID="fc68c" />
+    <Point x="460.10084033613447" y="145.0" elementID="dfefa" elementRef="bfe" relX="0.5" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.7844546624977009" shapeType="None" elementID="e34b2" />
+  </Interaction>
+  <Interaction elementID="d5590" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="580.0" y="547.3333333333334" elementID="b3874" elementRef="c2f" relX="0.0" relY="1.0" />
+    <Point x="580.3767507002801" y="716.6666666666666" elementID="a02e3" elementRef="a1e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.322213305807367" shapeType="None" elementID="e5e80" />
+  </Interaction>
+  <Interaction elementID="d5fe6" zOrder="12288" lineThickness="1.0" color="ff8080">
+    <Xref dataSource="" identifier="" />
+    <Point x="475.10084033613447" y="135.0" elementID="dd5aa" elementRef="bfe" relX="1.0" relY="0.0" />
+    <Point x="568.0" y="135.16666666666666" elementID="b959f" elementRef="fad" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="d6434" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="ac8" />
+    <Point x="445.10084033613447" y="145.0" elementID="ccef2" elementRef="bfe" relX="0.0" relY="1.0" />
+    <Point x="444.3333333333333" y="404.3333333333333" elementID="c71c3" elementRef="e7a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.17811358261629243" shapeType="None" elementID="b4fd1" />
+  </Interaction>
+  <Interaction elementID="d6a1f" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="e72" />
+    <Point x="444.3333333333333" y="424.3333333333333" elementID="ac87f" elementRef="e7a" relX="0.0" relY="1.0" />
+    <Point x="408.0" y="548.0" elementID="cb48a" />
+    <Point x="371.6666666666667" y="716.6666666666666" elementID="fe627" elementRef="c3f" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.6476648895658796" shapeType="None" elementID="d686a" />
+  </Interaction>
+  <Interaction elementID="df6a5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="496.243697478991" y="203.3837535014005" elementID="ee046" elementRef="c8f" relX="-0.5" relY="1.0" />
+    <Point x="518.718369972722" y="198.7516081901973" elementID="ce539" elementRef="e34b2" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="e9631" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="e81" />
+    <Point x="117.66666666666666" y="420.0" elementID="f9f56" elementRef="f808d" relX="0.0" relY="1.0" />
+    <Point x="118.66666666666666" y="715.0" elementID="a501d" elementRef="b4030" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Anchor position="0.633906342165943" shapeType="None" elementID="b89e3" />
+  </Interaction>
+  <Interaction elementID="ea697" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="96.66666666666669" y="145.0" elementID="b6868" elementRef="ef2" relX="-0.5" relY="1.0" />
+    <Point x="97.66666666666666" y="400.0" elementID="ec034" elementRef="f808d" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ea9d0" zOrder="12288" lineThickness="1.0" color="0099ff">
+    <Xref dataSource="" identifier="" />
+    <Point x="503.7408963585433" y="736.487394957983" elementID="b8291" elementRef="cf7" relX="0.0" relY="1.0" />
+    <Point x="504.4244011250121" y="726.6666666666666" elementID="a4a46" elementRef="d346c" relX="0.0" relY="0.0" />
+  </Interaction>
+  <Interaction elementID="ee2f1" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="118.43417366946755" y="626.6162464985996" elementID="b19ef" elementRef="ca8b0" relX="0.0" relY="1.0" />
+    <Point x="118.3005730088326" y="607.0023709389532" elementID="e1cd1" elementRef="b89e3" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f3996" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="420.4341736694678" y="596.4341736694673" elementID="ab3c6" elementRef="a97ed" relX="1.0" relY="0.0" />
+    <Point x="379.77139479522447" y="605.9425590127825" elementID="d7bf8" elementRef="d686a" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="f4540" connectorType="Curved" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="ae6" />
+    <Point x="137.66666666666666" y="420.0" elementID="eac41" elementRef="f808d" relX="0.5" relY="1.0" />
+    <Point x="283.5" y="480.0" elementID="cb30a" />
+    <Point x="429.3333333333333" y="424.3333333333333" elementID="d5dbe" elementRef="e7a" relX="-0.5" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.5023319160624667" shapeType="None" elementID="fc826" />
+  </Interaction>
+  <Interaction elementID="febf4" zOrder="12288" lineThickness="1.0" color="0080ff">
+    <Xref dataSource="" identifier="" />
+    <CitationRef citationID="aa1" />
+    <CitationRef citationID="a33" />
+    <Point x="117.66666666666666" y="400.0" elementID="da6fb" elementRef="f808d" relX="0.0" relY="-1.0" />
+    <Point x="181.05042016806723" y="239.7170868347339" elementID="bf29d" elementRef="ded" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Anchor position="0.6868320434873464" shapeType="None" elementID="ec38f" />
+    <Anchor position="0.4" shapeType="None" elementID="db253" />
+  </Interaction>
+  <Interaction elementID="id2d6737fb" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="273.3109243697478" y="145.66666666666674" elementID="f3f79" elementRef="c65" relX="0.0" relY="1.0" />
+    <Point x="275.81267275734604" y="135.0" elementID="d29ec" elementRef="af065" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id2ed87208" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="120.28291316526614" y="331.5350140056022" elementID="ecc9d" elementRef="ef5" relX="-1.0" relY="0.0" />
+    <Point x="143.0201680672269" y="335.8868347338936" elementID="c6c2c" elementRef="db253" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id3177d278" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="201.64705882352933" y="145.66666666666674" elementID="fb795" elementRef="bef" relX="0.0" relY="1.0" />
+    <Point x="200.02352275124053" y="135.0" elementID="fe7fa" elementRef="a16ee" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id3e0947ec" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="437.4579831932767" y="181.17647058823508" elementID="fa13a" elementRef="f6030" relX="0.0" relY="-1.0" />
+    <Point x="444.96413691418246" y="191.19078909182517" elementID="f29d1" elementRef="b4fd1" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id488c1d3f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="364.4327731092437" y="145.66666666666674" elementID="f518c" elementRef="bcf" relX="0.0" relY="1.0" />
+    <Point x="347.50511195231064" y="135.0" elementID="a2768" elementRef="d72b0" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id58ffe001" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="160.33333333333223" y="309.42296918767477" elementID="cdb17" elementRef="cc6" relX="0.0" relY="1.0" />
+    <Point x="161.20065960793187" y="289.9125592145954" elementID="e320f" elementRef="ec38f" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id791c7646" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="224.28291316526614" y="363.76750700280127" elementID="d3c98" elementRef="fe8" relX="0.0" relY="-1.0" />
+    <Point x="222.538305878608" y="372.53961324647867" elementID="bb8e2" elementRef="d1429" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="id86d54c24" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="204.08123249299723" y="303.9887955182071" elementID="c8d9d" elementRef="b9a" relX="-1.0" relY="0.0" />
+    <Point x="234.2344755471927" y="296.1731075361998" elementID="a7611" elementRef="dda8b" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Interaction elementID="idae8e4255" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="404.3333333333333" y="369.3333333333333" elementID="eb4c6" elementRef="fb1" relX="0.0" relY="1.0" />
+    <Point x="417.8665013432527" y="355.8353792105807" elementID="dbed3" elementRef="e06a9" relX="0.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idd90279b8" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="287.3641456582632" y="331.32212885154064" elementID="c7080" elementRef="e19" relX="0.0" relY="-1.0" />
+    <Point x="300.77786114616373" y="327.3598700590021" elementID="cb29f" elementRef="d0080" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+  </Interaction>
+  <Label elementID="d2c" textLabel="Model human liver cell showing blood, bile and intestinal compartments, indicating tissue&#xA;involvment of genes in the irinotecan pathway." fillColor="ffffff" fontStyle="Italic" fontSize="10" vAlign="Middle" centerX="443.0" centerY="49.5" width="438.0" height="35.0" zOrder="28672" />
+  <Label elementID="d64" textLabel="Diarrhea" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" centerX="341.6666666666667" centerY="867.6666666666666" width="65.33333333333333" height="16.0" zOrder="28672" />
+  <Label elementID="f0f" textLabel="Intestine" color="999999" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="661.3333333333334" centerY="657.3333333333334" width="70.33333333333333" height="19.0" zOrder="28672" />
+  <Label elementID="fad" textLabel="Neutropenia" color="0000ff" fillColor="ffffff" fontWeight="Bold" fontSize="11" vAlign="Middle" centerX="603.9166666666666" centerY="135.16666666666666" width="71.83333333333333" height="16.333333333333332" zOrder="28672" />
+  <Label elementID="ffe" textLabel="Liver Cell" color="999999" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="673.3333333333334" centerY="221.58333333333334" width="76.33333333333333" height="21.166666666666686" zOrder="28672" />
+  <Shape elementID="b9d36" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="391.5504201680672" centerY="396.0" width="695.0" height="410.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="f2732" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="390.0" centerY="736.5" width="662.0" height="197.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Group elementID="a97ed" />
+  <Group elementID="afef5" />
+  <Group elementID="ca8b0" />
+  <Group elementID="ebd3a" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="A new metabolite of irinotecan in which formation is mediated by human hepatic cytochrome P-450 3A4." URL="" citationID="a33" year="2001" source="Drug Metab Dispos">
+      <Xref dataSource="PubMed" identifier="11602529" />
+      <Author name="Sai K" />
+      <Author name="Kaniwa N" />
+      <Author name="Ozawa S" />
+      <Author name="Sawada JI" />
+    </Citation>
+    <Citation title="Differential effects of the breast cancer resistance protein on the cellular accumulation and cytotoxicity of 9-aminocamptothecin and 9-nitrocamptothecin." URL="" citationID="e72" year="2003" source="Cancer Res">
+      <Xref dataSource="PubMed" identifier="12810652 " />
+      <Author name="Rajendra R" />
+      <Author name="Gounder MK" />
+      <Author name="Saleem A" />
+      <Author name="Schellens JH" />
+      <Author name="Ross DD" />
+      <Author name="Bates SE" />
+      <Author name="Sinko P" />
+      <Author name="Rubin EH" />
+    </Citation>
+    <Citation title="Common human UGT1A polymorphisms and the altered metabolism of irinotecan active metabolite 7-ethyl-10-hydroxycamptothecin (SN-38)." URL="" citationID="d54" year="2002" source="Mol Pharmacol">
+      <Xref dataSource="PubMed" identifier="12181437" />
+      <Author name="GagnÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â© JF" />
+      <Author name="Montminy V" />
+      <Author name="Belanger P" />
+      <Author name="Journault K" />
+      <Author name="Gaucher G" />
+      <Author name="Guillemette C" />
+    </Citation>
+    <Citation title="ATP-Dependent efflux of CPT-11 and SN-38 by the multidrug resistance protein (MRP) and its inhibition by PAK-104P." URL="" citationID="ecb" year="1999" source="Mol Pharmacol">
+      <Xref dataSource="PubMed" identifier="10220571 " />
+      <Author name="Chen ZS" />
+      <Author name="Furukawa T" />
+      <Author name="Sumizawa T" />
+      <Author name="Ono K" />
+      <Author name="Ueda K" />
+      <Author name="Seto K" />
+      <Author name="Akiyama SI" />
+    </Citation>
+    <Citation title="Metabolism of irinotecan (CPT-11) by CYP3A4 and CYP3A5 in humans." URL="" citationID="aa1" year="2000" source="Clin Cancer Res">
+      <Xref dataSource="PubMed" identifier="10815927" />
+      <Author name="Santos A" />
+      <Author name="Zanetta S" />
+      <Author name="Cresteil T" />
+      <Author name="Deroussent A" />
+      <Author name="Pein F" />
+      <Author name="Raymond E" />
+      <Author name="Vernillet L" />
+      <Author name="Risse ML" />
+      <Author name="Boige V" />
+      <Author name="Gouyette A" />
+      <Author name="Vassal G" />
+    </Citation>
+    <Citation title="UGT pharmacogenomics: implications for cancer risk and cancer therapeutics." URL="" citationID="bc2" year="2003" source="Pharmacogenetics">
+      <Xref dataSource="PubMed" identifier="12893990" />
+      <Author name="Desai AA" />
+      <Author name="Innocenti F" />
+      <Author name="Ratain MJ" />
+    </Citation>
+    <Citation title="Genetic predisposition to the metabolism of irinotecan (CPT-11). Role of uridine diphosphate glucuronosyltransferase isoform 1A1 in the glucuronidation of its active metabolite (SN-38) in human liver microsomes." URL="" citationID="d4c" year="1998" source="J Clin Invest">
+      <Xref dataSource="PubMed" identifier="9466980" />
+      <Author name="Iyer L" />
+      <Author name="King CD" />
+      <Author name="Whitington PF" />
+      <Author name="Green MD" />
+      <Author name="Roy SK" />
+      <Author name="Tephly TR" />
+      <Author name="Coffman BL" />
+      <Author name="Ratain MJ" />
+    </Citation>
+    <Citation title="Irinotecan pathway genotype analysis to predict pharmacokinetics." URL="" citationID="ae6" year="2003" source="Clin Cancer Res">
+      <Xref dataSource="PubMed" identifier="12960109 " />
+      <Author name="Mathijssen RH" />
+      <Author name="Marsh S" />
+      <Author name="Karlsson MO" />
+      <Author name="Xie R" />
+      <Author name="Baker SD" />
+      <Author name="Verweij J" />
+      <Author name="Sparreboom A" />
+      <Author name="McLeod HL" />
+    </Citation>
+    <Citation title="Functional characterization of human UDP-glucuronosyltransferase 1A9 variant, D256N, found in Japanese cancer patients." URL="" citationID="cc6" year="2003" source="J Pharmacol Exp Ther">
+      <Xref dataSource="PubMed" identifier="12730278" />
+      <Author name="Jinno H" />
+      <Author name="Saeki M" />
+      <Author name="Saito Y" />
+      <Author name="Tanaka-Kagawa T" />
+      <Author name="Hanioka N" />
+      <Author name="Sai K" />
+      <Author name="Kaniwa N" />
+      <Author name="Ando M" />
+      <Author name="Shirao K" />
+      <Author name="Minami H" />
+      <Author name="Ohtsu A" />
+      <Author name="Yoshida T" />
+      <Author name="Saijo N" />
+      <Author name="Ozawa S" />
+      <Author name="Sawada J" />
+    </Citation>
+    <Citation title="Role of organic anion transporter OATP1B1 (OATP-C) in hepatic uptake of irinotecan and its active metabolite, 7-ethyl-10-hydroxycamptothecin: in vitro evidence and effect of single nucleotide polymorphisms." URL="" citationID="ac8" year="2005" source="Drug Metab Dispos">
+      <Xref dataSource="PubMed" identifier="15608127 " />
+      <Author name="Nozawa T" />
+      <Author name="Minami H" />
+      <Author name="Sugiura S" />
+      <Author name="Tsuji A" />
+      <Author name="Tamai I" />
+    </Citation>
+    <Citation title="UGT1A1*28 polymorphism as a determinant of irinotecan disposition and toxicity." URL="" citationID="fd7" year="2002" source="Pharmacogenomics J">
+      <Xref dataSource="PubMed" identifier="11990381" />
+      <Author name="Iyer L" />
+      <Author name="Das S" />
+      <Author name="Janisch L" />
+      <Author name="Wen M" />
+      <Author name="RamÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­rez J" />
+      <Author name="Karrison T" />
+      <Author name="Fleming GF" />
+      <Author name="Vokes EE" />
+      <Author name="Schilsky RL" />
+      <Author name="Ratain MJ" />
+    </Citation>
+    <Citation title="The anticancer prodrug CPT-11 is a potent inhibitor of acetylcholinesterase but is rapidly catalyzed to SN-38 by butyrylcholinesterase." URL="" citationID="cb7" year="1999" source="Cancer Res">
+      <Xref dataSource="PubMed" identifier="10197614" />
+      <Author name="Morton CL" />
+      <Author name="Wadkins RM" />
+      <Author name="Danks MK" />
+      <Author name="Potter PM" />
+    </Citation>
+    <Citation title="Haplotype analysis of ABCB1/MDR1 blocks in a Japanese population reveals genotype-dependent renal clearance of irinotecan." URL="" citationID="e81" year="2003" source="Pharmacogenetics">
+      <Xref dataSource="PubMed" identifier="14646693 " />
+      <Author name="Sai K" />
+      <Author name="Kaniwa N" />
+      <Author name="Itoda M" />
+      <Author name="Saito Y" />
+      <Author name="Hasegawa R" />
+      <Author name="Komamura K" />
+      <Author name="Ueno K" />
+      <Author name="Kamakura S" />
+      <Author name="Kitakaze M" />
+      <Author name="Shirao K" />
+      <Author name="Minami H" />
+      <Author name="Ohtsu A" />
+      <Author name="Yoshida T" />
+      <Author name="Saijo N" />
+      <Author name="Kitamura Y" />
+      <Author name="Kamatani N" />
+      <Author name="Ozawa S" />
+      <Author name="Sawada J" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="diarrhea" ontology="Disease" ontologyTermID="DOID:13250" />
+    <OntologyTerm term="neutropenia" ontology="Disease" ontologyTermID="DOID:1227" />
+    <OntologyTerm term="irinotecan drug pathway" ontology="Pathway Ontology" ontologyTermID="PW:0001224" />
+    <OntologyTerm term="cancer" ontology="Disease" ontologyTermID="DOID:162" />
+    <OntologyTerm term="hepatocyte" ontology="Cell Type" ontologyTermID="CL:0000182" />
+    <OntologyTerm term="enterocyte" ontology="Cell Type" ontologyTermID="CL:0000584" />
+  </OntologyTerms>
+</Pathway>
+

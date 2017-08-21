@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2017" name="ERK Pathway in Huntington's Disease" revision="20160718" organism="Homo sapiens" width="965.0" height="541.0">
+  <Xref dataSource="" identifier="" />
+  <Comment source="WikiPathways-description">This ERK pathway is implicated in Huntington's Disease. The ligands BDNF, EGF, and Glu bind to their respective receptors (TrkB, EGFR, mGluR) and start a signal transduction pathway starting with RAS and RAF1 which lead to the stimulation of MEK Then ERK. ERK promotes function of MSK1 (downstream kinase), ElK1 and CREB (Transcription Factors), and Caspases 3/7 (apoptotic molecules). These downstream targets are implicated in producing the effects of Huntington's Disease at the cellular level. This pathway is based off figure 1 from Bodai et al.</Comment>
+  <CitationRef citationID="ccd" />
+  <DataNode elementID="a8342" textLabel="CREB" groupRef="b38d2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="659.0" centerY="444.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000118260" />
+  </DataNode>
+  <DataNode elementID="a985e" textLabel="CASP7" groupRef="e8ab5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="840.0" centerY="428.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000165806" />
+  </DataNode>
+  <DataNode elementID="ac1a0" textLabel="RAS" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="413.0" centerY="227.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000174775" />
+  </DataNode>
+  <DataNode elementID="b53f6" textLabel="CASP3" groupRef="e8ab5" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="840.0" centerY="448.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000164305" />
+  </DataNode>
+  <DataNode elementID="b5ee4" textLabel="TrkB" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="294.0" centerY="162.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000148053" />
+  </DataNode>
+  <DataNode elementID="bfd86" textLabel="MSK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="477.0" centerY="442.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100784" />
+  </DataNode>
+  <DataNode elementID="cb8c7" textLabel="mGluR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="786.0" centerY="163.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000152822" />
+  </DataNode>
+  <DataNode elementID="d195f" textLabel="ELK1" groupRef="b38d2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="659.0" centerY="424.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000126767" />
+  </DataNode>
+  <DataNode elementID="d2540" textLabel="ERK" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="659.0" centerY="354.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000100030" />
+  </DataNode>
+  <DataNode elementID="d6f7a" textLabel="BDNF" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="293.0" centerY="94.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000176697" />
+  </DataNode>
+  <DataNode elementID="ed471" textLabel="EGF" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="528.0" centerY="95.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000138798" />
+  </DataNode>
+  <DataNode elementID="edccd" textLabel="EGFR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="528.0" centerY="157.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000146648" />
+  </DataNode>
+  <DataNode elementID="f9846" textLabel="RAF1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="659.0" centerY="227.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000132155" />
+  </DataNode>
+  <DataNode elementID="fc03f" textLabel="MEK" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="659.0" centerY="305.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="Ensembl" identifier="ENSG00000076984" />
+  </DataNode>
+  <DataNode elementID="ff40d" textLabel="Glutamate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="786.0" centerY="89.0" width="80.0" height="20.0" zOrder="32768">
+    <Xref dataSource="HMDB" identifier="HMDB00148" />
+  </DataNode>
+  <Interaction elementID="id2169de2d" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="659.0" y="364.0" elementID="d649c" elementRef="d2540" relX="0.0" relY="1.0" />
+    <Point x="659.0" y="406.0" elementID="b5193" elementRef="b38d2" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5449c72a" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="679.0" y="364.0" elementID="dae54" elementRef="d2540" relX="0.5" relY="1.0" />
+    <Point x="840.0" y="410.0" elementID="a4e11" elementRef="e8ab5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id5e78f474" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="294.0" y="172.0" elementID="f3460" elementRef="b5ee4" relX="0.0" relY="1.0" />
+    <Point x="373.0" y="227.0" elementID="cfa0d" elementRef="ac1a0" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id6499de42" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="786.0" y="173.0" elementID="da366" elementRef="cb8c7" relX="0.0" relY="1.0" />
+    <Point x="699.0" y="227.0" elementID="bc13e" elementRef="f9846" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="id89c61cc0" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="659.0" y="237.0" elementID="bb57c" elementRef="f9846" relX="0.0" relY="1.0" />
+    <Point x="659.0" y="295.0" elementID="e542a" elementRef="fc03f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida3c58ce5" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="659.0" y="315.0" elementID="d9108" elementRef="fc03f" relX="0.0" relY="1.0" />
+    <Point x="659.0" y="344.0" elementID="d55b7" elementRef="d2540" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida4e1423f" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="528.0" y="167.0" elementID="ab6d9" elementRef="edccd" relX="0.0" relY="1.0" />
+    <Point x="453.0" y="227.0" elementID="f3ac2" elementRef="ac1a0" relX="1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ida986be47" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="528.0" y="105.0" elementID="dbea7" elementRef="ed471" relX="0.0" relY="1.0" />
+    <Point x="528.0" y="147.0" elementID="b4757" elementRef="edccd" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idb14fbdf2" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="453.0" y="227.0" elementID="c982e" elementRef="ac1a0" relX="1.0" relY="0.0" />
+    <Point x="619.0" y="227.0" elementID="c1ca8" elementRef="f9846" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idca710829" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="639.0" y="364.0" elementID="e71df" elementRef="d2540" relX="-0.5" relY="1.0" />
+    <Point x="477.0" y="432.0" elementID="d94d9" elementRef="bfd86" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="ide8006ddf" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="786.0" y="99.0" elementID="d811e" elementRef="ff40d" relX="0.0" relY="1.0" />
+    <Point x="786.0" y="153.0" elementID="bb851" elementRef="cb8c7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Interaction elementID="idf43a8431" zOrder="12288" lineThickness="1.0">
+    <Xref dataSource="" identifier="" />
+    <Point x="293.0" y="104.0" elementID="dbdce" elementRef="d6f7a" relX="0.0" relY="1.0" />
+    <Point x="294.0" y="152.0" elementID="a901c" elementRef="b5ee4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+  </Interaction>
+  <Label elementID="be70f" textLabel="Transcription Factors" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="652.5" centerY="479.0" width="151.0" height="20.0" zOrder="28672" />
+  <Label elementID="d0923" textLabel="Signal Transducers" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="129.5" centerY="297.0" width="119.0" height="20.0" zOrder="28672" />
+  <Label elementID="da579" textLabel="Downstream Kinases" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="467.0" centerY="477.0" width="132.0" height="20.0" zOrder="28672" />
+  <Label elementID="e0197" textLabel="Receptors" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="129.0" centerY="164.0" width="80.0" height="20.0" zOrder="28672" />
+  <Label elementID="e7efd" textLabel="Downstream Targets" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="148.0" centerY="432.0" width="134.0" height="20.0" zOrder="28672" />
+  <Label elementID="eff52" textLabel="Apoptotic Molecules" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="840.0" centerY="478.0" width="128.0" height="20.0" zOrder="28672" />
+  <Label elementID="f499d" textLabel="Ligands" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="131.0" centerY="94.0" width="80.0" height="20.0" zOrder="28672" />
+  <Shape elementID="ca04b" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="582.0" centerY="335.0" width="706.0" height="352.0" zOrder="16384" rotation="0.0">
+    <Attribute key="org.pathvisio.CellularComponentProperty" value="Cell" />
+    <Attribute key="org.pathvisio.DoubleLineProperty" value="Double" />
+  </Shape>
+  <Shape elementID="f27ed" shapeType="Brace" fontSize="10" vAlign="Middle" centerX="202.99496429779663" centerY="297.07038811708964" width="169.98832272025365" height="28.03323881340264" zOrder="16384" rotation="4.700668001990378" />
+  <Group elementID="b38d2" groupType="Group" />
+  <Group elementID="e8ab5" groupType="Group" />
+  <InfoBox centerX="0.0" centerY="0.0" />
+  <Citations>
+    <Citation title="A novel target for Huntington's disease: ERK at the crossroads of signaling. The ERK signaling pathway is implicated in Huntington's disease and its upregulation ameliorates pathology." URL="" citationID="ccd" year="2012" source="Bioessays">
+      <Xref dataSource="PubMed" identifier="22334892" />
+      <Author name="Bodai L" />
+      <Author name="Marsh JL" />
+    </Citation>
+  </Citations>
+  <OntologyTerms>
+    <OntologyTerm term="Huntington disease pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000017" />
+    <OntologyTerm term="signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000003" />
+    <OntologyTerm term="disease pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000013" />
+  </OntologyTerms>
+</Pathway>
+
