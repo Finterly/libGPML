@@ -21,9 +21,18 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashSet;
+/**
+ * BioPAX Exporter
+ * Includes all datanodes, as much information as possible while mapping to BioPAX
+ * but may incur some errors with improper Xref values
+ */
 
 public class BiopaxExporter extends ExportHelper{
 
+    /**
+     * constructor
+     * @param pathway map pathway to BioPAX
+     */
     BiopaxExporter(Pathway pathway){
         this.pvPwy = pathway;
         factory = BioPAXLevel.L3.getDefaultFactory();
@@ -82,6 +91,12 @@ public class BiopaxExporter extends ExportHelper{
         }
     }
 
+    /**
+     * export
+     * @param file out file to export
+     * @param doBpSs to include a stylesheet file
+     * @throws IOException
+     */
     public void export(File file, boolean doBpSs) throws IOException
     {
         exporter.convertToOWL(bpModel,

@@ -9,7 +9,9 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 /**
- * Created
+ * PathwayAsNetwork, re-imagine the pathway as a network structure
+ * with data nodes (DATANODE) and reaction nodes (Edge)
+ * connected through Edge objects
  */
 
 public class PathwayAsNetwork {

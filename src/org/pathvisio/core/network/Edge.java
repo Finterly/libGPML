@@ -5,7 +5,9 @@ import org.pathvisio.core.model.LineType;
 import java.util.HashSet;
 
 /**
- * Created by saurabhk351 on 09/07/2017.
+ * Edge, class to store an interaction between nodes
+ * with source nodes, target nodes and arrowhead as edge type
+ * uniquely identified with reactionID
  */
 public class Edge {
     HashSet<Node> sources, targets;

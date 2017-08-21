@@ -15,10 +15,19 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.HashSet;
 
+/**
+ * Strict BioPAX Exporter
+ * avoids no.xref error by excluding any data node without proper Xref
+ * and any dangling data nodes
+ */
 public class BiopaxExporterStrict extends ExportHelper{
 
     private PathwayAsNetwork panPwy;
 
+    /**
+     * constructor
+     * @param pathway map pathway to BioPAX
+     */
     public BiopaxExporterStrict(Pathway pathway) {
         this.pvPwy = pathway;
         factory = BioPAXLevel.L3.getDefaultFactory();
@@ -94,6 +103,12 @@ public class BiopaxExporterStrict extends ExportHelper{
         }
     }
 
+    /**
+     * export
+     * @param file out file to export
+     * @param doBpSs to include a stylesheet file
+     * @throws IOException
+     */
     public void export(File file, boolean doBpSs) throws IOException
     {
         exporter.convertToOWL(bpModel,

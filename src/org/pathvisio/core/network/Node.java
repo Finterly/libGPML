@@ -8,7 +8,10 @@ import org.pathvisio.core.model.PathwayElement;
 import java.util.HashSet;
 
 /**
- * Created by saurabhk351 on 09/07/2017.
+ * Node, the elemental structure used as source/target in an Edge object
+ * , can be of type data/ reaction node
+ * Data nodes are uniquely identified by their Xref
+ * Reaction nodes are uniquely identified by their reaction id
  */
 public class Node {
     Xref xrefID;
