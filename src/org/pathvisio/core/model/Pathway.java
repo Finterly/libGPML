@@ -23,6 +23,7 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 import org.bridgedb.Xref;
+import org.jetbrains.annotations.Nullable;
 import org.pathvisio.core.biopax.BiopaxElement;
 import org.pathvisio.core.biopax.BiopaxNode;
 import org.pathvisio.core.debug.Logger;
@@ -85,7 +86,6 @@ public class Pathway
 	private HashMap<String,OntologyTerm> ontologyTerms = new HashMap<>();
 	private HashMap<String,Citation> citations = new HashMap<>();
 	private ArrayList<String> ontologyTermRefs = new ArrayList<>();
-	private HashSet<Interaction> interactions = new HashSet<>();
 
 	/**
 	 * Getter for dataobjects contained. There is no setter, you
@@ -936,85 +936,81 @@ public class Pathway
 		}
 	}
 
-
-	public void addOntologyTerm(String id, String term, String ontology, String ontologyTermId){
-		ontologyTerms.put(ontologyTermId,new OntologyTerm(id,term,ontology,ontologyTermId));
-	}
-
+	/**
+	 * Add and Ontology Term to the Pathway
+	 * @param id ID of the Ontology Term
+	 * @param term Term of the Ontology Term
+	 * @param ontology Ontology of the Ontology Term
+	 */
 	public void addOntologyTerm(String id, String term, String ontology){
-		String ontologyTermId = getUniqueId(ontologyTerms.keySet());
-		ontologyTerms.put(ontologyTermId,new OntologyTerm(id,term,ontology,ontologyTermId));
+		ontologyTerms.put(id,new OntologyTerm(id,term,ontology));
 	}
 
+	/**
+	 * get a collection of all Ontology Terms
+	 * @return Collection of OntologyTerms
+	 */
 	public Collection<OntologyTerm> getOntologyTerms(){
 		return ontologyTerms.values();
 	}
 
-	public void addInteraction(Interaction interaction){
-		interactions.add(interaction);
-	}
-
-	public Collection<Interaction> getInteractions(){
-		return interactions;
-	}
-
-	public void updateInteractions(){
-		ArrayList<PathwayElement> lines = new ArrayList<>();
-		for(PathwayElement pathwayElement:getDataObjects()){
-			if(pathwayElement instanceof MLine)
-				lines.add(pathwayElement);
-		}
-		// Sort the lines to update the parent line of any interaction first
-		lines.sort(new Comparator<PathwayElement>() {
-			@Override
-			public int compare(PathwayElement pathwayElement, PathwayElement t1) {
-				GraphIdContainer
-						source = getGraphIdContainer(pathwayElement.getMStart().getGraphId()),
-						target = getGraphIdContainer(pathwayElement.getMEnd().getGraphId());
-				if(source instanceof PathwayElement && target instanceof PathwayElement)
-					return -1;
-				return 1;
-			}
-		});
-		// Update the interactions now
-		for(PathwayElement pathwayElement:lines){
-			pathwayElement.updateInteractions();
-		}
-	}
-
-	public void clearInteractions(){
-		for(PathwayElement pathwayElement:getDataObjects()){
-				pathwayElement.clearInteractions();
-		}
-		interactions.clear();
-	}
-
+	/**
+	 * find Ontology Term using its ID
+	 * @param ontologyTermId ID of the ontology term
+	 * @return
+	 */
+	@Nullable
 	public OntologyTerm getOntologyTermById(String ontologyTermId){
 		return ontologyTerms.get(ontologyTermId);
 	}
 
+	/**
+	 * Add a citation to the Pathway
+	 * @param citation Citation to be added
+	 */
 	public void addCitation(Citation citation){
 		if(citation.getCitationId()==null||citation.getCitationId().length()==0)
 			citation.setCitationId(getUniqueId(citations.keySet()));
 		citations.put(citation.getCitationId(),citation);
 	}
 
+	/**
+	 * Clear all citations
+	 */
 	public void clearCitations(){
 		citations.clear();
 	}
 
+	/**
+	 * Get all Citations
+	 * @return Collection of Citations
+	 */
 	public Collection<Citation> getCitations(){
 		return citations.values();
 	}
 
+	/**
+	 * Get Citation By ID
+	 * @param citationId ID of the Citation
+	 * @return Citation found
+	 */
+	@Nullable
 	public Citation getCitationById(String citationId){
 		return citations.get(citationId);
 	}
 
-public void addOntologyTermRef(String ontologyTermRef){
+	/**
+	 * Add reference to an Ontology Term
+	 * @param ontologyTermRef
+	 */
+	public void addOntologyTermRef(String ontologyTermRef){
 		ontologyTermRefs.add(ontologyTermRef);
 	}
 
+	/**
+	 * Get a list of all Ontology Term references
+	 * @return
+	 */
 	public ArrayList<String> getOntologyTermRefs() {
 		return ontologyTermRefs;
 	}

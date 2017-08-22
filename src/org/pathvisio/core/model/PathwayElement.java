@@ -84,7 +84,6 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 	//This map should never contain non-null values, if a value
 	//is set to null the key should be removed.
 	private Map<String, String> attributes = new TreeMap<String, String>();
-	private ArrayList<PathwayElement> connections = new ArrayList<PathwayElement>();
 	/**
 	 * get a set of all dynamic property keys
 	 */
@@ -92,15 +91,7 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 	{
 		return attributes.keySet();
 	}
-	private HashSet<Interaction> sourceInteractions = new HashSet<>(); // Only valid for PathwayElement of type DATANODE
-	private HashSet<Interaction> targetInteractions = new HashSet<>(); // Only valid for PathwayElement of type DATANODE
-	private Interaction lineInteraction; // Only valid for PathwayElement of type LINE
 
-	public void clearInteractions(){
-		lineInteraction = null;
-		sourceInteractions.clear();
-		targetInteractions.clear();
-	}
 	/**
 	 * set a dynamic property.
 	 * Setting to null means removing this dynamic property altogether
@@ -151,10 +142,17 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 
 	private ArrayList<String> citationRefs = new ArrayList<>();
 
+	/**
+	 * add a Citation Reference to the Pathway Element
+	 * @param citationRef - citation reference ID to be added
+	 */
 	public void addCitationRef(String citationRef){
 		citationRefs.add(citationRef);
 	}
 
+	/**
+	 * @return a List of all Citation References ID
+	 */
 	public ArrayList<String> getCitationRefs() {
 		return citationRefs;
 	}
@@ -990,127 +988,6 @@ public class PathwayElement implements GraphIdContainer, Comparable<PathwayEleme
 			mPoints = points;
 			fireObjectModifiedEvent(PathwayElementEvent.createCoordinatePropertyEvent(this));
 		}
-	}
-	public void insertConnection(PathwayElement in, PathwayElement out){
-		if(connections.contains(out))
-			connections.remove(out);
-		if(!connections.contains(in)&&in!=null&&in!=this)
-			connections.add(in);
-	}
-
-	public Interaction getLineInteraction(){
-		return lineInteraction;
-	}
-
-	public void updateInteractions() {
-		Pathway p = getPathway();
-		if(p==null) return;
-		GraphIdContainer source = p.getGraphIdContainer(getMStart().getGraphRef());
-		GraphIdContainer target = p.getGraphIdContainer(getMEnd().getGraphRef()),
-				temp = target, anchorT=null;
-		PathwayElement sourceElement = null, targetElement = null;
-		// If the line has no valid references to source and target containers,
-		// It is not connected and could not be a valid Interaction
-		if(source==null||target==null) return;
-
-		// Check if source or target are PathwayELement DataNode or MAnchors
-		if(source instanceof PathwayElement)
-			sourceElement = (PathwayElement)source;
-
-		if(target instanceof PathwayElement)
-			targetElement = (PathwayElement)target;
-
-		if(source instanceof MAnchor) anchorT = source;
-		if(target instanceof MAnchor) anchorT = target;
-
-		Interaction interaction = lineInteraction;
-
-		// True if the line has a direct connection to both source and target
-		if (sourceElement!=null && sourceElement.getObjectType()==ObjectType.DATANODE
-				&&targetElement!=null&&targetElement.getObjectType()==ObjectType.DATANODE) {
-			// Create Interaction object if not already
-			if(interaction==null) {
-				interaction = new Interaction();
-			}
-		}
-		else if(sourceElement!=null&&sourceElement.getObjectType()==ObjectType.DATANODE){
-			// repeatedly search for a DataNode which could be a possible target
-			while(target instanceof MAnchor){
-				temp = target;
-				MAnchor anchor = ((MAnchor)target);
-				// get the GraphIdContainer at the end of the current line
-				target = p.getGraphIdContainer(anchor.getParent().getMEnd().getGraphRef());
-			}
-			// target is any target we found, temp is the last anchor the target was connected to
-			if(target instanceof PathwayElement && temp instanceof MAnchor){
-				MAnchor anchor = ((MAnchor)temp);
-				targetElement = (PathwayElement) target;
-				interaction = anchor.getParent().lineInteraction;
-				if(interaction==null) {
-					interaction = new Interaction();
-				}
-				// update all linked lines with interaction
-				while(anchorT instanceof MAnchor){
-					anchor = ((MAnchor)anchorT);
-					anchor.getParent().lineInteraction = interaction;
-					anchorT = p.getGraphIdContainer(anchor.getParent().getMEnd().getGraphRef());
-				}
-			}
-		}
-		// Same as for source
-		else if(targetElement!=null&&targetElement.getObjectType()==ObjectType.DATANODE){
-			while(source instanceof MAnchor){
-				temp = source;
-				MAnchor anchor = ((MAnchor)source);
-				source = p.getGraphIdContainer(anchor.getParent().getMStart().getGraphRef());
-			}
-			if(source instanceof PathwayElement && temp instanceof MAnchor){
-				MAnchor anchor = ((MAnchor)temp);
-				sourceElement = (PathwayElement) source;
-				interaction = anchor.getParent().lineInteraction;
-				if(interaction==null) {
-					interaction = new Interaction();
-				}
-				while(anchorT instanceof MAnchor){
-					anchor = ((MAnchor)anchorT);
-					anchor.getParent().lineInteraction = interaction;
-					anchorT = p.getGraphIdContainer(anchor.getParent().getMStart().getGraphRef());
-				}
-			}
-		}
-		// Invalid Interaction, one of the ends need to be connected to a DataNode
-		else
-			return;
-		// Update all structures
-		// Also note since they are HashSets, duplicates are implicitly checked
-		// If failed to create an or use an already instantiated interaction object
-		// it should be an invalid Interaction
-		if(interaction==null||sourceElement==null||targetElement==null) return;
-		interaction.addSource(sourceElement);
-		interaction.addTarget(targetElement);
-		sourceElement.sourceInteractions.add(interaction);
-		targetElement.targetInteractions.add(interaction);
-		lineInteraction = interaction;
-		p.addInteraction(interaction);
-	}
-
-
-	public void updateConnections(){
-		Pathway p = mPoints.get(0).getPathway();
-		if(p==null) return;
-		PathwayElement pe1 = p.getElementById(getMStart().getGraphRef());
-		PathwayElement pe2 = p.getElementById(getMEnd().getGraphRef());
-		if(connections.size()>=2){
-			PathwayElement t1 = connections.get(0);
-			PathwayElement t2 = connections.get(1);
-			if(t1!=null) t1.insertConnection(pe1,t2);
-			if(t2!=null) t2.insertConnection(pe2,t1);
-		}
-		if(connections.size()<2){connections.add(null);connections.add(null);}
-		connections.set(0,pe1);
-		connections.set(1,pe2);
-		if(pe1!=null) pe1.insertConnection(pe2,null);
-		if(pe2!=null) pe2.insertConnection(pe1,null);
 	}
 
 	public MPoint getMStart()

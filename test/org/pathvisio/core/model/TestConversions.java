@@ -31,50 +31,50 @@ public class TestConversions extends TestCase
 
 	public void testTo2017() throws ConverterException
 	{
-		for(File pathwaysFolder: new File (BASEDIR,"2013a").listFiles())
-			for(File in:pathwaysFolder.listFiles()){
-				Pathway pwy = new Pathway();
-				pwy.readFromXml(in, true);
-				File out = new File(BASEDIR+"/2017/"+pathwaysFolder.getName(), in.getName());
-				GpmlFormat2017.GPML_2017.writeToXml(pwy, out, true);
-			}
+//		for(File pathwaysFolder: new File (BASEDIR,"2013a").listFiles())
+//			for(File in:pathwaysFolder.listFiles()){
+//				Pathway pwy = new Pathway();
+//				pwy.readFromXml(in, true);
+//				File out = new File(BASEDIR+"/2017/"+pathwaysFolder.getName(), in.getName());
+//				GpmlFormat2017.GPML_2017.writeToXml(pwy, out, true);
+//			}
 	}
 
 	public void testToBioPAX() throws ConverterException, IOException
 	{
-		for(File pathwaysFolder: new File (BASEDIR,"2013a").listFiles())
-			for(File in:pathwaysFolder.listFiles()){
-				Pathway pwy = new Pathway();
-				pwy.readFromXml(in, true);
-				File out = new File(BASEDIR+"/BioPAX/"+pathwaysFolder.getName(), in.getName());
-				FileUtils.replaceExtension(out, "owl");
-				BiopaxExporterStrict biopaxExporter = new BiopaxExporterStrict(pwy);
-				biopaxExporter.export(out,false);
-			}
+//		for(File pathwaysFolder: new File (BASEDIR,"2013a").listFiles())
+//			for(File in:pathwaysFolder.listFiles()){
+//				Pathway pwy = new Pathway();
+//				pwy.readFromXml(in, true);
+//				File out = new File(BASEDIR+"/BioPAX/"+pathwaysFolder.getName(), in.getName());
+//				FileUtils.replaceExtension(out, "owl");
+//				BiopaxExporterStrict biopaxExporter = new BiopaxExporterStrict(pwy);
+//				biopaxExporter.export(out,false);
+//			}
 	}
 
 	public void testToBioPAXOne() throws ConverterException, IOException
 	{
-		String path = "./testData/Pathways20170810/2013a/wikipathways-20170810-gpml-Bos_taurus/Bt_Folate_Metabolism_WP1075_86818.gpml";
-		File in = new File (path);
-		Pathway pwy = new Pathway();
-		pwy.readFromXml(in, true);
-		File out = File.createTempFile("temp","owl");
-		BiopaxExporterStrict biopaxExporter = new BiopaxExporterStrict(pwy);
-		biopaxExporter.export(out,false);
+//		String path = "./testData/Pathways20170810/2013a/wikipathways-20170810-gpml-Bos_taurus/Bt_Folate_Metabolism_WP1075_86818.gpml";
+//		File in = new File (path);
+//		Pathway pwy = new Pathway();
+//		pwy.readFromXml(in, true);
+//		File out = File.createTempFile("temp","owl");
+//		BiopaxExporterStrict biopaxExporter = new BiopaxExporterStrict(pwy);
+//		biopaxExporter.export(out,false);
 	}
 
 	public void testToSIF() throws ConverterException, IOException
 	{
-		for(File pathwaysFolder: new File (BASEDIR,"2013a").listFiles())
-			for(File in:pathwaysFolder.listFiles()){
-				Pathway pwy = new Pathway();
-				pwy.readFromXml(in, true);
-				File out = new File(BASEDIR+"/SIF/"+pathwaysFolder.getName(), in.getName());
-				FileUtils.replaceExtension(out, "sif");
-				SIFExporter sifExporter = new SIFExporter(pwy);
-				sifExporter.export(out);
-			}
+//		for(File pathwaysFolder: new File (BASEDIR,"2013a").listFiles())
+//			for(File in:pathwaysFolder.listFiles()){
+//				Pathway pwy = new Pathway();
+//				pwy.readFromXml(in, true);
+//				File out = new File(BASEDIR+"/SIF/"+pathwaysFolder.getName(), in.getName());
+//				FileUtils.replaceExtension(out, "sif");
+//				SIFExporter sifExporter = new SIFExporter(pwy);
+//				sifExporter.export(out);
+//			}
 	}
 
 }
