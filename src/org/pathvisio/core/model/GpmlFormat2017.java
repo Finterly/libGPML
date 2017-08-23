@@ -275,6 +275,7 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 				e = new Element("DataNode", getGpmlNamespace());
 				updateGraphId(o, e);
 				updateTextLabel(o,e);
+				updateDataNodeType(o,e);
 				updateGroupRef(o, e);
 				updateShapeCommon(o, e);
 				updateCommon (o, e);
@@ -545,6 +546,11 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		setAttribute(base, "textLabel", e, o.getTextLabel());
 	}
 	
+	protected void updateDataNodeType(PathwayElement o, Element e) throws ConverterException{
+		String base = e.getName();
+		setAttribute(base, "type", e, o.getDataNodeType());
+	}
+
 	protected void updateFontData(PathwayElement o, Element e) throws ConverterException
 	{
 		String base = e.getName();
@@ -686,8 +692,8 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
     		    	Double.parseDouble(getAttribute("Interaction.Point", "y", pe)), o
     		);
     		mPoints.add(mp);
-        	String ref = getAttribute("Interaction.Point", "elementRef", pe);
-        	String graphId = getAttribute("Interaction.Point", "elementID", pe);
+			String ref = getAttribute("Interaction.Point", "elementRef", pe);
+			String graphId = getAttribute("Interaction.Point", "elementID", pe);
 
         	if (ref != null) {
         		mp.setGraphRef(ref);
@@ -743,10 +749,9 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 
 		for(int i = 0; i < mPoints.size(); i++) {
 			MPoint mp = mPoints.get(i);
+
 			Element pe = new Element("Point", e.getNamespace());
 			e.addContent(pe);
-			setAttribute("Interaction.Point", "x", pe, Double.toString(mp.getX()));
-			setAttribute("Interaction.Point", "y", pe, Double.toString(mp.getY()));
 
 			if(mp.getGraphId()==null)
 				mp.setGeneratedGraphId();
@@ -754,25 +759,31 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 			setAttribute("Interaction.Point", "elementID", pe, mp.getGraphId());
 
 			if (mp.getGraphRef() != null && !mp.getGraphRef().equals(""))
-			{
 				setAttribute("Interaction.Point", "elementRef", pe, mp.getGraphRef());
-				setAttribute("Interaction.Point", "relX", pe, Double.toString(mp.getRelX()));
-				setAttribute("Interaction.Point", "relY", pe, Double.toString(mp.getRelY()));
-			}
+
 			if(i == 0) {
 				setAttribute("Interaction.Point", "arrowHead", pe, o.getStartLineType().getName());
 			} else if(i == mPoints.size() - 1) {
 				setAttribute("Interaction.Point", "arrowHead", pe, o.getEndLineType().getName());
 			}
+			setAttribute("Interaction.Point", "x", pe, Double.toString(mp.getX()));
+			setAttribute("Interaction.Point", "y", pe, Double.toString(mp.getY()));
+
+			if (mp.getGraphRef() != null && !mp.getGraphRef().equals(""))
+			{
+				setAttribute("Interaction.Point", "relX", pe, Double.toString(mp.getRelX()));
+				setAttribute("Interaction.Point", "relY", pe, Double.toString(mp.getRelY()));
+			}
+
 		}
 
 		for(MAnchor anchor : o.getMAnchors()) {
 			Element ae = new Element("Anchor", e.getNamespace());
 			if(anchor.getGraphId()==null)
 				anchor.setGeneratedGraphId();
-			setAttribute("Interaction.Anchor", "position", ae, Double.toString(anchor.getPosition()));
-			setAttribute("Interaction.Anchor", "shapeType", ae, anchor.getShape().getName());
 			updateGraphId(anchor, ae);
+			setAttribute("Interaction.Anchor", "shapeType", ae, anchor.getShape().getName());
+			setAttribute("Interaction.Anchor", "position", ae, Double.toString(anchor.getPosition()));
 			e.addContent(ae);
 		}
 
@@ -898,9 +909,9 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 			for(OntologyTerm ontologyTerm : p.getOntologyTerms()){
 				Element element = new Element("OntologyTerm", getGpmlNamespace());
 				e.addContent(element);
+				element.setAttribute("ontologyTermID", ontologyTerm.getId());
 				element.setAttribute("term", ontologyTerm.getTerm());
 				element.setAttribute("ontology", ontologyTerm.getOntology());
-				element.setAttribute("ontologyTermID", ontologyTerm.getId());
 			}
 		}
 		return e;
@@ -912,8 +923,8 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 		String id,term,ontology,ontologyTermId;
 		for(Element ot: OntologyTags){
 			term=ot.getAttributeValue("term");
-			ontology=ot.getAttributeValue("ontology");
 			ontologyTermId=ot.getAttributeValue("ontologyTermID");
+			ontology=ot.getAttributeValue("ontology");
 			p.addOntologyTerm(ontologyTermId,term,ontology);
 		}
 	}
@@ -927,9 +938,9 @@ class GpmlFormat2017 extends GpmlFormatAbstract2017 implements GpmlFormatReader,
 				Element citationElement = new Element("Citation",getGpmlNamespace());
 				e.addContent(citationElement);
 
-				citationElement.setAttribute("title", citation.getTitle());
-				citationElement.setAttribute("URL", citation.getURL());
 				citationElement.setAttribute("citationID", citation.getCitationId());
+				citationElement.setAttribute("URL", citation.getURL());
+				citationElement.setAttribute("title", citation.getTitle());
 
 				if(citation.getYear()!=null)
 					citationElement.setAttribute("year", citation.getYear());

@@ -3,56 +3,56 @@
   <Xref dataSource="" identifier="" />
   <Comment source="WikiPathways-description">miR-222 is necessary for exercise-induced cardiac growth and protects against pathological cardiac remodeling.</Comment>
   <CitationRef citationID="b53" />
-  <DataNode elementID="da55b" textLabel="Cdkn1b" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="176.66666666666657" centerY="340.33333333333354" width="80.0" height="21.999999999999993" zOrder="32768">
+  <DataNode elementID="da55b" textLabel="Cdkn1b" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="176.66666666666657" centerY="340.33333333333354" width="80.0" height="21.999999999999993" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000003031" />
   </DataNode>
-  <DataNode elementID="eada6" textLabel="Hmbox1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="326.0" centerY="340.0000000000003" width="80.0" height="22.0" zOrder="32768">
+  <DataNode elementID="eada6" textLabel="Hmbox1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="326.0" centerY="340.0000000000003" width="80.0" height="22.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000021972" />
   </DataNode>
-  <DataNode elementID="ee50c" textLabel="Hipk2" groupRef="e55ef" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="483.33333333333326" centerY="361.3333333333336" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="ee50c" textLabel="Hipk2" type="GeneProduct" groupRef="e55ef" fontSize="10" vAlign="Middle" centerX="483.33333333333326" centerY="361.3333333333336" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000061436" />
   </DataNode>
-  <DataNode elementID="f0c6a" textLabel="Mir222" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="324.6666666666663" centerY="195.99999999999997" width="65.3333333333332" height="20.0" zOrder="32768">
+  <DataNode elementID="f0c6a" textLabel="Mir222" type="Rna" color="990099" fontSize="10" vAlign="Middle" centerX="324.6666666666663" centerY="195.99999999999997" width="65.3333333333332" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000065471" />
   </DataNode>
-  <DataNode elementID="f37b0" textLabel="Hipk1" groupRef="e55ef" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="483.33333333333326" centerY="341.3333333333336" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="f37b0" textLabel="Hipk1" type="GeneProduct" groupRef="e55ef" fontSize="10" vAlign="Middle" centerX="483.33333333333326" centerY="341.3333333333336" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000008730" />
   </DataNode>
   <Interaction elementID="id3388e8cc" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="308.333333333333" y="205.99999999999997" elementID="bc910" elementRef="f0c6a" relX="-0.5" relY="1.0" />
-    <Point x="176.66666666666657" y="329.33333333333354" elementID="a2082" elementRef="da55b" relX="0.0" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="c68da" elementRef="f0c6a" x="308.333333333333" y="205.99999999999997" relX="-0.5" relY="1.0" />
+    <Point elementID="ea93c" elementRef="da55b" arrowHead="TBar" x="176.66666666666657" y="329.33333333333354" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id456aac16" connectorType="Elbow" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="176.66666666666657" y="351.33333333333354" elementID="ca968" elementRef="da55b" relX="0.0" relY="1.0" />
-    <Point x="219.3333333333333" y="397.3333333333333" elementID="c23f2" />
-    <Point x="262.0" y="452.6666666666666" elementID="f1311" elementRef="a0d43" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="fd594" elementRef="da55b" x="176.66666666666657" y="351.33333333333354" relX="0.0" relY="1.0" />
+    <Point elementID="e634e" x="219.3333333333333" y="397.3333333333333" />
+    <Point elementID="f2db8" elementRef="a0d43" arrowHead="TBar" x="262.0" y="452.6666666666666" relX="-0.5" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id7ae14f91" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="340.9999999999996" y="205.99999999999997" elementID="eb421" elementRef="f0c6a" relX="0.5" relY="1.0" />
-    <Point x="483.33333333333326" y="323.3333333333336" elementID="d493d" elementRef="e55ef" relX="0.0" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="fa684" elementRef="f0c6a" x="340.9999999999996" y="205.99999999999997" relX="0.5" relY="1.0" />
+    <Point elementID="d89f5" elementRef="e55ef" arrowHead="TBar" x="483.33333333333326" y="323.3333333333336" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idbe43a34b" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="324.6666666666662" y="82.00000000000003" elementID="a1b57" elementRef="aa48c" relX="0.0" relY="1.0" />
-    <Point x="324.6666666666663" y="185.99999999999997" elementID="d6522" elementRef="f0c6a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="ff49b" elementRef="aa48c" x="324.6666666666662" y="82.00000000000003" relX="0.0" relY="1.0" />
+    <Point elementID="c05a5" elementRef="f0c6a" arrowHead="Arrow" x="324.6666666666663" y="185.99999999999997" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idc62262fa" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="324.6666666666663" y="205.99999999999997" elementID="cfa68" elementRef="f0c6a" relX="0.0" relY="1.0" />
-    <Point x="326.0" y="329.0000000000003" elementID="f178c" elementRef="eada6" relX="0.0" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="cfffc" elementRef="f0c6a" x="324.6666666666663" y="205.99999999999997" relX="0.0" relY="1.0" />
+    <Point elementID="aea87" elementRef="eada6" arrowHead="TBar" x="326.0" y="329.0000000000003" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="ac720" zOrder="32769" lineStyle="Broken" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="326.0" y="351.0000000000003" elementID="a2589" elementRef="eada6" relX="0.0" relY="1.0" />
-    <Point x="326.0" y="452.6666666666666" elementID="ca3a3" elementRef="a0d43" relX="0.0" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="a4c0b" elementRef="eada6" x="326.0" y="351.0000000000003" relX="0.0" relY="1.0" />
+    <Point elementID="d3e12" elementRef="a0d43" arrowHead="TBar" x="326.0" y="452.6666666666666" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="a82f4" connectorType="Elbow" zOrder="32770" lineStyle="Broken" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="483.33333333333326" y="379.3333333333336" elementID="e70d9" elementRef="e55ef" relX="0.0" relY="1.0" />
-    <Point x="390.0" y="452.6666666666666" elementID="ad4ce" elementRef="a0d43" relX="0.5" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="a37c9" elementRef="e55ef" x="483.33333333333326" y="379.3333333333336" relX="0.0" relY="1.0" />
+    <Point elementID="fcfa1" elementRef="a0d43" arrowHead="TBar" x="390.0" y="452.6666666666666" relX="0.5" relY="-1.0" />
   </Interaction>
   <Label elementID="a0d43" textLabel="Growth, Proliferation and Cardiac Repair" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="326.0" centerY="462.6666666666666" width="256.0" height="20.0" zOrder="28672" />
   <Label elementID="aa48c" textLabel="Exercise" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="324.6666666666662" centerY="72.00000000000003" width="80.0" height="20.0" zOrder="28672" />
@@ -64,7 +64,7 @@
   <Group elementID="e55ef" groupType="Group" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Citations>
-    <Citation title="miR-222 Is Necessary for Exercise-Induced Cardiac Growth and Protects against Pathological Cardiac Remodeling." URL="" citationID="b53" year="2015" source="Cell Metab">
+    <Citation citationID="b53" URL="" title="miR-222 Is Necessary for Exercise-Induced Cardiac Growth and Protects against Pathological Cardiac Remodeling." year="2015" source="Cell Metab">
       <Xref dataSource="PubMed" identifier="25863248" />
       <Author name="Liu X" />
       <Author name="Xiao J" />

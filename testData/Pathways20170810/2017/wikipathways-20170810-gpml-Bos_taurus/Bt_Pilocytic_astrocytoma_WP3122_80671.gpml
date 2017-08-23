@@ -5,85 +5,85 @@
   <Comment source="WikiPathways-category">Cellular Process</Comment>
   <Comment source="WikiPathways-description">In  this pathway shows the signaling in the development and behavior of the disease. receptor tyrosine kinase(rtk) is expressed in tumor endothelial cells of adult glioblastomas.NF1 and BRAF genes induced the tumor growth.</Comment>
   <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP2253_r74520 WP2253(74520)]  with a 100.0% conversion rate.</Comment>
-  <DataNode elementID="bba61" textLabel="RAS:GTP" groupRef="f1a30" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="303.5" centerY="253.5" width="47.0" height="18.0" zOrder="32768">
+  <DataNode elementID="bba61" textLabel="RAS:GTP" type="Metabolite" groupRef="f1a30" color="0000ff" fontSize="10" vAlign="Middle" centerX="303.5" centerY="253.5" width="47.0" height="18.0" zOrder="32768">
     <Xref dataSource="HMDB" identifier="HMDB01440" />
   </DataNode>
-  <DataNode elementID="d3463" textLabel="SOS1" shapeType="Oval" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="224.5" centerY="222.5" width="66.0" height="30.5" zOrder="32768">
+  <DataNode elementID="d3463" textLabel="SOS1" type="GeneProduct" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="224.5" centerY="222.5" width="66.0" height="30.5" zOrder="32768">
     <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000115904</Comment>
     <Xref dataSource="Ensembl" identifier="ENSBTAG00000011643" />
   </DataNode>
-  <DataNode elementID="dc7bd" textLabel="GRB2" shapeType="Oval" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="224.5" centerY="192.0" width="66.0" height="30.5" zOrder="32768">
+  <DataNode elementID="dc7bd" textLabel="GRB2" type="GeneProduct" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="224.5" centerY="192.0" width="66.0" height="30.5" zOrder="32768">
     <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000177885</Comment>
     <Xref dataSource="Ensembl" identifier="ENSBTAG00000004736" />
   </DataNode>
-  <DataNode elementID="e9996" textLabel="PTPN11" shapeType="Oval" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="224.5" centerY="161.5" width="66.0" height="30.5" zOrder="32768">
+  <DataNode elementID="e9996" textLabel="PTPN11" type="GeneProduct" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="224.5" centerY="161.5" width="66.0" height="30.5" zOrder="32768">
     <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000179295</Comment>
     <Xref dataSource="Ensembl" identifier="ENSBTAG00000002048" />
   </DataNode>
-  <DataNode elementID="ebd00" textLabel="RTK" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="156.0" centerY="111.0" width="62.0" height="18.0" zOrder="32768">
+  <DataNode elementID="ebd00" textLabel="RTK" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="156.0" centerY="111.0" width="62.0" height="18.0" zOrder="32768">
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="f3f73" textLabel="NF1" shapeType="Oval" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="220.5" centerY="307.5" width="66.0" height="30.5" zOrder="32768">
+  <DataNode elementID="f3f73" textLabel="NF1" type="GeneProduct" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="220.5" centerY="307.5" width="66.0" height="30.5" zOrder="32768">
     <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = En:ENSG00000196712</Comment>
     <Xref dataSource="Ensembl" identifier="ENSBTAG00000011829" />
   </DataNode>
-  <DataNode elementID="f28d9" textLabel="RAS:GDP" groupRef="c4e7a" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="139.5" centerY="255.5" width="47.0" height="18.0" zOrder="32771">
+  <DataNode elementID="f28d9" textLabel="RAS:GDP" type="Metabolite" groupRef="c4e7a" color="0000ff" fontSize="10" vAlign="Middle" centerX="139.5" centerY="255.5" width="47.0" height="18.0" zOrder="32771">
     <Xref dataSource="HMDB" identifier="HMDB00960" />
   </DataNode>
   <Interaction elementID="id2a1790d2" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="187.5" y="299.875" elementID="e4e78" elementRef="f3f73" relX="-1.0" relY="-0.5" />
-    <Point x="175.0" y="255.5" elementID="b6152" elementRef="c4e7a" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="f97e5" elementRef="f3f73" x="187.5" y="299.875" relX="-1.0" relY="-0.5" />
+    <Point elementID="ff76c" elementRef="c4e7a" arrowHead="Arrow" x="175.0" y="255.5" relX="1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id5774a955" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="268.0" y="264.0" elementID="ba263" elementRef="f1a30" relX="-1.0" relY="0.5" />
-    <Point x="253.5" y="299.875" elementID="c3bc3" elementRef="f3f73" relX="1.0" relY="-0.5" arrowHead="Arrow" />
+    <Point elementID="bc9e8" elementRef="f1a30" x="268.0" y="264.0" relX="-1.0" relY="0.5" />
+    <Point elementID="a75b2" elementRef="f3f73" arrowHead="Arrow" x="253.5" y="299.875" relX="1.0" relY="-0.5" />
   </Interaction>
   <Interaction elementID="id6f06ce26" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="337.0" y="423.0" elementID="f58da" />
-    <Point x="366.0" y="435.0" elementID="ef0c3" elementRef="a6336" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="fce58" x="337.0" y="423.0" />
+    <Point elementID="c41cc" elementRef="a6336" arrowHead="Arrow" x="366.0" y="435.0" relX="-1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id72891f69" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="187.0" y="111.0" elementID="b3f69" elementRef="ebd00" relX="1.0" relY="0.0" />
-    <Point x="208.0" y="146.25" elementID="b6139" elementRef="e9996" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="a2413" elementRef="ebd00" x="187.0" y="111.0" relX="1.0" relY="0.0" />
+    <Point elementID="daa75" elementRef="e9996" arrowHead="Arrow" x="208.0" y="146.25" relX="-0.5" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id75679014" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="257.5" y="230.125" elementID="f9d8a" elementRef="d3463" relX="1.0" relY="0.5" />
-    <Point x="268.0" y="243.0" elementID="b4467" elementRef="f1a30" relX="-1.0" relY="-0.5" arrowHead="Arrow" />
+    <Point elementID="f2109" elementRef="d3463" x="257.5" y="230.125" relX="1.0" relY="0.5" />
+    <Point elementID="bd355" elementRef="f1a30" arrowHead="Arrow" x="268.0" y="243.0" relX="-1.0" relY="-0.5" />
   </Interaction>
   <Interaction elementID="id7c73c940" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="175.0" y="245.0" elementID="b3e78" elementRef="c4e7a" relX="1.0" relY="-0.5" />
-    <Point x="191.5" y="222.5" elementID="b7164" elementRef="d3463" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="c90a5" elementRef="c4e7a" x="175.0" y="245.0" relX="1.0" relY="-0.5" />
+    <Point elementID="adc36" elementRef="d3463" arrowHead="Arrow" x="191.5" y="222.5" relX="-1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id9705e63" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="267.0" y="415.0" elementID="e4b4f" />
-    <Point x="199.0" y="377.0" elementID="ecdee" arrowHead="Arrow" />
+    <Point elementID="b5191" x="267.0" y="415.0" />
+    <Point elementID="a26c9" arrowHead="Arrow" x="199.0" y="377.0" />
   </Interaction>
   <Interaction elementID="idbd105391" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="179.0" y="386.0" elementID="d8860" />
-    <Point x="274.0" y="487.0" elementID="bd1cd" arrowHead="Arrow" />
+    <Point elementID="e15e9" x="179.0" y="386.0" />
+    <Point elementID="a2cc6" arrowHead="Arrow" x="274.0" y="487.0" />
   </Interaction>
   <Interaction elementID="idc3b05e2a" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="390.0" y="274.0" elementID="da252" />
-    <Point x="393.0" y="325.0" elementID="df12d" arrowHead="Arrow" />
+    <Point elementID="e0b1a" x="390.0" y="274.0" />
+    <Point elementID="c0677" arrowHead="Arrow" x="393.0" y="325.0" />
   </Interaction>
   <Interaction elementID="idcafb89a0" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="378.0" y="457.0" elementID="b243f" />
-    <Point x="353.0" y="489.75" elementID="aff90" elementRef="ace94" relX="1.0" relY="-0.5" arrowHead="Arrow" />
+    <Point elementID="fc5a0" x="378.0" y="457.0" />
+    <Point elementID="cd019" elementRef="ace94" arrowHead="Arrow" x="353.0" y="489.75" relX="1.0" relY="-0.5" />
   </Interaction>
   <Interaction elementID="idedaaa89d" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="384.0" y="357.0" elementID="af895" />
-    <Point x="338.0" y="408.0" elementID="d7bb3" elementRef="fac01" relX="1.0" relY="-0.5" arrowHead="Arrow" />
+    <Point elementID="e3f33" x="384.0" y="357.0" />
+    <Point elementID="ae98b" elementRef="fac01" arrowHead="Arrow" x="338.0" y="408.0" relX="1.0" relY="-0.5" />
   </Interaction>
   <Shape elementID="a6336" textLabel="Cytoplasmic targets" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="413.5" centerY="435.0" width="95.0" height="44.0" zOrder="16384" rotation="0.0" />
   <Shape elementID="a8254" textLabel="BRAF" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="372.75" centerY="267.0" width="62.5" height="24.0" zOrder="16384" rotation="0.0" />

@@ -4,45 +4,45 @@
   <Comment source="WikiPathways-description">A model for how miR-34a suppresses osteoclastogenesis.</Comment>
   <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP2866_r78507 WP2866(78507)]  with a 100.0% conversion rate.</Comment>
   <CitationRef citationID="aa1" />
-  <DataNode elementID="a2566" textLabel="TGIF2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="191.3491646220352" centerY="201.2327958873702" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="a2566" textLabel="TGIF2" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="191.3491646220352" centerY="201.2327958873702" width="80.0" height="20.0" zOrder="32768">
     <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:60436</Comment>
     <Xref dataSource="Ensembl" identifier="ENSBTAG00000005286" />
   </DataNode>
-  <DataNode elementID="c7277" textLabel="Osteoblast" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="134.0" centerY="319.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="c7277" textLabel="Osteoblast" type="Pathway" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="134.0" centerY="319.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WikiPathways" identifier="WP322" />
   </DataNode>
-  <DataNode elementID="dd318" textLabel="Osteoclast" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="318.0" centerY="319.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="dd318" textLabel="Osteoclast" type="Pathway" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="318.0" centerY="319.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WikiPathways" identifier="WP12" />
   </DataNode>
-  <DataNode elementID="f7d37" textLabel="bta-mir-34a" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="191.96490536277608" centerY="141.93170931183562" width="71.25" height="20.0" zOrder="32768">
+  <DataNode elementID="f7d37" textLabel="bta-mir-34a" type="Rna" color="990099" fontSize="10" vAlign="Middle" centerX="191.96490536277608" centerY="141.93170931183562" width="71.25" height="20.0" zOrder="32768">
     <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = L:407040</Comment>
     <Xref dataSource="Ensembl" identifier="ENSBTAG00000029924" />
   </DataNode>
   <Interaction elementID="id13b2c329" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="278.0" y="319.0" elementID="e4473" elementRef="dd318" relX="-1.0" relY="0.0" arrowHead="Arrow" />
-    <Point x="174.0" y="319.0" elementID="a1231" elementRef="c7277" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="b6674" elementRef="dd318" arrowHead="Arrow" x="278.0" y="319.0" relX="-1.0" relY="0.0" />
+    <Point elementID="b31d8" elementRef="c7277" arrowHead="Arrow" x="174.0" y="319.0" relX="1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id74ea9c51" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="318.93252699873256" y="117.43483981650564" elementID="f0939" elementRef="a9ec0" relX="0.0" relY="1.0" />
-    <Point x="318.0" y="309.0" elementID="c07d5" elementRef="dd318" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="f0772" elementRef="a9ec0" x="318.93252699873256" y="117.43483981650564" relX="0.0" relY="1.0" />
+    <Point elementID="aa9cf" elementRef="dd318" arrowHead="Arrow" x="318.0" y="309.0" relX="0.0" relY="-1.0" />
     <Anchor position="0.4418163671853904" shapeType="None" elementID="ed971" />
   </Interaction>
   <Interaction elementID="id95e42bf7" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="231.3491646220352" y="201.2327958873702" elementID="ebc44" elementRef="a2566" relX="1.0" relY="0.0" />
-    <Point x="318.52052130785023" y="202.0714629680645" elementID="a648f" elementRef="ed971" relX="0.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="eeb1c" elementRef="a2566" x="231.3491646220352" y="201.2327958873702" relX="1.0" relY="0.0" />
+    <Point elementID="d5ce7" elementRef="ed971" arrowHead="Arrow" x="318.52052130785023" y="202.0714629680645" relX="0.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="ide96e7eaa" zOrder="12288" lineThickness="1.0" color="ff0000">
     <Xref dataSource="" identifier="" />
-    <Point x="191.96490536277608" y="151.93170931183562" elementID="fdcd7" elementRef="f7d37" relX="0.0" relY="1.0" />
-    <Point x="191.3491646220352" y="191.2327958873702" elementID="a63a5" elementRef="a2566" relX="0.0" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="d4172" elementRef="f7d37" x="191.96490536277608" y="151.93170931183562" relX="0.0" relY="1.0" />
+    <Point elementID="ecbbf" elementRef="a2566" arrowHead="TBar" x="191.3491646220352" y="191.2327958873702" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="c3ee3" zOrder="36889" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="459.37118822292257" y="319.8485804416406" elementID="d5373" elementRef="d06db" relX="-1.0" relY="0.0" arrowHead="Arrow" />
-    <Point x="358.0" y="319.0" elementID="be1fd" elementRef="dd318" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="b9bf8" elementRef="d06db" arrowHead="Arrow" x="459.37118822292257" y="319.8485804416406" relX="-1.0" relY="0.0" />
+    <Point elementID="cf224" elementRef="dd318" arrowHead="Arrow" x="358.0" y="319.0" relX="1.0" relY="0.0" />
   </Interaction>
   <Label elementID="d06db" textLabel="Tumor cell" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="499.37118822292257" centerY="319.8485804416406" width="80.0" height="20.0" zOrder="28672" />
   <Label elementID="da6c7" textLabel="Bone resorption" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="321.74553101997907" centerY="406.94006309148267" width="98.88538380651951" height="20.0" zOrder="28672" />
@@ -161,7 +161,7 @@
   <Group elementID="ffa9f" groupType="Group" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Citations>
-    <Citation title="miR-34a blocks osteoporosis and bone metastasis by inhibiting osteoclastogenesis and Tgif2." URL="" citationID="aa1" year="2014" source="Nature">
+    <Citation citationID="aa1" URL="" title="miR-34a blocks osteoporosis and bone metastasis by inhibiting osteoclastogenesis and Tgif2." year="2014" source="Nature">
       <Xref dataSource="PubMed" identifier="25043055" />
       <Author name="Krzeszinski JY" />
       <Author name="Wei W" />
@@ -179,10 +179,10 @@
     </Citation>
   </Citations>
   <OntologyTerms>
-    <OntologyTerm term="skeletogenic cell" ontology="Cell Type" ontologyTermID="CL:0007001" />
-    <OntologyTerm term="cancer" ontology="Disease" ontologyTermID="DOID:162" />
-    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
     <OntologyTerm term="bone disease" ontology="Disease" ontologyTermID="DOID:0080001" />
+    <OntologyTerm term="skeletogenic cell" ontology="Cell Type" ontologyTermID="CL:0007001" />
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+    <OntologyTerm term="cancer" ontology="Disease" ontologyTermID="DOID:162" />
   </OntologyTerms>
 </Pathway>
 

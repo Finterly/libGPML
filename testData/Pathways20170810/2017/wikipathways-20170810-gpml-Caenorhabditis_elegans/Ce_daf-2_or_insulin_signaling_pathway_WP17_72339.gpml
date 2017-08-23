@@ -5,87 +5,87 @@
 Initial version based on review by Gami and Wolkow of pathways that affect ageing.</Comment>
   <Comment source="WikiPathways-category">Cellular Process</Comment>
   <CitationRef citationID="d4d" />
-  <DataNode elementID="bf3" textLabel="SGK-1" groupRef="b3a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="258.0" centerY="352.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="bf3" textLabel="SGK-1" type="GeneProduct" groupRef="b3a" fontSize="10" vAlign="Middle" centerX="258.0" centerY="352.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WormBase" identifier="W10G6.2" />
   </DataNode>
-  <DataNode elementID="cb6" textLabel="AKT-1" groupRef="b3a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="258.0" centerY="312.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="cb6" textLabel="AKT-1" type="GeneProduct" groupRef="b3a" fontSize="10" vAlign="Middle" centerX="258.0" centerY="312.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WormBase" identifier="C12D8.10" />
   </DataNode>
-  <DataNode elementID="cfb" textLabel="PDK-1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="389.0" centerY="334.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="cfb" textLabel="PDK-1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="389.0" centerY="334.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WormBase" identifier="H42K12.1" />
   </DataNode>
-  <DataNode elementID="d37" textLabel="DAF-2/INSR" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="258.0" centerY="104.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="d37" textLabel="DAF-2/INSR" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="258.0" centerY="104.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WormBase" identifier="Y55D5A.5" />
   </DataNode>
-  <DataNode elementID="d77" textLabel="DAF-18/PTEN" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="385.0" centerY="235.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="d77" textLabel="DAF-18/PTEN" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="385.0" centerY="235.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WormBase" identifier="T07A9.6" />
   </DataNode>
-  <DataNode elementID="da8" textLabel="AKT-2" groupRef="b3a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="258.0" centerY="332.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="da8" textLabel="AKT-2" type="GeneProduct" groupRef="b3a" fontSize="10" vAlign="Middle" centerX="258.0" centerY="332.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WormBase" identifier="F28H6.1" />
   </DataNode>
-  <DataNode elementID="dfe" textLabel="AGE-1/PI-3K" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="258.0" centerY="167.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="dfe" textLabel="AGE-1/PI-3K" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="258.0" centerY="167.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WormBase" identifier="B0334.8" />
   </DataNode>
-  <DataNode elementID="e7a" textLabel="DAF-16/FOXO" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="257.0" centerY="395.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="e7a" textLabel="DAF-16/FOXO" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="257.0" centerY="395.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WormBase" identifier="R13H8.1" />
   </DataNode>
-  <DataNode elementID="ea9" textLabel="PIP" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="258.0" centerY="235.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="ea9" textLabel="PIP" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="258.0" centerY="235.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="HMDB" identifier="HMDB04249" />
   </DataNode>
   <Interaction elementID="bea3b" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="349.0" y="334.0" elementID="e1c34" elementRef="cfb" relX="-1.0" relY="0.0" />
-    <Point x="306.0" y="332.0" elementID="d222b" elementRef="b3a" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="ece7c" elementRef="cfb" x="349.0" y="334.0" relX="-1.0" relY="0.0" />
+    <Point elementID="fd745" elementRef="b3a" arrowHead="Arrow" x="306.0" y="332.0" relX="1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="c5097" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="258.0" y="370.0" elementID="dfb3e" elementRef="b3a" relX="0.0" relY="1.0" />
-    <Point x="257.0" y="385.0" elementID="f706f" elementRef="e7a" relX="0.0" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="a3780" elementRef="b3a" x="258.0" y="370.0" relX="0.0" relY="1.0" />
+    <Point elementID="bf3a9" elementRef="e7a" arrowHead="TBar" x="257.0" y="385.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="cc79c" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="20.0" y="98.0" elementID="f5295" />
-    <Point x="547.0" y="98.0" elementID="e89e7" />
+    <Point elementID="ee2b9" x="20.0" y="98.0" />
+    <Point elementID="a6d3d" x="547.0" y="98.0" />
   </Interaction>
   <Interaction elementID="cdd0d" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="278.0" y="245.0" elementID="b77ba" elementRef="ea9" relX="0.5" relY="1.0" />
-    <Point x="389.0" y="324.0" elementID="be391" elementRef="cfb" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="a905a" elementRef="ea9" x="278.0" y="245.0" relX="0.5" relY="1.0" />
+    <Point elementID="ffc96" elementRef="cfb" arrowHead="Arrow" x="389.0" y="324.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="d7053" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="345.0" y="235.0" elementID="c8530" elementRef="d77" relX="-1.0" relY="0.0" />
-    <Point x="298.0" y="235.0" elementID="c5eb5" elementRef="ea9" relX="1.0" relY="0.0" arrowHead="TBar" />
+    <Point elementID="ad189" elementRef="d77" x="345.0" y="235.0" relX="-1.0" relY="0.0" />
+    <Point elementID="ac3e1" elementRef="ea9" arrowHead="TBar" x="298.0" y="235.0" relX="1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="d76cd" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="258.0" y="114.0" elementID="f2f1f" elementRef="d37" relX="0.0" relY="1.0" />
-    <Point x="258.0" y="157.0" elementID="b1a6c" elementRef="dfe" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="cb002" elementRef="d37" x="258.0" y="114.0" relX="0.0" relY="1.0" />
+    <Point elementID="c38b5" elementRef="dfe" arrowHead="Arrow" x="258.0" y="157.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="dd9f3" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="257.0" y="405.0" elementID="bf64b" elementRef="e7a" relX="0.0" relY="1.0" />
-    <Point x="257.5" y="438.0" elementID="b493d" elementRef="dda" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="fe666" elementRef="e7a" x="257.0" y="405.0" relX="0.0" relY="1.0" />
+    <Point elementID="c40fd" elementRef="dda" arrowHead="Arrow" x="257.5" y="438.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="f613e" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="258.0" y="177.0" elementID="b9c8b" elementRef="dfe" relX="0.0" relY="1.0" />
-    <Point x="258.0" y="225.0" elementID="e8611" elementRef="ea9" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="df8f9" elementRef="dfe" x="258.0" y="177.0" relX="0.0" relY="1.0" />
+    <Point elementID="c61a6" elementRef="ea9" arrowHead="Arrow" x="258.0" y="225.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="fa4e7" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="258.0" y="94.0" elementID="e492d" elementRef="d37" relX="0.0" relY="-1.0" />
-    <Point x="258.0" y="65.0" elementID="f8016" arrowHead="ReceptorRound" />
+    <Point elementID="afc1c" elementRef="d37" x="258.0" y="94.0" relX="0.0" relY="-1.0" />
+    <Point elementID="ade92" arrowHead="ReceptorRound" x="258.0" y="65.0" />
   </Interaction>
   <Interaction elementID="fd720" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="20.0" y="108.0" elementID="e7be6" />
-    <Point x="547.0" y="108.0" elementID="a36e1" />
+    <Point elementID="e91d3" x="20.0" y="108.0" />
+    <Point elementID="bb62b" x="547.0" y="108.0" />
   </Interaction>
   <Interaction elementID="ff497" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="258.0" y="245.0" elementID="dc22b" elementRef="ea9" relX="0.0" relY="1.0" />
-    <Point x="258.0" y="294.0" elementID="dfc8a" elementRef="b3a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="c6c86" elementRef="ea9" x="258.0" y="245.0" relX="0.0" relY="1.0" />
+    <Point elementID="d6c9a" elementRef="b3a" arrowHead="Arrow" x="258.0" y="294.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Label elementID="c97" textLabel="Stress resistance" fillColor="ffffff" fontSize="10" vAlign="Middle" groupRef="dda" centerX="257.5" centerY="497.0" width="95.0" height="20.0" zOrder="28672" />
   <Label elementID="eb5" textLabel="Longevity" fillColor="ffffff" fontSize="10" vAlign="Middle" groupRef="dda" centerX="256.0" centerY="456.0" width="80.0" height="20.0" zOrder="28672" />
@@ -94,7 +94,7 @@ Initial version based on review by Gami and Wolkow of pathways that affect agein
   <Group elementID="dda" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Citations>
-    <Citation title="Studies of Caenorhabditis elegans DAF-2/insulin signaling reveal targets for pharmacological manipulation of lifespan." URL="" citationID="d4d" year="2006" source="Aging Cell">
+    <Citation citationID="d4d" URL="" title="Studies of Caenorhabditis elegans DAF-2/insulin signaling reveal targets for pharmacological manipulation of lifespan." year="2006" source="Aging Cell">
       <Xref dataSource="PubMed" identifier="16441841" />
       <Author name="Gami MS" />
       <Author name="Wolkow CA" />

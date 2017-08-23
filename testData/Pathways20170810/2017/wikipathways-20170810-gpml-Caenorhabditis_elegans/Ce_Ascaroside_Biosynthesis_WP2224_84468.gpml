@@ -5,64 +5,64 @@
   <Comment source="WikiPathways-category">Metabolic Process</Comment>
   <Comment source="WikiPathways-description">A proposed role of peroxisomal beta-oxidation enzymes in ascaroside biosynthesis in C. elegans.  Ascarosides are small-molecule pheromones that play a role in dauer formation, mating attraction, and social feeding behaviors.</Comment>
   <CitationRef citationID="b57" />
-  <DataNode elementID="a796b" textLabel="acox-1" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="444.0" centerY="80.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="a796b" textLabel="acox-1" type="GeneProduct" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="444.0" centerY="80.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="WBGene00008564" />
   </DataNode>
-  <DataNode elementID="ef5eb" textLabel="very long chain fatty acids (VLCFAs)" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="290.0" centerY="29.5" width="80.0" height="47.0" zOrder="32768">
+  <DataNode elementID="ef5eb" textLabel="very long chain fatty acids (VLCFAs)" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="290.0" centerY="29.5" width="80.0" height="47.0" zOrder="32768">
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="dd7a5" textLabel="Short chain  ascarosides" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="291.0" centerY="405.5" width="80.0" height="47.0" zOrder="32772">
+  <DataNode elementID="dd7a5" textLabel="Short chain  ascarosides" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="291.0" centerY="405.5" width="80.0" height="47.0" zOrder="32772">
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="ae7ba" textLabel="MAOC-1" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="444.0" centerY="182.0" width="80.0" height="20.0" zOrder="32773">
+  <DataNode elementID="ae7ba" textLabel="MAOC-1" type="GeneProduct" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="444.0" centerY="182.0" width="80.0" height="20.0" zOrder="32773">
     <Xref dataSource="WormBase" identifier="E04F6.3" />
   </DataNode>
-  <DataNode elementID="ecabf" textLabel="DHS-28" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="444.0" centerY="272.0" width="80.0" height="20.0" zOrder="32774">
+  <DataNode elementID="ecabf" textLabel="DHS-28" type="GeneProduct" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="444.0" centerY="272.0" width="80.0" height="20.0" zOrder="32774">
     <Xref dataSource="WormBase" identifier="M03A8.1" />
   </DataNode>
-  <DataNode elementID="d20d5" textLabel="DAF-22" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="444.0" centerY="361.0" width="80.0" height="20.0" zOrder="32775">
+  <DataNode elementID="d20d5" textLabel="DAF-22" type="GeneProduct" shapeType="RoundedRectangle" fontSize="10" vAlign="Middle" centerX="444.0" centerY="361.0" width="80.0" height="20.0" zOrder="32775">
     <Xref dataSource="WormBase" identifier="Y57A10C.6" />
   </DataNode>
   <Interaction elementID="id5caf4bc0" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="444.0" y="90.0" elementID="d7b84" elementRef="a796b" relX="0.0" relY="1.0" />
-    <Point x="444.0" y="172.0" elementID="f6e37" elementRef="ae7ba" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="b193b" elementRef="a796b" x="444.0" y="90.0" relX="0.0" relY="1.0" />
+    <Point elementID="cc4a0" elementRef="ae7ba" arrowHead="Arrow" x="444.0" y="172.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id6adc0bb9" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="290.0" y="53.0" elementID="ac4ae" elementRef="ef5eb" relX="0.0" relY="1.0" />
-    <Point x="291.0" y="382.0" elementID="de3c8" elementRef="dd7a5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="d14d2" elementRef="ef5eb" x="290.0" y="53.0" relX="0.0" relY="1.0" />
+    <Point elementID="f3097" elementRef="dd7a5" arrowHead="Arrow" x="291.0" y="382.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="ideb46d2b7" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="444.0" y="192.0" elementID="d707f" elementRef="ae7ba" relX="0.0" relY="1.0" />
-    <Point x="444.0" y="262.0" elementID="e8f1c" elementRef="ecabf" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="f4611" elementRef="ae7ba" x="444.0" y="192.0" relX="0.0" relY="1.0" />
+    <Point elementID="df430" elementRef="ecabf" arrowHead="Arrow" x="444.0" y="262.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idec882d4" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="444.0" y="282.0" elementID="c57c9" elementRef="ecabf" relX="0.0" relY="1.0" />
-    <Point x="444.0" y="351.0" elementID="cf3a4" elementRef="d20d5" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="db12d" elementRef="ecabf" x="444.0" y="282.0" relX="0.0" relY="1.0" />
+    <Point elementID="ceb51" elementRef="d20d5" arrowHead="Arrow" x="444.0" y="351.0" relX="0.0" relY="-1.0" />
   </Interaction>
-  <GraphicalLine elementID="c31d8" zOrder="12288" lineThickness="1.0">
-    <Point x="347.0" y="82.0" elementID="d3900" />
-    <Point x="347.0" y="367.0" elementID="c8a76" />
+  <GraphicalLine elementID="ad0a3" zOrder="12288" lineThickness="1.0">
+    <Point elementID="c7611" x="347.0" y="82.0" />
+    <Point elementID="c8813" x="347.0" y="367.0" />
   </GraphicalLine>
-  <GraphicalLine elementID="c4134" zOrder="12288" lineThickness="1.0">
-    <Point x="329.0" y="81.0" elementID="d1824" />
-    <Point x="347.0" y="81.0" elementID="a01e5" />
+  <GraphicalLine elementID="db145" zOrder="12288" lineThickness="1.0">
+    <Point elementID="c4244" x="329.0" y="81.0" />
+    <Point elementID="dba70" x="347.0" y="81.0" />
   </GraphicalLine>
-  <GraphicalLine elementID="de3d8" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
-    <Point x="253.0" y="81.0" elementID="e28a0" />
-    <Point x="253.0" y="366.0" elementID="c5df7" />
+  <GraphicalLine elementID="dff47" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
+    <Point elementID="ffb80" x="253.0" y="81.0" />
+    <Point elementID="f8369" x="253.0" y="366.0" />
   </GraphicalLine>
   <GraphicalLine elementID="b73e8" zOrder="32777" lineThickness="1.0">
-    <Point x="329.0" y="368.0" elementID="bebe1" />
-    <Point x="347.0" y="368.0" elementID="f3404" />
+    <Point elementID="fa5e7" x="329.0" y="368.0" />
+    <Point elementID="ce838" x="347.0" y="368.0" />
   </GraphicalLine>
   <Label elementID="d851d" textLabel="beta peroxisomal  oxidation" shapeType="Rectangle" fillColor="ffffff" fontStyle="Italic" fontSize="10" vAlign="Middle" centerX="291.0" centerY="189.5" width="98.0" height="51.0" zOrder="32776" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Citations>
-    <Citation title="Comparative metabolomics reveals biogenesis of ascarosides, a modular library of small-molecule signals in C. elegans." URL="" citationID="b57" year="2012" source="J Am Chem Soc">
+    <Citation citationID="b57" URL="" title="Comparative metabolomics reveals biogenesis of ascarosides, a modular library of small-molecule signals in C. elegans." year="2012" source="J Am Chem Soc">
       <Xref dataSource="PubMed" identifier="22239548" />
       <Author name="von Reuss SH" />
       <Author name="Bose N" />

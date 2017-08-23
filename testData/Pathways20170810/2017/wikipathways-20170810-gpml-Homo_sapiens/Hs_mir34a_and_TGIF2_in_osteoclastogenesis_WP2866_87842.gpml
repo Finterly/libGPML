@@ -3,43 +3,43 @@
   <Xref dataSource="" identifier="" />
   <Comment source="WikiPathways-description">A model for how miR-34a suppresses osteoclastogenesis.</Comment>
   <CitationRef citationID="aa1" />
-  <DataNode elementID="a2566" textLabel="TGIF2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="191.3491646220352" centerY="201.2327958873702" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="a2566" textLabel="TGIF2" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="191.3491646220352" centerY="201.2327958873702" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Entrez Gene" identifier="60436" />
   </DataNode>
-  <DataNode elementID="c7277" textLabel="Osteoblast" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="134.0" centerY="319.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="c7277" textLabel="Osteoblast" type="Pathway" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="134.0" centerY="319.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WikiPathways" identifier="WP322" />
   </DataNode>
-  <DataNode elementID="dd318" textLabel="Osteoclast" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" type="Pathway" centerX="318.0" centerY="319.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="dd318" textLabel="Osteoclast" type="Pathway" shapeType="None" color="14961e" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="318.0" centerY="319.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="WikiPathways" identifier="WP12" />
   </DataNode>
-  <DataNode elementID="f7d37" textLabel="MIR34A" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="191.96490536277608" centerY="141.93170931183562" width="71.25" height="20.0" zOrder="32768">
+  <DataNode elementID="f7d37" textLabel="MIR34A" type="Rna" color="990099" fontSize="10" vAlign="Middle" centerX="191.96490536277608" centerY="141.93170931183562" width="71.25" height="20.0" zOrder="32768">
     <Xref dataSource="Entrez Gene" identifier="407040" />
   </DataNode>
   <Interaction elementID="id13b2c329" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="278.0" y="319.0" elementID="c2108" elementRef="dd318" relX="-1.0" relY="0.0" arrowHead="Arrow" />
-    <Point x="174.0" y="319.0" elementID="d440a" elementRef="c7277" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="fdce5" elementRef="dd318" arrowHead="Arrow" x="278.0" y="319.0" relX="-1.0" relY="0.0" />
+    <Point elementID="a97c0" elementRef="c7277" arrowHead="Arrow" x="174.0" y="319.0" relX="1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id74ea9c51" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="318.93252699873256" y="117.43483981650564" elementID="a6406" elementRef="a9ec0" relX="0.0" relY="1.0" />
-    <Point x="318.0" y="309.0" elementID="b93a7" elementRef="dd318" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="d38a0" elementRef="a9ec0" x="318.93252699873256" y="117.43483981650564" relX="0.0" relY="1.0" />
+    <Point elementID="aa8e9" elementRef="dd318" arrowHead="Arrow" x="318.0" y="309.0" relX="0.0" relY="-1.0" />
     <Anchor position="0.4418163671853904" shapeType="None" elementID="ed971" />
   </Interaction>
   <Interaction elementID="id95e42bf7" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="231.3491646220352" y="201.2327958873702" elementID="f52dc" elementRef="a2566" relX="1.0" relY="0.0" />
-    <Point x="318.52052130785023" y="202.0714629680645" elementID="ced40" elementRef="ed971" relX="0.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="b802a" elementRef="a2566" x="231.3491646220352" y="201.2327958873702" relX="1.0" relY="0.0" />
+    <Point elementID="f9620" elementRef="ed971" arrowHead="Arrow" x="318.52052130785023" y="202.0714629680645" relX="0.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="ide96e7eaa" zOrder="12288" lineThickness="1.0" color="ff0000">
     <Xref dataSource="" identifier="" />
-    <Point x="191.96490536277608" y="151.93170931183562" elementID="bcfda" elementRef="f7d37" relX="0.0" relY="1.0" />
-    <Point x="191.3491646220352" y="191.2327958873702" elementID="efdcb" elementRef="a2566" relX="0.0" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="fae04" elementRef="f7d37" x="191.96490536277608" y="151.93170931183562" relX="0.0" relY="1.0" />
+    <Point elementID="cfc44" elementRef="a2566" arrowHead="TBar" x="191.3491646220352" y="191.2327958873702" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="c3ee3" zOrder="36889" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="459.37118822292257" y="319.8485804416406" elementID="d6138" elementRef="d06db" relX="-1.0" relY="0.0" arrowHead="Arrow" />
-    <Point x="358.0" y="319.0" elementID="d8497" elementRef="dd318" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="c9bb1" elementRef="d06db" arrowHead="Arrow" x="459.37118822292257" y="319.8485804416406" relX="-1.0" relY="0.0" />
+    <Point elementID="b4490" elementRef="dd318" arrowHead="Arrow" x="358.0" y="319.0" relX="1.0" relY="0.0" />
   </Interaction>
   <Label elementID="d06db" textLabel="Tumor cell" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="499.37118822292257" centerY="319.8485804416406" width="80.0" height="20.0" zOrder="28672" />
   <Label elementID="da6c7" textLabel="Bone resorption" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="321.74553101997907" centerY="406.94006309148267" width="98.88538380651951" height="20.0" zOrder="28672" />
@@ -158,7 +158,7 @@
   <Group elementID="ffa9f" groupType="Group" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Citations>
-    <Citation title="miR-34a blocks osteoporosis and bone metastasis by inhibiting osteoclastogenesis and Tgif2." URL="" citationID="aa1" year="2014" source="Nature">
+    <Citation citationID="aa1" URL="" title="miR-34a blocks osteoporosis and bone metastasis by inhibiting osteoclastogenesis and Tgif2." year="2014" source="Nature">
       <Xref dataSource="PubMed" identifier="25043055" />
       <Author name="Krzeszinski JY" />
       <Author name="Wei W" />
@@ -176,10 +176,10 @@
     </Citation>
   </Citations>
   <OntologyTerms>
-    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
-    <OntologyTerm term="cancer" ontology="Disease" ontologyTermID="DOID:162" />
     <OntologyTerm term="bone disease" ontology="Disease" ontologyTermID="DOID:0080001" />
     <OntologyTerm term="skeletogenic cell" ontology="Cell Type" ontologyTermID="CL:0007001" />
+    <OntologyTerm term="regulatory pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000004" />
+    <OntologyTerm term="cancer" ontology="Disease" ontologyTermID="DOID:162" />
   </OntologyTerms>
 </Pathway>
 

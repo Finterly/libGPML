@@ -3,59 +3,59 @@
   <Xref dataSource="" identifier="" />
   <Comment source="WikiPathways-description">This pathway is based on Figure 2 of "Robo4: a guidance receptor that regulates angiogenesis." (http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2637482/). The gene Robo4 plays a role in regulating vascular stability in mice. Robo4 inhibits the gene Notch1, which regulates tip cell formation, in order to create more tip cells. Robo4 also inhibits cell migration, decreasing vessel complexity. The combination of Slit2 and Robo4 inhibits the activation of Src by VEGF-165 and VEGFR2. This inhibition reduces vascular leakage of Evans Blue from retinal blood vessels. More experimentation is necessary to determine whether Robo4 will inhibit other members of the Src family. </Comment>
   <CitationRef citationID="bb0" />
-  <DataNode elementID="ad17e" textLabel="Robo4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="156.49498997996008" centerY="143.3186372745491" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="ad17e" textLabel="Robo4" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="156.49498997996008" centerY="143.3186372745491" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000032125" />
   </DataNode>
-  <DataNode elementID="b955c" textLabel="Slit2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="156.24298597194388" centerY="72.42735470941884" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="b955c" textLabel="Slit2" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="156.24298597194388" centerY="72.42735470941884" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000031558" />
   </DataNode>
-  <DataNode elementID="bb178" textLabel="VEGFR2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="332.25" centerY="143.25" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="bb178" textLabel="VEGFR2" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="332.25" centerY="143.25" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000062960" />
   </DataNode>
-  <DataNode elementID="bbf12" textLabel="Rac1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="332.25" centerY="300.75" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="bbf12" textLabel="Rac1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="332.25" centerY="300.75" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000001847" />
   </DataNode>
-  <DataNode elementID="c98ea" textLabel="Vegfa" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="332.0" centerY="69.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="c98ea" textLabel="Vegfa" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="332.0" centerY="69.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000023951" />
   </DataNode>
-  <DataNode elementID="e9a5f" textLabel="Src" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="332.8276553106236" centerY="224.48697394789556" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="e9a5f" textLabel="Src" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="332.8276553106236" centerY="224.48697394789556" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="ENSMUSG00000027646" />
   </DataNode>
   <Interaction elementID="id14447c5" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="332.8276553106236" y="234.48697394789556" elementID="f70cb" elementRef="e9a5f" relX="0.0" relY="1.0" />
-    <Point x="332.25" y="290.75" elementID="c2092" elementRef="bbf12" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="d03a0" elementRef="e9a5f" x="332.8276553106236" y="234.48697394789556" relX="0.0" relY="1.0" />
+    <Point elementID="dab4f" elementRef="bbf12" arrowHead="Arrow" x="332.25" y="290.75" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id8f6175b1" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="332.25" y="153.25" elementID="ae1fa" elementRef="bb178" relX="0.0" relY="1.0" />
-    <Point x="332.8276553106236" y="214.48697394789556" elementID="c1ea6" elementRef="e9a5f" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="a82ae" elementRef="bb178" x="332.25" y="153.25" relX="0.0" relY="1.0" />
+    <Point elementID="aafd3" elementRef="e9a5f" arrowHead="Arrow" x="332.8276553106236" y="214.48697394789556" relX="0.0" relY="-1.0" />
     <Anchor position="0.4" shapeType="None" elementID="a2fea" />
   </Interaction>
   <Interaction elementID="id9cf5d153" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="332.25" y="310.75" elementID="b9b2c" elementRef="bbf12" relX="0.0" relY="1.0" />
-    <Point x="439.0" y="364.0" elementID="f1504" elementRef="ea02d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="d8a09" elementRef="bbf12" x="332.25" y="310.75" relX="0.0" relY="1.0" />
+    <Point elementID="c0ff2" elementRef="ea02d" arrowHead="Arrow" x="439.0" y="364.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="ida7aa2972" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="332.25" y="310.75" elementID="a59f4" elementRef="bbf12" relX="0.0" relY="1.0" />
-    <Point x="250.0" y="362.0" elementID="c46d3" elementRef="e7330" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="f0121" elementRef="bbf12" x="332.25" y="310.75" relX="0.0" relY="1.0" />
+    <Point elementID="e3eab" elementRef="e7330" arrowHead="Arrow" x="250.0" y="362.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idc600851e" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="156.49498997996008" y="153.3186372745491" elementID="a70f6" elementRef="ad17e" relX="0.0" relY="1.0" />
-    <Point x="332.48106212424943" y="177.74478957915824" elementID="f39d4" elementRef="a2fea" relX="0.0" relY="0.0" arrowHead="mim-inhibition" />
+    <Point elementID="e0c48" elementRef="ad17e" x="156.49498997996008" y="153.3186372745491" relX="0.0" relY="1.0" />
+    <Point elementID="c7637" elementRef="a2fea" arrowHead="mim-inhibition" x="332.48106212424943" y="177.74478957915824" relX="0.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="idc96ead42" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="156.24298597194388" y="82.42735470941884" elementID="f5f3d" elementRef="b955c" relX="0.0" relY="1.0" />
-    <Point x="156.49498997996008" y="133.3186372745491" elementID="ff1ed" elementRef="ad17e" relX="0.0" relY="-1.0" arrowHead="mim-binding" />
+    <Point elementID="c2c95" elementRef="b955c" x="156.24298597194388" y="82.42735470941884" relX="0.0" relY="1.0" />
+    <Point elementID="b7bae" elementRef="ad17e" arrowHead="mim-binding" x="156.49498997996008" y="133.3186372745491" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="ideee2e4f0" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="332.0" y="79.0" elementID="fdf05" elementRef="c98ea" relX="0.0" relY="1.0" />
-    <Point x="332.25" y="133.25" elementID="fe7ec" elementRef="bb178" relX="0.0" relY="-1.0" arrowHead="mim-binding" />
+    <Point elementID="d8243" elementRef="c98ea" x="332.0" y="79.0" relX="0.0" relY="1.0" />
+    <Point elementID="fbe64" elementRef="bb178" arrowHead="mim-binding" x="332.25" y="133.25" relX="0.0" relY="-1.0" />
   </Interaction>
   <Label elementID="e7330" textLabel="Angiogenesis" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="250.0" centerY="372.0" width="80.0" height="20.0" zOrder="28672" />
   <Label elementID="ea02d" textLabel="Permeability" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="439.0" centerY="373.5" width="80.0" height="19.0" zOrder="28672" />
@@ -65,7 +65,7 @@
   </Shape>
   <InfoBox centerX="0.0" centerY="0.0" />
   <Citations>
-    <Citation title="Robo4: a guidance receptor that regulates angiogenesis." URL="" citationID="bb0" year="2008" source="Cell Adh Migr">
+    <Citation citationID="bb0" URL="" title="Robo4: a guidance receptor that regulates angiogenesis." year="2008" source="Cell Adh Migr">
       <Xref dataSource="PubMed" identifier="19270536" />
       <Author name="Weitzman M" />
       <Author name="Bayley EB" />
