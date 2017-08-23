@@ -6,45 +6,45 @@
   <Comment source="WikiPathways-description">In Saccharomyces cerevisiae, trehalose is a major reserve carbohydrate that has been shown to stabilize proteins during heat shock and to suppress the aggregation of denatured proteins (CITS:9660948). Trehalose has also been shown to be important for surviving osmotic, ethanol, and oxidative stresses (CITS:11483159).  Trehalose biosynthesis also influences glycolysis because trehalose-6-phosphate inhibits hexokinases, which restricts the influx of sugars into glycolysis during a switch to fermentative metabolism (CITS:8809751). Trehalose biosynthesis is a two step process in which glucose 6-phosphate plus UDP-glucose is converted to alpha,alpha-trehalose 6-phosphate by trehalose-6-phosphate synthase (TPS), and then alpha,alpha-trehalose 6-phosphate and water are converted to trehalose and phosphate by trehalose-6-phosphate phosphatase (TPP) (CITS:11152943). In S. cerevisiae, both of these steps occur in a single alpha,alpha-trehalose-phosphate synthase complex which is composed of four protein subunits, Tps1p (CITS:1425702), Tps2p (CITS:8444170), Tsl1p (CITS:8404905), and Tps3p (CITS:9837904). Tps1p contains the TPS catalytic activity, Tps2p contains the TPP activity, and Tps3p and Tsl1p are regulatory proteins with partially overlapping functions (CITS:9837904). Deletion of TPS1 results in loss of both TPS activity and trehalose biosynthesis while deletion of TPS2 results in loss of TPP activity. Deletion of either TSL1 or TPS3 result in mild effects, but deletion of both TSL1 and TSL3 results in significant reductions in TPS and TPP activities as well as reduced trehalose biosynthesis (CITS:9837904). 
 SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html</Comment>
   <CitationRef citationID="e6m" />
-  <DataNode elementID="bf7" textLabel="glucose-6-phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="86.66666666666667" centerY="116.66666666666667" width="167.33333333333334" height="19.0" zOrder="32768">
+  <DataNode elementID="bf7" textLabel="glucose-6-phosphate" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="86.66666666666667" centerY="116.66666666666667" width="167.33333333333334" height="19.0" zOrder="32768">
     <Xref dataSource="CAS" identifier="59-56-3" />
   </DataNode>
-  <DataNode elementID="c93" textLabel="trehalose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="1026.6666666666667" centerY="116.66666666666667" width="76.33333333333333" height="19.0" zOrder="32768">
+  <DataNode elementID="c93" textLabel="trehalose" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="1026.6666666666667" centerY="116.66666666666667" width="76.33333333333333" height="19.0" zOrder="32768">
     <Xref dataSource="CAS" identifier="99-20-7" />
   </DataNode>
-  <DataNode elementID="ce7" textLabel="TPS2" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="843.3333333333334" centerY="103.33333333333333" width="40.0" height="20.0" zOrder="32768">
+  <DataNode elementID="ce7" textLabel="TPS2" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="843.3333333333334" centerY="103.33333333333333" width="40.0" height="20.0" zOrder="32768">
     <Attribute key="org.pathvisio.model.BackpageHead" value="TPS2" />
     <Xref dataSource="SGD" identifier="S000002481" />
   </DataNode>
-  <DataNode elementID="d08" textLabel="TPS1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="293.3333333333333" centerY="83.33333333333333" width="40.0" height="20.0" zOrder="32768">
+  <DataNode elementID="d08" textLabel="TPS1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="293.3333333333333" centerY="83.33333333333333" width="40.0" height="20.0" zOrder="32768">
     <Attribute key="org.pathvisio.model.BackpageHead" value="TPS1" />
     <Xref dataSource="SGD" identifier="S000000330" />
   </DataNode>
-  <DataNode elementID="d2e" textLabel="TPS3" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="293.3333333333333" centerY="103.33333333333333" width="40.0" height="20.0" zOrder="32768">
+  <DataNode elementID="d2e" textLabel="TPS3" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="293.3333333333333" centerY="103.33333333333333" width="40.0" height="20.0" zOrder="32768">
     <Attribute key="org.pathvisio.model.BackpageHead" value="TPS3" />
     <Xref dataSource="SGD" identifier="S000004874" />
   </DataNode>
-  <DataNode elementID="d58" textLabel="TSL1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="293.3333333333333" centerY="63.333333333333336" width="40.0" height="20.0" zOrder="32768">
+  <DataNode elementID="d58" textLabel="TSL1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="293.3333333333333" centerY="63.333333333333336" width="40.0" height="20.0" zOrder="32768">
     <Attribute key="org.pathvisio.model.BackpageHead" value="TSL1" />
     <Xref dataSource="SGD" identifier="S000004566" />
   </DataNode>
-  <DataNode elementID="f79" textLabel="phosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="900.0" centerY="156.66666666666666" width="87.33333333333333" height="19.0" zOrder="32768">
+  <DataNode elementID="f79" textLabel="phosphate" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="900.0" centerY="156.66666666666666" width="87.33333333333333" height="19.0" zOrder="32768">
     <Xref dataSource="CAS" identifier="14265-44-2" />
   </DataNode>
   <Interaction elementID="id82975254" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="170.0" y="116.66666666666667" elementID="fafc2" />
-    <Point x="446.6666666666667" y="116.66666666666667" elementID="c8e0f" arrowHead="Arrow" />
+    <Point elementID="f7f8a" x="170.0" y="116.66666666666667" />
+    <Point elementID="dd61f" arrowHead="Arrow" x="446.6666666666667" y="116.66666666666667" />
   </Interaction>
   <Interaction elementID="ida0c880ac" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="716.6666666666666" y="116.66666666666667" elementID="e3fa6" />
-    <Point x="986.6666666666666" y="116.66666666666667" elementID="c12eb" arrowHead="Arrow" />
+    <Point elementID="bbfb9" x="716.6666666666666" y="116.66666666666667" />
+    <Point elementID="fbefc" arrowHead="Arrow" x="986.6666666666666" y="116.66666666666667" />
   </Interaction>
   <Interaction elementID="idb54d8e24" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="350.0" y="136.66666666666666" elementID="cd0a6" />
-    <Point x="353.3333333333333" y="140.0" elementID="e497c" arrowHead="Arrow" />
+    <Point elementID="f13da" x="350.0" y="136.66666666666666" />
+    <Point elementID="aa5a6" arrowHead="Arrow" x="353.3333333333333" y="140.0" />
   </Interaction>
   <Label elementID="b9b" textLabel="UDP-D-glucose" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="226.66666666666666" centerY="150.0" width="123.33333333333333" height="19.0" zOrder="28672" />
   <Label elementID="cbb" textLabel="alpha,alpha-trehalose 6-phosphate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="583.3333333333334" centerY="116.66666666666667" width="269.3333333333333" height="19.0" zOrder="28672" />
@@ -55,7 +55,7 @@ SOURCE: SGD pathways, http://pathway.yeastgenome.org/server.html</Comment>
   <InfoBox centerX="1.6666666666666667" centerY="1.6666666666666667" />
   <Legend centerX="0.0" centerY="0.0" />
   <Citations>
-    <Citation title="Reserve carbohydrates metabolism in the yeast Saccharomyces cerevisiae." URL="" citationID="e6m" year="2001" source="FEMS Microbiol Rev">
+    <Citation citationID="e6m" URL="" title="Reserve carbohydrates metabolism in the yeast Saccharomyces cerevisiae." year="2001" source="FEMS Microbiol Rev">
       <Xref dataSource="PubMed" identifier="11152943" />
       <Author name="FranÃ§ois J" />
       <Author name="Parrou JL" />

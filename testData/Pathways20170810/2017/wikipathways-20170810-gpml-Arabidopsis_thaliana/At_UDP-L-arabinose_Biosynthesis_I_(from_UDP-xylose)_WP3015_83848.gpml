@@ -5,15 +5,15 @@
 
 Source:[http://plantreactome.gramene.org/ Plant Reactome].</Comment>
   <Attribute key="reactome_id" value="5402192" />
-  <DataNode elementID="ae28c" textLabel="Homologues of NAD&#xA;dependent&#xA;epimerase/dehydratase&#xA;family domain&#xA;containing protein&#xA;(LOC_OS04G52730.1)" fontSize="10" vAlign="Middle" type="Protein" centerX="183.5" centerY="136.5" width="137.0" height="59.0" zOrder="32768">
+  <DataNode elementID="ae28c" textLabel="Homologues of NAD&#xA;dependent&#xA;epimerase/dehydratase&#xA;family domain&#xA;containing protein&#xA;(LOC_OS04G52730.1)" type="Protein" fontSize="10" vAlign="Middle" centerX="183.5" centerY="136.5" width="137.0" height="59.0" zOrder="32768">
     <Attribute key="reactome_id" value="5400401" />
     <Xref dataSource="Reactome" identifier="5400401" />
   </DataNode>
-  <DataNode elementID="e1945" textLabel="UDP-Xyl" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="80.5" centerY="73.0" width="65.0" height="30.0" zOrder="32768">
+  <DataNode elementID="e1945" textLabel="UDP-Xyl" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="80.5" centerY="73.0" width="65.0" height="30.0" zOrder="32768">
     <Attribute key="reactome_id" value="742353" />
     <Xref dataSource="ChEBI" identifier="CHEBI:16082" />
   </DataNode>
-  <DataNode elementID="ee2ca" textLabel="UDP-L-arabinose" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="81.5" centerY="204.5" width="101.0" height="31.0" zOrder="32768">
+  <DataNode elementID="ee2ca" textLabel="UDP-L-arabinose" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="81.5" centerY="204.5" width="101.0" height="31.0" zOrder="32768">
     <Attribute key="reactome_id" value="1131157" />
     <Xref dataSource="ChEBI" identifier="CHEBI:17983" />
   </DataNode>
@@ -21,26 +21,26 @@ Source:[http://plantreactome.gramene.org/ Plant Reactome].</Comment>
     <Xref dataSource="Reactome" identifier="5400487" />
     <Comment source="Reactome">This event has been computationally inferred from an event that has been demonstrated in another species.&lt;p&gt;The inference is based on Ensembl Compara orthology projection. Briefly, reactions for which all involved PhysicalEntities (in input, output and catalyst) have a mapped ortholog or paralog are inferred to the other species. High-level events are also inferred for these events to allow for easier navigation.&lt;p&gt;Details of projection methods and parameters may be found &lt;a href="/projection.html"&gt;here.&lt;/a&gt;&lt;p&gt;</Comment>
     <Attribute key="reactome_id" value="5400487" />
-    <Point x="80.0" y="91.0" elementID="e58f1" />
-    <Point x="80.0" y="186.0" elementID="a02b6" />
+    <Point elementID="a99ab" x="80.0" y="91.0" />
+    <Point elementID="cf5a9" x="80.0" y="186.0" />
     <Anchor position="0.0" shapeType="None" elementID="e99ee" />
     <Anchor position="0.99" shapeType="None" elementID="fd576" />
     <Anchor position="0.5" shapeType="None" elementID="e2783" />
   </Interaction>
   <Interaction elementID="d3d33" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="Reactome" identifier="5400487" />
-    <Point x="115.0" y="136.0" elementID="d653c" elementRef="ae28c" relX="-1.0" relY="-0.01694915254237288" />
-    <Point x="80.0" y="186.0" elementID="c34de" elementRef="e2783" relX="0.0" relY="47.5" arrowHead="mim-catalysis" />
+    <Point elementID="a1248" elementRef="ae28c" x="115.0" y="136.0" relX="-1.0" relY="-0.01694915254237288" />
+    <Point elementID="adbd2" elementRef="e2783" arrowHead="mim-catalysis" x="80.0" y="186.0" relX="0.0" relY="47.5" />
   </Interaction>
   <Interaction elementID="d55c9" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="Reactome" identifier="5400487" />
-    <Point x="80.0" y="88.0" elementID="d766e" elementRef="e1945" relX="-0.015384615384615385" relY="1.0" />
-    <Point x="80.0" y="91.0" elementID="b10b0" elementRef="e99ee" relX="0.0" relY="0.0" />
+    <Point elementID="cc288" elementRef="e1945" x="80.0" y="88.0" relX="-0.015384615384615385" relY="1.0" />
+    <Point elementID="ec16e" elementRef="e99ee" x="80.0" y="91.0" relX="0.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="fecd5" connectorType="Segmented" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="Reactome" identifier="5400487" />
-    <Point x="80.0" y="186.0" elementID="ddf9b" elementRef="fd576" relX="0.0" relY="0.9499999999999886" />
-    <Point x="81.0" y="189.0" elementID="fdfa6" elementRef="ee2ca" relX="-0.009900990099009901" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="c31c5" elementRef="fd576" x="80.0" y="186.0" relX="0.0" relY="0.9499999999999886" />
+    <Point elementID="a949c" elementRef="ee2ca" arrowHead="Arrow" x="81.0" y="189.0" relX="-0.009900990099009901" relY="-1.0" />
   </Interaction>
   <Label elementID="b2a1b" textLabel="cytosol" fillColor="ffffff" fontSize="10" vAlign="Middle" groupRef="c80f5" centerX="141.0" centerY="33.5" width="64.0" height="33.0" zOrder="28672" />
   <Shape elementID="fae70" groupRef="c80f5" shapeType="RoundedRectangle" lineThickness="3.0" color="c0c0c0" fontSize="10" vAlign="Middle" centerX="142.5" centerY="137.0" width="277.0" height="266.0" zOrder="16384" rotation="0.0">

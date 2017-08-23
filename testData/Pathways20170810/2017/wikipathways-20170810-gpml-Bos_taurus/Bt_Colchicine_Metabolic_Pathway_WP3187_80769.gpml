@@ -6,52 +6,52 @@
   <Comment source="HomologyConvert">This pathway was inferred from Homo sapiens pathway [http://wikipathways.org/instance/WP2536_r74479 WP2536(74479)]  with a 100.0% conversion rate.</Comment>
   <CitationRef citationID="a77" />
   <CitationRef citationID="e72" />
-  <DataNode elementID="c6ebc" textLabel="Colchicine" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="145.0" centerY="111.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="c6ebc" textLabel="Colchicine" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="145.0" centerY="111.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Chemspider" identifier="5933" />
   </DataNode>
-  <DataNode elementID="d4a9d" textLabel="3DMC" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="310.0" centerY="111.0" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="d4a9d" textLabel="3DMC" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="310.0" centerY="111.0" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Chemspider" identifier="264748" />
   </DataNode>
-  <DataNode elementID="d406b" textLabel="2DMC" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="145.0" centerY="246.0" width="80.0" height="20.0" zOrder="32771">
+  <DataNode elementID="d406b" textLabel="2DMC" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="145.0" centerY="246.0" width="80.0" height="20.0" zOrder="32771">
     <Xref dataSource="Chemspider" identifier="22210" />
   </DataNode>
-  <DataNode elementID="ff780" textLabel="CYP3A4" fontSize="10" vAlign="Middle" type="Protein" centerX="211.0" centerY="192.0" width="80.0" height="20.0" zOrder="32772">
+  <DataNode elementID="ff780" textLabel="CYP3A4" type="Protein" fontSize="10" vAlign="Middle" centerX="211.0" centerY="192.0" width="80.0" height="20.0" zOrder="32772">
     <Comment source="HomologyConvert">HomologyConvert: Homo sapiens to Bos taurus: Original ID = S:P08684</Comment>
     <Xref dataSource="Ensembl" identifier="ENSBTAG00000047379" />
   </DataNode>
   <Interaction elementID="id2b3f4a18" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
     <CitationRef citationID="a77" />
-    <Point x="185.0" y="111.0" elementID="ce363" elementRef="c6ebc" relX="1.0" relY="0.0" />
-    <Point x="270.0" y="111.0" elementID="e561e" elementRef="d4a9d" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="eeeb6" elementRef="c6ebc" x="185.0" y="111.0" relX="1.0" relY="0.0" />
+    <Point elementID="f294b" elementRef="d4a9d" arrowHead="Arrow" x="270.0" y="111.0" relX="-1.0" relY="0.0" />
     <Anchor position="0.3058823529411765" shapeType="None" elementID="fdf56" />
   </Interaction>
   <Interaction elementID="id64989c5" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
     <CitationRef citationID="e72" />
-    <Point x="165.0" y="121.0" elementID="db1ed" elementRef="c6ebc" relX="0.5" relY="1.0" />
-    <Point x="191.0" y="182.0" elementID="ac35a" elementRef="ff780" relX="-0.5" relY="-1.0" arrowHead="mim-inhibition" />
+    <Point elementID="e1ec5" elementRef="c6ebc" x="165.0" y="121.0" relX="0.5" relY="1.0" />
+    <Point elementID="e605c" elementRef="ff780" arrowHead="mim-inhibition" x="191.0" y="182.0" relX="-0.5" relY="-1.0" />
   </Interaction>
   <Interaction elementID="iddb8622d1" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="211.0" y="182.0" elementID="bf9e8" elementRef="ff780" relX="0.0" relY="-1.0" />
-    <Point x="211.0" y="111.0" elementID="a5357" elementRef="fdf56" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+    <Point elementID="b8bc3" elementRef="ff780" x="211.0" y="182.0" relX="0.0" relY="-1.0" />
+    <Point elementID="f9424" elementRef="fdf56" arrowHead="mim-catalysis" x="211.0" y="111.0" relX="0.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="b7125" zOrder="32769" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
     <CitationRef citationID="a77" />
-    <Point x="145.0" y="121.0" elementID="ff02c" elementRef="c6ebc" relX="0.0" relY="1.0" />
-    <Point x="145.0" y="236.0" elementID="c6584" elementRef="d406b" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="e7397" elementRef="c6ebc" x="145.0" y="121.0" relX="0.0" relY="1.0" />
+    <Point elementID="c428f" elementRef="d406b" arrowHead="Arrow" x="145.0" y="236.0" relX="0.0" relY="-1.0" />
     <Anchor position="0.6173913043478261" shapeType="None" elementID="e652e" />
   </Interaction>
   <Interaction elementID="fbf4e" zOrder="32770" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="171.0" y="192.0" elementID="aa0e8" elementRef="ff780" relX="-1.0" relY="0.0" />
-    <Point x="145.0" y="192.0" elementID="c4f5f" elementRef="e652e" relX="0.0" relY="0.0" arrowHead="mim-catalysis" />
+    <Point elementID="fb504" elementRef="ff780" x="171.0" y="192.0" relX="-1.0" relY="0.0" />
+    <Point elementID="aaf59" elementRef="e652e" arrowHead="mim-catalysis" x="145.0" y="192.0" relX="0.0" relY="0.0" />
   </Interaction>
   <InfoBox centerX="0.0" centerY="0.0" />
   <Citations>
-    <Citation title="Colchicine biotransformation by human liver microsomes. Identification of CYP3A4 as the major isoform responsible for colchicine demethylation." URL="" citationID="a77" year="1997" source="Biochem Pharmacol">
+    <Citation citationID="a77" URL="" title="Colchicine biotransformation by human liver microsomes. Identification of CYP3A4 as the major isoform responsible for colchicine demethylation." year="1997" source="Biochem Pharmacol">
       <Xref dataSource="PubMed" identifier="8960070" />
       <Author name="Tateishi T" />
       <Author name="Soucek P" />
@@ -59,7 +59,7 @@
       <Author name="Guengerich FP" />
       <Author name="Wood AJ" />
     </Citation>
-    <Citation title="Colchicine down-regulates cytochrome P450 2B6, 2C8, 2C9, and 3A4 in human hepatocytes by affecting their glucocorticoid receptor-mediated regulation." URL="" citationID="e72" year="2003" source="Mol Pharmacol">
+    <Citation citationID="e72" URL="" title="Colchicine down-regulates cytochrome P450 2B6, 2C8, 2C9, and 3A4 in human hepatocytes by affecting their glucocorticoid receptor-mediated regulation." year="2003" source="Mol Pharmacol">
       <Xref dataSource="PubMed" identifier="12815172" />
       <Author name="Dvorak Z" />
       <Author name="Modriansky M" />

@@ -2,7 +2,7 @@
 <Pathway xmlns="http://pathvisio.org/GPML/2017" name="T-Cell Receptor and Co-stimulatory Signaling" organism="Homo sapiens" width="1094.44242141301" height="1023.6974789915965">
   <Xref dataSource="" identifier="" />
   <Comment source="WikiPathways-description">The activation and translocation of transcription factors NFAT, AP-1 and NF-kappa-B via the co-stimulatory signaling cascade triggered by MHC peptide, B7 proteins and PD-L1. The activation of NFAT involves a Ca2+/calcineurin disruption of a massive RNA-protein complex prior to its translocation into the nucleus and ultimate transcription factor activity.</Comment>
-  <DataNode elementID="dde01" textLabel="LCK" groupRef="b9041" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.0483286679053" centerY="236.0277627100356" width="55.5" height="22.2677202133259" zOrder="32773">
+  <DataNode elementID="dde01" textLabel="LCK" type="GeneProduct" groupRef="b9041" fontSize="10" vAlign="Middle" centerX="382.0483286679053" centerY="236.0277627100356" width="55.5" height="22.2677202133259" zOrder="32773">
     <Comment>Cytoplasmic tyrosine kinase - Lck in its inactive state is bound to CD4/CD8 cytoplasmic tail and it's terminal tyrosine is phosphorylated. Dephosphorylation of this amino acid (by tyrosine phosphotase CD45 -- CD4/CD8 binding its ligand) causes a conformations change in LcK and it becomes an active tyrosine kinase.
 
 LcK is activated when the extracellular part of CD8 binds its (MHC:peptide) ligand. Lck is a Src family kinase that is constitutively expressed. It phosphorylates all TCR ITAMS.
@@ -12,7 +12,7 @@ Rephosphorylation of this carboxyl-terminal tyrosine by Csk returns Lck to the i
 Basically, Lck is bound to CD8. When CD8 binds MHC:peptide, Lck gets activated and can phosphorylate nearby ITAMs.</Comment>
     <Xref dataSource="Entrez Gene" identifier="3932" />
   </DataNode>
-  <DataNode elementID="f346f" textLabel="ZAP70" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="245.6650666694012" centerY="247.2587392089953" width="55.5" height="22.2677202133259" zOrder="32774">
+  <DataNode elementID="f346f" textLabel="ZAP70" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="245.6650666694012" centerY="247.2587392089953" width="55.5" height="22.2677202133259" zOrder="32774">
     <Comment>ZAP-70 is kinase that becomes activated after phosphorylation. It contains to tandem SH2 domains that bind to phosphorylated ITAMs on the TCR complex cytoplasmic tails. 
 
 It docks at the TCR (requires both ITAM positions to be phosphorylated), is then phosphorylated by Lck, and then recruits other signaling proteins.
@@ -20,21 +20,21 @@ It docks at the TCR (requires both ITAM positions to be phosphorylated), is then
 </Comment>
     <Xref dataSource="Entrez Gene" identifier="7535" />
   </DataNode>
-  <DataNode elementID="beb89" textLabel="PIP2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="651.5187139579423" centerY="247.25873920899528" width="55.5" height="22.2677202133259" zOrder="32775">
+  <DataNode elementID="beb89" textLabel="PIP2" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="651.5187139579423" centerY="247.25873920899528" width="55.5" height="22.2677202133259" zOrder="32775">
     <Comment>PIP2 is a membrane lipid. </Comment>
     <Xref dataSource="HMDB" identifier="HMDB10059" />
   </DataNode>
-  <DataNode elementID="ff54e" textLabel="LAT / SLP-76 scaffold complex" fontSize="10" vAlign="Middle" type="Protein" centerX="245.10974069131055" centerY="342.0630299083109" width="159.08324145534695" height="22.2677202133259" zOrder="32777">
+  <DataNode elementID="ff54e" textLabel="LAT / SLP-76 scaffold complex" type="Protein" fontSize="10" vAlign="Middle" centerX="245.10974069131055" centerY="342.0630299083109" width="159.08324145534695" height="22.2677202133259" zOrder="32777">
     <Comment>Linker for Activation of T cells - LAT is a transmembrane scaffold protein. It can be phosphorylated by Zap-70.
 
 This scaffold includes LAT, SLP-76, Grb2, SOS, GADS</Comment>
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="b8443" textLabel="PIP3" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="651.5293601924932" centerY="342.0630299083109" width="55.5" height="22.2677202133259" zOrder="32778">
+  <DataNode elementID="b8443" textLabel="PIP3" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="651.5293601924932" centerY="342.0630299083109" width="55.5" height="22.2677202133259" zOrder="32778">
     <Comment>PIP3 is a membrane lipid generated from PIP2 by the enzyme P13K. PIP3 has a PH binding domain that can be recognized by PLC-g, Itk, and Atk.</Comment>
     <Xref dataSource="HMDB" identifier="HMDB10147" />
   </DataNode>
-  <DataNode elementID="f5b02" textLabel="PLCG1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="285.4411200421986" centerY="401.1881866315349" width="55.5" height="22.2677202133259" zOrder="32779">
+  <DataNode elementID="f5b02" textLabel="PLCG1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="285.4411200421986" centerY="401.1881866315349" width="55.5" height="22.2677202133259" zOrder="32779">
     <Comment>PLC-g is a phospholipase, a class of enzymes that cleave phospholipids just before the phosphate group.
 
 PLC-g is initially brought to the plasma membrane by binding of its PH domain to membrane lipid PIP3. PLC-g then binds to LAT and SLP-76 and can be activated by Itk mediated phosphorylation.
@@ -42,177 +42,177 @@ PLC-g is initially brought to the plasma membrane by binding of its PH domain to
 PLC-g ultimately produces 3 different second messangers to activate 3 paths leading to different TFs that lead to IL-2 transcription</Comment>
     <Xref dataSource="Entrez Gene" identifier="5335" />
   </DataNode>
-  <DataNode elementID="b6ecd" textLabel="ITK" fontSize="10" vAlign="Middle" type="Protein" centerX="382.0483286679053" centerY="342.06302990831097" width="55.5" height="22.2677202133259" zOrder="32780">
+  <DataNode elementID="b6ecd" textLabel="ITK" type="Protein" fontSize="10" vAlign="Middle" centerX="382.0483286679053" centerY="342.06302990831097" width="55.5" height="22.2677202133259" zOrder="32780">
     <Comment>Itk is a membrane associated tryosine kinase. It binds to phosphorylated LAT and SLP-76 scafflods. From here is activates PLC-g by phosphorylation</Comment>
     <Xref dataSource="Entrez Gene" identifier="3702" />
   </DataNode>
-  <DataNode elementID="c5e7e" textLabel="AKT1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="723.0124390142305" centerY="401.1881866315349" width="55.5" height="22.2677202133259" zOrder="32781">
+  <DataNode elementID="c5e7e" textLabel="AKT1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="723.0124390142305" centerY="401.1881866315349" width="55.5" height="22.2677202133259" zOrder="32781">
     <Comment>Akt is a serine/threonine-specific protein kinase that plays a key role in many cellular processes such as glucose metabolism, apoptosis, cell proliferation, transcription, and cell migration.
 
 Akt is recruited to the membrane by PIP3. Here Akt can be activated / phosphorylated (indirectly) by P13K and can then phosphorylate a variety of downstream pathways. Noteably, Akt promotes cell survival by inhibiting the cell death pathway and stimulates cell metabolism by increasing the utilization of glucose.</Comment>
     <Xref dataSource="Entrez Gene" identifier="207" />
   </DataNode>
-  <DataNode elementID="b78e0" textLabel="PKC-a" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="638.4114095623721" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32782">
+  <DataNode elementID="b78e0" textLabel="PKC-a" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="638.4114095623721" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32782">
     <Xref dataSource="Entrez Gene" identifier="5578" />
   </DataNode>
-  <DataNode elementID="d4781" textLabel="SHP1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="752.3768928750031" centerY="242.7215341273256" width="55.5" height="22.2677202133259" zOrder="32783">
+  <DataNode elementID="d4781" textLabel="SHP1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="752.3768928750031" centerY="242.7215341273256" width="55.5" height="22.2677202133259" zOrder="32783">
     <Comment>SHP-1/2 are tyrosine phosphatases. Here, SHP removes phosphates from PIP3 reverting it back to PIP2. (reverses the work of tyrosine kinase P13K)
 
 SHP is recruited to the PD-1 cytoplasmic tail when PD-1 ITIMs are phosphorylated.</Comment>
     <Xref dataSource="Entrez Gene" identifier="5777" />
   </DataNode>
-  <DataNode elementID="f2340" textLabel="P13K" fontSize="10" vAlign="Middle" type="Protein" centerX="508.66702864236515" centerY="287.2607832076517" width="55.5" height="22.2677202133259" zOrder="32785">
+  <DataNode elementID="f2340" textLabel="P13K" type="Protein" fontSize="10" vAlign="Middle" centerX="508.66702864236515" centerY="287.2607832076517" width="55.5" height="22.2677202133259" zOrder="32785">
     <Comment>P13K converts membrane lipid PIP2 to PIP3 by adding a phosphate. P13K activity is dependent upon CD28 co-stimulation because P13K can bind to phosphorylated ITIMs on CD28.
 
 PI3K can also bind ICOS</Comment>
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="fea98" textLabel="Ca2+" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="194.79282753847878" centerY="554.9332084091923" width="55.5" height="22.2677202133259" zOrder="32787">
+  <DataNode elementID="fea98" textLabel="Ca2+" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="194.79282753847878" centerY="554.9332084091923" width="55.5" height="22.2677202133259" zOrder="32787">
     <Comment>Calcium ions are second messengers, small-molecule biochemical mediators. Calcium is released from the ER by IP3. It diffuses throughough the cell enabling the signal to activate a variety of taget proteins. A certain calcium ion concentration must be acheived before targets can be activated.</Comment>
     <Xref dataSource="HMDB" identifier="HMDB00464" />
   </DataNode>
-  <DataNode elementID="eeb8e" textLabel="Bcl-xL" shapeType="Hexagon" fontSize="10" vAlign="Middle" type="Protein" centerX="561.9006109159052" centerY="865.4709351208364" width="55.5" height="24.714526341316173" zOrder="32788">
+  <DataNode elementID="eeb8e" textLabel="Bcl-xL" type="Protein" shapeType="Hexagon" fontSize="10" vAlign="Middle" centerX="561.9006109159052" centerY="865.4709351208364" width="55.5" height="24.714526341316173" zOrder="32788">
     <Comment>Bcl-xL is a transmembrane protein in the mitochondria. It is a anti-apoptosis protein because it prevents release of cytochrome c from the mitochondria.</Comment>
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="cf1d5" textLabel="Erk" fontSize="10" vAlign="Middle" type="Protein" centerX="455.1785004299707" centerY="678.2041917454685" width="55.5" height="22.2677202133259" zOrder="32789">
+  <DataNode elementID="cf1d5" textLabel="Erk" type="Protein" fontSize="10" vAlign="Middle" centerX="455.1785004299707" centerY="678.2041917454685" width="55.5" height="22.2677202133259" zOrder="32789">
     <Comment>Erk is MAP kinase that is phosphorylated by MAPKK, Mek. SHP's and PP2A may also dephosphorylate Erk to some extent.</Comment>
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="d965c" textLabel="NFKB1" shapeType="Oval" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="656.3783527616621" centerY="764.6265735460373" width="55.5" height="24.097420397609767" zOrder="32791">
+  <DataNode elementID="d965c" textLabel="NFKB1" type="GeneProduct" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="656.3783527616621" centerY="764.6265735460373" width="55.5" height="24.097420397609767" zOrder="32791">
     <Comment></Comment>
     <Xref dataSource="Entrez Gene" identifier="4790" />
   </DataNode>
-  <DataNode elementID="dc90a" textLabel="AP-1 " shapeType="Oval" fontSize="10" vAlign="Middle" type="Protein" centerX="454.1744013987545" centerY="789.6135907162216" width="55.5" height="24.097420397609767" zOrder="32792">
+  <DataNode elementID="dc90a" textLabel="AP-1 " type="Protein" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="454.1744013987545" centerY="789.6135907162216" width="55.5" height="24.097420397609767" zOrder="32792">
     <Comment>A heterodimeric protein composed of proteins belonging to the c-Fos, c-Jun, ATF and JDP families</Comment>
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="ff620" textLabel="NFAT1" shapeType="Oval" fontSize="10" vAlign="Middle" type="Protein" centerX="194.79282753847878" centerY="860.0345286577382" width="55.5" height="24.097420397609767" zOrder="32793">
+  <DataNode elementID="ff620" textLabel="NFAT1" type="Protein" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="194.79282753847878" centerY="860.0345286577382" width="55.5" height="24.097420397609767" zOrder="32793">
     <Comment></Comment>
     <Xref dataSource="Entrez Gene" identifier="4773" />
   </DataNode>
-  <DataNode elementID="f2b94" textLabel="Ras-GAP" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="542.7602317169815" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32795">
+  <DataNode elementID="f2b94" textLabel="Ras-GAP" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="542.7602317169815" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32795">
     <Comment>Ras-GAP rapidly downregulates the activity of Ras by converting its bound GTP to GDP</Comment>
     <Xref dataSource="Entrez Gene" identifier="5921" />
   </DataNode>
-  <DataNode elementID="f002d" textLabel="Ras-GTP" fontSize="10" vAlign="Middle" type="Protein" centerX="454.960625633583" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32797">
+  <DataNode elementID="f002d" textLabel="Ras-GTP" type="Protein" fontSize="10" vAlign="Middle" centerX="454.960625633583" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32797">
     <Comment>Ras is a small G protein of GTPase. It is located in the membrane, and it acts as a molecular switch. It is inactive when bound to GDP, but becomes active when GDP is switched for GTP. Binding the GTP induces a conformational change in Ras thus enabling it to bind to and do other things.</Comment>
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="ab4fe" textLabel="DAG" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="456.81913195646626" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32798">
+  <DataNode elementID="ab4fe" textLabel="DAG" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="456.81913195646626" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32798">
     <Comment>Produced from PIP2 cleaveage by PLC-g.
 
 DAG is a membrane protein which can now recruit other signaling molecules to the membrane by serving as a binding target. </Comment>
     <Xref dataSource="HMDB" identifier="HMDB07223" />
   </DataNode>
-  <DataNode elementID="d1518" textLabel="IP3" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="194.4729594059932" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32799">
+  <DataNode elementID="d1518" textLabel="IP3" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="194.4729594059932" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32799">
     <Comment>IP3 is generated when PLC-g cleaves PIP2.
 
 IP3 is a second messanger that diffuses into the cytosol and binds to IP3 receptors on the ER therey opening calcium channels.</Comment>
     <Xref dataSource="HMDB" identifier="HMDB01059" />
   </DataNode>
-  <DataNode elementID="e07f7" textLabel="Calmodulin" fontSize="10" vAlign="Middle" type="Protein" centerX="194.79282753847878" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32800">
+  <DataNode elementID="e07f7" textLabel="Calmodulin" type="Protein" fontSize="10" vAlign="Middle" centerX="194.79282753847878" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32800">
     <Comment>Calmodulin is a calcium binding protein. Binding Ca ions induces a conformational change allowing calmodulin to bind to and regulate a variety of effector proteins.</Comment>
     <Xref dataSource="Entrez Gene" identifier="801" />
   </DataNode>
-  <DataNode elementID="beeba" textLabel="RasGRP" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="404.29333725338984" centerY="554.9332084091923" width="55.5" height="22.2677202133259" zOrder="32802">
+  <DataNode elementID="beeba" textLabel="RasGRP" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="404.29333725338984" centerY="554.9332084091923" width="55.5" height="22.2677202133259" zOrder="32802">
     <Comment>RasGRP binds to DAG in the membrane where it can activate Ras</Comment>
     <Xref dataSource="Entrez Gene" identifier="10125" />
   </DataNode>
-  <DataNode elementID="b595a" textLabel="IL2" shapeType="Hexagon" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="454.4285005291818" centerY="865.4709351208364" width="55.5" height="24.714526341316173" zOrder="32808">
+  <DataNode elementID="b595a" textLabel="IL2" type="GeneProduct" shapeType="Hexagon" fontSize="10" vAlign="Middle" centerX="454.4285005291818" centerY="865.4709351208364" width="55.5" height="24.714526341316173" zOrder="32808">
     <Comment>All three TFs (NFAT, AP-1, and NFkB) a needed to initiate IL-2 transcription.</Comment>
     <Xref dataSource="Entrez Gene" identifier="3558" />
   </DataNode>
-  <DataNode elementID="e95dc" textLabel="Calcineurin" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="194.79282753847878" centerY="678.2041917454685" width="55.5" height="22.2677202133259" zOrder="32809">
+  <DataNode elementID="e95dc" textLabel="Calcineurin" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="194.79282753847878" centerY="678.2041917454685" width="55.5" height="22.2677202133259" zOrder="32809">
     <Comment>Calcineurin is a protein phosphatase that acts on NFAT. </Comment>
     <Xref dataSource="Entrez Gene" identifier="5530" />
   </DataNode>
-  <DataNode elementID="dd1b4" textLabel="IkBa" fontSize="10" vAlign="Middle" type="Protein" centerX="656.3783527616621" centerY="678.2041917454685" width="55.5" height="22.2677202133259" zOrder="32814">
+  <DataNode elementID="dd1b4" textLabel="IkBa" type="Protein" fontSize="10" vAlign="Middle" centerX="656.3783527616621" centerY="678.2041917454685" width="55.5" height="22.2677202133259" zOrder="32814">
     <Comment>IkB is an inhibitory protein which when bound to NFkB holds it in an inactive state.</Comment>
     <Xref dataSource="Uniprot-TrEMBL" identifier="P25963" />
   </DataNode>
-  <DataNode elementID="a7ff6" textLabel="IKK complex" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="656.4194395387262" centerY="553.1183263765245" width="70.10122981546994" height="22.2677202133259" zOrder="32815">
+  <DataNode elementID="a7ff6" textLabel="IKK complex" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="656.4194395387262" centerY="553.1183263765245" width="70.10122981546994" height="22.2677202133259" zOrder="32815">
     <Comment>IKK is a complex of serine kinases. It phosphorylates IkB, stimulating IkB's ubiquitination which targets IkB for degradation by the proteasome.</Comment>
     <Xref dataSource="Enzyme Nomenclature" identifier="2.7.11.10" />
   </DataNode>
-  <DataNode elementID="e9f05" textLabel="PTEN" fontSize="10" vAlign="Middle" type="Protein" centerX="712.5942045476347" centerY="287.2607832076517" width="55.5" height="22.2677202133259" zOrder="32828">
+  <DataNode elementID="e9f05" textLabel="PTEN" type="Protein" fontSize="10" vAlign="Middle" centerX="712.5942045476347" centerY="287.2607832076517" width="55.5" height="22.2677202133259" zOrder="32828">
     <Comment>Phosphatase and tensin homolog - PTEN is constitutively expressed and is a PIP3 phosphatase.</Comment>
     <Xref dataSource="Entrez Gene" identifier="5728" />
   </DataNode>
-  <DataNode elementID="b6cf9" textLabel="PDK1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="623.2035710059913" centerY="401.18818663153496" width="55.5" height="22.2677202133259" zOrder="32829">
+  <DataNode elementID="b6cf9" textLabel="PDK1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="623.2035710059913" centerY="401.18818663153496" width="55.5" height="22.2677202133259" zOrder="32829">
     <Comment>Phosphoinositide-dependent kinase-1: recruited to the membrane by docking at PIP3 and phosphorylates/activates Akt</Comment>
     <Xref dataSource="Entrez Gene" identifier="5163" />
   </DataNode>
-  <DataNode elementID="e35aa" textLabel="Ras-GDP" fontSize="10" vAlign="Middle" type="Protein" centerX="361.4525777647799" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32832">
+  <DataNode elementID="e35aa" textLabel="Ras-GDP" type="Protein" fontSize="10" vAlign="Middle" centerX="361.4525777647799" centerY="618.5276895077518" width="55.5" height="22.2677202133259" zOrder="32832">
     <Comment>Ras is a small G protein of GTPase. It is located in the membrane, and it acts as a molecular switch. It is inactive when bound to GDP, but becomes active when GDP is switched for GTP. Binding the GTP induces a conformational change in Ras thus enabling it to bind to and do other things.</Comment>
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="c6db8" textLabel="PIP2" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="318.0553775092797" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32833">
+  <DataNode elementID="c6db8" textLabel="PIP2" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="318.0553775092797" centerY="475.99342174708624" width="55.5" height="22.2677202133259" zOrder="32833">
     <Comment>PIP2 is a membrane lipid.</Comment>
     <Xref dataSource="HMDB" identifier="HMDB10059" />
   </DataNode>
-  <DataNode elementID="da6cd" textLabel="MHC peptide" shapeType="Oval" fontSize="10" vAlign="Middle" type="Complex" centerX="342.05566308433765" centerY="43.220831367985326" width="54.133597883598085" height="50.310269445813695" zOrder="32844">
+  <DataNode elementID="da6cd" textLabel="MHC peptide" type="Complex" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="342.05566308433765" centerY="43.220831367985326" width="54.133597883598085" height="50.310269445813695" zOrder="32844">
     <Comment></Comment>
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="a8ece" textLabel="B7-1/ B7-2" shapeType="Oval" fontSize="10" vAlign="Middle" type="Complex" centerX="482.761492245162" centerY="55.01756458032649" width="53.63232812157827" height="50.310269445813695" zOrder="32845">
+  <DataNode elementID="a8ece" textLabel="B7-1/ B7-2" type="Complex" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="482.761492245162" centerY="55.01756458032649" width="53.63232812157827" height="50.310269445813695" zOrder="32845">
     <Comment></Comment>
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="f7b20" textLabel="B7-1/ B7-2" shapeType="Oval" fontSize="10" vAlign="Middle" type="Complex" centerX="607.5191718848695" centerY="55.01756458032649" width="53.63232812157827" height="50.310269445813695" zOrder="32846">
+  <DataNode elementID="f7b20" textLabel="B7-1/ B7-2" type="Complex" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="607.5191718848695" centerY="55.01756458032649" width="53.63232812157827" height="50.310269445813695" zOrder="32846">
     <Comment></Comment>
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="c951f" textLabel="PD-L1" shapeType="Oval" fontSize="10" vAlign="Middle" type="Complex" centerX="764.1780244761183" centerY="55.01756458032649" width="53.63232812157827" height="50.310269445813695" zOrder="32847">
+  <DataNode elementID="c951f" textLabel="PD-L1" type="Complex" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="764.1780244761183" centerY="55.01756458032649" width="53.63232812157827" height="50.310269445813695" zOrder="32847">
     <Comment></Comment>
     <Xref dataSource="" identifier="" />
   </DataNode>
-  <DataNode elementID="cc296" textLabel="NFAT1" groupRef="daadd" shapeType="Oval" fontSize="10" vAlign="Middle" type="Protein" centerX="249.34881537027502" centerY="771.9512898011951" width="55.5" height="24.097420397609767" zOrder="32850">
+  <DataNode elementID="cc296" textLabel="NFAT1" type="Protein" groupRef="daadd" shapeType="Oval" fontSize="10" vAlign="Middle" centerX="249.34881537027502" centerY="771.9512898011951" width="55.5" height="24.097420397609767" zOrder="32850">
     <Comment></Comment>
     <Xref dataSource="Entrez Gene" identifier="4773" />
   </DataNode>
-  <DataNode elementID="ee0e6" textLabel="CSNK1A1" groupRef="daadd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.42889575453904" centerY="747.8464561428176" width="55.5" height="22.2677202133259" zOrder="32851">
+  <DataNode elementID="ee0e6" textLabel="CSNK1A1" type="GeneProduct" groupRef="daadd" fontSize="10" vAlign="Middle" centerX="139.42889575453904" centerY="747.8464561428176" width="55.5" height="22.2677202133259" zOrder="32851">
     <Xref dataSource="Entrez Gene" identifier="1452" />
   </DataNode>
-  <DataNode elementID="f3f11" textLabel="GSK3A" groupRef="daadd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.42889575453904" centerY="770.1141763561435" width="55.5" height="22.2677202133259" zOrder="32852">
+  <DataNode elementID="f3f11" textLabel="GSK3A" type="GeneProduct" groupRef="daadd" fontSize="10" vAlign="Middle" centerX="139.42889575453904" centerY="770.1141763561435" width="55.5" height="22.2677202133259" zOrder="32852">
     <Xref dataSource="Entrez Gene" identifier="2931" />
   </DataNode>
-  <DataNode elementID="fd8f4" textLabel="GSK3B" groupRef="daadd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="139.42889575453904" centerY="792.3818965694694" width="55.5" height="22.2677202133259" zOrder="32853">
+  <DataNode elementID="fd8f4" textLabel="GSK3B" type="GeneProduct" groupRef="daadd" fontSize="10" vAlign="Middle" centerX="139.42889575453904" centerY="792.3818965694694" width="55.5" height="22.2677202133259" zOrder="32853">
     <Xref dataSource="Entrez Gene" identifier="2932" />
   </DataNode>
-  <DataNode elementID="d02ac" textLabel="DYRK1A" groupRef="daadd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="194.98445131009515" centerY="792.3745866279484" width="55.5" height="22.2677202133259" zOrder="32854">
+  <DataNode elementID="d02ac" textLabel="DYRK1A" type="GeneProduct" groupRef="daadd" fontSize="10" vAlign="Middle" centerX="194.98445131009515" centerY="792.3745866279484" width="55.5" height="22.2677202133259" zOrder="32854">
     <Xref dataSource="Entrez Gene" identifier="1859" />
   </DataNode>
-  <DataNode elementID="a4c27" textLabel="DYRK2" groupRef="daadd" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="194.98445131009515" centerY="770.1068664146225" width="55.5" height="22.2677202133259" zOrder="32855">
+  <DataNode elementID="a4c27" textLabel="DYRK2" type="GeneProduct" groupRef="daadd" fontSize="10" vAlign="Middle" centerX="194.98445131009515" centerY="770.1068664146225" width="55.5" height="22.2677202133259" zOrder="32855">
     <Xref dataSource="Entrez Gene" identifier="8445" />
   </DataNode>
-  <DataNode elementID="dea5f" textLabel="NRON" groupRef="daadd" color="990099" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="194.98445131009515" centerY="747.8391462012966" width="55.5" height="22.2677202133259" zOrder="32856">
+  <DataNode elementID="dea5f" textLabel="NRON" type="GeneProduct" groupRef="daadd" color="990099" fontSize="10" vAlign="Middle" centerX="194.98445131009515" centerY="747.8391462012966" width="55.5" height="22.2677202133259" zOrder="32856">
     <Comment>NRON is a long non-coding RNA</Comment>
     <CitationRef citationID="a44" />
     <Xref dataSource="Ensembl" identifier="ENSG00000253079" />
   </DataNode>
-  <DataNode elementID="cd850" textLabel="FYN" groupRef="b9041" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.0483286679053" centerY="258.2954829233614" width="55.5" height="22.2677202133259" zOrder="32857">
+  <DataNode elementID="cd850" textLabel="FYN" type="GeneProduct" groupRef="b9041" fontSize="10" vAlign="Middle" centerX="382.0483286679053" centerY="258.2954829233614" width="55.5" height="22.2677202133259" zOrder="32857">
     <Xref dataSource="Entrez Gene" identifier="2534" />
   </DataNode>
-  <DataNode elementID="e47c1" textLabel="TCRA" groupRef="a140c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="303.3742617059901" centerY="84.87778682804313" width="55.5" height="22.2677202133259" zOrder="32858">
+  <DataNode elementID="e47c1" textLabel="TCRA" type="GeneProduct" groupRef="a140c" fontSize="10" vAlign="Middle" centerX="303.3742617059901" centerY="84.87778682804313" width="55.5" height="22.2677202133259" zOrder="32858">
     <Xref dataSource="Entrez Gene" identifier="6955" />
   </DataNode>
-  <DataNode elementID="aa665" textLabel="TCRB" groupRef="a140c" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="303.3742617059901" centerY="107.14550704136913" width="55.5" height="22.2677202133259" zOrder="32859">
+  <DataNode elementID="aa665" textLabel="TCRB" type="GeneProduct" groupRef="a140c" fontSize="10" vAlign="Middle" centerX="303.3742617059901" centerY="107.14550704136913" width="55.5" height="22.2677202133259" zOrder="32859">
     <Xref dataSource="Entrez Gene" identifier="6957" />
   </DataNode>
-  <DataNode elementID="ed56f" textLabel="CD8A" groupRef="b8142" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.33173333606874" centerY="85.83016778042398" width="55.5" height="22.2677202133259" zOrder="32860">
+  <DataNode elementID="ed56f" textLabel="CD8A" type="GeneProduct" groupRef="b8142" fontSize="10" vAlign="Middle" centerX="382.33173333606874" centerY="85.83016778042398" width="55.5" height="22.2677202133259" zOrder="32860">
     <Comment>CD8 co-receptor - alpha subunit</Comment>
     <Xref dataSource="Entrez Gene" identifier="925" />
   </DataNode>
-  <DataNode elementID="c363d" textLabel="CD8B" groupRef="b8142" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="382.33173333606874" centerY="108.09788799374985" width="55.5" height="22.2677202133259" zOrder="32861">
+  <DataNode elementID="c363d" textLabel="CD8B" type="GeneProduct" groupRef="b8142" fontSize="10" vAlign="Middle" centerX="382.33173333606874" centerY="108.09788799374985" width="55.5" height="22.2677202133259" zOrder="32861">
     <Comment>CD8 co-receptor - beta subunit</Comment>
     <Xref dataSource="Entrez Gene" identifier="926" />
   </DataNode>
-  <DataNode elementID="ed30d" textLabel="CD28" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="481.2609529367945" centerY="95.43001140572807" width="55.5" height="22.2677202133259" zOrder="32862">
+  <DataNode elementID="ed30d" textLabel="CD28" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="481.2609529367945" centerY="95.43001140572807" width="55.5" height="22.2677202133259" zOrder="32862">
     <Comment>CD28 is a co-stimulatory surface receptor. It bind B7-1 and B7-2. After CD28 binds its ligand, it is phosphorylated by Lck. The effect of this phosphorylation activates P13K to generate PIP3 which recruits Itk to the cell membrane where Lck can phosphorylate it. Then Itk-P can recruit PLC-g</Comment>
     <Xref dataSource="Entrez Gene" identifier="940" />
   </DataNode>
-  <DataNode elementID="c2643" textLabel="CTLA4" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="607.413403027538" centerY="95.43001140572805" width="55.5" height="22.2677202133259" zOrder="32863">
+  <DataNode elementID="c2643" textLabel="CTLA4" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="607.413403027538" centerY="95.43001140572805" width="55.5" height="22.2677202133259" zOrder="32863">
     <Comment>Expression is enhanced by IL-2.
 Function is controlled largely by regulation of its surface expression. Initially CTLA-4 is in the intracellular membrane but moves to the cell surface after T-cell receptor signaling.
 When CTLA-4 cytoplasmic tail is NOT phosphorylated it binds to AP-2 (clathrin adapter molecule) and is removed from the surface. When the tail is phosphorylated AP-2 cannot bind and CTLA-4 is expressed on the surface.
@@ -220,7 +220,7 @@ CTLA-4 competes with CD28 for B7 ligand, and it has a higher affinity of B7 in p
 CTLA-4 interfers with the formation of lipid rafts, TCR:ZAP70 microclusters, and central supramolecular activation complex.</Comment>
     <Xref dataSource="Entrez Gene" identifier="1493" />
   </DataNode>
-  <DataNode elementID="e282a" textLabel="PDCD1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="766.2337297063043" centerY="95.43001140572808" width="55.5" height="22.2677202133259" zOrder="32864">
+  <DataNode elementID="e282a" textLabel="PDCD1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="766.2337297063043" centerY="95.43001140572808" width="55.5" height="22.2677202133259" zOrder="32864">
     <Comment>PD-1 is repressed by pro-inflammatry cytokines. It's ligand, PD-L1, is constitutively expressed on T-cells. PD-1 contains a ITIM (immunoreceptor tyrosine-based inhibitory motif) in its cytoplasmic tail. When this ITIM is phosphorylated, it recruits either of 2 inhibitory phosphatases called SHP</Comment>
     <Xref dataSource="Entrez Gene" identifier="5133" />
   </DataNode>
@@ -230,317 +230,317 @@ CTLA-4 interfers with the formation of lipid rafts, TCR:ZAP70 microclusters, and
   <Interaction elementID="id12ffba13" zOrder="12288" lineThickness="1.0" color="ff0033">
     <Xref dataSource="" identifier="protein-protein interation" />
     <Comment>IkB hols NFkB in the cytoplams in an inactive state by binding to it. Once IkB is phosphorylated, NFkb is realeased and enters the nucleus.</Comment>
-    <Point x="656.3783527616621" y="689.3380518521315" elementID="ab1f1" elementRef="dd1b4" relX="0.0" relY="1.0" />
-    <Point x="656.3783527616621" y="752.5778633472324" elementID="ee89c" elementRef="d965c" relX="0.0" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="dd423" elementRef="dd1b4" x="656.3783527616621" y="689.3380518521315" relX="0.0" relY="1.0" />
+    <Point elementID="b28d7" elementRef="d965c" arrowHead="TBar" x="656.3783527616621" y="752.5778633472324" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id139f5313" zOrder="12288" lineThickness="1.0" color="0000ff">
     <Xref dataSource="" identifier="de-phosphorylation" />
     <Comment>Dephosphorylation of NFAT by calcineurin allows NFAT to enter the nucleus.</Comment>
-    <Point x="194.79282753847878" y="689.3380518521315" elementID="e330c" elementRef="e95dc" relX="0.0" relY="1.0" />
-    <Point x="194.38885556240703" y="724.7052860946336" elementID="c31cf" elementRef="daadd" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Point elementID="abe2a" elementRef="e95dc" x="194.79282753847878" y="689.3380518521315" relX="0.0" relY="1.0" />
+    <Point elementID="bda8a" elementRef="daadd" arrowHead="mim-conversion" x="194.38885556240703" y="724.7052860946336" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id2489f199" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="0033ff">
     <Xref dataSource="" identifier="de-phosphorylation" />
     <Comment>SHP can de-phosphorylate Zap-70.</Comment>
-    <Point x="738.5018928750031" y="231.58767402066266" elementID="cb6b8" elementRef="d4781" relX="-0.5" relY="-1.0" />
-    <Point x="485.14597977220217" y="207.80399274047184" elementID="c86dc" />
-    <Point x="231.7900666694012" y="236.12487910233233" elementID="ae883" elementRef="f346f" relX="-0.5" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="af9a7" elementRef="d4781" x="738.5018928750031" y="231.58767402066266" relX="-0.5" relY="-1.0" />
+    <Point elementID="e27a7" x="485.14597977220217" y="207.80399274047184" />
+    <Point elementID="a3884" elementRef="f346f" arrowHead="TBar" x="231.7900666694012" y="236.12487910233233" relX="-0.5" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id26a22e18" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="" />
-    <Point x="454.1744013987545" y="801.6623009150264" elementID="d9d13" elementRef="dc90a" relX="0.0" relY="1.0" />
-    <Point x="454.4285005291818" y="853.1136719501783" elementID="dc844" elementRef="b595a" relX="0.0" relY="-1.0" arrowHead="mim-transcription-translation" />
+    <Point elementID="e7c35" elementRef="dc90a" x="454.1744013987545" y="801.6623009150264" relX="0.0" relY="1.0" />
+    <Point elementID="cf8a8" elementRef="b595a" arrowHead="mim-transcription-translation" x="454.4285005291818" y="853.1136719501783" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id283fc4e0" zOrder="12288" lineThickness="1.0" color="00cc00">
     <Xref dataSource="" identifier="" />
-    <Point x="324.65136141898404" y="342.0630299083109" elementID="d07fe" elementRef="ff54e" relX="1.0" relY="0.0" />
-    <Point x="354.2983286679053" y="342.06302990831097" elementID="c6af9" elementRef="b6ecd" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="c3893" elementRef="ff54e" x="324.65136141898404" y="342.0630299083109" relX="1.0" relY="0.0" />
+    <Point elementID="fca09" elementRef="b6ecd" arrowHead="Arrow" x="354.2983286679053" y="342.06302990831097" relX="-1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id2fca9322" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="protein-protein interaction" />
     <Comment>Like PD-1, CTLA-4 also has an ITIM. When PP2A is phosphorylated and dissociates from CTLA-4 ITIM, SHPs can dock there.</Comment>
-    <Point x="621.288403027538" y="106.563871512391" elementID="d6a55" elementRef="c2643" relX="0.5" relY="1.0" />
-    <Point x="686.8326479512706" y="139.74591651542647" elementID="e8d75" />
-    <Point x="752.3768928750031" y="231.58767402066266" elementID="f8de4" elementRef="d4781" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="e6e5b" elementRef="c2643" x="621.288403027538" y="106.563871512391" relX="0.5" relY="1.0" />
+    <Point elementID="b27b6" x="686.8326479512706" y="139.74591651542647" />
+    <Point elementID="a90d5" elementRef="d4781" arrowHead="Arrow" x="752.3768928750031" y="231.58767402066266" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id3874e5dc" zOrder="12288" lineThickness="1.0" color="3333ff">
     <Xref dataSource="" identifier="" />
     <Comment>PTEN dephosphorylates PIP3 converting it back into PIP2</Comment>
-    <Point x="684.8442045476347" y="287.2607832076517" elementID="ab50a" elementRef="e9f05" relX="-1.0" relY="0.0" />
-    <Point x="651.5229724517626" y="287.4072275100541" elementID="bba1c" elementRef="d6af8" relX="0.0" relY="0.0" arrowHead="TBar" />
+    <Point elementID="c2fe8" elementRef="e9f05" x="684.8442045476347" y="287.2607832076517" relX="-1.0" relY="0.0" />
+    <Point elementID="feafd" elementRef="d6af8" arrowHead="TBar" x="651.5229724517626" y="287.4072275100541" relX="0.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id4244a269" zOrder="12288" lineThickness="1.0" color="ff9900">
     <Xref dataSource="" identifier="" />
-    <Point x="389.2025777647799" y="618.5276895077518" elementID="d12ed" elementRef="e35aa" relX="1.0" relY="0.0" />
-    <Point x="427.210625633583" y="618.5276895077518" elementID="e9e2f" elementRef="f002d" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="fdabf" elementRef="e35aa" x="389.2025777647799" y="618.5276895077518" relX="1.0" relY="0.0" />
+    <Point elementID="c6157" elementRef="f002d" arrowHead="Arrow" x="427.210625633583" y="618.5276895077518" relX="-1.0" relY="0.0" />
     <Anchor position="0.4" shapeType="None" elementID="c363b" />
   </Interaction>
   <Interaction elementID="id4362a538" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="phosphorylation" />
     <Comment>Lck can phosphorylate ITAMs on CD28 when it binds its ligand (MHC:peptide) and hence is brought close to the TCR</Comment>
-    <Point x="417.7983286679053" y="232.0277627100356" elementID="d50a7" elementRef="b9041" relX="1.0" relY="-0.5" />
-    <Point x="467.3859529367945" y="106.56387151239102" elementID="b6f94" elementRef="ed30d" relX="-0.5" relY="1.0" arrowHead="mim-conversion" />
+    <Point elementID="ab068" elementRef="b9041" x="417.7983286679053" y="232.0277627100356" relX="1.0" relY="-0.5" />
+    <Point elementID="b64cd" elementRef="ed30d" arrowHead="mim-conversion" x="467.3859529367945" y="106.56387151239102" relX="-0.5" relY="1.0" />
   </Interaction>
   <Interaction elementID="id4430e9f9" zOrder="12288" lineThickness="1.0" color="00cc00">
     <Xref dataSource="" identifier="protein-protein interaction" />
     <Comment>P13K binds to phosphorylated CD28 ITAMs</Comment>
-    <Point x="495.1359529367945" y="106.56387151239102" elementID="d5326" elementRef="ed30d" relX="0.5" relY="1.0" />
-    <Point x="494.79202864236515" y="276.12692310098873" elementID="a8485" elementRef="f2340" relX="-0.5" relY="-1.0" arrowHead="mim-conversion" />
+    <Point elementID="feb72" elementRef="ed30d" x="495.1359529367945" y="106.56387151239102" relX="0.5" relY="1.0" />
+    <Point elementID="d4678" elementRef="f2340" arrowHead="mim-conversion" x="494.79202864236515" y="276.12692310098873" relX="-0.5" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id49612b91" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="00cc00">
     <Xref dataSource="" identifier="protein-protein interaction" />
     <Comment>When ITAMs on CTLA-4 have been phosphorylated, P13K can dock there and begin its kinase action.</Comment>
-    <Point x="607.413403027538" y="106.563871512391" elementID="aa644" elementRef="c2643" relX="0.0" relY="1.0" />
-    <Point x="522.5420286423652" y="276.12692310098873" elementID="f8cf7" elementRef="f2340" relX="0.5" relY="-1.0" arrowHead="mim-conversion" />
+    <Point elementID="e3b6c" elementRef="c2643" x="607.413403027538" y="106.563871512391" relX="0.0" relY="1.0" />
+    <Point elementID="d02ae" elementRef="f2340" arrowHead="mim-conversion" x="522.5420286423652" y="276.12692310098873" relX="0.5" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id4b01005b" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="phosphorylation" />
     <Comment>Once Itk is recruited to the membrane by binding to PIP3, it can be activated/phosphorylated by Lck</Comment>
-    <Point x="382.0483286679053" y="277.42934303002437" elementID="d3b39" elementRef="b9041" relX="0.0" relY="1.0" />
-    <Point x="382.0483286679053" y="330.929169801648" elementID="d26c4" elementRef="b6ecd" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Point elementID="d0ae8" elementRef="b9041" x="382.0483286679053" y="277.42934303002437" relX="0.0" relY="1.0" />
+    <Point elementID="ec726" elementRef="b6ecd" arrowHead="mim-conversion" x="382.0483286679053" y="330.929169801648" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id54643aa6" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="" />
-    <Point x="650.9535710059913" y="401.18818663153496" elementID="e12a9" elementRef="b6cf9" relX="1.0" relY="0.0" />
-    <Point x="695.2624390142305" y="401.1881866315349" elementID="ea24a" elementRef="c5e7e" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="be9de" elementRef="b6cf9" x="650.9535710059913" y="401.18818663153496" relX="1.0" relY="0.0" />
+    <Point elementID="d60b7" elementRef="c5e7e" arrowHead="Arrow" x="695.2624390142305" y="401.1881866315349" relX="-1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id57452236" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="phosphorylation" />
     <Comment>Once PKC localizes to the membrane it can phosphorylate membrane protein CARMA1.</Comment>
-    <Point x="638.4114095623721" y="487.1272818537492" elementID="ba14f" elementRef="b78e0" relX="0.0" relY="1.0" />
-    <Point x="638.8941320848587" y="541.9844662698615" elementID="ca02a" elementRef="a7ff6" relX="-0.5" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="e3698" elementRef="b78e0" x="638.4114095623721" y="487.1272818537492" relX="0.0" relY="1.0" />
+    <Point elementID="de8cc" elementRef="a7ff6" arrowHead="Arrow" x="638.8941320848587" y="541.9844662698615" relX="-0.5" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id57e04b22" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="00cc00">
     <Xref dataSource="" identifier="" />
-    <Point x="656.3783527616621" y="776.6752837448422" elementID="b4146" elementRef="d965c" relX="0.0" relY="1.0" />
-    <Point x="589.6506109159052" y="865.4709351208364" elementID="fc1af" elementRef="eeb8e" relX="1.0" relY="0.0" arrowHead="mim-transcription-translation" />
+    <Point elementID="b8b9a" elementRef="d965c" x="656.3783527616621" y="776.6752837448422" relX="0.0" relY="1.0" />
+    <Point elementID="aced9" elementRef="eeb8e" arrowHead="mim-transcription-translation" x="589.6506109159052" y="865.4709351208364" relX="1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id61bb862f" zOrder="12288" lineThickness="1.0" color="00cc00">
     <Xref dataSource="" identifier="protein-protein interaction / activation" />
     <Comment>CD4/8 binding its ligand activates Lck</Comment>
-    <Point x="382.33173333606874" y="131.2317481004128" elementID="abf93" elementRef="b8142" relX="0.0" relY="1.0" />
-    <Point x="382.0483286679053" y="216.89390260337268" elementID="c817e" elementRef="b9041" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Point elementID="a6582" elementRef="b8142" x="382.33173333606874" y="131.2317481004128" relX="0.0" relY="1.0" />
+    <Point elementID="f3d85" elementRef="b9041" arrowHead="mim-conversion" x="382.0483286679053" y="216.89390260337268" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id6316c817" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="phosphorylation" />
     <Comment>Lck can phosphorylate PD-1 ITIMS when PD-1 had bound its ligand and it brought close to the immunological synapse.</Comment>
-    <Point x="399.9233286679053" y="216.89390260337268" elementID="f2a10" elementRef="b9041" relX="0.5" relY="-1.0" />
-    <Point x="780.1087297063043" y="106.56387151239103" elementID="e132a" elementRef="e282a" relX="0.5" relY="1.0" arrowHead="mim-conversion" />
+    <Point elementID="df601" elementRef="b9041" x="399.9233286679053" y="216.89390260337268" relX="0.5" relY="-1.0" />
+    <Point elementID="d9dda" elementRef="e282a" arrowHead="mim-conversion" x="780.1087297063043" y="106.56387151239103" relX="0.5" relY="1.0" />
   </Interaction>
   <Interaction elementID="id641b35cd" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="" />
-    <Point x="404.29333725338984" y="566.0670685158552" elementID="b3ac5" elementRef="beeba" relX="0.0" relY="1.0" />
-    <Point x="404.4057969123011" y="618.5276895077518" elementID="c7bd6" elementRef="c363b" relX="0.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="f5645" elementRef="beeba" x="404.29333725338984" y="566.0670685158552" relX="0.0" relY="1.0" />
+    <Point elementID="ff0f2" elementRef="c363b" arrowHead="Arrow" x="404.4057969123011" y="618.5276895077518" relX="0.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id68241bda" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="protein-protein interaction" />
     <Comment>Once calmodulin das bound Ca ions and changes conformation, it can bind to and activate calcineurin.</Comment>
-    <Point x="194.79282753847878" y="629.6615496144148" elementID="f007a" elementRef="e07f7" relX="0.0" relY="1.0" />
-    <Point x="194.79282753847878" y="667.0703316388056" elementID="bbc98" elementRef="e95dc" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="e0f2e" elementRef="e07f7" x="194.79282753847878" y="629.6615496144148" relX="0.0" relY="1.0" />
+    <Point elementID="e83c8" elementRef="e95dc" arrowHead="Arrow" x="194.79282753847878" y="667.0703316388056" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id6f3349d2" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="0066ff">
     <Xref dataSource="" identifier="de-phosphorylation" />
     <Comment>SHP phosphoatase can de-phosphorylate PIP3 and revert it back to PIP2</Comment>
-    <Point x="752.3768928750031" y="253.85539423398856" elementID="fd87a" elementRef="d4781" relX="0.0" relY="1.0" />
-    <Point x="679.2793601924932" y="342.0630299083109" elementID="dadd4" elementRef="b8443" relX="1.0" relY="0.0" arrowHead="TBar" />
+    <Point elementID="f26c9" elementRef="d4781" x="752.3768928750031" y="253.85539423398856" relX="0.0" relY="1.0" />
+    <Point elementID="fa9b3" elementRef="b8443" arrowHead="TBar" x="679.2793601924932" y="342.0630299083109" relX="1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id85f10f7a" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="" />
-    <Point x="382.0483286679053" y="353.1968900149739" elementID="d66b2" elementRef="b6ecd" relX="0.0" relY="1.0" />
-    <Point x="313.1911200421986" y="401.1881866315349" elementID="b285c" elementRef="f5b02" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="fba94" elementRef="b6ecd" x="382.0483286679053" y="353.1968900149739" relX="0.0" relY="1.0" />
+    <Point elementID="fa8f1" elementRef="f5b02" arrowHead="Arrow" x="313.1911200421986" y="401.1881866315349" relX="1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id87e48fbb" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="194.38885556240703" y="815.5157566761324" elementID="dddf1" elementRef="daadd" relX="0.0" relY="1.0" />
-    <Point x="194.79282753847878" y="847.9858184589333" elementID="bf820" elementRef="ff620" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="d1248" elementRef="daadd" x="194.38885556240703" y="815.5157566761324" relX="0.0" relY="1.0" />
+    <Point elementID="c4403" elementRef="ff620" arrowHead="Arrow" x="194.79282753847878" y="847.9858184589333" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id90944a8f" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="" />
-    <Point x="364.1733286679053" y="216.89390260337268" elementID="d8f41" elementRef="b9041" relX="-0.5" relY="-1.0" />
-    <Point x="303.3742617059901" y="130.2793671480321" elementID="e346f" elementRef="a140c" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Point elementID="dadcc" elementRef="b9041" x="364.1733286679053" y="216.89390260337268" relX="-0.5" relY="-1.0" />
+    <Point elementID="d9940" elementRef="a140c" arrowHead="Arrow" x="303.3742617059901" y="130.2793671480321" relX="0.0" relY="1.0" />
   </Interaction>
   <Interaction elementID="id94d147d0" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="" />
     <Comment>Ras activates Raf</Comment>
-    <Point x="454.960625633583" y="629.6615496144148" elementID="f41fa" elementRef="f002d" relX="0.0" relY="1.0" />
-    <Point x="455.1785004299707" y="667.0703316388056" elementID="fa8f1" elementRef="cf1d5" relX="0.0" relY="-1.0" arrowHead="mim-stimulation" />
+    <Point elementID="eebd7" elementRef="f002d" x="454.960625633583" y="629.6615496144148" relX="0.0" relY="1.0" />
+    <Point elementID="e0103" elementRef="cf1d5" arrowHead="mim-stimulation" x="455.1785004299707" y="667.0703316388056" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id95054879" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="protein-protein interaction" />
     <Comment>IP3 binds the ER to release calcium</Comment>
-    <Point x="194.4729594059932" y="487.1272818537492" elementID="b4fc5" elementRef="d1518" relX="0.0" relY="1.0" />
-    <Point x="194.79282753847878" y="543.7993483025293" elementID="ae795" elementRef="fea98" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="e2bb2" elementRef="d1518" x="194.4729594059932" y="487.1272818537492" relX="0.0" relY="1.0" />
+    <Point elementID="feaaa" elementRef="fea98" arrowHead="Arrow" x="194.79282753847878" y="543.7993483025293" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id98914f7b" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="" />
-    <Point x="656.4194395387262" y="564.2521864831874" elementID="a054b" elementRef="a7ff6" relX="0.0" relY="1.0" />
-    <Point x="656.3783527616621" y="667.0703316388056" elementID="fdc82" elementRef="dd1b4" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="ce2a8" elementRef="a7ff6" x="656.4194395387262" y="564.2521864831874" relX="0.0" relY="1.0" />
+    <Point elementID="a31ee" elementRef="dd1b4" arrowHead="Arrow" x="656.3783527616621" y="667.0703316388056" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id9e40c182" zOrder="12288" lineStyle="Broken" lineThickness="1.0" color="ff0000">
     <Xref dataSource="" identifier="" />
-    <Point x="454.4285005291818" y="877.8281982914946" elementID="fc1aa" elementRef="b595a" relX="0.0" relY="1.0" />
-    <Point x="453.72460069318015" y="948.7787153844797" elementID="ec6c4" elementRef="bdd9d" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="fd6b4" elementRef="b595a" x="454.4285005291818" y="877.8281982914946" relX="0.0" relY="1.0" />
+    <Point elementID="e9d3e" elementRef="bdd9d" arrowHead="Arrow" x="453.72460069318015" y="948.7787153844797" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id9e7cce8" zOrder="12288" lineThickness="1.0" color="ff9900">
     <Xref dataSource="" identifier="comes from" />
-    <Point x="651.5187139579423" y="258.39259931565823" elementID="e82a3" elementRef="beb89" relX="0.0" relY="1.0" />
-    <Point x="651.5293601924932" y="330.92916980164796" elementID="d6951" elementRef="b8443" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="d3c2b" elementRef="beb89" x="651.5187139579423" y="258.39259931565823" relX="0.0" relY="1.0" />
+    <Point elementID="d2df2" elementRef="b8443" arrowHead="Arrow" x="651.5293601924932" y="330.92916980164796" relX="0.0" relY="-1.0" />
     <Anchor position="0.4" shapeType="None" elementID="d6af8" />
   </Interaction>
   <Interaction elementID="ida06fc4da" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="" />
-    <Point x="222.54282753847878" y="860.0345286577382" elementID="eac65" elementRef="ff620" relX="1.0" relY="0.0" />
-    <Point x="426.6785005291818" y="859.2923035355074" elementID="adc48" elementRef="b595a" relX="-1.0" relY="-0.5" arrowHead="mim-transcription-translation" />
+    <Point elementID="edf0e" elementRef="ff620" x="222.54282753847878" y="860.0345286577382" relX="1.0" relY="0.0" />
+    <Point elementID="be214" elementRef="b595a" arrowHead="mim-transcription-translation" x="426.6785005291818" y="859.2923035355074" relX="-1.0" relY="-0.5" />
   </Interaction>
   <Interaction elementID="ida1506fa6" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="protein-protein interaction" />
     <Comment>DAG recruites PKC to the membrane where i docks to DAG and acts as a kinase.</Comment>
-    <Point x="484.56913195646626" y="475.99342174708624" elementID="e73f8" elementRef="ab4fe" relX="1.0" relY="0.0" />
-    <Point x="610.6614095623721" y="475.99342174708624" elementID="cdcc9" elementRef="b78e0" relX="-1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Point elementID="f06b0" elementRef="ab4fe" x="484.56913195646626" y="475.99342174708624" relX="1.0" relY="0.0" />
+    <Point elementID="bc055" elementRef="b78e0" arrowHead="mim-conversion" x="610.6614095623721" y="475.99342174708624" relX="-1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="ida37351ba" zOrder="12288" lineThickness="1.0" color="00cc00">
     <Xref dataSource="" identifier="" />
-    <Point x="284.8805510551473" y="353.19689001497386" elementID="ce75e" elementRef="ff54e" relX="0.5" relY="1.0" />
-    <Point x="285.4411200421986" y="390.05432652487195" elementID="e2cf5" elementRef="f5b02" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="a801c" elementRef="ff54e" x="284.8805510551473" y="353.19689001497386" relX="0.5" relY="1.0" />
+    <Point elementID="dd91f" elementRef="f5b02" arrowHead="Arrow" x="285.4411200421986" y="390.05432652487195" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idac77b406" zOrder="12288" lineThickness="1.0" color="ff9900">
     <Xref dataSource="" identifier="" />
-    <Point x="345.8053775092797" y="475.99342174708624" elementID="ffd26" elementRef="c6db8" relX="1.0" relY="0.0" />
-    <Point x="429.06913195646626" y="475.99342174708624" elementID="dd9ee" elementRef="ab4fe" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="a48cb" elementRef="c6db8" x="345.8053775092797" y="475.99342174708624" relX="1.0" relY="0.0" />
+    <Point elementID="e159c" elementRef="ab4fe" arrowHead="Arrow" x="429.06913195646626" y="475.99342174708624" relX="-1.0" relY="0.0" />
     <Anchor position="0.4" shapeType="None" elementID="c2b15" />
   </Interaction>
   <Interaction elementID="idaf4f9a86" zOrder="12288" lineThickness="1.0" color="00cc00">
     <Xref dataSource="" identifier="" />
-    <Point x="637.6543601924932" y="353.19689001497386" elementID="e10a3" elementRef="b8443" relX="-0.5" relY="1.0" />
-    <Point x="637.0785710059913" y="390.054326524872" elementID="d67b9" elementRef="b6cf9" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="ced67" elementRef="b8443" x="637.6543601924932" y="353.19689001497386" relX="-0.5" relY="1.0" />
+    <Point elementID="c88bc" elementRef="b6cf9" arrowHead="Arrow" x="637.0785710059913" y="390.054326524872" relX="0.5" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idb6262259" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="protein-protein interaction" />
     <Comment>PLC-g cleaves PIP2 to produce DAG and IP3</Comment>
-    <Point x="299.3161200421986" y="412.32204673819786" elementID="f7421" elementRef="f5b02" relX="0.5" relY="1.0" />
-    <Point x="379.1108792881543" y="475.99342174708624" elementID="f6410" elementRef="c2b15" relX="0.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="f4eb5" elementRef="f5b02" x="299.3161200421986" y="412.32204673819786" relX="0.5" relY="1.0" />
+    <Point elementID="fbe1f" elementRef="c2b15" arrowHead="Arrow" x="379.1108792881543" y="475.99342174708624" relX="0.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="idb713e88d" zOrder="12288" lineThickness="1.0" color="ff0033">
     <Xref dataSource="" identifier="protein-protein interaction" />
     <Comment>Ras-Gap is a GTPase that converts GTP to GDP</Comment>
-    <Point x="515.0102317169815" y="618.5276895077518" elementID="f712a" elementRef="f2b94" relX="-1.0" relY="0.0" />
-    <Point x="482.710625633583" y="618.5276895077518" elementID="c64b7" elementRef="f002d" relX="1.0" relY="0.0" arrowHead="TBar" />
+    <Point elementID="cedd7" elementRef="f2b94" x="515.0102317169815" y="618.5276895077518" relX="-1.0" relY="0.0" />
+    <Point elementID="dd19c" elementRef="f002d" arrowHead="TBar" x="482.710625633583" y="618.5276895077518" relX="1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="idb93be9d6" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="00cc00">
     <Xref dataSource="" identifier="proteion-protein interaction" />
     <Comment>Akt is recruited to the membrane by PIP3; it can dock there and become activated.</Comment>
-    <Point x="665.4043601924932" y="353.19689001497386" elementID="ed44d" elementRef="b8443" relX="0.5" relY="1.0" />
-    <Point x="723.0124390142305" y="390.05432652487195" elementID="c21ce" elementRef="c5e7e" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Point elementID="f9092" elementRef="b8443" x="665.4043601924932" y="353.19689001497386" relX="0.5" relY="1.0" />
+    <Point elementID="b1e35" elementRef="c5e7e" arrowHead="mim-conversion" x="723.0124390142305" y="390.05432652487195" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idbd80ffef" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="00cc00">
     <Xref dataSource="" identifier="protein-protein interaction" />
     <Comment>Once TCR ITAMs are phosphorylated, Zap-70 can dock there</Comment>
-    <Point x="283.4992617059901" y="130.2793671480321" elementID="b0ff9" elementRef="a140c" relX="-0.5" relY="1.0" />
-    <Point x="259.5400666694012" y="236.12487910233233" elementID="c0fa5" elementRef="f346f" relX="0.5" relY="-1.0" arrowHead="mim-conversion" />
+    <Point elementID="cd5f8" elementRef="a140c" x="283.4992617059901" y="130.2793671480321" relX="-0.5" relY="1.0" />
+    <Point elementID="c3fc1" elementRef="f346f" arrowHead="mim-conversion" x="259.5400666694012" y="236.12487910233233" relX="0.5" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idbe349dc1" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="" />
-    <Point x="536.4170286423652" y="287.2607832076517" elementID="d9ec3" elementRef="f2340" relX="1.0" relY="0.0" />
-    <Point x="651.5229724517626" y="287.4072275100541" elementID="afa33" elementRef="d6af8" relX="0.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="cd567" elementRef="f2340" x="536.4170286423652" y="287.2607832076517" relX="1.0" relY="0.0" />
+    <Point elementID="bb2b7" elementRef="d6af8" arrowHead="Arrow" x="651.5229724517626" y="287.4072275100541" relX="0.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="idc4ba447e" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="protein-protein interation" />
     <Comment>Calmodulin binds Ca 2+ ions inducing a conformational change</Comment>
-    <Point x="194.79282753847878" y="566.0670685158552" elementID="a01fc" elementRef="fea98" relX="0.0" relY="1.0" />
-    <Point x="194.79282753847878" y="607.3938294010889" elementID="cdf49" elementRef="e07f7" relX="0.0" relY="-1.0" arrowHead="mim-conversion" />
+    <Point elementID="d3279" elementRef="fea98" x="194.79282753847878" y="566.0670685158552" relX="0.0" relY="1.0" />
+    <Point elementID="c46a3" elementRef="e07f7" arrowHead="mim-conversion" x="194.79282753847878" y="607.3938294010889" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="iddf233a60" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="" />
-    <Point x="628.6283527616621" y="764.6265735460373" elementID="a3ac6" elementRef="d965c" relX="-1.0" relY="0.0" />
-    <Point x="522.0" y="818.1380701261014" elementID="d15b3" />
-    <Point x="482.1785005291818" y="871.6495667061655" elementID="a67da" elementRef="b595a" relX="1.0" relY="0.5" arrowHead="mim-transcription-translation" />
+    <Point elementID="fd74c" elementRef="d965c" x="628.6283527616621" y="764.6265735460373" relX="-1.0" relY="0.0" />
+    <Point elementID="ec97b" x="522.0" y="818.1380701261014" />
+    <Point elementID="d5765" elementRef="b595a" arrowHead="mim-transcription-translation" x="482.1785005291818" y="871.6495667061655" relX="1.0" relY="0.5" />
   </Interaction>
   <Interaction elementID="ide5eb4822" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="0033ff">
     <Xref dataSource="" identifier="de-phosphorylation" />
     <Comment>When phosphatase SHP binds to phosphorylated ITIMs on PD-1 cytoplasmic tail it becomes an active phosphatases and begins de-phosphorylating neighboring ITAMS and kinases.</Comment>
-    <Point x="780.1268928750031" y="242.7215341273256" elementID="d483c" elementRef="d4781" relX="1.0" relY="0.0" />
-    <Point x="323.2492617059901" y="130.2793671480321" elementID="dc6ef" elementRef="a140c" relX="0.5" relY="1.0" arrowHead="TBar" />
+    <Point elementID="ea0c2" elementRef="d4781" x="780.1268928750031" y="242.7215341273256" relX="1.0" relY="0.0" />
+    <Point elementID="d67a0" elementRef="a140c" arrowHead="TBar" x="323.2492617059901" y="130.2793671480321" relX="0.5" relY="1.0" />
   </Interaction>
   <Interaction elementID="idf1d50316" zOrder="12288" lineThickness="1.0" color="00cc00">
     <Xref dataSource="" identifier="" />
-    <Point x="455.1785004299707" y="689.3380518521315" elementID="c2f39" elementRef="cf1d5" relX="0.0" relY="1.0" />
-    <Point x="454.1744013987545" y="777.5648805174167" elementID="d899e" elementRef="dc90a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="ac5f2" elementRef="cf1d5" x="455.1785004299707" y="689.3380518521315" relX="0.0" relY="1.0" />
+    <Point elementID="a023f" elementRef="dc90a" arrowHead="Arrow" x="454.1744013987545" y="777.5648805174167" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idf1fab056" zOrder="12288" lineThickness="1.0" color="00cc00">
     <Xref dataSource="" identifier="protein-protein interaction" />
     <Comment>SHP-1 and SHP-2 can dock at phosphorylated PD-1 ITIMS</Comment>
-    <Point x="766.2337297063043" y="106.56387151239103" elementID="e54ea" elementRef="e282a" relX="0.0" relY="1.0" />
-    <Point x="766.2518928750031" y="231.58767402066266" elementID="f6309" elementRef="d4781" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="c9c9c" elementRef="e282a" x="766.2337297063043" y="106.56387151239103" relX="0.0" relY="1.0" />
+    <Point elementID="b8d00" elementRef="d4781" arrowHead="Arrow" x="766.2518928750031" y="231.58767402066266" relX="0.5" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idf3c791ae" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="" />
-    <Point x="723.0124390142305" y="412.32204673819786" elementID="a775a" elementRef="c5e7e" relX="0.0" relY="1.0" />
-    <Point x="698.4785930034121" y="506.0" elementID="baacd" />
-    <Point x="673.9447469925938" y="541.9844662698615" elementID="ada87" elementRef="a7ff6" relX="0.5" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="e1d78" elementRef="c5e7e" x="723.0124390142305" y="412.32204673819786" relX="0.0" relY="1.0" />
+    <Point elementID="da535" x="698.4785930034121" y="506.0" />
+    <Point elementID="bf623" elementRef="a7ff6" arrowHead="Arrow" x="673.9447469925938" y="541.9844662698615" relX="0.5" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idf90384d2" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="phosphorylation" />
     <Comment>When Zap-70 is recruited to the membrane by docking to phosphorylated ITAMs on The TCR, Lck can phosphorylate Zap-70.</Comment>
-    <Point x="346.2983286679053" y="247.16162281669853" elementID="d810b" elementRef="b9041" relX="-1.0" relY="0.0" />
-    <Point x="273.4150666694012" y="247.25873920899528" elementID="c1528" elementRef="f346f" relX="1.0" relY="0.0" arrowHead="mim-conversion" />
+    <Point elementID="bee38" elementRef="b9041" x="346.2983286679053" y="247.16162281669853" relX="-1.0" relY="0.0" />
+    <Point elementID="bd420" elementRef="f346f" arrowHead="mim-conversion" x="273.4150666694012" y="247.25873920899528" relX="1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="idf9242188" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="" />
-    <Point x="245.6650666694012" y="258.39259931565823" elementID="eb3a7" elementRef="f346f" relX="0.0" relY="1.0" />
-    <Point x="245.10974069131055" y="330.92916980164796" elementID="d0f10" elementRef="ff54e" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="f30c8" elementRef="f346f" x="245.6650666694012" y="258.39259931565823" relX="0.0" relY="1.0" />
+    <Point elementID="d3e85" elementRef="ff54e" arrowHead="Arrow" x="245.10974069131055" y="330.92916980164796" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idfaee1523" zOrder="12288" lineThickness="1.0" color="ff9900">
     <Xref dataSource="" identifier="" />
-    <Point x="290.3053775092797" y="475.99342174708624" elementID="b286c" elementRef="c6db8" relX="-1.0" relY="0.0" />
-    <Point x="222.2229594059932" y="475.99342174708624" elementID="e6287" elementRef="d1518" relX="1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="d7869" elementRef="c6db8" x="290.3053775092797" y="475.99342174708624" relX="-1.0" relY="0.0" />
+    <Point elementID="e81fe" elementRef="d1518" arrowHead="Arrow" x="222.2229594059932" y="475.99342174708624" relX="1.0" relY="0.0" />
     <Anchor position="0.2772640368335718" shapeType="None" elementID="c973f" />
   </Interaction>
   <Interaction elementID="idfe2bcb03" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="cc00cc">
     <Xref dataSource="" identifier="phosphorylation" />
     <Comment>Lck can phosphorylate CTLA-4 ITAMS when CTLA-4 binds B7 ligand</Comment>
-    <Point x="417.7983286679053" y="247.16162281669853" elementID="ea01f" elementRef="b9041" relX="1.0" relY="0.0" />
-    <Point x="593.538403027538" y="106.563871512391" elementID="b6224" elementRef="c2643" relX="-0.5" relY="1.0" arrowHead="mim-conversion" />
+    <Point elementID="acbd2" elementRef="b9041" x="417.7983286679053" y="247.16162281669853" relX="1.0" relY="0.0" />
+    <Point elementID="eb559" elementRef="c2643" arrowHead="mim-conversion" x="593.538403027538" y="106.563871512391" relX="-0.5" relY="1.0" />
   </Interaction>
   <Interaction elementID="idff186ca1" connectorType="Elbow" zOrder="12288" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="" />
-    <Point x="456.81913195646626" y="487.1272818537492" elementID="f4f60" elementRef="ab4fe" relX="0.0" relY="1.0" />
-    <Point x="430.556234604928" y="506.0" elementID="c3884" />
-    <Point x="404.29333725338984" y="543.7993483025293" elementID="f5373" elementRef="beeba" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="d6d33" elementRef="ab4fe" x="456.81913195646626" y="487.1272818537492" relX="0.0" relY="1.0" />
+    <Point elementID="ac756" x="430.556234604928" y="506.0" />
+    <Point elementID="f6044" elementRef="beeba" arrowHead="Arrow" x="404.29333725338984" y="543.7993483025293" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="a653a" zOrder="32830" lineStyle="Broken" lineThickness="1.0" color="ff0000">
     <Xref dataSource="" identifier="" />
-    <Point x="561.9006109159052" y="877.8281982914946" elementID="d9b36" elementRef="eeb8e" relX="0.0" relY="1.0" />
-    <Point x="562.4485637698998" y="947.8712743681456" elementID="aec4e" elementRef="d8ce7" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="ccf42" elementRef="eeb8e" x="561.9006109159052" y="877.8281982914946" relX="0.0" relY="1.0" />
+    <Point elementID="c80a4" elementRef="d8ce7" arrowHead="Arrow" x="562.4485637698998" y="947.8712743681456" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="b2840" zOrder="32834" lineThickness="1.0" color="33cc00">
     <Xref dataSource="" identifier="protein-protein interaction" />
     <Comment>PLC-g cleaves PIP2 to produce DAG and IP3</Comment>
-    <Point x="271.5661200421986" y="412.32204673819786" elementID="a789a" elementRef="f5b02" relX="-0.5" relY="1.0" />
-    <Point x="271.42857142857144" y="475.99342174708624" elementID="c81a1" elementRef="c973f" relX="0.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="f88d4" elementRef="f5b02" x="271.5661200421986" y="412.32204673819786" relX="-0.5" relY="1.0" />
+    <Point elementID="ab0fd" elementRef="c973f" arrowHead="Arrow" x="271.42857142857144" y="475.99342174708624" relX="0.0" relY="0.0" />
   </Interaction>
   <GraphicalLine elementID="id72961117" zOrder="12288" lineThickness="2.0" color="ff9933">
-    <Point x="850.608779664344" y="751.4856792276144" elementID="cc48f" />
-    <Point x="887.645816701381" y="751.4856792276144" elementID="df775" />
+    <Point elementID="d207c" x="850.608779664344" y="751.4856792276144" />
+    <Point elementID="aaf89" x="887.645816701381" y="751.4856792276144" />
   </GraphicalLine>
   <GraphicalLine elementID="d9cd8" zOrder="32865" lineThickness="2.0" color="3333ff">
-    <Point x="850.6087796643437" y="730.5179372921313" elementID="dbb6c" />
-    <Point x="887.6458167013808" y="730.5179372921313" elementID="f9e4b" />
+    <Point elementID="cddd1" x="850.6087796643437" y="730.5179372921313" />
+    <Point elementID="ef123" x="887.6458167013808" y="730.5179372921313" />
   </GraphicalLine>
   <GraphicalLine elementID="a55ce" zOrder="32866" lineThickness="2.0" color="cc00cc">
-    <Point x="850.6087796643437" y="710.1953566469697" elementID="b744c" />
-    <Point x="887.6458167013808" y="710.1953566469697" elementID="a68ca" />
+    <Point elementID="b5545" x="850.6087796643437" y="710.1953566469697" />
+    <Point elementID="a3366" x="887.6458167013808" y="710.1953566469697" />
   </GraphicalLine>
   <GraphicalLine elementID="ea44f" zOrder="32867" lineThickness="2.0" color="00cc33">
-    <Point x="850.6087796643433" y="691.1630985824536" elementID="d6a67" />
-    <Point x="887.6458167013803" y="691.1630985824536" elementID="a2b7b" />
+    <Point elementID="e963c" x="850.6087796643433" y="691.1630985824536" />
+    <Point elementID="cdcf8" x="887.6458167013803" y="691.1630985824536" />
   </GraphicalLine>
   <GraphicalLine elementID="c37ba" zOrder="32868" lineThickness="1.0">
-    <Point x="850.2432340354474" y="639.2276147114846" elementID="a2986" />
-    <Point x="887.2802710724844" y="639.2276147114846" elementID="b765c" arrowHead="Arrow" />
+    <Point elementID="f8279" x="850.2432340354474" y="639.2276147114846" />
+    <Point elementID="f875e" arrowHead="Arrow" x="887.2802710724844" y="639.2276147114846" />
   </GraphicalLine>
   <GraphicalLine elementID="c9b3a" zOrder="32869" lineThickness="1.0">
-    <Point x="853.4587670635384" y="662.7760018082585" elementID="d6ce4" />
-    <Point x="890.4958041005755" y="662.7760018082585" elementID="a4c54" arrowHead="TBar" />
+    <Point elementID="ed2ba" x="853.4587670635384" y="662.7760018082585" />
+    <Point elementID="d33cb" arrowHead="TBar" x="890.4958041005755" y="662.7760018082585" />
   </GraphicalLine>
   <Label elementID="bdd9d" textLabel="Proliferation" color="ff0033" fillColor="ffffff" fontWeight="Bold" fontSize="16" vAlign="Middle" centerX="453.7246006931802" centerY="962.183373368079" width="125.56149732620293" height="26.809315967198643" zOrder="28672" />
   <Label elementID="ea9bf" textLabel="LEGEND" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="927.285596756186" centerY="603.1416328947009" width="80.0" height="20.0" zOrder="28672" />
@@ -583,23 +583,23 @@ CTLA-4 interfers with the formation of lipid rafts, TCR:ZAP70 microclusters, and
   </Group>
   <InfoBox centerX="0.0" centerY="0.0" />
   <Citations>
-    <Citation title="Long non-coding RNA in liver diseases." URL="" citationID="a44" year="2014" source="Hepatology">
+    <Citation citationID="a44" URL="" title="Long non-coding RNA in liver diseases." year="2014" source="Hepatology">
       <Xref dataSource="PubMed" identifier="24493213" />
       <Author name="Takahashi K" />
       <Author name="Yan I" />
       <Author name="Haga H" />
       <Author name="Patel T" />
     </Citation>
-    <Citation title="Orai1-NFAT signalling pathway triggered by T cell receptor stimulation." URL="" citationID="a9d" year="2013" source="Mol Cells">
+    <Citation citationID="a9d" URL="" title="Orai1-NFAT signalling pathway triggered by T cell receptor stimulation." year="2013" source="Mol Cells">
       <Xref dataSource="PubMed" identifier="23483280" />
       <Author name="Srikanth S" />
       <Author name="Gwack Y" />
     </Citation>
   </Citations>
   <OntologyTerms>
-    <OntologyTerm term="calcineurin signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000315" />
     <OntologyTerm term="Toll-like receptor signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000814" />
     <OntologyTerm term="nuclear factor of activated T-cells signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000317" />
+    <OntologyTerm term="calcineurin signaling pathway" ontology="Pathway Ontology" ontologyTermID="PW:0000315" />
   </OntologyTerms>
 </Pathway>
 

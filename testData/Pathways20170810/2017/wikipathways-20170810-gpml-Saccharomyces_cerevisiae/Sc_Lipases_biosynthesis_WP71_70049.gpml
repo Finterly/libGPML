@@ -4,88 +4,88 @@
   <Comment source="GenMAPP notes"></Comment>
   <Comment source="GenMAPP remarks">Based on http://pathway.yeastgenome.org/biocyc/</Comment>
   <Comment source="WikiPathways-category">Metabolic Process</Comment>
-  <DataNode elementID="b20" textLabel="choline" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="556.6666666666666" centerY="483.3333333333333" width="61.333333333333336" height="19.0" zOrder="32768">
+  <DataNode elementID="b20" textLabel="choline" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="556.6666666666666" centerY="483.3333333333333" width="61.333333333333336" height="19.0" zOrder="32768">
     <Xref dataSource="CAS" identifier="62-49-7" />
   </DataNode>
-  <DataNode elementID="b83" textLabel="PLC1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="513.3333333333334" centerY="96.66666666666667" width="40.0" height="20.0" zOrder="32768">
+  <DataNode elementID="b83" textLabel="PLC1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="513.3333333333334" centerY="96.66666666666667" width="40.0" height="20.0" zOrder="32768">
     <Attribute key="org.pathvisio.model.BackpageHead" value="1-phosphatidylinositol-4,5-bisphosphate phosphodie" />
     <Xref dataSource="SGD" identifier="S000006189" />
   </DataNode>
-  <DataNode elementID="b8d" textLabel="SPO22" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="456.6666666666667" centerY="696.6666666666666" width="50.0" height="20.0" zOrder="32768">
+  <DataNode elementID="b8d" textLabel="SPO22" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="456.6666666666667" centerY="696.6666666666666" width="50.0" height="20.0" zOrder="32768">
     <Attribute key="org.pathvisio.model.BackpageHead" value="meiosis-specific phospholipase A2" />
     <Xref dataSource="SGD" identifier="S000001335" />
   </DataNode>
-  <DataNode elementID="c2c" textLabel="ISC1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="393.3333333333333" centerY="373.3333333333333" width="40.0" height="20.0" zOrder="32768">
+  <DataNode elementID="c2c" textLabel="ISC1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="393.3333333333333" centerY="373.3333333333333" width="40.0" height="20.0" zOrder="32768">
     <Attribute key="org.pathvisio.model.BackpageHead" value="inositol phosphosphingolipids phospholipase C" />
     <Xref dataSource="SGD" identifier="S000000821" />
   </DataNode>
-  <DataNode elementID="e31" textLabel="SPO14" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="426.6666666666667" centerY="496.6666666666667" width="50.0" height="20.0" zOrder="32768">
+  <DataNode elementID="e31" textLabel="SPO14" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="426.6666666666667" centerY="496.6666666666667" width="50.0" height="20.0" zOrder="32768">
     <Attribute key="org.pathvisio.model.BackpageHead" value="phospholipase D1" />
     <Xref dataSource="SGD" identifier="S000001739" />
   </DataNode>
-  <DataNode elementID="ef2" textLabel="inositol 1,4,5-trisphosphate" color="0000ff" fontSize="10" vAlign="Middle" type="Metabolite" centerX="720.0" centerY="110.0" width="211.33333333333334" height="19.0" zOrder="32768">
+  <DataNode elementID="ef2" textLabel="inositol 1,4,5-trisphosphate" type="Metabolite" color="0000ff" fontSize="10" vAlign="Middle" centerX="720.0" centerY="110.0" width="211.33333333333334" height="19.0" zOrder="32768">
     <Xref dataSource="CAS" identifier="98102-63-7" />
   </DataNode>
   <Interaction elementID="id3a707ae4" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="270.0" y="516.6666666666666" elementID="ccc72" />
-    <Point x="530.0" y="516.6666666666666" elementID="bd0cc" arrowHead="Arrow" />
+    <Point elementID="ad096" x="270.0" y="516.6666666666666" />
+    <Point elementID="a1618" arrowHead="Arrow" x="530.0" y="516.6666666666666" />
   </Interaction>
   <Interaction elementID="id836bc2e3" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="526.6666666666666" y="716.6666666666666" elementID="dbc98" />
-    <Point x="546.6666666666666" y="703.3333333333334" elementID="d7165" arrowHead="Arrow" />
+    <Point elementID="c1031" x="526.6666666666666" y="716.6666666666666" />
+    <Point elementID="f314e" arrowHead="Arrow" x="546.6666666666666" y="703.3333333333334" />
   </Interaction>
   <Interaction elementID="id8bb37dbc" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="351.0" y="241.59663865546216" elementID="b4a78" elementRef="a09" relX="1.0" relY="0.0" />
-    <Point x="538.0" y="240.0" elementID="e0c26" elementRef="a3f" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="a23aa" elementRef="a09" x="351.0" y="241.59663865546216" relX="1.0" relY="0.0" />
+    <Point elementID="b6bac" elementRef="a3f" arrowHead="Arrow" x="538.0" y="240.0" relX="-1.0" relY="0.0" />
     <Anchor position="0.6394626625471895" shapeType="None" elementID="ad317" />
   </Interaction>
   <Interaction elementID="idaab9d386" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="523.3333333333334" y="386.6666666666667" elementID="deb29" />
-    <Point x="551.1666666666667" y="406.6666666666667" elementID="c8be6" elementRef="f52" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="d7142" x="523.3333333333334" y="386.6666666666667" />
+    <Point elementID="a6aee" elementRef="f52" arrowHead="Arrow" x="551.1666666666667" y="406.6666666666667" relX="-1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="idb4278428" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="523.3333333333334" y="386.6666666666667" elementID="a722c" />
-    <Point x="284.0" y="386.0" elementID="adb8a" arrowHead="Receptor" />
+    <Point elementID="c794f" x="523.3333333333334" y="386.6666666666667" />
+    <Point elementID="e1da2" arrowHead="Receptor" x="284.0" y="386.0" />
   </Interaction>
   <Interaction elementID="idccca40a2" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="470.57951789632443" y="240.57564784971456" elementID="d9f2b" elementRef="ad317" relX="0.0" relY="0.0" />
-    <Point x="540.8333333333333" y="276.6666666666667" elementID="ba639" arrowHead="Arrow" />
+    <Point elementID="ae6a5" elementRef="ad317" x="470.57951789632443" y="240.57564784971456" relX="0.0" relY="0.0" />
+    <Point elementID="bb7b9" arrowHead="Arrow" x="540.8333333333333" y="276.6666666666667" />
   </Interaction>
   <Interaction elementID="ide039ea9b" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="530.0" y="716.6666666666666" elementID="d2433" />
-    <Point x="543.3333333333334" y="730.0" elementID="bd81f" arrowHead="Arrow" />
+    <Point elementID="a0e9f" x="530.0" y="716.6666666666666" />
+    <Point elementID="a9236" arrowHead="Arrow" x="543.3333333333334" y="730.0" />
   </Interaction>
   <Interaction elementID="ide5f1401e" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="410.66666666666663" y="120.0" elementID="ef5c7" elementRef="f99" relX="1.0" relY="0.0" />
-    <Point x="606.6666666666666" y="123.33333333333333" elementID="b5547" arrowHead="Arrow" />
+    <Point elementID="c3931" elementRef="f99" x="410.66666666666663" y="120.0" relX="1.0" relY="0.0" />
+    <Point elementID="fc770" arrowHead="Arrow" x="606.6666666666666" y="123.33333333333333" />
   </Interaction>
   <Interaction elementID="ide7df8634" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="523.3333333333334" y="386.6666666666667" elementID="a5417" />
-    <Point x="556.5" y="366.0" elementID="f3929" elementRef="f0a" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="f9586" x="523.3333333333334" y="386.6666666666667" />
+    <Point elementID="b6ca3" elementRef="f0a" arrowHead="Arrow" x="556.5" y="366.0" relX="-1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="idefa6d1e8" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="286.6666666666667" y="716.6666666666666" elementID="db9e0" />
-    <Point x="526.6666666666666" y="716.6666666666666" elementID="eb719" />
+    <Point elementID="fb96b" x="286.6666666666667" y="716.6666666666666" />
+    <Point elementID="defd1" x="526.6666666666666" y="716.6666666666666" />
   </Interaction>
   <Interaction elementID="idf0f502dd" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="500.0" y="516.6666666666666" elementID="bb62c" />
-    <Point x="533.3333333333334" y="496.6666666666667" elementID="c829d" arrowHead="Arrow" />
+    <Point elementID="dd869" x="500.0" y="516.6666666666666" />
+    <Point elementID="a1923" arrowHead="Arrow" x="533.3333333333334" y="496.6666666666667" />
   </Interaction>
   <Interaction elementID="idf4a6b6d2" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="526.6666666666666" y="716.6666666666666" elementID="afa3c" />
-    <Point x="550.0" y="716.6666666666666" elementID="ba594" arrowHead="Arrow" />
+    <Point elementID="f632e" x="526.6666666666666" y="716.6666666666666" />
+    <Point elementID="ee96d" arrowHead="Arrow" x="550.0" y="716.6666666666666" />
   </Interaction>
   <Label elementID="a09" textLabel="1-phosphatidyl-D-myo-inositol" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="233.33333333333334" centerY="241.59663865546216" width="235.33333333333334" height="19.0" zOrder="28672" />
   <Label elementID="a3f" textLabel="D-myo-inositol 1,2-cyclic phosphate" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="676.6666666666666" centerY="240.0" width="277.3333333333333" height="19.0" zOrder="28672" />

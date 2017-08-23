@@ -3,46 +3,46 @@
   <Xref dataSource="" identifier="" />
   <Comment source="WikiPathways-description">Model of hypoxia mediated EMT and stemness.</Comment>
   <CitationRef citationID="aea" />
-  <DataNode elementID="a5e3d" textLabel="DICER1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="308.00000000000006" centerY="170.66666666666654" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="a5e3d" textLabel="DICER1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="308.00000000000006" centerY="170.66666666666654" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Entrez Gene" identifier="23405" />
   </DataNode>
-  <DataNode elementID="c13ed" textLabel="hsa-miR-200c-3p" groupRef="d3b0f" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="450.6666666666666" centerY="297.333333333334" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="c13ed" textLabel="hsa-miR-200c-3p" type="Rna" groupRef="d3b0f" color="990099" fontSize="10" vAlign="Middle" centerX="450.6666666666666" centerY="297.333333333334" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="miRBase mature sequence" identifier="MIMAT0000617" />
   </DataNode>
-  <DataNode elementID="d0147" textLabel="hsa-miR-200b-3p" groupRef="d3b0f" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="450.6666666666666" centerY="277.33333333333405" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="d0147" textLabel="hsa-miR-200b-3p" type="Rna" groupRef="d3b0f" color="990099" fontSize="10" vAlign="Middle" centerX="450.6666666666666" centerY="277.33333333333405" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="miRBase mature sequence" identifier="MIMAT0000318" />
   </DataNode>
-  <DataNode elementID="d0b22" textLabel="ZEB1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="450.6666666666666" centerY="374.66666666666686" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="d0b22" textLabel="ZEB1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="450.6666666666666" centerY="374.66666666666686" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Entrez Gene" identifier="6935" />
   </DataNode>
-  <DataNode elementID="e8574" textLabel="hsa-miR-200a-3p" groupRef="d3b0f" color="990099" fontSize="10" vAlign="Middle" type="Rna" centerX="450.6666666666666" centerY="257.3333333333337" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="e8574" textLabel="hsa-miR-200a-3p" type="Rna" groupRef="d3b0f" color="990099" fontSize="10" vAlign="Middle" centerX="450.6666666666666" centerY="257.3333333333337" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="miRBase mature sequence" identifier="MIMAT0000682" />
   </DataNode>
   <Interaction elementID="id285ee7f2" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="308.00000000000006" y="113.99999999999997" elementID="cb8ed" elementRef="aba38" relX="0.0" relY="1.0" />
-    <Point x="308.00000000000006" y="160.66666666666654" elementID="afc28" elementRef="a5e3d" relX="0.0" relY="-1.0" arrowHead="TBar" />
+    <Point elementID="eff33" elementRef="aba38" x="308.00000000000006" y="113.99999999999997" relX="0.0" relY="1.0" />
+    <Point elementID="bd7b5" elementRef="a5e3d" arrowHead="TBar" x="308.00000000000006" y="160.66666666666654" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id3fdb2042" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="245.33333333333331" y="228.00000000000003" elementID="f8128" elementRef="aaa80" relX="1.0" relY="0.0" />
-    <Point x="403.33333333333314" y="228.00000000000003" elementID="a6d82" elementRef="e9cdc" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="e2b0e" elementRef="aaa80" x="245.33333333333331" y="228.00000000000003" relX="1.0" relY="0.0" />
+    <Point elementID="b5c58" elementRef="e9cdc" arrowHead="Arrow" x="403.33333333333314" y="228.00000000000003" relX="-1.0" relY="0.0" />
     <Anchor position="0.4" shapeType="None" elementID="ee3a0" />
   </Interaction>
   <Interaction elementID="id604fcd2c" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="450.6666666666666" y="384.66666666666686" elementID="b9326" elementRef="d0b22" relX="0.0" relY="1.0" />
-    <Point x="450.6666666666666" y="435.33333333333223" elementID="b7057" elementRef="f052c" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="a2619" elementRef="d0b22" x="450.6666666666666" y="384.66666666666686" relX="0.0" relY="1.0" />
+    <Point elementID="e09ab" elementRef="f052c" arrowHead="Arrow" x="450.6666666666666" y="435.33333333333223" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id67b13f5d" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="308.00000000000006" y="180.66666666666654" elementID="f79ef" elementRef="a5e3d" relX="0.0" relY="1.0" />
-    <Point x="308.53333333333325" y="228.00000000000003" elementID="d2e8b" elementRef="ee3a0" relX="0.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="df8ce" elementRef="a5e3d" x="308.00000000000006" y="180.66666666666654" relX="0.0" relY="1.0" />
+    <Point elementID="d8010" elementRef="ee3a0" arrowHead="Arrow" x="308.53333333333325" y="228.00000000000003" relX="0.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id7136e97e" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="450.6666666666665" y="315.333333333334" elementID="bcb46" elementRef="d3b0f" relX="0.0" relY="1.0" />
-    <Point x="450.6666666666666" y="364.66666666666686" elementID="b4152" elementRef="d0b22" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="da8cf" elementRef="d3b0f" x="450.6666666666665" y="315.333333333334" relX="0.0" relY="1.0" />
+    <Point elementID="edaea" elementRef="d0b22" arrowHead="Arrow" x="450.6666666666666" y="364.66666666666686" relX="0.0" relY="-1.0" />
   </Interaction>
   <Label elementID="aaa80" textLabel="Pre-miRNA" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="205.33333333333331" centerY="228.00000000000003" width="80.0" height="20.0" zOrder="28672" />
   <Label elementID="aba38" textLabel="Hypoxia" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" centerX="308.00000000000006" centerY="103.99999999999997" width="80.0" height="20.0" zOrder="28672" />
@@ -51,7 +51,7 @@
   <Group elementID="d3b0f" groupType="Group" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Citations>
-    <Citation title="Hypoxia promotes stem cell phenotypes and poor prognosis through epigenetic regulation of DICER." URL="" citationID="aea" year="2014" source="Nat Commun">
+    <Citation citationID="aea" URL="" title="Hypoxia promotes stem cell phenotypes and poor prognosis through epigenetic regulation of DICER." year="2014" source="Nat Commun">
       <Xref dataSource="PubMed" identifier="25351418" />
       <Author name="van den Beucken T" />
       <Author name="Koch E" />

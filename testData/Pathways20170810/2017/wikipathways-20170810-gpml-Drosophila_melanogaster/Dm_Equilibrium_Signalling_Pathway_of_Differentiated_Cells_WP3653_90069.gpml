@@ -3,72 +3,72 @@
   <Xref dataSource="" identifier="" />
   <Comment source="WikiPathways-description">Equilibrium signalling pathway for maintenance of progenitor cells in the lymph gland which is also affected by hedgehog protein niche signaling. Nup98 and Bip1 proteins both necessary for Pvr gene expression. Pvr/STAT92E complex activates Adgf-A to break down adenosine. Break down allows for proper maintenance of progenitor cells in equilibrium signalling. Niche signalling includes the expression of hedgehog by posterior signaling center also promoting progenitor maintenance. This pathway is based on figure 7 from Mondal et al.</Comment>
   <CitationRef citationID="b6a" />
-  <DataNode elementID="b6a8d" textLabel="RpS8" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="476.5" centerY="132.0" width="49.0" height="20.0" zOrder="32768">
+  <DataNode elementID="b6a8d" textLabel="RpS8" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="476.5" centerY="132.0" width="49.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="FBgn0039713" />
   </DataNode>
-  <DataNode elementID="c8369" textLabel="bip1" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="398.0" centerY="132.0" width="61.0" height="20.0" zOrder="32768">
+  <DataNode elementID="c8369" textLabel="bip1" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="398.0" centerY="132.0" width="61.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="FBgn0026263" />
   </DataNode>
-  <DataNode elementID="c9948" textLabel="Nup98-96" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="398.0" centerY="78.0" width="58.0" height="20.0" zOrder="32768">
+  <DataNode elementID="c9948" textLabel="Nup98-96" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="398.0" centerY="78.0" width="58.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="FBgn0039120" />
   </DataNode>
-  <DataNode elementID="d77f0" textLabel="Pvr" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="398.0" centerY="225.0" width="52.0" height="20.0" zOrder="32768">
+  <DataNode elementID="d77f0" textLabel="Pvr" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="398.0" centerY="225.0" width="52.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="FBgn0032006" />
   </DataNode>
-  <DataNode elementID="e06e8" textLabel="Hedgehog" fontSize="10" vAlign="Middle" type="Protein" centerX="398.30252100840386" centerY="538.940883816212" width="68.0" height="20.0" zOrder="32768">
+  <DataNode elementID="e06e8" textLabel="Hedgehog" type="Protein" fontSize="10" vAlign="Middle" centerX="398.30252100840386" centerY="538.940883816212" width="68.0" height="20.0" zOrder="32768">
     <Xref dataSource="Uniprot-TrEMBL" identifier="Q02936" />
   </DataNode>
-  <DataNode elementID="f7d4a" textLabel="Adgf-A" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="398.0" centerY="356.25770308123197" width="80.0" height="20.0" zOrder="32768">
+  <DataNode elementID="f7d4a" textLabel="Adgf-A" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="398.0" centerY="356.25770308123197" width="80.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="FBgn0036752" />
   </DataNode>
-  <DataNode elementID="fe9b3" textLabel="Stat92E" fontSize="10" vAlign="Middle" type="GeneProduct" centerX="398.0" centerY="284.0" width="56.0" height="20.0" zOrder="32768">
+  <DataNode elementID="fe9b3" textLabel="Stat92E" type="GeneProduct" fontSize="10" vAlign="Middle" centerX="398.0" centerY="284.0" width="56.0" height="20.0" zOrder="32768">
     <Xref dataSource="Ensembl" identifier="FBgn0016917" />
   </DataNode>
   <Interaction elementID="id21913b78" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="398.0" y="294.0" elementID="a6a98" elementRef="fe9b3" relX="0.0" relY="1.0" />
-    <Point x="398.0" y="346.25770308123197" elementID="f7a66" elementRef="f7d4a" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="caede" elementRef="fe9b3" x="398.0" y="294.0" relX="0.0" relY="1.0" />
+    <Point elementID="fd726" elementRef="f7d4a" arrowHead="Arrow" x="398.0" y="346.25770308123197" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id2989e728" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="398.0" y="235.0" elementID="dac02" elementRef="d77f0" relX="0.0" relY="1.0" />
-    <Point x="398.0" y="274.0" elementID="bad7a" elementRef="fe9b3" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="d5602" elementRef="d77f0" x="398.0" y="235.0" relX="0.0" relY="1.0" />
+    <Point elementID="ca090" elementRef="fe9b3" arrowHead="Arrow" x="398.0" y="274.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id5c21b72a" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="428.5" y="132.0" elementID="d74cd" elementRef="c8369" relX="1.0" relY="0.0" />
-    <Point x="452.0" y="132.0" elementID="fc6f7" elementRef="b6a8d" relX="-1.0" relY="0.0" />
+    <Point elementID="ecfa3" elementRef="c8369" x="428.5" y="132.0" relX="1.0" relY="0.0" />
+    <Point elementID="b2a6f" elementRef="b6a8d" x="452.0" y="132.0" relX="-1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="id6fd1fb36" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="398.3025210084038" y="589.5070028011198" elementID="c0c77" elementRef="eb083" relX="0.0" relY="-1.0" />
-    <Point x="398.30252100840386" y="548.940883816212" elementID="e8fa9" elementRef="e06e8" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Point elementID="b36fb" elementRef="eb083" x="398.3025210084038" y="589.5070028011198" relX="0.0" relY="-1.0" />
+    <Point elementID="e3c07" elementRef="e06e8" arrowHead="Arrow" x="398.30252100840386" y="548.940883816212" relX="0.0" relY="1.0" />
   </Interaction>
   <Interaction elementID="id7682e514" zOrder="12288" lineStyle="Broken" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="398.0" y="88.0" elementID="bff81" elementRef="c9948" relX="0.0" relY="1.0" />
-    <Point x="398.0" y="122.0" elementID="b6aff" elementRef="c8369" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="c3f5b" elementRef="c9948" x="398.0" y="88.0" relX="0.0" relY="1.0" />
+    <Point elementID="a7e1f" elementRef="c8369" arrowHead="Arrow" x="398.0" y="122.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="id7c584170" connectorType="Elbow" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="369.0" y="78.0" elementID="c0980" elementRef="c9948" relX="-1.0" relY="0.0" />
-    <Point x="304.0" y="151.5" elementID="c7554" />
-    <Point x="372.0" y="225.0" elementID="d8e1f" elementRef="d77f0" relX="-1.0" relY="0.0" arrowHead="Arrow" />
+    <Point elementID="edbc3" elementRef="c9948" x="369.0" y="78.0" relX="-1.0" relY="0.0" />
+    <Point elementID="bc0f9" x="304.0" y="151.5" />
+    <Point elementID="f5c24" elementRef="d77f0" arrowHead="Arrow" x="372.0" y="225.0" relX="-1.0" relY="0.0" />
   </Interaction>
   <Interaction elementID="idb769944e" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="398.0" y="366.25770308123197" elementID="e8c25" elementRef="f7d4a" relX="0.0" relY="1.0" />
-    <Point x="398.3025210084038" y="408.5042016806717" elementID="fb1aa" elementRef="d83cf" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="a9c93" elementRef="f7d4a" x="398.0" y="366.25770308123197" relX="0.0" relY="1.0" />
+    <Point elementID="d2625" elementRef="d83cf" arrowHead="Arrow" x="398.3025210084038" y="408.5042016806717" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="idb849e7c3" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="398.0" y="142.0" elementID="c6607" elementRef="c8369" relX="0.0" relY="1.0" />
-    <Point x="398.0" y="215.0" elementID="c6ccb" elementRef="d77f0" relX="0.0" relY="-1.0" arrowHead="Arrow" />
+    <Point elementID="fb90c" elementRef="c8369" x="398.0" y="142.0" relX="0.0" relY="1.0" />
+    <Point elementID="ea686" elementRef="d77f0" arrowHead="Arrow" x="398.0" y="215.0" relX="0.0" relY="-1.0" />
   </Interaction>
   <Interaction elementID="ided715db3" zOrder="12288" lineThickness="1.0">
     <Xref dataSource="" identifier="" />
-    <Point x="398.30252100840386" y="528.940883816212" elementID="b4652" elementRef="e06e8" relX="0.0" relY="-1.0" />
-    <Point x="398.3025210084038" y="488.9523809523805" elementID="dfa93" elementRef="d83cf" relX="0.0" relY="1.0" arrowHead="Arrow" />
+    <Point elementID="bf1b2" elementRef="e06e8" x="398.30252100840386" y="528.940883816212" relX="0.0" relY="-1.0" />
+    <Point elementID="e3b53" elementRef="d83cf" arrowHead="Arrow" x="398.3025210084038" y="488.9523809523805" relX="0.0" relY="1.0" />
   </Interaction>
   <Label elementID="cb6d9" textLabel="Posterior Signalling Center" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="eb083" centerX="397.3025210084039" centerY="635.4929971988781" width="178.0" height="20.0" zOrder="28672" />
   <Label elementID="dba75" textLabel="Progenitor Maintenance" fillColor="ffffff" fontWeight="Bold" fontSize="12" vAlign="Middle" groupRef="d83cf" centerX="398.2521008403359" centerY="451.27170868347304" width="138.0" height="20.0" zOrder="28672" />
@@ -91,7 +91,7 @@
   <Group elementID="eb083" groupType="Group" />
   <InfoBox centerX="0.0" centerY="0.0" />
   <Citations>
-    <Citation title="Pvr expression regulators in equilibrium signal control and maintenance of Drosophila blood progenitors." URL="" citationID="b6a" year="2014" source="Elife">
+    <Citation citationID="b6a" URL="" title="Pvr expression regulators in equilibrium signal control and maintenance of Drosophila blood progenitors." year="2014" source="Elife">
       <Xref dataSource="PubMed" identifier="25201876" />
       <Author name="Mondal BC" />
       <Author name="Shim J" />
